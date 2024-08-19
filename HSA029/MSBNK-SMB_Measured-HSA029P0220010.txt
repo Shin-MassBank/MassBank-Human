@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0220010
+RECORD_TITLE: Characterized; methyl 2-(2-amino-6-methyl-4-oxo-1H-pyrimidin-5-yl)acetate; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.13 (Averaged 2024.07.12, Processed 2024.07.13, Annotated 2024.07.13)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 78
+COMMENT: NUM_AVERAGED_SPEC 37
+COMMENT: RETENTION_TIME_STDEV 0.07712690122432862
+COMMENT: PRECURSOR_M/Z_RAW 220.0686340
+COMMENT: PRECURSOR_M/Z_STDEV 0.00024820079007640796
+COMMENT: PRECURSOR_IN_MS1 m/z 220.06861, int 23.107, with delta m/z -0.109207774 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 221.0721097 in MS1, int 1.804, cor with prec 0.821
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 198.0868100 in MS1, int 391.624, cor with prec 0.755
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 198.0868100 in MS1, int 391.624, cor with prec 0.755
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C7H11N2O6 of M+H with delta m/z -1.113840 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H11N3O3 of M+Na with delta m/z 0.147148 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C9H11N4 of M+2Na-H with delta m/z 1.719037 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FMZPNXDUADVAFG-UHFFFAOYSA-N Total 6 hit with max score 1.000 of C8H11N3O3 CCMSLIB00006536826 methyl 2-(2-amino-4-hydroxy-6-methylpyrimidin-5-yl)acetate
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: methyl 2-(2-amino-6-methyl-4-oxo-1H-pyrimidin-5-yl)acetate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H11N3O3
+CH$EXACT_MASS: 197.08004122
+CH$SMILES: CC1=C(C(=O)N=C(N1)N)CC(=O)OC
+CH$IUPAC: InChI=1S/C8H11N3O3/c1-4-5(3-6(12)14-2)7(13)11-8(9)10-4/h3H2,1-2H3,(H3,9,10,11,13)
+CH$LINK: INCHIKEY FMZPNXDUADVAFG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:906004
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.1700419351351354
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.0692307
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-00di-0090000000-d361d828e82266ac00ab
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  220.0689793 220.0688600 1.0828 999.0000 0.00 1.0000 37
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  220.068979 999.00 999
+//

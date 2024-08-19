@@ -1,0 +1,71 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0227000
+RECORD_TITLE: Characterized; (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.13 (Averaged 2024.07.12, Processed 2024.07.13, Annotated 2024.07.13)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 78
+COMMENT: NUM_AVERAGED_SPEC 66
+COMMENT: RETENTION_TIME_STDEV 0.10942405236201352
+COMMENT: PRECURSOR_M/Z_RAW 227.0784149
+COMMENT: PRECURSOR_M/Z_STDEV 0.00021151205605510342
+COMMENT: PRECURSOR_IN_MS1 m/z 227.07840, int 26.116, with delta m/z -0.065690934 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 228.0815850 in MS1, int 3.091, cor with prec 0.989
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+H due to occurence of M+Na at m/z 249.0604400 in MS1, int 2.043, cor with prec 0.819
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 205.0966800 in MS1, int 666.007, cor with prec 0.960
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+K at m/z 243.0525700 in MS1, int 1.379, cor with prec 0.961
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+2Na-H at m/z 249.0604400 in MS1, int 2.043, cor with prec 0.819
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 205.0966800 in MS1, int 666.007, cor with prec 0.960
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H15N2O5P of M+H with delta m/z 0.429067 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C10H12NO5 of M+H with delta m/z -0.937755 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C7H15N3O2P of M+Na with delta m/z 1.812927 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H12N2O2 of M+Na with delta m/z 0.293988 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY QIVBCDIJIAJPQS-VIFPVBQESA-N Total 1 hit with max score 0.944 of C11H12N2O2 CCMSLIB00010102046 tryptophan CollisionEnergy:205060
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H12N2O2
+CH$EXACT_MASS: 204.089877630
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1
+CH$LINK: INCHIKEY QIVBCDIJIAJPQS-VIFPVBQESA-N
+CH$LINK: PUBCHEM CID:6305
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.8266320803030296
+MS$FOCUSED_ION: PRECURSOR_M/Z 227.0790352
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-004i-1190000000-193fcc68fdba5875b73b
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  96.0052423 96.0054800 4.3216 211.5979 27.17 0.9894 66
+  182.0573704 182.0574400 2.1175 202.4744 25.43 0.9894 66
+  210.0521777 210.0521150 1.8148 280.6347 23.73 0.9929 66
+  227.0788518 227.0786900 1.7456 999.0000 0.00 1.0000 66
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  96.005242 211.60 211
+  182.057370 202.47 202
+  210.052178 280.63 280
+  227.078852 999.00 999
+//

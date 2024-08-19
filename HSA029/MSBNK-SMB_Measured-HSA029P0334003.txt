@@ -1,0 +1,67 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0334003
+RECORD_TITLE: Characterized; 4-ethylidene-7-hydroxy-7-methyl-6-methylidene-2,9-dioxa-14-azatricyclo[9.5.1.014,17]heptadec-11-ene-3,8-dione; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.13 (Averaged 2024.07.12, Processed 2024.07.13, Annotated 2024.07.13)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 78
+COMMENT: NUM_AVERAGED_SPEC 22
+COMMENT: RETENTION_TIME_STDEV 0.07064497716917975
+COMMENT: PRECURSOR_M/Z_RAW 334.1644398
+COMMENT: PRECURSOR_M/Z_STDEV 8.452320059348426e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 334.16444, int 328.392, with delta m/z -0.009002270 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 312.1825859 in MS1, int 780.000, cor with prec 0.871
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 312.1825859 in MS1, int 780.000, cor with prec 0.871
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C10H29N3O5P2 of M+H with delta m/z 0.306161 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C14H26N2O5P of M+H with delta m/z -0.624328 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C18H23NO5 of M+H with delta m/z -1.551816 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H29N4O2P2 of M+Na with delta m/z 1.201891 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C15H26N3O2P of M+Na with delta m/z 0.208885 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C19H23N2O2 of M+Na with delta m/z -0.787335 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FCEVNJIUIMLVML-UHFFFAOYSA-N Total 23 hit with max score 1.000 of C18H23NO5 CCMSLIB00006495349 Seneciphylline
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FCEVNJIUIMLVML-QPSVUOIXSA-N Total 12 hit with max score 1.000 of C18H23NO5 CCMSLIB00005767466 Massbank:NA002441 Seneciphylline(1R,4Z,7R,17R)-4-ethylidene-7-hydroxy-7-methyl-6-methylidene-2,9-dioxa-14-azatricyclo[9.5.1.014,17]heptadec-11-ene-3,8-dione
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FCEVNJIUIMLVML-IIDMSEBBSA-N Total 6 hit with max score 0.977 of C18H23NO5 CCMSLIB00000213916 Massbank:FIO00241 Seneciphylline
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY HZEOENYXYFFKIU-UHFFFAOYSA-N Total 4 hit with max score 0.966 of C18H23NO5 CCMSLIB00006393032 convolicine
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 4-ethylidene-7-hydroxy-7-methyl-6-methylidene-2,9-dioxa-14-azatricyclo[9.5.1.014,17]heptadec-11-ene-3,8-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C18H23NO5
+CH$EXACT_MASS: 333.15762283
+CH$SMILES: CC=C1CC(=C)C(C(=O)OCC2=CCN3C2C(CC3)OC1=O)(C)O
+CH$IUPAC: InChI=1S/C18H23NO5/c1-4-12-9-11(2)18(3,22)17(21)23-10-13-5-7-19-8-6-14(15(13)19)24-16(12)20/h4-5,14-15,22H,2,6-10H2,1,3H3
+CH$LINK: INCHIKEY FCEVNJIUIMLVML-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:521227
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.038987818181817
+MS$FOCUSED_ION: PRECURSOR_M/Z 334.1654155
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-001i-0009000000-adb2c90bb0bc88fa7b27
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  334.1653538 334.1646855 0.2041 999.0000 0.00 1.0000 22
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  334.165354 999.00 999
+//

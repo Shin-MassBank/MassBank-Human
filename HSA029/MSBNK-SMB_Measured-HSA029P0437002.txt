@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0437002
+RECORD_TITLE: Characterized; 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.13 (Averaged 2024.07.12, Processed 2024.07.13, Annotated 2024.07.13)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 78
+COMMENT: NUM_AVERAGED_SPEC 14
+COMMENT: RETENTION_TIME_STDEV 0.01586319100902602
+COMMENT: PRECURSOR_M/Z_RAW 437.2346104
+COMMENT: PRECURSOR_M/Z_STDEV 0.00035758568091290446
+COMMENT: PRECURSOR_IN_MS1 m/z 437.23461, int 130.994, with delta m/z -0.000963595 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 438.2381129 in MS1, int 25.029, cor with prec 0.938
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 415.2526579 in MS1, int 80.087, cor with prec 0.982
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+NH4 at m/z 432.2792264 in MS1, int 442.713, cor with prec 0.987
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+K at m/z 453.2083700 in MS1, int 13.822, cor with prec 0.965
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 415.2526579 in MS1, int 80.087, cor with prec 0.982
+COMMENT: PROPOSED_ION_FORM M+ACN+Na due to occurence of M+IsoProp+H at m/z 434.2846850 in MS1, int 14.808, cor with prec 0.943
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C22H36N3O2P2 of M+H with delta m/z -0.192560 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C26H33N2O2P of M+H with delta m/z -0.900904 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C18H38O10 of M+Na with delta m/z 0.200364 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C19H38NO7 of M+2Na-H with delta m/z 0.905002 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY YZUUTMGDONTGTN-UHFFFAOYSA-N Total 13 hit with max score 1.000 of C18H38O10 CCMSLIB00005726847 Massbank: Nonaethylene glycol2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C18H38O10
+CH$EXACT_MASS: 414.24649740
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C18H38O10/c19-1-3-21-5-7-23-9-11-25-13-15-27-17-18-28-16-14-26-12-10-24-8-6-22-4-2-20/h19-20H,1-18H2
+CH$LINK: INCHIKEY YZUUTMGDONTGTN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4867
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.1669297499999995
+MS$FOCUSED_ION: PRECURSOR_M/Z 437.2356324
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-000i-0000900000-48cd50842a892100ed60
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  437.2371047 437.2349650 0.8680 999.0000 0.00 1.0000 14
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  437.237105 999.00 999
+//

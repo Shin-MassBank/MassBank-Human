@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0373000
+RECORD_TITLE: Characterized; 4-(4-acetyloxy-6-methyl-3-methylidene-2-oxo-3a,4,7,7a-tetrahydro-1-benzofuran-5-yl)pentyl acetate; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.13 (Averaged 2024.07.12, Processed 2024.07.13, Annotated 2024.07.13)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 78
+COMMENT: NUM_AVERAGED_SPEC 10
+COMMENT: RETENTION_TIME_STDEV 0.00696518006197026
+COMMENT: PRECURSOR_M/Z_RAW 373.1610718
+COMMENT: PRECURSOR_M/Z_STDEV 0.0002589502372509329
+COMMENT: PRECURSOR_IN_MS1 m/z 373.16108, int 48.934, with delta m/z 0.013995715 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 374.1644290 in MS1, int 10.624, cor with prec 0.879
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 351.1792290 in MS1, int 37.772, cor with prec 0.915
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 351.1792290 in MS1, int 37.772, cor with prec 0.915
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C14H29O9P of M+H with delta m/z 0.306324 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H32N2O6P2 of M+Na with delta m/z 1.987590 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C15H29NO6P of M+Na with delta m/z 1.105168 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C19H26O6 of M+Na with delta m/z 0.219891 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C20H26NO3 of M+2Na-H with delta m/z 1.066452 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY MVCCWTMPDBIKCJ-UHFFFAOYSA-N Total 7 hit with max score 1.000 of C19H26O6 CCMSLIB00006437209 1,6-O,O-diacetylbritannilactone
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 4-(4-acetyloxy-6-methyl-3-methylidene-2-oxo-3a,4,7,7a-tetrahydro-1-benzofuran-5-yl)pentyl acetate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C19H26O6
+CH$EXACT_MASS: 350.17293854
+CH$SMILES: CC1=C(C(C2C(C1)OC(=O)C2=C)OC(=O)C)C(C)CCCOC(=O)C
+CH$IUPAC: InChI=1S/C19H26O6/c1-10(7-6-8-23-13(4)20)16-11(2)9-15-17(12(3)19(22)25-15)18(16)24-14(5)21/h10,15,17-18H,3,6-9H2,1-2,4-5H3
+CH$LINK: INCHIKEY MVCCWTMPDBIKCJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:25018669
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.442191130000001
+MS$FOCUSED_ION: PRECURSOR_M/Z 373.1620791
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-00di-0009000000-35972f1782d10e1cb210
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  373.1621943 373.1614480 0.7059 999.0000 0.00 1.0000 10
+  373.1968886 373.1961422 1.5839 71.8583 32.52 0.4833 9
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  373.162194 999.00 999
+  373.196889 71.86 71
+//

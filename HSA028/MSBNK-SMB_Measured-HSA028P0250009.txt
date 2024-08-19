@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0250009
+RECORD_TITLE: Characterized; 2,6-ditert-butyl-4-nitrophenol; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 33
+COMMENT: RETENTION_TIME_STDEV 0.008628359874433169
+COMMENT: PRECURSOR_M/Z_RAW 250.1447754
+COMMENT: PRECURSOR_M/Z_STDEV 0.0002125427874109133
+COMMENT: PRECURSOR_IN_MS1 m/z 250.14477, int 36.011, with delta m/z -0.021550021 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 251.1482164 in MS1, int 5.996, cor with prec 0.874
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C10H24N2O3P of M-H with delta m/z 1.962955 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C14H21NO3 of M-H with delta m/z 0.732624 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H22N5O2P of M-H with delta m/z -3.380424 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C12H19N4O2 of M-H with delta m/z -4.614736 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H23O6 of M-H with delta m/z -9.938206 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FCGKUUOTWLWJHE-UHFFFAOYSA-N Total 4 hit with max score 1.000 of C14H21NO3 CCMSLIB00005763805 Massbank:LU029952 2,6-Di-tert-butyl-4-nitrophenol2,6-ditert-butyl-4-nitrophenol
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2,6-ditert-butyl-4-nitrophenol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H21NO3
+CH$EXACT_MASS: 251.15214353
+CH$SMILES: CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)[N+](=O)[O-]
+CH$IUPAC: InChI=1S/C14H21NO3/c1-13(2,3)10-7-9(15(17)18)8-11(12(10)16)14(4,5)6/h7-8,16H,1-6H3
+CH$LINK: INCHIKEY FCGKUUOTWLWJHE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:69765
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.69702610909091
+MS$FOCUSED_ION: PRECURSOR_M/Z 250.1446834
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0090000000-0d87ed9e75d64e6d326b
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  250.1448100 250.1448100 0.3670 999.0000 0.00 1.0000 33
+  267.1112700 267.1112700 1.9486 14.0082 3.54 0.8172 28
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  250.144810 999.00 999
+  267.111270 14.01 14
+//

@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0131007
+RECORD_TITLE: Characterized; 2-hydroxy-4-methylpentanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 93
+COMMENT: RETENTION_TIME_STDEV 0.4213375489841671
+COMMENT: PRECURSOR_M/Z_RAW 131.0712891
+COMMENT: PRECURSOR_M/Z_STDEV 6.5974605742799e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 131.07129, int 23.687, with delta m/z 0.007152596 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H12O3 of M-H with delta m/z 0.249851 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H10N3O2 of M-H with delta m/z -9.910764 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY LVRFTAZAXQPQHI-UHFFFAOYSA-N Total 1 hit with max score 0.996 of C6H12O3 CCMSLIB00005759857 Massbank:PS098307 leucic acid2-Hydroxyisocaproic acidalpha-hydroxyisocaproic acid2-Hydroxyisocaproate2-Hydroxy-4-methylvaleric acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-hydroxy-4-methylpentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H12O3
+CH$EXACT_MASS: 132.078644241
+CH$SMILES: CC(C)CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C6H12O3/c1-4(2)3-5(7)6(8)9/h4-5,7H,3H2,1-2H3,(H,8,9)
+CH$LINK: INCHIKEY LVRFTAZAXQPQHI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:92779
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.0208456301075275
+MS$FOCUSED_ION: PRECURSOR_M/Z 131.0713348
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-014i-1900000000-fb75d610ee5da5c16d13
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  85.0659300 85.0659300 0.8217 163.1013 185.71 0.4570 76
+  99.9258700 99.9258700 1.5832 17.3784 5.07 -0.1681 67
+  100.9335700 100.9335700 0.6480 189.0463 31.07 -0.2966 93
+  115.9206900 115.9206900 0.3804 999.0000 0.00 -0.2733 93
+  131.0713500 131.0713500 0.9705 86.9616 73.92 1.0000 79
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  85.065930 163.10 163
+  99.925870 17.38 17
+  100.933570 189.05 189
+  115.920690 999.00 999
+  131.071350 86.96 86
+//

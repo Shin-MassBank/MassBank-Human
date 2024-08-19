@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0112001
+RECORD_TITLE: Characterized; 2-amino-3-methyl-4H-imidazol-5-one; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 78
+COMMENT: RETENTION_TIME_STDEV 0.45594645890328594
+COMMENT: PRECURSOR_M/Z_RAW 112.0516357
+COMMENT: PRECURSOR_M/Z_STDEV 3.977992002823013e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 112.05164, int 30.919, with delta m/z 0.037998663 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H7N3O of M-H with delta m/z -0.194589 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY DDRJAANPRJIHGJ-UHFFFAOYSA-N Total 10 hit with max score 1.000 of C4H7N3O CCMSLIB00005729958 Massbank:KO000421 Creatinine1-Methylglycocyamidine
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-amino-3-methyl-4H-imidazol-5-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H7N3O
+CH$EXACT_MASS: 113.058911855
+CH$SMILES: CN1CC(=O)N=C1N
+CH$IUPAC: InChI=1S/C4H7N3O/c1-7-2-3(8)6-4(7)5/h2H2,1H3,(H2,5,6,8)
+CH$LINK: INCHIKEY DDRJAANPRJIHGJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:588
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.621697557692307
+MS$FOCUSED_ION: PRECURSOR_M/Z 112.0516578
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-790804d336407acd5125
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  112.0516550 112.0516550 0.3213 999.0000 0.00 1.0000 78
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  112.051655 999.00 999
+//

@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0103002
+RECORD_TITLE: Characterized; 2-hydroxy-2-methylpropanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 74
+COMMENT: RETENTION_TIME_STDEV 0.41956678642844136
+COMMENT: PRECURSOR_M/Z_RAW 103.0400238
+COMMENT: PRECURSOR_M/Z_STDEV 2.52669776469719e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 103.04002, int 21.993, with delta m/z -0.036914889 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+FA-H due to occurence of M+TFA-H at m/z 171.0273700 in MS1, int 16.038, cor with prec 0.666
+COMMENT: PROPOSED_ION_FORM M+Hac-H due to occurence of M+FA-H at m/z 89.0244000 in MS1, int 169.383, cor with prec 0.732
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H8O3 of M-H with delta m/z 0.307552 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C3H6O of M+FA-H with delta m/z 0.499640 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C2H4O of M+Hac-H with delta m/z 0.658699 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY BWLBGMIXKSTLSX-UHFFFAOYSA-N Total 5 hit with max score 1.000 of C4H8O3 CCMSLIB00005749421 Massbank:PR100507 2-Hydroxyisobutyric acid2-Methyllactic acid2-Hydroxy-2-methylpropionic acidAcetonic Acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHBMMWSBFZVSSR-UHFFFAOYSA-N Total 2 hit with max score 0.788 of C4H8O3 CCMSLIB00005743129 Massbank:PR100550 DL-beta-Hydroxybutyric acidDL-3-HydroxybutyrateDL-3-Hydroxybutyric acid(+/-)-3-Hydroxybutanoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHBMMWSBFZVSSR-GSVOUGTGSA-N Total 1 hit with max score 0.961 of C4H8O3 CCMSLIB00005728779 Massbank:KO001008 b-Hydroxybutyrate(R)-3-Hydroxybutyric acid(R)-3-Hydroxybutanoic acid(R)-3-Hydroxybutanoatebeta-Hydroxybutyric acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-hydroxy-2-methylpropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H8O3
+CH$EXACT_MASS: 104.047344113
+CH$SMILES: CC(C)(C(=O)O)O
+CH$IUPAC: InChI=1S/C4H8O3/c1-4(2,7)3(5)6/h7H,1-2H3,(H,5,6)
+CH$LINK: INCHIKEY BWLBGMIXKSTLSX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:11671
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.403964355405406
+MS$FOCUSED_ION: PRECURSOR_M/Z 103.0400366
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-066r-3900000000-87f55f088fdadaa9cb43
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  59.0138361 59.0136000 0.4965 601.8234 140.65 0.4434 74
+  101.9241800 101.9241800 0.9792 186.4608 43.15 0.2373 74
+  102.9320150 102.9320150 0.8472 213.7141 53.39 0.2774 74
+  103.0400650 103.0400650 0.9161 148.9684 43.78 1.0000 72
+  117.9190800 117.9190800 0.6233 999.0000 0.00 0.2404 74
+  117.9246100 117.9246100 2.9086 153.4732 37.22 0.2476 74
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  59.013836 601.82 601
+  101.924180 186.46 186
+  102.932015 213.71 213
+  103.040065 148.97 148
+  117.919080 999.00 999
+  117.924610 153.47 153
+//

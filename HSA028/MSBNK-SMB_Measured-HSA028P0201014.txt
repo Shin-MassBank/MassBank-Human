@@ -1,0 +1,71 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0201014
+RECORD_TITLE: Characterized; 6-(hydroxymethyl)oxane-2,3,4,5-tetrol; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 74
+COMMENT: RETENTION_TIME_STDEV 0.41559658820297135
+COMMENT: PRECURSOR_M/Z_RAW 201.0380402
+COMMENT: PRECURSOR_M/Z_STDEV 8.521315499953515e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 201.03804, int 131.461, with delta m/z -0.000801504 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na-2H due to occurence of M-H2O-H at m/z 161.0455000 in MS1, int 39.459, cor with prec 0.737
+COMMENT: PROPOSED_ION_FORM M+Na-2H due to occurence of M-H at m/z 179.0560900 in MS1, int 24.599, cor with prec 0.813
+COMMENT: PROPOSED_ION_FORM M+Na-2H due to occurence of M+Cl at m/z 215.0327900 in MS1, int 169.765, cor with prec 0.771
+COMMENT: PROPOSED_ION_FORM M+Cl due to occurence of M+K-2H at m/z 203.0204800 in MS1, int 9.210, cor with prec 0.853
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H8N3O5 of M-H with delta m/z 5.285943 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C7H8N4O2 of M+Na-2H with delta m/z 7.441824 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H12O6 of M+Na-2H with delta m/z 0.011107 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H10N3O5 of M+Na-2H with delta m/z -7.441824 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WQZGKKKJIJFFOK-UHFFFAOYSA-N Total 2 hit with max score 0.999 of C6H12O6 CCMSLIB00005757304 Massbank:PS020108 D-MannopyranoseD-SeminoseD-(+)-Mannose,from woodManCarubinose
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY CDAISMWEOUEBRE-UHFFFAOYSA-N Total 2 hit with max score 0.994 of C6H12O6 CCMSLIB00010102845 myo-inositol CollisionEnergy:102040
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WQZGKKKJIJFFOK-QTVWNMPRSA-N Total 2 hit with max score 0.973 of C6H12O6 CCMSLIB00010102532 D-Mannose CollisionEnergy:102040
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY RFSUNEUAIZKAJO-ARQDHWQXSA-N Total 1 hit with max score 0.997 of C6H12O6 CCMSLIB00005738568 Massbank:RP023511 D(-)-Fructosebeta-D-Fructose(2R,3S,4S,5R)-2,5-bis(hydroxymethyl)oxolane-2,3,4-triol
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 6-(hydroxymethyl)oxane-2,3,4,5-tetrol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H12O6
+CH$EXACT_MASS: 180.06338810
+CH$SMILES: C(C1C(C(C(C(O1)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2
+CH$LINK: INCHIKEY WQZGKKKJIJFFOK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:206
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.8206303904054058
+MS$FOCUSED_ION: PRECURSOR_M/Z 201.0380518
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-f1e7545f9e55dc7bed13
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  87.0087450 87.0087450 1.2654 3.4854 3.40 0.9271 52
+  89.0244600 89.0244600 0.4268 999.0000 0.00 0.9819 74
+  201.0380400 201.0380400 1.3848 25.8407 8.37 1.0000 74
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  87.008745 3.49 3
+  89.024460 999.00 999
+  201.038040 25.84 25
+//

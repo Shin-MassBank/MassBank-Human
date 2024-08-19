@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0225001
+RECORD_TITLE: Characterized; tetradec-9-enoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 49
+COMMENT: RETENTION_TIME_STDEV 0.07540556909519362
+COMMENT: PRECURSOR_M/Z_RAW 225.1859589
+COMMENT: PRECURSOR_M/Z_STDEV 7.821094559723474e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 225.18596, int 228.567, with delta m/z 0.005052248 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 226.1892900 in MS1, int 34.406, cor with prec 0.986
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C14H26O2 of M-H with delta m/z 0.349259 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C12H24N3O of M-H with delta m/z -5.583722 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY YWWVWXASSLXJHU-UHFFFAOYSA-N Total 2 hit with max score 1.000 of C14H26O2 CCMSLIB00005728059 Massbank:KO001401 Myristoleate(Z)-Tetradec-9-enoic acid9-Tetradecenoic acid(9Z)-Tetradecenoic acidMyristoleic acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: tetradec-9-enoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H26O2
+CH$EXACT_MASS: 226.193280068
+CH$SMILES: CCCCC=CCCCCCCCC(=O)O
+CH$IUPAC: InChI=1S/C14H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h5-6H,2-4,7-13H2,1H3,(H,15,16)
+CH$LINK: INCHIKEY YWWVWXASSLXJHU-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:68344
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.816152585714287
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.1859247
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-004i-0090000000-4d79473b5a36ef702671
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  59.0138661 59.0136300 0.6897 27.1360 32.31 0.6511 47
+  143.1076400 143.1076400 1.0845 27.6968 53.87 -0.2822 44
+  225.0250250 225.0250250 1.6514 23.3953 35.26 0.2989 46
+  225.1859300 225.1859300 0.3157 999.0000 0.00 1.0000 49
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  59.013866 27.14 27
+  143.107640 27.70 27
+  225.025025 23.40 23
+  225.185930 999.00 999
+//

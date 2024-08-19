@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0088004
+RECORD_TITLE: Characterized; (2S)-2-aminopropanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.12 (Averaged 2024.07.12, Processed 2024.07.12, Annotated 2024.07.12)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 33
+COMMENT: RETENTION_TIME_STDEV 0.10603973805913659
+COMMENT: PRECURSOR_M/Z_RAW 88.0404587
+COMMENT: PRECURSOR_M/Z_STDEV 4.988142961550587e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 88.04046, int 52.653, with delta m/z 0.015002202 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+FA-H due to occurence of M+Hac-H at m/z 102.0560600 in MS1, int 6.410, cor with prec 0.875
+COMMENT: PROPOSED_ION_FORM M+Hac-H due to occurence of M+FA-H at m/z 74.0247750 in MS1, int 12.125, cor with prec 0.778
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C3H7NO2 of M-H with delta m/z -0.718716 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C2H5N of M+FA-H with delta m/z -1.533377 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ CH3N of M+Hac-H with delta m/z -2.273775 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY QNAYBMKLOCPYGJ-REOHCLBHSA-N Total 8 hit with max score 1.000 of C3H7NO2 CCMSLIB00006680190 ALANINE
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY UCMIRNVEIXFBKS-UHFFFAOYSA-N Total 7 hit with max score 1.000 of C3H7NO2 CCMSLIB00005728538 Massbank:KO000039 b-Ala3-Aminopropanoate3-Aminopropionic acidbeta-Alanine
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FSYKKLYZXJSNPZ-UHFFFAOYSA-N Total 6 hit with max score 1.000 of C3H7NO2 CCMSLIB00005728609 Massbank:KO001801 SarcosineN-Methylglycine
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY QNAYBMKLOCPYGJ-UWTATZPHSA-N Total 6 hit with max score 1.000 of C3H7NO2 CCMSLIB00005728452 Massbank:KO000019 D-AlaD-2-Aminopropionic acidD-Alanine
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY QNAYBMKLOCPYGJ-UHFFFAOYSA-N Total 3 hit with max score 1.000 of C3H7NO2 CCMSLIB00005728077 Massbank:KO000023 L-AlaL-AlanineL-2-Aminopropionic acidL-alpha-Alanine
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: (2S)-2-aminopropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C3H7NO2
+CH$EXACT_MASS: 89.047678466
+CH$SMILES: CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1
+CH$LINK: INCHIKEY QNAYBMKLOCPYGJ-REOHCLBHSA-N
+CH$LINK: PUBCHEM CID:5950
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.0 ppm, MS2 8.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.0421763303030303
+MS$FOCUSED_ION: PRECURSOR_M/Z 88.0404664
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-3e5359be83769fe470c4
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  88.0404300 88.0404300 0.5850 999.0000 0.00 1.0000 33
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  88.040430 999.00 999
+//

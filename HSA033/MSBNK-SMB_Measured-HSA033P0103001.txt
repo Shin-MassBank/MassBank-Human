@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0103001
+RECORD_TITLE: Characterized; (3R)-3-hydroxybutanoic acid; LC-ESI-QTOF; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.11 (Averaged 2024.07.11, Processed 2024.07.11, Annotated 2024.07.11)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the follwing DDA dataset.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: DATASET_FILE_NUM 50
+COMMENT: NUM_AVERAGED_SPEC 44
+COMMENT: RETENTION_TIME_STDEV 0.014138718836274383
+COMMENT: PRECURSOR_M/Z_RAW 103.0399271
+COMMENT: PRECURSOR_M/Z_STDEV 0.0006101781419754382
+COMMENT: PRECURSOR_IN_MS1 m/z 103.03997, int 115.848, with delta m/z 0.416562886 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 104.0431000 in MS1, int 4.937, cor with prec 0.948
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H8O3 of M-H with delta m/z -0.682381 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C2H6N3O2 of M-H with delta m/z -13.589958 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHBMMWSBFZVSSR-GSVOUGTGSA-N Total 4 hit with max score 0.981 of C4H8O3 CCMSLIB00005729296 Massbank:KO001011 b-Hydroxybutyrate(R)-3-Hydroxybutyric acid(R)-3-Hydroxybutanoic acid(R)-3-Hydroxybutanoatebeta-Hydroxybutyric acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY BWLBGMIXKSTLSX-UHFFFAOYSA-N Total 2 hit with max score 0.843 of C4H8O3 CCMSLIB00005728288 Massbank:KO001017 2-Hydroxyisobutyrate2-hydroxy-2-methyl-propanoic acid2-Hydroxyisobutyric acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: (3R)-3-hydroxybutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H8O3
+CH$EXACT_MASS: 104.047344113
+CH$SMILES: CC(CC(=O)O)O
+CH$IUPAC: InChI=1S/C4H8O3/c1-3(5)2-4(6)7/h3,5H,2H2,1H3,(H,6,7)/t3-/m1/s1
+CH$LINK: INCHIKEY WHBMMWSBFZVSSR-GSVOUGTGSA-N
+CH$LINK: PUBCHEM CID:92135
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 20.0 ppm, MS2 20.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.8007704545454546
+MS$FOCUSED_ION: PRECURSOR_M/Z 103.0401396
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0006-9000000000-3ad46dbf7cdb37fe3df2
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  41.0039219 41.0039150 9.7966 999.0000 0.00 1.0000 44
+  59.0143111 59.0142900 9.6570 430.5339 134.19 0.9236 44
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  41.003922 999.00 999
+  59.014311 430.53 430
+//

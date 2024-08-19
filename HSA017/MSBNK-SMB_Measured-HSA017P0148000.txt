@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0148000
+RECORD_TITLE: Characterized; (2S)-2-amino-4-methylsulfanylbutanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 36
+COMMENT: RETENTION_TIME_STDEV 0.06448682821989116
+COMMENT: PRECURSOR_M/Z_RAW 148.0443497
+COMMENT: PRECURSOR_M/Z_STDEV 7.962189290074114e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 148.04437, int 176.551, with delta m/z 0.137320923 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 149.0475500 in MS1, int 8.388, cor with prec 0.921
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 1 due to occurence of m/z 150.0401100 in MS1, relint to prec 0.037, cor with prec 0.971
+COMMENT: PROPOSED_MF_FROM_PRECMZ C5H11NO2S of M-H with delta m/z -0.315328 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY FFEARJCKVFRZRR-BYPYZUCNSA-N Total 5 hit with max score 0.999 of C5H11NO2S CCMSLIB00005729702 Massbank:KO001310 MetL-2-Amino-4methylthiobutyric acidL-Methionine
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: (2S)-2-amino-4-methylsulfanylbutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H11NO2S
+CH$EXACT_MASS: 149.05104977
+CH$SMILES: CSCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1
+CH$LINK: INCHIKEY FFEARJCKVFRZRR-BYPYZUCNSA-N
+CH$LINK: PUBCHEM CID:6137
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.710220648148168
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.0438211
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0002-0900000000-6a127bd00e1f35b180e2
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  100.0405869 100.0411250 3.3007 42.2600 17.20 0.6459 36
+  148.0436776 148.0437300 0.0898 999.0000 0.00 1.0000 36
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  100.040587 42.26 42
+  148.043678 999.00 999
+//

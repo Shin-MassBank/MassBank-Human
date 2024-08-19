@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0191000
+RECORD_TITLE: Characterized; 2-hydroxypropane-1,2,3-tricarboxylic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 44
+COMMENT: RETENTION_TIME_STDEV 0.44104852861787236
+COMMENT: PRECURSOR_M/Z_RAW 191.0200806
+COMMENT: PRECURSOR_M/Z_STDEV 0.00015175128339852832
+COMMENT: PRECURSOR_IN_MS1 m/z 191.01993, int 999.000, with delta m/z -0.788223543 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 192.0232300 in MS1, int 59.745, cor with prec 0.981
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H8O7 of M-H with delta m/z 0.057284 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY KRKNYBCHXYNGOX-UHFFFAOYSA-N Total 27 hit with max score 0.985 of C6H8O7 CCMSLIB00006123195 Citric acid - 30.0 eV
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY ODBLHEXUDAPZAU-UHFFFAOYSA-N Total 5 hit with max score 0.890 of C6H8O7 CCMSLIB00005777473 Massbank:KNA00793 IsocitrateIsocitric acid1-Hydroxytricarballylic acid1-Hydroxypropane-1,2,3-tricarboxylic acidDL-Isocitric acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-hydroxypropane-1,2,3-tricarboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H8O7
+CH$EXACT_MASS: 192.02700259
+CH$SMILES: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+CH$IUPAC: InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)
+CH$LINK: INCHIKEY KRKNYBCHXYNGOX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:311
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.890836060606045
+MS$FOCUSED_ION: PRECURSOR_M/Z 191.0197156
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-4b2cec381089313f6431
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  87.0089724 87.0094500 2.6813 18.6790 4.05 0.6160 35
+  111.0085907 111.0088400 0.0135 999.0000 0.00 0.8834 44
+  129.0197390 129.0199100 3.3150 22.1650 4.48 1.0000 39
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  87.008972 18.68 18
+  111.008591 999.00 999
+  129.019739 22.16 22
+//

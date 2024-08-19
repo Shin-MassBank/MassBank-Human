@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0115001
+RECORD_TITLE: Characterized; 2-oxopentanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 41
+COMMENT: RETENTION_TIME_STDEV 0.11673416658842038
+COMMENT: PRECURSOR_M/Z_RAW 115.0408554
+COMMENT: PRECURSOR_M/Z_STDEV 6.261728854150509e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 115.04081, int 999.000, with delta m/z -0.394709625 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 116.0439600 in MS1, int 49.375, cor with prec 0.956
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C5H8O3 of M-H with delta m/z -0.327452 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY KDVFRMMRZOCFLS-UHFFFAOYSA-N Total 2 hit with max score 1.000 of C5H8O3 CCMSLIB00005743192 Massbank:PR100865 2-Oxovaleric acid2-Oxovaleratealpha-Ketovaleric acid2-Oxopentanoic acid2-Oxopentanoate
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-oxopentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H8O3
+CH$EXACT_MASS: 116.047344113
+CH$SMILES: CCCC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C5H8O3/c1-2-3-4(6)5(7)8/h2-3H2,1H3,(H,7,8)
+CH$LINK: INCHIKEY KDVFRMMRZOCFLS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:74563
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.9474767886178523
+MS$FOCUSED_ION: PRECURSOR_M/Z 115.0401066
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-014i-0900000000-ebc6e76e52b65464f991
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  109.9091660 109.9094190 5.3572 137.2251 29.78 0.1601 29
+  115.0398753 115.0401100 0.0921 999.0000 0.00 1.0000 41
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  109.909166 137.23 137
+  115.039875 999.00 999
+//

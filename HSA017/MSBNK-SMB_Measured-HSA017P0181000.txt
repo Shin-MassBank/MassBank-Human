@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0181000
+RECORD_TITLE: Characterized; 2-hydroxy-3-(4-hydroxyphenyl)propanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 15
+COMMENT: RETENTION_TIME_STDEV 0.04046090917599685
+COMMENT: PRECURSOR_M/Z_RAW 181.0510478
+COMMENT: PRECURSOR_M/Z_STDEV 0.0001338787685129165
+COMMENT: PRECURSOR_IN_MS1 m/z 181.05111, int 999.000, with delta m/z 0.347580401 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 182.0542800 in MS1, int 92.799, cor with prec 0.982
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M-H due to occurence of M+Na-2H at m/z 203.0328177 in MS1, int 11.870, cor with prec 0.802
+COMMENT: PROPOSED_ION_FORM M+FA-H due to occurence of M-H at m/z 135.0457043 in MS1, int 57.782, cor with prec 0.842
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C5H13NO4P of M-H with delta m/z 1.439102 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C9H10O4 of M-H with delta m/z -0.258160 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H11NO2P of M+FA-H with delta m/z 1.903677 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H8O2 of M+FA-H with delta m/z -0.367505 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY JVGVDSSUAVXRDY-UHFFFAOYSA-N Total 7 hit with max score 0.983 of C9H10O4 CCMSLIB00005755459 Massbank:PS097307 2-Hydroxy-3-(4-hydroxyphenyl)propanoate4-HydroxyphenyllactateDL-p-Hydroxyphenyllactic acidp-Hydroxyphenyllactate3-(4-Hydroxyphenyl)-2-hydroxypropanoic acidHPLA
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY HMCMTJPPXSGYJY-UHFFFAOYSA-N Total 4 hit with max score 0.986 of C9H10O4 CCMSLIB00006676062 324dihydroxyphenylpropionicacid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY QRMZSPFSDQBLIX-UHFFFAOYSA-N Total 4 hit with max score 0.983 of C9H10O4 CCMSLIB00006676403 4hydroxy3methoxyphenylaceticacidHomovanillic
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY DZAUWHJDUNRCTF-UHFFFAOYSA-N Total 1 hit with max score 0.987 of C9H10O4 CCMSLIB00005728076 Massbank:KO000584 DihydrocafeateDihydrocaffeic acid3,4-Dihydroxyphenylpropionic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY HXIPUYVSSGKLFF-UHFFFAOYSA-N Total 1 hit with max score 0.954 of C9H10O4 CCMSLIB00005738703 Massbank:RP029411 DL-4-Hydroxyphenyllactic acid2-hydroxy-2-(4-hydroxyphenyl)propanoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY ITPFIKQWNDGDLG-UHFFFAOYSA-N Total 1 hit with max score 0.860 of C9H10O4 CCMSLIB00006675815 35-Dihydroxyhydrocinnamic acid35-Dihydroxyphenylpropionic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY VHNLJRRECIZZPX-UHFFFAOYSA-N Total 1 hit with max score 0.779 of C9H10O4 CCMSLIB00005719609 b-Orcinolcarboxylic acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-hydroxy-3-(4-hydroxyphenyl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H10O4
+CH$EXACT_MASS: 182.05790880
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H10O4/c10-7-3-1-6(2-4-7)5-8(11)9(12)13/h1-4,8,10-11H,5H2,(H,12,13)
+CH$LINK: INCHIKEY JVGVDSSUAVXRDY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:9378
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.7438143333334
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.0506803
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-edc6161324192ddd1bb6
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  109.9108020 109.9110550 6.2533 44.3183 30.43 0.1538 12
+  119.0500016 119.0502200 2.1159 101.4199 35.81 0.7679 15
+  121.0293127 121.0295225 0.0620 205.2622 138.19 0.1538 12
+  135.0455905 135.0457280 2.2496 116.6394 53.49 0.6571 15
+  181.0501446 181.0498980 2.6468 999.0000 0.00 1.0000 15
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  109.910802 44.32 44
+  119.050002 101.42 101
+  121.029313 205.26 205
+  135.045591 116.64 116
+  181.050145 999.00 999
+//

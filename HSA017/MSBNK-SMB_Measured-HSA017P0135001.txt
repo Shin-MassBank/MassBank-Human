@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0135001
+RECORD_TITLE: Characterized; 3-methylbenzoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 14
+COMMENT: RETENTION_TIME_STDEV 0.029994464671605346
+COMMENT: PRECURSOR_M/Z_RAW 135.0457230
+COMMENT: PRECURSOR_M/Z_STDEV 6.269972788874197e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 135.04577, int 857.874, with delta m/z 0.325360618 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 136.0490038 in MS1, int 63.689, cor with prec 0.824
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H8O2 of M-H with delta m/z 0.507158 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY GPSDUZXPYCFOSQ-UHFFFAOYSA-N Total 4 hit with max score 0.998 of C8H8O2 CCMSLIB00005728518 Massbank:KO001352 3-Methylbenzoatem-Toluylic acidm-Toluic Acidbeta-Bethylbenzoic acidm-Methylbenzoate3-Methylbenzoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY TXFPEBPIARQUIG-UHFFFAOYSA-N Total 2 hit with max score 0.868 of C8H8O2 CCMSLIB00005762462 Massbank:LU021451 4-Hydroxyacetophenone4'-Hydroxyacetophenone1-(4-hydroxyphenyl)ethanone
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 3-methylbenzoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H8O2
+CH$EXACT_MASS: 136.052429494
+CH$SMILES: CC1=CC(=CC=C1)C(=O)O
+CH$IUPAC: InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)
+CH$LINK: INCHIKEY GPSDUZXPYCFOSQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:7418
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.857529404761786
+MS$FOCUSED_ION: PRECURSOR_M/Z 135.0450845
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-000i-1900000000-6873e7de1b78f45a3aeb
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  91.0554262 91.0559229 1.9373 129.9236 31.87 0.5385 14
+  109.9082950 109.9085480 6.2852 141.4379 40.74 -0.0303 10
+  135.0455882 135.0457257 2.3355 999.0000 0.00 1.0000 14
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  91.055426 129.92 129
+  109.908295 141.44 141
+  135.045588 999.00 999
+//

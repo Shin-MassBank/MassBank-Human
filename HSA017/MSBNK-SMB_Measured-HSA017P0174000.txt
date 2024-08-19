@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0174000
+RECORD_TITLE: Characterized; (2S)-2-amino-5-(carbamoylamino)pentanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 36
+COMMENT: RETENTION_TIME_STDEV 0.048218105726365715
+COMMENT: PRECURSOR_M/Z_RAW 174.0888672
+COMMENT: PRECURSOR_M/Z_STDEV 8.863617285458919e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 174.08888, int 709.412, with delta m/z 0.073597463 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 175.0920400 in MS1, int 39.550, cor with prec 0.976
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M-H due to occurence of M+Na-2H at m/z 196.0703300 in MS1, int 46.274, cor with prec 0.755
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H13N3O3 of M-H with delta m/z -0.359803 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY RHGKLRLOHDJJDR-BYPYZUCNSA-N Total 22 hit with max score 0.986 of C6H13N3O3 CCMSLIB00009918980 Citrulline 
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY RHGKLRLOHDJJDR-UHFFFAOYSA-N Total 1 hit with max score 0.985 of C6H13N3O3 CCMSLIB00005757142 Massbank:PT211890 delta-UreidonorvalineL-2-Amino-5-ureidovaleric acidN5-Carbamoyl-L-ornithineSitrullineL-CitrullineOrn(carbamoyl)Cit(S)-2-Amino-5-ureidopentanoic acid(2S)-2-amino-5-(carbamoylamino)pentanoic aci
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: (2S)-2-amino-5-(carbamoylamino)pentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H13N3O3
+CH$EXACT_MASS: 175.09569129
+CH$SMILES: C(CC(C(=O)O)N)CNC(=O)N
+CH$IUPAC: InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)/t4-/m0/s1
+CH$LINK: INCHIKEY RHGKLRLOHDJJDR-BYPYZUCNSA-N
+CH$LINK: PUBCHEM CID:9750
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.144841111111134
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.0884781
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-c47e85c9b1b1b26435e2
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  131.0825500 131.0827100 0.1099 999.0000 0.00 0.9251 36
+  174.0880687 174.0880700 0.0931 174.7599 101.71 1.0000 34
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  131.082550 999.00 999
+  174.088069 174.76 174
+//

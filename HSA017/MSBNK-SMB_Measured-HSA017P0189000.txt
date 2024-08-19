@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0189000
+RECORD_TITLE: Characterized; 2,5-dihydroxybenzenesulfonic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 26
+COMMENT: RETENTION_TIME_STDEV 0.039072490640120534
+COMMENT: PRECURSOR_M/Z_RAW 188.9866803
+COMMENT: PRECURSOR_M/Z_STDEV 0.00013789914495046675
+COMMENT: PRECURSOR_IN_MS1 m/z 188.98673, int 208.315, with delta m/z 0.259008125 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 189.9898492 in MS1, int 12.168, cor with prec 0.945
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 1 due to occurence of m/z 190.9822600 in MS1, relint to prec 0.035, cor with prec 0.955
+COMMENT: PROPOSED_MF_FROM_PRECMZ C2H9NO5SP of M-H with delta m/z 1.647424 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H6O5S of M-H with delta m/z 0.021053 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H3N2O2P of M-H with delta m/z -1.989541 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY IKQCSJBQLWJEPU-UHFFFAOYSA-N Total 3 hit with max score 0.934 of C6H6O5S CCMSLIB00005759977 Massbank:LU135551 2,5-dihydroxybenzenesulfonate2,5-dihydroxybenzenesulfonic acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2,5-dihydroxybenzenesulfonic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H6O5S
+CH$EXACT_MASS: 189.99359446
+CH$SMILES: C1=CC(=C(C=C1O)S(=O)(=O)O)O
+CH$IUPAC: InChI=1S/C6H6O5S/c7-4-1-2-5(8)6(3-4)12(9,10)11/h1-3,7-8H,(H,9,10,11)
+CH$LINK: INCHIKEY IKQCSJBQLWJEPU-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17507
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.5771414102562695
+MS$FOCUSED_ION: PRECURSOR_M/Z 188.9863146
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-000i-0900000000-e5a5c97bdefe19c03fe5
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  109.0293045 109.0295604 0.1055 264.8831 37.14 0.8209 26
+  188.9866746 188.9862469 0.0958 999.0000 0.00 1.0000 26
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  109.029305 264.88 264
+  188.986675 999.00 999
+//

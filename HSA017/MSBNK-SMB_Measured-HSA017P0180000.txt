@@ -1,0 +1,67 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0180000
+RECORD_TITLE: Characterized; 2-amino-3-(4-hydroxyphenyl)propanoic acid; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 20
+COMMENT: RETENTION_TIME_STDEV 0.031070316603195015
+COMMENT: PRECURSOR_M/Z_RAW 180.0668625
+COMMENT: PRECURSOR_M/Z_STDEV 0.0002286354211727519
+COMMENT: PRECURSOR_IN_MS1 m/z 180.06685, int 691.463, with delta m/z -0.072127618 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 181.0701210 in MS1, int 64.341, cor with prec 0.961
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M-H due to occurence of M+Cl at m/z 216.0436658 in MS1, int 289.540, cor with prec 0.935
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C9H11NO3 of M-H with delta m/z 0.673759 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY OUYCCCASQSFEME-UHFFFAOYSA-N Total 8 hit with max score 0.976 of C9H11NO3 CCMSLIB00005777425 Massbank:KNA00662 L-Tyrosine(S)-3-(p-Hydroxyphenyl)alanine(S)-2-Amino-3-(p-hydroxyphenyl)propionic acidTyrosine
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY OUYCCCASQSFEME-QMMMGPOBSA-N Total 2 hit with max score 0.969 of C9H11NO3 CCMSLIB00005738334 Massbank:RP000311 L-Tyrosine(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY JYPHNHPXFNEZBR-UHFFFAOYSA-N Total 1 hit with max score 0.977 of C9H11NO3 CCMSLIB00005729373 Massbank:KO000268 3-Amino-3-(4-hydroxyphenyl)propionate3-Amino-3-(4-hydroxyphenyl)propanoatebeta-Tyrosine3-Amino-3-(4-hydroxyphenyl)propionic acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-amino-3-(4-hydroxyphenyl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H11NO3
+CH$EXACT_MASS: 181.07389321
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)
+CH$LINK: INCHIKEY OUYCCCASQSFEME-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1153
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.231339166666649
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.0664948
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-6c5674117b55bd20427d
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  93.0346155 93.0351215 0.1172 69.8925 44.95 0.7504 20
+  109.9140005 109.9142535 5.9747 46.3439 37.02 0.1593 17
+  119.0499286 119.0501470 0.1193 138.9334 72.52 0.9128 20
+  136.0765242 136.0766555 0.1051 59.2804 35.80 0.5910 20
+  180.0669333 180.0667200 0.1066 999.0000 0.00 1.0000 20
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  93.034616 69.89 69
+  109.914001 46.34 46
+  119.049929 138.93 138
+  136.076524 59.28 59
+  180.066933 999.00 999
+//

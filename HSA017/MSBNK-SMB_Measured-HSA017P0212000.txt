@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA017P0212000
+RECORD_TITLE: Characterized; 1H-indol-3-yl hydrogen sulfate; LC-ESI-QFT; MS2; NEGATIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 36
+COMMENT: NUM_AVERAGED_SPEC 36
+COMMENT: RETENTION_TIME_STDEV 0.031035249186682462
+COMMENT: PRECURSOR_M/Z_RAW 212.0026398
+COMMENT: PRECURSOR_M/Z_STDEV 0.00011608019437828685
+COMMENT: PRECURSOR_IN_MS1 m/z 212.00273, int 999.000, with delta m/z 0.425605331 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 213.0055700 in MS1, int 81.582, cor with prec 0.989
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 1 due to occurence of m/z 213.9983800 in MS1, relint to prec 0.040, cor with prec 0.982
+COMMENT: PROPOSED_MF_FROM_PRECMZ C4H10N2O4SP of M-H with delta m/z 1.521058 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C8H7NO4S of M-H with delta m/z 0.070419 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C10H4N3OP of M-H with delta m/z -1.722927 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY BXFFHSIDQOFMLE-UHFFFAOYSA-N Total 7 hit with max score 0.995 of C8H7NO4S CCMSLIB00010102851 Indoxyl sulfate CollisionEnergy:102040
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 1H-indol-3-yl hydrogen sulfate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H7NO4S
+CH$EXACT_MASS: 213.00957888
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)OS(=O)(=O)O
+CH$IUPAC: InChI=1S/C8H7NO4S/c10-14(11,12)13-8-5-9-7-4-2-1-3-6(7)8/h1-5,9H,(H,10,11,12)
+CH$LINK: INCHIKEY BXFFHSIDQOFMLE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10258
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 2.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.624615370370445
+MS$FOCUSED_ION: PRECURSOR_M/Z 212.0022881
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-03di-1090000000-4024ea5be13ba1988a49
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  79.9573363 79.9577800 0.1113 32.0171 14.16 0.8445 36
+  80.9650214 80.9654700 1.1202 92.1752 54.18 0.8378 36
+  132.0453054 132.0454600 0.1038 29.3654 14.46 0.8687 36
+  212.0032225 212.0022100 0.0910 999.0000 0.00 1.0000 36
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  79.957336 32.02 32
+  80.965021 92.18 92
+  132.045305 29.37 29
+  212.003222 999.00 999
+//

@@ -1,0 +1,69 @@
+ACCESSION: MSBNK-SMB_Measured-HSA034P0291000
+RECORD_TITLE: Characterized; 9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one; LC-ESI-QTOF; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.11 (Averaged 2024.07.11, Processed 2024.07.11, Annotated 2024.07.11)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: DATASET_FILE_NUM 50
+COMMENT: NUM_AVERAGED_SPEC 64
+COMMENT: RETENTION_TIME_STDEV 0.03524728486137132
+COMMENT: PRECURSOR_M/Z_RAW 291.0724451
+COMMENT: PRECURSOR_M/Z_STDEV 0.000505599147174066
+COMMENT: PRECURSOR_IN_MS1 m/z 291.07243, int 406.866, with delta m/z -0.068956607 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 292.0749700 in MS1, int 46.011, cor with prec 0.986
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+H due to occurence of M+Na at m/z 313.0545600 in MS1, int 11.150, cor with prec 0.963
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+H at m/z 269.0901450 in MS1, int 315.916, cor with prec 0.978
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+K at m/z 307.0463200 in MS1, int 148.938, cor with prec 0.981
+COMMENT: PROPOSED_ION_FORM M+Na due to occurence of M+2Na-H at m/z 313.0545600 in MS1, int 11.150, cor with prec 0.963
+COMMENT: PROPOSED_ION_FORM M+2Na-H due to occurence of M+Na at m/z 269.0901450 in MS1, int 315.916, cor with prec 0.978
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C7H17NO9P of M+H with delta m/z 3.961209 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H14O9 of M+H with delta m/z 2.895923 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C15H16O2P2 of M+H with delta m/z -1.351431 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C9H12N3O8 of M+H with delta m/z -1.730659 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C12H14NO6 of M+Na with delta m/z 4.148000 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C6H15N5O5P of M+Na with delta m/z 0.294687 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C10H12N4O5 of M+Na with delta m/z -0.857950 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C11H12N5O2 of M+2Na-H with delta m/z 0.170663 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY UGQMRVRMYYASKQ-UHFFFAOYSA-N Total 10 hit with max score 1.000 of C10H12N4O5 CCMSLIB00006395998 inosine
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N4O5
+CH$EXACT_MASS: 268.08076950
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O
+CH$IUPAC: InChI=1S/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)
+CH$LINK: INCHIKEY UGQMRVRMYYASKQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:804
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.5193601562500003
+MS$FOCUSED_ION: PRECURSOR_M/Z 291.0702178
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-0900000000-66558f9d5619c72d1cbf
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  159.0280660 159.0287700 5.4072 999.0000 0.00 1.0000 64
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  159.028066 999.00 999
+//

@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA018P0118001
+RECORD_TITLE: Characterized; 2-(trimethylazaniumyl)acetate; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 34
+COMMENT: NUM_AVERAGED_SPEC 30
+COMMENT: RETENTION_TIME_STDEV 0.18822511564808853
+COMMENT: PRECURSOR_M/Z_RAW 118.0858861
+COMMENT: PRECURSOR_M/Z_STDEV 6.223787091397068e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 118.08582, int 495.871, with delta m/z -0.560005796 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 119.0892300 in MS1, int 27.149, cor with prec 0.981
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C5H11NO2 of M+H with delta m/z -0.273320 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY KWIUHFFTVRNATP-UHFFFAOYSA-N Total 53 hit with max score 0.935 of C5H11NO2 CCMSLIB00005756980 Massbank:PS115201 AbromineTrimethylaminoacetic acidalpha-Earleine(Carboxymethyl)trimethylammonium inner saltTrimethylglycocollBetaineLycineTrimethylglycineGlycylbetaineOxyneurineJortaineTrimethylammonioaceta
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY LFTLOKWAGJYHHR-UHFFFAOYSA-N Total 3 hit with max score 0.935 of C5H11NO2 CCMSLIB00005776997 Massbank:AU248402 4-Methylmorpholine-N-oxideMorpholine, 4-methyl-, 4-oxide4-methyl-4-oxidomorpholin-4-ium
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY JJMDCOVWQOJGCB-UHFFFAOYSA-N Total 3 hit with max score 0.780 of C5H11NO2 CCMSLIB00000217107 Massbank:KO002308 5-Aminopentanoate5-Aminovaleric acid5-Aminopentanoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY KZSNJWFQEVHDMF-BYPYZUCNSA-N Total 1 hit with max score 0.740 of C5H11NO2 CCMSLIB00000216027 Massbank:KNA00028 L-Valine2-Amino-3-methylbutyric acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-(trimethylazaniumyl)acetate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.078978594
+CH$SMILES: C[N+](C)(C)CC(=O)[O-]
+CH$IUPAC: InChI=1S/C5H11NO2/c1-6(2,3)4-5(7)8/h4H2,1-3H3
+CH$LINK: INCHIKEY KWIUHFFTVRNATP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:247
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.676717111111069
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.0862867
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-014i-0900000000-133707447ee4b90eb24b
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  64.5348980 64.5343735 4.4147 90.3287 19.78 0.9111 23
+  109.9966583 109.9960643 5.7820 246.4948 41.99 0.9528 30
+  118.0863504 118.0857700 0.0000 999.0000 0.00 1.0000 30
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  64.534898 90.33 90
+  109.996658 246.49 246
+  118.086350 999.00 999
+//

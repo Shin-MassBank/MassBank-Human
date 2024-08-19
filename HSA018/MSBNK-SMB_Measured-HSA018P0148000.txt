@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-SMB_Measured-HSA018P0148000
+RECORD_TITLE: Characterized; 2-amino-3-methylbutanedioic acid; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 34
+COMMENT: NUM_AVERAGED_SPEC 24
+COMMENT: RETENTION_TIME_STDEV 0.11601026169199127
+COMMENT: PRECURSOR_M/Z_RAW 148.0600491
+COMMENT: PRECURSOR_M/Z_STDEV 6.776487486580497e-05
+COMMENT: PRECURSOR_IN_MS1 m/z 148.06003, int 231.879, with delta m/z -0.128711353 ppm
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C5H9NO4 of M+H with delta m/z 0.122405 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY LXRUAYBIUSUULX-UHFFFAOYSA-N Total 5 hit with max score 0.940 of C5H9NO4 CCMSLIB00005759188 Massbank:PT102180 DL-threo-beta-Methylaspartic acid2-amino-3-methylbutanedioic acid2-Amino-3-methylsuccinic acidbeta-methylaspartate
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHUUTDBJXJRKMK-UHFFFAOYSA-N Total 3 hit with max score 0.932 of C5H9NO4 CCMSLIB00000221799 Massbank:PB000461 Glutamic acid2-aminopentanedioic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY VZXPDPZARILFQX-UHFFFAOYSA-N Total 2 hit with max score 0.765 of C5H9NO4 CCMSLIB00000216132 ReSpect:PS047701 O-acetyl-L-serine hydrochlorideSer(Ac)3-acetyloxy-2-aminopropanoic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHUUTDBJXJRKMK-GSVOUGTGSA-N Total 1 hit with max score 0.907 of C5H9NO4 CCMSLIB00000218343 Massbank:KO002919 D-GluD-2-Aminoglutaric acidD-GlutamateD-Glutaminic acidD-Glutamic acid
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY WHUUTDBJXJRKMK-VKHMYHEASA-N Total 1 hit with max score 0.800 of C5H9NO4 CCMSLIB00000218405 Massbank:KO002949 L-GluL-GlutamateL-Glutaminic acidL-Glutamic acid
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: 2-amino-3-methylbutanedioic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.05315777
+CH$SMILES: CC(C(C(=O)O)N)C(=O)O
+CH$IUPAC: InChI=1S/C5H9NO4/c1-2(4(7)8)3(6)5(9)10/h2-3H,6H2,1H3,(H,7,8)(H,9,10)
+CH$LINK: INCHIKEY LXRUAYBIUSUULX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:852
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.061025625000083
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.0604156
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0002-0900000000-8eaca1c1ffd5162fac87
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  84.0444859 84.0439012 0.0405 101.2496 26.00 0.9322 24
+  102.0553305 102.0547308 0.0274 269.0181 44.82 0.9626 24
+  109.9979908 109.9973968 5.9647 97.6125 31.11 0.9130 22
+  130.0499196 130.0493738 1.8785 44.4413 10.87 0.8052 21
+  148.0609106 148.0604492 3.1271 999.0000 0.00 1.0000 24
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  84.044486 101.25 101
+  102.055331 269.02 269
+  109.997991 97.61 97
+  130.049920 44.44 44
+  148.060911 999.00 999
+//

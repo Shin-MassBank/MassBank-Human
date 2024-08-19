@@ -1,0 +1,67 @@
+ACCESSION: MSBNK-SMB_Measured-HSA018P0584000
+RECORD_TITLE: Characterized; [[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] hydrogen phosphate; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2024.07.09 (Averaged 2024.07.09, Processed 2024.07.09, Annotated 2024.07.09)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Teruya et al. Sci Rep. 2019, 9, 1, 854
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_FILE_NUM 34
+COMMENT: NUM_AVERAGED_SPEC 10
+COMMENT: RETENTION_TIME_STDEV 0.08641930552080306
+COMMENT: PRECURSOR_M/Z_RAW 584.0879395
+COMMENT: PRECURSOR_M/Z_STDEV 0.0002554094210617862
+COMMENT: PRECURSOR_IN_MS1 m/z 584.08876, int 999.000, with delta m/z 1.404832503 ppm
+COMMENT: PROPOSED_CHARGE_STATE +1 due to occurence of m/z 585.0900800 in MS1, int 191.139, cor with prec 0.976
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+NH4 due to occurence of M+H at m/z 567.0616200 in MS1, int 136.267, cor with prec 0.917
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF_FROM_PRECMZ C15H27N3O17P2 of M+H with delta m/z 0.145777 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C19H24N2O17P of M+H with delta m/z -0.384166 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C23H21NO17 of M+H with delta m/z -0.914109 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C15H24N2O17P2 of M+NH4 with delta m/z 0.146629 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C19H21NO17P of M+NH4 with delta m/z -0.399255 ppm
+COMMENT: PROPOSED_MF_FROM_PRECMZ C23H18O17 of M+NH4 with delta m/z -0.945138 ppm
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY HSCJRCZFDFQWRP-JZMIEXBBSA-N Total 5 hit with max score 0.999 of C15H24N2O17P2 CCMSLIB00006120887 Uridine diphosphate glucose - 30.0 eV
+COMMENT: PROPOSED_FROM_SPEC_SIMILARITY HSCJRCZFDFQWRP-UHFFFAOYSA-N Total 2 hit with max score 0.999 of C15H24N2O17P2 CCMSLIB00005755906 Massbank:PS036701 UDP-Galactose disodium saltUridine-5'-diphosphogalactose disodium saltUridine-5'-diphosphogalactoseUDP-D-galactopyranoseUDP-Gal
+COMMENT: CHARACTERIZED This spectra was automatically characterized by the Shin-MassBank project based on the spectra similarity (Cosine product > 0.7)
+COMMENT: CHARACTERIZED One of the possible structural isomers is shown as a representative in this record
+CH$NAME: [[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] hydrogen phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H24N2O17P2
+CH$EXACT_MASS: 566.05502130
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1
+CH$LINK: INCHIKEY HSCJRCZFDFQWRP-JZMIEXBBSA-N
+CH$LINK: PUBCHEM CID:8629
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.0 ppm, MS2 10.0 ppm.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.7600788333333
+MS$FOCUSED_ION: PRECURSOR_M/Z 584.0887571
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalbration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-0000900000-cce0859004905b1968b2
+PK$ANNOTATION: m/z m/z(raw) ppm(std) int int(std) cor n
+  307.0320133 307.0310922 4.4188 31.7524 8.30 0.8000 9
+  405.0079676 405.0067560 4.8098 999.0000 0.00 1.0000 10
+  484.7646047 484.7632189 7.3316 47.6868 13.54 0.4500 9
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  307.032013 31.75 31
+  405.007968 999.00 999
+  484.764605 47.69 47
+//

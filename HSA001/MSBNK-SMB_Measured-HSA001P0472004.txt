@@ -1,0 +1,59 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001P0472004
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.03.04 (Averaged 2025.02.14, Processed 2025.02.14, Annotated 2025.02.21, Curated 2025.03.04)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyushu University
+COMMENT: MS1_M/Z_AVERAGED_THRES 0.750
+COMMENT: MS2_M/Z_AVERAGED_THRES 4.000
+COMMENT: DATASET_FILE_NUM 22
+COMMENT: NUM_AVERAGED_SPEC 29
+COMMENT: RAW_SPEC {'3_posi_8734': {'bp': 468339.0, 'sum': 621918.0}, 'BLK01_8754': {'bp': 454762.0, 'sum': 614358.0}, '1_posi_8709': {'bp': 415534.0, 'sum': 546633.0}, '4_posi_8708': {'bp': 407926.0, 'sum': 565029.0}, '8_posi_8706': {'bp': 398301.0, 'sum': 511235.0}, '11_posi_8706': {'bp': 395773.0, 'sum': 511289.0}, '12_posi_8433': {'bp': 378971.0, 'sum': 486367.0}, '10_posi_8120': {'bp': 358447.0, 'sum': 470485.0}, '14_posi_8771': {'bp': 357969.0, 'sum': 471842.0}, '19_posi_8752': {'bp': 355113.0, 'sum': 472308.0}, '7_posi_8770': {'bp': 354414.0, 'sum': 498153.0}, '7_posi_8688': {'bp': 343888.0, 'sum': 423377.0}, '13_posi_8796': {'bp': 335749.0, 'sum': 438247.0}, '9_posi_8711': {'bp': 324950.0, 'sum': 417653.0}, '5_posi_8749': {'bp': 317883.0, 'sum': 414030.0}, '2_posi_8813': {'bp': 317326.0, 'sum': 461632.0}, '4_posi_8792': {'bp': 307539.0, 'sum': 461373.0}, 'BLK02_8733': {'bp': 304856.0, 'sum': 396542.0}, '17_posi_8796': {'bp': 302791.0, 'sum': 407904.0}, '3_posi_8855': {'bp': 301812.0, 'sum': 412106.0}, '18_posi_8771': {'bp': 295185.0, 'sum': 381295.0}, '10_posi_8858': {'bp': 293249.0, 'sum': 411076.0}, '6_posi_8752': {'bp': 293133.0, 'sum': 443714.0}, '15_posi_8727': {'bp': 289533.0, 'sum': 384474.0}, '9_posi_8793': {'bp': 289428.0, 'sum': 406872.0}, '11_posi_8811': {'bp': 288622.0, 'sum': 399189.0}, '8_posi_8856': {'bp': 275907.0, 'sum': 387333.0}, '14_posi_8856': {'bp': 224162.0, 'sum': 323901.0}, 'ProcedureBlank_8833': {'bp': 218255.0, 'sum': 284945.0}}
+COMMENT: RETENTION_TIME_STDEV 0.288
+COMMENT: PRECURSOR_M/Z_RAW 472.455026
+COMMENT: PRECURSOR_M/Z_STDEV 0.000349
+COMMENT: PRECURSOR_IN_MS1 mz 472.455961; int 15.907; delta(ppm) 1.372212
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 472.455959; Observed in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.520
+MS$FOCUSED_ION: PRECURSOR_M/Z 472.455959
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000900000-fe70b765e03a1be8a64e
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  130.1340560 32.7074 ? 130.134023 1.6214 7.63 0.4399 22
+  472.4598734 999.0000 ? 472.459587 1.1493 0.00 1.0000 29
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  130.134056 32.71 32
+  472.459873 999.00 999
+//

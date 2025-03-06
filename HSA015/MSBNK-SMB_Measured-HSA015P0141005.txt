@@ -1,0 +1,59 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015P0141005
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: MS1_M/Z_AVERAGED_THRES 5.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 5.000
+COMMENT: DATASET_FILE_NUM 27
+COMMENT: NUM_AVERAGED_SPEC 22
+COMMENT: RAW_SPEC {'EL12_pos_1055': {'bp': 249846.0, 'sum': 484081.0}, 'EL10_pos_1055': {'bp': 214553.0, 'sum': 397864.0}, 'EL21_pos_1055': {'bp': 213820.0, 'sum': 402655.0}, 'EL15_pos_1052': {'bp': 212792.0, 'sum': 429223.0}, 'EL22_pos_1061': {'bp': 209880.0, 'sum': 427923.0}, 'EL14_pos_1057': {'bp': 209301.0, 'sum': 408331.0}, 'EL01_pos_1054': {'bp': 207490.0, 'sum': 463844.0}, 'EL13_pos_1053': {'bp': 193477.0, 'sum': 455461.0}, 'EL02_pos_1061': {'bp': 188995.0, 'sum': 367013.0}, 'EL24_pos_1064': {'bp': 187533.0, 'sum': 426628.0}, 'EL19_pos_1064': {'bp': 186563.0, 'sum': 373546.0}, 'EL04_pos_1057': {'bp': 184268.0, 'sum': 434412.0}, 'EL06_pos_1061': {'bp': 182311.0, 'sum': 378911.0}, 'EL09_pos_1051': {'bp': 181736.0, 'sum': 418748.0}, 'EL23_pos_1059': {'bp': 179753.0, 'sum': 455173.0}, 'EL08_pos_1055': {'bp': 175014.0, 'sum': 348451.0}, 'EL11_pos_1058': {'bp': 174045.0, 'sum': 375968.0}, 'EL17_pos_1046': {'bp': 172740.0, 'sum': 349174.0}, 'EL16_pos_1055': {'bp': 156566.0, 'sum': 357773.0}, 'EL18_pos_1058': {'bp': 137582.0, 'sum': 309823.0}, 'EL20_pos_1058': {'bp': 133491.0, 'sum': 313511.0}, 'EL05_pos_1064': {'bp': 103711.0, 'sum': 300165.0}}
+COMMENT: RETENTION_TIME_STDEV 0.006
+COMMENT: PRECURSOR_M/Z_RAW 140.903551
+COMMENT: PRECURSOR_M/Z_STDEV 0.000043
+COMMENT: PRECURSOR_IN_MS1 mz 140.903426; int 114.359; delta(ppm) 1.070992
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 4
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 140.903416; Observed in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.711
+MS$FOCUSED_ION: PRECURSOR_M/Z 140.903416
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9000000000-d46c8c4091b8e730dcb5
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  58.0653338 111.4133 ? 58.066054 0.8783 38.13 -0.2479 22
+  80.9479437 999.0000 ? 80.948671 0.3830 0.00 1.0000 22
+  82.9449696 597.6784 ? 82.945690 0.3979 43.60 0.8509 22
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.065334 111.41 111
+  80.947944 999.00 999
+  82.944970 597.68 597
+//

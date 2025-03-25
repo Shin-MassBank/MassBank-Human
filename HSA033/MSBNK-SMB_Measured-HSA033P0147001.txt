@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0147001
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; NEGATIVE; Averaged data
+DATE: 2025.03.25 (Averaged 2025.02.15, Processed 2025.02.15, Annotated 2025.03.25, Curated 2025.03.25)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the follwing DDA dataset.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: MS1_M/Z_AVERAGED_THRES 20.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 50
+COMMENT: NUM_AVERAGED_SPEC 23
+COMMENT: RAW_SPEC {'D143neg_282': {'bp': 54153.0, 'sum': 55836.0}, 'D147neg_281': {'bp': 25972.0, 'sum': 28157.0}, 'C2neg_293': {'bp': 25620.0, 'sum': 26418.0}, 'C14neg_296': {'bp': 23805.0, 'sum': 24603.0}, 'D136neg_310': {'bp': 21582.0, 'sum': 22170.0}, 'D83neg_319': {'bp': 20019.0, 'sum': 20901.0}, 'D145neg_295': {'bp': 19509.0, 'sum': 20272.0}, 'D126neg_285': {'bp': 18590.0, 'sum': 19892.0}, 'D147neg_292': {'bp': 18547.0, 'sum': 19958.0}, 'D142neg_319': {'bp': 18121.0, 'sum': 18994.0}, 'D99neg_310': {'bp': 17176.0, 'sum': 19049.0}, 'D94neg_305': {'bp': 16759.0, 'sum': 17263.0}, 'D74neg_301': {'bp': 15227.0, 'sum': 15941.0}, 'D83neg_293': {'bp': 13705.0, 'sum': 14335.0}, 'D122neg_311': {'bp': 13311.0, 'sum': 15625.0}, 'D203neg_292': {'bp': 9243.0, 'sum': 10039.0}, 'D108neg_309': {'bp': 8046.0, 'sum': 8424.0}, 'D84neg_322': {'bp': 7678.0, 'sum': 8627.0}, 'D119neg_335': {'bp': 6496.0, 'sum': 7168.0}, 'C1neg_324': {'bp': 6410.0, 'sum': 6914.0}, 'C10neg_301': {'bp': 5940.0, 'sum': 6780.0}, 'C11neg_297': {'bp': 5631.0, 'sum': 5925.0}, 'D178neg_335': {'bp': 3659.0, 'sum': 4345.0}}
+COMMENT: RETENTION_TIME_STDEV 0.015
+COMMENT: PRECURSOR_M/Z_RAW 146.907652
+COMMENT: PRECURSOR_M/Z_STDEV 0.000749
+COMMENT: PRECURSOR_IN_MS1 mz 146.907690; int 33.822; delta(ppm) 0.137472
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 147.909080; int 1.292; cor 0.881
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+K-2H; M+Na-2H; mz 130.930430; int 5.577; cor 0.701
+COMMENT: PROPOSED_MAX_NUM_S 13
+COMMENT: PROPOSED_MF SevenGoldenRules 16.497; H2N2OS2; [M+K-2H]1; delta(ppm) -16.497052
+COMMENT: PROPOSED_MF SevenGoldenRules 0.855; CH3O2SP; [M+K-2H]1; delta(ppm) -0.854864
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 146.907647; Observed in MS1; Charge state -1;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 20.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.532
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.907647
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-0900000000-7f68d707d6880e029dc1
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  146.9069096 999.0000 ? 146.906891 8.8559 270.17 1.0000 21
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  146.906910 999.00 999
+//

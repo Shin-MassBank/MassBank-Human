@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0167013
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; 4-amino-5-formamidomethyl-2-methylpyrimidine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -37,8 +38,8 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.047; C6H14O5; [M+H]+; delta(ppm) 8.241067
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.310; C5H8N7; [M+H]+; delta(ppm) 8.272485
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.632; CH11N8P; [M+H]+; delta(ppm) 6.422569
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 2.284; C7H11F3N; [M+H]+; delta(ppm) 6.835829
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C7H10N4O; [M+H]+; delta(ppm) 0.236979
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.002; C4H11FN4O2; [M+H]+; delta(ppm) -6.601417
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.995; C7H10N4O; [M+H]+; delta(ppm) 0.236979
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.005; C4H11FN4O2; [M+H]+; delta(ppm) -6.601417
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.841; PVWNFAGYFUUDRC-UHFFFAOYSA-N; [M+H]+; CC1=NC=C(CNC=O)C(N)=N1
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.634; PKHMCXYXGDYUJF-UHFFFAOYSA-N; [M+H]+; O=C(N)C1NCC=2N=CNC2C1
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.354; QSUIDEAEINTHLD-UHFFFAOYSA-M; [M+H]+; O=C([O-])[C]1[C]([CH][C](C)[NH2+][C]1C)C
@@ -74,14 +75,28 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -267.901; FNEDMBHCKAZOTR; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -274.262; PKHMCXYXGDYUJF; [M+H]+; 4,5,6,7-tetrahydro-1H-imidazo[4,5-c]pyridine-6-carboxamide
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -350.467; ZOBVZWRTRAJEKR; [M+H]+; 2-(Cyanoimino)-1-pyrrolidineacetamide
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.299; PVWNFAGYFUUDRC; [M+H]+; Formylaminopyrimidine
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C7H11N4O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -39.339; PVWNFAGYFUUDRC; [M+H]+; 2-Methyl-4-amino-5-(formylaminomethyl)pyrimidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -82.292; ZXYFQICCDNFVRH; [M+H]+; 2-Pyrazinecarboxamide, N-methyl-6-(methylamino)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -98.349; YHHMPUVFNNFOQW; [M+H]+; 4-Methyl-2-(methylamino)pyrimidine-5-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -114.093; BZDQLRLTFOMTLI; [M+H]+; 3-Amino-1-(2-aminoimidazoyl)-prop-1-ene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -159.689; YGCXQTYRSKMILM; [M+H]+; 3,4-Diaminobenzhydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -185.916; PRQFDDYAWVNJMM; [M+H]+; 2-Amino-5,6,7,8-tetrahydropyrido[2,3-d]pyrimidin-4(1h)-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -198.666; PKHMCXYXGDYUJF; [M+H]+; 1H,4H,5H,6H,7H-imidazo[4,5-c]pyridine-6-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -220.278; RPHQOQYZJLMPDS; [M+H]+; 2-Amino-5-methyl-6,7-dihydropyrazolo[1,5-A]pyrazin-4(5H)-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -248.207; FNEDMBHCKAZOTR; [M+H]+; 3-(Dimethyltriazeno)pyridine-N-oxide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -266.789; CNSWEYOPMNZRMW; [M+H]+; 1-(1h-Pyrazol-3-yl)tetrahydropyrimidin-2(1h)-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.734; PVWNFAGYFUUDRC; [M+H]+; 2-Methyl-4-amino-5-(formylaminomethyl)pyrimidine
+COMMENT: CONFIDENCE Level 3: Tentative candidate, 4-amino-5-formamidomethyl-2-methylpyrimidine, PVWNFAGYFUUDRC-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (1);
+CH$NAME: 4-amino-5-formamidomethyl-2-methylpyrimidine
+CH$NAME: N-[(4-amino-2-methylpyrimidin-5-yl)methyl]formamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H10N4O
+CH$EXACT_MASS: 166.085461
+CH$SMILES: CC1=NC=C(C(=N1)N)CNC=O
+CH$IUPAC: InChI=1S/C7H10N4O/c1-5-10-3-6(2-9-4-12)7(8)11-5/h3-4H,2H2,1H3,(H,9,12)(H2,8,10,11)
+CH$LINK: CHEBI CHEBI:85895
+CH$LINK: INCHIKEY PVWNFAGYFUUDRC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:597195
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -97,6 +112,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 2.490
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 167.092777
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-015i-4900000000-79473f157a4c7a051d59

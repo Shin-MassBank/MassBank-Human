@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0116010
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; diethyl(propyl)amine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -119,14 +120,28 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -165.802; QHZRZIWCGRXBRY; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -173.651; FGALPHNSQJNSNG; [M+H]+; 2,3,3-trimethylbutan-2-amine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -181.414; WVYNIWHEHBSTSB; [M+H]+; 3-Methyl-2-hexanamine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.592; PQZTVWVYCLIIJY; [M+H]+; Diethylpropylamine
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C7H18N1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -55.984; PQZTVWVYCLIIJY; [M+H]+; Diethylpropylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -83.029; ULWOJODHECIZAU; [M+H]+; Diethyl(propan-2-yl)azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -108.083; UVBMZKBIZUWTLV; [M+H]+; Methyldipropylaminium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -109.464; SEACXNRNJAXIBM; [M+H]+; n,n-Diethyl-n-methylethanaminium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -117.324; ISRXMEYARGEVIU; [M+H]+; N-propan-2-yl-N-(trideuteriomethyl)propan-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -137.217; WHXPIXBWEZSBJL; [M+H]+; (2,2-Dimethylpropyl)(ethyl)amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.197; CWYZDPHNAGSFQB; [M+H]+; 1-Butanamine, N-propyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -150.112; JLEIRAYWBMNMKU; [M+H]+; 3-Ethylpentan-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -151.984; SQGSVBHTFQOZDL; [M+H]+; (2-methylpropyl)(propyl)amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -152.403; ZOZZQPFBMNNPPO; [M+H]+; 1-Propanaminium, N-ethyl-N,N-dimethyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.724; PQZTVWVYCLIIJY; [M+H]+; Diethylpropylamine
+COMMENT: CONFIDENCE Level 3: Tentative candidate, diethyl(propyl)amine, PQZTVWVYCLIIJY-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (4), MetFrag:MsfinderDB (1);
+CH$NAME: diethyl(propyl)amine
+CH$NAME: N,N-diethylpropan-1-amine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H17N
+CH$EXACT_MASS: 115.136100
+CH$SMILES: CCCN(CC)CC
+CH$IUPAC: InChI=1S/C7H17N/c1-4-7-8(5-2)6-3/h4-7H2,1-3H3
+CH$LINK: CHEBI CHEBI:88180
+CH$LINK: INCHIKEY PQZTVWVYCLIIJY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:78206
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -142,6 +157,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 3.101
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 116.143220
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-03xr-7900000000-8d4857af8929b211a1ba

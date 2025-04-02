@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0223001
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Annotated; Diethyl phthalic acid; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was annotated at Level 2a automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -78,14 +79,14 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.066; C13H7N3; [M+H3N+H]+; delta(ppm) -6.15
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -0.409; C7H15N5P; [M+Na]+; delta(ppm) 41975.899094
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -6.343; H12N10O3; [M+Na]+; delta(ppm) 41961.889374
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H14O4; [M+H]+; delta(ppm) -0.158526
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.984; C10H15FNO2; [M+Na]+; delta(ppm) 41965.308509
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.464; C7H12ClN3O2; [M+H3N+H]+; delta(ppm) -97125.069214
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.323; C9H14ClO3; [M+H3N+H]+; delta(ppm) -97129.975212
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.114; C6H12N3O3P; [M+H3N+H]+; delta(ppm) 4.474291
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.048; C5H11N5O2S; [M+H3N+H]+; delta(ppm) -3.232524
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.034; C8H14O4P; [M+H3N+H]+; delta(ppm) -1.544037
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.017; C10H9N2O3; [M+H3N+H]+; delta(ppm) 5.859819
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.016; C5H14F2N4O2; [M+Na]+; delta(ppm) 41966.281850
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.981; C10H15FNO2; [M+Na]+; delta(ppm) 41965.308509
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.442; C7H12ClN3O2; [M+H3N+H]+; delta(ppm) -97125.069214
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.347; C9H14ClO3; [M+H3N+H]+; delta(ppm) -97129.975212
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.113; C6H12N3O3P; [M+H3N+H]+; delta(ppm) 4.474291
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.044; C5H11N5O2S; [M+H3N+H]+; delta(ppm) -3.232524
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.039; C8H14O4P; [M+H3N+H]+; delta(ppm) -1.544037
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.019; C5H14F2N4O2; [M+Na]+; delta(ppm) 41966.281850
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.015; C10H9N2O3; [M+H3N+H]+; delta(ppm) 5.859819
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 20.000; FLKPEMZONWLCSK-UHFFFAOYSA-N; C12H14O4; Spectral Match to Diethyl phthalate from NIST14
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; RZJSUWQGFCHNFS-UHFFFAOYSA-N; C12H14O4; MoNA:2792607 Isobutyl hydrogen phthalate
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; WXVFMRKUWGIPRB-UHFFFAOYSA-N; C12H14O4; Massbank:UF420601 Mono-iso-butyl phthalateMonoisobutylphthalic Acid3-(2-Methylpropyl)phthalic acid
@@ -514,14 +515,40 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -247.524; QZYOCLVDEHOOLT; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.345; SUJFLVSMVSJQDE; [M+Na]+; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.297; FLKPEMZONWLCSK; [M+H]+; Neantine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.162; WWPDRTXZZHBFQT; [M+H3N+H]+; 2-Chloro-N-(2-(2-oxo-1-imidazolidinyl)ethyl)acetamide
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C12H15O4; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(3);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -28.768; FLKPEMZONWLCSK; [M+H]+; Diethyl Phthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -71.400; RZJSUWQGFCHNFS; [M+H]+; 2-[(2-methylpropoxy)carbonyl]benzoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -87.794; DXZDQAVFOSZAPZ; [M+H3N+H]+; 1-Diethoxyphosphoryl-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -88.600; YZBOVSFWWNVKRJ; [M+H]+; Monobutylphthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -111.513; USZVTXIEQADBGH; [M+H]+; Mono-sec-butyl phthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -114.415; PBUQZKXKYSAJDO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -132.640; GVXGJKYPAGDEAW; [M+H3N+H]+; Methyl di(aziridin-1-yl)phosphorylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -133.878; SBIWJHLNZDASSN; [M+H3N+H]+; 3-Chloro-4-(2,3-dimethoxypropyl)-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -134.849; QGUMLMOOOWRGMS; [M+H3N+H]+; 5,5-Dimethyl-2-(azidomethyl)-1,3,2-dioxaphosphorinane 2-oxide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -142.881; PPLJLBMXZNCNBS; [M+H3N+H]+; Ethyl 2-(3-aminochloranuidylpyrazol-1-yl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.860; RVNGQCGNUCQEJZ; [M+H3N+H]+; Ethyl 2-(4-aminochloranuidylpyrazol-1-yl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -145.906; GMGCJQUIVMNRPE; [M+H3N+H]+; 5-(1-chloroethyl)-N-(2-methoxyethyl)-1,3,4-oxadiazol-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.154; KZTKYNFHJKOGSO; [M+H3N+H]+; 3-chloro-5-[2-(2-methoxyethoxy)ethyl]-1H-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -147.914; ROEWWNGHWAMPEN; [M+H3N+H]+; 3-Chloro-4-[2-(2-methoxyethoxy)ethyl]-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -147.944; IEVURKKTQVVMRY; [M+H3N+H]+; N-[2-[amino(2-cyanoethoxy)phosphanyl]oxyethyl]formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -163.626; JLVWYWVLMFVCDI; [M+H]+; Diethyl isophthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -169.171; ONIHPYYWNBVMID; [M+H]+; Diethyl terephthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -181.245; ZYFMKIYAGDGYLM; [M+H]+; 8-(acetyloxy)octa-3,5-diyn-1-yl acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -190.824; LFWWWRPUVDIHKC; [M+H]+; 2-Butyne-1,4-diol dimethacrylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -204.542; XWROHOGFYZQROV; [M+H]+; Ethyl 2-phenylethyl oxalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.821; FLKPEMZONWLCSK; [M+H]+; Diethyl Phthalate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.384; DXZDQAVFOSZAPZ; [M+H3N+H]+; 1-Diethoxyphosphoryl-1,2,4-triazole
+COMMENT: CONFIDENCE Level 2a: Probable structure by library spectrum match Diethyl phthalic acid, FLKPEMZONWLCSK-UHFFFAOYSA-N; Matching to 20 measured spectra (Dot product > 0.7); Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (3), MetFrag:MsfinderDB (5), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0094660;
+CH$NAME: Diethyl phthalic acid
+CH$NAME: diethyl benzene-1,2-dicarboxylate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H14O4
+CH$EXACT_MASS: 222.089209
+CH$SMILES: CCOC(=O)C1=CC=CC=C1C(=O)OCC
+CH$IUPAC: InChI=1S/C12H14O4/c1-3-15-11(13)9-7-5-6-8-10(9)12(14)16-4-2/h5-8H,3-4H2,1-2H3
+CH$LINK: CHEBI CHEBI:34698
+CH$LINK: HMDB HMDB0094660
+CH$LINK: INCHIKEY FLKPEMZONWLCSK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6781
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -537,6 +564,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 1.015
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 223.096450
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-006t-3930000000-c36b79e8e12583fcd537

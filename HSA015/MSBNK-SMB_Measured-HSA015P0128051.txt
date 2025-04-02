@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0128051
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; N-ethylsuccinimide; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -280,14 +281,28 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -460.730; QFOLRXLMTRGIOM; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -480.857; AMANOVBJYCBOPN; [M+H]+; ACMC-20lesn
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -482.940; CVWNXZIWTGVJNP; [M+H]+; 3-Furanmethanol,5-(aminomethyl)-
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.276; YLHUPYSUKYAIBW; [M+H]+; N-Acetylpyrrolidone
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C6H10N1O2; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -39.166; GHAZCVNUKKZTLG; [M+H]+; 1-ethylpyrrolidine-2,5-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -81.461; NIXKACOKLPRDMY; [M+H]+; 1,3-Dimethylpyrrolidine-2,5-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -97.346; SVYVGSZXUSLKOI; [M+H]+; 2,2-Dimethylpropanecarbonyl isocyanate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -100.696; YLHUPYSUKYAIBW; [M+H]+; N-Acetyl-2-pyrrolidone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -100.726; JVQHRYVXOWBSNS; [M+H]+; 3,3-Dimethylpyrrolidine-2,5-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -122.163; VUYOLIKWIVQHBC; [M+H]+; 1-Methylpiperidine-2,6-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -134.868; OTQNZVVDFWNHDO; [M+H]+; 3-Methylglutarimide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -148.748; FKSYDGDUCSZRHR; [M+H]+; Cyclopropanecarboxamide, N-acetyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -153.917; TZPHOIMASXVLQZ; [M+H]+; Methyl 2-cyano-2-methylpropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -156.920; OSNDUYDDOHEKEE; [M+H]+; Adipimide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.810; GHAZCVNUKKZTLG; [M+H]+; 1-ethylpyrrolidine-2,5-dione
+COMMENT: CONFIDENCE Level 3: Tentative candidate, N-ethylsuccinimide, GHAZCVNUKKZTLG-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (5), MetFrag:MsfinderDB (2), MetFrag:PubchemLite (5);
+CH$NAME: N-ethylsuccinimide
+CH$NAME: 1-ethylpyrrolidine-2,5-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9NO2
+CH$EXACT_MASS: 127.063329
+CH$SMILES: CCN1C(=O)CCC1=O
+CH$IUPAC: InChI=1S/C6H9NO2/c1-2-7-5(8)3-4-6(7)9/h2-4H2,1H3
+CH$LINK: CHEBI CHEBI:44348
+CH$LINK: INCHIKEY GHAZCVNUKKZTLG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:16842
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -303,6 +318,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 4.228
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 128.070617
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0fi0-9600000000-39dee4422527ff1d29bf

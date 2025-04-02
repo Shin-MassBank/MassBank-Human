@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0376000
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; N-[3,5-bis(2,2-dimethylpropanoylamino)phenyl]-2,2-dimethylpropanamide; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -157,14 +158,37 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -644.897; OXHIJBISUPBBOF; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -653.799; SWKFANOTEGEVNM; [M+H]+; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.615; CPEULHAPWXMDDV; [M+H]+; 1,3,5-Tris(2,2-dimethylpropionylamino)benzene
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.061; XQDCICXPUBHGFC; [M+Na]+; nan
-COMMENT: CONFIDENCE Level 5: Exact mass of interest 376.259398; Observed in MS1; Charge state +1;
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -127.441; CPEULHAPWXMDDV; [M+H]+; 1,3,5-Tris(2,2-dimethylpropionylamino)benzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -167.596; MLXGAQPNKNKHFT; [M+Na]+; N-[2-(tert-butylamino)-2-oxoethyl]-1-(2,2-dimethylpropanoyl)-N-ethylpiperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -205.819; RLAZOTLGBIQCQU; [M+Na]+; N-butyl-1-[3-(2,2-dimethylpropanoylamino)propanoyl]-N-methylpiperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -224.071; HTARIRAXEWMNOE; [M+Na]+; 1,1,3,5-Tetrabutyl-1,3,5-triazinan-1-ium-2,4,6-trione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -226.877; MFTWUEVWDZPAHU; [M+Na]+; Tert-butyl 4-[2-methyl-1-(4-methylpiperidin-1-yl)-1-oxopropan-2-yl]piperazine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -229.122; IOERDGSJBYKSNG; [M+Na]+; 1-(2,2-dimethylpropanoyl)-N-(2-methyl-2-morpholin-4-ylpropyl)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -230.942; OQUJETIQVZQEPV; [M+Na]+; Tert-butyl 4-[(2-methyl-2-pyrrolidin-1-ylpropyl)carbamoyl]piperidine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -234.352; QLOCRQBDSMVWOW; [M+Na]+; tert-butyl N-methyl-N-[1-[2-(4-methylpiperidin-1-yl)-2-oxoethyl]piperidin-4-yl]carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -238.552; MQYWOKJEGZWPGD; [M+Na]+; N-(3-methyl-2-morpholin-4-ylbutyl)-1-(2-methylpropanoyl)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -239.334; XYTJGKDEYPWRCZ; [M+Na]+; Tert-butyl 3-[(4-piperidin-4-yloxypiperidin-1-yl)methyl]azetidine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -240.552; FLMAQTIUZUVUFE; [M+Na]+; 2-methyl-N-[1-[1-(2-methylpropanoyl)piperidin-4-yl]-2-(2-methylpropylamino)-2-oxoethyl]propanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -360.516; LGMKNZMQTXSHAP; [M+H]+; 3-ethyl-4-({[(4-methoxyphenyl)methyl]carbamoyl}methyl)-N-(propan-2-yl)piperidine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -415.129; LGHOQGJXSWWDLY; [M+H]+; N-cyclohexyl-3-ethyl-4-({[(furan-2-yl)methyl]carbamoyl}methyl)piperidine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -462.739; ZLPITHGIDOIWHH; [M+H]+; 1-(2-methoxyethyl)-4,6-dimethyl-N-[(octahydro-1H-quinolizin-1-yl)methyl]-2-oxo-1,2-dihydropyridine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -468.268; NYYSFOJJGVOLRP; [M+H]+; N-Cyclohexyl-N'-(4-(3-(cyclopentylamino)-2-hydroxypropoxy)phenyl)urea
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -476.432; NJPGXAWJOOZZSK; [M+H]+; 1-(2-methoxyethyl)-3-(4-methoxyphenyl)-1-[(octahydro-1H-quinolizin-1-yl)methyl]urea
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -503.997; KWSQSLXUCMXPFT; [M+H]+; 8-cyclohexanecarbonyl-3-(cyclohexylmethyl)-octahydro-1H-[1,4]diazino[1,2-a]pyrazine-1,4-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -532.528; RPVNZYMPVDVEJI; [M+H]+; 1-[(2S,3S,4S)-4-ethyl-2-(hydroxymethyl)-3-[(4-methylpiperazin-1-yl)methyl]pyrrolidin-1-yl]-2-phenoxyethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -543.069; VJWMPGDTTOSZMW; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -567.057; XBYILEKMFVLNDJ; [M+H]+; 6-((4-(Diethylamino)-1-methylbutyl)amino)-5,8-dimethoxy-4-quinolinemethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.805; CPEULHAPWXMDDV; [M+H]+; 1,3,5-Tris(2,2-dimethylpropionylamino)benzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.298; MLXGAQPNKNKHFT; [M+Na]+; N-[2-(tert-butylamino)-2-oxoethyl]-1-(2,2-dimethylpropanoyl)-N-ethylpiperidine-4-carboxamide
+COMMENT: CONFIDENCE Level 3: Tentative candidate, 1,3,5-Tris(2,2-dimethylpropionylamino)benzene, CPEULHAPWXMDDV-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 MetFrag:PubchemLite (2); This structural isomer was suggested from the biological context HMDB HMDB0094680;
+CH$NAME: N-[3,5-bis(2,2-dimethylpropanoylamino)phenyl]-2,2-dimethylpropanamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C21H33N3O3
+CH$EXACT_MASS: 375.252192
+CH$SMILES: CC(C)(C)C(=O)NC1=CC(=CC(=C1)NC(=O)C(C)(C)C)NC(=O)C(C)(C)C
+CH$IUPAC: InChI=1S/C21H33N3O3/c1-19(2,3)16(25)22-13-10-14(23-17(26)20(4,5)6)12-15(11-13)24-18(27)21(7,8)9/h10-12H,1-9H3,(H,22,25)(H,23,26)(H,24,27)
+CH$LINK: INCHIKEY CPEULHAPWXMDDV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:53421640
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -180,29 +204,30 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 15.251
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 376.259398
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-004i-2029000000-e2bf7c6d3ccc2b2b5432
-PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
-  57.0701435 350.4240 ? 57.070860 0.3154 31.05 0.9969 35
-  58.0734697 14.5134 ? 58.074190 0.7232 1.97 0.9573 31
-  125.0709360 43.7359 ? 125.071325 0.7676 5.28 0.9896 34
-  126.0549764 42.5000 ? 126.055355 0.6664 5.32 0.9780 32
-  208.1446661 16.0399 ? 208.145097 0.9465 2.94 0.9214 26
-  209.1284317 105.1756 ? 209.128860 0.6216 11.08 0.9972 34
-  210.1125394 13.6500 ? 210.112965 1.1613 2.36 0.9808 29
-  210.1320420 12.9466 ? 210.132468 1.0041 3.72 0.9653 30
-  218.1286913 40.0126 ? 218.129095 0.6739 4.66 0.9879 32
-  219.1128193 26.6437 ? 219.113220 1.0588 2.56 0.9901 32
-  275.1750898 72.1271 ? 275.175480 0.9667 7.50 0.9947 35
-  276.1785866 13.4600 ? 276.178978 1.2890 2.91 0.9077 25
-  292.2017466 77.1509 ? 292.202150 0.7803 6.26 0.9953 33
-  293.1837358 67.5457 ? 293.184140 1.0471 4.33 0.9952 32
-  302.1861694 165.6677 ? 302.186580 0.4997 12.64 0.9964 35
-  303.1893990 32.8358 ? 303.189810 1.2204 4.24 0.9898 30
-  376.2594396 999.0000 ? 376.259890 0.3668 0.00 1.0000 35
-  377.2624893 243.7305 ? 377.262940 0.8032 12.43 0.9985 34
-  378.2651864 17.2066 ? 378.265638 1.2134 7.25 0.9135 28
+PK$ANNOTATION: m/z int m/z_nocal m/z_std(ppm) int_std cor n annotation
+  57.0701435 350.4240 57.070860 0.3154 31.05 0.9969 35 f{C4H9}/4.68ppm,p-C17H25N3O3
+  58.0734697 14.5134 58.074190 0.7232 1.97 0.9573 31 ?
+  125.0709360 43.7359 125.071325 0.7676 5.28 0.9896 34 f{C6H9N2O1}/-0.03ppm,p-C15H25N1O2
+  126.0549764 42.5000 126.055355 0.6664 5.32 0.9780 32 f{C6H8N1O2}/0.17ppm,p-C15H26N2O1
+  208.1446661 16.0399 208.145097 0.9465 2.94 0.9214 26 f{C13H20O2}/-5.36ppm,p-C8H14N3O1
+  209.1284317 105.1756 209.128860 0.6216 11.08 0.9972 34 f{C11H17N2O2}/-0.11ppm,p-C10H17N1O1
+  210.1125394 13.6500 210.112965 1.1613 2.36 0.9808 29 f{C11H16N1O3}/0.33ppm,p-C10H18N2
+  210.1320420 12.9466 210.132468 1.0041 3.72 0.9653 30 ?
+  218.1286913 40.0126 218.129095 0.6739 4.66 0.9879 32 f{C14H18O2}/-6.60ppm,p-C7H16N3O1
+  219.1128193 26.6437 219.113220 1.0588 2.56 0.9901 32 f{C12H15N2O2}/0.07ppm,p-C9H19N1O1
+  275.1750898 72.1271 275.175480 0.9667 7.50 0.9947 35 f{C16H23N2O2}/-1.14ppm,p-C5H11N1O1
+  276.1785866 13.4600 276.178978 1.2890 2.91 0.9077 25 ?
+  292.2017466 77.1509 292.202150 0.7803 6.26 0.9953 33 f{C18H28O3}/-5.30ppm,p-C3H6N3
+  293.1837358 67.5457 293.184140 1.0471 4.33 0.9952 32 f{C16H25N2O3}/-7.62ppm,p-C5H9N1
+  302.1861694 165.6677 302.186580 0.4997 12.64 0.9964 35 f{C19H26O3}/-4.89ppm,p-C2H8N3
+  303.1893990 32.8358 303.189810 1.2204 4.24 0.9898 30 ?
+  376.2594396 999.0000 376.259890 0.3668 0.00 1.0000 35 f{C21H34N3O3}/-0.08ppm,p
+  377.2624893 243.7305 377.262940 0.8032 12.43 0.9985 34 ?
+  378.2651864 17.2066 378.265638 1.2134 7.25 0.9135 28 ?
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
   57.070144 350.42 350

@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0294000
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; N-(1-Deoxy-1-fructosyl)isoleucine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -72,14 +73,26 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -30.741; VYGRYVGDPYFVCA; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -45.872; KGTRBDVOUPALMB; [M+H]+; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -213.674; NGGZJRAGGXAXNO; [M+H]+; 2,4-dihydroxy-N-(4-hydroxy-5,6-dimethoxy-2-methyloxan-3-yl)butanamide
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.576; VYGRYVGDPYFVCA; [M+H]+; nan
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C12H24N1O7; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(2), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -46.906; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -76.687; KGTRBDVOUPALMB; [M+H]+; 4-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -150.444; PJDOVJGKERKCDL; [M+H]+; (2S,3S)-2-[[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]amino]-3-methylpentanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -192.994; SUJMXWJDAZRXGY; [M+H]+; (2S)-2-[[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]amino]-4-methylpentanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -219.827; BUGJJLOUCDBMAS; [M+H]+; N-(1-deoxy-d-fructos-1-yl) leucine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -289.067; HORCTLJYNYMSOF; [M+H]+; 6-[[(3S,4R,5R)-3,4,5,6-tetrahydroxy-2-oxohexyl]amino]hexanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -290.325; NGGZJRAGGXAXNO; [M+H]+; Methyl 2-O-methyl-4-[(2,4-dihydroxybutyryl)amino]-4,6-dideoxy-alpha-D-mannopyranoside
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -418.183; CLDWQVMPZRSBPB; [M+H]+; 3,4,5-Trihydroxypentanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.754; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid
+COMMENT: CONFIDENCE Level 3: Tentative candidate, N-(1-Deoxy-1-fructosyl)isoleucine, VYGRYVGDPYFVCA-PZIRIOGLNA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (2), MetFrag:MsfinderDB (1); This structural isomer was suggested from the biological context HMDB HMDB0039780;
+CH$NAME: N-(1-Deoxy-1-fructosyl)isoleucine
+CH$NAME: (2S)-3-methyl-2-[[(3S,4S,5R)-2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methylamino]pentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H23NO7
+CH$EXACT_MASS: 293.147452
+CH$SMILES: CCC(C)[C@@H](C(=O)O)NCC1([C@H]([C@@H]([C@H](O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO7/c1-3-6(2)8(11(17)18)13-5-12(19)10(16)9(15)7(4-14)20-12/h6-10,13-16,19H,3-5H2,1-2H3,(H,17,18)/t6?,7-,8+,9-,10+,12?/m1/s1
+CH$LINK: HMDB HMDB0039780
+CH$LINK: INCHIKEY VYGRYVGDPYFVCA-MFPOTZKYSA-N
+CH$LINK: PUBCHEM CID:131752725
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -95,6 +108,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 3.098
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 294.154720
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0059-4290000000-f63fc8a92a0c07e72d24

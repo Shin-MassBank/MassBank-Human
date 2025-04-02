@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0090010
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; Dimethylethanolamine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -119,14 +120,29 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -197.864; FAXDZWQIWUSWJH; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -199.499; KKVUFSINQFSJNK; [M+H]+; O-tert-butylhydroxylamine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -232.881; VKPHHYUEMRNFSX; [M+H]+; 2-amino-2-butanol
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.535; UEEJHVSXFDXPFK; [M+H]+; Kalpur P
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C4H12N1O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.970; UEEJHVSXFDXPFK; [M+H]+; 2-(dimethylamino)ethan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.604; KOHBEDRJXKOYHL; [M+H]+; 2-Methoxy-N-methylethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.434; AEKHFLDILSDXBL; [M+H]+; 1-(Methylamino)propan-2-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -95.096; MDLKWDQMIZRIBY; [M+H]+; (1R)-1-(dimethylamino)ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -103.962; PXWASTUQOKUFKY; [M+H]+; 1-Hydroxypropan-2-yl(methyl)azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -108.635; BZEJNWVXEGJKEX; [M+H]+; Ethyl-hydroxy-dimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -111.019; MECBYDXMJQGFGQ; [M+H]+; Dimethylethylamine-N-oxide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -112.669; KRGXWTOLFOPIKV; [M+H]+; 3-(Trideuteriomethylamino)propan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -115.380; MIJDSYMOBYNHOT; [M+H]+; 2-(ethylamino)ethan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -115.914; YFTNTMQKPLVKFQ; [M+H]+; 1-methoxy-N,N-dimethylmethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.910; UEEJHVSXFDXPFK; [M+H]+; 2-(dimethylamino)ethan-1-ol
+COMMENT: CONFIDENCE Level 3: Tentative candidate, Dimethylethanolamine, UEEJHVSXFDXPFK-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (2), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (2), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0032231;
+CH$NAME: Dimethylethanolamine
+CH$NAME: 2-(dimethylamino)ethanol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H11NO
+CH$EXACT_MASS: 89.084064
+CH$SMILES: CN(C)CCO
+CH$IUPAC: InChI=1S/C4H11NO/c1-5(2)3-4-6/h6H,3-4H2,1-2H3
+CH$LINK: CHEBI CHEBI:271436
+CH$LINK: HMDB HMDB0032231
+CH$LINK: INCHIKEY UEEJHVSXFDXPFK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:7902
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -142,6 +158,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 1.834
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 90.091326
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-00dl-9000000000-e8f2299ecbfde4bbf668

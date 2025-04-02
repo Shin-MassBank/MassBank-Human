@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0280004
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; Linoleamide; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -59,14 +60,30 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.623; CXUNGJFNAGVPSI; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -316.244; LRKXDIHJVKQTHF; [M+H]+; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -398.008; OGLNWBXTRBZBNR; [M+H]+; (1S,2S,5R)-1-[4-(diethylamino)but-2-ynyl]-5-methyl-2-propan-2-ylcyclohexan-1-ol
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.604; SFIHQZFZMWZOJV; [M+H]+; linoleamide
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C18H34N1O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.093; SFIHQZFZMWZOJV; [M+H]+; Linoleamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -168.190; QFIHQWXKTUONPL; [M+H]+; Octadecadienamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.985; AGJAUFUNZWHLKE; [M+H]+; Tetradeca-2E,4E-Dienoic Acid Isobutylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -305.181; CJPAHDXHCYFKCY; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -310.488; CXUNGJFNAGVPSI; [M+H]+; 1-(5-methyl-4-undecyl-2,3-dihydro-1H-pyrrol-1-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -348.448; QXXLUPWSUAZMPG; [M+H]+; Cyclohexanecarboxamide, 4-(cyclohexylmethyl)-N-butyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -365.948; KPEBWQGRAPDCOD; [M+H]+; N-[(Z)-11-methyldodec-2-enoyl]piperidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -417.397; LRKXDIHJVKQTHF; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -419.750; PIKBMJHEEKMGLM; [M+H]+; 2-Decylidene-5-[(dimethylamino)methyl]cyclopentan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -430.563; OGLNWBXTRBZBNR; [M+H]+; Cyclohexanol, 1-(4-(diethylamino)-2-butynyl)-5-methyl-2-(1-methylethyl)-, (1-alpha,2-alpha,5-beta)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.919; SFIHQZFZMWZOJV; [M+H]+; Linoleamide
+COMMENT: CONFIDENCE Level 3: Tentative candidate, Linoleamide, SFIHQZFZMWZOJV-HZJYTTRNSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (3), MetFrag:MsfinderDB (2), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0062656;
+CH$NAME: Linoleamide
+CH$NAME: (9Z,12Z)-octadeca-9,12-dienamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C18H33NO
+CH$EXACT_MASS: 279.256215
+CH$SMILES: CCCCC/C=C\C/C=C\CCCCCCCC(=O)N
+CH$IUPAC: InChI=1S/C18H33NO/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H2,19,20)/b7-6-,10-9-
+CH$LINK: CHEBI CHEBI:82984
+CH$LINK: HMDB HMDB0062656
+CH$LINK: INCHIKEY SFIHQZFZMWZOJV-HZJYTTRNSA-N
+CH$LINK: LIPIDMAPS LMFA08010008
+CH$LINK: PUBCHEM CID:6435901
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -82,6 +99,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 16.691
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.263548
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-001i-9650000000-58dbcbb355af3b28478c

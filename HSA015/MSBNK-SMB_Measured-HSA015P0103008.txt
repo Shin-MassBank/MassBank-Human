@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0103008
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; N-nitrosodiethylamine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -113,14 +114,28 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -166.202; JHRDEHLFNLLCQS; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -172.392; MKQLBNJQQZRQJU; [M+H]+; 4-Morpholinamine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -210.133; YNHNXXYVCYCNJQ; [M+H]+; 1,4,5-oxadiazepane
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.332; WKJOQYHMXRVQDK; [M+H]+; 2-dimethylaminoacetamide
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C4H11N2O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.855; WBNQDOYYEUMPFS; [M+H]+; diethyl(nitroso)amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.319; SZOHWYCBDJPVGO; [M+H]+; Azoxyethane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -78.822; KNVRBEGQERGQRP; [M+H]+; 2-amino-N,N-dimethylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -81.780; KQDYNYCCEGQPTN; [M+H]+; N-Methyl-N-nitroso-2-propanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -82.816; ITBDKUCVKYSWMF; [M+H]+; Methylpropylnitrosamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -84.165; WKJOQYHMXRVQDK; [M+H]+; 2-(dimethylamino)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -94.500; NODGJSNKUCVLNN; [M+H]+; 2-Hydroxy-N-methyl-2-(methylimino)ethan-1-aminium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -107.968; IABRWXCXQSTUSS; [M+H]+; [Ethylamino(hydroxy)methylidene]-methylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -117.058; UIWVQFSAXYWENY; [M+H]+; Acetic acid, 2-ethylhydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.828; SLIKWWJXVUHCPJ; [M+H]+; Acetamido(dimethyl)azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.688; WBNQDOYYEUMPFS; [M+H]+; diethyl(nitroso)amine
+COMMENT: CONFIDENCE Level 3: Tentative candidate, N-nitrosodiethylamine, WBNQDOYYEUMPFS-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (4), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (1);
+CH$NAME: N-nitrosodiethylamine
+CH$NAME: N,N-diethylnitrous amide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H10N2O
+CH$EXACT_MASS: 102.079313
+CH$SMILES: CCN(CC)N=O
+CH$IUPAC: InChI=1S/C4H10N2O/c1-3-6(4-2)5-7/h3-4H2,1-2H3
+CH$LINK: CHEBI CHEBI:34873
+CH$LINK: INCHIKEY WBNQDOYYEUMPFS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5921
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -136,6 +151,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 3.734
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 103.086566
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0udi-5900000000-8eaf18ae6a737f57cdef

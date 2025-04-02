@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0123022
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; 2-Ethyl-6-methylpyrazine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -255,14 +256,28 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -294.754; CSDFHCDNAZPVKH; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -301.303; NHOWLEZFTHYCTP; [M+H]+; benzyldiazanium
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -312.614; LPYPLAQDFKKIEA; [M+H]+; cyclohexa-1,5-diene-1-carboximidamide
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.189; OXCKCFJIKRGXMM; [M+H]+; 2-Methyl-5-ethylpyrazine
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C7H11N2; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.170; RAFHQTNQEZECFL; [M+H]+; 2-ethyl-6-methylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.212; LNIMMWYNSBZESE; [M+H]+; 2-ethyl-3-methylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.659; IAEGWXHKWJGQAZ; [M+H]+; Trimethylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -27.342; OXCKCFJIKRGXMM; [M+H]+; 2-ethyl-5-methylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -54.762; GIMBKDZNMKTZMG; [M+H]+; 2-(propan-2-yl)pyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -58.594; DJLLTFRHLPVCEL; [M+H]+; 2-propylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -83.411; FSYHJEBPLDNXAM; [M+H]+; 2,4-Dimethylpyridin-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -87.115; TUJPHMQZSDKRSL; [M+H]+; tert-Butylmalononitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -92.953; SHSQTJRJQHPJRQ; [M+H]+; 4,6-Dimethylpyridin-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -94.855; SLCCNZAJZZHXSD; [M+H]+; 3-cyclopropyl-1-methyl-1H-pyrazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.864; RAFHQTNQEZECFL; [M+H]+; 2-ethyl-6-methylpyrazine
+COMMENT: CONFIDENCE Level 3: Tentative candidate, 2-Ethyl-6-methylpyrazine, RAFHQTNQEZECFL-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (4), MS-FINDER:MsfinderDB (5), MetFrag:MsfinderDB (3); This structural isomer was suggested from the biological context HMDB HMDB0041569;
+CH$NAME: 2-Ethyl-6-methylpyrazine
+CH$NAME: 2-ethyl-6-methylpyrazine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H10N2
+CH$EXACT_MASS: 122.084398
+CH$SMILES: CCC1=NC(=CN=C1)C
+CH$IUPAC: InChI=1S/C7H10N2/c1-3-7-5-8-4-6(2)9-7/h4-5H,3H2,1-2H3
+CH$LINK: HMDB HMDB0041569
+CH$LINK: INCHIKEY RAFHQTNQEZECFL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:26332
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -278,6 +293,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 2.501
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 123.091662
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-00di-3900000000-0e6bce139f926853b1a8

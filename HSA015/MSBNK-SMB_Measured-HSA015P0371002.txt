@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0371002
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; Octaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -88,9 +89,9 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius -2.525; C9H28N14; [M+K]+; delta(ppm) 117274.
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -3.605; C22H37P; [M+K]+; delta(ppm) 117271.020830
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -5.215; C19H41PS; [M+K]+; delta(ppm) 117259.685147
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -9.157; C18H40NP2; [M+K]+; delta(ppm) 117269.981437
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H32N4O5; [M+Na]+; delta(ppm) 24811.554507
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H34O9; [M+H]+; delta(ppm) -0.083815
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H36N2O4; [M+K]+; delta(ppm) 117256.825837
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H32N4O5; [M+Na]+; delta(ppm) 24811.554507
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.581; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+H]+; OCCOCCOCCOCCOCCOCCOCCOCCO
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.000; AMJDVGHRJYTJTI-UHFFFAOYSA-N; [M+H]+; O=C(NCC1CCCN2CCCCC21)C=3C=NN(C=4C=CC=C(F)C4)C3C
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.000; PJAZASHQRNORRS-UHFFFAOYSA-N; [M+H]+; O=C(NCC1CCCN2CCCCC21)C=3C=NN(C=4C=CC=CC4F)C3C
@@ -123,14 +124,33 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -51.638; GLZWNFNQMJAZGY; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -254.772; WFMQYKIRAVMXSU; [M+Na]+; Fortimicin B
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.572; GLZWNFNQMJAZGY; [M+H]+; PED-diol (n=8)
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.282; WFMQYKIRAVMXSU; [M+Na]+; Fortimicin B
-COMMENT: CONFIDENCE Level 5: Exact mass of interest 371.227528; Observed in MS1; Charge state +1;
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.291; GLZWNFNQMJAZGY; [M+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -234.089; QMXUUWRYSDULNM; [M+K]+; 1-[2-[2-(2-Methoxyethoxy)ethoxy]ethyl]-4-[2-[(2-methylpropan-2-yl)oxy]ethyl]piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -237.205; FMPKKSLBKSXZHF; [M+K]+; 1-[2-[2-[2-(2-Butoxyethoxy)ethoxy]ethoxy]ethyl]piperidin-4-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -238.584; WGRQPKMJCLQTFO; [M+K]+; 2-[2-[2-[2-[(1-Tert-butylpiperidin-4-yl)amino]ethoxy]ethoxy]ethoxy]ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.325; MZMKIJZSXDFESA; [M+K]+; 2-[2-[2-[2-[4-(2-Methylbutan-2-yl)piperazin-1-yl]ethoxy]ethoxy]ethoxy]ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -258.954; BPBLOELQMHULDC; [M+K]+; 2-[Bis(2-hydroxypropyl)amino]ethyl-bis(2-hydroxypropyl)-prop-2-enylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -268.040; LUQPILAMIXOCCR; [M+K]+; N-heptyl-3-[2-[2-[2-(methylamino)ethoxy]ethoxy]ethoxy]propanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -273.074; ZMJQPQYKJJYKJD; [M+K]+; N-pentyl-3-[2-[2-[2-(propan-2-ylamino)ethoxy]ethoxy]ethoxy]propanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -280.176; QLPLTAJCUBVIHN; [M+K]+; N-[6-[2-[2-[2-(propan-2-ylamino)ethoxy]ethoxy]ethoxy]hexyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -290.990; HIAFSDAHSRXJEZ; [M+K]+; tert-butyl N-[4-(2-butoxyethylamino)-5-methoxypentyl]carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -296.951; OIKDBDZGPRKZHM; [M+K]+; tert-butyl N-ethyl-N-[2-[[hydroxy-[(2-methylpropan-2-yl)oxy]methyl]-propylamino]ethyl]carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -392.912; WFMQYKIRAVMXSU; [M+Na]+; 1-Epi-Ft-B
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.658; GLZWNFNQMJAZGY; [M+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.058; QMXUUWRYSDULNM; [M+K]+; 1-[2-[2-(2-Methoxyethoxy)ethoxy]ethyl]-4-[2-[(2-methylpropan-2-yl)oxy]ethyl]piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.037; WFMQYKIRAVMXSU; [M+Na]+; 1-Epi-Ft-B
+COMMENT: CONFIDENCE Level 3: Tentative candidate, Octaethylene glycol, GLZWNFNQMJAZGY-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0094680;
+CH$NAME: Octaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C16H34O9
+CH$EXACT_MASS: 370.220283
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C16H34O9/c17-1-3-19-5-7-21-9-11-23-13-15-25-16-14-24-12-10-22-8-6-20-4-2-18/h17-18H,1-16H2
+CH$LINK: CHEBI CHEBI:44794
+CH$LINK: HMDB HMDB0094680
+CH$LINK: INCHIKEY GLZWNFNQMJAZGY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:78798
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -146,17 +166,18 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 4.883
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 371.227528
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0019-9500000000-ec6de569037dca9a45f0
-PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
-  73.0468921 17.6035 ? 73.047634 0.9309 4.94 0.1620 18
-  87.0440783 49.2875 ? 87.044780 1.1029 9.08 0.7470 24
-  89.0597453 999.0000 ? 89.060437 0.2695 0.00 1.0000 24
-  90.0630743 39.6397 ? 90.063760 1.3324 9.05 0.7324 22
-  91.0573797 22.9100 ? 91.058059 1.4277 10.98 -0.4035 18
-  133.0859782 512.8863 ? 133.086276 0.3006 27.20 0.9739 24
-  177.1121847 124.7444 ? 177.112563 0.9260 13.52 0.9678 24
+PK$ANNOTATION: m/z int m/z_nocal m/z_std(ppm) int_std cor n annotation
+  73.0468921 17.6035 73.047634 0.9309 4.94 0.1620 18 ?
+  87.0440783 49.2875 87.044780 1.1029 9.08 0.7470 24 f{C4H7O2}/0.26ppm,p-C12H28O7
+  89.0597453 999.0000 89.060437 0.2695 0.00 1.0000 24 f{C4H9O2}/0.44ppm,p-C12H26O7
+  90.0630743 39.6397 90.063760 1.3324 9.05 0.7324 22 ?
+  91.0573797 22.9100 91.058059 1.4277 10.98 -0.4035 18 ?
+  133.0859782 512.8863 133.086276 0.3006 27.20 0.9739 24 f{C6H13O3}/0.43ppm,p-C10H22O6
+  177.1121847 124.7444 177.112563 0.9260 13.52 0.9678 24 f{C8H17O4}/0.28ppm,p-C8H18O5
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
   73.046892 17.60 17

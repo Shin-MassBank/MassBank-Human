@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032P0331007
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; POSITIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.25, Processed 2025.02.25, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: MS1_M/Z_AVERAGED_THRES 15.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 60
+COMMENT: NUM_AVERAGED_SPEC 26
+COMMENT: RAW_SPEC {'HC3-pos_7133': {'bp': 2230.0, 'sum': 6970.0}, 'QC2-pos_5149': {'bp': 983.0, 'sum': 2665.0}, 'HC24-pos_5350': {'bp': 395.0, 'sum': 599.0}, 'HC15-pos_6766': {'bp': 981.0, 'sum': 4902.0}, 'HC2-pos_6976': {'bp': 1183.0, 'sum': 3223.0}, 'RA12-pos_6953': {'bp': 757.0, 'sum': 2083.0}, 'HC11-pos_5347': {'bp': 965.0, 'sum': 3260.0}, 'HC8-pos_5216': {'bp': 1403.0, 'sum': 5072.0}, 'HC25-pos_6173': {'bp': 1253.0, 'sum': 3089.0}, 'HC7-pos_6800': {'bp': 793.0, 'sum': 1966.0}, 'HC20-pos_7002': {'bp': 976.0, 'sum': 4443.0}, 'HC5-pos_6782': {'bp': 1614.0, 'sum': 3042.0}, 'HC6-pos_5343': {'bp': 919.0, 'sum': 1786.0}, 'RA26-pos_5094': {'bp': 896.0, 'sum': 2782.0}, 'HC26-pos_5411': {'bp': 400.0, 'sum': 859.0}, 'RA25-pos_5374': {'bp': 880.0, 'sum': 1696.0}, 'RA1-pos_7292': {'bp': 1099.0, 'sum': 4462.0}, 'HC21-pos_5264': {'bp': 1025.0, 'sum': 3779.0}, 'RA18-pos_5973': {'bp': 814.0, 'sum': 1273.0}, 'RA1-pos_7266': {'bp': 1352.0, 'sum': 4616.0}, 'HC23-pos_5217': {'bp': 889.0, 'sum': 3745.0}, 'RA19-pos_6904': {'bp': 1060.0, 'sum': 4780.0}, 'HC19-pos_6557': {'bp': 913.0, 'sum': 1678.0}, 'HC14-pos_6711': {'bp': 1191.0, 'sum': 1497.0}, 'RA21-pos_4584': {'bp': 1738.0, 'sum': 2520.0}, 'QC5-pos_5183': {'bp': 1734.0, 'sum': 2346.0}}
+COMMENT: RETENTION_TIME_STDEV 0.633
+COMMENT: PRECURSOR_M/Z_RAW 331.261502
+COMMENT: PRECURSOR_M/Z_STDEV 0.002009
+COMMENT: PRECURSOR_IN_MS1 mz 331.263638; int 145.028; delta(ppm) 7.983438
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 332.266783; int 37.977; cor 0.935
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 13.850; C19H40P2; [M+H]+; delta(ppm) -13.849864
+COMMENT: PROPOSED_MF SevenGoldenRules 0.203; C22H34O2; [M+H]+; delta(ppm) 0.202873
+COMMENT: PROPOSED_MF SevenGoldenRules 3.331; C16H35N4OP; [M+H]+; delta(ppm) 3.330750
+COMMENT: PROPOSED_MF SevenGoldenRules 12.381; C17H34N2O4; [M+H]+; delta(ppm) 12.381306
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 331.263223; Observed in MS1; Charge state +1;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 15.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.539
+MS$FOCUSED_ION: PRECURSOR_M/Z 331.263223
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-9000000000-538fecac28bd5706f3ef
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  80.9734804 113.3276 ? 80.973674 16.7833 58.30 -0.3095 24
+  98.9840617 999.0000 ? 98.984339 8.1023 0.00 1.0000 26
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  80.973480 113.33 113
+  98.984062 999.00 999
+//

@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0158002
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; N,N-dibutylformamide; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -214,14 +215,26 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.009; JOHKCJPJMSCFBX; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -348.049; CZRCDRZKRJGHGB; [M+H]+; Cyclohexanol, 1-[(dimethylamino)methyl]-
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -359.442; MSYUGRASNIEUCW; [M+H]+; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.311; NBXAPOVFSGOATB; [M+H]+; tert-Octylformamide
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C9H20N1O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -36.922; NZMAJUHVSZBJHL; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -119.506; NTYICSDTCGMBQM; [M+H]+; N,N-Bis(2-methylpropyl)formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -134.377; BPDCZYLPNNLOBD; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -147.428; MSRLXJWEQJQIJQ; [M+H]+; Formamide, N-(2-propylpentyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -156.691; QZMQDHNCNUGQSO; [M+H]+; Isovaleryl diethylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -164.540; NBXAPOVFSGOATB; [M+H]+; N-(1,1,3,3-Tetramethylbutyl)formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -173.790; GRGNJBKJCVOFEO; [M+H]+; 5-Diethylamino-2-pentanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -180.457; JKUFWRDSSYNRPE; [M+H]+; 3-Propyl-2-hexanone oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -182.045; BJXJCAMLWINIQS; [M+H]+; 2,2,4,4-tetramethyl-N-oxidopentan-3-imine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -192.365; XGPJZKQGJWZWIM; [M+H]+; 4-Butoxypiperidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.852; NZMAJUHVSZBJHL; [M+H]+; nan
+COMMENT: CONFIDENCE Level 3: Tentative candidate, N,N-dibutylformamide, NZMAJUHVSZBJHL-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (1), MS-FINDER:MsfinderDB (9), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (2);
+CH$NAME: N,N-dibutylformamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H19NO
+CH$EXACT_MASS: 157.146664
+CH$SMILES: CCCCN(CCCC)C=O
+CH$IUPAC: InChI=1S/C9H19NO/c1-3-5-7-10(9-11)8-6-4-2/h9H,3-8H2,1-2H3
+CH$LINK: INCHIKEY NZMAJUHVSZBJHL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:12975
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -237,6 +250,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 17.103
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 158.153955
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0a4i-3900000000-39914b47222de55de16e

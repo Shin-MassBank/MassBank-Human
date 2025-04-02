@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0112008
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Characterized; Pyridine; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was characterized at Level 3 automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -32,14 +33,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.641; C6H9NO; [M+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.076; C5H5N; [M+CH4O+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H5N; [M+CH4O+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9NO; [M+H]+; delta(ppm) -0.038799
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.200; C6H9NO; [M+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.200; C5H5N; [M+CH4O+H]+; delta(ppm) -0.038799
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.200; C6H9NO; [M+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.045; C2H6FNO; [M+CH4O+H]+; delta(ppm) -10.234071
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.658; C4H7N4; [M+H]+; delta(ppm) 11.941316
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.588; FH4N4; [M+CH4O+H]+; delta(ppm) 1.745799
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.983; CH8N2P; [M+CH4O+H]+; delta(ppm) -2.796776
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9NO; [M+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H5N; [M+CH4O+H]+; delta(ppm) -0.038799
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9NO; [M+H]+; delta(ppm) -0.038799
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.951; LSCVJPYMXOAEPX-UHFFFAOYSA-N; [M+H]+; C1CC(OC1)CC#N
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.940; OYVDXEVJHXWJAE-UHFFFAOYNA-N; [M+H]+; OC1=NC(CC1)C=C
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.903; FUWRNKPZYXVMOZ-UHFFFAOYSA-N; [M+H]+; CC1=C(O)C(=N)CC1
@@ -231,14 +232,34 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -351.009; JBJAKJOQAZHEJQ; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -358.486; DGLIOWSKNOCHEX; [M+H]+; N-Methylfurfurylamine
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.415; JUJWROOIHBZHMG; [M+CH4O+H]+; Piridina
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.399; OYVDXEVJHXWJAE; [M+H]+; 5-vinyl-2-pyrrolidinone
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C6H10N1O1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.967; JUJWROOIHBZHMG; [M+CH4O+H]+; Pyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -64.326; VMUWIDHKAIGONP; [M+CH4O+H]+; Pent-4-ynenitrilium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -79.100; BNRZOEZQEJCZET; [M+H]+; (Isocyanatomethyl)cyclobutane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -86.461; ODVZOLHCWVKMBM; [M+H]+; N-(but-3-yn-1-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -89.213; STSRVFAXSLNLLI; [M+CH4O+H]+; 2,4-Pentadienenitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -92.677; PYHHTRXGWNQGSN; [M+H]+; 5-Isocyanatopent-1-ene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.355; ZEKCQHIPQALHSP; [M+H]+; 1-(2,2-Dideuterio-1,3-dihydropyrrol-5-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.460; ALECLTWKEFBVTA; [M+H]+; 1,3,6,7-Tetrahydro-2H-azepin-2-on
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -97.893; AEVMBQIIZGKQRB; [M+H]+; 5-Oxohexanenitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -99.165; CNPHCSFIDKZQAK; [M+H]+; N-Allylacrylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -99.961; HPPBLSRFMVHCME; [M+H]+; 1-[(2R)-3,4-dihydro-2H-pyrrol-2-yl]ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -100.104; LVFHXTSDKGRPEJ; [M+CH4O+H]+; Azafulvene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.184; DQBQWWSFRPLIAX; [M+H]+; 1-(3,4-dihydro-2H-pyrrol-5-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.440; CZALJDQHONFVFU; [M+H]+; Cyclopentyl isocyanate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.825; JUJWROOIHBZHMG; [M+CH4O+H]+; Pyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.084; BNRZOEZQEJCZET; [M+H]+; (Isocyanatomethyl)cyclobutane
+COMMENT: CONFIDENCE Level 3: Tentative candidate, Pyridine, JUJWROOIHBZHMG-UHFFFAOYSA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 MetFrag:MsfinderDB (1), MetFrag:PubchemLite (2); This structural isomer was suggested from the biological context HMDB HMDB0000926;
+CH$NAME: Pyridine
+CH$NAME: pyridine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H5N
+CH$EXACT_MASS: 79.042199
+CH$SMILES: C1=CC=NC=C1
+CH$IUPAC: InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H
+CH$LINK: CHEBI CHEBI:16227
+CH$LINK: HMDB HMDB0000926
+CH$LINK: INCHIKEY JUJWROOIHBZHMG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1049
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -254,6 +275,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 2.783
+MS$FOCUSED_ION: ION_TYPE [M+CH3OH+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 112.075686
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-03di-6900000000-576f1c69925b70eaaa1e

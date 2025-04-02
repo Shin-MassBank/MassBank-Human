@@ -1,6 +1,6 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0134001
 RECORD_TITLE: Characterized; L-thioproline; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
@@ -28,16 +28,16 @@ COMMENT: PROPOSED_MF MS-FINDER 3.325; C4H7NO2S; [M+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_MF MS-FINDER 2.900; C2HNO; [M+DMSO+H]+; delta(ppm) 288967.622673
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.558; C4H7NO2S; [M+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H7NO2S; [M+H]+; delta(ppm) -0.558892
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.727; C2HNO; [M+C2H6OS+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.727; C4H7NO2S; [M+H]+; delta(ppm) -0.558892
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.727; C2HNO; [M+C2H6OS+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.575; C3H7NO3Si; [M+H]+; delta(ppm) -322996.843278
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 10.936; C2H5N4OS; [M+H]+; delta(ppm) 9.459060
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -2.878; C4H3F2N2O; [M+H]+; delta(ppm) -12.453791
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -4.297; C4H9NP2; [M+H]+; delta(ppm) -10.033153
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -4.447; C7H2FN2; [M+H]+; delta(ppm) -3.928377
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -7.714; C8H6P; [M+H]+; delta(ppm) -7.726918
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C2HNO; [M+C2H6OS+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H7NO2S; [M+H]+; delta(ppm) -0.558892
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C2HNO; [M+C2H6OS+H]+; delta(ppm) -0.558892
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.164; ULSZVNJBVJWEJE-UHFFFAOYSA-N; [M+H]+; O=C(O)C1SCCN1
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.090; DZLNHFMRPBPULJ-VKHMYHEASA-N; [M+H]+; OC(=O)[C@@H]1CSCN1
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.699; ZXGACBDFSQTUCD-UHFFFAOYSA-N; [M+H]+; O=CNC(C=O)CS
@@ -58,7 +58,18 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -236.916; KQJWTIOZZLQART; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -249.926; UJQBJDWFMFBDLF; [M+H]+; (1Z)-1-hydroxyimino-3-methylsulfanylpropan-2-one
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -308.552; DVXKSWIBOSXJRV; [M+H]+; methyl 3-amino-3-thioxopropanoate
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.715; DZLNHFMRPBPULJ; [M+H]+; Detoxepa
-COMMENT: CONFIDENCE Level 3: Tentative candidate, L-thioproline, DZLNHFMRPBPULJ-VKHMYHEASA-N; Proposed by SIRIUS5_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (2), MS-FINDER:MsfinderDB (1);
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -15.612; DZLNHFMRPBPULJ; [M+H]+; 1,3-thiazolidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -45.876; ULSZVNJBVJWEJE; [M+H]+; 1,3-thiazolidin-3-ium-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -159.287; ZXGACBDFSQTUCD; [M+H]+; N-(1-oxo-3-sulfanylpropan-2-yl)formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -171.817; LOWUPGMIWCDQKL; [M+H]+; But-3-yne-1-sulfonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -188.897; UDVAMSWYAZEHGC; [M+H]+; (2Z)-2-amino-3-sulfanylbut-2-enoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -198.494; LQFRYKBDZNPJSW; [M+H]+; 2,2,3,3-Tetradeuterio-3-methylsulfonylpropanenitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -212.667; KQJWTIOZZLQART; [M+H]+; 2-Acetylsulfanylethanimidate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -215.042; ARSQCIRDYSOFEN; [M+H]+; N-prop-2-ynylmethane(35S)sulfonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -242.705; DVXKSWIBOSXJRV; [M+H]+; Methyl 3-amino-3-thioxopropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -247.651; UJQBJDWFMFBDLF; [M+H]+; 1-(hydroxyimino)-3-(methylsulfanyl)propan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.783; DZLNHFMRPBPULJ; [M+H]+; 1,3-thiazolidine-4-carboxylic acid
+COMMENT: CONFIDENCE Level 3: Tentative candidate, L-thioproline, DZLNHFMRPBPULJ-VKHMYHEASA-N; Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (2), MS-FINDER:MsfinderDB (1);
 CH$NAME: L-thioproline
 CH$NAME: (4R)-1,3-thiazolidine-4-carboxylic acid
 CH$COMPOUND_CLASS: Natural product

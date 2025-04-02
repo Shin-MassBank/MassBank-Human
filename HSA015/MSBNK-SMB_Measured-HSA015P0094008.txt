@@ -1,10 +1,11 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015P0094008
-RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
-DATE: 2025.03.05 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.05, Curated 2025.03.05)
+RECORD_TITLE: Annotated; Aniline; LC-ESI-QFT; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was annotated at Level 2a automatically. One of the possible structures is shown in the record.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
@@ -27,12 +28,12 @@ COMMENT: PROPOSED_MF SevenGoldenRules 0.038; C4H4; [M+ACN+H]+; delta(ppm) -0.038
 COMMENT: PROPOSED_MF MS-FINDER 3.771; C6H7N; [M+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.191; C6H7N; [M+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H7N; [M+H]+; delta(ppm) -0.049568
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.032; C4H4; [M+C2H3N+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.032; C6H7N; [M+H]+; delta(ppm) -0.049568
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.032; C4H4; [M+C2H3N+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.636; C3H8FNO; [M+H]+; delta(ppm) -12.196896
 COMMENT: PROPOSED_MF SIRIUS6_Sirius -3.307; C2H10N2P; [M+H]+; delta(ppm) -3.335611
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H4; [M+C2H3N+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H7N; [M+H]+; delta(ppm) -0.049568
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H4; [M+C2H3N+H]+; delta(ppm) -0.049568
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; PAYRUJLWNCNPSJ-UHFFFAOYSA-N; C6H7N; MassbankEU:SM806006 AnilineAnilin
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.754; WXYNOBHDRODNBH-MDOHGIEYNA-N; [M+H]+; C=C1C[C@@H]1CC#N
 COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.652; PAYRUJLWNCNPSJ-UHFFFAOYSA-N; [M+H]+; NC1=CC=CC=C1
@@ -90,14 +91,29 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -220.566; AOUMEYPKBXRHIU; [M+
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -229.902; WXYNOBHDRODNBH; [M+H]+; 2-(2-methylidenecyclopropyl)acetonitrile
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -229.978; ZRWMAMOBIQQJSA; [M+H]+; 3-Methylenecyanocyclobutane
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.632; PAYRUJLWNCNPSJ; [M+H]+; Anilinum
-COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C6H8N1; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
-CH$NAME: Uncharacterized
-CH$COMPOUND_CLASS: Uncharacterized
-CH$FORMULA: C39H42O2
-CH$EXACT_MASS: 542.318480
-CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
-CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
-CH$LINK: PUBCHEM CID:11353257
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -15.484; PAYRUJLWNCNPSJ; [M+H]+; aniline
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -45.427; FKNQCJSGGFJEIZ; [M+H]+; 4-methylpyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -63.315; BSKHPKMHTQYZBB; [M+H]+; 2-methylpyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -64.058; ITQTTZVARXURQS; [M+H]+; 3-methylpyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.606; RGSODMOUXWISAG; [M+H]+; Dipropargylammonium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -80.404; XYOVOXDWRFGKEX; [M+H]+; 2,5-dideuterio-1H-azepine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -81.949; NYKHMTWWXWMMHN; [M+H]+; Hexa-2,4-dienenitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -84.075; WXYNOBHDRODNBH; [M+H]+; 2-(2-methylidenecyclopropyl)acetonitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -85.911; PQBAWAQIRZIWIV; [M+H]+; 1-(Deuteriomethyl)pyridin-1-ium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -89.836; PLXFPCQGPZECLF; [M+H]+; 1H-Pyrrole, 3-ethenyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.912; PAYRUJLWNCNPSJ; [M+H]+; aniline
+COMMENT: CONFIDENCE Level 2a: Probable structure by library spectrum match Aniline, PAYRUJLWNCNPSJ-UHFFFAOYSA-N; Matching to 11 measured spectra (Dot product > 0.7); Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (2), MS-FINDER:MsfinderDB (2), MetFrag:MsfinderDB (3), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0003012;
+CH$NAME: Aniline
+CH$NAME: aniline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H7N
+CH$EXACT_MASS: 93.057849
+CH$SMILES: C1=CC=C(C=C1)N
+CH$IUPAC: InChI=1S/C6H7N/c7-6-4-2-1-3-5-6/h1-5H,7H2
+CH$LINK: CHEBI CHEBI:17296
+CH$LINK: HMDB HMDB0003012
+CH$LINK: INCHIKEY PAYRUJLWNCNPSJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6115
 SP$SCIENTIFIC_NAME: Homo sapiens
 SP$LINK: NCBI-TAXONOMY 9606 
 SP$SAMPLE: Cell
@@ -113,6 +129,7 @@ AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
 AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
 AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
 AC$CHROMATOGRAPHY: RETENTION_TIME 4.199
+MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 94.065121
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
 PK$SPLASH: splash10-0006-9000000000-dcff8af2a3255976ab1f

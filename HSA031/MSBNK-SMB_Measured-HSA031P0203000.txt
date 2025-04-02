@@ -1,6 +1,6 @@
 ACCESSION: MSBNK-SMB_Measured-HSA031P0203000
 RECORD_TITLE: Annotated; L-Tryptophan; LC-ESI-QTOF; MS2; NEGATIVE; generated fron DDA dataset
-DATE: 2025.03.25 (Averaged 2025.02.24, Processed 2025.02.24, Annotated 2025.03.24, Curated 2025.03.25)
+DATE: 2025.04.02 (Averaged 2025.02.24, Processed 2025.02.24, Annotated 2025.03.31, Curated 2025.04.02)
 AUTHORS: Shin-MassBank project
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
@@ -49,10 +49,10 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 1.100; C9H18NS2; [M-H]-; delta(ppm) 8.498343
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 0.783; C7H13OP; [M+C2H4O2-H]-; delta(ppm) 765446.377022
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 0.783; C9H17O3P; [M-H]-; delta(ppm) -8.552984
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 0.391; C8H13Cl; [M+C2H4O2-H]-; delta(ppm) 309982.296074
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C11H12N2O2; [M-H]-; delta(ppm) -0.419581
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.848; C9H8N2; [M+C2H4O2-H]-; delta(ppm) 549951.400029
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.152; C6H9FN2O; [M+C2H4O2-H]-; delta(ppm) 765454.190645
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C8H13FN2O3; [M-H]-; delta(ppm) -6.046095
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C11H12N2O2; [M-H]-; delta(ppm) -0.419581
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.857; C9H8N2; [M+C2H4O2-H]-; delta(ppm) 549951.400029
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.143; C6H9FN2O; [M+C2H4O2-H]-; delta(ppm) 765454.190645
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.002; C8H13FN2O3; [M-H]-; delta(ppm) -6.046095
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 16.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; C11H12N2O2; L-Tryptophan - 40.0 eV
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; QIVBCDIJIAJPQS-UHFFFAOYSA-N; C11H12N2O2; Massbank:CE000336 Tryptophan
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; QIVBCDIJIAJPQS-SECBINFHSA-N; C11H12N2O2; D-(+)-tryptophan - 40.0 eV
@@ -371,7 +371,18 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -637.863; JJSHYECKYLDYAR; [M-
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -655.333; AHGHATWVADBICH; [M-H]-; 4-Isopropyl-3-phenylsydnone
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -738.129; FHYQNLDFRUPJAP; [M-H]-; nan
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.985; QIVBCDIJIAJPQS; [M-H]-; Pacitron
-COMMENT: CONFIDENCE Level 2a: Probable structure by library spectrum match L-Tryptophan, QIVBCDIJIAJPQS-VIFPVBQESA-N; Matching to 16 measured spectra (Dot product > 0.7); Proposed by SIRIUS5_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (3), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0000929;HMDB0013609;HMDB0030396;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.088; QIVBCDIJIAJPQS; [M-H]-; Htrp
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -282.259; KYNMONSTYCGIDJ; [M-H]-; Isotryptophan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -381.815; RDTOURARQPNLFK; [M-H]-; (2R)-2-amino-3-(3H-indol-3-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -410.032; CDWFDLYRKQOGNR; [M-H]-; 3-(2-aminoethyl)-1H-indole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -440.241; JPZWSQYPJFVDMA; [M-H]-; (3R)-3-amino-3-(1H-indol-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -441.906; KPYXDIVTPWLGHB; [M-H]-; Banegasine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -464.154; ISKLKIWPGSGBNF; [M-H]-; 2-(5-Methoxy-1H-indol-3-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -465.219; UDUWINCMIJQMRI; [M-H]-; N-[(1-methoxy-1H-indol-3-yl)methyl]formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -477.850; HCNTVRWDNCJMFZ; [M-H]-; n(3-hydroxyethyl)-indole-3-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -481.185; MOVBRCIWECUHTK; [M-H]-; Labindole A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.989; QIVBCDIJIAJPQS; [M-H]-; Htrp
+COMMENT: CONFIDENCE Level 2a: Probable structure by library spectrum match L-Tryptophan, QIVBCDIJIAJPQS-VIFPVBQESA-N; Matching to 16 measured spectra (Dot product > 0.7); Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 CFM-ID:MsfinderDB (3), MS-FINDER:MsfinderDB (1), MetFrag:MsfinderDB (1), MetFrag:PubchemLite (1); This structural isomer was suggested from the biological context HMDB HMDB0000929;HMDB0013609;HMDB0030396;
 CH$NAME: L-Tryptophan
 CH$NAME: (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid
 CH$COMPOUND_CLASS: Natural product

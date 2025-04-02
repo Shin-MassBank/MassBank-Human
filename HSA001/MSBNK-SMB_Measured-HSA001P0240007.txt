@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001P0240007
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.17, Processed 2025.02.17, Annotated 2025.03.05, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: MS1_M/Z_AVERAGED_THRES 0.750
+COMMENT: MS2_M/Z_AVERAGED_THRES 4.000
+COMMENT: DATASET_FILE_NUM 22
+COMMENT: NUM_AVERAGED_SPEC 32
+COMMENT: RAW_SPEC {'18_posi_9374': {'bp': 165409.0, 'sum': 340516.0}, 'BLK02_9712': {'bp': 140673.0, 'sum': 281712.0}, '12_posi_9902': {'bp': 100541.0, 'sum': 218257.0}, '5_posi_9563': {'bp': 151475.0, 'sum': 312838.0}, 'BLK02_9505': {'bp': 144217.0, 'sum': 313686.0}, 'BLK02_9607': {'bp': 115422.0, 'sum': 256202.0}, 'ProcedureBlank_9567': {'bp': 119248.0, 'sum': 222117.0}, '10_posi_9605': {'bp': 121862.0, 'sum': 259872.0}, 'ProcedureBlank_9819': {'bp': 139480.0, 'sum': 304898.0}, '2_posi_9632': {'bp': 148556.0, 'sum': 304407.0}, '7_posi_9842': {'bp': 126200.0, 'sum': 274094.0}, 'BLK01_10050': {'bp': 105359.0, 'sum': 240265.0}, 'ProcedureBlank_9417': {'bp': 126984.0, 'sum': 288811.0}, 'ProcedureBlank_9905': {'bp': 127191.0, 'sum': 238757.0}, 'BLK02_9401': {'bp': 140713.0, 'sum': 330980.0}, '4_posi_9441': {'bp': 151298.0, 'sum': 317043.0}, '3_posi_10009': {'bp': 114290.0, 'sum': 240932.0}, '1_posi_9926': {'bp': 120344.0, 'sum': 263114.0}, 'ProcedureBlank_9712': {'bp': 128938.0, 'sum': 287476.0}, '8_posi_9797': {'bp': 151278.0, 'sum': 299040.0}, '1_posi_9402': {'bp': 151766.0, 'sum': 297261.0}, '15_posi_9839': {'bp': 145032.0, 'sum': 313002.0}, 'ProcedureBlank_9338': {'bp': 125443.0, 'sum': 287784.0}, '5_posi_9881': {'bp': 102514.0, 'sum': 217416.0}, '1_posi_10093': {'bp': 110778.0, 'sum': 224094.0}, '17_posi_10027': {'bp': 135185.0, 'sum': 320725.0}, '10_posi_9505': {'bp': 117280.0, 'sum': 266587.0}, '6_posi_9630': {'bp': 122129.0, 'sum': 255656.0}, '2_posi_9526': {'bp': 123805.0, 'sum': 251420.0}, '7_posi_9317': {'bp': 137721.0, 'sum': 304958.0}, '2_posi_10093': {'bp': 96487.0, 'sum': 181362.0}, '4_posi_9319': {'bp': 159800.0, 'sum': 323612.0}}
+COMMENT: RETENTION_TIME_STDEV 0.492
+COMMENT: PRECURSOR_M/Z_RAW 240.217766
+COMMENT: PRECURSOR_M/Z_STDEV 0.000091
+COMMENT: PRECURSOR_IN_MS1 mz 240.218228; int 15.083; delta(ppm) 1.262364
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+H; M+NH4; mz 257.244786; int 62.936; cor 0.742
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 0.180; C12H25N5; [M+H]+; delta(ppm) -0.179758
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 240.218229; Observed in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 19.416
+MS$FOCUSED_ION: PRECURSOR_M/Z 240.218229
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-0090000000-cf84da059c801c7cf46e
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  222.1715787 59.0508 ? 222.171431 2.9392 14.88 0.3162 27
+  240.1820385 633.9483 ? 240.181880 0.9326 50.67 0.8358 32
+  240.2187336 999.0000 ? 240.218575 1.1073 0.00 1.0000 32
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  222.171579 59.05 59
+  240.182039 633.95 633
+  240.218734 999.00 999
+//

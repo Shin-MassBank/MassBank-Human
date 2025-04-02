@@ -1,0 +1,402 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001P0213003
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.17, Processed 2025.02.17, Annotated 2025.03.05, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: MS1_M/Z_AVERAGED_THRES 0.750
+COMMENT: MS2_M/Z_AVERAGED_THRES 4.000
+COMMENT: DATASET_FILE_NUM 22
+COMMENT: NUM_AVERAGED_SPEC 168
+COMMENT: RAW_SPEC {'2_posi_4954': {'bp': 397247.0, 'sum': 1405874.0}, '4_posi_5223': {'bp': 254120.0, 'sum': 875967.0}, '8_posi_5206': {'bp': 260835.0, 'sum': 884953.0}, 'ProcedureBlank_5501': {'bp': 296739.0, 'sum': 1195438.0}, 'BLK02_5480': {'bp': 319055.0, 'sum': 1250691.0}, '18_posi_4909': {'bp': 329779.0, 'sum': 1342704.0}, '19_posi_5309': {'bp': 247458.0, 'sum': 779030.0}, '11_posi_5141': {'bp': 277779.0, 'sum': 937493.0}, '4_posi_5121': {'bp': 283279.0, 'sum': 942822.0}, '7_posi_5165': {'bp': 292069.0, 'sum': 1006521.0}, '5_posi_5184': {'bp': 306170.0, 'sum': 962760.0}, '10_posi_5164': {'bp': 308439.0, 'sum': 1050528.0}, '10_posi_5039': {'bp': 308720.0, 'sum': 1191399.0}, '7_posi_5247': {'bp': 309577.0, 'sum': 963819.0}, 'BLK02_5631': {'bp': 314390.0, 'sum': 1292264.0}, '13_posi_5119': {'bp': 315533.0, 'sum': 1178716.0}, '16_posi_4869': {'bp': 324922.0, 'sum': 1324629.0}, '1_posi_5375': {'bp': 327183.0, 'sum': 1149714.0}, '6_posi_4848': {'bp': 331588.0, 'sum': 1297530.0}, '1_posi_4867': {'bp': 333748.0, 'sum': 1253783.0}, '7_posi_4993': {'bp': 338056.0, 'sum': 1221251.0}, '19_posi_5036': {'bp': 364858.0, 'sum': 1359743.0}, '14_posi_5247': {'bp': 236864.0, 'sum': 797501.0}, '3_posi_5186': {'bp': 260523.0, 'sum': 868852.0}, '5_posi_5267': {'bp': 268608.0, 'sum': 847357.0}, '13_posi_5202': {'bp': 272819.0, 'sum': 937831.0}, 'ProcedureBlank_5016': {'bp': 274268.0, 'sum': 1151186.0}, '9_posi_5115': {'bp': 275164.0, 'sum': 917768.0}, '5_posi_4931': {'bp': 300858.0, 'sum': 1121984.0}, '19_posi_5119': {'bp': 302075.0, 'sum': 1103607.0}, '8_posi_4934': {'bp': 305391.0, 'sum': 1170169.0}, '1_posi_5053': {'bp': 306180.0, 'sum': 1157712.0}, '4_posi_5309': {'bp': 307463.0, 'sum': 1164620.0}, '18_posi_5415': {'bp': 313542.0, 'sum': 1087846.0}, '2_posi_5300': {'bp': 315067.0, 'sum': 1136833.0}, '7_posi_5353': {'bp': 315258.0, 'sum': 1097747.0}, 'BLK02_4997': {'bp': 325777.0, 'sum': 1448546.0}, '4_posi_5016': {'bp': 347199.0, 'sum': 1203432.0}, '9_posi_5585': {'bp': 349106.0, 'sum': 1196133.0}, '13_posi_5287': {'bp': 353893.0, 'sum': 1227023.0}, '9_posi_4951': {'bp': 357449.0, 'sum': 1290162.0}, '13_posi_5647': {'bp': 359436.0, 'sum': 1226963.0}, '15_posi_5222': {'bp': 246037.0, 'sum': 837358.0}, '12_posi_5228': {'bp': 257802.0, 'sum': 859499.0}, '1_posi_4952': {'bp': 313007.0, 'sum': 1188542.0}, '18_posi_5159': {'bp': 315607.0, 'sum': 1080081.0}, '17_posi_4953': {'bp': 330914.0, 'sum': 1276836.0}, '14_posi_4952': {'bp': 333105.0, 'sum': 1219197.0}, '13_posi_4850': {'bp': 338479.0, 'sum': 1356313.0}, 'BLK02_5563': {'bp': 338725.0, 'sum': 1340053.0}, '7_posi_4911': {'bp': 344556.0, 'sum': 1252075.0}, '9_posi_5201': {'bp': 250596.0, 'sum': 851739.0}, '6_posi_5144': {'bp': 253206.0, 'sum': 884682.0}, '8_posi_5102': {'bp': 257826.0, 'sum': 869903.0}, '6_posi_5225': {'bp': 263726.0, 'sum': 842873.0}, '19_posi_5392': {'bp': 274169.0, 'sum': 941481.0}, '15_posi_5120': {'bp': 280639.0, 'sum': 985446.0}, '1_posi_5223': {'bp': 287688.0, 'sum': 1002980.0}, '18_posi_5246': {'bp': 291373.0, 'sum': 966704.0}, '8_posi_5014': {'bp': 298097.0, 'sum': 1080330.0}, '3_posi_5268': {'bp': 303817.0, 'sum': 1011339.0}, '8_posi_5437': {'bp': 304845.0, 'sum': 1100280.0}, '1_posi_5141': {'bp': 306847.0, 'sum': 1030583.0}, '3_posi_5100': {'bp': 307969.0, 'sum': 1019955.0}, '6_posi_4928': {'bp': 311224.0, 'sum': 1147370.0}, '11_posi_5688': {'bp': 312243.0, 'sum': 1130416.0}, 'ProcedureBlank_5184': {'bp': 313929.0, 'sum': 1202495.0}, 'ProcedureBlank_5101': {'bp': 315138.0, 'sum': 1216772.0}, 'ProcedureBlank_5421': {'bp': 315148.0, 'sum': 1189996.0}, '1_posi_5622': {'bp': 317886.0, 'sum': 1154639.0}, '5_posi_5696': {'bp': 323648.0, 'sum': 1172862.0}, '16_posi_4951': {'bp': 333463.0, 'sum': 1193061.0}, '14_posi_5645': {'bp': 339364.0, 'sum': 1180327.0}, '1_posi_5450': {'bp': 340523.0, 'sum': 1146388.0}, '16_posi_5687': {'bp': 346939.0, 'sum': 1217027.0}, '10_posi_4952': {'bp': 357256.0, 'sum': 1302626.0}, '12_posi_5121': {'bp': 287274.0, 'sum': 958399.0}, 'ProcedureBlank_4892': {'bp': 288941.0, 'sum': 1174468.0}, '19_posi_5646': {'bp': 289251.0, 'sum': 1016276.0}, '15_posi_5303': {'bp': 296111.0, 'sum': 965600.0}, '2_posi_5060': {'bp': 314619.0, 'sum': 1157090.0}, 'ProcedureBlank_4493': {'bp': 317547.0, 'sum': 1172840.0}, '4_posi_4929': {'bp': 321981.0, 'sum': 1203470.0}, '9_posi_4847': {'bp': 328044.0, 'sum': 1308850.0}, '6_posi_5695': {'bp': 331066.0, 'sum': 1244166.0}, '10_posi_4869': {'bp': 336659.0, 'sum': 1249988.0}, '13_posi_4931': {'bp': 338715.0, 'sum': 1223645.0}, '11_posi_4933': {'bp': 349067.0, 'sum': 1281892.0}, '4_posi_5487': {'bp': 359011.0, 'sum': 1287791.0}, '11_posi_5227': {'bp': 265184.0, 'sum': 881113.0}, '16_posi_5309': {'bp': 273480.0, 'sum': 946533.0}, 'ProcedureBlank_4575': {'bp': 284743.0, 'sum': 1036660.0}, '18_posi_5329': {'bp': 299248.0, 'sum': 997435.0}, '4_posi_5622': {'bp': 305825.0, 'sum': 1114865.0}, '16_posi_5034': {'bp': 306884.0, 'sum': 1110860.0}, '15_posi_4934': {'bp': 311424.0, 'sum': 1119257.0}, '17_posi_5438': {'bp': 312080.0, 'sum': 1106709.0}, 'BLK02_4907': {'bp': 312441.0, 'sum': 1391884.0}, '17_posi_5038': {'bp': 313174.0, 'sum': 1165498.0}, 'ProcedureBlank_5582': {'bp': 315109.0, 'sum': 1111413.0}, '6_posi_5039': {'bp': 316980.0, 'sum': 1178703.0}, 'BLK02_5269': {'bp': 336868.0, 'sum': 1284734.0}, '9_posi_5669': {'bp': 341087.0, 'sum': 1253621.0}, '2_posi_5627': {'bp': 341925.0, 'sum': 1226732.0}, '14_posi_5332': {'bp': 345748.0, 'sum': 1149573.0}, '12_posi_5039': {'bp': 351289.0, 'sum': 1282678.0}, '12_posi_5654': {'bp': 362828.0, 'sum': 1176644.0}, '17_posi_5225': {'bp': 237768.0, 'sum': 860255.0}, '10_posi_5268': {'bp': 241840.0, 'sum': 850450.0}, '16_posi_5199': {'bp': 252549.0, 'sum': 834536.0}, '17_posi_5309': {'bp': 256195.0, 'sum': 820866.0}, '15_posi_4845': {'bp': 300723.0, 'sum': 1258527.0}, '15_posi_5655': {'bp': 319528.0, 'sum': 1126971.0}, '14_posi_5533': {'bp': 332800.0, 'sum': 1180886.0}, '19_posi_4951': {'bp': 335201.0, 'sum': 1368263.0}, '13_posi_5036': {'bp': 351069.0, 'sum': 1272500.0}, '3_posi_5606': {'bp': 354348.0, 'sum': 1201308.0}, '16_posi_5606': {'bp': 389953.0, 'sum': 1362532.0}, '2_posi_5375': {'bp': 302257.0, 'sum': 1156735.0}, '18_posi_5648': {'bp': 303423.0, 'sum': 1086381.0}, '3_posi_4850': {'bp': 312656.0, 'sum': 1247773.0}, '17_posi_4869': {'bp': 315067.0, 'sum': 1314669.0}, '3_posi_5018': {'bp': 315531.0, 'sum': 1203457.0}, '3_posi_5689': {'bp': 317251.0, 'sum': 1120597.0}, '11_posi_5057': {'bp': 322308.0, 'sum': 1169256.0}, '15_posi_5039': {'bp': 341086.0, 'sum': 1196663.0}, '2_posi_5552': {'bp': 345581.0, 'sum': 1342068.0}, '3_posi_5488': {'bp': 353055.0, 'sum': 1258623.0}, 'ProcedureBlank_4803': {'bp': 297730.0, 'sum': 1514572.0}, '2_posi_4867': {'bp': 305624.0, 'sum': 1234766.0}, '7_posi_5530': {'bp': 306365.0, 'sum': 1032188.0}, '15_posi_5375': {'bp': 325059.0, 'sum': 1133052.0}, '10_posi_5667': {'bp': 328672.0, 'sum': 1122018.0}, '11_posi_5416': {'bp': 329503.0, 'sum': 1153156.0}, '6_posi_5626': {'bp': 331873.0, 'sum': 1200601.0}, '8_posi_5645': {'bp': 334195.0, 'sum': 1203958.0}, '13_posi_5417': {'bp': 337354.0, 'sum': 1117123.0}, '11_posi_5305': {'bp': 355654.0, 'sum': 1262583.0}, '17_posi_5122': {'bp': 275463.0, 'sum': 902709.0}, '9_posi_5392': {'bp': 293809.0, 'sum': 1050167.0}, '3_posi_4930': {'bp': 318369.0, 'sum': 1191548.0}, '11_posi_5583': {'bp': 344134.0, 'sum': 1174810.0}, '16_posi_5458': {'bp': 353983.0, 'sum': 1214513.0}, '12_posi_4910': {'bp': 363290.0, 'sum': 1347428.0}, '16_posi_5116': {'bp': 325876.0, 'sum': 983133.0}, '7_posi_5080': {'bp': 327249.0, 'sum': 1189150.0}, '6_posi_5507': {'bp': 345709.0, 'sum': 1214433.0}, '11_posi_5486': {'bp': 296000.0, 'sum': 1115443.0}, '12_posi_5417': {'bp': 340123.0, 'sum': 1210241.0}, '17_posi_5668': {'bp': 366688.0, 'sum': 1248326.0}, '18_posi_4994': {'bp': 365217.0, 'sum': 1402887.0}, 'BLK02_5099': {'bp': 364123.0, 'sum': 1523789.0}, '5_posi_4847': {'bp': 360790.0, 'sum': 1270845.0}, '5_posi_5017': {'bp': 329132.0, 'sum': 1183419.0}, '14_posi_5057': {'bp': 321111.0, 'sum': 1083330.0}, '9_posi_5036': {'bp': 319195.0, 'sum': 1116226.0}, '18_posi_5077': {'bp': 313886.0, 'sum': 1190835.0}, '6_posi_5307': {'bp': 310543.0, 'sum': 1122279.0}, 'ProcedureBlank_5353': {'bp': 343730.0, 'sum': 1308275.0}, '12_posi_5307': {'bp': 293581.0, 'sum': 976257.0}, '2_posi_5228': {'bp': 284768.0, 'sum': 904102.0}, '9_posi_5286': {'bp': 282177.0, 'sum': 876506.0}, '8_posi_5288': {'bp': 265558.0, 'sum': 899589.0}, '5_posi_5396': {'bp': 312286.0, 'sum': 1138156.0}, '2_posi_5143': {'bp': 280560.0, 'sum': 971657.0}, '14_posi_5141': {'bp': 258074.0, 'sum': 867650.0}, '19_posi_5204': {'bp': 287176.0, 'sum': 907539.0}, '5_posi_5095': {'bp': 270288.0, 'sum': 937405.0}}
+COMMENT: RETENTION_TIME_STDEV 0.524
+COMMENT: PRECURSOR_M/Z_RAW 213.170654
+COMMENT: PRECURSOR_M/Z_STDEV 0.000056
+COMMENT: PRECURSOR_IN_MS1 mz 213.171020; int 85.029; delta(ppm) 1.052429
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 214.174344; int 7.425; cor 0.653
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+H; M+NH4; mz 230.197557; int 49.287; cor 0.767
+COMMENT: PROPOSED_ION_FORM M+H; M+ACN+H; mz 254.197595; int 46.459; cor 0.849
+COMMENT: PROPOSED_ION_FORM M+H; M+2ACN+H; mz 295.224170; int 17.669; cor 0.843
+COMMENT: PROPOSED_ION_FORM M+Na; M+ACN+Na; mz 254.197595; int 46.459; cor 0.849
+COMMENT: PROPOSED_ION_FORM M+CH3OH+H; M+H; mz 181.144806; int 11.091; cor 0.707
+COMMENT: PROPOSED_ION_FORM M+CH3OH+H; M+NH4; mz 198.171399; int 1.866; cor 0.649
+COMMENT: PROPOSED_ION_FORM M+ACN+H; M+H; mz 172.144366; int 15.011; cor 0.670
+COMMENT: PROPOSED_ION_FORM M+ACN+H; M+NH4; mz 189.170974; int 81.616; cor 0.846
+COMMENT: PROPOSED_ION_FORM M+ACN+H; M+2ACN+H; mz 254.197595; int 46.459; cor 0.849
+COMMENT: PROPOSED_ION_FORM M+ACN+Na; M+Na; mz 172.144366; int 15.011; cor 0.670
+COMMENT: PROPOSED_ION_FORM M+2ACN+H; M+ACN+H; mz 172.144366; int 15.011; cor 0.670
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 0.174; C10H20N4O; [M+H]+; delta(ppm) 0.174394
+COMMENT: PROPOSED_MF SevenGoldenRules 0.211; C9H16N4; [M+CH3OH+H]+; delta(ppm) 0.210950
+COMMENT: PROPOSED_MF SevenGoldenRules 0.228; C8H17N3O; [M+ACN+H]+; delta(ppm) 0.227887
+COMMENT: PROPOSED_MF SevenGoldenRules 0.315; C6H14N2O; [M+2ACN+H]+; delta(ppm) 0.315116
+COMMENT: PROPOSED_MF MS-FINDER 3.392; C6H14N2O; [M+2ACN+H]+; delta(ppm) 356731.904010
+COMMENT: PROPOSED_MF MS-FINDER 3.275; C8H17N3O; [M+ACN+H]+; delta(ppm) 75819.833290
+COMMENT: PROPOSED_MF MS-FINDER 2.835; C9H16N4; [M+CH3OH+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF MS-FINDER 2.634; C10H20N4O; [M+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 44.728; C8H17N3O; [M+C2H3N+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.343; C6H14N2O; [M+C4H6N2+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 8.600; C9H16N4; [M+CH4O+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H17N3O; [M+C2H3N+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H14N2O; [M+C4H6N2+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H16N4; [M+CH4O+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.536; C6H14N2O; [M+C4H6N2+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.536; C8H17N3O; [M+C2H3N+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.536; C9H16N4; [M+CH4O+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.536; C10H20N4O; [M+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 47.187; C10H24NO2; [M+Na]+; delta(ppm) 44018.280056
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.046; C6H17FN4O; [M+CH4O+H]+; delta(ppm) -5.190056
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.122; C4H12N5; [M+C4H6N2+H]+; delta(ppm) 6.468754
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.122; C6H15N6; [M+C2H3N+H]+; delta(ppm) 6.468754
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.122; C8H18N7; [M+H]+; delta(ppm) 6.468754
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.088; C4H15FN7; [M+CH4O+H]+; delta(ppm) 1.108445
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.972; C10H19O2; [M+C2H3N+H]+; delta(ppm) -6.128305
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.972; C11H18NO; [M+CH4O+H]+; delta(ppm) -6.128305
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.972; C12H22NO2; [M+H]+; delta(ppm) -6.128305
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.476; C5H19N5P; [M+CH4O+H]+; delta(ppm) -1.279837
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H14N2O; [M+C4H6N2+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H17N3O; [M+C2H3N+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H16N4; [M+CH4O+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H20N4O; [M+H]+; delta(ppm) 0.170185
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H24NO2; [M+Na]+; delta(ppm) 44018.280056
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.774; KLZGKIDSEJWEDW-UHFFFAOYSA-N; [M+2ACN+H]+; N-Acetylputrescine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.128; RWIVICVCHVMHMU-UHFFFAOYSA-N; [M+2ACN+H]+; N-Aminoethylmorpholine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.118; PPQDYOBQQWPTIS-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(diethylamino)acetamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.118; DWGMAIPVJRBOIB-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(dimethylamino)-N,N-dimethylacetamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.097; WFCSWCVEJLETKA-UHFFFAOYSA-N; [M+2ACN+H]+; 2-piperazin-1-ylethanol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.085; FORGMRSGVSYZQR-YFKPBYRVSA-N; [M+2ACN+H]+; L-leucinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.062; WFBDWTZOYPUBQZ-UHFFFAOYSA-N; [M+2ACN+H]+; N-[3-(dimethylamino)propyl]formamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.060; YLKFDHTUAUWZPQ-UHFFFAOYSA-N; [M+2ACN+H]+; N-Nitrosodi-n-propylamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.045; IHXACXWJGCBSCH-VMPITWQZSA-N; [M+2ACN+H]+; UNPD148975
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.032; QCVCCWSPZIUXEA-SGAVLPGINA-N; [M+2ACN+H]+; UNPD107158
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.032; YUZOKOFJOOANSW-UHFFFAOYSA-N; [M+2ACN+H]+; 2,6-diaminohexanal
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.022; JDAMFKGXSUOWBV-WHFBIAKZSA-N; [M+2ACN+H]+; L-isoleucinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.980; BTQJVSYVQQFPQG-UHFFFAOYSA-N; [M+2ACN+H]+; 3,6-diaminohexanal
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.963; AUIKJTGFPFLMFP-UHFFFAOYSA-N; [M+2ACN+H]+; N-Nitrosodiisopropylamin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.963; KSFCDINBDBFFSI-UHFFFAOYSA-N; [M+2ACN+H]+; N-methyl-N-pentylnitrous amide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.963; MHCILZYUJICANU-GIVGEFRWNA-N; [M+ACN+H]+; UNPD81363
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.951; QITAPFGSXHNLQM-UHFFFAOYSA-N; [M+2ACN+H]+; N-(nitrosomethyl)pentan-1-amine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.897; ZZHPYRMKQBXJDI-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methyl-1H-pyrazol-4-yl)piperidin-3-amine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.827; UMZINNCUCWRLDQ-UHFFFAOYSA-N; [M+CH3OH+H]+; 5-{[Ethyl(Methyl)Amino]Methyl}-2-Methyl-5,6-Dihydropyrimidin-4-Amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UMZINNCUCWRLDQ-UHFFFAOYSA-N; [M+CH3OH+H]+; 5-{[Ethyl(Methyl)Amino]Methyl}-2-Methyl-5,6-Dihydropyrimidin-4-Amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; MHCILZYUJICANU-GIVGEFRWNA-N; [M+ACN+H]+; UNPD81363
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; WFCSWCVEJLETKA-UHFFFAOYSA-N; [M+2ACN+H]+; 2-piperazin-1-ylethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.978; KLZGKIDSEJWEDW-UHFFFAOYSA-N; [M+2ACN+H]+; N-Acetylputrescine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.965; ZZHPYRMKQBXJDI-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methyl-1H-pyrazol-4-yl)piperidin-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.954; WFBDWTZOYPUBQZ-UHFFFAOYSA-N; [M+2ACN+H]+; N-[3-(dimethylamino)propyl]formamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.688; PPQDYOBQQWPTIS-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(diethylamino)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.659; IHXACXWJGCBSCH-VMPITWQZSA-N; [M+2ACN+H]+; UNPD148975
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.610; JDAMFKGXSUOWBV-WHFBIAKZSA-N; [M+2ACN+H]+; L-isoleucinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.533; FORGMRSGVSYZQR-YFKPBYRVSA-N; [M+2ACN+H]+; L-leucinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.521; RWIVICVCHVMHMU-UHFFFAOYSA-N; [M+2ACN+H]+; N-Aminoethylmorpholine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.479; BTQJVSYVQQFPQG-UHFFFAOYSA-N; [M+2ACN+H]+; 3,6-diaminohexanal
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.474; YUZOKOFJOOANSW-UHFFFAOYSA-N; [M+2ACN+H]+; 2,6-diaminohexanal
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.427; QCVCCWSPZIUXEA-SGAVLPGINA-N; [M+2ACN+H]+; UNPD107158
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.421; DWGMAIPVJRBOIB-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(dimethylamino)-N,N-dimethylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.154; YLKFDHTUAUWZPQ-UHFFFAOYSA-N; [M+2ACN+H]+; N-Nitrosodi-n-propylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.154; KSFCDINBDBFFSI-UHFFFAOYSA-N; [M+2ACN+H]+; N-methyl-N-pentylnitrous amide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.154; QITAPFGSXHNLQM-UHFFFAOYSA-N; [M+2ACN+H]+; N-(nitrosomethyl)pentan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.100; AUIKJTGFPFLMFP-UHFFFAOYSA-N; [M+2ACN+H]+; N-Nitrosodiisopropylamin
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.127; JJEMPZXXGBIJIX-UHFFFAOYSA-N; [M+ACN+H]+; N,N-dimethyl-2-piperazin-1-ylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.878; IFVRGSVHHSCKIS-UHFFFAOYSA-N; [M+ACN+H]+; N'-hydroxy-3-piperidin-1-ylpropanimidamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.873; WFCSWCVEJLETKA-UHFFFAOYSA-N; [M+2ACN+H]+; 2-piperazin-1-ylethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.752; XSXZKGLWPRJOMM-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methylpiperidin-4-yl)pyrazol-4-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.751; KLZGKIDSEJWEDW-UHFFFAOYSA-N; [M+2ACN+H]+; N-(4-aminobutyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.727; QCNNKYQIYTZXJX-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(1-methylpiperidin-4-yl)pyrazol-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.530; WTDMCLGFEXQYOU-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(2-imidazol-1-ylethyl)piperazine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.526; RWIVICVCHVMHMU-UHFFFAOYSA-N; [M+2ACN+H]+; 2-morpholin-4-ylethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.304; UVQCDRALXOGZQF-UHFFFAOYSA-N; [M+ACN+H]+; 2-methyl-2-piperazin-1-ylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.274; JNGRMEMVULIXBF-UHFFFAOYSA-N; [M+ACN+H]+; N-ethyl-4-methylpiperazine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.229; AVEQCXBQACLXDJ-UHFFFAOYSA-N; [M+ACN+H]+; 4-(ethylamino)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.196; YLKFDHTUAUWZPQ-UHFFFAOYSA-N; [M+2ACN+H]+; N,N-dipropylnitrous amide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.161; SOCFBKAXXSIIFD-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-[(1-methylimidazol-2-yl)methyl]piperazine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.146; JJRVDRJMXJJPDM-UHFFFAOYSA-N; [M+ACN+H]+; N-propan-2-ylpiperazine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.123; JJQYLNCTJNLITN-UHFFFAOYSA-N; [M+ACN+H]+; 2-(dimethylamino)-1-piperazin-1-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.123; VHKDFUCTAJWSQN-UHFFFAOYSA-N; [M+ACN+H]+; 4-(dimethylamino)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.079; QGMPFYPCBHTCDE-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-[(4-methyl-1,2,4-triazol-3-yl)methyl]piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.012; QQINQSPEYDVMCD-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-[(1-methylpyrazol-4-yl)methyl]piperazine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.000; XBPPPXAGUDHXJQ-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-(3,5-dimethyl-1,2,4-triazol-4-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.000; HNNCKVWIQIKZBN-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methylpiperidin-4-yl)pyrazol-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.995; CGPUPBFQFZRKOG-UHFFFAOYSA-N; [M+ACN+H]+; 1-[3-(dimethylamino)propyl]imidazolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.993; QQZGDEIJFYLUIT-ZETCQYMHSA-N; [M+ACN+H]+; (2S)-1-(3-aminopropyl)pyrrolidine-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.982; DDBDAGJRFYTMCK-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(6,7,8,9-tetrahydro-5H-[1,2,4]triazolo[4,3-a]azepin-3-yl)ethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.970; UQXGXVADESAMLD-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-(5-ethyl-1H-1,2,4-triazol-3-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.958; CKRGUQFETZTMME-UHFFFAOYSA-N; [M+ACN+H]+; 2-(methylamino)-1-(4-methylpiperazin-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.948; MPPMMKDXSXSUTG-UHFFFAOYSA-N; [M+ACN+H]+; 2-(4-aminopiperidin-1-yl)-N-methylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.932; OUVVCIBIGUCHRM-UHFFFAOYSA-N; [M+ACN+H]+; N,N,4-trimethylpiperazine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.931; MDODJVLFBCETIB-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-(5,6,7,8-tetrahydro-[1,2,4]triazolo[4,3-a]pyridin-3-yl)propan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.930; JDZQCVNSMIOFBW-UHFFFAOYSA-N; [M+ACN+H]+; N'-(1-methylpiperidin-4-yl)acetohydrazide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.923; WKHFGQLWQPTVJR-UHFFFAOYSA-N; [M+ACN+H]+; 2-amino-N-(1-methylpiperidin-4-yl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.919; VRZVTHUVFQQZPT-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(2,5-dimethylpyrazol-3-yl)pyrrolidin-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.916; NKIOHORMYZJSGT-UHFFFAOYSA-N; [M+ACN+H]+; 1-methyl-3-[(1-methylpyrrolidin-3-yl)methyl]urea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.906; SCHUXUBXKBRDDQ-UHFFFAOYSA-N; [M+ACN+H]+; 1-methyl-3-(1-methylpiperidin-4-yl)urea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.876; FWUDIPGDIBVLGN-UHFFFAOYSA-N; [M+ACN+H]+; 1-methyl-3-(piperidin-4-ylmethyl)urea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.868; SDMVZBFFDFADJN-UHFFFAOYSA-N; [M+ACN+H]+; 4-(2-hydroxyethyl)piperidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.847; IEXLKUJTTDIYQW-UHFFFAOYSA-N; [M+ACN+H]+; 1-[4-(2-aminoethyl)piperazin-1-yl]ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.846; GVZDABQVSXRGAK-UHFFFAOYSA-N; [M+ACN+H]+; N'-hydroxy-2-(2-methylpiperidin-1-yl)ethanimidamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.840; FMLZDRMKPOUTQO-UHFFFAOYSA-N; [M+ACN+H]+; 2-(azepan-1-yl)-N'-hydroxyethanimidamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.815; NXRBGAITLVNBCF-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methylimidazol-2-yl)piperidin-4-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.813; PCSRDHSXZCQZJE-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-propan-2-yl-5,6,7,8-tetrahydro-[1,2,4]triazolo[4,3-a]pyridin-6-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.804; BFSKWJXXCFDEDP-HTQZYQBOSA-N; [M+CH3OH+H]+; (3S,4R)-1-methyl-4-(3-methylimidazol-4-yl)pyrrolidin-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.787; ZZHPYRMKQBXJDI-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(1-methylpyrazol-4-yl)piperidin-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.764; CGWDFVNDHIONNG-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-5-piperidin-4-ylpyrazol-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.757; HNWCTCGGYQCMQS-UHFFFAOYSA-N; [M+ACN+H]+; 3-amino-1-(4-methylpiperazin-1-yl)propan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.750; HKQOGHGDNGWMIF-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-methyl-4-(4-methyl-1,2,4-triazol-3-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.747; OTQLNKFKXGCRAS-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-(4-methyl-1,2,4-triazol-3-yl)cyclohexan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.721; IMRZKUTYLGRDJX-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-propan-2-yl-5,6,7,8-tetrahydro-[1,2,4]triazolo[1,5-a]pyridin-8-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.710; ZNSVPQLNYYMMGF-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-(4-ethyl-1,2,4-triazol-3-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.710; KWBGTCWJGICYFA-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-(4-ethyl-1,2,4-triazol-3-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.705; RVEXLNBWNIZKNB-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-(3,5-dimethyl-1,2,4-triazol-1-yl)piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.701; DVVZQDQWNMAEIH-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(6,7-dihydro-5H-pyrrolo[2,1-c][1,2,4]triazol-3-yl)-2-methylpropan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.664; HQGTWFNPNNGMJL-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-(5-methyl-1H-pyrazol-3-yl)piperidin-4-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.663; DPWUPATVIQFUKF-UHFFFAOYSA-N; [M+ACN+H]+; 1,1,3-trimethyl-3-pyrrolidin-3-ylurea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.646; FGUCCXYRINXZQD-VIFPVBQESA-N; [M+CH3OH+H]+; 3,5-dimethyl-1-[[(2S)-pyrrolidin-2-yl]methyl]-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.637; YBSDBDDIAPKFNU-UHFFFAOYSA-N; [M+ACN+H]+; 1-[2-(dimethylamino)ethyl]piperazin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.632; OBUZXKZXURFIJE-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-N-(2,2-dimethylpropyl)pyrimidine-4,6-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.628; ADTVDDSTSYXXPE-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-[2-(1,2,4-triazol-1-yl)ethyl]piperidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.610; ZSKQKQLNOZOOFP-UHFFFAOYSA-N; [M+ACN+H]+; 3-amino-N,N-dimethylpiperidine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.600; QEHUQVCNWYOKPR-UHFFFAOYSA-N; [M+ACN+H]+; 3-[2-(dimethylamino)ethyl]-5-methylimidazolidin-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.589; QFQBCYRVCKQHGI-UHFFFAOYSA-N; [M+ACN+H]+; 1-methyl-3-[3-(methylamino)propyl]imidazolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.582; FORGMRSGVSYZQR-YFKPBYRVSA-N; [M+2ACN+H]+; (2S)-2-amino-4-methylpentanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.571; FIOVOKBNWGTPRX-JXMROGBWSA-N; [M+CH3OH+H]+; (E)-N-(1H-1,2,4-triazol-5-yl)heptan-1-imine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.535; KSFCDINBDBFFSI-UHFFFAOYSA-N; [M+2ACN+H]+; N-methyl-N-pentylnitrous amide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.529; WPFYTYMNLMYXOM-UHFFFAOYSA-N; [M+ACN+H]+; 2-amino-1-(4-ethylpiperazin-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.519; YEZHWPUHDLFLLW-UHFFFAOYSA-N; [M+CH3OH+H]+; 1-cyclohexyl-5-ethyltetrazole
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.423; RULVDGROGOLQOM-UHFFFAOYSA-N; [M+ACN+H]+; 2-[3-(oxolan-2-yl)propyl]guanidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.333; WFBDWTZOYPUBQZ-UHFFFAOYSA-N; [M+2ACN+H]+; N-[3-(dimethylamino)propyl]formamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.321; ZLHYDRXTDZFRDZ-UHFFFAOYSA-N; [M+2ACN+H]+; 6-aminohexanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.310; DSSFSAGQNGRBOR-UHFFFAOYSA-N; [M+2ACN+H]+; 2-piperazin-2-ylethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.264; WHNXFFIKKJESQD-UHFFFAOYSA-N; [M+ACN+H]+; 1-(2-methylpropyl)-4-nitrosopiperazine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.189; FLGCKPIDGVTCSU-UHFFFAOYSA-N; [M+2ACN+H]+; N-[2-(dimethylamino)ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.165; VXVXQZFNAZMMBW-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(ethylamino)-N-methylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.146; CLMZWVXBYNBYDL-UHFFFAOYSA-N; [M+2ACN+H]+; 4-(dimethylamino)pyrrolidin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.132; ZNLCTCNYKCENHP-UHFFFAOYSA-N; [M+2ACN+H]+; 1-(2-aminoethyl)pyrrolidin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.130; ZTZLBRIYZPKLSX-RXMQYKEDSA-N; [M+2ACN+H]+; (2R)-2-amino-N-propylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.130; MBENNMIHCNYUJD-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(methylamino)-N-propylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.097; QITAPFGSXHNLQM-UHFFFAOYSA-N; [M+2ACN+H]+; N-(nitrosomethyl)pentan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.085; QIVCLSJTIRCGKW-UHFFFAOYSA-N; [M+2ACN+H]+; 2-amino-N-propan-2-ylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.085; QYNMIIFWHFZEOX-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(methylamino)-N-propan-2-ylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.052; JVIKJOXETSHPGJ-UHFFFAOYSA-N; [M+2ACN+H]+; (4-methylpiperazin-2-yl)methanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.050; KMFVUBFMFJOFIN-UHFFFAOYSA-N; [M+2ACN+H]+; N-(2-aminoethyl)-2-methylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.014; YECJWPNDHRDXFI-UHFFFAOYSA-N; [M+2ACN+H]+; 3-[(dimethylamino)methyl]azetidin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.013; JOQZXBKWLBRCCT-UHFFFAOYSA-N; [M+2ACN+H]+; 3-(dimethylamino)butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.012; KVGSBNWWWIMPMT-UHFFFAOYSA-N; [M+2ACN+H]+; 2-[azetidin-3-yl(methyl)amino]ethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.994; CCQIEJCCHLDGMW-UHFFFAOYSA-N; [M+2ACN+H]+; N,2-dimethyl-3-(methylamino)propanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.992; ZBIWOALTDQQQTG-UHFFFAOYSA-N; [M+2ACN+H]+; (1-methylpiperazin-2-yl)methanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.979; ZURVCSIUFWCRBK-UHFFFAOYSA-N; [M+2ACN+H]+; (4-aminopiperidin-4-yl)methanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.969; NKIKBXIPPUUSDP-UHFFFAOYSA-N; [M+2ACN+H]+; 1-ethyl-3-propylurea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.958; PUUMKAKVWBYGDZ-YFKPBYRVSA-N; [M+2ACN+H]+; (2S)-2-amino-N-ethylbutanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.932; DOWJIZZVRMQDEW-UHFFFAOYSA-N; [M+2ACN+H]+; (2-methylpiperazin-2-yl)methanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.883; CSAUXMDYLYBUNJ-UHFFFAOYSA-N; [M+2ACN+H]+; 1,1-diethyl-3-methylurea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.876; FHDKMBDQMNUHAC-WDSKDSINSA-N; [M+2ACN+H]+; [(2S,4S)-4-amino-1-methylpyrrolidin-2-yl]methanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.874; MONRWRVYLOHUFA-UHFFFAOYSA-N; [M+2ACN+H]+; pentylurea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.873; LVTBOQOSSIBUCD-WDSKDSINSA-N; [M+2ACN+H]+; (3S,4S)-1-methyl-4-(methylamino)pyrrolidin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.872; ZPOXBKJTQMEVHK-UHFFFAOYSA-N; [M+2ACN+H]+; 5-(aminomethyl)-1-methylpyrrolidin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.870; SIVFQKCLFRMMSZ-UHFFFAOYSA-N; [M+2ACN+H]+; 1-butyl-3-methylurea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.868; BWSIKGOGLDNQBZ-ZCFIWIBFSA-N; [M+2ACN+H]+; (2R)-2-(methoxymethyl)pyrrolidin-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.861; KPYAYJPVNXTYPE-UHFFFAOYSA-N; [M+2ACN+H]+; N-(3-amino-2-methylpropyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.857; NCPLOFZQPMSMOH-UHFFFAOYSA-N; [M+2ACN+H]+; 2-amino-N-methylpentanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.856; XYIJSPFBTWXBGM-UHFFFAOYSA-N; [M+2ACN+H]+; 2-(butylamino)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.838; IYAWBVSACPDZBW-UHFFFAOYSA-N; [M+2ACN+H]+; 2-morpholin-2-ylethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -51.643; KLZGKIDSEJWEDW; [M+C4H6N2+H]+; Acetylputrescine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -97.464; FLGCKPIDGVTCSU; [M+C4H6N2+H]+; 2-acetamidoethyl(dimethyl)azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -97.777; BTQJVSYVQQFPQG; [M+C4H6N2+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -98.707; WFCSWCVEJLETKA; [M+C4H6N2+H]+; 1-Piperazinethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -99.300; CEHVLIKQGJYEJA; [M+C4H6N2+H]+; 2-amino-N,N-diethylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -109.143; ZLHYDRXTDZFRDZ; [M+C4H6N2+H]+; 6-Aminocaproamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -111.637; YUZOKOFJOOANSW; [M+C4H6N2+H]+; 2,6-diaminohexanal
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -119.250; IEXLKUJTTDIYQW; [M+C2H3N+H]+; 1-Piperazineethanamine, 4-acetyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -120.177; QITAPFGSXHNLQM; [M+C4H6N2+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -120.328; KPYAYJPVNXTYPE; [M+C4H6N2+H]+; 1-Acetamido-3-amino-2-methylpropane
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -129.401; YLKFDHTUAUWZPQ; [M+C4H6N2+H]+; Dipropylnitrosamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -130.831; RWIVICVCHVMHMU; [M+C4H6N2+H]+; bmse000154
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -133.311; SIVFQKCLFRMMSZ; [M+C4H6N2+H]+; 1-Butyl-3-methylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -136.073; NKIKBXIPPUUSDP; [M+C4H6N2+H]+; 1-Ethyl-3-propylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -138.905; MONRWRVYLOHUFA; [M+C4H6N2+H]+; Pentylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -142.514; WFBDWTZOYPUBQZ; [M+C4H6N2+H]+; Dimethylaminopropyl formamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -144.655; NOLAXNLVEYHWHM; [M+C4H6N2+H]+; 1-Azoxypropane
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -145.918; ZGMCNGHHUQZNIH; [M+C4H6N2+H]+; Butylethylnitrosamin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -146.524; DWGMAIPVJRBOIB; [M+C4H6N2+H]+; N,N,N2,N2-tetramethylglycinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -148.702; AUIKJTGFPFLMFP; [M+C4H6N2+H]+; Diisopropylnitrosamin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -149.850; DSSFSAGQNGRBOR; [M+C4H6N2+H]+; Piperazineethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -150.160; JJQYLNCTJNLITN; [M+C2H3N+H]+; Piperazine, 1-[(dimethylamino)acetyl]-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -152.348; WTDMCLGFEXQYOU; [M+CH4O+H]+; 1-(2-imidazol-1-ylethyl)piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -152.768; CSLBJRKWKVBRSQ; [M+C4H6N2+H]+; N-(2-Dimethylaminoethyl)-N-methylformamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -152.891; ZNLCTCNYKCENHP; [M+C4H6N2+H]+; 1-(2-Aminoethyl)pyrrolidin-3-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -162.905; GWSLPKWCBFSXCD; [M+C4H6N2+H]+; 2-Azoxypropane
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -164.658; YBSDBDDIAPKFNU; [M+C2H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -165.237; CGWDFVNDHIONNG; [M+CH4O+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -165.614; KSFCDINBDBFFSI; [M+C4H6N2+H]+; Methylamylnitrosamin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -169.475; GICBAHNYFYTOCG; [M+CH4O+H]+; Methenamine allyl iodide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -172.082; ADTVDDSTSYXXPE; [M+CH4O+H]+; 1-(2-Piperidinoethyl)-1H-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -173.003; HPDWXKAIDOKHOC; [M+C4H6N2+H]+; ACMC-20mphm
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -179.253; QKWRNBNHSRYCOE; [M+C4H6N2+H]+; hexanehydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -180.624; AEMBWNDIEFEPTH; [M+C4H6N2+H]+; Ethyl-t-butylnitrosoamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -180.901; LLRPMCWEGQFYFB; [M+C4H6N2+H]+; Isoamylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -182.014; FORGMRSGVSYZQR; [M+C4H6N2+H]+; Leucinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -182.965; JJEMPZXXGBIJIX; [M+C2H3N+H]+; 1H-Benzotriazole,1-(2-propyn-1-yl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -183.521; CSAUXMDYLYBUNJ; [M+C4H6N2+H]+; 1,1-Diethyl-3-methylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -183.737; JDAMFKGXSUOWBV; [M+C4H6N2+H]+; Isoleucinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -184.379; CKRGUQFETZTMME; [M+C2H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -186.669; IHXACXWJGCBSCH; [M+C4H6N2+H]+; N-(4-amino-4-methylpentan-2-ylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -188.917; IFVRGSVHHSCKIS; [M+C2H3N+H]+; N-Hydroxy-1-piperidinepropanimidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -195.744; XEXIPRQHXNUUAA; [M+C4H6N2+H]+; Tetrahydro-2,5-furanebis(methylamine)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -199.144; XEAQPCFJFQRDDZ; [M+C4H6N2+H]+; Nitrosomethylneopentylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -200.682; SDKGAFHSAMMJKY; [M+C4H6N2+H]+; 4-Methyl-3-(aminomethyl)morpholine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -204.176; YCPQUHCGFDFLSI; [M+C4H6N2+H]+; 2-amino-2,3-dimethylbutanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -204.297; ORKQZIAHTZABIG; [M+C4H6N2+H]+; 3,5-diaminocyclohexan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -206.023; QCVCCWSPZIUXEA; [M+C4H6N2+H]+; 2-amino-3,3-dimethylbutanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -209.289; JDZQCVNSMIOFBW; [M+C2H3N+H]+; N''-(N-Methyl-4-piperidyl)acetohydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -209.989; WKHFGQLWQPTVJR; [M+C2H3N+H]+; 2-Amino-N-(1-methylpiperidin-4-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -211.511; SOBFKNVNVLNAJQ; [M+C4H6N2+H]+; 4-Methyl-2-(aminomethyl)morpholine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -211.764; RAPPKPUENZGVFU; [M+C4H6N2+H]+; ACMC-20mtsv
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -212.947; VOBMACGBVNTRGF; [M+C4H6N2+H]+; 4-methylpentanehydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -217.603; ZOFBDHIULJKKCB; [M+C4H6N2+H]+; Methylisoamylnitrosamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -217.850; ZZHPYRMKQBXJDI; [M+CH4O+H]+; 1-(1-methyl-1H-pyrazol-4-yl)piperidin-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -218.409; QCNNKYQIYTZXJX; [M+CH4O+H]+; 2-(1-methylpiperidin-4-yl)pyrazol-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -224.929; OVUWGANMOQIFHZ; [M+C4H6N2+H]+; tert-Amylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -227.721; UMZINNCUCWRLDQ; [M+CH4O+H]+; 5-[[ethyl(methyl)amino]methyl]-2-methylpyrimidin-4-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -230.039; DACXAEBOHWZDAM; [M+C4H6N2+H]+; 3-methyl-2-(methylamino)butanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -231.941; BZGBKNAGHAETKC; [M+C4H6N2+H]+; 3,4-diaminocyclohexan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -243.483; YEZHWPUHDLFLLW; [M+CH4O+H]+; 1-cyclohexyl-5-ethyltetrazole
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -247.001; AVEQCXBQACLXDJ; [M+C2H3N+H]+; 4-(Ethylamino)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -248.361; BWSIKGOGLDNQBZ; [M+C4H6N2+H]+; 2-(Methoxymethyl)-1-pyrrolidinamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -282.615; VHKDFUCTAJWSQN; [M+C2H3N+H]+; 4-(dimethylamino)piperidine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -283.855; ZSKQKQLNOZOOFP; [M+C2H3N+H]+; 3-Amino-N,N-dimethylpiperidine-1-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -294.325; FIOVOKBNWGTPRX; [M+CH4O+H]+; 3-Heptylideneamino-1,2,4-triazole
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -360.883; MHCILZYUJICANU; [M+C2H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -414.710; DFENKTCEEGOWLB; [M+C2H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -438.082; RZZGGSCKACYXBQ; [M+CH4O+H]+; ACMC-20cbgc
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.567; IEXLKUJTTDIYQW; [M+C2H3N+H]+; 1-Piperazineethanamine, 4-acetyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.498; KLZGKIDSEJWEDW; [M+C4H6N2+H]+; Acetylputrescine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.048; WTDMCLGFEXQYOU; [M+CH4O+H]+; 1-(2-imidazol-1-ylethyl)piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -41.618; FLGCKPIDGVTCSU; [M+C4H6N2+H]+; Acetamide, N-(2-(dimethylamino)ethyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -47.596; CSLBJRKWKVBRSQ; [M+C4H6N2+H]+; N-(2-Dimethylaminoethyl)-N-methylformamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.926; DWGMAIPVJRBOIB; [M+C4H6N2+H]+; 2-(dimethylamino)-N,N-dimethylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -59.450; OELYACPPZVLXQL; [M+H]+; 1,2-Di(piperazin-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -64.997; YKQCWLSICXULLF; [M+H]+; N-[2-[2-(2-methyl-4,5-dihydroimidazol-1-yl)ethylamino]ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.993; BIIYBVAGTLBMCQ; [M+C4H6N2+H]+; N-(trideuteriomethyl)-N-[2-(trideuteriomethylamino)ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -74.326; FDARTJCIFLZHFJ; [M+H]+; 1-Methyl-4-(piperazin-1-ylcarbonyl)piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -80.839; XRTCUNAPELNXQM; [M+H]+; 1-(1,4,7,10-Tetrazacyclododec-9-en-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -88.752; PTYIQUSSLOBKCH; [M+H]+; 1-(2-Piperazin-1-ylpiperazin-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -90.129; YBSDBDDIAPKFNU; [M+C2H3N+H]+; 1-[2-(Dimethylamino)ethyl]piperazin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -90.727; VVMHWANJLKTKOX; [M+H]+; 4-(2-Piperazin-1-ylethyl)piperazin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.283; OVIVUUTVPXYGHN; [M+H]+; 4-(Piperazin-1-ylmethyl)piperazine-1-carbaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.325; GHJGMLUSVKEQDI; [M+H]+; (3-Methylimidazolidin-1-yl)-(4-methylpiperazin-1-yl)methanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -98.885; MXVLBMCJFVQLHH; [M+H]+; 1-Methyl-3-(2-piperazin-1-ylethyl)imidazolidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -99.726; IEXLKUJTTDIYQW; [M+C2H3N+H]+; 1-(4-(2-Aminoethyl)piperazin-1-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -103.373; JADYGIBBFKLCTO; [M+H]+; 1-(2-Piperazin-1-ylethyl)piperazin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -108.538; AUIKJTGFPFLMFP; [M+C4H6N2+H]+; N-Nitrosodiisopropylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -111.425; YLKFDHTUAUWZPQ; [M+C4H6N2+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -111.633; GWSLPKWCBFSXCD; [M+C4H6N2+H]+; 2-Azoxypropane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -113.066; JJEMPZXXGBIJIX; [M+C2H3N+H]+; N,N-dimethyl-2-piperazin-1-yl-acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -116.417; CEHVLIKQGJYEJA; [M+C4H6N2+H]+; 2-amino-N,N-diethylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -117.292; PPQDYOBQQWPTIS; [M+C4H6N2+H]+; (2-Amino-2-oxoethyl)-diethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.709; CKRGUQFETZTMME; [M+C2H3N+H]+; Methyl-[2-(4-methylpiperazin-4-ium-1-yl)-2-oxoethyl]azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -122.124; NOLAXNLVEYHWHM; [M+C4H6N2+H]+; 1-Azoxypropane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -124.137; JJQYLNCTJNLITN; [M+C2H3N+H]+; Dimethyl-(2-oxo-2-piperazin-1-ylethyl)azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -125.430; GICBAHNYFYTOCG; [M+CH4O+H]+; 1-Prop-2-enyl-3,5,7-triaza-1-azoniatricyclo[3.3.1.13,7]decane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.700; CGPUPBFQFZRKOG; [M+C2H3N+H]+; 1-[3-(Dimethylamino)propyl]imidazolidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -149.052; HNWCTCGGYQCMQS; [M+C2H3N+H]+; 3-Amino-1-(4-methylpiperazin-1-yl)propan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -176.430; WTDMCLGFEXQYOU; [M+CH4O+H]+; 1-(2-Imidazol-1-yl-ethyl)-piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -178.269; UMZINNCUCWRLDQ; [M+CH4O+H]+; 5-{[Ethyl(methyl)amino]methyl}-2-methyl-5,6-dihydropyrimidin-4-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -214.027; IFVRGSVHHSCKIS; [M+C2H3N+H]+; (1-Amino-3-piperidin-1-ium-1-ylpropylidene)-hydroxyazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -230.327; DDBDAGJRFYTMCK; [M+CH4O+H]+; 2-(6,7,8,9-tetrahydro-5H-[1,2,4]triazolo[4,3-a]azepin-3-yl)ethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -232.634; ADTVDDSTSYXXPE; [M+CH4O+H]+; 1H-1,2,4-Triazole, 1-(2-piperidinoethyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -240.113; YEZHWPUHDLFLLW; [M+CH4O+H]+; 1H-Tetrazole, 1-cyclohexyl-5-ethyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -248.438; CGWDFVNDHIONNG; [M+CH4O+H]+; 1-methyl-3-(piperidin-4-yl)-1H-pyrazol-5-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -253.510; MPPMMKDXSXSUTG; [M+C2H3N+H]+; 2-(4-aminopiperidin-1-yl)-N-methylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -262.027; ZSKQKQLNOZOOFP; [M+C2H3N+H]+; [(3S)-1-(dimethylcarbamoyl)piperidin-3-yl]azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -287.229; QCNNKYQIYTZXJX; [M+CH4O+H]+; 1-(1-methylpiperidin-4-yl)-1H-pyrazol-5-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -293.496; ZZHPYRMKQBXJDI; [M+CH4O+H]+; 1-(1-methyl-1H-pyrazol-4-yl)piperidin-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -361.350; RZZGGSCKACYXBQ; [M+CH4O+H]+; 3,5,6,7,8,9-hexahydro-2H-cyclohepta[c]pyridazin-3-ylhydrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.278; FLGCKPIDGVTCSU; [M+C4H6N2+H]+; Acetamide, N-(2-(dimethylamino)ethyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.199; GICBAHNYFYTOCG; [M+CH4O+H]+; 1-Prop-2-enyl-3,5,7-triaza-1-azoniatricyclo[3.3.1.13,7]decane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.182; YBSDBDDIAPKFNU; [M+C2H3N+H]+; 1-[2-(Dimethylamino)ethyl]piperazin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.182; OELYACPPZVLXQL; [M+H]+; 1,2-Di(piperazin-1-yl)ethanone
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 213.171024; Observed in MS1; Charge state +1;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.457
+MS$FOCUSED_ION: PRECURSOR_M/Z 213.171024
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1690000000-fd42502a1c2e5e8dc924
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  72.0443335 18.9976 ? 72.044940 1.8044 5.91 0.2363 141
+  83.0603663 36.3695 ? 83.060870 1.1437 7.49 0.4381 168
+  85.0760408 17.0505 ? 85.076520 2.0100 3.99 0.2438 121
+  86.0600283 129.1134 ? 86.060495 0.6623 14.90 0.5293 168
+  87.0916469 22.3985 ? 87.092100 1.6419 5.49 0.3443 155
+  88.0756703 17.2428 ? 88.076110 1.9642 4.31 0.1481 131
+  97.0760850 39.5271 ? 97.076430 1.4319 10.85 -0.0273 168
+  111.0916944 281.6428 ? 111.091910 0.3961 22.41 0.7212 168
+  127.0867024 52.7283 ? 127.086715 1.3377 13.10 0.5042 168
+  127.1105878 55.8058 ? 127.110600 2.0612 9.61 0.2032 168
+  128.1183025 60.5126 ? 128.118300 1.4050 9.84 0.4692 168
+  129.1022972 141.1912 ? 129.102280 0.7359 16.54 0.6602 168
+  140.1182558 54.6763 ? 140.118160 1.7271 40.32 0.4543 151
+  143.0815977 47.8206 ? 143.081500 1.3908 12.53 0.1493 168
+  154.1340248 42.3968 ? 154.133920 1.4922 7.94 0.5409 168
+  168.1133138 35.7126 ? 168.113200 1.9927 7.01 0.4146 168
+  169.1211394 20.4273 ? 169.121025 2.5544 4.80 0.3300 144
+  170.1288901 23.5746 ? 170.128775 2.5216 7.40 0.1045 146
+  183.1126533 25.3950 ? 183.112530 2.3810 8.65 0.1036 156
+  195.1241109 40.3049 ? 195.123980 1.7579 9.42 0.3704 168
+  195.1604809 429.1542 ? 195.160350 0.4355 30.13 0.7688 168
+  213.1406920 378.4206 ? 213.140550 1.7641 53.43 0.1242 158
+  213.1711821 999.0000 ? 213.171040 0.6098 0.00 1.0000 168
+  213.1904221 462.5326 ? 213.190280 1.0226 171.09 0.6423 168
+PK$NUM_PEAK: 24
+PK$PEAK: m/z int. rel.int.
+  72.044333 19.00 18
+  83.060366 36.37 36
+  85.076041 17.05 17
+  86.060028 129.11 129
+  87.091647 22.40 22
+  88.075670 17.24 17
+  97.076085 39.53 39
+  111.091694 281.64 281
+  127.086702 52.73 52
+  127.110588 55.81 55
+  128.118303 60.51 60
+  129.102297 141.19 141
+  140.118256 54.68 54
+  143.081598 47.82 47
+  154.134025 42.40 42
+  168.113314 35.71 35
+  169.121139 20.43 20
+  170.128890 23.57 23
+  183.112653 25.39 25
+  195.124111 40.30 40
+  195.160481 429.15 429
+  213.140692 378.42 378
+  213.171182 999.00 999
+  213.190422 462.53 462
+//

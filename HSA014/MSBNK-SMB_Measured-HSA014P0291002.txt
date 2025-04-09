@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014P0291002
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: MS1_M/Z_AVERAGED_THRES 5.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 5.000
+COMMENT: DATASET_FILE_NUM 27
+COMMENT: NUM_AVERAGED_SPEC 21
+COMMENT: RAW_SPEC {'EL22-neg_1031': {'bp': 946371.0, 'sum': 1762451.0}, 'EL20-neg_1029': {'bp': 761418.0, 'sum': 1462883.0}, 'EL02-neg_1033': {'bp': 735737.0, 'sum': 1444084.0}, 'EL14-neg_1023': {'bp': 707164.0, 'sum': 1377670.0}, 'EL17-neg_1024': {'bp': 705532.0, 'sum': 1384960.0}, 'EL18-neg_1020': {'bp': 663113.0, 'sum': 1266429.0}, 'EL08-neg_1023': {'bp': 621629.0, 'sum': 1194250.0}, 'EL19-neg_1028': {'bp': 607425.0, 'sum': 1198908.0}, 'EL21-neg_1026': {'bp': 541759.0, 'sum': 1067193.0}, 'EL16-neg_1022': {'bp': 531351.0, 'sum': 1055942.0}, 'EL15-neg_1031': {'bp': 486336.0, 'sum': 936203.0}, 'EL01-neg_1024': {'bp': 455913.0, 'sum': 869892.0}, 'EL03-neg_1027': {'bp': 438973.0, 'sum': 839144.0}, 'EL23-neg_1033': {'bp': 393633.0, 'sum': 740893.0}, 'EL05-neg_1030': {'bp': 378028.0, 'sum': 725479.0}, 'EL24-neg_1023': {'bp': 277583.0, 'sum': 563079.0}, 'EL04-neg_1026': {'bp': 250616.0, 'sum': 500468.0}, 'EL13-neg_1032': {'bp': 243576.0, 'sum': 501653.0}, 'EL07-neg_1030': {'bp': 231979.0, 'sum': 464957.0}, 'EL06-neg_1035': {'bp': 201818.0, 'sum': 401469.0}, 'EL09-neg_1035': {'bp': 185110.0, 'sum': 374553.0}}
+COMMENT: RETENTION_TIME_STDEV 0.006
+COMMENT: PRECURSOR_M/Z_RAW 291.048616
+COMMENT: PRECURSOR_M/Z_STDEV 0.000135
+COMMENT: PRECURSOR_IN_MS1 mz 291.048608; int 58.127; delta(ppm) 0.770314
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 292.052132; int 4.672; cor 0.900
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 4.783; C8H13N4O6P; [M-H]1; delta(ppm) -4.783331
+COMMENT: PROPOSED_MF SevenGoldenRules 4.102; C18H14P2; [M-H]1; delta(ppm) -4.101955
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 291.048596; Observed in MS1; Charge state -1;
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.762
+MS$FOCUSED_ION: PRECURSOR_M/Z 291.048596
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01t9-9700000000-461a076553a603884421
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  78.9576181 999.0000 ? 78.957606 0.4939 0.00 1.0000 21
+  110.9838988 841.6156 ? 110.983929 0.4325 33.57 0.9974 21
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  78.957618 999.00 999
+  110.983899 841.62 841
+//

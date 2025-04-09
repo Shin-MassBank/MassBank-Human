@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0244001
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; NEGATIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.15, Processed 2025.02.15, Annotated 2025.04.01, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the follwing DDA dataset.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: MS1_M/Z_AVERAGED_THRES 20.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 50
+COMMENT: NUM_AVERAGED_SPEC 23
+COMMENT: RAW_SPEC {'D64neg_4176': {'bp': 1406.0, 'sum': 1826.0}, 'D66neg_4201': {'bp': 908.0, 'sum': 1202.0}, 'D126neg_4180': {'bp': 889.0, 'sum': 1351.0}, 'D87neg_4161': {'bp': 855.0, 'sum': 1023.0}, 'D73neg_4173': {'bp': 670.0, 'sum': 922.0}, 'D143neg_4073': {'bp': 559.0, 'sum': 727.0}, 'D171neg_4134': {'bp': 516.0, 'sum': 810.0}, 'D147neg_4262': {'bp': 494.0, 'sum': 870.0}, 'D99neg_4140': {'bp': 491.0, 'sum': 785.0}, 'C5neg_4136': {'bp': 489.0, 'sum': 783.0}, 'C1neg_4009': {'bp': 436.0, 'sum': 646.0}, 'D65neg_4123': {'bp': 416.0, 'sum': 542.0}, 'D168neg_4118': {'bp': 412.0, 'sum': 622.0}, 'C11neg_4016': {'bp': 381.0, 'sum': 591.0}, 'D145neg_4070': {'bp': 364.0, 'sum': 574.0}, 'D170neg_4007': {'bp': 362.0, 'sum': 551.0}, 'C12neg_3999': {'bp': 352.0, 'sum': 625.0}, 'C15neg_3922': {'bp': 336.0, 'sum': 420.0}, 'C15neg_3950': {'bp': 323.0, 'sum': 617.0}, 'C14neg_3945': {'bp': 312.0, 'sum': 480.0}, 'D74neg_4033': {'bp': 300.0, 'sum': 510.0}, 'D207neg_4227': {'bp': 282.0, 'sum': 450.0}, 'C6neg_4159': {'bp': 210.0, 'sum': 378.0}}
+COMMENT: RETENTION_TIME_STDEV 0.013
+COMMENT: PRECURSOR_M/Z_RAW 244.063161
+COMMENT: PRECURSOR_M/Z_STDEV 0.000665
+COMMENT: PRECURSOR_IN_MS1 mz 244.063230; int 27.418; delta(ppm) -0.914266
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Hac-H; M+K-2H; mz 221.996942; int 0.830; cor 0.627
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 11.882; C10H17NO2P2; [M-H]1; delta(ppm) -11.882293
+COMMENT: PROPOSED_MF SevenGoldenRules 5.141; C12H12N3OP; [M-H]1; delta(ppm) -5.141377
+COMMENT: PROPOSED_MF SevenGoldenRules 1.600; C14H7N5; [M-H]1; delta(ppm) 1.599539
+COMMENT: PROPOSED_MF SevenGoldenRules 7.055; C13H11NO4; [M-H]1; delta(ppm) 7.055112
+COMMENT: PROPOSED_MF SevenGoldenRules 11.274; C7H12N5O3P; [M-H]1; delta(ppm) 11.274305
+COMMENT: PROPOSED_MF SevenGoldenRules 16.730; C6H16NO7P; [M-H]1; delta(ppm) 16.729877
+COMMENT: PROPOSED_MF SevenGoldenRules 15.720; C8H13NP2; [M+Hac-H]1; delta(ppm) -15.720126
+COMMENT: PROPOSED_MF SevenGoldenRules 9.360; C11H7NO2; [M+Hac-H]1; delta(ppm) 9.359662
+COMMENT: PROPOSED_MF SevenGoldenRules 14.942; C5H8N5OP; [M+Hac-H]1; delta(ppm) 14.941955
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 244.063261; Observed in MS1; Charge state Unknown;
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 20.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.523
+MS$FOCUSED_ION: PRECURSOR_M/Z 244.063261
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-1900000000-6936cbae62891528565a
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  61.9867478 177.3252 ? 61.986722 8.8083 82.07 0.1336 17
+  115.0199915 999.0000 ? 115.019950 8.2247 0.00 1.0000 23
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  61.986748 177.33 177
+  115.019992 999.00 999
+//

@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014P0088000
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: MS1_M/Z_AVERAGED_THRES 5.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 5.000
+COMMENT: DATASET_FILE_NUM 27
+COMMENT: NUM_AVERAGED_SPEC 35
+COMMENT: RAW_SPEC {'EL02-neg_1137': {'bp': 155925.0, 'sum': 246255.0}, 'EL10-neg_1136': {'bp': 145047.0, 'sum': 227143.0}, 'EL05-neg_1131': {'bp': 136467.0, 'sum': 234687.0}, 'EL21-neg_1127': {'bp': 132407.0, 'sum': 222984.0}, 'EL04-neg_1126': {'bp': 131599.0, 'sum': 217026.0}, 'EL18-neg_1126': {'bp': 130886.0, 'sum': 217854.0}, 'EL11-neg_1126': {'bp': 130675.0, 'sum': 214241.0}, 'EL06-neg_1132': {'bp': 127645.0, 'sum': 223160.0}, 'EL17-neg_1128': {'bp': 126488.0, 'sum': 214605.0}, 'EL08-neg_1156': {'bp': 116715.0, 'sum': 200455.0}, 'EL20-neg_1132': {'bp': 111253.0, 'sum': 200851.0}, 'EL09-neg_1162': {'bp': 107602.0, 'sum': 199215.0}, 'EL01-neg_1125': {'bp': 102288.0, 'sum': 177455.0}, 'EL23-neg_1134': {'bp': 101143.0, 'sum': 196662.0}, 'EL19-neg_1161': {'bp': 100962.0, 'sum': 208185.0}, 'EL16-neg_1126': {'bp': 97646.0, 'sum': 175612.0}, 'EL12-neg_1133': {'bp': 96805.0, 'sum': 196276.0}, 'EL15-neg_1133': {'bp': 94035.0, 'sum': 203920.0}, 'EL09-neg_1129': {'bp': 93751.0, 'sum': 184289.0}, 'EL07-neg_1129': {'bp': 91255.0, 'sum': 175491.0}, 'EL20-neg_1166': {'bp': 91151.0, 'sum': 170469.0}, 'EL22-neg_1132': {'bp': 83291.0, 'sum': 208277.0}, 'EL13-neg_1128': {'bp': 82405.0, 'sum': 163713.0}, 'EL19-neg_1126': {'bp': 76982.0, 'sum': 182888.0}, 'EL06-neg_1166': {'bp': 76620.0, 'sum': 164115.0}, 'EL03-neg_1126': {'bp': 75902.0, 'sum': 156122.0}, 'EL03-neg_1161': {'bp': 75095.0, 'sum': 151521.0}, 'EL08-neg_1123': {'bp': 71748.0, 'sum': 144159.0}, 'EL01-neg_1159': {'bp': 65235.0, 'sum': 135976.0}, 'EL18-neg_1160': {'bp': 64416.0, 'sum': 159970.0}, 'EL14-neg_1125': {'bp': 62077.0, 'sum': 139909.0}, 'EL14-neg_1158': {'bp': 61841.0, 'sum': 142028.0}, 'EL24-neg_1155': {'bp': 56595.0, 'sum': 127506.0}, 'EL21-neg_1161': {'bp': 54886.0, 'sum': 137709.0}, 'EL24-neg_1120': {'bp': 52877.0, 'sum': 123314.0}}
+COMMENT: RETENTION_TIME_STDEV 0.026
+COMMENT: PRECURSOR_M/Z_RAW 88.038910
+COMMENT: PRECURSOR_M/Z_STDEV 0.000048
+COMMENT: PRECURSOR_IN_MS1 mz 88.039010; int 87.171; delta(ppm) 1.100508
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 89.042382; int 2.826; cor 0.915
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 88.039020; Observed in MS1; Charge state -1;
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.948
+MS$FOCUSED_ION: PRECURSOR_M/Z 88.039020
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-090f4234c5f6c24bf1e5
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  59.0123945 33.5241 ? 59.012370 1.3895 11.40 0.3125 31
+  60.9917237 130.9484 ? 60.991700 1.0001 39.47 0.2728 35
+  87.0073139 48.4670 ? 87.007310 0.9884 14.69 0.2868 35
+  88.0389627 999.0000 ? 88.038960 0.4771 0.00 1.0000 35
+  88.9866573 62.8268 ? 88.986656 1.0114 22.30 0.1159 30
+  89.0229816 473.8392 ? 89.022980 0.4606 140.87 0.2952 35
+  89.0422451 33.2891 ? 89.042243 1.5947 8.51 0.7285 26
+  89.9242805 52.3900 ? 89.924280 1.0231 25.12 -0.3890 33
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  59.012394 33.52 33
+  60.991724 130.95 130
+  87.007314 48.47 48
+  88.038963 999.00 999
+  88.986657 62.83 62
+  89.022982 473.84 473
+  89.042245 33.29 33
+  89.924281 52.39 52
+//

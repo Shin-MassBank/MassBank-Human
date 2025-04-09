@@ -1,0 +1,405 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032P0130000
+RECORD_TITLE: Annotated; Pipecolic acid; LC-ESI-QTOF; MS2; POSITIVE; generated fron DDA dataset
+DATE: 2025.04.02 (Averaged 2025.02.25, Processed 2025.02.25, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: The metabolite structure was annotated at Level 2a automatically. One of the possible structures is shown in the record.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: MS1_M/Z_AVERAGED_THRES 15.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 60
+COMMENT: NUM_AVERAGED_SPEC 141
+COMMENT: RAW_SPEC {'HC23-pos_488': {'bp': 121041.0, 'sum': 171135.0}, 'HC17-pos_531': {'bp': 59249.0, 'sum': 94653.0}, 'RA1-pos_507': {'bp': 53756.0, 'sum': 80841.0}, 'HC8-pos_514': {'bp': 46488.0, 'sum': 65264.0}, 'HC16-pos_537': {'bp': 40394.0, 'sum': 65685.0}, 'HC16-pos_777': {'bp': 39016.0, 'sum': 55412.0}, 'HC14-pos_498': {'bp': 37347.0, 'sum': 54548.0}, 'HC14-pos_526': {'bp': 36483.0, 'sum': 53250.0}, 'HC5-pos_521': {'bp': 35446.0, 'sum': 50912.0}, 'HC6-pos_512': {'bp': 35051.0, 'sum': 49973.0}, 'HC4-pos_495': {'bp': 31526.0, 'sum': 44851.0}, 'HC8-pos_538': {'bp': 30123.0, 'sum': 43752.0}, 'HC2-pos_489': {'bp': 29666.0, 'sum': 46046.0}, 'HC5-pos_748': {'bp': 28670.0, 'sum': 42200.0}, 'RA1-pos_741': {'bp': 27539.0, 'sum': 44205.0}, 'RA6-pos_520': {'bp': 27093.0, 'sum': 41586.0}, 'HC14-pos_730': {'bp': 26263.0, 'sum': 38871.0}, 'HC8-pos_721': {'bp': 23657.0, 'sum': 38228.0}, 'HC26-pos_527': {'bp': 21673.0, 'sum': 31745.0}, 'HC17-pos_715': {'bp': 21623.0, 'sum': 37483.0}, 'RA5-pos_524': {'bp': 21479.0, 'sum': 32527.0}, 'RA6-pos_494': {'bp': 20128.0, 'sum': 28489.0}, 'HC7-pos_514': {'bp': 18759.0, 'sum': 27618.0}, 'HC22-pos_538': {'bp': 17301.0, 'sum': 26379.0}, 'HC2-pos_745': {'bp': 16137.0, 'sum': 24511.0}, 'RA20-pos_496': {'bp': 15889.0, 'sum': 23502.0}, 'RA5-pos_766': {'bp': 15778.0, 'sum': 21501.0}, 'HC24-pos_512': {'bp': 15771.0, 'sum': 22768.0}, 'HC26-pos_500': {'bp': 15347.0, 'sum': 23495.0}, 'RA25-pos_523': {'bp': 14847.0, 'sum': 22381.0}, 'HC6-pos_724': {'bp': 13715.0, 'sum': 24091.0}, 'RA3-pos_522': {'bp': 13675.0, 'sum': 20682.0}, 'RA18-pos_515': {'bp': 12123.0, 'sum': 17813.0}, 'RA7-pos_697': {'bp': 11806.0, 'sum': 15411.0}, 'RA7-pos_528': {'bp': 11786.0, 'sum': 17270.0}, 'RA10-pos_525': {'bp': 11746.0, 'sum': 18405.0}, 'HC4-pos_728': {'bp': 11605.0, 'sum': 21426.0}, 'HC22-pos_712': {'bp': 11001.0, 'sum': 17205.0}, 'HC26-pos_745': {'bp': 10380.0, 'sum': 15319.0}, 'QC1-pos_506': {'bp': 9833.0, 'sum': 13528.0}, 'RA22-pos_509': {'bp': 8853.0, 'sum': 12163.0}, 'RA6-pos_707': {'bp': 8438.0, 'sum': 14285.0}, 'HC18-pos_533': {'bp': 8383.0, 'sum': 12427.0}, 'QC3-pos_515': {'bp': 8177.0, 'sum': 12226.0}, 'RA10-pos_736': {'bp': 7603.0, 'sum': 12686.0}, 'HC11-pos_735': {'bp': 7403.0, 'sum': 12090.0}, 'HC9-pos_516': {'bp': 7340.0, 'sum': 10932.0}, 'HC7-pos_718': {'bp': 7206.0, 'sum': 11730.0}, 'HC9-pos_271': {'bp': 6958.0, 'sum': 11657.0}, 'QC1-pos_603': {'bp': 6734.0, 'sum': 11056.0}, 'HC23-pos_722': {'bp': 6421.0, 'sum': 9328.0}, 'QC3-pos_611': {'bp': 6419.0, 'sum': 10534.0}, 'RA10-pos_282': {'bp': 6372.0, 'sum': 9504.0}, 'HC16-pos_498': {'bp': 6290.0, 'sum': 10243.0}, 'HC12-pos_285': {'bp': 6278.0, 'sum': 9421.0}, 'QC5-pos_606': {'bp': 6176.0, 'sum': 9538.0}, 'QC2-pos_606': {'bp': 6117.0, 'sum': 9667.0}, 'RA3-pos_735': {'bp': 6053.0, 'sum': 10162.0}, 'HC7-pos_487': {'bp': 6024.0, 'sum': 8498.0}, 'HC9-pos_726': {'bp': 5855.0, 'sum': 8811.0}, 'HC21-pos_503': {'bp': 5772.0, 'sum': 9282.0}, 'HC1-pos_264': {'bp': 5757.0, 'sum': 9812.0}, 'RA18-pos_740': {'bp': 5725.0, 'sum': 7706.0}, 'RA20-pos_740': {'bp': 5706.0, 'sum': 8071.0}, 'RA25-pos_748': {'bp': 5592.0, 'sum': 9192.0}, 'RA1-pos_273': {'bp': 5565.0, 'sum': 9561.0}, 'HC19-pos_539': {'bp': 5265.0, 'sum': 8728.0}, 'QC2-pos_666': {'bp': 5253.0, 'sum': 8998.0}, 'HC2-pos_267': {'bp': 5246.0, 'sum': 9980.0}, 'QC4-pos_526': {'bp': 5199.0, 'sum': 7340.0}, 'RA10-pos_268': {'bp': 4921.0, 'sum': 8980.0}, 'HC1-pos_278': {'bp': 4903.0, 'sum': 6401.0}, 'QC3-pos_675': {'bp': 4821.0, 'sum': 7378.0}, 'QC2-pos_519': {'bp': 4626.0, 'sum': 6709.0}, 'QC4-pos_691': {'bp': 4568.0, 'sum': 7217.0}, 'HC24-pos_730': {'bp': 4474.0, 'sum': 9424.0}, 'QC5-pos_519': {'bp': 4429.0, 'sum': 5908.0}, 'HC15-pos_279': {'bp': 4370.0, 'sum': 7333.0}, 'HC17-pos_272': {'bp': 4344.0, 'sum': 6169.0}, 'HC6-pos_279': {'bp': 4166.0, 'sum': 7813.0}, 'HC2-pos_279': {'bp': 3968.0, 'sum': 6300.0}, 'HC5-pos_276': {'bp': 3914.0, 'sum': 5629.0}, 'RA19-pos_527': {'bp': 3904.0, 'sum': 5794.0}, 'RA23-pos_522': {'bp': 3683.0, 'sum': 5544.0}, 'RA8-pos_512': {'bp': 3602.0, 'sum': 6757.0}, 'RA20-pos_285': {'bp': 3566.0, 'sum': 5345.0}, 'QC7-pos_527': {'bp': 3519.0, 'sum': 4875.0}, 'QC5-pos_691': {'bp': 3201.0, 'sum': 4634.0}, 'RA5-pos_291': {'bp': 3164.0, 'sum': 5689.0}, 'RA21-pos_252': {'bp': 3067.0, 'sum': 4836.0}, 'QC2-pos_256': {'bp': 3050.0, 'sum': 4893.0}, 'RA11-pos_540': {'bp': 3042.0, 'sum': 5520.0}, 'QC8-pos_685': {'bp': 3040.0, 'sum': 5121.0}, 'QC4-pos_267': {'bp': 2987.0, 'sum': 4562.0}, 'HC15-pos_262': {'bp': 2794.0, 'sum': 5499.0}, 'QC7-pos_625': {'bp': 2731.0, 'sum': 4121.0}, 'QC3-pos_255': {'bp': 2598.0, 'sum': 5394.0}, 'QC6-pos_619': {'bp': 2571.0, 'sum': 3549.0}, 'HC10-pos_717': {'bp': 2451.0, 'sum': 3900.0}, 'HC23-pos_275': {'bp': 2354.0, 'sum': 4172.0}, 'QC8-pos_528': {'bp': 2271.0, 'sum': 3029.0}, 'QC7-pos_680': {'bp': 2199.0, 'sum': 3444.0}, 'HC15-pos_498': {'bp': 2158.0, 'sum': 3032.0}, 'HC12-pos_295': {'bp': 2043.0, 'sum': 3602.0}, 'QC5-pos_701': {'bp': 2040.0, 'sum': 3381.0}, 'QC6-pos_519': {'bp': 1980.0, 'sum': 2913.0}, 'RA11-pos_716': {'bp': 1958.0, 'sum': 2875.0}, 'RA3-pos_278': {'bp': 1891.0, 'sum': 3265.0}, 'HC11-pos_280': {'bp': 1889.0, 'sum': 3429.0}, 'HC21-pos_284': {'bp': 1809.0, 'sum': 3174.0}, 'RA22-pos_682': {'bp': 1780.0, 'sum': 2502.0}, 'RA23-pos_712': {'bp': 1768.0, 'sum': 2327.0}, 'RA6-pos_246': {'bp': 1698.0, 'sum': 2716.0}, 'RA21-pos_561': {'bp': 1655.0, 'sum': 2472.0}, 'RA23-pos_276': {'bp': 1650.0, 'sum': 2414.0}, 'HC22-pos_266': {'bp': 1630.0, 'sum': 2961.0}, 'QC8-pos_677': {'bp': 1627.0, 'sum': 2758.0}, 'RA24-pos_705': {'bp': 1626.0, 'sum': 2301.0}, 'RA12-pos_279': {'bp': 1594.0, 'sum': 3181.0}, 'RA26-pos_256': {'bp': 1553.0, 'sum': 2011.0}, 'HC10-pos_286': {'bp': 1407.0, 'sum': 2069.0}, 'RA26-pos_244': {'bp': 1393.0, 'sum': 2073.0}, 'HC4-pos_289': {'bp': 1392.0, 'sum': 2104.0}, 'QC5-pos_259': {'bp': 1282.0, 'sum': 2165.0}, 'QC8-pos_266': {'bp': 1272.0, 'sum': 1884.0}, 'HC16-pos_281': {'bp': 1264.0, 'sum': 2555.0}, 'RA17-pos_279': {'bp': 1263.0, 'sum': 2309.0}, 'HC25-pos_290': {'bp': 1175.0, 'sum': 1685.0}, 'RA19-pos_282': {'bp': 1149.0, 'sum': 2168.0}, 'QC7-pos_266': {'bp': 1037.0, 'sum': 1698.0}, 'QC6-pos_260': {'bp': 1034.0, 'sum': 1441.0}, 'QC4-pos_251': {'bp': 1016.0, 'sum': 1983.0}, 'HC7-pos_291': {'bp': 907.0, 'sum': 1315.0}, 'RA6-pos_260': {'bp': 902.0, 'sum': 1462.0}, 'RA15-pos_546': {'bp': 794.0, 'sum': 1710.0}, 'RA25-pos_280': {'bp': 713.0, 'sum': 1018.0}, 'QC6-pos_252': {'bp': 700.0, 'sum': 1457.0}, 'RA11-pos_281': {'bp': 613.0, 'sum': 1071.0}, 'RA9-pos_277': {'bp': 547.0, 'sum': 802.0}, 'HC3-pos_283': {'bp': 411.0, 'sum': 717.0}, 'RA16-pos_279': {'bp': 267.0, 'sum': 471.0}}
+COMMENT: RETENTION_TIME_STDEV 0.232
+COMMENT: PRECURSOR_M/Z_RAW 130.085594
+COMMENT: PRECURSOR_M/Z_STDEV 0.000381
+COMMENT: PRECURSOR_IN_MS1 mz 130.086176; int 999.000; delta(ppm) 7.978190
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 1.549; C6H11NO2; [M+H]+; delta(ppm) -1.549441
+COMMENT: PROPOSED_MF MS-FINDER 4.715; C6H11NO2; [M+H]+; delta(ppm) -1.537704
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.070; C6H11NO2; [M+H]+; delta(ppm) -1.537704
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) -1.537704
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 55.434; C6H11NO2; [M+H]+; delta(ppm) -1.537704
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.619; C4H9N4O; [M+H]+; delta(ppm) 8.783720
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) -1.537704
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 38.000; HXEACLLIILLPRG-YFKPBYRVSA-N; C6H11NO2; ReSpect:PM000918 L-Pipecolic acid
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 20.000; HXEACLLIILLPRG-UHFFFAOYSA-N; C6H11NO2; Massbank:PR100437 DL-Pipecolinic acidHomoPropipecolinic acidpipecolateHomoprolinepipecolic acid2-piperidinecarboxylic acidpiperidine-2-carboxylic acidHexahydropicolinic aciddihydrobaikiane
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; NILQLFBWTXNUOE-UHFFFAOYSA-N; C6H11NO2; ReSpect:PS000402 1-Amino-1-cyclopentanecarboxylic acidacpcCycloleucineCycloleucin
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.747; LJGFIWDOHOWUOY-UHFFFAOYSA-N; [M+H]+; O=C(O)C1CN(C)CC1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.660; OPOBBDXDRHKTJF-MVOLPLEZNA-N; [M+H]+; C\C=C\C[C@H](N)C(O)=O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.660; NILQLFBWTXNUOE-UHFFFAOYSA-N; [M+H]+; NC1(CCCC1)C(O)=O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.558; RLHIWMRQDUCBDO-INEUFUBQSA-N; [M+H]+; CC[C@@H]1C[C@]1(N)C(O)=O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.556; SBTLHKXSISNXTP-MLHKIVSYNA-N; [M+H]+; CCC(=C)[C@H](N)C(O)=O
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.317; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.112; PJDFLNIOAUIZSL-UHFFFAOYSA-N; [M+H]+; Vigabatrin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.918; CWLQUGTUXBXTLF-YFKPBYRVSA-N; [M+H]+; N-Methyl proline
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.777; KKJQZEWNZXRJFG-UHFFFAOYNA-N; [M+H]+; L-trans-4-Methyl-2-pyrrolidinecarboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.735; NILQLFBWTXNUOE-UHFFFAOYSA-N; [M+H]+; (2E)-Decenoyl-ACP
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.705; SBTLHKXSISNXTP-MLHKIVSYNA-N; [M+H]+; UNPD25028
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.701; JWYOAMOZLZXDER-BJNJOQLTNA-N; [M+H]+; (-)-(1R,2S)-Cispentacin;(-)-Cispentacin;Antibiotic FR 109615;Cispentacin;FR 109615;cis-(1R,2S)-2-Aminocyclopentane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.692; BCTQUNGXIVZUSB-SGAVLPGINA-N; [M+H]+; Antibiotic PA 4046I;L-2-(1-Methylcyclopropyl)glycine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.688; OPOBBDXDRHKTJF-MVOLPLEZNA-N; [M+H]+; UNPD120690
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.675; KQFBUAIXCIGKAP-DJWKRKHSSA-N; [M+H]+; (4e)-4-Aminohex-4-Enoic Acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.658; RLHIWMRQDUCBDO-INEUFUBQSA-N; [M+H]+; (1R,2R)-1-amino-2-ethylcyclopropanecarboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.648; XGUXJMWPVJQIHI-MLHKIVSYNA-N; [M+H]+; UNPD24498
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.618; LWHHAVWYGIBIEU-ZCFIWIBFSA-N; [M+H]+; (2R)-2-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.596; XJLSEXAGTJCILF-RXMQYKEDSA-N; [M+H]+; (R)-nipecotic acid zwitterion
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.592; MLLSSTJTARJLHK-LXDRQGDMNA-N; [M+H]+; (+)-TACP
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.580; SRJOCJYGOFTFLH-UHFFFAOYSA-N; [M+H]+; piperidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.575; WLNGAYXEECPGBD-FSSILABJNA-N; [M+H]+; UNPD118814
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.571; DXLUNIWVHZZSPK-PCZRLLORNA-N; [M+H]+; UNPD169745
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.556; YNSYWEFVEIFJPZ-LXDRQGDMNA-N; [M+H]+; UNPD191715
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.519; OUENRUZPZZFMCA-UHFFFAOYSA-N; [M+H]+; 2-pyrrolidin-3-ylacetic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.504; JVZGXNOECLGJAU-MLHKIVSYNA-N; [M+H]+; UNPD178179
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.498; ADSALMJPJUKESW-UHFFFAOYNA-N; [M+H]+; 2-Pyrrolidineacetic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.494; GULMJNUJAVNDBJ-RXMQYKEDSA-N; [M+H]+; (2R)-2-methylpyrrolidine-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.489; DNUTZBZXLPWRJG-UHFFFAOYSA-N; [M+H]+; 1-Piperidine carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.476; LGGIJTRUNOEWMD-UHFFFAOYSA-N; [M+H]+; 3-aminooxepan-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.475; RLUNXOOTUPCUEU-UHFFFAOYSA-N; [M+H]+; 3,5-dihydroxy-3-methylpentanenitrile
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.466; PVUKLOCFXASFFY-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-5-methylpyrrolidine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.399; LJGFIWDOHOWUOY-UHFFFAOYSA-N; [M+H]+; 1-methylpyrrolidine-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.368; IUPZUIUDGMQIRB-YFKPBYRVSA-N; [M+H]+; (2S)-3-methyl-2-(methylideneamino)butanoic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.367; WGKOUOGONMGVSU-UHFFFAOYSA-N; [M+H]+; 1-hydroxy-5,5-dimethylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.248; RIOOHZIYIQTLNP-UHFFFAOYSA-N; [M+H]+; 1-ethyl-5-hydroxypyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.200; XZTPLFHJUZJXQP-UHFFFAOYSA-N; [M+H]+; CNP0449294
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.198; NQAIVVRCFAMKLM-UHFFFAOYSA-N; [M+H]+; UNPD86874
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.149; WDQFELCEOPFLCZ-UHFFFAOYSA-N; [M+H]+; 1-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.148; JSTBTMPTTAFOSB-SGAVLPGINA-N; [M+H]+; UNPD166664
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.125; BLWYXBNNBYXPPL-UHFFFAOYSA-N; [M+H]+; methyl pyrrolidine-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.038; SOYLQPBXNGCSNB-UHFFFAOYNA-N; [M+H]+; 3-Acetamidobutanal
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.982; DDSLGZOYEPKPSJ-UHFFFAOYSA-N; [M+H]+; N4-Acetylaminobutanal
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.980; NXDHWWSDSATZTL-UHFFFAOYSA-N; [M+H]+; UNPD117409
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.931; GHUQMJJLFXGPEJ-MDOHGIEYNA-N; [M+H]+; UNPD55542
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.897; PMZZKLUKCIYOJP-UHFFFAOYSA-N; [M+H]+; methyl 3-(ethylamino)prop-2-enoate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.868; FDKHZRAIKUTQLE-UHFFFAOYSA-N; [M+H]+; UNPD160891
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.867; KYWXRBNOYGGPIZ-UHFFFAOYSA-N; [M+H]+; 4-acetylmorpholine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.863; QAKYFFYZPIPLDN-UHFFFAOYSA-N; [M+H]+; methyl 3-(methylamino)but-2-enoate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.805; GRLLMEXCXJTHGF-VOTSOKGWSA-N; [M+H]+; UNPD25129
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.741; ZUBMZHJPTYYMRG-SNAWJCMRSA-N; [M+H]+; ethyl (E)-3-amino-2-methylprop-2-enoate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.534; NJNQUTDUIPVROZ-UHFFFAOYSA-N; [M+H]+; nitrocyclohexane
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.439; JMFVWNKPLURQMI-UHFFFAOYSA-N; [M+H]+; cyclopentyl carbamate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.438; KECXIBBXMHHSAL-UHFFFAOYSA-N; [M+H]+; 1-(2-oxopropylamino)propan-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.437; UDELMRIGXNCYLU-UHFFFAOYSA-N; [M+H]+; UNPD133650
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.421; NRCNZCLHYWKEDX-UHFFFAOYSA-N; [M+H]+; cyclohexyl nitrite
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.390; IRVPUNRJDRXQBL-UHFFFAOYSA-N; [M+H]+; N-(2-keto-1-methyl-propyl)acetamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.372; YPEWWOUWRRQBAX-UHFFFAOYSA-N; [M+H]+; N,N-dimethyl-3-oxobutyramide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.341; QLIBJPGWWSHWBF-UHFFFAOYSA-N; [M+H]+; 2-aminoethyl 2-methylprop-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; KQFBUAIXCIGKAP-DJWKRKHSSA-N; [M+H]+; (4e)-4-Aminohex-4-Enoic Acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.999; PJDFLNIOAUIZSL-UHFFFAOYSA-N; [M+H]+; Vigabatrin
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.945; ADSALMJPJUKESW-UHFFFAOYNA-N; [M+H]+; 2-Pyrrolidineacetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.943; OUENRUZPZZFMCA-UHFFFAOYSA-N; [M+H]+; 2-pyrrolidin-3-ylacetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.939; OPOBBDXDRHKTJF-MVOLPLEZNA-N; [M+H]+; UNPD120690
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.936; RLHIWMRQDUCBDO-INEUFUBQSA-N; [M+H]+; (1R,2R)-1-amino-2-ethylcyclopropanecarboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.934; SBTLHKXSISNXTP-MLHKIVSYNA-N; [M+H]+; UNPD25028
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.928; YNSYWEFVEIFJPZ-LXDRQGDMNA-N; [M+H]+; UNPD191715
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.927; GULMJNUJAVNDBJ-RXMQYKEDSA-N; [M+H]+; (2R)-2-methylpyrrolidine-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.927; XGUXJMWPVJQIHI-MLHKIVSYNA-N; [M+H]+; UNPD24498
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.926; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.926; JWYOAMOZLZXDER-BJNJOQLTNA-N; [M+H]+; (-)-(1R,2S)-Cispentacin;(-)-Cispentacin;Antibiotic FR 109615;Cispentacin;FR 109615;cis-(1R,2S)-2-Aminocyclopentane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.926; MLLSSTJTARJLHK-LXDRQGDMNA-N; [M+H]+; (+)-TACP
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.926; KKJQZEWNZXRJFG-UHFFFAOYNA-N; [M+H]+; L-trans-4-Methyl-2-pyrrolidinecarboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.925; LWHHAVWYGIBIEU-ZCFIWIBFSA-N; [M+H]+; (2R)-2-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.921; XJLSEXAGTJCILF-RXMQYKEDSA-N; [M+H]+; (R)-nipecotic acid zwitterion
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.920; WLNGAYXEECPGBD-FSSILABJNA-N; [M+H]+; UNPD118814
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.919; SRJOCJYGOFTFLH-UHFFFAOYSA-N; [M+H]+; piperidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.919; DNUTZBZXLPWRJG-UHFFFAOYSA-N; [M+H]+; 1-Piperidine carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.917; BCTQUNGXIVZUSB-SGAVLPGINA-N; [M+H]+; Antibiotic PA 4046I;L-2-(1-Methylcyclopropyl)glycine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.910; NILQLFBWTXNUOE-UHFFFAOYSA-N; [M+H]+; (2E)-Decenoyl-ACP
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.894; JVZGXNOECLGJAU-MLHKIVSYNA-N; [M+H]+; UNPD178179
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.892; CWLQUGTUXBXTLF-YFKPBYRVSA-N; [M+H]+; N-Methyl proline
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.892; LJGFIWDOHOWUOY-UHFFFAOYSA-N; [M+H]+; 1-methylpyrrolidine-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.831; NQAIVVRCFAMKLM-UHFFFAOYSA-N; [M+H]+; UNPD86874
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.801; IUPZUIUDGMQIRB-YFKPBYRVSA-N; [M+H]+; (2S)-3-methyl-2-(methylideneamino)butanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.757; DDSLGZOYEPKPSJ-UHFFFAOYSA-N; [M+H]+; N4-Acetylaminobutanal
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.745; PVUKLOCFXASFFY-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-5-methylpyrrolidine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.744; SOYLQPBXNGCSNB-UHFFFAOYNA-N; [M+H]+; 3-Acetamidobutanal
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.739; LGGIJTRUNOEWMD-UHFFFAOYSA-N; [M+H]+; 3-aminooxepan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.684; DXLUNIWVHZZSPK-PCZRLLORNA-N; [M+H]+; UNPD169745
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.672; WGKOUOGONMGVSU-UHFFFAOYSA-N; [M+H]+; 1-hydroxy-5,5-dimethylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.670; GHUQMJJLFXGPEJ-MDOHGIEYNA-N; [M+H]+; UNPD55542
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.657; JSTBTMPTTAFOSB-SGAVLPGINA-N; [M+H]+; UNPD166664
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.656; BLWYXBNNBYXPPL-UHFFFAOYSA-N; [M+H]+; methyl pyrrolidine-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.652; XZTPLFHJUZJXQP-UHFFFAOYSA-N; [M+H]+; CNP0449294
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.645; WDQFELCEOPFLCZ-UHFFFAOYSA-N; [M+H]+; 1-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.633; PMZZKLUKCIYOJP-UHFFFAOYSA-N; [M+H]+; methyl 3-(ethylamino)prop-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.633; QAKYFFYZPIPLDN-UHFFFAOYSA-N; [M+H]+; methyl 3-(methylamino)but-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.632; NXDHWWSDSATZTL-UHFFFAOYSA-N; [M+H]+; UNPD117409
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.619; RIOOHZIYIQTLNP-UHFFFAOYSA-N; [M+H]+; 1-ethyl-5-hydroxypyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.582; RLUNXOOTUPCUEU-UHFFFAOYSA-N; [M+H]+; 3,5-dihydroxy-3-methylpentanenitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.545; KYWXRBNOYGGPIZ-UHFFFAOYSA-N; [M+H]+; 4-acetylmorpholine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.194; ZUBMZHJPTYYMRG-SNAWJCMRSA-N; [M+H]+; ethyl (E)-3-amino-2-methylprop-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.191; FDKHZRAIKUTQLE-UHFFFAOYSA-N; [M+H]+; UNPD160891
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.141; KECXIBBXMHHSAL-UHFFFAOYSA-N; [M+H]+; 1-(2-oxopropylamino)propan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.121; YPEWWOUWRRQBAX-UHFFFAOYSA-N; [M+H]+; N,N-dimethyl-3-oxobutyramide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.099; IRVPUNRJDRXQBL-UHFFFAOYSA-N; [M+H]+; N-(2-keto-1-methyl-propyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.085; GRLLMEXCXJTHGF-VOTSOKGWSA-N; [M+H]+; UNPD25129
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.065; NJNQUTDUIPVROZ-UHFFFAOYSA-N; [M+H]+; nitrocyclohexane
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.064; NRCNZCLHYWKEDX-UHFFFAOYSA-N; [M+H]+; cyclohexyl nitrite
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.030; JMFVWNKPLURQMI-UHFFFAOYSA-N; [M+H]+; cyclopentyl carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.025; QLIBJPGWWSHWBF-UHFFFAOYSA-N; [M+H]+; 2-aminoethyl 2-methylprop-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.000; UDELMRIGXNCYLU-UHFFFAOYSA-N; [M+H]+; UNPD133650
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.381; PJDFLNIOAUIZSL-UHFFFAOYSA-N; [M+H]+; 4-aminohex-5-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.135; HXEACLLIILLPRG-UHFFFAOYSA-N; [M+H]+; piperidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.552; NILQLFBWTXNUOE-UHFFFAOYSA-N; [M+H]+; 1-aminocyclopentane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.934; XJLSEXAGTJCILF-RXMQYKEDSA-N; [M+H]+; (3R)-piperidine-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.794; SRJOCJYGOFTFLH-UHFFFAOYSA-N; [M+H]+; piperidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.684; WDQFELCEOPFLCZ-UHFFFAOYSA-N; [M+H]+; 1-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.614; CWLQUGTUXBXTLF-YFKPBYRVSA-N; [M+H]+; (2S)-1-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.469; KKJQZEWNZXRJFG-UHNVWZDZSA-N; [M+H]+; (2S,4R)-4-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.309; ADSALMJPJUKESW-YFKPBYRVSA-N; [M+H]+; 2-[(2S)-pyrrolidin-2-yl]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.263; JWYOAMOZLZXDER-UHNVWZDZSA-N; [M+H]+; (1R,2S)-2-aminocyclopentane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.199; OPOBBDXDRHKTJF-NSCUHMNNSA-N; [M+H]+; (E)-2-aminohex-4-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.169; BCTQUNGXIVZUSB-UHFFFAOYSA-N; [M+H]+; 2-amino-2-(1-methylcyclopropyl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.147; BSCJIBOZTKGXQP-UHFFFAOYSA-N; [M+H]+; N-(2-hydroxyethyl)-2-methylprop-2-enamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.144; UUZBMBGPWXYEQZ-HWKANZROSA-N; [M+H]+; (E)-5-amino-2-methylpent-2-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.137; DDSLGZOYEPKPSJ-UHFFFAOYSA-N; [M+H]+; N-(4-oxobutyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.126; CNPSFBUUYIVHAP-WHFBIAKZSA-N; [M+H]+; (2S,3S)-3-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.120; KYWXRBNOYGGPIZ-UHFFFAOYSA-N; [M+H]+; 1-morpholin-4-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.120; MLLSSTJTARJLHK-UHFFFAOYSA-N; [M+H]+; 3-aminocyclopentane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.110; LWHHAVWYGIBIEU-LURJTMIESA-N; [M+H]+; (2S)-2-methylpyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.094; XGUXJMWPVJQIHI-UHFFFAOYSA-N; [M+H]+; 2-amino-3-cyclopropylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.089; UEMNCMYSSFWTCS-RXMQYKEDSA-N; [M+H]+; (3R)-3-aminohex-5-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.082; JZOKIDHQIVAHON-UHFFFAOYSA-N; [M+H]+; 2-(3-aminocyclobutyl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.082; YDXKXPHBTAVLIZ-RFZPGFLSSA-N; [M+H]+; 2-[(1R,2R)-2-aminocyclobutyl]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.080; OUENRUZPZZFMCA-RXMQYKEDSA-N; [M+H]+; 2-[(3R)-pyrrolidin-3-yl]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.075; RQTWJKPILUJGHX-UHFFFAOYSA-N; [M+H]+; 2-(2-methylazetidin-2-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.073; IHWFMMMLMIDKCB-UHFFFAOYSA-N; [M+H]+; 3-amino-3-cyclopropylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.072; IPXNXMNCBXHYLQ-UHFFFAOYSA-N; [M+H]+; 2-pyrrolidin-1-ylacetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.071; NPSWHDAHNWWMEG-UHFFFAOYSA-N; [M+H]+; 2-aminohex-5-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.069; IDKBFOVECMUFKX-UHFFFAOYSA-N; [M+H]+; 2-[1-(aminomethyl)cyclopropyl]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.061; INKSBOBJGZMVTL-UHFFFAOYSA-N; [M+H]+; 3-(aminomethyl)cyclobutane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.060; ZWBFDKKDVOKLPP-UHFFFAOYSA-N; [M+H]+; 2-amino-2-(2-methylcyclopropyl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.058; KAGNQZHEDUAMKC-UHFFFAOYSA-N; [M+H]+; 3-(cyclopropylamino)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.057; UCKKIMVYGSUKJT-UHFFFAOYSA-N; [M+H]+; 3-(azetidin-1-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.054; FZENWFNLDOYYFB-UHFFFAOYSA-N; [M+H]+; 2-amino-2-cyclobutylacetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.052; JOWMUWBEMDOCKB-UHFFFAOYSA-N; [M+H]+; 2-(cyclopropylmethylamino)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.051; YOZHLACIXDCHPV-UHFFFAOYSA-N; [M+H]+; N-(methoxymethyl)-2-methylprop-2-enamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.050; FLYSYPZJEXSTBV-RFZPGFLSSA-N; [M+H]+; (3S,4S)-4-methylpyrrolidine-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.049; KEMPQKFQCQJOCE-UHFFFAOYSA-N; [M+H]+; 2-(3-methylazetidin-1-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.045; FWXIDVNYQQPRNY-UHFFFAOYSA-N; [M+H]+; 2-(1-methylazetidin-3-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.041; ITGIYLMMAABTHC-ONEGZZNKSA-N; [M+H]+; (E)-4-(dimethylamino)but-2-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.039; QMBTZYHBJFPEJB-LURJTMIESA-N; [M+H]+; (2S)-2-amino-2-methylpent-4-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.036; UFAWZEXRUMEVNX-UHFFFAOYSA-N; [M+H]+; 2-(azetidin-1-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.032; LJGFIWDOHOWUOY-UHFFFAOYSA-N; [M+H]+; 1-methylpyrrolidine-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.024; UGVCMFJZKJVKMN-UHFFFAOYSA-N; [M+H]+; 2-[cyclopropyl(methyl)amino]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.021; BLWYXBNNBYXPPL-YFKPBYRVSA-N; [M+H]+; methyl (2S)-pyrrolidine-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.020; VRFYYCFVOBCXDL-UHFFFAOYSA-N; [M+H]+; 2-amino-2-cyclopropylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.008; ZGIIYBQFEOZGIX-UHFFFAOYSA-N; [M+H]+; 1-(methylamino)cyclobutane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.986; PABWDKROPVYJBH-UHFFFAOYSA-N; [M+H]+; 2-amino-4-methylpent-4-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.966; CUDYUNNRMLWYTR-UHFFFAOYSA-N; [M+H]+; 1-amino-2,2-dimethylcyclopropane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.961; NQAIVVRCFAMKLM-UHFFFAOYSA-N; [M+H]+; 1-(dimethylamino)cyclopropane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.955; QLIBJPGWWSHWBF-UHFFFAOYSA-N; [M+H]+; 2-aminoethyl 2-methylprop-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.945; GANOKKCPYBWVRC-UHFFFAOYSA-N; [M+H]+; 2-[(dimethylamino)methyl]prop-2-enoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.922; OXCVNPHTSWKTBC-UHFFFAOYSA-N; [M+H]+; 4-hydroxypiperidine-1-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.916; NKBJBYZRMNUGPF-UHFFFAOYSA-N; [M+H]+; 3-amino-5,5-dimethyloxolan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.880; ZEMHQYNMVKDBFJ-UHFFFAOYSA-N; [M+H]+; N-(3-hydroxypropyl)prop-2-enamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.864; SWYMJLYPXAXHBJ-UHFFFAOYSA-N; [M+H]+; 2-(4,5-dihydro-1,3-oxazol-2-yl)propan-1-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.851; FTLXLFPMDCOABE-UHFFFAOYSA-N; [M+H]+; 3-amino-4,4-dimethyloxolan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.840; GPVDPHDTYDBCAI-UHFFFAOYSA-N; [M+H]+; 5-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.839; USLIRRDZCYCNQT-UHFFFAOYSA-N; [M+H]+; 4-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.839; UJYRIMZFBRGKQF-UHFFFAOYSA-N; [M+H]+; 3-(2-hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.839; VMOQVTPKGUXWKA-RXMQYKEDSA-N; [M+H]+; (6R)-6-(hydroxymethyl)piperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.836; ASQVPLMNHXQYMU-UHFFFAOYSA-N; [M+H]+; 5-(hydroxymethyl)piperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.836; DTSWKQMYYTZZMS-UHFFFAOYSA-N; [M+H]+; 4-(hydroxymethyl)piperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.833; GANLLNYSHYQPFP-UHFFFAOYSA-N; [M+H]+; 4-(2-hydroxyethyl)-4-methylazetidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.832; ZNAPPCVBCHWFFH-UHFFFAOYSA-N; [M+H]+; 5-(hydroxymethyl)-5-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.831; OBVUYDLKWAXYGV-UHFFFAOYSA-N; [M+H]+; 3-(hydroxymethyl)-3-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.830; QGIFFTTTXRPFEN-UHFFFAOYSA-N; [M+H]+; 4-(hydroxymethyl)-4-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.829; LXRZFAQGLFLJSI-NSCUHMNNSA-N; [M+H]+; methyl (E)-5-aminopent-3-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.827; ULMBPGYSCZOWNE-UHFFFAOYSA-N; [M+H]+; methyl 2-(1-aminocyclopropyl)acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.823; VYHUMZYFJVMWRC-UHFFFAOYSA-N; [M+H]+; N-(2-hydroxyethyl)-N-methylprop-2-enamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.818; VVWWZOKQKXPVIV-YFKPBYRVSA-N; [M+H]+; methyl (3S)-pyrrolidine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.814; YBUPWRYTXGAWJX-YFKPBYRVSA-N; [M+H]+; (4R)-4-propan-2-yl-1,3-oxazolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.808; DGOYLVBDCVINQZ-UHFFFAOYSA-N; [M+H]+; oxane-4-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.804; GWMISASZFLPFMP-UHFFFAOYSA-N; [M+H]+; 1-methoxypiperidin-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.803; KCQXYISBJUBSAD-UHFFFAOYSA-N; [M+H]+; 3-methoxypiperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.801; XTEMPDFELJHZGO-UHFFFAOYSA-N; [M+H]+; 3-(methoxymethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.797; GHUQMJJLFXGPEJ-UHFFFAOYSA-N; [M+H]+; 6-methoxypiperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.795; UWHWNFVVODLFIQ-UHFFFAOYSA-N; [M+H]+; methyl pyrrolidine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.795; NKSXDMWAVIOSTD-PLNGDYQASA-N; [M+H]+; methyl (Z)-3-aminopent-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.791; VOUQXKFPLUQLQW-HWKANZROSA-N; [M+H]+; methyl (E)-4-amino-2-methylbut-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.791; XWBSFYWZNUKOEY-UHFFFAOYSA-N; [M+H]+; methyl 3-aminocyclobutane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.791; PESIJJGWDALPCW-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-1-methylpiperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.789; PPHOPSPDAMDRFS-HWKANZROSA-N; [M+H]+; methyl (E)-4-amino-3-methylbut-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.789; XUMXBEOXYOHXFJ-UHFFFAOYSA-N; [M+H]+; methyl 4-aminopent-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.786; DOKXBBFVQUNEMW-UHFFFAOYSA-N; [M+H]+; 3-(hydroxymethyl)-1-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.786; JZZZAICSBVLATB-UHFFFAOYSA-N; [M+H]+; methyl 4-methylazetidine-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.785; CMHSWRSLJXDXBH-UHFFFAOYSA-N; [M+H]+; methyl 2-(aminomethyl)cyclopropane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.785; IMHXOVKGKHSNDO-UHNVWZDZSA-N; [M+H]+; methyl (1R,2S)-2-aminocyclobutane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.781; JHQZRHILTYGZQL-UHFFFAOYSA-N; [M+H]+; methyl 2-aminopent-4-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.781; SGXOPTPGZBLQAY-UHFFFAOYSA-N; [M+H]+; methyl 1-aminocyclobutane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.777; AEJLDXOAORTQER-UHFFFAOYSA-N; [M+H]+; 4-(hydroxymethyl)-1-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.776; OHTBSHGXEXCIOI-UHFFFAOYSA-N; [M+H]+; 5-(hydroxymethyl)-1-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.776; NZIFONPEUDXXJV-UHFFFAOYSA-N; [M+H]+; methyl 2-amino-2-cyclopropylacetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.776; JQIHWQKTYOKPMO-UHFFFAOYSA-N; [M+H]+; methyl 1-(aminomethyl)cyclopropane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.775; XBDAMCICMBRGSN-UHFFFAOYSA-N; [M+H]+; 5-hydroxyazepan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.773; UCSPSEUVPQTOQD-UHFFFAOYSA-N; [M+H]+; 5-hydroxy-1-methylpiperidin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.770; YIASMVVBRSAEBL-DUXPYHPUSA-N; [M+H]+; methyl (E)-5-aminopent-2-enoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.768; BEKGTIZDYXJDJO-UHFFFAOYSA-N; [M+H]+; N-cyclopropyl-2-hydroxy-N-methylacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.765; QAKYFFYZPIPLDN-UHFFFAOYSA-N; [M+H]+; methyl 3-(methylamino)but-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.544; HXEACLLIILLPRG; [M+H]+; l-homopro
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -65.766; ADSALMJPJUKESW; [M+H]+; Ambcb4004817
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -67.054; XJLSEXAGTJCILF; [M+H]+; Tocris-0236
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -77.171; YNSYWEFVEIFJPZ; [M+H]+; 5-Methylproline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -80.606; SRJOCJYGOFTFLH; [M+H]+; Lopac-I18008
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -88.171; CNPSFBUUYIVHAP; [M+H]+; L-Proline, 3-methyl-,(3S)-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -91.560; KKJQZEWNZXRJFG; [M+H]+; 4-Methylproline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -92.420; JWYOAMOZLZXDER; [M+H]+; Cispentacin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -93.250; CWLQUGTUXBXTLF; [M+H]+; Ambcb4041136
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -96.029; NILQLFBWTXNUOE; [M+H]+; Cycloleucin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -98.190; KQLGGQARRCMYGD; [M+H]+; N-cyclobutylglycine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -107.490; LWHHAVWYGIBIEU; [M+H]+; Ambcb4039700
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -108.905; BLWYXBNNBYXPPL; [M+H]+; AmbotzHAA6510
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -116.852; MLLSSTJTARJLHK; [M+H]+; 3-Aminocyclopentanecarboxylicacid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -116.981; XGUXJMWPVJQIHI; [M+H]+; D-Cyclopropylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -116.997; IPXNXMNCBXHYLQ; [M+H]+; 2-pyrrolidin-1-ylacetate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -119.318; OUENRUZPZZFMCA; [M+H]+; ACMC-20liyx
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -125.441; JOWMUWBEMDOCKB; [M+H]+; 2-(cyclopropylmethylamino)acetic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -133.651; NPSWHDAHNWWMEG; [M+H]+; ACMC-20ltrg
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -146.969; RLHIWMRQDUCBDO; [M+H]+; Coronamic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -150.807; JXNPHMVNQPDXQI; [M+H]+; Ambcb4031237
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -164.832; JVZGXNOECLGJAU; [M+H]+; 2-(methylamino)pent-4-enoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -166.231; LJGFIWDOHOWUOY; [M+H]+; 1-methyl-3-pyrrolidinecarboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -167.477; PJDFLNIOAUIZSL; [M+H]+; Sabrilan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -171.865; DNUTZBZXLPWRJG; [M+H]+; piperidine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -171.966; OPOBBDXDRHKTJF; [M+H]+; 4-Hexenoic acid, 2-amino-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -173.749; SBTLHKXSISNXTP; [M+H]+; DL-Norvaline, 3-methylene-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -186.905; KCQXYISBJUBSAD; [M+H]+; 3-methoxy-2-piperidinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -188.311; KQFBUAIXCIGKAP; [M+H]+; (E)-4-aminohex-4-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -188.832; PABWDKROPVYJBH; [M+H]+; 4-methylidenenorvaline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -189.552; VRFYYCFVOBCXDL; [M+H]+; alpha-Cyclopropylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -191.762; JTOUWLZSXWMCSH; [M+H]+; Ambcb4036707
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -193.005; DDSLGZOYEPKPSJ; [M+H]+; 4-acetamidobutanal
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -195.483; BCTQUNGXIVZUSB; [M+H]+; Antibiotic PA 40461
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -199.068; UJYRIMZFBRGKQF; [M+H]+; 3-(2-Hydroxyethyl)pyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -204.859; XJHNCGVHPLDMRK; [M+H]+; 4,4-dimethoxy-butanenitril
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -206.117; ASQVPLMNHXQYMU; [M+H]+; 5-(Hydroxymethyl)piperidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -206.231; GHUQMJJLFXGPEJ; [M+H]+; 6-Methoxy-2-piperidinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -209.887; ZAGOKQGYDCMNPT; [M+H]+; Methoxyethoxypropionitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -211.407; WDQFELCEOPFLCZ; [M+H]+; 1-(2-Hydroxyethyl)-2-pyrrolidone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -211.452; NJNQUTDUIPVROZ; [M+H]+; 1-nitrocyclohexan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -214.752; NRCNZCLHYWKEDX; [M+H]+; Cyclohexyl nitrite
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -215.585; WLNGAYXEECPGBD; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -219.038; QMBTZYHBJFPEJB; [M+H]+; AmbotzHAA5250
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -219.504; ZEMHQYNMVKDBFJ; [M+H]+; N-(3-Hydroxypropyl)acrylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -220.631; REYAJCIAOQNQTF; [M+H]+; N-ethylacetoacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -220.864; BIYYQEVGNGBZAK; [M+H]+; 6-Nitro-1-hexene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -230.622; ODHQVFPGHQBQSY; [M+H]+; (R)-1-Acetyl-3-pyrrolidinol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -230.751; TYAFIFFKPSWZRM; [M+H]+; Dehydroleucine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -233.427; FEXFOJWILSEGPI; [M+H]+; 3,4-Hexanedione 3-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -239.904; HDKZWRBPFIPXIE; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -240.574; DYSUVIPLCIOCKL; [M+H]+; 2-methyl-1-(methylamino)cyclopropane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -240.833; PVUKLOCFXASFFY; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -241.753; UDELMRIGXNCYLU; [M+H]+; Diethoxyacetonitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -243.208; NXDHWWSDSATZTL; [M+H]+; Cyclopropanecarboxylic acid, 1-(methylamino)-, methyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -246.289; CEHMJHORJSNKTM; [M+H]+; 3-Nitro-2-hexene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -247.294; FDKHZRAIKUTQLE; [M+H]+; AmbotzHAA1000
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -251.625; RXVINEUKGZXZAV; [M+H]+; ACMC-20mtmi
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -251.745; OUUWATVJTLBCFV; [M+H]+; N-Acetyl-N-ethylacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -253.262; NQAIVVRCFAMKLM; [M+H]+; 1-(dimethylamino)cyclopropanecarboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -256.881; IKMSGGHCWBSOOO; [M+H]+; 3-Ethyleniminopropionate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -257.073; KYWXRBNOYGGPIZ; [M+H]+; N-Acetylmorfolin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -259.238; JMFVWNKPLURQMI; [M+H]+; Cyclopentyl carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -263.332; DGOYLVBDCVINQZ; [M+H]+; oxane-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -263.630; PGYLHAWIWHNHRI; [M+H]+; 3-Methyl-2-oxopentanal 1-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -264.580; GRLLMEXCXJTHGF; [M+H]+; (3Z)-3-hydroxyiminohexan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -266.450; NTKGSOGYUJUGCY; [M+H]+; 2-Oxohexanal 1-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -269.032; SOYLQPBXNGCSNB; [M+H]+; N-(4-oxobutan-2-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -272.787; BSCJIBOZTKGXQP; [M+H]+; N-(2-Hydroxyethyl)methacrylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -272.992; XZTPLFHJUZJXQP; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -274.585; VGSLRQVUNUAWRE; [M+H]+; Cyclopentanecarboxamide, 1-hydroxy-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -275.994; YPMPTULBFPFSEQ; [M+H]+; Ethyl 3-aminocrotonate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -277.008; OHTBSHGXEXCIOI; [M+H]+; Pyrrolin-2-one-5-methanol, N-methyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -277.956; UCSPSEUVPQTOQD; [M+H]+; 5-hydroxy-1-methylpiperidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -278.827; YACQJJJPEQXXHC; [M+H]+; (2Z)-2-hydroxyiminohexan-3-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -280.611; GANOKKCPYBWVRC; [M+H]+; 2-[(dimethylamino)methyl]prop-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -282.201; AOHHOQCLVBLOHU; [M+H]+; Ethyl allylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -282.561; PMZZKLUKCIYOJP; [M+H]+; methyl 3-(ethylamino)prop-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -283.077; IUFIMAVKWGQGQX; [M+H]+; propyl aziridine-1-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -283.916; YRISILVEKHMLPL; [M+H]+; ACMC-20mvkn
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -284.367; QLIBJPGWWSHWBF; [M+H]+; 2-Aminoethylmethacrylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -288.089; YNFDTNUDQJVEOF; [M+H]+; 4-Methyl-2-oxopentanal 1-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -290.582; YWLSGHOSSUXBJK; [M+H]+; 2,4-Dimethyl-2-oxazoline-4-methanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -290.806; JSTBTMPTTAFOSB; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -299.991; LSWADWIFYOAQRZ; [M+H]+; N-(Ethoxymethyl)acrylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -301.028; WOWQQULALBNEEM; [M+H]+; 2-Propylisoxazolid-3(2H)-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -303.622; SWYMJLYPXAXHBJ; [M+H]+; 2-[1-(Hydroxymethyl)ethyl] oxazoline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -305.594; IRVPUNRJDRXQBL; [M+H]+; 3-acetamidobutan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -305.732; QRHKUWPDXPZWDX; [M+H]+; Isopropyl aziridinylformate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -306.874; AEJLDXOAORTQER; [M+H]+; 4-(Hydroxymethyl)-1-methylpyrrolidin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -307.522; SNAKZQGNQQFDCV; [M+H]+; ACMC-20hito
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -308.367; QAKYFFYZPIPLDN; [M+H]+; Methyl 3-methylaminobut-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -313.765; YBUPWRYTXGAWJX; [M+H]+; R-4-Isopropyl-2-oxazolidinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -317.234; CZWSUVQCPWIYID; [M+H]+; (E)-4-methyl-1-nitropent-1-ene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -320.815; GISPZPIPXRSEIV; [M+H]+; 3,3-Dimethyl-2-oxobutanal 1-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -324.827; KKWRXTVMYYRSMZ; [M+H]+; 4-Methyl-2,3-pentanedione 3-oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -333.001; YOZHLACIXDCHPV; [M+H]+; N-(Methoxymethyl)methacrylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -347.873; YPEWWOUWRRQBAX; [M+H]+; NN-Dimethylacetoacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -359.500; DXLUNIWVHZZSPK; [M+H]+; 3-amino-4,5-dimethyloxolan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.761; HXEACLLIILLPRG; [M+H]+; l-homopro
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -74.651; HXEACLLIILLPRG; [M+H]+; Pipecolate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -128.423; XJLSEXAGTJCILF; [M+H]+; Nipecotic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -148.028; CNPSFBUUYIVHAP; [M+H]+; [hydroxy-[(2S,3S)-3-methylpyrrolidin-2-yl]methylidene]oxidanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -150.468; JWYOAMOZLZXDER; [M+H]+; Cispentacin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -153.624; NILQLFBWTXNUOE; [M+H]+; Cycloleucine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -155.057; SRJOCJYGOFTFLH; [M+H]+; Isonipecotic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -169.525; XGUXJMWPVJQIHI; [M+H]+; Cyclopropylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -169.549; ADSALMJPJUKESW; [M+H]+; 2-(pyrrolidin-2-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -179.778; MLLSSTJTARJLHK; [M+H]+; Achyranthine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -182.194; JOWMUWBEMDOCKB; [M+H]+; 2-(Cyclopropylmethylamino)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.932; HXEACLLIILLPRG; [M+H]+; Pipecolate
+COMMENT: CONFIDENCE Level 2a: Probable structure by library spectrum match Pipecolic acid, HXEACLLIILLPRG-UHFFFAOYSA-N; Matching to 20 measured spectra (Dot product > 0.7); Proposed by SIRIUS6_Confidence with FDR < 0.1; Supported by other software with ranking <= 10 MetFrag:PubchemLite (2); This structural isomer was suggested from the biological context HMDB HMDB0000070;HMDB0000716;HMDB0005960;HMDB0062767;
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.078979
+CH$SMILES: C1CCNC(C1)C(=O)O
+CH$IUPAC: InChI=1S/C6H11NO2/c8-6(9)5-3-1-2-4-7-5/h5,7H,1-4H2,(H,8,9)
+CH$NAME: L-Pipecolate
+CH$NAME: Pipecolic acid
+CH$NAME: piperidine-2-carboxylic acid
+CH$LINK: INCHIKEY HXEACLLIILLPRG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:849
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 15.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.941
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.086055
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9000000000-8b45e1332df90d27fc97
+PK$ANNOTATION: m/z int m/z_nocal m/z_std(ppm) int_std cor n annotation
+  42.0338286 36.7942 42.034140 18.4375 37.96 0.7572 107 f{C2H4N1}/0.07ppm,p-C4H8O2
+  55.0540720 34.9534 55.054330 15.4394 18.32 0.8712 115 f{C4H7}/-2.81ppm,p-C2H5N1O2
+  56.0494340 215.0754 56.049685 16.8780 79.80 0.8850 134 f{C3H6N1}/-0.74ppm,p-C3H6O2
+  67.0539889 33.2868 67.054135 14.2124 18.93 0.8673 108 f{C5H7}/-3.55ppm,p-C1H5N1O2
+  70.0649200 38.0618 70.065070 15.7568 46.38 0.4417 107 f{C4H8N1}/-2.94ppm,p-C2H4O2
+  82.0648820 35.5017 82.065080 17.2912 37.95 0.6957 100 f{C5H8N1}/-2.97ppm,p-C1H4O2
+  84.0806582 999.0000 84.080865 11.2392 0.00 1.0000 140 f{C5H10N1}/-1.40ppm,p-C1H2O2
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  42.033829 36.79 36
+  55.054072 34.95 34
+  56.049434 215.08 215
+  67.053989 33.29 33
+  70.064920 38.06 38
+  82.064882 35.50 35
+  84.080658 999.00 999
+//

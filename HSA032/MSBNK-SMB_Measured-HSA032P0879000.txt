@@ -1,0 +1,960 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032P0879000
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; POSITIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.25, Processed 2025.02.25, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: MS1_M/Z_AVERAGED_THRES 15.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 60
+COMMENT: NUM_AVERAGED_SPEC 91
+COMMENT: RAW_SPEC {'RA3-pos_3702': {'bp': 107215.0, 'sum': 140887.0}, 'RA3-pos_3692': {'bp': 95888.0, 'sum': 128358.0}, 'HC6-pos_3672': {'bp': 76553.0, 'sum': 103736.0}, 'HC5-pos_3826': {'bp': 75111.0, 'sum': 104217.0}, 'RA13-pos_3748': {'bp': 75051.0, 'sum': 99279.0}, 'RA7-pos_3484': {'bp': 57253.0, 'sum': 76042.0}, 'HC6-pos_3681': {'bp': 57013.0, 'sum': 75330.0}, 'HC6-pos_3770': {'bp': 54276.0, 'sum': 77286.0}, 'RA7-pos_3496': {'bp': 47149.0, 'sum': 60828.0}, 'RA25-pos_3756': {'bp': 46349.0, 'sum': 62471.0}, 'RA17-pos_3853': {'bp': 34249.0, 'sum': 46557.0}, 'HC22-pos_3746': {'bp': 32704.0, 'sum': 45438.0}, 'RA7-pos_3604': {'bp': 30582.0, 'sum': 39411.0}, 'HC24-pos_3646': {'bp': 28886.0, 'sum': 41954.0}, 'HC2-pos_3872': {'bp': 28561.0, 'sum': 39271.0}, 'RA2-pos_3974': {'bp': 25087.0, 'sum': 35282.0}, 'RA22-pos_3574': {'bp': 24635.0, 'sum': 32498.0}, 'RA22-pos_3587': {'bp': 22675.0, 'sum': 27561.0}, 'RA1-pos_4096': {'bp': 22165.0, 'sum': 29786.0}, 'HC17-pos_3687': {'bp': 22013.0, 'sum': 30717.0}, 'RA6-pos_3620': {'bp': 21648.0, 'sum': 30962.0}, 'RA7-pos_3614': {'bp': 20810.0, 'sum': 28918.0}, 'HC19-pos_3677': {'bp': 17127.0, 'sum': 24981.0}, 'HC11-pos_3769': {'bp': 16899.0, 'sum': 25527.0}, 'HC18-pos_3691': {'bp': 14133.0, 'sum': 20940.0}, 'HC17-pos_3601': {'bp': 13971.0, 'sum': 18888.0}, 'HC12-pos_3954': {'bp': 13574.0, 'sum': 19229.0}, 'RA10-pos_3731': {'bp': 12964.0, 'sum': 17717.0}, 'RA3-pos_3623': {'bp': 12581.0, 'sum': 18467.0}, 'HC21-pos_3698': {'bp': 12527.0, 'sum': 17463.0}, 'HC26-pos_3692': {'bp': 12519.0, 'sum': 17123.0}, 'HC18-pos_3610': {'bp': 12148.0, 'sum': 16881.0}, 'RA13-pos_3655': {'bp': 11462.0, 'sum': 16358.0}, 'RA5-pos_3995': {'bp': 10223.0, 'sum': 14870.0}, 'RA18-pos_3737': {'bp': 9530.0, 'sum': 14106.0}, 'RA8-pos_3603': {'bp': 9094.0, 'sum': 17349.0}, 'HC7-pos_3753': {'bp': 8511.0, 'sum': 13179.0}, 'RA19-pos_3984': {'bp': 8109.0, 'sum': 12803.0}, 'HC22-pos_3639': {'bp': 7855.0, 'sum': 10799.0}, 'RA10-pos_3630': {'bp': 7452.0, 'sum': 11144.0}, 'HC24-pos_3555': {'bp': 7340.0, 'sum': 10505.0}, 'HC2-pos_3773': {'bp': 7244.0, 'sum': 10402.0}, 'RA20-pos_3769': {'bp': 7168.0, 'sum': 10412.0}, 'HC5-pos_3739': {'bp': 7030.0, 'sum': 10959.0}, 'RA23-pos_3700': {'bp': 6985.0, 'sum': 11129.0}, 'HC14-pos_3734': {'bp': 6853.0, 'sum': 9946.0}, 'HC12-pos_3845': {'bp': 6751.0, 'sum': 10745.0}, 'HC4-pos_3790': {'bp': 6511.0, 'sum': 8793.0}, 'RA12-pos_4006': {'bp': 6311.0, 'sum': 8729.0}, 'RA24-pos_3420': {'bp': 6183.0, 'sum': 9259.0}, 'RA5-pos_3898': {'bp': 6024.0, 'sum': 9207.0}, 'RA19-pos_3892': {'bp': 5929.0, 'sum': 9912.0}, 'RA24-pos_3520': {'bp': 5325.0, 'sum': 8149.0}, 'HC25-pos_3790': {'bp': 5324.0, 'sum': 7664.0}, 'RA11-pos_3613': {'bp': 5261.0, 'sum': 7205.0}, 'RA20-pos_3685': {'bp': 5197.0, 'sum': 7453.0}, 'HC3-pos_4110': {'bp': 5168.0, 'sum': 7474.0}, 'HC26-pos_3718': {'bp': 5115.0, 'sum': 7457.0}, 'HC21-pos_3596': {'bp': 4775.0, 'sum': 6792.0}, 'RA6-pos_3522': {'bp': 4733.0, 'sum': 7302.0}, 'RA18-pos_3639': {'bp': 4555.0, 'sum': 7087.0}, 'HC14-pos_3721': {'bp': 4458.0, 'sum': 7394.0}, 'RA25-pos_3655': {'bp': 4436.0, 'sum': 6601.0}, 'RA22-pos_3501': {'bp': 4406.0, 'sum': 6264.0}, 'HC11-pos_3681': {'bp': 4110.0, 'sum': 5743.0}, 'HC14-pos_3813': {'bp': 3586.0, 'sum': 6818.0}, 'HC19-pos_3584': {'bp': 3557.0, 'sum': 4879.0}, 'QC3-pos_3718': {'bp': 3394.0, 'sum': 4926.0}, 'RA11-pos_3525': {'bp': 3240.0, 'sum': 4766.0}, 'RA2-pos_3877': {'bp': 3052.0, 'sum': 4903.0}, 'RA1-pos_3992': {'bp': 2985.0, 'sum': 6778.0}, 'HC16-pos_4016': {'bp': 2876.0, 'sum': 4353.0}, 'RA17-pos_3761': {'bp': 2563.0, 'sum': 4495.0}, 'HC13-pos_3996': {'bp': 2255.0, 'sum': 3477.0}, 'HC23-pos_3606': {'bp': 2169.0, 'sum': 3334.0}, 'HC20-pos_3937': {'bp': 1645.0, 'sum': 3376.0}, 'RA12-pos_3899': {'bp': 1639.0, 'sum': 2605.0}, 'HC8-pos_3735': {'bp': 1299.0, 'sum': 3534.0}, 'QC4-pos_3646': {'bp': 1168.0, 'sum': 1927.0}, 'RA15-pos_3846': {'bp': 1145.0, 'sum': 2469.0}, 'RA16-pos_3744': {'bp': 1071.0, 'sum': 2141.0}, 'HC7-pos_3647': {'bp': 1036.0, 'sum': 1952.0}, 'RA23-pos_3613': {'bp': 982.0, 'sum': 1998.0}, 'QC8-pos_3566': {'bp': 947.0, 'sum': 1554.0}, 'HC15-pos_3741': {'bp': 862.0, 'sum': 1625.0}, 'HC9-pos_3660': {'bp': 847.0, 'sum': 2019.0}, 'QC6-pos_3656': {'bp': 817.0, 'sum': 1378.0}, 'QC5-pos_3606': {'bp': 650.0, 'sum': 1362.0}, 'QC3-pos_3636': {'bp': 505.0, 'sum': 1219.0}, 'QC6-pos_3589': {'bp': 342.0, 'sum': 644.0}, 'RA16-pos_3617': {'bp': 251.0, 'sum': 604.0}}
+COMMENT: RETENTION_TIME_STDEV 0.046
+COMMENT: PRECURSOR_M/Z_RAW 879.542561
+COMMENT: PRECURSOR_M/Z_STDEV 0.002518
+COMMENT: PRECURSOR_IN_MS1 mz 879.543420; int 26.953; delta(ppm) -25.092108
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 880.545820; int 10.708; cor 0.982
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 901.523964; int 2.594; cor 0.918
+COMMENT: PROPOSED_ION_FORM M+H; M+2Na-H; mz 923.504811; int 1.457; cor 0.838
+COMMENT: PROPOSED_ION_FORM M+H; M+2K-H; mz 955.443134; int 1.267; cor 0.884
+COMMENT: PROPOSED_ION_FORM M+NH4; M+ACN+H; mz 903.530038; int 0.826; cor 0.789
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 901.523964; int 2.594; cor 0.918
+COMMENT: PROPOSED_ION_FORM M+Na; M+2K-H; mz 933.460646; int 2.245; cor 0.900
+COMMENT: PROPOSED_ION_FORM M+IsoProp+H; M+2ACN+H; mz 901.523964; int 2.594; cor 0.918
+COMMENT: PROPOSED_MAX_NUM_S 3
+COMMENT: PROPOSED_MF SevenGoldenRules 14.961; C41H87N2O11S2P; [M+H]+; delta(ppm) -14.961258
+COMMENT: PROPOSED_MF SevenGoldenRules 14.811; C52H82N2O3S3; [M+H]+; delta(ppm) -14.811008
+COMMENT: PROPOSED_MF SevenGoldenRules 14.526; C43H84N4O8SP2; [M+H]+; delta(ppm) -14.526444
+COMMENT: PROPOSED_MF SevenGoldenRules 13.972; C40H83N2O16P; [M+H]+; delta(ppm) -13.972112
+COMMENT: PROPOSED_MF SevenGoldenRules 13.822; C51H78N2O8S; [M+H]+; delta(ppm) -13.821862
+COMMENT: PROPOSED_MF SevenGoldenRules 13.081; C43H82N4O10S2; [M+H]+; delta(ppm) -13.080856
+COMMENT: PROPOSED_MF SevenGoldenRules 13.003; C42H88O12SP2; [M+H]+; delta(ppm) -13.003455
+COMMENT: PROPOSED_MF SevenGoldenRules 12.854; C53H83O4S2P; [M+H]+; delta(ppm) -12.854343
+COMMENT: PROPOSED_MF SevenGoldenRules 12.113; C45H87N2O6S3P; [M+H]+; delta(ppm) -12.113338
+COMMENT: PROPOSED_MF SevenGoldenRules 12.092; C42H78N4O15; [M+H]+; delta(ppm) -12.091711
+COMMENT: PROPOSED_MF SevenGoldenRules 11.865; C52H79O9P; [M+H]+; delta(ppm) -11.865197
+COMMENT: PROPOSED_MF SevenGoldenRules 11.558; C42H86O14S2; [M+H]+; delta(ppm) -11.557868
+COMMENT: PROPOSED_MF SevenGoldenRules 11.124; C44H83N2O11SP; [M+H]+; delta(ppm) -11.124192
+COMMENT: PROPOSED_MF SevenGoldenRules 10.689; C46H80N4O8P2; [M+H]+; delta(ppm) -10.689377
+COMMENT: PROPOSED_MF SevenGoldenRules 10.569; C41H82O19; [M+H]+; delta(ppm) -10.568722
+COMMENT: PROPOSED_MF SevenGoldenRules 10.233; C47H82N4O5S3; [M+H]+; delta(ppm) -10.232936
+COMMENT: PROPOSED_MF SevenGoldenRules 10.156; C46H88O7S2P2; [M+H]+; delta(ppm) -10.155534
+COMMENT: PROPOSED_MF SevenGoldenRules 9.244; C46H78N4O10S; [M+H]+; delta(ppm) -9.243790
+COMMENT: PROPOSED_MF SevenGoldenRules 9.166; C45H84O12P2; [M+H]+; delta(ppm) -9.166389
+COMMENT: PROPOSED_MF SevenGoldenRules 8.710; C46H86O9S3; [M+H]+; delta(ppm) -8.709947
+COMMENT: PROPOSED_MF SevenGoldenRules 8.275; C48H83N2O6S2P; [M+H]+; delta(ppm) -8.275133
+COMMENT: PROPOSED_MF SevenGoldenRules 7.840; C50H80N4O3SP2; [M+H]+; delta(ppm) -7.840318
+COMMENT: PROPOSED_MF SevenGoldenRules 7.721; C45H82O14S; [M+H]+; delta(ppm) -7.720801
+COMMENT: PROPOSED_MF SevenGoldenRules 7.534; C40H87N4O8S3P; [M+H]+; delta(ppm) -7.534127
+COMMENT: PROPOSED_MF SevenGoldenRules 7.286; C47H79N2O11P; [M+H]+; delta(ppm) -7.285987
+COMMENT: PROPOSED_MF SevenGoldenRules 6.545; C39H83N4O13SP; [M+H]+; delta(ppm) -6.544981
+COMMENT: PROPOSED_MF SevenGoldenRules 6.396; C50H78N4O5S2; [M+H]+; delta(ppm) -6.395870
+COMMENT: PROPOSED_MF SevenGoldenRules 6.318; C49H84O7SP2; [M+H]+; delta(ppm) -6.318468
+COMMENT: PROPOSED_MF SevenGoldenRules 5.576; C41H88N2O9S2P2; [M+H]+; delta(ppm) -5.576324
+COMMENT: PROPOSED_MF SevenGoldenRules 5.427; C52H83N2OS3P; [M+H]+; delta(ppm) -5.427212
+COMMENT: PROPOSED_MF SevenGoldenRules 5.407; C49H74N4O10; [M+H]+; delta(ppm) -5.406724
+COMMENT: PROPOSED_MF SevenGoldenRules 4.873; C49H82O9S2; [M+H]+; delta(ppm) -4.872881
+COMMENT: PROPOSED_MF SevenGoldenRules 4.587; C40H84N2O14P2; [M+H]+; delta(ppm) -4.587178
+COMMENT: PROPOSED_MF SevenGoldenRules 4.438; C51H79N2O6SP; [M+H]+; delta(ppm) -4.438066
+COMMENT: PROPOSED_MF SevenGoldenRules 4.132; C41H86N2O11S3; [M+H]+; delta(ppm) -4.131875
+COMMENT: PROPOSED_MF SevenGoldenRules 3.884; C48H78O14; [M+H]+; delta(ppm) -3.883735
+COMMENT: PROPOSED_MF SevenGoldenRules 3.697; C43H83N4O8S2P; [M+H]+; delta(ppm) -3.697061
+COMMENT: PROPOSED_MF SevenGoldenRules 3.471; C53H84O2S2P2; [M+H]+; delta(ppm) -3.470547
+COMMENT: PROPOSED_MF SevenGoldenRules 3.143; C40H82N2O16S; [M+H]+; delta(ppm) -3.142729
+COMMENT: PROPOSED_MF SevenGoldenRules 2.708; C42H79N4O13P; [M+H]+; delta(ppm) -2.707915
+COMMENT: PROPOSED_MF SevenGoldenRules 2.481; C52H80O7P2; [M+H]+; delta(ppm) -2.481402
+COMMENT: PROPOSED_MF SevenGoldenRules 2.174; C42H87O12S2P; [M+H]+; delta(ppm) -2.174072
+COMMENT: PROPOSED_MF SevenGoldenRules 2.025; C53H82O4S3; [M+H]+; delta(ppm) -2.024960
+COMMENT: PROPOSED_MF SevenGoldenRules 1.739; C44H84N2O9SP2; [M+H]+; delta(ppm) -1.739258
+COMMENT: PROPOSED_MF SevenGoldenRules 1.185; C41H83O17P; [M+H]+; delta(ppm) -1.184926
+COMMENT: PROPOSED_MF SevenGoldenRules 1.036; C52H78O9S; [M+H]+; delta(ppm) -1.035814
+COMMENT: PROPOSED_MF SevenGoldenRules 0.849; C47H83N4O3S3P; [M+H]+; delta(ppm) -0.849140
+COMMENT: PROPOSED_MF SevenGoldenRules 0.294; C44H82N2O11S2; [M+H]+; delta(ppm) -0.293670
+COMMENT: PROPOSED_MF SevenGoldenRules 0.140; C46H79N4O8SP; [M+H]+; delta(ppm) 0.140006
+COMMENT: PROPOSED_MF SevenGoldenRules 0.674; C46H87O7S3P; [M+H]+; delta(ppm) 0.673849
+COMMENT: PROPOSED_MF SevenGoldenRules 0.695; C43H78N2O16; [M+H]+; delta(ppm) 0.695475
+COMMENT: PROPOSED_MF SevenGoldenRules 1.109; C48H84N2O4S2P2; [M+H]+; delta(ppm) 1.108663
+COMMENT: PROPOSED_MF SevenGoldenRules 1.663; C45H83O12SP; [M+H]+; delta(ppm) 1.662994
+COMMENT: PROPOSED_MF SevenGoldenRules 2.098; C47H80N2O9P2; [M+H]+; delta(ppm) 2.097809
+COMMENT: PROPOSED_MF SevenGoldenRules 2.554; C48H82N2O6S3; [M+H]+; delta(ppm) 2.554250
+COMMENT: PROPOSED_MF SevenGoldenRules 2.839; C39H84N4O11SP2; [M+H]+; delta(ppm) 2.838814
+COMMENT: PROPOSED_MF SevenGoldenRules 2.989; C50H79N4O3S2P; [M+H]+; delta(ppm) 2.989064
+COMMENT: PROPOSED_MF SevenGoldenRules 3.543; C47H78N2O11S; [M+H]+; delta(ppm) 3.543396
+COMMENT: PROPOSED_MF SevenGoldenRules 3.978; C49H75N4O8P; [M+H]+; delta(ppm) 3.978210
+COMMENT: PROPOSED_MF SevenGoldenRules 4.284; C39H82N4O13S2; [M+H]+; delta(ppm) 4.284402
+COMMENT: PROPOSED_MF SevenGoldenRules 4.511; C49H83O7S2P; [M+H]+; delta(ppm) 4.510915
+COMMENT: PROPOSED_MF SevenGoldenRules 4.946; C51H80N2O4SP2; [M+H]+; delta(ppm) 4.945729
+COMMENT: PROPOSED_MF SevenGoldenRules 5.253; C41H87N2O9S3P; [M+H]+; delta(ppm) 5.253059
+COMMENT: PROPOSED_MF SevenGoldenRules 5.274; C38H78N4O18; [M+H]+; delta(ppm) 5.273548
+COMMENT: PROPOSED_MF SevenGoldenRules 5.500; C48H79O12P; [M+H]+; delta(ppm) 5.500061
+COMMENT: PROPOSED_MF SevenGoldenRules 6.242; C40H83N2O14SP; [M+H]+; delta(ppm) 6.242205
+COMMENT: PROPOSED_MF SevenGoldenRules 6.391; C51H78N2O6S2; [M+H]+; delta(ppm) 6.391316
+COMMENT: PROPOSED_MF SevenGoldenRules 6.677; C42H80N4O11P2; [M+H]+; delta(ppm) 6.677019
+COMMENT: PROPOSED_MF SevenGoldenRules 7.132; C43H82N4O8S3; [M+H]+; delta(ppm) 7.132322
+COMMENT: PROPOSED_MF SevenGoldenRules 7.210; C42H88O10S2P2; [M+H]+; delta(ppm) 7.209724
+COMMENT: PROPOSED_MF SevenGoldenRules 7.359; C53H83O2S3P; [M+H]+; delta(ppm) 7.358835
+COMMENT: PROPOSED_MF SevenGoldenRules 7.380; C50H74N2O11; [M+H]+; delta(ppm) 7.380462
+COMMENT: PROPOSED_MF SevenGoldenRules 8.121; C42H78N4O13S; [M+H]+; delta(ppm) 8.121468
+COMMENT: PROPOSED_MF SevenGoldenRules 8.199; C41H84O15P2; [M+H]+; delta(ppm) 8.198870
+COMMENT: PROPOSED_MF SevenGoldenRules 8.348; C52H79O7SP; [M+H]+; delta(ppm) 8.347981
+COMMENT: PROPOSED_MF SevenGoldenRules 8.655; C42H86O12S3; [M+H]+; delta(ppm) 8.655311
+COMMENT: PROPOSED_MF SevenGoldenRules 9.090; C44H83N2O9S2P; [M+H]+; delta(ppm) 9.090125
+COMMENT: PROPOSED_MF SevenGoldenRules 9.525; C46H80N4O6SP2; [M+H]+; delta(ppm) 9.524940
+COMMENT: PROPOSED_MF SevenGoldenRules 9.644; C41H82O17S; [M+H]+; delta(ppm) 9.644457
+COMMENT: PROPOSED_MF SevenGoldenRules 10.079; C43H79N2O14P; [M+H]+; delta(ppm) 10.079271
+COMMENT: PROPOSED_MF SevenGoldenRules 10.971; C46H78N4O8S2; [M+H]+; delta(ppm) 10.970527
+COMMENT: PROPOSED_MF SevenGoldenRules 11.047; C45H84O10SP2; [M+H]+; delta(ppm) 11.046790
+COMMENT: PROPOSED_MF SevenGoldenRules 11.938; C48H83N2O4S3P; [M+H]+; delta(ppm) 11.938046
+COMMENT: PROPOSED_MF SevenGoldenRules 11.960; C45H74N4O13; [M+H]+; delta(ppm) 11.959673
+COMMENT: PROPOSED_MF SevenGoldenRules 12.492; C45H82O12S2; [M+H]+; delta(ppm) 12.492377
+COMMENT: PROPOSED_MF SevenGoldenRules 12.927; C47H79N2O9SP; [M+H]+; delta(ppm) 12.927192
+COMMENT: PROPOSED_MF SevenGoldenRules 13.362; C49H76N4O6P2; [M+H]+; delta(ppm) 13.362006
+COMMENT: PROPOSED_MF SevenGoldenRules 13.482; C44H78O17; [M+H]+; delta(ppm) 13.481523
+COMMENT: PROPOSED_MF SevenGoldenRules 13.668; C39H83N4O11S2P; [M+H]+; delta(ppm) 13.668197
+COMMENT: PROPOSED_MF SevenGoldenRules 13.818; C50H78N4O3S3; [M+H]+; delta(ppm) 13.818447
+COMMENT: PROPOSED_MF SevenGoldenRules 13.895; C49H84O5S2P2; [M+H]+; delta(ppm) 13.894711
+COMMENT: PROPOSED_MF SevenGoldenRules 14.657; C38H79N4O16P; [M+H]+; delta(ppm) 14.657343
+COMMENT: PROPOSED_MF SevenGoldenRules 14.808; C49H74N4O8S; [M+H]+; delta(ppm) 14.807593
+COMMENT: PROPOSED_MF SevenGoldenRules 14.884; C48H80O10P2; [M+H]+; delta(ppm) 14.883857
+COMMENT: PROPOSED_MF SevenGoldenRules 14.811; C43H81N3O8SP2; [M+NH4]+; delta(ppm) -14.811217
+COMMENT: PROPOSED_MF SevenGoldenRules 14.246; C40H80NO16P; [M+NH4]+; delta(ppm) -14.245930
+COMMENT: PROPOSED_MF SevenGoldenRules 14.093; C51H75NO8S; [M+NH4]+; delta(ppm) -14.092711
+COMMENT: PROPOSED_MF SevenGoldenRules 13.902; C46H80N5O2S3P; [M+NH4]+; delta(ppm) -13.902347
+COMMENT: PROPOSED_MF SevenGoldenRules 13.337; C43H79N3O10S2; [M+NH4]+; delta(ppm) -13.337060
+COMMENT: PROPOSED_MF SevenGoldenRules 13.046; C34H81N5O15P2; [M+NH4]+; delta(ppm) -13.045711
+COMMENT: PROPOSED_MF SevenGoldenRules 12.894; C45H76N5O7SP; [M+NH4]+; delta(ppm) -12.893652
+COMMENT: PROPOSED_MF SevenGoldenRules 12.349; C45H84NO6S3P; [M+NH4]+; delta(ppm) -12.349259
+COMMENT: PROPOSED_MF SevenGoldenRules 12.328; C42H75N3O15; [M+NH4]+; delta(ppm) -12.328365
+COMMENT: PROPOSED_MF SevenGoldenRules 11.906; C47H81N3O3S2P2; [M+NH4]+; delta(ppm) -11.905851
+COMMENT: PROPOSED_MF SevenGoldenRules 11.572; C34H79N5O17S; [M+NH4]+; delta(ppm) -11.571554
+COMMENT: PROPOSED_MF SevenGoldenRules 11.341; C44H80NO11SP; [M+NH4]+; delta(ppm) -11.340564
+COMMENT: PROPOSED_MF SevenGoldenRules 10.897; C46H77N3O8P2; [M+NH4]+; delta(ppm) -10.897156
+COMMENT: PROPOSED_MF SevenGoldenRules 10.433; C47H79N3O5S3; [M+NH4]+; delta(ppm) -10.432854
+COMMENT: PROPOSED_MF SevenGoldenRules 10.142; C38H81N5O10SP2; [M+NH4]+; delta(ppm) -10.141505
+COMMENT: PROPOSED_MF SevenGoldenRules 9.989; C49H76N5O2S2P; [M+NH4]+; delta(ppm) -9.989446
+COMMENT: PROPOSED_MF SevenGoldenRules 9.576; C35H80N3O18P; [M+NH4]+; delta(ppm) -9.576218
+COMMENT: PROPOSED_MF SevenGoldenRules 9.424; C46H75N3O10S; [M+NH4]+; delta(ppm) -9.424159
+COMMENT: PROPOSED_MF SevenGoldenRules 8.667; C38H79N5O12S2; [M+NH4]+; delta(ppm) -8.667348
+COMMENT: PROPOSED_MF SevenGoldenRules 8.436; C48H80NO6S2P; [M+NH4]+; delta(ppm) -8.436358
+COMMENT: PROPOSED_MF SevenGoldenRules 7.993; C50H77N3O3SP2; [M+NH4]+; delta(ppm) -7.992950
+COMMENT: PROPOSED_MF SevenGoldenRules 7.681; C40H84N3O8S3P; [M+NH4]+; delta(ppm) -7.680707
+COMMENT: PROPOSED_MF SevenGoldenRules 7.659; C37H75N5O17; [M+NH4]+; delta(ppm) -7.658653
+COMMENT: PROPOSED_MF SevenGoldenRules 7.428; C47H76NO11P; [M+NH4]+; delta(ppm) -7.427663
+COMMENT: PROPOSED_MF SevenGoldenRules 6.672; C39H80N3O13SP; [M+NH4]+; delta(ppm) -6.672012
+COMMENT: PROPOSED_MF SevenGoldenRules 6.520; C50H75N3O5S2; [M+NH4]+; delta(ppm) -6.519954
+COMMENT: PROPOSED_MF SevenGoldenRules 6.229; C41H77N5O10P2; [M+NH4]+; delta(ppm) -6.228604
+COMMENT: PROPOSED_MF SevenGoldenRules 6.107; C36H79NO21; [M+NH4]+; delta(ppm) -6.106725
+COMMENT: PROPOSED_MF SevenGoldenRules 5.763; C42H79N5O7S3; [M+NH4]+; delta(ppm) -5.763142
+COMMENT: PROPOSED_MF SevenGoldenRules 5.684; C41H85NO9S2P2; [M+NH4]+; delta(ppm) -5.684211
+COMMENT: PROPOSED_MF SevenGoldenRules 5.532; C52H80NOS3P; [M+NH4]+; delta(ppm) -5.532152
+COMMENT: PROPOSED_MF SevenGoldenRules 4.754; C41H75N5O12S; [M+NH4]+; delta(ppm) -4.754447
+COMMENT: PROPOSED_MF SevenGoldenRules 4.676; C40H81NO14P2; [M+NH4]+; delta(ppm) -4.675516
+COMMENT: PROPOSED_MF SevenGoldenRules 4.523; C51H76NO6SP; [M+NH4]+; delta(ppm) -4.523457
+COMMENT: PROPOSED_MF SevenGoldenRules 4.210; C41H83NO11S3; [M+NH4]+; delta(ppm) -4.210054
+COMMENT: PROPOSED_MF SevenGoldenRules 3.768; C43H80N3O8S2P; [M+NH4]+; delta(ppm) -3.767807
+COMMENT: PROPOSED_MF SevenGoldenRules 3.324; C45H77N5O5SP2; [M+NH4]+; delta(ppm) -3.324399
+COMMENT: PROPOSED_MF SevenGoldenRules 3.201; C40H79NO16S; [M+NH4]+; delta(ppm) -3.201359
+COMMENT: PROPOSED_MF SevenGoldenRules 2.759; C42H76N3O13P; [M+NH4]+; delta(ppm) -2.759112
+COMMENT: PROPOSED_MF SevenGoldenRules 2.002; C34H80N5O15SP; [M+NH4]+; delta(ppm) -2.002300
+COMMENT: PROPOSED_MF SevenGoldenRules 1.850; C45H75N5O7S2; [M+NH4]+; delta(ppm) -1.850241
+COMMENT: PROPOSED_MF SevenGoldenRules 1.771; C44H81NO9SP2; [M+NH4]+; delta(ppm) -1.771310
+COMMENT: PROPOSED_MF SevenGoldenRules 0.862; C47H80N3O3S3P; [M+NH4]+; delta(ppm) -0.862440
+COMMENT: PROPOSED_MF SevenGoldenRules 0.842; C44H71N5O12; [M+NH4]+; delta(ppm) -0.841546
+COMMENT: PROPOSED_MF SevenGoldenRules 0.297; C44H79NO11S2; [M+NH4]+; delta(ppm) -0.297153
+COMMENT: PROPOSED_MF SevenGoldenRules 0.007; C35H81N3O16P2; [M+NH4]+; delta(ppm) -0.006965
+COMMENT: PROPOSED_MF SevenGoldenRules 0.146; C46H76N3O8SP; [M+NH4]+; delta(ppm) 0.146255
+COMMENT: PROPOSED_MF SevenGoldenRules 0.712; C43H75NO16; [M+NH4]+; delta(ppm) 0.711542
+COMMENT: PROPOSED_MF SevenGoldenRules 0.902; C38H80N5O10S2P; [M+NH4]+; delta(ppm) 0.901906
+COMMENT: PROPOSED_MF SevenGoldenRules 1.054; C49H75N5O2S3; [M+NH4]+; delta(ppm) 1.053964
+COMMENT: PROPOSED_MF SevenGoldenRules 1.133; C48H81NO4S2P2; [M+NH4]+; delta(ppm) 1.132896
+COMMENT: PROPOSED_MF SevenGoldenRules 1.467; C35H79N3O18S; [M+NH4]+; delta(ppm) 1.467193
+COMMENT: PROPOSED_MF SevenGoldenRules 1.911; C37H76N5O15P; [M+NH4]+; delta(ppm) 1.910601
+COMMENT: PROPOSED_MF SevenGoldenRules 2.142; C47H77NO9P2; [M+NH4]+; delta(ppm) 2.141591
+COMMENT: PROPOSED_MF SevenGoldenRules 2.607; C48H79NO6S3; [M+NH4]+; delta(ppm) 2.607053
+COMMENT: PROPOSED_MF SevenGoldenRules 2.898; C39H81N3O11SP2; [M+NH4]+; delta(ppm) 2.898402
+COMMENT: PROPOSED_MF SevenGoldenRules 3.050; C50H76N3O3S2P; [M+NH4]+; delta(ppm) 3.050461
+COMMENT: PROPOSED_MF SevenGoldenRules 3.464; C36H80NO19P; [M+NH4]+; delta(ppm) 3.463689
+COMMENT: PROPOSED_MF SevenGoldenRules 3.616; C47H75NO11S; [M+NH4]+; delta(ppm) 3.615748
+COMMENT: PROPOSED_MF SevenGoldenRules 3.806; C42H80N5O5S3P; [M+NH4]+; delta(ppm) 3.806111
+COMMENT: PROPOSED_MF SevenGoldenRules 4.371; C39H79N3O13S2; [M+NH4]+; delta(ppm) 4.371398
+COMMENT: PROPOSED_MF SevenGoldenRules 4.815; C41H76N5O10SP; [M+NH4]+; delta(ppm) 4.814806
+COMMENT: PROPOSED_MF SevenGoldenRules 5.046; C51H77NO4SP2; [M+NH4]+; delta(ppm) 5.045796
+COMMENT: PROPOSED_MF SevenGoldenRules 5.359; C41H84NO9S3P; [M+NH4]+; delta(ppm) 5.359200
+COMMENT: PROPOSED_MF SevenGoldenRules 5.380; C38H75N3O18; [M+NH4]+; delta(ppm) 5.380093
+COMMENT: PROPOSED_MF SevenGoldenRules 5.803; C43H81N3O6S2P2; [M+NH4]+; delta(ppm) 5.802608
+COMMENT: PROPOSED_MF SevenGoldenRules 6.368; C40H80NO14SP; [M+NH4]+; delta(ppm) 6.367895
+COMMENT: PROPOSED_MF SevenGoldenRules 6.520; C51H75NO6S2; [M+NH4]+; delta(ppm) 6.519954
+COMMENT: PROPOSED_MF SevenGoldenRules 6.811; C42H77N3O11P2; [M+NH4]+; delta(ppm) 6.811303
+COMMENT: PROPOSED_MF SevenGoldenRules 7.276; C43H79N3O8S3; [M+NH4]+; delta(ppm) 7.275604
+COMMENT: PROPOSED_MF SevenGoldenRules 7.567; C34H81N5O13SP2; [M+NH4]+; delta(ppm) 7.566953
+COMMENT: PROPOSED_MF SevenGoldenRules 7.719; C45H76N5O5S2P; [M+NH4]+; delta(ppm) 7.719012
+COMMENT: PROPOSED_MF SevenGoldenRules 8.284; C42H75N3O13S; [M+NH4]+; delta(ppm) 8.284299
+COMMENT: PROPOSED_MF SevenGoldenRules 8.728; C44H72N5O10P; [M+NH4]+; delta(ppm) 8.727707
+COMMENT: PROPOSED_MF SevenGoldenRules 9.041; C34H79N5O15S2; [M+NH4]+; delta(ppm) 9.041111
+COMMENT: PROPOSED_MF SevenGoldenRules 9.272; C44H80NO9S2P; [M+NH4]+; delta(ppm) 9.272101
+COMMENT: PROPOSED_MF SevenGoldenRules 9.716; C46H77N3O6SP2; [M+NH4]+; delta(ppm) 9.715509
+COMMENT: PROPOSED_MF SevenGoldenRules 10.050; C33H75N5O20; [M+NH4]+; delta(ppm) 10.049806
+COMMENT: PROPOSED_MF SevenGoldenRules 10.281; C43H76NO14P; [M+NH4]+; delta(ppm) 10.280796
+COMMENT: PROPOSED_MF SevenGoldenRules 10.624; C49H76N5S3P; [M+NH4]+; delta(ppm) 10.624379
+COMMENT: PROPOSED_MF SevenGoldenRules 11.036; C35H80N3O16SP; [M+NH4]+; delta(ppm) 11.036446
+COMMENT: PROPOSED_MF SevenGoldenRules 11.190; C46H75N3O8S2; [M+NH4]+; delta(ppm) 11.189666
+COMMENT: PROPOSED_MF SevenGoldenRules 11.480; C37H77N5O13P2; [M+NH4]+; delta(ppm) 11.479854
+COMMENT: PROPOSED_MF SevenGoldenRules 11.945; C38H79N5O10S3; [M+NH4]+; delta(ppm) 11.945316
+COMMENT: PROPOSED_MF SevenGoldenRules 12.176; C48H80NO4S3P; [M+NH4]+; delta(ppm) 12.176306
+COMMENT: PROPOSED_MF SevenGoldenRules 12.198; C45H71N3O13; [M+NH4]+; delta(ppm) 12.198361
+COMMENT: PROPOSED_MF SevenGoldenRules 12.620; C50H77N3OS2P2; [M+NH4]+; delta(ppm) 12.619714
+COMMENT: PROPOSED_MF SevenGoldenRules 12.954; C37H75N5O15S; [M+NH4]+; delta(ppm) 12.954011
+COMMENT: PROPOSED_MF SevenGoldenRules 13.033; C36H81NO17P2; [M+NH4]+; delta(ppm) 13.032943
+COMMENT: PROPOSED_MF SevenGoldenRules 13.185; C47H76NO9SP; [M+NH4]+; delta(ppm) 13.185001
+COMMENT: PROPOSED_MF SevenGoldenRules 13.942; C39H80N3O11S2P; [M+NH4]+; delta(ppm) 13.941813
+COMMENT: PROPOSED_MF SevenGoldenRules 14.094; C50H75N3O3S3; [M+NH4]+; delta(ppm) 14.093872
+COMMENT: PROPOSED_MF SevenGoldenRules 14.385; C41H77N5O8SP2; [M+NH4]+; delta(ppm) 14.385221
+COMMENT: PROPOSED_MF SevenGoldenRules 14.507; C36H79NO19S; [M+NH4]+; delta(ppm) 14.507100
+COMMENT: PROPOSED_MF SevenGoldenRules 14.951; C38H76N3O16P; [M+NH4]+; delta(ppm) 14.950508
+COMMENT: PROPOSED_MF SevenGoldenRules 14.856; C48H81N4O5SP; [M+Na]+; delta(ppm) -14.856043
+COMMENT: PROPOSED_MF SevenGoldenRules 14.308; C48H89O4S3P; [M+Na]+; delta(ppm) -14.308500
+COMMENT: PROPOSED_MF SevenGoldenRules 14.287; C45H80N2O13; [M+Na]+; delta(ppm) -14.287485
+COMMENT: PROPOSED_MF SevenGoldenRules 13.863; C50H86N2OS2P2; [M+Na]+; delta(ppm) -13.862527
+COMMENT: PROPOSED_MF SevenGoldenRules 13.526; C37H84N4O15S; [M+Na]+; delta(ppm) -13.526296
+COMMENT: PROPOSED_MF SevenGoldenRules 13.294; C47H85O9SP; [M+Na]+; delta(ppm) -13.293969
+COMMENT: PROPOSED_MF SevenGoldenRules 12.848; C49H82N2O6P2; [M+Na]+; delta(ppm) -12.847996
+COMMENT: PROPOSED_MF SevenGoldenRules 12.381; C50H84N2O3S3; [M+Na]+; delta(ppm) -12.381009
+COMMENT: PROPOSED_MF SevenGoldenRules 12.088; C41H86N4O8SP2; [M+Na]+; delta(ppm) -12.087974
+COMMENT: PROPOSED_MF SevenGoldenRules 11.935; C52H81N4S2P; [M+Na]+; delta(ppm) -11.935035
+COMMENT: PROPOSED_MF SevenGoldenRules 11.519; C38H85N2O16P; [M+Na]+; delta(ppm) -11.519416
+COMMENT: PROPOSED_MF SevenGoldenRules 11.366; C49H80N2O8S; [M+Na]+; delta(ppm) -11.366478
+COMMENT: PROPOSED_MF SevenGoldenRules 10.605; C41H84N4O10S2; [M+Na]+; delta(ppm) -10.605288
+COMMENT: PROPOSED_MF SevenGoldenRules 10.373; C51H85O4S2P; [M+Na]+; delta(ppm) -10.372962
+COMMENT: PROPOSED_MF SevenGoldenRules 9.927; C53H82N2OSP2; [M+Na]+; delta(ppm) -9.926989
+COMMENT: PROPOSED_MF SevenGoldenRules 9.613; C43H89N2O6S3P; [M+Na]+; delta(ppm) -9.612940
+COMMENT: PROPOSED_MF SevenGoldenRules 9.591; C40H80N4O15; [M+Na]+; delta(ppm) -9.590758
+COMMENT: PROPOSED_MF SevenGoldenRules 9.358; C50H81O9P; [M+Na]+; delta(ppm) -9.358431
+COMMENT: PROPOSED_MF SevenGoldenRules 8.598; C42H85N2O11SP; [M+Na]+; delta(ppm) -8.598409
+COMMENT: PROPOSED_MF SevenGoldenRules 8.444; C53H80N2O3S2; [M+Na]+; delta(ppm) -8.444303
+COMMENT: PROPOSED_MF SevenGoldenRules 8.152; C44H82N4O8P2; [M+Na]+; delta(ppm) -8.152436
+COMMENT: PROPOSED_MF SevenGoldenRules 8.029; C39H84O19; [M+Na]+; delta(ppm) -8.028684
+COMMENT: PROPOSED_MF SevenGoldenRules 7.684; C45H84N4O5S3; [M+Na]+; delta(ppm) -7.684281
+COMMENT: PROPOSED_MF SevenGoldenRules 7.605; C44H90O7S2P2; [M+Na]+; delta(ppm) -7.604893
+COMMENT: PROPOSED_MF SevenGoldenRules 6.670; C44H80N4O10S; [M+Na]+; delta(ppm) -6.669750
+COMMENT: PROPOSED_MF SevenGoldenRules 6.590; C43H86O12P2; [M+Na]+; delta(ppm) -6.590362
+COMMENT: PROPOSED_MF SevenGoldenRules 6.437; C54H81O4SP; [M+Na]+; delta(ppm) -6.437424
+COMMENT: PROPOSED_MF SevenGoldenRules 6.122; C44H88O9S3; [M+Na]+; delta(ppm) -6.122207
+COMMENT: PROPOSED_MF SevenGoldenRules 5.676; C46H85N2O6S2P; [M+Na]+; delta(ppm) -5.676234
+COMMENT: PROPOSED_MF SevenGoldenRules 5.231; C48H82N4O3SP2; [M+Na]+; delta(ppm) -5.231429
+COMMENT: PROPOSED_MF SevenGoldenRules 5.108; C43H84O14S; [M+Na]+; delta(ppm) -5.107677
+COMMENT: PROPOSED_MF SevenGoldenRules 4.662; C45H81N2O11P; [M+Na]+; delta(ppm) -4.661704
+COMMENT: PROPOSED_MF SevenGoldenRules 3.902; C37H85N4O13SP; [M+Na]+; delta(ppm) -3.901681
+COMMENT: PROPOSED_MF SevenGoldenRules 3.749; C48H80N4O5S2; [M+Na]+; delta(ppm) -3.748743
+COMMENT: PROPOSED_MF SevenGoldenRules 3.669; C47H86O7SP2; [M+Na]+; delta(ppm) -3.669355
+COMMENT: PROPOSED_MF SevenGoldenRules 2.755; C50H85N2OS3P; [M+Na]+; delta(ppm) -2.755227
+COMMENT: PROPOSED_MF SevenGoldenRules 2.734; C47H76N4O10; [M+Na]+; delta(ppm) -2.734212
+COMMENT: PROPOSED_MF SevenGoldenRules 2.187; C47H84O9S2; [M+Na]+; delta(ppm) -2.186669
+COMMENT: PROPOSED_MF SevenGoldenRules 1.894; C38H86N2O14P2; [M+Na]+; delta(ppm) -1.893635
+COMMENT: PROPOSED_MF SevenGoldenRules 1.741; C49H81N2O6SP; [M+Na]+; delta(ppm) -1.740696
+COMMENT: PROPOSED_MF SevenGoldenRules 1.172; C46H80O14; [M+Na]+; delta(ppm) -1.172139
+COMMENT: PROPOSED_MF SevenGoldenRules 0.981; C41H85N4O8S2P; [M+Na]+; delta(ppm) -0.980674
+COMMENT: PROPOSED_MF SevenGoldenRules 0.828; C52H80N4S3; [M+Na]+; delta(ppm) -0.827736
+COMMENT: PROPOSED_MF SevenGoldenRules 0.748; C51H86O2S2P2; [M+Na]+; delta(ppm) -0.748348
+COMMENT: PROPOSED_MF SevenGoldenRules 0.412; C38H84N2O16S; [M+Na]+; delta(ppm) -0.412117
+COMMENT: PROPOSED_MF SevenGoldenRules 0.034; C40H81N4O13P; [M+Na]+; delta(ppm) 0.033857
+COMMENT: PROPOSED_MF SevenGoldenRules 0.266; C50H82O7P2; [M+Na]+; delta(ppm) 0.266183
+COMMENT: PROPOSED_MF SevenGoldenRules 0.734; C51H84O4S3; [M+Na]+; delta(ppm) 0.734338
+COMMENT: PROPOSED_MF SevenGoldenRules 1.027; C42H86N2O9SP2; [M+Na]+; delta(ppm) 1.027373
+COMMENT: PROPOSED_MF SevenGoldenRules 1.180; C53H81N2OS2P; [M+Na]+; delta(ppm) 1.180311
+COMMENT: PROPOSED_MF SevenGoldenRules 1.596; C39H85O17P; [M+Na]+; delta(ppm) 1.595930
+COMMENT: PROPOSED_MF SevenGoldenRules 1.749; C50H80O9S; [M+Na]+; delta(ppm) 1.748869
+COMMENT: PROPOSED_MF SevenGoldenRules 1.940; C45H85N4O3S3P; [M+Na]+; delta(ppm) 1.940333
+COMMENT: PROPOSED_MF SevenGoldenRules 2.509; C42H84N2O11S2; [M+Na]+; delta(ppm) 2.508891
+COMMENT: PROPOSED_MF SevenGoldenRules 2.955; C44H81N4O8SP; [M+Na]+; delta(ppm) 2.954864
+COMMENT: PROPOSED_MF SevenGoldenRules 3.187; C54H82O2SP2; [M+Na]+; delta(ppm) 3.187190
+COMMENT: PROPOSED_MF SevenGoldenRules 3.502; C44H89O7S3P; [M+Na]+; delta(ppm) 3.502407
+COMMENT: PROPOSED_MF SevenGoldenRules 3.523; C41H80N2O16; [M+Na]+; delta(ppm) 3.523421
+COMMENT: PROPOSED_MF SevenGoldenRules 3.948; C46H86N2O4S2P2; [M+Na]+; delta(ppm) 3.948380
+COMMENT: PROPOSED_MF SevenGoldenRules 4.517; C43H85O12SP; [M+Na]+; delta(ppm) 4.516938
+COMMENT: PROPOSED_MF SevenGoldenRules 4.670; C54H80O4S2; [M+Na]+; delta(ppm) 4.669876
+COMMENT: PROPOSED_MF SevenGoldenRules 4.963; C45H82N2O9P2; [M+Na]+; delta(ppm) 4.962911
+COMMENT: PROPOSED_MF SevenGoldenRules 5.431; C46H84N2O6S3; [M+Na]+; delta(ppm) 5.431066
+COMMENT: PROPOSED_MF SevenGoldenRules 5.723; C37H86N4O11SP2; [M+Na]+; delta(ppm) 5.722933
+COMMENT: PROPOSED_MF SevenGoldenRules 5.877; C48H81N4O3S2P; [M+Na]+; delta(ppm) 5.877039
+COMMENT: PROPOSED_MF SevenGoldenRules 6.446; C45H80N2O11S; [M+Na]+; delta(ppm) 6.445596
+COMMENT: PROPOSED_MF SevenGoldenRules 6.892; C47H77N4O8P; [M+Na]+; delta(ppm) 6.891569
+COMMENT: PROPOSED_MF SevenGoldenRules 7.206; C37H84N4O13S2; [M+Na]+; delta(ppm) 7.205619
+COMMENT: PROPOSED_MF SevenGoldenRules 7.438; C47H85O7S2P; [M+Na]+; delta(ppm) 7.437945
+COMMENT: PROPOSED_MF SevenGoldenRules 7.884; C49H82N2O4SP2; [M+Na]+; delta(ppm) 7.883918
+COMMENT: PROPOSED_MF SevenGoldenRules 8.220; C36H80N4O18; [M+Na]+; delta(ppm) 8.220149
+COMMENT: PROPOSED_MF SevenGoldenRules 8.452; C46H81O12P; [M+Na]+; delta(ppm) 8.452475
+COMMENT: PROPOSED_MF SevenGoldenRules 9.214; C38H85N2O14SP; [M+Na]+; delta(ppm) 9.213665
+COMMENT: PROPOSED_MF SevenGoldenRules 9.367; C49H80N2O6S2; [M+Na]+; delta(ppm) 9.366604
+COMMENT: PROPOSED_MF SevenGoldenRules 9.660; C40H82N4O11P2; [M+Na]+; delta(ppm) 9.659638
+COMMENT: PROPOSED_MF SevenGoldenRules 10.127; C41H84N4O8S3; [M+Na]+; delta(ppm) 10.126626
+COMMENT: PROPOSED_MF SevenGoldenRules 10.359; C51H85O2S3P; [M+Na]+; delta(ppm) 10.358952
+COMMENT: PROPOSED_MF SevenGoldenRules 10.381; C48H76N2O11; [M+Na]+; delta(ppm) 10.381134
+COMMENT: PROPOSED_MF SevenGoldenRules 11.141; C40H80N4O13S; [M+Na]+; delta(ppm) 11.141157
+COMMENT: PROPOSED_MF SevenGoldenRules 11.221; C39H86O15P2; [M+Na]+; delta(ppm) 11.220544
+COMMENT: PROPOSED_MF SevenGoldenRules 11.373; C50H81O7SP; [M+Na]+; delta(ppm) 11.373483
+COMMENT: PROPOSED_MF SevenGoldenRules 12.135; C42H85N2O9S2P; [M+Na]+; delta(ppm) 12.134673
+COMMENT: PROPOSED_MF SevenGoldenRules 12.288; C53H80N2OS3; [M+Na]+; delta(ppm) 12.287611
+COMMENT: PROPOSED_MF SevenGoldenRules 12.581; C44H82N4O6SP2; [M+Na]+; delta(ppm) 12.580646
+COMMENT: PROPOSED_MF SevenGoldenRules 12.703; C39H84O17S; [M+Na]+; delta(ppm) 12.703230
+COMMENT: PROPOSED_MF SevenGoldenRules 13.149; C41H81N2O14P; [M+Na]+; delta(ppm) 13.149203
+COMMENT: PROPOSED_MF SevenGoldenRules 14.062; C44H80N4O8S2; [M+Na]+; delta(ppm) 14.062164
+COMMENT: PROPOSED_MF SevenGoldenRules 14.142; C43H86O10SP2; [M+Na]+; delta(ppm) 14.141552
+COMMENT: PROPOSED_MF SevenGoldenRules 14.294; C54H81O2S2P; [M+Na]+; delta(ppm) 14.294490
+COMMENT: PROPOSED_MF SevenGoldenRules 14.711; C40H74N4O9S2; [M+IsoProp+H]+; delta(ppm) -14.711458
+COMMENT: PROPOSED_MF SevenGoldenRules 14.628; C39H80O11SP2; [M+IsoProp+H]+; delta(ppm) -14.628377
+COMMENT: PROPOSED_MF SevenGoldenRules 14.468; C50H75O3S2P; [M+IsoProp+H]+; delta(ppm) -14.468324
+COMMENT: PROPOSED_MF SevenGoldenRules 13.673; C42H79N2O5S3P; [M+IsoProp+H]+; delta(ppm) -13.672945
+COMMENT: PROPOSED_MF SevenGoldenRules 13.650; C39H70N4O14; [M+IsoProp+H]+; delta(ppm) -13.649731
+COMMENT: PROPOSED_MF SevenGoldenRules 13.407; C49H71O8P; [M+IsoProp+H]+; delta(ppm) -13.406596
+COMMENT: PROPOSED_MF SevenGoldenRules 13.078; C39H78O13S2; [M+IsoProp+H]+; delta(ppm) -13.077938
+COMMENT: PROPOSED_MF SevenGoldenRules 12.611; C41H75N2O10SP; [M+IsoProp+H]+; delta(ppm) -12.611217
+COMMENT: PROPOSED_MF SevenGoldenRules 12.144; C43H72N4O7P2; [M+IsoProp+H]+; delta(ppm) -12.144497
+COMMENT: PROPOSED_MF SevenGoldenRules 12.016; C38H74O18; [M+IsoProp+H]+; delta(ppm) -12.016210
+COMMENT: PROPOSED_MF SevenGoldenRules 11.655; C44H74N4O4S3; [M+IsoProp+H]+; delta(ppm) -11.654563
+COMMENT: PROPOSED_MF SevenGoldenRules 11.571; C43H80O6S2P2; [M+IsoProp+H]+; delta(ppm) -11.571482
+COMMENT: PROPOSED_MF SevenGoldenRules 10.753; C32H75N4O17P; [M+IsoProp+H]+; delta(ppm) -10.752889
+COMMENT: PROPOSED_MF SevenGoldenRules 10.593; C43H70N4O9S; [M+IsoProp+H]+; delta(ppm) -10.592836
+COMMENT: PROPOSED_MF SevenGoldenRules 10.510; C42H76O11P2; [M+IsoProp+H]+; delta(ppm) -10.509755
+COMMENT: PROPOSED_MF SevenGoldenRules 10.020; C43H78O8S3; [M+IsoProp+H]+; delta(ppm) -10.019821
+COMMENT: PROPOSED_MF SevenGoldenRules 9.554; C45H75N2O5S2P; [M+IsoProp+H]+; delta(ppm) -9.554323
+COMMENT: PROPOSED_MF SevenGoldenRules 9.088; C47H72N4O2SP2; [M+IsoProp+H]+; delta(ppm) -9.087603
+COMMENT: PROPOSED_MF SevenGoldenRules 8.958; C42H74O13S; [M+IsoProp+H]+; delta(ppm) -8.958094
+COMMENT: PROPOSED_MF SevenGoldenRules 8.758; C37H79N4O7S3P; [M+IsoProp+H]+; delta(ppm) -8.757722
+COMMENT: PROPOSED_MF SevenGoldenRules 8.515; C47H80OS3P2; [M+IsoProp+H]+; delta(ppm) -8.514588
+COMMENT: PROPOSED_MF SevenGoldenRules 8.491; C44H71N2O10P; [M+IsoProp+H]+; delta(ppm) -8.491374
+COMMENT: PROPOSED_MF SevenGoldenRules 7.696; C36H75N4O12SP; [M+IsoProp+H]+; delta(ppm) -7.695995
+COMMENT: PROPOSED_MF SevenGoldenRules 7.536; C47H70N4O4S2; [M+IsoProp+H]+; delta(ppm) -7.535942
+COMMENT: PROPOSED_MF SevenGoldenRules 7.453; C46H76O6SP2; [M+IsoProp+H]+; delta(ppm) -7.452861
+COMMENT: PROPOSED_MF SevenGoldenRules 7.101; C33H74N2O20; [M+IsoProp+H]+; delta(ppm) -7.100988
+COMMENT: PROPOSED_MF SevenGoldenRules 6.657; C38H80N2O8S2P2; [M+IsoProp+H]+; delta(ppm) -6.657481
+COMMENT: PROPOSED_MF SevenGoldenRules 6.496; C49H75N2S3P; [M+IsoProp+H]+; delta(ppm) -6.496206
+COMMENT: PROPOSED_MF SevenGoldenRules 5.901; C46H74O8S2; [M+IsoProp+H]+; delta(ppm) -5.901199
+COMMENT: PROPOSED_MF SevenGoldenRules 5.596; C37H76N2O13P2; [M+IsoProp+H]+; delta(ppm) -5.595754
+COMMENT: PROPOSED_MF SevenGoldenRules 5.434; C48H71N2O5SP; [M+IsoProp+H]+; delta(ppm) -5.434479
+COMMENT: PROPOSED_MF SevenGoldenRules 5.106; C38H78N2O10S3; [M+IsoProp+H]+; delta(ppm) -5.105820
+COMMENT: PROPOSED_MF SevenGoldenRules 4.839; C45H70O13; [M+IsoProp+H]+; delta(ppm) -4.839472
+COMMENT: PROPOSED_MF SevenGoldenRules 4.639; C40H75N4O7S2P; [M+IsoProp+H]+; delta(ppm) -4.639100
+COMMENT: PROPOSED_MF SevenGoldenRules 4.396; C50H76OS2P2; [M+IsoProp+H]+; delta(ppm) -4.395966
+COMMENT: PROPOSED_MF SevenGoldenRules 4.044; C37H74N2O15S; [M+IsoProp+H]+; delta(ppm) -4.044093
+COMMENT: PROPOSED_MF SevenGoldenRules 3.577; C39H71N4O12P; [M+IsoProp+H]+; delta(ppm) -3.577373
+COMMENT: PROPOSED_MF SevenGoldenRules 3.334; C49H72O6P2; [M+IsoProp+H]+; delta(ppm) -3.334239
+COMMENT: PROPOSED_MF SevenGoldenRules 3.004; C39H79O11S2P; [M+IsoProp+H]+; delta(ppm) -3.004358
+COMMENT: PROPOSED_MF SevenGoldenRules 2.844; C50H74O3S3; [M+IsoProp+H]+; delta(ppm) -2.844305
+COMMENT: PROPOSED_MF SevenGoldenRules 2.538; C41H76N2O8SP2; [M+IsoProp+H]+; delta(ppm) -2.537638
+COMMENT: PROPOSED_MF SevenGoldenRules 1.943; C38H75O16P; [M+IsoProp+H]+; delta(ppm) -1.942631
+COMMENT: PROPOSED_MF SevenGoldenRules 1.783; C49H70O8S; [M+IsoProp+H]+; delta(ppm) -1.782578
+COMMENT: PROPOSED_MF SevenGoldenRules 1.582; C44H75N4O2S3P; [M+IsoProp+H]+; delta(ppm) -1.582206
+COMMENT: PROPOSED_MF SevenGoldenRules 0.987; C41H74N2O10S2; [M+IsoProp+H]+; delta(ppm) -0.987199
+COMMENT: PROPOSED_MF SevenGoldenRules 0.681; C32H76N4O15P2; [M+IsoProp+H]+; delta(ppm) -0.680532
+COMMENT: PROPOSED_MF SevenGoldenRules 0.520; C43H71N4O7SP; [M+IsoProp+H]+; delta(ppm) -0.520478
+COMMENT: PROPOSED_MF SevenGoldenRules 0.053; C43H79O6S3P; [M+IsoProp+H]+; delta(ppm) 0.052537
+COMMENT: PROPOSED_MF SevenGoldenRules 0.075; C40H70N2O15; [M+IsoProp+H]+; delta(ppm) 0.074529
+COMMENT: PROPOSED_MF SevenGoldenRules 0.519; C45H76N2O3S2P2; [M+IsoProp+H]+; delta(ppm) 0.519257
+COMMENT: PROPOSED_MF SevenGoldenRules 0.871; C32H74N4O17S; [M+IsoProp+H]+; delta(ppm) 0.871129
+COMMENT: PROPOSED_MF SevenGoldenRules 1.114; C42H75O11SP; [M+IsoProp+H]+; delta(ppm) 1.114264
+COMMENT: PROPOSED_MF SevenGoldenRules 1.581; C44H72N2O8P2; [M+IsoProp+H]+; delta(ppm) 1.580984
+COMMENT: PROPOSED_MF SevenGoldenRules 2.071; C45H74N2O5S3; [M+IsoProp+H]+; delta(ppm) 2.070918
+COMMENT: PROPOSED_MF SevenGoldenRules 2.376; C36H76N4O10SP2; [M+IsoProp+H]+; delta(ppm) 2.376363
+COMMENT: PROPOSED_MF SevenGoldenRules 2.536; C47H71N4O2S2P; [M+IsoProp+H]+; delta(ppm) 2.536416
+COMMENT: PROPOSED_MF SevenGoldenRules 2.971; C33H75N2O18P; [M+IsoProp+H]+; delta(ppm) 2.971370
+COMMENT: PROPOSED_MF SevenGoldenRules 3.133; C44H70N2O10S; [M+IsoProp+H]+; delta(ppm) 3.132645
+COMMENT: PROPOSED_MF SevenGoldenRules 3.928; C36H74N4O12S2; [M+IsoProp+H]+; delta(ppm) 3.928024
+COMMENT: PROPOSED_MF SevenGoldenRules 4.171; C46H75O6S2P; [M+IsoProp+H]+; delta(ppm) 4.171158
+COMMENT: PROPOSED_MF SevenGoldenRules 4.638; C48H72N2O3SP2; [M+IsoProp+H]+; delta(ppm) 4.637878
+COMMENT: PROPOSED_MF SevenGoldenRules 4.967; C38H79N2O8S3P; [M+IsoProp+H]+; delta(ppm) 4.966537
+COMMENT: PROPOSED_MF SevenGoldenRules 4.990; C35H70N4O17; [M+IsoProp+H]+; delta(ppm) 4.989751
+COMMENT: PROPOSED_MF SevenGoldenRules 5.233; C45H71O11P; [M+IsoProp+H]+; delta(ppm) 5.232886
+COMMENT: PROPOSED_MF SevenGoldenRules 6.029; C37H75N2O13SP; [M+IsoProp+H]+; delta(ppm) 6.029486
+COMMENT: PROPOSED_MF SevenGoldenRules 6.190; C48H70N2O5S2; [M+IsoProp+H]+; delta(ppm) 6.189540
+COMMENT: PROPOSED_MF SevenGoldenRules 6.495; C39H72N4O10P2; [M+IsoProp+H]+; delta(ppm) 6.494985
+COMMENT: PROPOSED_MF SevenGoldenRules 6.624; C34H74O21; [M+IsoProp+H]+; delta(ppm) 6.624493
+COMMENT: PROPOSED_MF SevenGoldenRules 6.985; C40H74N4O7S3; [M+IsoProp+H]+; delta(ppm) 6.984919
+COMMENT: PROPOSED_MF SevenGoldenRules 7.068; C39H80O9S2P2; [M+IsoProp+H]+; delta(ppm) 7.068000
+COMMENT: PROPOSED_MF SevenGoldenRules 7.228; C50H75OS3P; [M+IsoProp+H]+; delta(ppm) 7.228053
+COMMENT: PROPOSED_MF SevenGoldenRules 8.047; C39H70N4O12S; [M+IsoProp+H]+; delta(ppm) 8.046646
+COMMENT: PROPOSED_MF SevenGoldenRules 8.130; C38H76O14P2; [M+IsoProp+H]+; delta(ppm) 8.129727
+COMMENT: PROPOSED_MF SevenGoldenRules 8.290; C49H71O6SP; [M+IsoProp+H]+; delta(ppm) 8.289780
+COMMENT: PROPOSED_MF SevenGoldenRules 8.620; C39H78O11S3; [M+IsoProp+H]+; delta(ppm) 8.619661
+COMMENT: PROPOSED_MF SevenGoldenRules 9.086; C41H75N2O8S2P; [M+IsoProp+H]+; delta(ppm) 9.086381
+COMMENT: PROPOSED_MF SevenGoldenRules 9.553; C43H72N4O5SP2; [M+IsoProp+H]+; delta(ppm) 9.553101
+COMMENT: PROPOSED_MF SevenGoldenRules 9.681; C38H74O16S; [M+IsoProp+H]+; delta(ppm) 9.681388
+COMMENT: PROPOSED_MF SevenGoldenRules 10.148; C40H71N2O13P; [M+IsoProp+H]+; delta(ppm) 10.148108
+COMMENT: PROPOSED_MF SevenGoldenRules 10.943; C32H75N4O15SP; [M+IsoProp+H]+; delta(ppm) 10.943487
+COMMENT: PROPOSED_MF SevenGoldenRules 11.104; C43H70N4O7S2; [M+IsoProp+H]+; delta(ppm) 11.103540
+COMMENT: PROPOSED_MF SevenGoldenRules 11.187; C42H76O9SP2; [M+IsoProp+H]+; delta(ppm) 11.186621
+COMMENT: PROPOSED_MF SevenGoldenRules 12.143; C45H75N2O3S3P; [M+IsoProp+H]+; delta(ppm) 12.143276
+COMMENT: PROPOSED_MF SevenGoldenRules 12.165; C42H66N4O12; [M+IsoProp+H]+; delta(ppm) 12.165268
+COMMENT: PROPOSED_MF SevenGoldenRules 12.738; C42H74O11S2; [M+IsoProp+H]+; delta(ppm) 12.738283
+COMMENT: PROPOSED_MF SevenGoldenRules 13.045; C33H76N2O16P2; [M+IsoProp+H]+; delta(ppm) 13.044949
+COMMENT: PROPOSED_MF SevenGoldenRules 13.205; C44H71N2O8SP; [M+IsoProp+H]+; delta(ppm) 13.205003
+COMMENT: PROPOSED_MF SevenGoldenRules 13.800; C41H70O16; [M+IsoProp+H]+; delta(ppm) 13.800010
+COMMENT: PROPOSED_MF SevenGoldenRules 14.000; C36H75N4O10S2P; [M+IsoProp+H]+; delta(ppm) 14.000382
+COMMENT: PROPOSED_MF SevenGoldenRules 14.160; C47H70N4O2S3; [M+IsoProp+H]+; delta(ppm) 14.160435
+COMMENT: PROPOSED_MF SevenGoldenRules 14.244; C46H76O4S2P2; [M+IsoProp+H]+; delta(ppm) 14.243516
+COMMENT: PROPOSED_MF SevenGoldenRules 14.595; C33H74N2O18S; [M+IsoProp+H]+; delta(ppm) 14.595389
+COMMENT: PROPOSED_MF MS-FINDER 3.538; C43H75NO16; [M+NH4]+; delta(ppm) 0.693671
+COMMENT: PROPOSED_MF MS-FINDER 3.253; C54H72N4O5; [M+Na]+; delta(ppm) 10327.029204
+COMMENT: PROPOSED_MF MS-FINDER 3.017; C48H62N6O6; [M+IsoProp+H]+; delta(ppm) 34203.962475
+COMMENT: PROPOSED_MF MS-FINDER 3.014; C50H74N2O11; [M+H]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF MS-FINDER 3.012; C50H71NO11; [M+NH4]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF MS-FINDER 3.011; C45H70O13; [M+IsoProp+H]+; delta(ppm) 34193.554845
+COMMENT: PROPOSED_MF MS-FINDER 2.995; C56H70N4O5; [M+H]+; delta(ppm) 1.277023
+COMMENT: PROPOSED_MF MS-FINDER 2.960; C43H62N8O8; [M+IsoProp+H]+; delta(ppm) 34208.854397
+COMMENT: PROPOSED_MF MS-FINDER 2.949; C30H78N11O11P3; [M+NH4]+; delta(ppm) -0.354669
+COMMENT: PROPOSED_MF MS-FINDER 2.949; C30H81N12O11P3; [M+H]+; delta(ppm) -0.354669
+COMMENT: PROPOSED_MF MS-FINDER 2.948; C28H78N18O6P2S; [M+Na]+; delta(ppm) 10321.816100
+COMMENT: PROPOSED_MF MS-FINDER 2.948; C25H73N19O8P2S; [M+NH4]+; delta(ppm) 0.743591
+COMMENT: PROPOSED_MF MS-FINDER 2.948; C35H81N3O16P2; [M+NH4]+; delta(ppm) -0.009201
+COMMENT: PROPOSED_MF MS-FINDER 2.948; C25H76N20O8P2S; [M+H]+; delta(ppm) 0.743591
+COMMENT: PROPOSED_MF MS-FINDER 2.948; C22H68N20O7P2S; [M+IsoProp+H]+; delta(ppm) 34198.500060
+COMMENT: PROPOSED_MF MS-FINDER 2.947; C27H71N12O12PS; [M+IsoProp+H]+; delta(ppm) 34198.869560
+COMMENT: PROPOSED_MF MS-FINDER 2.947; C32H76N4O15P2; [M+IsoProp+H]+; delta(ppm) 34197.694900
+COMMENT: PROPOSED_MF MS-FINDER 2.945; C29H79N16O7P3; [M+Na]+; delta(ppm) 10323.811502
+COMMENT: PROPOSED_MF MS-FINDER 2.945; C27H73N12O10P3; [M+IsoProp+H]+; delta(ppm) 34197.325400
+COMMENT: PROPOSED_MF MS-FINDER 2.945; C28H67N16O8PS; [M+IsoProp+H]+; delta(ppm) 34197.243202
+COMMENT: PROPOSED_MF MS-FINDER 2.944; C34H82N8O12P2; [M+Na]+; delta(ppm) 10324.164139
+COMMENT: PROPOSED_MF MS-FINDER 2.944; C30H76N11O13PS; [M+NH4]+; delta(ppm) 1.089059
+COMMENT: PROPOSED_MF MS-FINDER 2.943; C30H79N12O13PS; [M+H]+; delta(ppm) 1.089059
+COMMENT: PROPOSED_MF MS-FINDER 2.942; C32H73N13O10P2; [M+NH4]+; delta(ppm) 1.523316
+COMMENT: PROPOSED_MF MS-FINDER 2.942; C37H88NO10P5; [M+NH4]+; delta(ppm) -0.486127
+COMMENT: PROPOSED_MF MS-FINDER 2.942; C32H76N14O10P2; [M+H]+; delta(ppm) 1.523316
+COMMENT: PROPOSED_MF MS-FINDER 2.942; C37H91N2O10P5; [M+H]+; delta(ppm) -0.486127
+COMMENT: PROPOSED_MF MS-FINDER 2.941; C31H72N15O9PS; [M+NH4]+; delta(ppm) -0.431520
+COMMENT: PROPOSED_MF MS-FINDER 2.941; C31H75N16O9PS; [M+H]+; delta(ppm) -0.431520
+COMMENT: PROPOSED_MF MS-FINDER 2.937; C33H81N10O11PS; [M+Na]+; delta(ppm) 10322.168736
+COMMENT: PROPOSED_MF MS-FINDER 2.936; C29H77N16O9PS; [M+Na]+; delta(ppm) 10325.285194
+COMMENT: PROPOSED_MF MS-FINDER 2.935; C27H71N22O7PS; [M+H]+; delta(ppm) 2.621580
+COMMENT: PROPOSED_MF MS-FINDER 2.935; C21H67N22O6PS2; [M+IsoProp+H]+; delta(ppm) 34196.409239
+COMMENT: PROPOSED_MF MS-FINDER 2.934; C23H78N17O9P3S; [M+NH4]+; delta(ppm) -1.134391
+COMMENT: PROPOSED_MF MS-FINDER 2.934; C27H68N21O7PS; [M+NH4]+; delta(ppm) 2.621580
+COMMENT: PROPOSED_MF MS-FINDER 2.934; C20H73N18O8P3S; [M+IsoProp+H]+; delta(ppm) 34196.491436
+COMMENT: PROPOSED_MF MS-FINDER 2.934; C27H81N8O9P3S2; [M+IsoProp+H]+; delta(ppm) 34197.894991
+COMMENT: PROPOSED_MF MS-FINDER 2.933; C36H77N7O12P2; [M+NH4]+; delta(ppm) -1.529777
+COMMENT: PROPOSED_MF MS-FINDER 2.933; C36H80N8O12P2; [M+H]+; delta(ppm) -1.529777
+COMMENT: PROPOSED_MF MS-FINDER 2.931; C31H80N10O14P2; [M+H]+; delta(ppm) 3.043901
+COMMENT: PROPOSED_MF MS-FINDER 2.931; C33H72N8O11P2; [M+IsoProp+H]+; delta(ppm) 34196.068545
+COMMENT: PROPOSED_MF MS-FINDER 2.931; C34H81N2O11P3S; [M+IsoProp+H]+; delta(ppm) 34198.728957
+COMMENT: PROPOSED_MF MS-FINDER 2.930; C24H72N21O7PS2; [M+NH4]+; delta(ppm) -1.211243
+COMMENT: PROPOSED_MF MS-FINDER 2.930; C20H71N18O10PS2; [M+IsoProp+H]+; delta(ppm) 34198.035594
+COMMENT: PROPOSED_MF MS-FINDER 2.929; C31H77N9O14P2; [M+NH4]+; delta(ppm) 3.043901
+COMMENT: PROPOSED_MF MS-FINDER 2.929; C24H75N22O7PS2; [M+H]+; delta(ppm) -1.211243
+COMMENT: PROPOSED_MF MS-FINDER 2.927; C29H87N12O6P3S2; [M+Na]+; delta(ppm) 10324.355100
+COMMENT: PROPOSED_MF MS-FINDER 2.927; C37H76N5O15P; [M+NH4]+; delta(ppm) 1.868785
+COMMENT: PROPOSED_MF MS-FINDER 2.927; C37H79N6O15P; [M+H]+; delta(ppm) 1.868785
+COMMENT: PROPOSED_MF MS-FINDER 2.926; C30H86N7O10P3S2; [M+NH4]+; delta(ppm) 0.177876
+COMMENT: PROPOSED_MF MS-FINDER 2.926; C37H86NO12P3S; [M+NH4]+; delta(ppm) 0.957601
+COMMENT: PROPOSED_MF MS-FINDER 2.926; C34H71N6O14P; [M+IsoProp+H]+; delta(ppm) 34199.703528
+COMMENT: PROPOSED_MF MS-FINDER 2.925; C23H76N17O11PS2; [M+NH4]+; delta(ppm) 0.309334
+COMMENT: PROPOSED_MF MS-FINDER 2.925; C26H77N18O9P3; [M+H]+; delta(ppm) 2.698432
+COMMENT: PROPOSED_MF MS-FINDER 2.925; C37H89N2O12P3S; [M+H]+; delta(ppm) 0.957601
+COMMENT: PROPOSED_MF MS-FINDER 2.925; C28H72N10O13P2; [M+IsoProp+H]+; delta(ppm) 34200.960392
+COMMENT: PROPOSED_MF MS-FINDER 2.924; C22H77N22O7PS2; [M+Na]+; delta(ppm) 10324.489286
+COMMENT: PROPOSED_MF MS-FINDER 2.924; C26H81N16O9PS2; [M+Na]+; delta(ppm) 10321.372833
+COMMENT: PROPOSED_MF MS-FINDER 2.923; C26H74N17O9P3; [M+NH4]+; delta(ppm) 2.698432
+COMMENT: PROPOSED_MF MS-FINDER 2.922; C39H83N3O9P4; [M+NH4]+; delta(ppm) 1.391858
+COMMENT: PROPOSED_MF MS-FINDER 2.922; C39H86N4O9P4; [M+H]+; delta(ppm) 1.391858
+COMMENT: PROPOSED_MF MS-FINDER 2.920; C36H78N4O8P4; [M+IsoProp+H]+; delta(ppm) 34199.193423
+COMMENT: PROPOSED_MF MS-FINDER 2.919; C36H87N6O8P3S; [M+Na]+; delta(ppm) 10325.151007
+COMMENT: PROPOSED_MF MS-FINDER 2.919; C31H82N11O6P3S2; [M+NH4]+; delta(ppm) -1.342700
+COMMENT: PROPOSED_MF MS-FINDER 2.919; C34H78N11O6P3S; [M+NH4]+; delta(ppm) 2.490121
+COMMENT: PROPOSED_MF MS-FINDER 2.918; C34H81N12O6P3S; [M+H]+; delta(ppm) 2.490121
+COMMENT: PROPOSED_MF MS-FINDER 2.918; C23H69N18O8P3; [M+IsoProp+H]+; delta(ppm) 34200.590889
+COMMENT: PROPOSED_MF MS-FINDER 2.917; C31H85N12O6P3S2; [M+H]+; delta(ppm) -1.342700
+COMMENT: PROPOSED_MF MS-FINDER 2.916; C35H77N6O7P3S; [M+IsoProp+H]+; delta(ppm) 34197.102599
+COMMENT: PROPOSED_MF MS-FINDER 2.913; C23H78N20O8P2S; [M+Na]+; delta(ppm) 10326.484698
+COMMENT: PROPOSED_MF MS-FINDER 2.913; C29H76N10O8P2S2; [M+IsoProp+H]+; delta(ppm) 34199.903620
+COMMENT: PROPOSED_MF MS-FINDER 2.912; C19H74N23O7P3S; [M+NH4]+; delta(ppm) 1.918705
+COMMENT: PROPOSED_MF MS-FINDER 2.911; C33H91N6O8P3S2; [M+Na]+; delta(ppm) 10321.238648
+COMMENT: PROPOSED_MF MS-FINDER 2.911; C26H75N18O11PS; [M+H]+; delta(ppm) 4.142169
+COMMENT: PROPOSED_MF MS-FINDER 2.911; C23H77N14O7P3S2; [M+IsoProp+H]+; delta(ppm) 34201.160485
+COMMENT: PROPOSED_MF MS-FINDER 2.911; C30H72N14O4P2S2; [M+IsoProp+H]+; delta(ppm) 34198.277259
+COMMENT: PROPOSED_MF MS-FINDER 2.910; C26H72N17O11PS; [M+NH4]+; delta(ppm) 4.142169
+COMMENT: PROPOSED_MF MS-FINDER 2.910; C38H82N5O8P3S; [M+NH4]+; delta(ppm) -0.562978
+COMMENT: PROPOSED_MF MS-FINDER 2.909; C38H85N6O8P3S; [M+H]+; delta(ppm) -0.562978
+COMMENT: PROPOSED_MF MS-FINDER 2.908; C26H82N13O8P3S2; [M+NH4]+; delta(ppm) 3.230980
+COMMENT: PROPOSED_MF MS-FINDER 2.908; C21H72N26O6P2S; [M+H]+; delta(ppm) 3.796698
+COMMENT: PROPOSED_MF MS-FINDER 2.908; C26H85N14O8P3S2; [M+H]+; delta(ppm) 3.230980
+COMMENT: PROPOSED_MF MS-FINDER 2.908; C33H85N8O10P3S; [M+H]+; delta(ppm) 4.010709
+COMMENT: PROPOSED_MF MS-FINDER 2.907; C30H78N14O10P2; [M+Na]+; delta(ppm) 10327.280609
+COMMENT: PROPOSED_MF MS-FINDER 2.907; C21H69N25O6P2S; [M+NH4]+; delta(ppm) 3.796698
+COMMENT: PROPOSED_MF MS-FINDER 2.907; C33H82N7O10P3S; [M+NH4]+; delta(ppm) 4.010709
+COMMENT: PROPOSED_MF MS-FINDER 2.907; C23H67N18O10PS; [M+IsoProp+H]+; delta(ppm) 34202.135060
+COMMENT: PROPOSED_MF MS-FINDER 2.907; C30H77N8O9P3S; [M+IsoProp+H]+; delta(ppm) 34201.994456
+COMMENT: PROPOSED_MF MS-FINDER 2.905; C32H81N9O9P2S2; [M+NH4]+; delta(ppm) 2.055863
+COMMENT: PROPOSED_MF MS-FINDER 2.904; C32H84N10O9P2S2; [M+H]+; delta(ppm) 2.055863
+COMMENT: PROPOSED_MF MS-FINDER 2.901; C37H88N4O9P4; [M+Na]+; delta(ppm) 10327.146422
+COMMENT: PROPOSED_MF MS-FINDER 2.901; C33H77N13O5P2S2; [M+NH4]+; delta(ppm) 0.535281
+COMMENT: PROPOSED_MF MS-FINDER 2.900; C33H80N14O5P2S2; [M+H]+; delta(ppm) 0.535281
+COMMENT: PROPOSED_MF MS-FINDER 2.900; C22H76N16O6P2S3; [M+IsoProp+H]+; delta(ppm) 34199.069653
+COMMENT: PROPOSED_MF MS-FINDER 2.900; C33H80N4O10P2S2; [M+IsoProp+H]+; delta(ppm) 34196.638135
+COMMENT: PROPOSED_MF MS-FINDER 2.898; C35H81N6O15P; [M+Na]+; delta(ppm) 10327.633249
+COMMENT: PROPOSED_MF MS-FINDER 2.896; C35H86N8O7P2S2; [M+Na]+; delta(ppm) 10323.155600
+COMMENT: PROPOSED_MF MS-FINDER 2.894; C31H82N14O5P2S2; [M+Na]+; delta(ppm) 10326.272064
+COMMENT: PROPOSED_MF MS-FINDER 2.893; C50H67N7O6; [M+NH4]+; delta(ppm) -6.921110
+COMMENT: PROPOSED_MF MS-FINDER 2.892; C32H74N4O17S; [M+IsoProp+H]+; delta(ppm) 34199.239061
+COMMENT: PROPOSED_MF MS-FINDER 2.891; C19H72N23O9PS2; [M+NH4]+; delta(ppm) 3.362439
+COMMENT: PROPOSED_MF MS-FINDER 2.891; C19H75N24O9PS2; [M+H]+; delta(ppm) 3.362439
+COMMENT: PROPOSED_MF MS-FINDER 2.890; C25H81N15O7P2S3; [M+NH4]+; delta(ppm) 1.276137
+COMMENT: PROPOSED_MF MS-FINDER 2.890; C36H85N3O11P2S2; [M+NH4]+; delta(ppm) -0.997234
+COMMENT: PROPOSED_MF MS-FINDER 2.889; C28H86N14O5P2S3; [M+Na]+; delta(ppm) 10322.359696
+COMMENT: PROPOSED_MF MS-FINDER 2.889; C25H84N16O7P2S3; [M+H]+; delta(ppm) 1.276137
+COMMENT: PROPOSED_MF MS-FINDER 2.889; C36H76N4O10P2S; [M+IsoProp+H]+; delta(ppm) 34200.737590
+COMMENT: PROPOSED_MF MS-FINDER 2.888; C44H71N5O12; [M+NH4]+; delta(ppm) -0.826907
+COMMENT: PROPOSED_MF MS-FINDER 2.888; C36H88N4O11P2S2; [M+H]+; delta(ppm) -0.997234
+COMMENT: PROPOSED_MF MS-FINDER 2.887; C27H83N11O9P4S; [M+NH4]+; delta(ppm) 5.185831
+COMMENT: PROPOSED_MF MS-FINDER 2.886; C35H79N3O18S; [M+NH4]+; delta(ppm) 1.434527
+COMMENT: PROPOSED_MF MS-FINDER 2.885; C25H73N22O7PS; [M+Na]+; delta(ppm) 10328.401671
+COMMENT: PROPOSED_MF MS-FINDER 2.884; C39H81N3O11P2S; [M+NH4]+; delta(ppm) 2.835591
+COMMENT: PROPOSED_MF MS-FINDER 2.883; C32H83N12O6P3S; [M+Na]+; delta(ppm) 10328.267483
+COMMENT: PROPOSED_MF MS-FINDER 2.883; C39H84N4O11P2S; [M+H]+; delta(ppm) 2.835591
+COMMENT: PROPOSED_MF MS-FINDER 2.881; C37H72N8O6P2S; [M+IsoProp+H]+; delta(ppm) 34199.111226
+COMMENT: PROPOSED_MF MS-FINDER 2.880; C24H78N12O8P4S; [M+IsoProp+H]+; delta(ppm) 34203.251325
+COMMENT: PROPOSED_MF MS-FINDER 2.880; C28H75N12O7PS3; [M+IsoProp+H]+; delta(ppm) 34197.812794
+COMMENT: PROPOSED_MF MS-FINDER 2.879; C27H79N8O11PS3; [M+IsoProp+H]+; delta(ppm) 34199.439154
+COMMENT: PROPOSED_MF MS-FINDER 2.878; C29H75N13O12S2; [M+NH4]+; delta(ppm) -0.865776
+COMMENT: PROPOSED_MF MS-FINDER 2.878; C34H79N2O13PS2; [M+IsoProp+H]+; delta(ppm) 34200.273122
+COMMENT: PROPOSED_MF MS-FINDER 2.877; C29H78N14O12S2; [M+H]+; delta(ppm) -0.865776
+COMMENT: PROPOSED_MF MS-FINDER 2.877; C41H81N6O8P3; [M+H]+; delta(ppm) 3.269849
+COMMENT: PROPOSED_MF MS-FINDER 2.876; C41H78N5O8P3; [M+NH4]+; delta(ppm) 3.269849
+COMMENT: PROPOSED_MF MS-FINDER 2.874; C40H77N7O7P2S; [M+NH4]+; delta(ppm) 1.315006
+COMMENT: PROPOSED_MF MS-FINDER 2.874; C24H71N18O5PS3; [M+IsoProp+H]+; delta(ppm) 34201.078286
+COMMENT: PROPOSED_MF MS-FINDER 2.874; C38H73N6O7P3; [M+IsoProp+H]+; delta(ppm) 34201.202058
+COMMENT: PROPOSED_MF MS-FINDER 2.873; C30H86N10O9P2S2; [M+Na]+; delta(ppm) 10327.824211
+COMMENT: PROPOSED_MF MS-FINDER 2.873; C34H86N6O11P4; [M+H]+; delta(ppm) 5.965563
+COMMENT: PROPOSED_MF MS-FINDER 2.872; C28H80N16O7P2S2; [M+H]+; delta(ppm) 5.108979
+COMMENT: PROPOSED_MF MS-FINDER 2.872; C40H85N2O12P3; [M+H]+; delta(ppm) 4.790440
+COMMENT: PROPOSED_MF MS-FINDER 2.872; C40H80N8O7P2S; [M+H]+; delta(ppm) 1.315006
+COMMENT: PROPOSED_MF MS-FINDER 2.871; C25H72N16O6P2S2; [M+IsoProp+H]+; delta(ppm) 34203.169126
+COMMENT: PROPOSED_MF MS-FINDER 2.871; C35H75N6O9PS2; [M+IsoProp+H]+; delta(ppm) 34198.646759
+COMMENT: PROPOSED_MF MS-FINDER 2.870; C42H86N2O9P2S; [M+Na]+; delta(ppm) 10323.951506
+COMMENT: PROPOSED_MF MS-FINDER 2.870; C28H77N15O7P2S2; [M+NH4]+; delta(ppm) 5.108979
+COMMENT: PROPOSED_MF MS-FINDER 2.870; C40H82NO12P3; [M+NH4]+; delta(ppm) 4.790440
+COMMENT: PROPOSED_MF MS-FINDER 2.869; C34H83N5O11P4; [M+NH4]+; delta(ppm) 5.965563
+COMMENT: PROPOSED_MF MS-FINDER 2.868; C30H81N16O4PS3; [M+Na]+; delta(ppm) 10324.276653
+COMMENT: PROPOSED_MF MS-FINDER 2.868; C37H84NO14PS2; [M+NH4]+; delta(ppm) 2.401332
+COMMENT: PROPOSED_MF MS-FINDER 2.867; C30H84N7O12PS3; [M+NH4]+; delta(ppm) 1.621606
+COMMENT: PROPOSED_MF MS-FINDER 2.866; C38H82N8O7P2S; [M+Na]+; delta(ppm) 10327.067975
+COMMENT: PROPOSED_MF MS-FINDER 2.866; C20H75N21O8P4; [M+NH4]+; delta(ppm) 3.873550
+COMMENT: PROPOSED_MF MS-FINDER 2.866; C31H80N11O8PS3; [M+NH4]+; delta(ppm) 0.101025
+COMMENT: PROPOSED_MF MS-FINDER 2.866; C27H76N16O12P2; [M+H]+; delta(ppm) 6.097023
+COMMENT: PROPOSED_MF MS-FINDER 2.866; C37H87N2O14PS2; [M+H]+; delta(ppm) 2.401332
+COMMENT: PROPOSED_MF MS-FINDER 2.865; C36H73N13O5P2S; [M+NH4]+; delta(ppm) 4.368117
+COMMENT: PROPOSED_MF MS-FINDER 2.865; C36H76N14O5P2S; [M+H]+; delta(ppm) 4.368117
+COMMENT: PROPOSED_MF MS-FINDER 2.865; C37H77N2O11P3; [M+IsoProp+H]+; delta(ppm) 34202.828428
+COMMENT: PROPOSED_MF MS-FINDER 2.864; C27H76N17O6PS3; [M+NH4]+; delta(ppm) 3.154128
+COMMENT: PROPOSED_MF MS-FINDER 2.864; C31H83N12O8PS3; [M+H]+; delta(ppm) 0.101025
+COMMENT: PROPOSED_MF MS-FINDER 2.864; C31H71N12O7PS2; [M+IsoProp+H]+; delta(ppm) 34201.912257
+COMMENT: PROPOSED_MF MS-FINDER 2.863; C27H73N15O12P2; [M+NH4]+; delta(ppm) 6.097023
+COMMENT: PROPOSED_MF MS-FINDER 2.863; C27H79N18O6PS3; [M+H]+; delta(ppm) 3.154128
+COMMENT: PROPOSED_MF MS-FINDER 2.861; C29H85N12O8PS3; [M+Na]+; delta(ppm) 10325.828793
+COMMENT: PROPOSED_MF MS-FINDER 2.861; C20H73N21O10P2S; [M+NH4]+; delta(ppm) 5.317291
+COMMENT: PROPOSED_MF MS-FINDER 2.861; C42H75N3O15; [M+NH4]+; delta(ppm) -12.078035
+COMMENT: PROPOSED_MF MS-FINDER 2.859; C32H76N7O17P; [M+NH4]+; delta(ppm) 6.442495
+COMMENT: PROPOSED_MF MS-FINDER 2.859; C18H72N22O4P2S3; [M+IsoProp+H]+; delta(ppm) 34202.335153
+COMMENT: PROPOSED_MF MS-FINDER 2.859; C31H78N6O10P4; [M+IsoProp+H]+; delta(ppm) 34204.085300
+COMMENT: PROPOSED_MF MS-FINDER 2.858; C33H89N6O10PS3; [M+Na]+; delta(ppm) 10322.712332
+COMMENT: PROPOSED_MF MS-FINDER 2.858; C35H72N15O4PS2; [M+NH4]+; delta(ppm) 2.413269
+COMMENT: PROPOSED_MF MS-FINDER 2.858; C38H80N5O10PS2; [M+NH4]+; delta(ppm) 0.880749
+COMMENT: PROPOSED_MF MS-FINDER 2.857; C34H76N11O8PS2; [M+NH4]+; delta(ppm) 3.933857
+COMMENT: PROPOSED_MF MS-FINDER 2.857; C35H75N16O4PS2; [M+H]+; delta(ppm) 2.413269
+COMMENT: PROPOSED_MF MS-FINDER 2.856; C21H77N21O5P2S3; [M+NH4]+; delta(ppm) 4.329248
+COMMENT: PROPOSED_MF MS-FINDER 2.856; C21H80N22O5P2S3; [M+H]+; delta(ppm) 4.329248
+COMMENT: PROPOSED_MF MS-FINDER 2.856; C34H79N12O8PS2; [M+H]+; delta(ppm) 3.933857
+COMMENT: PROPOSED_MF MS-FINDER 2.856; C38H83N6O10PS2; [M+H]+; delta(ppm) 0.880749
+COMMENT: PROPOSED_MF MS-FINDER 2.855; C36H85N6O10PS2; [M+Na]+; delta(ppm) 10326.624703
+COMMENT: PROPOSED_MF MS-FINDER 2.854; C37H81N10O6PS2; [M+Na]+; delta(ppm) 10325.072560
+COMMENT: PROPOSED_MF MS-FINDER 2.854; C22H73N24O7P3; [M+H]+; delta(ppm) 5.751551
+COMMENT: PROPOSED_MF MS-FINDER 2.854; C17H68N22O9P2S; [M+IsoProp+H]+; delta(ppm) 34203.391929
+COMMENT: PROPOSED_MF MS-FINDER 2.853; C37H86N4O11P2S; [M+Na]+; delta(ppm) 10328.620124
+COMMENT: PROPOSED_MF MS-FINDER 2.853; C21H75N18O5PS4; [M+IsoProp+H]+; delta(ppm) 34196.978829
+COMMENT: PROPOSED_MF MS-FINDER 2.852; C52H76N2O8; [M+Na]+; delta(ppm) 10315.544477
+COMMENT: PROPOSED_MF MS-FINDER 2.852; C35H80N10O9P2S; [M+H]+; delta(ppm) 5.888711
+COMMENT: PROPOSED_MF MS-FINDER 2.852; C19H70N20O9S3; [M+IsoProp+H]+; delta(ppm) 34195.944775
+COMMENT: PROPOSED_MF MS-FINDER 2.850; C22H70N23O7P3; [M+NH4]+; delta(ppm) 5.751551
+COMMENT: PROPOSED_MF MS-FINDER 2.850; C35H77N9O9P2S; [M+NH4]+; delta(ppm) 5.888711
+COMMENT: PROPOSED_MF MS-FINDER 2.850; C24H68N16O11P2; [M+IsoProp+H]+; delta(ppm) 34204.225904
+COMMENT: PROPOSED_MF MS-FINDER 2.849; C29H71N8O16P; [M+IsoProp+H]+; delta(ppm) 34204.595409
+COMMENT: PROPOSED_MF MS-FINDER 2.847; C32H76N15O4PS3; [M+NH4]+; delta(ppm) -1.419552
+COMMENT: PROPOSED_MF MS-FINDER 2.846; C32H79N16O4PS3; [M+H]+; delta(ppm) -1.419552
+COMMENT: PROPOSED_MF MS-FINDER 2.846; C32H72N10O8P2S; [M+IsoProp+H]+; delta(ppm) 34204.003101
+COMMENT: PROPOSED_MF MS-FINDER 2.846; C36H71N10O5PS2; [M+IsoProp+H]+; delta(ppm) 34197.020402
+COMMENT: PROPOSED_MF MS-FINDER 2.845; C29H81N14O8P3S; [M+H]+; delta(ppm) 7.063837
+COMMENT: PROPOSED_MF MS-FINDER 2.844; C22H81N20O6P3S2; [M+H]+; delta(ppm) 6.284103
+COMMENT: PROPOSED_MF MS-FINDER 2.844; C23H75N14O9PS3; [M+IsoProp+H]+; delta(ppm) 34202.704657
+COMMENT: PROPOSED_MF MS-FINDER 2.843; C22H75N19O10S3; [M+NH4]+; delta(ppm) -1.645497
+COMMENT: PROPOSED_MF MS-FINDER 2.843; C30H75N8O11PS2; [M+IsoProp+H]+; delta(ppm) 34203.538630
+COMMENT: PROPOSED_MF MS-FINDER 2.842; C22H78N19O6P3S2; [M+NH4]+; delta(ppm) 6.284103
+COMMENT: PROPOSED_MF MS-FINDER 2.842; C22H78N20O10S3; [M+H]+; delta(ppm) -1.645497
+COMMENT: PROPOSED_MF MS-FINDER 2.841; C43H82N6O5P2S; [M+Na]+; delta(ppm) 10322.399371
+COMMENT: PROPOSED_MF MS-FINDER 2.841; C29H78N13O8P3S; [M+NH4]+; delta(ppm) 7.063837
+COMMENT: PROPOSED_MF MS-FINDER 2.840; C39H83N6O8P3; [M+Na]+; delta(ppm) 10329.063397
+COMMENT: PROPOSED_MF MS-FINDER 2.840; C24H80N17O6PS4; [M+NH4]+; delta(ppm) -0.678698
+COMMENT: PROPOSED_MF MS-FINDER 2.840; C33H83N8O12PS2; [M+H]+; delta(ppm) 5.454450
+COMMENT: PROPOSED_MF MS-FINDER 2.839; C33H80N7O12PS2; [M+NH4]+; delta(ppm) 5.454450
+COMMENT: PROPOSED_MF MS-FINDER 2.839; C35H85N2O6P3S3; [M+IsoProp+H]+; delta(ppm) 34197.672191
+COMMENT: PROPOSED_MF MS-FINDER 2.838; C26H80N13O10PS3; [M+NH4]+; delta(ppm) 4.674718
+COMMENT: PROPOSED_MF MS-FINDER 2.838; C24H83N18O6PS4; [M+H]+; delta(ppm) -0.678698
+COMMENT: PROPOSED_MF MS-FINDER 2.838; C26H83N14O10PS3; [M+H]+; delta(ppm) 4.674718
+COMMENT: PROPOSED_MF MS-FINDER 2.836; C33H77N16O4PS2; [M+Na]+; delta(ppm) 10328.189036
+COMMENT: PROPOSED_MF MS-FINDER 2.836; C20H76N23O4PS4; [M+NH4]+; delta(ppm) 2.374400
+COMMENT: PROPOSED_MF MS-FINDER 2.835; C20H79N24O4PS4; [M+H]+; delta(ppm) 2.374400
+COMMENT: PROPOSED_MF MS-FINDER 2.833; C22H71N24O9PS; [M+H]+; delta(ppm) 7.195297
+COMMENT: PROPOSED_MF MS-FINDER 2.832; C39H76N9O6PS2; [M+NH4]+; delta(ppm) -0.639830
+COMMENT: PROPOSED_MF MS-FINDER 2.832; C26H73N14O7P3S; [M+IsoProp+H]+; delta(ppm) 34205.259975
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C36H95N2O7P3S3; [M+Na]+; delta(ppm) 10325.694607
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C46H80O14; [M+Na]+; delta(ppm) 10321.765144
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C27H81N11O11P2S2; [M+NH4]+; delta(ppm) 6.629575
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C30H85N4O8P3S3; [M+IsoProp+H]+; delta(ppm) 34202.564052
+COMMENT: PROPOSED_MF MS-FINDER 2.830; C19H74N26O6P2S; [M+Na]+; delta(ppm) 10329.601182
+COMMENT: PROPOSED_MF MS-FINDER 2.830; C39H79N10O6PS2; [M+H]+; delta(ppm) -0.639830
+COMMENT: PROPOSED_MF MS-FINDER 2.829; C22H68N23O9PS; [M+NH4]+; delta(ppm) 7.195297
+COMMENT: PROPOSED_MF MS-FINDER 2.829; C32H67N16O3PS2; [M+IsoProp+H]+; delta(ppm) 34200.285890
+COMMENT: PROPOSED_MF MS-FINDER 2.827; C24H76N12O10P2S2; [M+IsoProp+H]+; delta(ppm) 34204.795503
+COMMENT: PROPOSED_MF MS-FINDER 2.825; C26H69N23O4P2S; [M+NH4]+; delta(ppm) -0.776987
+COMMENT: PROPOSED_MF MS-FINDER 2.825; C26H72N24O4P2S; [M+H]+; delta(ppm) -0.776987
+COMMENT: PROPOSED_MF MS-FINDER 2.824; C34H91NO10P4S2; [M+NH4]+; delta(ppm) 6.498115
+COMMENT: PROPOSED_MF MS-FINDER 2.824; C31H86N2O9P4S2; [M+IsoProp+H]+; delta(ppm) 34204.654898
+COMMENT: PROPOSED_MF MS-FINDER 2.823; C41H85N4O8PS2; [M+Na]+; delta(ppm) 10321.956104
+COMMENT: PROPOSED_MF MS-FINDER 2.823; C38H90NO7P3S3; [M+NH4]+; delta(ppm) -0.030433
+COMMENT: PROPOSED_MF MS-FINDER 2.823; C34H84N6O13P2S; [M+H]+; delta(ppm) 7.409309
+COMMENT: PROPOSED_MF MS-FINDER 2.823; C29H71N16O3PS3; [M+IsoProp+H]+; delta(ppm) 34196.186439
+COMMENT: PROPOSED_MF MS-FINDER 2.822; C33H90N3O9P3S3; [M+NH4]+; delta(ppm) 4.543259
+COMMENT: PROPOSED_MF MS-FINDER 2.822; C33H93N4O9P3S3; [M+H]+; delta(ppm) 4.543259
+COMMENT: PROPOSED_MF MS-FINDER 2.821; C38H71N6O9PS; [M+IsoProp+H]+; delta(ppm) 34202.746230
+COMMENT: PROPOSED_MF MS-FINDER 2.820; C34H81N5O13P2S; [M+NH4]+; delta(ppm) 7.409309
+COMMENT: PROPOSED_MF MS-FINDER 2.820; C38H93N2O7P3S3; [M+H]+; delta(ppm) -0.030433
+COMMENT: PROPOSED_MF MS-FINDER 2.819; C38H81N2O6P3S2; [M+IsoProp+H]+; delta(ppm) 34201.771653
+COMMENT: PROPOSED_MF MS-FINDER 2.817; C34H78N14O5P2S; [M+Na]+; delta(ppm) 10330.184463
+COMMENT: PROPOSED_MF MS-FINDER 2.817; C41H76N5O10PS; [M+NH4]+; delta(ppm) 4.713588
+COMMENT: PROPOSED_MF MS-FINDER 2.817; C41H79N6O10PS; [M+H]+; delta(ppm) 4.713588
+COMMENT: PROPOSED_MF MS-FINDER 2.816; C24H74N24O4P2S; [M+Na]+; delta(ppm) 10324.932556
+COMMENT: PROPOSED_MF MS-FINDER 2.816; C25H81N18O6PS3; [M+Na]+; delta(ppm) 10328.945274
+COMMENT: PROPOSED_MF MS-FINDER 2.816; C30H73N20O5PS; [M+Na]+; delta(ppm) 10323.733055
+COMMENT: PROPOSED_MF MS-FINDER 2.816; C23H75N24O4PS3; [M+H]+; delta(ppm) 6.207251
+COMMENT: PROPOSED_MF MS-FINDER 2.815; C23H72N23O4PS3; [M+NH4]+; delta(ppm) 6.207251
+COMMENT: PROPOSED_MF MS-FINDER 2.814; C23H65N30O4P; [M+Na]+; delta(ppm) 10322.393553
+COMMENT: PROPOSED_MF MS-FINDER 2.814; C38H87N2O12P3; [M+Na]+; delta(ppm) 10330.615552
+COMMENT: PROPOSED_MF MS-FINDER 2.814; C31H77N16O7P3; [M+H]+; delta(ppm) -1.875244
+COMMENT: PROPOSED_MF MS-FINDER 2.813; C31H74N15O7P3; [M+NH4]+; delta(ppm) -1.875244
+COMMENT: PROPOSED_MF MS-FINDER 2.813; C29H68N14O9P2; [M+IsoProp+H]+; delta(ppm) 34199.334027
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C29H77N13O10P2S; [M+NH4]+; delta(ppm) -2.309498
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C29H80N14O10P2S; [M+H]+; delta(ppm) -2.309498
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C30H75N18O6PS2; [M+H]+; delta(ppm) 6.986984
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C33H72N18O6P2; [M+H]+; delta(ppm) 0.002736
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C26H72N14O9P2S; [M+IsoProp+H]+; delta(ppm) 34195.234583
+COMMENT: PROPOSED_MF MS-FINDER 2.812; C31H76N6O12P2S; [M+IsoProp+H]+; delta(ppm) 34205.629480
+COMMENT: PROPOSED_MF MS-FINDER 2.811; C32H81N12O8PS2; [M+Na]+; delta(ppm) 10329.741188
+COMMENT: PROPOSED_MF MS-FINDER 2.811; C33H83N10O9P3; [M+Na]+; delta(ppm) 10320.695053
+COMMENT: PROPOSED_MF MS-FINDER 2.811; C35H78N12O8P2; [M+Na]+; delta(ppm) 10322.612004
+COMMENT: PROPOSED_MF MS-FINDER 2.811; C33H69N17O6P2; [M+NH4]+; delta(ppm) 0.002736
+COMMENT: PROPOSED_MF MS-FINDER 2.810; C44H81N4O8PS; [M+Na]+; delta(ppm) 10325.868469
+COMMENT: PROPOSED_MF MS-FINDER 2.810; C36H81N8O10P3; [M+H]+; delta(ppm) 7.843572
+COMMENT: PROPOSED_MF MS-FINDER 2.809; C30H72N17O6PS2; [M+NH4]+; delta(ppm) 6.986984
+COMMENT: PROPOSED_MF MS-FINDER 2.809; C23H71N22O12P; [M+H]+; delta(ppm) -0.223211
+COMMENT: PROPOSED_MF MS-FINDER 2.809; C24H63N22O6PS; [M+IsoProp+H]+; delta(ppm) 34200.508691
+COMMENT: PROPOSED_MF MS-FINDER 2.809; C30H64N18O5P2; [M+IsoProp+H]+; delta(ppm) 34197.707667
+COMMENT: PROPOSED_MF MS-FINDER 2.808; C23H68N21O12P; [M+NH4]+; delta(ppm) -0.223211
+COMMENT: PROPOSED_MF MS-FINDER 2.808; C41H86NO7P3S2; [M+NH4]+; delta(ppm) 3.802398
+COMMENT: PROPOSED_MF MS-FINDER 2.808; C40H83N2O14PS; [M+H]+; delta(ppm) 6.234183
+COMMENT: PROPOSED_MF MS-FINDER 2.807; C40H80NO14PS; [M+NH4]+; delta(ppm) 6.234183
+COMMENT: PROPOSED_MF MS-FINDER 2.807; C41H89N2O7P3S2; [M+H]+; delta(ppm) 3.802398
+COMMENT: PROPOSED_MF MS-FINDER 2.807; C27H67N18O5PS2; [M+IsoProp+H]+; delta(ppm) 34205.177776
+COMMENT: PROPOSED_MF MS-FINDER 2.806; C29H84N6O7P2S4; [M+IsoProp+H]+; delta(ppm) 34200.473215
+COMMENT: PROPOSED_MF MS-FINDER 2.806; C31H75N6O14PS; [M+IsoProp+H]+; delta(ppm) 34195.604082
+COMMENT: PROPOSED_MF MS-FINDER 2.806; C37H75N2O13PS; [M+IsoProp+H]+; delta(ppm) 34204.372605
+COMMENT: PROPOSED_MF MS-FINDER 2.805; C36H78N7O10P3; [M+NH4]+; delta(ppm) 7.843572
+COMMENT: PROPOSED_MF MS-FINDER 2.805; C43H71N4O7PS; [M+IsoProp+H]+; delta(ppm) 34197.854366
+COMMENT: PROPOSED_MF MS-FINDER 2.804; C22H69N26O8P; [M+Na]+; delta(ppm) 10323.945688
+COMMENT: PROPOSED_MF MS-FINDER 2.804; C38H86N2O14P2; [M+Na]+; delta(ppm) 10321.047688
+COMMENT: PROPOSED_MF MS-FINDER 2.804; C20H63N22O11P; [M+IsoProp+H]+; delta(ppm) 34197.466003
+COMMENT: PROPOSED_MF MS-FINDER 2.803; C31H74N18O6P2; [M+Na]+; delta(ppm) 10325.728464
+COMMENT: PROPOSED_MF MS-FINDER 2.802; C26H83N16O7P3S; [M+Na]+; delta(ppm) 10319.899152
+COMMENT: PROPOSED_MF MS-FINDER 2.802; C34H80N5O15PS; [M+NH4]+; delta(ppm) -1.964032
+COMMENT: PROPOSED_MF MS-FINDER 2.802; C17H63N28O4PS2; [M+IsoProp+H]+; delta(ppm) 34199.674723
+COMMENT: PROPOSED_MF MS-FINDER 2.801; C34H83N6O15PS; [M+H]+; delta(ppm) -1.964032
+COMMENT: PROPOSED_MF MS-FINDER 2.801; C23H70N20O4S4; [M+IsoProp+H]+; delta(ppm) 34198.987455
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C20H60N31O6P; [M+NH4]+; delta(ppm) 1.309306
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C20H68N27O5PS2; [M+NH4]+; delta(ppm) 1.841853
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C20H63N32O6P; [M+H]+; delta(ppm) 1.309306
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C42H80N4O11P2; [M+H]+; delta(ppm) 6.668444
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C29H74N10O10S3; [M+IsoProp+H]+; delta(ppm) 34201.447789
+COMMENT: PROPOSED_MF MS-FINDER 2.799; C33H78N4O12S3; [M+IsoProp+H]+; delta(ppm) 34198.182294
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C21H78N24O4P2S2; [M+Na]+; delta(ppm) 10321.020198
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C26H82N16O7P2S2; [M+Na]+; delta(ppm) 10330.940703
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C20H71N28O5PS2; [M+H]+; delta(ppm) 1.841853
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C29H68N24O4P2; [M+H]+; delta(ppm) 3.055839
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C34H85N6O13P3; [M+H]+; delta(ppm) -3.407751
+COMMENT: PROPOSED_MF MS-FINDER 2.798; C33H82N4O8P4S; [M+IsoProp+H]+; delta(ppm) 34195.093981
+COMMENT: PROPOSED_MF MS-FINDER 2.797; C28H72N21O2PS3; [M+NH4]+; delta(ppm) 1.633543
+COMMENT: PROPOSED_MF MS-FINDER 2.797; C29H65N23O4P2; [M+NH4]+; delta(ppm) 3.055839
+COMMENT: PROPOSED_MF MS-FINDER 2.797; C34H82N5O13P3; [M+NH4]+; delta(ppm) -3.407751
+COMMENT: PROPOSED_MF MS-FINDER 2.797; C24H76N22O5P2S2; [M+H]+; delta(ppm) 8.162113
+COMMENT: PROPOSED_MF MS-FINDER 2.797; C27H75N16O14P; [M+H]+; delta(ppm) -3.276294
+COMMENT: PROPOSED_MF MS-FINDER 2.796; C27H72N15O14P; [M+NH4]+; delta(ppm) -3.276294
+COMMENT: PROPOSED_MF MS-FINDER 2.795; C36H87N3O9P4S; [M+NH4]+; delta(ppm) -2.440955
+COMMENT: PROPOSED_MF MS-FINDER 2.795; C42H77N3O11P2; [M+NH4]+; delta(ppm) 6.668444
+COMMENT: PROPOSED_MF MS-FINDER 2.795; C28H75N22O2PS3; [M+H]+; delta(ppm) 1.633543
+COMMENT: PROPOSED_MF MS-FINDER 2.795; C36H90N4O9P4S; [M+H]+; delta(ppm) -2.440955
+COMMENT: PROPOSED_MF MS-FINDER 2.793; C24H73N21O5P2S2; [M+NH4]+; delta(ppm) 8.162113
+COMMENT: PROPOSED_MF MS-FINDER 2.793; C17H55N32O5P; [M+IsoProp+H]+; delta(ppm) 34199.105129
+COMMENT: PROPOSED_MF MS-FINDER 2.793; C31H77N6O12P3; [M+IsoProp+H]+; delta(ppm) 34194.059931
+COMMENT: PROPOSED_MF MS-FINDER 2.792; C32H89N5O8P2S4; [M+NH4]+; delta(ppm) 2.588411
+COMMENT: PROPOSED_MF MS-FINDER 2.792; C38H72N9O11P; [M+NH4]+; delta(ppm) 0.348203
+COMMENT: PROPOSED_MF MS-FINDER 2.792; C46H76N3O8PS; [M+NH4]+; delta(ppm) 0.139894
+COMMENT: PROPOSED_MF MS-FINDER 2.792; C38H75N10O11P; [M+H]+; delta(ppm) 0.348203
+COMMENT: PROPOSED_MF MS-FINDER 2.792; C35H67N10O10P; [M+IsoProp+H]+; delta(ppm) 34198.077167
+COMMENT: PROPOSED_MF MS-FINDER 2.791; C33H75N13O7S3; [M+NH4]+; delta(ppm) 1.979011
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C40H81N4O13P; [M+Na]+; delta(ppm) 10322.964640
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C29H82N14O8P4; [M+H]+; delta(ppm) -3.753216
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C32H92N6O8P2S4; [M+H]+; delta(ppm) 2.588411
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C46H79N4O8PS; [M+H]+; delta(ppm) 0.139894
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C33H73N8O9P3; [M+IsoProp+H]+; delta(ppm) 34206.093953
+COMMENT: PROPOSED_MF MS-FINDER 2.790; C37H80N4O5P2S3; [M+IsoProp+H]+; delta(ppm) 34199.680819
+COMMENT: PROPOSED_MF MS-FINDER 2.789; C26H78N10O10S4; [M+IsoProp+H]+; delta(ppm) 34197.348329
+COMMENT: PROPOSED_MF MS-FINDER 2.788; C34H77N14O7PS; [M+Na]+; delta(ppm) 10320.616607
+COMMENT: PROPOSED_MF MS-FINDER 2.788; C30H76N18O6P2S; [M+H]+; delta(ppm) -3.830067
+COMMENT: PROPOSED_MF MS-FINDER 2.788; C33H78N14O7S3; [M+H]+; delta(ppm) 1.979011
+COMMENT: PROPOSED_MF MS-FINDER 2.788; C33H88N10O4P2S4; [M+H]+; delta(ppm) 1.067827
+COMMENT: PROPOSED_MF MS-FINDER 2.788; C39H72N4O10P2; [M+IsoProp+H]+; delta(ppm) 34204.837077
+COMMENT: PROPOSED_MF MS-FINDER 2.787; C36H77N10O11P; [M+Na]+; delta(ppm) 10326.081103
+COMMENT: PROPOSED_MF MS-FINDER 2.786; C32H82N10O11S3; [M+H]+; delta(ppm) 3.499598
+COMMENT: PROPOSED_MF MS-FINDER 2.786; C22H74N16O8S4; [M+IsoProp+H]+; delta(ppm) 34200.613819
+COMMENT: PROPOSED_MF MS-FINDER 2.786; C27H68N18O5P2S; [M+IsoProp+H]+; delta(ppm) 34193.608237
+COMMENT: PROPOSED_MF MS-FINDER 2.785; C28H68N22O9; [M+Na]+; delta(ppm) 10322.746190
+COMMENT: PROPOSED_MF MS-FINDER 2.785; C35H84N8O9S3; [M+Na]+; delta(ppm) 10324.629291
+COMMENT: PROPOSED_MF MS-FINDER 2.785; C26H78N20O5S4; [M+H]+; delta(ppm) 1.199285
+COMMENT: PROPOSED_MF MS-FINDER 2.784; C37H73N14O7P; [M+Na]+; delta(ppm) 10324.528962
+COMMENT: PROPOSED_MF MS-FINDER 2.784; C26H62N28O7; [M+H]+; delta(ppm) 0.134194
+COMMENT: PROPOSED_MF MS-FINDER 2.784; C34H71N16O9P; [M+H]+; delta(ppm) 3.401308
+COMMENT: PROPOSED_MF MS-FINDER 2.784; C35H67N20O5P; [M+H]+; delta(ppm) 1.880722
+COMMENT: PROPOSED_MF MS-FINDER 2.784; C21H68N22O4P2S2; [M+IsoProp+H]+; delta(ppm) 34206.434653
+COMMENT: PROPOSED_MF MS-FINDER 2.783; C27H77N20O5PS2; [M+Na]+; delta(ppm) 10319.820707
+COMMENT: PROPOSED_MF MS-FINDER 2.783; C35H94N4O6P2S4; [M+Na]+; delta(ppm) 10323.699198
+COMMENT: PROPOSED_MF MS-FINDER 2.783; C30H82N12O9P4; [M+H]+; delta(ppm) 9.018703
+COMMENT: PROPOSED_MF MS-FINDER 2.783; C22H84N12O5P2S5; [M+IsoProp+H]+; delta(ppm) 34199.639246
+COMMENT: PROPOSED_MF MS-FINDER 2.782; C31H90N10O4P2S4; [M+Na]+; delta(ppm) 10326.815665
+COMMENT: PROPOSED_MF MS-FINDER 2.782; C29H70N18O13; [M+H]+; delta(ppm) -1.398320
+COMMENT: PROPOSED_MF MS-FINDER 2.782; C36H86N4O13S3; [M+H]+; delta(ppm) 0.446492
+COMMENT: PROPOSED_MF MS-FINDER 2.782; C19H72N20O7P2S2; [M+IsoProp+H]+; delta(ppm) 34194.400623
+COMMENT: PROPOSED_MF MS-FINDER 2.782; C25H66N14O16; [M+IsoProp+H]+; delta(ppm) 34197.835502
+COMMENT: PROPOSED_MF MS-FINDER 2.781; C32H59N20O4P; [M+IsoProp+H]+; delta(ppm) 34199.716295
+COMMENT: PROPOSED_MF MS-FINDER 2.780; C27H72N18O13; [M+Na]+; delta(ppm) 10324.298325
+COMMENT: PROPOSED_MF MS-FINDER 2.780; C28H84N14O7S4; [M+Na]+; delta(ppm) 10323.833384
+COMMENT: PROPOSED_MF MS-FINDER 2.780; C33H82N10O9P2S; [M+Na]+; delta(ppm) 10331.736621
+COMMENT: PROPOSED_MF MS-FINDER 2.780; C22H80N20O8P2S2; [M+H]+; delta(ppm) -3.089217
+COMMENT: PROPOSED_MF MS-FINDER 2.779; C18H68N30O7P2; [M+H]+; delta(ppm) -0.568678
+COMMENT: PROPOSED_MF MS-FINDER 2.779; C31H76N16O7P2S; [M+H]+; delta(ppm) 8.941850
+COMMENT: PROPOSED_MF MS-FINDER 2.779; C23H54N28O6; [M+IsoProp+H]+; delta(ppm) 34197.848270
+COMMENT: PROPOSED_MF MS-FINDER 2.779; C26H62N18O12; [M+IsoProp+H]+; delta(ppm) 34196.209147
+COMMENT: PROPOSED_MF MS-FINDER 2.779; C31H63N16O8P; [M+IsoProp+H]+; delta(ppm) 34201.342661
+COMMENT: PROPOSED_MF MS-FINDER 2.778; C21H68N28O7S; [M+Na]+; delta(ppm) 10321.950286
+COMMENT: PROPOSED_MF MS-FINDER 2.778; C32H82N12O8P2S; [M+Na]+; delta(ppm) 10318.699664
+COMMENT: PROPOSED_MF MS-FINDER 2.778; C19H62N34O5S; [M+H]+; delta(ppm) -0.645529
+COMMENT: PROPOSED_MF MS-FINDER 2.778; C18H64N26O5P2S; [M+IsoProp+H]+; delta(ppm) 34201.765557
+COMMENT: PROPOSED_MF MS-FINDER 2.777; C25H60N32O3; [M+Na]+; delta(ppm) 10324.310510
+COMMENT: PROPOSED_MF MS-FINDER 2.777; C28H72N20O8P2; [M+H]+; delta(ppm) 4.576428
+COMMENT: PROPOSED_MF MS-FINDER 2.777; C20H67N24O3PS3; [M+IsoProp+H]+; delta(ppm) 34204.343800
+COMMENT: PROPOSED_MF MS-FINDER 2.776; C34H74N8O8S3; [M+IsoProp+H]+; delta(ppm) 34196.555938
+COMMENT: PROPOSED_MF MS-FINDER 2.776; C36H74N4O12S2; [M+IsoProp+H]+; delta(ppm) 34202.281760
+COMMENT: PROPOSED_MF MS-FINDER 2.775; C39H91N2O7P3S2; [M+Na]+; delta(ppm) 10329.607001
+COMMENT: PROPOSED_MF MS-FINDER 2.773; C23H73N26O3PS2; [M+Na]+; delta(ppm) 10322.937150
+COMMENT: PROPOSED_MF MS-FINDER 2.773; C26H77N22O2PS3; [M+Na]+; delta(ppm) 10327.393124
+COMMENT: PROPOSED_MF MS-FINDER 2.773; C15H60N30O6P2; [M+IsoProp+H]+; delta(ppm) 34197.096503
+COMMENT: PROPOSED_MF MS-FINDER 2.773; C32H71N10O10PS; [M+IsoProp+H]+; delta(ppm) 34193.977734
+COMMENT: PROPOSED_MF MS-FINDER 2.772; C29H64N26O5; [M+Na]+; delta(ppm) 10321.194059
+COMMENT: PROPOSED_MF MS-FINDER 2.772; C29H80N18O3S4; [M+Na]+; delta(ppm) 10322.281250
+COMMENT: PROPOSED_MF MS-FINDER 2.772; C39H81N6O10PS; [M+Na]+; delta(ppm) 10330.537105
+COMMENT: PROPOSED_MF MS-FINDER 2.771; C23H81N22O2PS4; [M+Na]+; delta(ppm) 10323.480747
+COMMENT: PROPOSED_MF MS-FINDER 2.771; C31H80N14O7S3; [M+Na]+; delta(ppm) 10327.745764
+COMMENT: PROPOSED_MF MS-FINDER 2.771; C22H58N24O10; [M+IsoProp+H]+; delta(ppm) 34199.474630
+COMMENT: PROPOSED_MF MS-FINDER 2.771; C23H62N24O5S2; [M+IsoProp+H]+; delta(ppm) 34198.417862
+COMMENT: PROPOSED_MF MS-FINDER 2.769; C39H82N6O10P2; [M+Na]+; delta(ppm) 10319.495563
+COMMENT: PROPOSED_MF MS-FINDER 2.768; C28H94N10O4P2S5; [M+Na]+; delta(ppm) 10322.903292
+COMMENT: PROPOSED_MF MS-FINDER 2.765; C38H90N4O6P2S3; [M+Na]+; delta(ppm) 10327.611576
+COMMENT: PROPOSED_MF MS-FINDER 2.764; C24H80N20O5S4; [M+Na]+; delta(ppm) 10326.949852
+COMMENT: PROPOSED_MF MS-FINDER 2.762; C37H85N4O13PS; [M+Na]+; delta(ppm) 10319.052298
+COMMENT: PROPOSED_MF MS-FINDER 2.761; C24H64N28O7; [M+Na]+; delta(ppm) 10325.862651
+COMMENT: PROPOSED_MF MS-FINDER 2.761; C41H77N8O9P; [M+Na]+; delta(ppm) 10321.412509
+COMMENT: PROPOSED_MF MS-FINDER 2.760; C28H76N18O8S2; [M+Na]+; delta(ppm) 10323.289787
+COMMENT: PROPOSED_MF MS-FINDER 2.759; C33H69N20O5P; [M+Na]+; delta(ppm) 10327.645434
+COMMENT: PROPOSED_MF MS-FINDER 2.759; C38H77N14O2PS2; [M+Na]+; delta(ppm) 10323.520422
+COMMENT: PROPOSED_MF MS-FINDER 2.756; C17H64N34O5S; [M+Na]+; delta(ppm) 10325.066742
+COMMENT: PROPOSED_MF MS-FINDER 2.753; C25H82N18O6P2S2; [M+Na]+; delta(ppm) 10317.903766
+COMMENT: PROPOSED_MF MS-FINDER 2.753; C26H69N26O3PS; [M+Na]+; delta(ppm) 10326.849522
+COMMENT: PROPOSED_MF MS-FINDER 2.753; C34H80N8O14S; [M+Na]+; delta(ppm) 10325.637832
+COMMENT: PROPOSED_MF MS-FINDER 2.752; C37H87N4O11P3; [M+Na]+; delta(ppm) 10317.578624
+COMMENT: PROPOSED_MF MS-FINDER 2.751; C20H75N24O7P3; [M+Na]+; delta(ppm) 10331.596615
+COMMENT: PROPOSED_MF MS-FINDER 2.751; C35H76N12O10S; [M+Na]+; delta(ppm) 10324.085692
+COMMENT: PROPOSED_MF MS-FINDER 2.749; C29H72N22O4S2; [M+Na]+; delta(ppm) 10321.737654
+COMMENT: PROPOSED_MF MS-FINDER 2.748; C18H65N32O6P; [M+Na]+; delta(ppm) 10327.062157
+COMMENT: PROPOSED_MF MS-FINDER 2.748; C27H83N14O8P3S; [M+Na]+; delta(ppm) 10332.936141
+COMMENT: PROPOSED_MF MS-FINDER 2.748; C38H84N2O16S; [M+Na]+; delta(ppm) 10322.521373
+COMMENT: PROPOSED_MF MS-FINDER 2.747; C39H88N2O11S3; [M+Na]+; delta(ppm) 10321.512837
+COMMENT: PROPOSED_MF MS-FINDER 2.745; C27H70N24O4P2; [M+Na]+; delta(ppm) 10328.844944
+COMMENT: PROPOSED_MF MS-FINDER 2.744; C30H84N10O11S3; [M+Na]+; delta(ppm) 10329.297915
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 8.864; C55H74O9; [M+H]+; delta(ppm) 2.797608
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.406; C54H72N4O5; [M+Na]+; delta(ppm) 10327.029204
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.402; C52H76N2O8; [M+Na]+; delta(ppm) 10315.544477
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.396; C56H70N4O5; [M+H]+; delta(ppm) 1.277023
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 6.848; C50H67N7O6; [M+H3N+H]+; delta(ppm) -6.921110
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.943; C43H75NO16; [M+H3N+H]+; delta(ppm) 0.693671
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.310; C50H74N2O11; [M+H]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.145; C50H71NO11; [M+H3N+H]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.954; C52H76N2O8; [M+Na]+; delta(ppm) 10315.544477
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.854; C55H74O9; [M+H]+; delta(ppm) 2.797608
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.574; C43H75NO16; [M+H3N+H]+; delta(ppm) 0.693671
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.362; C50H67N7O6; [M+H3N+H]+; delta(ppm) -6.921110
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.120; C56H70N4O5; [M+H]+; delta(ppm) 1.277023
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.064; C50H71NO11; [M+H3N+H]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.046; C54H72N4O5; [M+Na]+; delta(ppm) 10327.029204
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.027; C50H74N2O11; [M+H]+; delta(ppm) 7.371326
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.482; C54H72N4O5; [M+Na]+; delta(ppm) 10327.029204
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.478; C52H76N2O8; [M+Na]+; delta(ppm) 10315.544477
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.101; C40H81N4O13P; [M+Na]+; delta(ppm) 10322.964640
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 14.697; C40H84N2O14P2; [M+H]+; delta(ppm) -4.582852
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 14.697; C40H81NO14P2; [M+H3N+H]+; delta(ppm) -4.582852
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 14.341; C37H79N6O15P; [M+H]+; delta(ppm) 1.868785
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 14.341; C37H76N5O15P; [M+H3N+H]+; delta(ppm) 1.868785
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 14.002; C38H72N12O10; [M+Na]+; delta(ppm) 10327.998074
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.865; C38H75N10O11P; [M+H]+; delta(ppm) 0.348203
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.865; C38H72N9O11P; [M+H3N+H]+; delta(ppm) 0.348203
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.448; C42H76N6O12; [M+Na]+; delta(ppm) 10324.881600
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.401; C41H77N8O9P; [M+Na]+; delta(ppm) 10321.412509
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.091; C37H76N8O14; [M+Na]+; delta(ppm) 10329.550226
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.325; C39H74N8O14; [M+H]+; delta(ppm) 3.746778
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.325; C39H71N7O14; [M+H3N+H]+; delta(ppm) 3.746778
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.048; C56H70N4O5; [M+H]+; delta(ppm) 1.277023
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.048; C56H67N3O5; [M+H3N+H]+; delta(ppm) 1.277023
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.046; C35H70N14O12; [M+H]+; delta(ppm) 6.799904
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.046; C35H67N13O12; [M+H3N+H]+; delta(ppm) 6.799904
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.017; C47H76N4O10; [M+Na]+; delta(ppm) 10320.213016
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.892; C43H72N10O8; [M+Na]+; delta(ppm) 10323.329462
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.724; C48H72N8O6; [M+Na]+; delta(ppm) 10318.660893
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.683; C36H66N18O8; [M+H]+; delta(ppm) 5.279307
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.683; C36H63N17O8; [M+H3N+H]+; delta(ppm) 5.279307
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.641; C48H78O14; [M+H]+; delta(ppm) -3.879986
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.640; C44H74N6O12; [M+H]+; delta(ppm) -0.826907
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.640; C44H71N5O12; [M+H3N+H]+; delta(ppm) -0.826907
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.386; C42H79N4O13P; [M+H]+; delta(ppm) -2.704883
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.386; C42H76N3O13P; [M+H3N+H]+; delta(ppm) -2.704883
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.335; C40H67N11O10; [M+H3N+H]+; delta(ppm) 2.226191
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C40H84N2O14P2; [M+H]+; delta(ppm) -4.582852
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C40H81NO14P2; [M+H3N+H]+; delta(ppm) -4.582852
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.268; C54H72N4O5; [M+Na]+; delta(ppm) 10327.029204
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.254; C52H76N2O8; [M+Na]+; delta(ppm) 10315.544477
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.169; C40H81N4O13P; [M+Na]+; delta(ppm) 10322.964640
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.065; C38H72N12O10; [M+Na]+; delta(ppm) 10327.998074
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.036; C42H76N6O12; [M+Na]+; delta(ppm) 10324.881600
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.031; C37H76N8O14; [M+Na]+; delta(ppm) 10329.550226
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.031; C41H77N8O9P; [M+Na]+; delta(ppm) 10321.412509
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.010; C47H76N4O10; [M+Na]+; delta(ppm) 10320.213016
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.006; C43H72N10O8; [M+Na]+; delta(ppm) 10323.329462
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.005; C48H72N8O6; [M+Na]+; delta(ppm) 10318.660893
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.002; C44H71N5O12; [M+H3N+H]+; delta(ppm) -0.826907
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C44H74N6O12; [M+H]+; delta(ppm) -0.826907
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.384; JXOFEBNJOOEXJY-RSCLSTFQNA-N; [M+H]+; CC(C)[C@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@@H]2CCCN2C(=O)[C@@H](C(C)C)N(C)C(=O)[C@H](OC(=O)[C@@H]2CCCN2C(=O)[C@H](C)OC(=O)[C@@H]1C)C(C)C)[C@H](C)CC1=CC=CC=C1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.220; NOTUSYQUIIPQKX-UHFFFAOYSA-N; [M+H]+; O=C(C1=CC(=CC2=CC3C(C=C21)CCC45CCC6C(C)(C(O)CO)C(O)CCC36C5C(=O)C=C7C8CC9(C)CCC#CC(O)C8(C(O)CC74C)C%10(CCCC%10)C9)C(O)C)CCCOC
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.200; OUGKHSIRCRLAAV-UHFFFAOYSA-N; [M+H]+; O=C1C(O)=C(C=2C=C(C(=C(O)C2C1=CNCCN3C(=O)CCC3CCCCC)C=4C(O)=C5C(=CNCCN6C(=O)CCC6CCCCC)C(=O)C(O)=C(C5=CC4C)C(C)C)C)C(C)C
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.171; LDEFNEZVCBGVHM-UHFFFAOYSA-N; [M+H]+; O=C(O)CC1C(NC(C)CCC1CO)C(O)CCC2NC(CC#CC=3C=CC=CC3CCC(C=CC(O)C(O)CCCC)=C2CC(O)CO)C(O)(C)CC4=CC=C(O)C=C4CCO
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.150; IULDUEQATHJWJI-UHFFFAOYSA-N; [M+H]+; O=C(C=C(C1=CC(OC)=C(O)C=C1CC2=CN=C(N)C=C2CCC=3C=CC=C(C3)CCC=4C=CC=CC4)CO)CC(=O)CCCC5(CCCC5)CC6C7NCC=CC7CC8CNCCC86
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.741; NSYZCCDSJNWWJL-YXOIYICCSA-N; [M+NH4]+; Erythromycin ethylsuccinate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.572; OZJXTWMDBPQRGI-UHFFFAOYSA-N; [M+NH4]+; 4-(dimethylamino)-2-({14-ethyl-7,12,13-trihydroxy-4-[(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy]-3,5,7,9,11,13-hexamethyl-2,10-dioxo-1-oxacyclotetradecan-6-yl}oxy)-6-methyloxan-3-yl 3-(propanoyloxy)propanoate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.053; LDEFNEZVCBGVHM-UHFFFAOYSA-N; [M+H]+; 2-(2-{3-[8-(3,4-dihydroxyoct-1-en-1-yl)-7-(2,3-dihydroxypropyl)-4-{2-hydroxy-1-[4-hydroxy-2-(2-hydroxyethyl)phenyl]propan-2-yl}-1,2-didehydro-3,4,5,6,9,10-hexahydro-5-benzazacyclododecin-6-yl]-1-hydroxypropyl}-4-(hydroxymethyl)-7-methylazepan-3-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.953; WPEYBKPDOZMPKC-UEHVLUKYNA-N; [M+IsoProp+H]+; UNPD3448
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.892; CLBIEZBAENPDFY-ZHACJKMWNA-N; [M+IsoProp+H]+; Dinophysistoxin 1
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.885; ZQZZDYNVCSPIOA-UHFFFAOYSA-N; [M+Na]+; methyl 11-ethyl-12,16,17,21,26-pentamethyl-4-oxo-22-{3-oxo-3-[(3,7,11,15-tetramethylhexadec-2-en-1-yl)oxy]propyl}-7,23,24,25-tetraazahexacyclo[18.2.1.1?,?.1??,??.1??,??.0?,?]hexacosa-1(23),2(6),5(26),7,9,11,13(25),14,16,18(24),19-undecaene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.753; AJISZGQQDQLTDI-UHFFFAOYSA-N; [M+Na]+; CNP0427288
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.753; SQMXFBMHMXRIDL-UHFFFAOYSA-N; [M+Na]+; CNP0444770
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.714; MHHVWUSRKSPDQB-UHFFFAOYSA-N; [M+NH4]+; 6-{[14-carboxy-13-(methoxymethyl)-11,24,24,31-tetramethyl-28-[(methylamino)methyl]-4-(2-oxoethyl)nonacyclo[21.7.1.1?,??.1?,??.0?,??.0?,??.0?,??.0?,??.0??,??]tritriaconta-2,6(32),8-trien-25-yl]oxy}-3,4,5-trihydroxyoxane-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.683; RQQOXVOZBFMFFO-UHFFFAOYSA-N; [M+IsoProp+H]+; [3-(ethylamino)-1,2,3,4,4a,7,8,8a-octahydronaphthalen-2-yl]methyl 3-[3-(6-aminopyridin-3-yl)-2,2-dimethylpropyl]-7a-{3-hydroxy-2-[4-(2-{[(methylamino)methyl]amino}pyridin-4-yl)butan-2-ylidene]propyl}-2,7-dioxo-1aH,2H,7H,7aH-naphtho[2,3-b]oxirene-1a-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.655; SOBRWLVEWAVYMZ-MDRLMKKINA-N; [M+IsoProp+H]+; UNPD171994
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.628; IULDUEQATHJWJI-UHFFFAOYSA-N; [M+H]+; 9-[1-({1H,2H,4aH,5H,5aH,6H,7H,8H,9H,9aH,10H,10aH-pyrido[3,4-g]quinolin-10-yl}methyl)cyclopentyl]-2-{2-[(6-amino-4-{2-[3-(2-phenylethyl)phenyl]ethyl}pyridin-3-yl)methyl]-4-hydroxy-5-methoxyphenyl}-1-hydroxynon-2-ene-4,6-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.365; BVEXVMARIREFTJ-WSZQIARFNA-N; [M+IsoProp+H]+; UNPD107470
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.003; BVFQMMDNYFIPLJ-RDEFAVECNA-N; [M+Na]+; UNPD102817
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OJSUWTDDXLCUFR-YVKIRAPASA-N; [M+NH4]+; Deoxy-Bigchap
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; NSYZCCDSJNWWJL-YXOIYICCSA-N; [M+NH4]+; Erythromycin ethylsuccinate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; WJRDXIGFYOUMTO-UHFFFAOYSA-N; [M+Na]+; 2-ethyl-4-(2-{5'-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyloxan-2-yl]-4-[(5-methoxy-6-methyloxan-2-yl)oxy]-3'-methyl-2-propyl-[2,2'-bioxolan]-5-yl}-9-methoxy-2,8-dimethyl-1,6-dioxaspiro[4.5]decan-7-yl)-3-methoxypentanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; LDEFNEZVCBGVHM-UHFFFAOYSA-N; [M+H]+; 2-(2-{3-[8-(3,4-dihydroxyoct-1-en-1-yl)-7-(2,3-dihydroxypropyl)-4-{2-hydroxy-1-[4-hydroxy-2-(2-hydroxyethyl)phenyl]propan-2-yl}-1,2-didehydro-3,4,5,6,9,10-hexahydro-5-benzazacyclododecin-6-yl]-1-hydroxypropyl}-4-(hydroxymethyl)-7-methylazepan-3-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.999; OZJXTWMDBPQRGI-UHFFFAOYSA-N; [M+NH4]+; 4-(dimethylamino)-2-({14-ethyl-7,12,13-trihydroxy-4-[(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy]-3,5,7,9,11,13-hexamethyl-2,10-dioxo-1-oxacyclotetradecan-6-yl}oxy)-6-methyloxan-3-yl 3-(propanoyloxy)propanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; OJSUWTDDXLCUFR-HGZMBBKESA-N; [M+NH4]+; (2R,3S,4R,5R)-N-[3-[[(4R)-4-[(3R,5R,8R,9S,10S,12S,13R,14S,17R)-3,12-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]-[3-[[(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoyl]amino]propyl]amino]propyl]-2,3,4,5,6-pentahydroxyhexanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; NSYZCCDSJNWWJL-YXOIYICCSA-N; [M+NH4]+; 4-O-[(2S,3R,4S,6R)-4-(dimethylamino)-2-[[(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-14-ethyl-7,12,13-trihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,7,9,11,13-hexamethyl-2,10-dioxo-oxacyclotetradec-6-yl]oxy]-6-methyloxan-3-yl] 1-O-ethyl butanedioate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -309.736; OZJXTWMDBPQRGI; [M+H3N+H]+; [4-(dimethylamino)-2-[[14-ethyl-7,12,13-trihydroxy-4-(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy-3,5,7,9,11,13-hexamethyl-2,10-dioxo-oxacyclotetradec-6-yl]oxy]-6-methyloxan-3-yl] 3-propanoyloxypropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -312.853; NSYZCCDSJNWWJL; [M+H3N+H]+; Wyamycin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -454.151; MHHVWUSRKSPDQB; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -568.459; NOTUSYQUIIPQKX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -584.890; LDEFNEZVCBGVHM; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -612.646; IBANCOZCIYDINR; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -628.489; LFAITZBWSDYGTD; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -632.856; SGXNXTAOWPLVQH; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -646.278; RDFUUOFYZDJOQO; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -671.821; BHMOYZNOTMGBHP; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -710.375; IULDUEQATHJWJI; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -722.323; KQRLPIUPSZJTQL; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -737.096; ZQZZDYNVCSPIOA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -821.364; IIBPUQUVDVSAJP; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.193; NOTUSYQUIIPQKX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.184; OZJXTWMDBPQRGI; [M+H3N+H]+; [4-(dimethylamino)-2-[[14-ethyl-7,12,13-trihydroxy-4-(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy-3,5,7,9,11,13-hexamethyl-2,10-dioxo-oxacyclotetradec-6-yl]oxy]-6-methyloxan-3-yl] 3-propanoyloxypropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.163; IBANCOZCIYDINR; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -576.222; IBANCOZCIYDINR; [M+Na]+; 2-(2',3-dihydroxy-3'-{6-[5-hydroxy-3-(2-methoxyethyl)-3,6-dimethyl-4-azabicyclo[9.3.1]pentadeca-1(14),6,11(15),12-tetraen-9-yl]-1-[(1-hydroxycyclopentyl)oxy]hepta-2,4,6-trien-2-yl}-8-(2-hydroxyethyl)-3-[2-(methylamino)ethyl]spiro[bicyclo[3.3.1]nonane-2,1'-cyclopentan]-6-en-9-ylidene)propanal
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -610.046; LFAITZBWSDYGTD; [M+Na]+; 4-[1-(2,3-dihydroxypropoxy)-6-[3-(2-methoxyethyl)-3,6-dimethyl-4-azabicyclo[9.3.1]pentadeca-1(14),6,11(15),12-tetraen-9-yl]hepta-2,4,6-trien-2-yl]-5,9'-dihydroxy-13'-(2-hydroxyethyl)-9'-[2-(methylamino)ethyl]spiro[cyclopentane-1,8'-tricyclo[5.3.3.0¹,⁶]tridecane]-5',11'-diene-5'-carbaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -617.004; SGXNXTAOWPLVQH; [M+Na]+; 2-{4'-[1-(2,3-dihydroxypropoxy)-6-[11-(2-methoxyethyl)-11-methyl-10-azatricyclo[11.3.1.1⁴,⁸]octadeca-1(17),8(18),13,15-tetraen-3-yl]hepta-2,4,6-trien-2-yl]-3,5'-dihydroxy-8-(2-hydroxyethyl)-3-[2-(methylamino)ethyl]spiro[bicyclo[3.3.1]nonane-2,1'-cyclopentan]-6-en-9-ylidene}propanal
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -628.580; YLOIKYGGSGKQQH; [M+Na]+; Methyl 16-ethenyl-11-ethyl-4-hydroxy-12,17,21,26-tetramethyl-22-[3-oxo-3-(3,7,11,14-tetramethylpentadec-2-enoxy)propyl]-7,23,24,25-tetrazahexacyclo[18.2.1.15,8.110,13.115,18.02,6]hexacosa-1,4,6,8(26),9,11,13(25),14,16,18(24),19-undecaene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -640.121; RDFUUOFYZDJOQO; [M+Na]+; 2-{4-[1-(2,3-dihydroxypropoxy)-6-[3-(2-methoxyethyl)-3,6-dimethyl-4-azabicyclo[9.3.1]pentadeca-1(14),6,11(15),12-tetraen-9-yl]hepta-2,4,6-trien-2-yl]-8,15-dihydroxy-13-(2-hydroxyethyl)-8-[2-(methylamino)ethyl]tetracyclo[8.3.1.1⁴,⁷.0¹,⁷]pentadec-11-en-14-ylidene}propanal
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -643.483; HIWKGOGPQVLUHH; [M+Na]+; Methyl 16-ethenyl-11-ethyl-4-hydroxy-12,21,26-trimethyl-22-[3-(3-methylnonadec-2-enoxy)-3-oxopropyl]-7,23,24,25-tetrazahexacyclo[18.2.1.15,8.110,13.115,18.02,6]hexacosa-1,4,6,8(26),9,11,13(25),14,16,18(24),19-undecaene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -659.734; ZQZZDYNVCSPIOA; [M+Na]+; methyl 11-ethyl-12,16,17,21,26-pentamethyl-4-oxo-22-{3-oxo-3-[(3,7,11,15-tetramethylhexadec-2-en-1-yl)oxy]propyl}-7,23,24,25-tetraazahexacyclo[18.2.1.1⁵,⁸.1¹⁰,¹³.1¹⁵,¹⁸.0²,⁶]hexacosa-1(23),2(6),5(26),7,9,11,13(25),14,16,18(24),19-undecaene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -703.552; BHMOYZNOTMGBHP; [M+Na]+; 2-(2-{3-[8-(3,4-dihydroxyoct-1-en-1-yl)-7-(2,3-dihydroxypropyl)-4-{1-hydroxy-1-[1-(4-hydroxyphenyl)cyclohexyl]ethyl}-1,2-didehydro-3,4,5,6,9,10-hexahydro-5-benzazacyclododecin-6-yl]propyl}-7-methylazepan-3-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.024; IBANCOZCIYDINR; [M+Na]+; 2-(2',3-dihydroxy-3'-{6-[5-hydroxy-3-(2-methoxyethyl)-3,6-dimethyl-4-azabicyclo[9.3.1]pentadeca-1(14),6,11(15),12-tetraen-9-yl]-1-[(1-hydroxycyclopentyl)oxy]hepta-2,4,6-trien-2-yl}-8-(2-hydroxyethyl)-3-[2-(methylamino)ethyl]spiro[bicyclo[3.3.1]nonane-2,1'-cyclopentan]-6-en-9-ylidene)propanal
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 879.543021; Observed in MS1; Charge state +1;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 15.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.372
+MS$FOCUSED_ION: PRECURSOR_M/Z 879.543021
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-0000900000-dd18bed25a1bba11ee91
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  62.0596950 21.0119 ? 62.059895 16.2424 14.74 0.7835 78
+  299.2587076 91.9800 ? 299.260485 9.2996 41.42 0.8825 90
+  379.2268705 13.9241 ? 379.229040 14.5691 8.31 0.7179 71
+  422.2666455 109.9877 ? 422.269850 8.0660 36.57 0.9048 91
+  438.9017724 12.3171 ? 438.905420 18.5007 8.87 0.8364 69
+  440.2753748 999.0000 ? 440.279060 5.2853 0.00 0.9250 91
+  879.4839556 26.2053 ? 879.461030 21.9811 38.08 0.2745 80
+  879.5269371 35.9428 ? 879.504010 26.3187 34.39 0.4060 70
+  879.5780989 53.6817 ? 879.555170 17.3799 45.78 1.0000 90
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  62.059695 21.01 21
+  299.258708 91.98 91
+  379.226871 13.92 13
+  422.266646 109.99 109
+  438.901772 12.32 12
+  440.275375 999.00 999
+  879.483956 26.21 26
+  879.526937 35.94 35
+  879.578099 53.68 53
+//

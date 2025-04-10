@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0231003
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; NEGATIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.15, Processed 2025.02.15, Annotated 2025.04.01, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+COMMENT: This is an averaged mass spectra data created by integrating product ion scan data obtained from the follwing DDA dataset.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: MS1_M/Z_AVERAGED_THRES 20.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 20.000
+COMMENT: DATASET_FILE_NUM 50
+COMMENT: NUM_AVERAGED_SPEC 23
+COMMENT: RAW_SPEC {'D83neg_255': {'bp': 2970.0, 'sum': 6372.0}, 'D99neg_261': {'bp': 2662.0, 'sum': 6349.0}, 'D117neg_257': {'bp': 2133.0, 'sum': 3645.0}, 'C3neg_256': {'bp': 2081.0, 'sum': 4385.0}, 'C5neg_256': {'bp': 1985.0, 'sum': 4935.0}, 'D108neg_259': {'bp': 1827.0, 'sum': 3418.0}, 'C10neg_249': {'bp': 1778.0, 'sum': 3080.0}, 'C13neg_258': {'bp': 1647.0, 'sum': 3478.0}, 'D83neg_271': {'bp': 1504.0, 'sum': 3236.0}, 'C1neg_260': {'bp': 1439.0, 'sum': 3391.0}, 'D170neg_250': {'bp': 1420.0, 'sum': 3688.0}, 'D69neg_248': {'bp': 1393.0, 'sum': 3278.0}, 'D126neg_262': {'bp': 1320.0, 'sum': 3295.0}, 'D143neg_259': {'bp': 1317.0, 'sum': 2871.0}, 'C15neg_257': {'bp': 1294.0, 'sum': 3142.0}, 'C18neg_262': {'bp': 1292.0, 'sum': 2496.0}, 'D74neg_250': {'bp': 1255.0, 'sum': 3187.0}, 'D74neg_264': {'bp': 1240.0, 'sum': 2920.0}, 'C6neg_243': {'bp': 1120.0, 'sum': 2086.0}, 'C4neg_251': {'bp': 818.0, 'sum': 1868.0}, 'D145neg_257': {'bp': 786.0, 'sum': 1668.0}, 'D203neg_253': {'bp': 757.0, 'sum': 2080.0}, 'D84neg_259': {'bp': 696.0, 'sum': 1536.0}}
+COMMENT: RETENTION_TIME_STDEV 0.004
+COMMENT: PRECURSOR_M/Z_RAW 231.186127
+COMMENT: PRECURSOR_M/Z_STDEV 0.000841
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 8.937; C13H29OP; [M-H]1; delta(ppm) -8.936511
+COMMENT: PROPOSED_MF SevenGoldenRules 1.822; C15H24N2; [M-H]1; delta(ppm) -1.821756
+COMMENT: PROPOSED_MF SevenGoldenRules 15.504; C10H24N4O2; [M-H]1; delta(ppm) 15.504308
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 231.186250; No signal in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 20.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.488
+MS$FOCUSED_ION: PRECURSOR_M/Z 231.186250
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0920000000-edf60eace232392f3c59
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  104.0368630 999.0000 ? 104.036817 5.7864 0.00 0.4785 23
+  105.0400435 121.8655 ? 105.039997 9.9200 39.78 0.4058 22
+  204.1581300 145.5235 ? 204.157641 7.2738 62.79 0.4177 22
+  231.1860020 132.8442 ? 231.185629 8.9668 53.11 1.0000 22
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  104.036863 999.00 999
+  105.040044 121.87 121
+  204.158130 145.52 145
+  231.186002 132.84 132
+//

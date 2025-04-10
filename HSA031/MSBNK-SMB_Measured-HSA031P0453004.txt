@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA031P0453004
+RECORD_TITLE: Uncharacterized; LC-ESI-QTOF; MS2; NEGATIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.24, Processed 2025.02.24, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: MS1_M/Z_AVERAGED_THRES 10.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 15.000
+COMMENT: DATASET_FILE_NUM 59
+COMMENT: NUM_AVERAGED_SPEC 33
+COMMENT: RAW_SPEC {'RA5-neg_5694': {'bp': 487.0, 'sum': 1252.0}, 'RA3-neg_6534': {'bp': 254.0, 'sum': 611.0}, 'RA4-neg_6387': {'bp': 254.0, 'sum': 764.0}, 'RA7-neg_6528': {'bp': 271.0, 'sum': 730.0}, 'HC3-neg_7103': {'bp': 374.0, 'sum': 884.0}, 'QC3-neg_5877': {'bp': 441.0, 'sum': 1103.0}, 'RA21-neg_5101': {'bp': 276.0, 'sum': 786.0}, 'HC8-neg_6360': {'bp': 203.0, 'sum': 611.0}, 'RA14-neg_6338': {'bp': 203.0, 'sum': 356.0}, 'RA13-neg_7047': {'bp': 254.0, 'sum': 458.0}, 'RA23-neg_6996': {'bp': 254.0, 'sum': 407.0}, 'RA20-neg_6796': {'bp': 203.0, 'sum': 254.0}, 'HC12-neg_7128': {'bp': 254.0, 'sum': 458.0}, 'RA11-neg_6806': {'bp': 479.0, 'sum': 785.0}, 'RA2-neg_6881': {'bp': 450.0, 'sum': 1062.0}, 'HC20-neg_7700': {'bp': 203.0, 'sum': 458.0}, 'QC6-neg_7230': {'bp': 227.0, 'sum': 505.0}, 'RA9-neg_6571': {'bp': 203.0, 'sum': 509.0}, 'QC6-neg_7111': {'bp': 254.0, 'sum': 458.0}, 'HC9-neg_7201': {'bp': 254.0, 'sum': 458.0}, 'QC6-neg_7095': {'bp': 254.0, 'sum': 458.0}, 'HC7-neg_7008': {'bp': 262.0, 'sum': 466.0}, 'RA17-neg_7686': {'bp': 203.0, 'sum': 356.0}, 'HC17-neg_7315': {'bp': 203.0, 'sum': 356.0}, 'RA8-neg_6273': {'bp': 254.0, 'sum': 662.0}, 'RA8-neg_6287': {'bp': 254.0, 'sum': 509.0}, 'HC23-neg_5982': {'bp': 254.0, 'sum': 458.0}, 'RA12-neg_7599': {'bp': 203.0, 'sum': 509.0}, 'HC6-neg_6059': {'bp': 254.0, 'sum': 509.0}, 'RA26-neg_6154': {'bp': 254.0, 'sum': 458.0}, 'HC6-neg_5945': {'bp': 268.0, 'sum': 421.0}, 'RA5-neg_5707': {'bp': 203.0, 'sum': 611.0}, 'HC4-neg_6143': {'bp': 281.0, 'sum': 485.0}}
+COMMENT: RETENTION_TIME_STDEV 0.034
+COMMENT: PRECURSOR_M/Z_RAW 453.787394
+COMMENT: PRECURSOR_M/Z_STDEV 0.001800
+COMMENT: PRECURSOR_IN_MS1 mz 453.785539; int 13.879; delta(ppm) 1.448234
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Level 5: Exact mass of interest 453.785343; Observed in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 10.00; MS2(ppm) 15.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min, 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.111
+MS$FOCUSED_ION: PRECURSOR_M/Z 453.785343
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0090000000-7099575706074737b55e
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  217.8620583 999.0000 ? 217.861350 9.2995 105.99 1.0000 33
+  263.8669891 354.6771 ? 263.867310 13.8441 119.00 0.4317 31
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  217.862058 999.00 999
+  263.866989 354.68 354
+//

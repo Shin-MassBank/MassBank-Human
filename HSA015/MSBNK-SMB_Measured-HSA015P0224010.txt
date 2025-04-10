@@ -1,0 +1,441 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015P0224010
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.04.02 (Averaged 2025.02.21, Processed 2025.02.21, Annotated 2025.03.31, Curated 2025.04.02)
+AUTHORS: Shin-MassBank project
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+COMMENT: This is an averaged mass spectra data created by averaging product ion scan data obtained from the following DDA dataset.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: MS1_M/Z_AVERAGED_THRES 5.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 5.000
+COMMENT: DATASET_FILE_NUM 27
+COMMENT: NUM_AVERAGED_SPEC 167
+COMMENT: RAW_SPEC {'EL03_pos_1153': {'bp': 339776.0, 'sum': 2008483.0}, 'EL06_pos_280': {'bp': 152920.0, 'sum': 820423.0}, 'EL06_pos_223': {'bp': 155984.0, 'sum': 859224.0}, 'EL05_pos_1118': {'bp': 159204.0, 'sum': 1020397.0}, 'EL11_pos_1741': {'bp': 108044.0, 'sum': 653384.0}, 'Blanc3-pos_319': {'bp': 105530.0, 'sum': 629067.0}, 'EL19_pos_231': {'bp': 185173.0, 'sum': 896753.0}, 'EL02_pos_232': {'bp': 163491.0, 'sum': 929738.0}, 'EL08_pos_211': {'bp': 127085.0, 'sum': 757276.0}, 'EL07_pos_1112': {'bp': 139107.0, 'sum': 1015101.0}, 'EL21_pos_218': {'bp': 157631.0, 'sum': 822591.0}, 'EL20_pos_325': {'bp': 153466.0, 'sum': 792974.0}, 'Blanc2-pos_776': {'bp': 104961.0, 'sum': 625634.0}, 'EL16_pos_1115': {'bp': 162782.0, 'sum': 956001.0}, 'EL06_pos_1130': {'bp': 136314.0, 'sum': 886149.0}, 'Blanc2-pos_487': {'bp': 113171.0, 'sum': 713340.0}, 'Blanc2-pos_433': {'bp': 112747.0, 'sum': 683369.0}, 'EL24_pos_260': {'bp': 108018.0, 'sum': 680433.0}, 'Blanc2-pos_890': {'bp': 91981.0, 'sum': 679860.0}, 'Blanc2-pos_662': {'bp': 89693.0, 'sum': 641558.0}, 'EL05_pos_279': {'bp': 186579.0, 'sum': 856988.0}, 'EL16_pos_211': {'bp': 144697.0, 'sum': 789091.0}, 'EL04_pos_434': {'bp': 119110.0, 'sum': 736629.0}, 'Blanc3-pos_549': {'bp': 103322.0, 'sum': 703038.0}, 'EL19_pos_291': {'bp': 179240.0, 'sum': 910631.0}, 'EL19_pos_351': {'bp': 163148.0, 'sum': 911019.0}, 'EL12_pos_197': {'bp': 148459.0, 'sum': 881303.0}, 'EL09_pos_265': {'bp': 145132.0, 'sum': 783319.0}, 'EL04_pos_842': {'bp': 119684.0, 'sum': 683381.0}, 'EL16_pos_1747': {'bp': 116438.0, 'sum': 731572.0}, 'Blanc2-pos_319': {'bp': 98468.0, 'sum': 640536.0}, 'Blanc3-pos_608': {'bp': 97594.0, 'sum': 616384.0}, 'Blanc2-pos_261': {'bp': 97146.0, 'sum': 685239.0}, 'EL15_pos_338': {'bp': 165460.0, 'sum': 841116.0}, 'EL05_pos_338': {'bp': 162367.0, 'sum': 829542.0}, 'EL15_pos_224': {'bp': 149501.0, 'sum': 811966.0}, 'EL17_pos_212': {'bp': 143494.0, 'sum': 788652.0}, 'EL04_pos_265': {'bp': 136839.0, 'sum': 746278.0}, 'EL14_pos_278': {'bp': 134499.0, 'sum': 752311.0}, 'EL04_pos_209': {'bp': 133407.0, 'sum': 768819.0}, 'EL24_pos_549': {'bp': 131708.0, 'sum': 761155.0}, 'EL10_pos_265': {'bp': 129781.0, 'sum': 743814.0}, 'EL07_pos_664': {'bp': 125641.0, 'sum': 766969.0}, 'EL24_pos_205': {'bp': 114617.0, 'sum': 692598.0}, 'EL21_pos_332': {'bp': 164529.0, 'sum': 818155.0}, 'EL02_pos_291': {'bp': 160810.0, 'sum': 920618.0}, 'EL23_pos_284': {'bp': 154517.0, 'sum': 806781.0}, 'EL20_pos_211': {'bp': 149069.0, 'sum': 775758.0}, 'EL07_pos_207': {'bp': 141391.0, 'sum': 795549.0}, 'EL07_pos_266': {'bp': 137220.0, 'sum': 776700.0}, 'EL10_pos_211': {'bp': 131191.0, 'sum': 774549.0}, 'EL14_pos_338': {'bp': 128697.0, 'sum': 743988.0}, 'EL24_pos_898': {'bp': 119307.0, 'sum': 691558.0}, 'EL24_pos_782': {'bp': 115080.0, 'sum': 700592.0}, 'Blanc3-pos_374': {'bp': 102213.0, 'sum': 671802.0}, 'Blanc3-pos_721': {'bp': 99037.0, 'sum': 678756.0}, 'EL20_pos_1735': {'bp': 89234.0, 'sum': 590127.0}, 'EL02_pos_350': {'bp': 166930.0, 'sum': 914201.0}, 'EL17_pos_326': {'bp': 151482.0, 'sum': 798192.0}, 'EL11_pos_272': {'bp': 140768.0, 'sum': 768701.0}, 'EL14_pos_1523': {'bp': 132032.0, 'sum': 902360.0}, 'EL24_pos_316': {'bp': 122963.0, 'sum': 740100.0}, 'EL13_pos_376': {'bp': 122817.0, 'sum': 761214.0}, 'EL11_pos_1574': {'bp': 111692.0, 'sum': 797337.0}, 'Blanc2-pos_1526': {'bp': 107105.0, 'sum': 734460.0}, 'Blanc2-pos_206': {'bp': 102760.0, 'sum': 663207.0}, 'EL21_pos_273': {'bp': 161730.0, 'sum': 879084.0}, 'EL06_pos_338': {'bp': 151103.0, 'sum': 835328.0}, 'EL04_pos_490': {'bp': 129448.0, 'sum': 750541.0}, 'EL14_pos_452': {'bp': 127046.0, 'sum': 781482.0}, 'EL04_pos_609': {'bp': 122036.0, 'sum': 739530.0}, 'EL18_pos_782': {'bp': 120485.0, 'sum': 716852.0}, 'EL04_pos_374': {'bp': 119705.0, 'sum': 742019.0}, 'EL13_pos_729': {'bp': 119316.0, 'sum': 726311.0}, 'EL14_pos_224': {'bp': 118075.0, 'sum': 720156.0}, 'EL14_pos_506': {'bp': 113731.0, 'sum': 701273.0}, 'EL04_pos_782': {'bp': 113431.0, 'sum': 701750.0}, 'EL01_pos_614': {'bp': 112687.0, 'sum': 677847.0}, 'Blanc3-pos_829': {'bp': 109474.0, 'sum': 645806.0}, 'Blanc3-pos_205': {'bp': 106204.0, 'sum': 672444.0}, 'Blanc3-pos_1814': {'bp': 102076.0, 'sum': 687272.0}, 'Blanc3-pos_434': {'bp': 100452.0, 'sum': 644840.0}, 'Blanc3-pos_1354': {'bp': 97965.0, 'sum': 574839.0}, 'EL04_pos_1124': {'bp': 160793.0, 'sum': 979699.0}, 'EL21_pos_1520': {'bp': 159723.0, 'sum': 987273.0}, 'EL16_pos_265': {'bp': 137251.0, 'sum': 810871.0}, 'EL13_pos_205': {'bp': 130717.0, 'sum': 756062.0}, 'EL23_pos_344': {'bp': 127036.0, 'sum': 712361.0}, 'EL10_pos_608': {'bp': 121859.0, 'sum': 703679.0}, 'EL14_pos_794': {'bp': 119005.0, 'sum': 689842.0}, 'EL23_pos_860': {'bp': 112560.0, 'sum': 721087.0}, 'Blanc3-pos_262': {'bp': 108971.0, 'sum': 709845.0}, 'Blanc2-pos_1814': {'bp': 108132.0, 'sum': 692692.0}, 'Blanc3-pos_883': {'bp': 97336.0, 'sum': 692437.0}, 'EL05_pos_220': {'bp': 163930.0, 'sum': 843032.0}, 'EL18_pos_1576': {'bp': 147178.0, 'sum': 905696.0}, 'EL23_pos_1521': {'bp': 146556.0, 'sum': 917948.0}, 'EL09_pos_320': {'bp': 142840.0, 'sum': 799033.0}, 'EL11_pos_740': {'bp': 128770.0, 'sum': 758050.0}, 'EL04_pos_319': {'bp': 126389.0, 'sum': 724445.0}, 'EL13_pos_668': {'bp': 121927.0, 'sum': 689218.0}, 'EL11_pos_561': {'bp': 120605.0, 'sum': 703504.0}, 'EL24_pos_724': {'bp': 118173.0, 'sum': 700098.0}, 'EL01_pos_843': {'bp': 116180.0, 'sum': 703893.0}, 'EL04_pos_728': {'bp': 115868.0, 'sum': 706673.0}, 'Blanc2-pos_722': {'bp': 109524.0, 'sum': 644885.0}, 'Blanc2-pos_603': {'bp': 101969.0, 'sum': 664511.0}, 'Blanc3-pos_775': {'bp': 100064.0, 'sum': 630455.0}, 'Blanc2-pos_982': {'bp': 99178.0, 'sum': 671996.0}, 'Blanc3-pos_987': {'bp': 91727.0, 'sum': 661572.0}, 'EL22_pos_1718': {'bp': 186658.0, 'sum': 1222494.0}, 'EL21_pos_1118': {'bp': 162137.0, 'sum': 1184907.0}, 'EL20_pos_265': {'bp': 155313.0, 'sum': 833620.0}, 'EL08_pos_319': {'bp': 144489.0, 'sum': 745952.0}, 'EL17_pos_267': {'bp': 143526.0, 'sum': 803649.0}, 'EL07_pos_325': {'bp': 141902.0, 'sum': 780446.0}, 'EL15_pos_278': {'bp': 139238.0, 'sum': 772520.0}, 'EL23_pos_230': {'bp': 128084.0, 'sum': 749079.0}, 'EL10_pos_550': {'bp': 125236.0, 'sum': 724351.0}, 'EL11_pos_213': {'bp': 124490.0, 'sum': 731008.0}, 'EL18_pos_213': {'bp': 123252.0, 'sum': 743468.0}, 'EL01_pos_500': {'bp': 114690.0, 'sum': 704017.0}, 'EL01_pos_785': {'bp': 110438.0, 'sum': 697422.0}, 'EL12_pos_327': {'bp': 170041.0, 'sum': 907404.0}, 'EL02_pos_1528': {'bp': 169422.0, 'sum': 1045158.0}, 'EL17_pos_1520': {'bp': 151825.0, 'sum': 963565.0}, 'EL12_pos_266': {'bp': 145863.0, 'sum': 807535.0}, 'EL13_pos_317': {'bp': 135701.0, 'sum': 738390.0}, 'EL11_pos_1517': {'bp': 128464.0, 'sum': 871443.0}, 'EL01_pos_902': {'bp': 113765.0, 'sum': 695100.0}, 'EL06_pos_1520': {'bp': 157642.0, 'sum': 1079912.0}, 'EL11_pos_332': {'bp': 131769.0, 'sum': 725867.0}, 'EL01_pos_668': {'bp': 123665.0, 'sum': 723485.0}, 'EL16_pos_554': {'bp': 123352.0, 'sum': 749147.0}, 'EL08_pos_265': {'bp': 123102.0, 'sum': 736057.0}, 'EL18_pos_554': {'bp': 116191.0, 'sum': 713417.0}, 'EL01_pos_206': {'bp': 115964.0, 'sum': 741366.0}, 'Blanc3-pos_494': {'bp': 100946.0, 'sum': 648597.0}, 'EL18_pos_332': {'bp': 138734.0, 'sum': 743798.0}, 'EL13_pos_260': {'bp': 133555.0, 'sum': 752207.0}, 'EL01_pos_326': {'bp': 132937.0, 'sum': 735144.0}, 'EL04_pos_1588': {'bp': 122987.0, 'sum': 835318.0}, 'Blanc3-pos_1532': {'bp': 107465.0, 'sum': 730823.0}, 'EL09_pos_211': {'bp': 154182.0, 'sum': 809406.0}, 'EL18_pos_272': {'bp': 134755.0, 'sum': 757982.0}, 'EL01_pos_267': {'bp': 127147.0, 'sum': 731084.0}, 'EL04_pos_669': {'bp': 122001.0, 'sum': 733280.0}, 'Blanc2-pos_542': {'bp': 110558.0, 'sum': 671793.0}, 'EL11_pos_794': {'bp': 106925.0, 'sum': 637756.0}, 'Blanc3-pos_662': {'bp': 105782.0, 'sum': 677314.0}, 'EL13_pos_1843': {'bp': 150944.0, 'sum': 901460.0}, 'EL20_pos_1513': {'bp': 149485.0, 'sum': 1006288.0}, 'EL10_pos_319': {'bp': 144092.0, 'sum': 783408.0}, 'EL11_pos_680': {'bp': 116889.0, 'sum': 664671.0}, 'EL05_pos_1522': {'bp': 149682.0, 'sum': 1054419.0}, 'EL01_pos_728': {'bp': 107068.0, 'sum': 663412.0}, 'EL07_pos_1517': {'bp': 153797.0, 'sum': 1001173.0}, 'EL16_pos_320': {'bp': 137216.0, 'sum': 778677.0}, 'EL16_pos_1523': {'bp': 133456.0, 'sum': 943757.0}, 'EL01_pos_1520': {'bp': 142149.0, 'sum': 940371.0}, 'EL11_pos_1796': {'bp': 136519.0, 'sum': 922239.0}, 'EL10_pos_1517': {'bp': 135678.0, 'sum': 868694.0}, 'EL09_pos_1523': {'bp': 139754.0, 'sum': 933698.0}, 'EL13_pos_1787': {'bp': 116945.0, 'sum': 833519.0}, 'EL18_pos_1520': {'bp': 154748.0, 'sum': 1017982.0}, 'EL04_pos_1529': {'bp': 135726.0, 'sum': 895253.0}, 'EL15_pos_1517': {'bp': 160030.0, 'sum': 1019131.0}}
+COMMENT: RETENTION_TIME_STDEV 0.810
+COMMENT: PRECURSOR_M/Z_RAW 224.128235
+COMMENT: PRECURSOR_M/Z_STDEV 0.000088
+COMMENT: PRECURSOR_IN_MS1 mz 224.128054; int 51.777; delta(ppm) 0.911753
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 225.131557; int 6.419; cor 0.661
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 0.224; C12H17NO3; [M+H]+; delta(ppm) -0.224094
+COMMENT: PROPOSED_MF SevenGoldenRules 4.406; C6H18N5O2P; [M+H]+; delta(ppm) 4.405685
+COMMENT: PROPOSED_MF MS-FINDER 3.719; C12H17NO3; [M+H]+; delta(ppm) -0.226868
+COMMENT: PROPOSED_MF MS-FINDER 2.336; C6H18N5O2P; [M+H]+; delta(ppm) 4.384624
+COMMENT: PROPOSED_MF MS-FINDER 1.991; C5H17N7OS; [M+H]+; delta(ppm) -3.286717
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 41.617; C12H17NO3; [M+H]+; delta(ppm) -0.226868
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H17NO3; [M+H]+; delta(ppm) -0.226868
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 61.568; C12H17NO3; [M+H]+; delta(ppm) -0.226868
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 51.472; C9H18FNO4; [M+H]+; delta(ppm) -5.325059
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.885; C10H15N4O2; [M+H]+; delta(ppm) 5.763774
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.318; C6H17BN2O6; [M+H]+; delta(ppm) 46760.327071
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 32.248; C8H20N2O3P; [M+H]+; delta(ppm) -1.606002
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 32.109; C8H22FNOSi2; [M+H]+; delta(ppm) -221976.951886
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.337; C10H23OS2; [M+H]+; delta(ppm) 7.853663
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.084; C5H14FN7O2; [M+H]+; delta(ppm) 6.656175
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.462; C6H18N5O2P; [M+H]+; delta(ppm) 4.384624
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.203; C7H18ClN5O; [M+H]+; delta(ppm) -96721.316368
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H17NO3; [M+H]+; delta(ppm) -0.226868
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.079; KDVBLCRQNNLSIV-LDGXTIHJNA-N; [M+H]+; C[N+](C)(C)[C@@H](CC1=CC=C(O)C=C1)C([O-])=O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.014; HTCQNXQVACMNDD-UHFFFAOYSA-N; [M+H]+; O=C(O)C1=CC([O-])=CC=C1CC[N+](C)(C)C
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.916; VUFKFLMLIJLTQM-GSGSLZOQSA-N; [M+H]+; CC(C)C/C=C\C=C\C(=O)NC(=C)C(=O)O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.819; ZPNFSDRHMJNRBM-NSHDSACASA-N; [M+H]+; COCCOC(=O)C(CC1=CC=CC=C1)N
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.785; MXJWRABVEGLYDG-UHFFFAOYSA-N; [M+H]+; CCCCOC1=CC=C(CC(=O)NO)C=C1
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.192; GVEZIHKRYBHEFX-GHMZBOCLSA-N; [M+H]+; Cerulenin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.126; GQJOHIGVBBGCRS-UHFFFAOYSA-N; [M+H]+; 3-amino-3-[4-(propan-2-yloxy)phenyl]propanoic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.121; KDVBLCRQNNLSIV-LDGXTIHJNA-N; [M+H]+; C00051479
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.031; RYEJORVMPOOLGZ-UHFFFAOYSA-N; [M+H]+; Bez 223
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.964; MXJWRABVEGLYDG-UHFFFAOYSA-N; [M+H]+; bufexamac
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.954; VMOUXNFQXOJPMS-STGVRZAANA-N; [M+H]+; UNPD34856
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.940; PRNZAMQMBOFSJY-JLDDOWRYNA-N; [M+H]+; Anhalonidine;(+)-Anhalonidine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.914; UMWAPBCLJQSOJX-RNSKGSLNNA-N; [M+H]+; (-)-Deacetylanisomycin;Deacetylanisomycin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.905; IYMMESGOJVNCKV-UHFFFAOYNA-N; [M+H]+; rimiterol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.883; JVLGDDNDVOSMSI-UEQNJFAPNA-N; [M+H]+; UNPD27930
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.874; DTXOXOHMRGAFDX-UHFFFAOYSA-N; [M+H]+; Anhalidine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.874; XOXKSLGPWZNSBO-UHFFFAOYNA-N; [M+H]+; O,2,3-trimethyltyrosine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.873; CKXQLNPKQMIGKU-JLDDOWRYNA-N; [M+H]+; UNPD100961
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.868; QYKJYRWPFATDSA-UHFFFAOYSA-N; [M+H]+; CNP0443000
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.860; HTCQNXQVACMNDD-UHFFFAOYSA-N; [M+H]+; 3-carboxy-4-[2-(trimethylazaniumyl)ethyl]benzen-1-olate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.859; IPYGKVNRDYGKKQ-UHFFFAOYSA-N; [M+H]+; UNPD148402
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.826; QUGJNGCHEUYEPN-UHFFFAOYNA-N; [M+H]+; Spicatine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.814; SRLGFJSPXVLEEN-GDVUTDASNA-N; [M+H]+; UNPD175329
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.806; YMPWXMAFKMYBSE-UHFFFAOYSA-N; [M+H]+; CNP0449795
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.804; DDGBWYKIAUAJAT-UHFFFAOYSA-N; [M+H]+; 3-[(1-hydroxy-1-phenylpropan-2-yl)amino]propanoic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.799; ITJVRYXLLZBECB-UHFFFAOYSA-N; [M+H]+; 6-(4-methoxyphenoxy)-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.796; LIAWQASKBFCRNR-UHFFFAOYNA-N; [M+H]+; Bucetin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.794; NVBOMFYGAUXYPE-UHFFFAOYSA-N; [M+H]+; 2-(2,3-Dihydro-1,4-Benzodioxin-5-Yloxy)-N-Ethyl-Ethanamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.789; JWXKUFXXEUIGLF-UHFFFAOYSA-N; [M+H]+; UNPD24239
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.768; IYMNSGJJJFXKDP-MKCWBWRRSA-N; [M+H]+; Strepchazolin A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.765; HYGXNCVIGJQTAQ-UHFFFAOYSA-N; [M+H]+; N-[(4-hydroxy-3-methoxyphenyl)methyl]butanamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.762; WEQRLEDPPGQGOP-UHFFFAOYSA-N; [M+H]+; UNPD79354
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.707; BQJODPIMMWWMFC-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-4-hydroxy-3-methoxybenzamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.704; CVWSEQWTUAHWLN-UHFFFAOYSA-N; [M+H]+; 3-amino-4-(4-methoxyphenyl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.698; XRLDLFOQCUEXSX-UHFFFAOYSA-N; [M+H]+; 7,7-dimethyl-4-(propan-2-yl)-1H,2H,3H,4H,5H,7H-furo[3,4-b]pyridine-2,5-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.681; VUFKFLMLIJLTQM-GSGSLZOQSA-N; [M+H]+; Corallorazine C
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.666; HMJWNMXNHQIAGT-UHFFFAOYSA-N; [M+H]+; UNPD55260
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.648; VLMYJULPWGTTAV-UHFFFAOYSA-N; [M+H]+; 1-(hexyloxy)-4-nitrobenzene
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.627; GOBKARNYNSWQFZ-UHFFFAOYSA-N; [M+H]+; UNPD4044
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.602; HMBZERLHUQKQFZ-UHFFFAOYSA-N; [M+H]+; 3,3,9-trimethyl-7-oxa-8-azatricyclo[4.3.0.0?,?]non-8-en-6-yl acetate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.573; SAPZVGRYQFNLJK-UHFFFAOYSA-N; [M+H]+; 3-(nona-3,7-dienoyl)oxirane-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.571; MIHPYTYSLJCWQU-VHHMBAQWNA-N; [M+H]+; Stemoamide;(-)-Stemoamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.514; WYNQRSDHALABAA-PSASIEDQSA-N; [M+H]+; 11-Carboxyl anatoxin A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.506; CUBQYAUDOIVNDG-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-6-methyl-2-[(piperidin-1-yl)methyl]-4H-pyran-4-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.487; XYRMBRBAWFZQDU-UHFFFAOYSA-N; [M+H]+; 4-(octa-3,6-dien-1-yl)-6-oxa-3-azabicyclo[3.1.0]hex-2-ene-2,4-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.485; IZJRISIINLJVBU-UHFFFAOYSA-N; [M+H]+; beta-Butoxyethyl nicotinate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.470; LDPHQZFDFWJNGY-UHFFFAOYSA-N; [M+H]+; 2-[(azepan-1-yl)methyl]-5-hydroxy-4H-pyran-4-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.431; ZPNFSDRHMJNRBM-NSHDSACASA-N; [M+H]+; 2-methoxyethyl (2S)-2-amino-3-phenylpropanoate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.369; OPWGWIFGFWQEEQ-UHFFFAOYSA-N; [M+H]+; ethyl 4-acetyl-1,3,5-trimethyl-1H-pyrrole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.369; TUIXQUPRFTWIPR-UHFFFAOYSA-N; [M+H]+; CNP0445186
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; KDVBLCRQNNLSIV-LDGXTIHJNA-N; [M+H]+; C00051479
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.805; RYEJORVMPOOLGZ-UHFFFAOYSA-N; [M+H]+; Bez 223
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.723; HTCQNXQVACMNDD-UHFFFAOYSA-N; [M+H]+; 3-carboxy-4-[2-(trimethylazaniumyl)ethyl]benzen-1-olate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.650; NVBOMFYGAUXYPE-UHFFFAOYSA-N; [M+H]+; 2-(2,3-Dihydro-1,4-Benzodioxin-5-Yloxy)-N-Ethyl-Ethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.606; ITJVRYXLLZBECB-UHFFFAOYSA-N; [M+H]+; 6-(4-methoxyphenoxy)-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.596; GQJOHIGVBBGCRS-UHFFFAOYSA-N; [M+H]+; 3-amino-3-[4-(propan-2-yloxy)phenyl]propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.593; GVEZIHKRYBHEFX-GHMZBOCLSA-N; [M+H]+; Cerulenin
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.593; SAPZVGRYQFNLJK-UHFFFAOYSA-N; [M+H]+; 3-(nona-3,7-dienoyl)oxirane-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.558; DDGBWYKIAUAJAT-UHFFFAOYSA-N; [M+H]+; 3-[(1-hydroxy-1-phenylpropan-2-yl)amino]propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.556; UMWAPBCLJQSOJX-RNSKGSLNNA-N; [M+H]+; (-)-Deacetylanisomycin;Deacetylanisomycin
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.534; QYKJYRWPFATDSA-UHFFFAOYSA-N; [M+H]+; CNP0443000
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.505; OPWGWIFGFWQEEQ-UHFFFAOYSA-N; [M+H]+; ethyl 4-acetyl-1,3,5-trimethyl-1H-pyrrole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.492; MXJWRABVEGLYDG-UHFFFAOYSA-N; [M+H]+; bufexamac
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.468; CVWSEQWTUAHWLN-UHFFFAOYSA-N; [M+H]+; 3-amino-4-(4-methoxyphenyl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.456; ZPNFSDRHMJNRBM-NSHDSACASA-N; [M+H]+; 2-methoxyethyl (2S)-2-amino-3-phenylpropanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.449; JVLGDDNDVOSMSI-UEQNJFAPNA-N; [M+H]+; UNPD27930
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.437; XOXKSLGPWZNSBO-UHFFFAOYNA-N; [M+H]+; O,2,3-trimethyltyrosine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.418; DTXOXOHMRGAFDX-UHFFFAOYSA-N; [M+H]+; Anhalidine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.416; QUGJNGCHEUYEPN-UHFFFAOYNA-N; [M+H]+; Spicatine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.410; GOBKARNYNSWQFZ-UHFFFAOYSA-N; [M+H]+; UNPD4044
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.409; PRNZAMQMBOFSJY-JLDDOWRYNA-N; [M+H]+; Anhalonidine;(+)-Anhalonidine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.409; CKXQLNPKQMIGKU-JLDDOWRYNA-N; [M+H]+; UNPD100961
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.407; YMPWXMAFKMYBSE-UHFFFAOYSA-N; [M+H]+; CNP0449795
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.399; HMJWNMXNHQIAGT-UHFFFAOYSA-N; [M+H]+; UNPD55260
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.387; SRLGFJSPXVLEEN-GDVUTDASNA-N; [M+H]+; UNPD175329
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.385; HMBZERLHUQKQFZ-UHFFFAOYSA-N; [M+H]+; 3,3,9-trimethyl-7-oxa-8-azatricyclo[4.3.0.0?,?]non-8-en-6-yl acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.349; IYMMESGOJVNCKV-UHFFFAOYNA-N; [M+H]+; rimiterol
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.340; JWXKUFXXEUIGLF-UHFFFAOYSA-N; [M+H]+; UNPD24239
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.340; XYRMBRBAWFZQDU-UHFFFAOYSA-N; [M+H]+; 4-(octa-3,6-dien-1-yl)-6-oxa-3-azabicyclo[3.1.0]hex-2-ene-2,4-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.339; IPYGKVNRDYGKKQ-UHFFFAOYSA-N; [M+H]+; UNPD148402
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.335; VUFKFLMLIJLTQM-GSGSLZOQSA-N; [M+H]+; Corallorazine C
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.304; TUIXQUPRFTWIPR-UHFFFAOYSA-N; [M+H]+; CNP0445186
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.291; VLMYJULPWGTTAV-UHFFFAOYSA-N; [M+H]+; 1-(hexyloxy)-4-nitrobenzene
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.288; VMOUXNFQXOJPMS-STGVRZAANA-N; [M+H]+; UNPD34856
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.286; WEQRLEDPPGQGOP-UHFFFAOYSA-N; [M+H]+; UNPD79354
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.285; LIAWQASKBFCRNR-UHFFFAOYNA-N; [M+H]+; Bucetin
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.271; WYNQRSDHALABAA-PSASIEDQSA-N; [M+H]+; 11-Carboxyl anatoxin A
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.262; MIHPYTYSLJCWQU-VHHMBAQWNA-N; [M+H]+; Stemoamide;(-)-Stemoamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.247; XRLDLFOQCUEXSX-UHFFFAOYSA-N; [M+H]+; 7,7-dimethyl-4-(propan-2-yl)-1H,2H,3H,4H,5H,7H-furo[3,4-b]pyridine-2,5-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.233; HYGXNCVIGJQTAQ-UHFFFAOYSA-N; [M+H]+; N-[(4-hydroxy-3-methoxyphenyl)methyl]butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.224; IZJRISIINLJVBU-UHFFFAOYSA-N; [M+H]+; beta-Butoxyethyl nicotinate
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.220; IYMNSGJJJFXKDP-MKCWBWRRSA-N; [M+H]+; Strepchazolin A
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.088; BQJODPIMMWWMFC-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-4-hydroxy-3-methoxybenzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.032; CUBQYAUDOIVNDG-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-6-methyl-2-[(piperidin-1-yl)methyl]-4H-pyran-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.022; LDPHQZFDFWJNGY-UHFFFAOYSA-N; [M+H]+; 2-[(azepan-1-yl)methyl]-5-hydroxy-4H-pyran-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.411; GVEZIHKRYBHEFX-NQQPLRFYSA-N; [M+H]+; (2R,3S)-3-[(4E,7E)-nona-4,7-dienoyl]oxirane-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.551; MXJWRABVEGLYDG-UHFFFAOYSA-N; [M+H]+; 2-(4-butoxyphenyl)-N-hydroxyacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.830; IYMMESGOJVNCKV-UHFFFAOYSA-N; [M+H]+; 4-[hydroxy(piperidin-2-yl)methyl]benzene-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.387; LIAWQASKBFCRNR-UHFFFAOYSA-N; [M+H]+; N-(4-ethoxyphenyl)-3-hydroxybutanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.268; IZJRISIINLJVBU-UHFFFAOYSA-N; [M+H]+; 2-butoxyethyl pyridine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.144; BQJODPIMMWWMFC-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-4-hydroxy-3-methoxybenzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.143; UPFRTBVKMHUBLD-SECBINFHSA-N; [M+H]+; [3-[(1R)-1-hydroxyethyl]phenyl] N-ethyl-N-methylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.131; LWIXUAUAJKFCCX-UHFFFAOYSA-N; [M+H]+; 2-[3-[2-(dimethylamino)ethoxy]phenyl]acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.007; IJHKPBBVCNYJME-LBPRGKRZSA-N; [M+H]+; methyl (2S)-2-amino-3-(4-hydroxy-3-methylphenyl)-2-methylpropanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.991; DKATYPREMZBVTG-UHFFFAOYSA-N; [M+H]+; 2-[(4-methoxyphenyl)methoxy]morpholine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.976; MEEXXWXSOPKRTC-UHFFFAOYSA-N; [M+H]+; ethyl 2-[4-(2-aminoethyl)phenoxy]acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.954; BMOUIHMXIWRSDF-UHFFFAOYSA-N; [M+H]+; 2-(2,3-dihydro-1,4-benzodioxin-5-yloxy)-N,N-dimethylethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.926; IAFINJIXYQLWLD-UHFFFAOYSA-N; [M+H]+; ethyl 3-(2-aminoethoxy)-2-methylbenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.913; OJGJXMSSGWKXEV-UHFFFAOYSA-N; [M+H]+; 2-(2,3-dihydro-1,4-benzodioxin-6-yloxy)-N,N-dimethylethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.907; GUYHLLFEBWSWPC-UHFFFAOYSA-N; [M+H]+; 2-(dimethylamino)ethyl 2-phenoxyacetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.890; JLAYMCWIZZXNDJ-UHFFFAOYSA-N; [M+H]+; 2-(methylamino)ethyl 4-ethoxybenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.870; DXTMIBVBUSWKGN-UHFFFAOYSA-N; [M+H]+; 4-amino-3-[4-(methoxymethyl)phenyl]butanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.841; IOULHECGFCVGKE-UHFFFAOYSA-N; [M+H]+; 3-(1,2,3,4-tetrahydroquinolin-8-yloxy)propane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.841; ADCAWILRZRUZIT-NSHDSACASA-N; [M+H]+; methyl (3S)-3-amino-4-phenylmethoxybutanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.839; IOBHUWNAKNBGTH-UHFFFAOYSA-N; [M+H]+; 1-[4-[2-(dimethylamino)ethoxy]-2-hydroxyphenyl]ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.838; CLRSZVWSTFJKSE-UHFFFAOYSA-N; [M+H]+; methyl 2-amino-3-(2-hydroxy-4,6-dimethylphenyl)propanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.811; NVBOMFYGAUXYPE-UHFFFAOYSA-N; [M+H]+; 2-(2,3-dihydro-1,4-benzodioxin-5-yloxy)-N-ethylethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.769; QZHSYLWUHSOFJG-UHFFFAOYSA-N; [M+H]+; 2-(4-hydroxyphenoxy)-N-propan-2-ylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.764; COYDOKLRNWKQTK-UHFFFAOYSA-N; [M+H]+; 4-(3,6-dimethylmorpholin-2-yl)benzene-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.763; BNFLPFDVXGOHJY-UHFFFAOYSA-N; [M+H]+; benzyl N-(4-hydroxybutyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.762; ZVIBHAHGHDNCML-UHFFFAOYSA-N; [M+H]+; 3-amino-3-(4-propoxyphenyl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.757; SBWYBQRWDXWJDV-NSHDSACASA-N; [M+H]+; benzyl N-[(2S)-1-hydroxybutan-2-yl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.754; CXMLBZXMMMIGES-UHFFFAOYSA-N; [M+H]+; benzyl N-(1-hydroxy-2-methylpropan-2-yl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.745; UBKLSQJKOLOXHM-UHFFFAOYSA-N; [M+H]+; methyl 2-amino-4-(4-methoxyphenyl)butanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.723; NJNHLPYLCKMUMH-UHFFFAOYSA-N; [M+H]+; benzyl N-(propan-2-yloxymethyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.717; XTAAANMPVNIYBF-JTQLQIEISA-N; [M+H]+; (1R)-2-amino-1-(2,2-dimethyl-4H-1,3-benzodioxin-6-yl)ethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.713; OLAFEUJJSIORHL-UHFFFAOYSA-N; [M+H]+; N-[(5-methoxy-2,3-dihydro-1,4-benzodioxin-3-yl)methyl]ethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.707; AVSCLOPFRCQQAR-UHFFFAOYSA-N; [M+H]+; ethyl N-(1-hydroxy-3-phenylpropan-2-yl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.697; GPHUDPVNXDFRCO-UHFFFAOYSA-N; [M+H]+; 1-(3,4-dihydroxyphenyl)-2-(propan-2-ylamino)propan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.677; IOPJREUCVYADEL-UHFFFAOYSA-N; [M+H]+; 1-(2,2-dimethoxyethyl)-6,7-dihydro-5H-cyclopenta[b]pyridin-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.658; GRDSNVUGGUKPKE-UHFFFAOYSA-N; [M+H]+; ethyl 2-amino-3-(4-methoxyphenyl)propanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.654; QSYTXMHEWSENTC-GORDUTHDSA-N; [M+H]+; 6-[3-[3-[(E)-prop-1-enyl]oxiran-2-yl]oxiran-2-yl]-2,3-dihydro-1H-pyridin-6-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.649; CUOVGKJXRFLMNE-UHFFFAOYSA-N; [M+H]+; 2-(3,4-dimethoxyphenyl)-3-methyl-1,3-oxazolidine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.643; MZNBNPWFHGWAGH-UHFFFAOYSA-N; [M+H]+; tert-butyl N-phenylmethoxycarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.629; OXTGYDWQGFWOBE-UHFFFAOYSA-N; [M+H]+; N-hydroxy-2-(3-methyl-4-propoxyphenyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.608; HNYWYOQSLRJIMG-UHFFFAOYSA-N; [M+H]+; 2-(3,4,5-trimethoxyphenyl)cyclopropan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.593; VLMYJULPWGTTAV-UHFFFAOYSA-N; [M+H]+; 1-hexoxy-4-nitrobenzene
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.589; WRUZWMMBYLENFM-IONNQARKSA-N; [M+H]+; (1R,2S)-2-(2,4,5-trimethoxyphenyl)cyclopropan-1-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.565; PRNZAMQMBOFSJY-UHFFFAOYSA-N; [M+H]+; 6,7-dimethoxy-1-methyl-1,2,3,4-tetrahydroisoquinolin-8-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.564; ICWSHDGEMYAGOW-UHFFFAOYSA-N; [M+H]+; 2-hydroxyethyl N-(2-phenylpropyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.560; UNZXQQIJEAIRJE-UHFFFAOYSA-N; [M+H]+; [1-hydroxy-2-methyl-2-(methylamino)propyl] benzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.521; XZZSGPYXQXQYNL-UHFFFAOYSA-N; [M+H]+; 1-tert-butyl-2-methoxy-4-methyl-5-nitrobenzene
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.521; CKYQQSJXQJDXNK-UHFFFAOYSA-N; [M+H]+; 1-butan-2-yl-2-(methoxymethyl)-4-nitrobenzene
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.510; ISDDMVDVRURZNA-UHFFFAOYSA-N; [M+H]+; N-(2,2-dimethoxyethyl)-1-(3-methoxyphenyl)methanimine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.505; PONJIMVVHPQAJL-UHFFFAOYSA-N; [M+H]+; tert-butyl N-[(4-hydroxyphenyl)methyl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.491; JEQIMDDMLRIZKL-UHFFFAOYSA-N; [M+H]+; tert-butyl N-[(3-hydroxyphenyl)methyl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.483; NYASYUYEILXZAS-UHFFFAOYSA-N; [M+H]+; 5-amino-2-pentoxybenzoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.481; SAIZFIRMLDAPKH-UHFFFAOYSA-N; [M+H]+; tert-butyl N-[(2-hydroxyphenyl)methyl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.478; ZXYWTNXEKOHFST-UHFFFAOYSA-N; [M+H]+; 7-prop-2-enoyl-7-azaspiro[3.5]nonane-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.477; YQKDTZYYROHLMB-UHFFFAOYSA-N; [M+H]+; tert-butyl N-[4-(hydroxymethyl)phenyl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.475; QQAMZZFIHGASEX-UHFFFAOYSA-N; [M+H]+; tert-butyl N-[2-(hydroxymethyl)phenyl]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.467; QPKFTACDOTUDHL-UHFFFAOYSA-N; [M+H]+; 3-(3,4-dimethoxyphenyl)butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.459; PORIRKMXFGLHFJ-UHFFFAOYSA-N; [M+H]+; ethyl 3-amino-3-(3-methoxyphenyl)propanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.458; DXXABMONDYMFCC-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(3-hydroxy-4-methylphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.458; UFESVLDYFSGBGZ-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(4-hydroxy-3-methylphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.457; KVIREUWUDYUECY-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(2-hydroxy-4-methylphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.453; WEQRLEDPPGQGOP-UHFFFAOYSA-N; [M+H]+; N-[2-(3,4-dimethoxyphenyl)ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.449; BZXSOMGDXLCMQF-UHFFFAOYSA-N; [M+H]+; tert-butyl 4-amino-2-methoxybenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.445; ZKAKIZKTGWUHFD-UHFFFAOYSA-N; [M+H]+; 2-[2,3-dihydro-1,4-benzodioxin-3-yl(ethyl)amino]ethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.444; WYJUJCNMYPLXOF-UHFFFAOYSA-N; [M+H]+; N-ethoxy-N-ethyl-2-phenoxyacetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.442; IYTKQZNVGDSFLH-UHFFFAOYSA-N; [M+H]+; 2-(4-butoxyanilino)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.442; CTYYUTQJPDWHDO-SNVBAGLBSA-N; [M+H]+; methyl (3R)-3-amino-3-(2-ethoxyphenyl)propanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.436; KOWRPDYPDOSDRG-UHFFFAOYSA-N; [M+H]+; propan-2-yl N-(4-ethoxyphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.415; WCOQHCYSCIMEEM-UHFFFAOYSA-N; [M+H]+; tert-butyl 5-oxo-1,3,6,6a-tetrahydrocyclopenta[c]pyrrole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.409; ZIYGJOYWWXXJCT-UHFFFAOYSA-N; [M+H]+; tert-butyl 7-oxo-2-azaspiro[3.4]oct-5-ene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.403; JVCCJEOHXPAYHK-UHFFFAOYSA-N; [M+H]+; tert-butyl 3-oxo-8-azabicyclo[3.2.1]oct-6-ene-8-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.399; NVKFZFFKSDIGSY-UHFFFAOYSA-N; [M+H]+; N-[(3,4-dimethoxyphenyl)methyl]propanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.387; HYGXNCVIGJQTAQ-UHFFFAOYSA-N; [M+H]+; N-[(4-hydroxy-3-methoxyphenyl)methyl]butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.385; NUOABGIIYNJJBX-UHFFFAOYSA-N; [M+H]+; 2-[2,3-dihydro-1,4-benzodioxin-3-ylmethyl(methyl)amino]ethanol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.379; JPLIBLZLHLCMQS-UHFFFAOYSA-N; [M+H]+; ethyl 1-(2-cyanoethyl)-2-oxocyclohexane-1-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.373; ZJUCFKMSYJGSFT-UHFFFAOYSA-N; [M+H]+; ethyl 2-cyano-2-(2,6-dimethyloxan-4-ylidene)acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.368; MYUKAAQSCNRUEV-UHFFFAOYSA-N; [M+H]+; ethyl 4-methoxy-2,5,6-trimethylpyridine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.301; BDRYUPSBSJWEFN-UHFFFAOYSA-N; [M+H]+; 2-(hydroxymethyl)butyl N-phenylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.290; CQIFDPSWHVAVGQ-UHFFFAOYSA-N; [M+H]+; methyl 3-amino-3-(3-methoxyphenyl)butanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.284; MFFWEFPNGDBSLN-UHFFFAOYSA-N; [M+H]+; 6-(pyrrolidine-1-carbonyl)cyclohex-3-ene-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.263; OLCINQXFUANAPJ-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(4-hydroxyphenyl)-N-methylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.262; KJOJWSHLPKNUAO-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(2-hydroxyphenyl)-N-methylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.261; DTJDZTUATTYLBB-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(4-methoxyphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.261; XQGRRRUKOWQZKI-UHFFFAOYSA-N; [M+H]+; 3-methylbutyl N-(3-hydroxyphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.256; DHSWMVURURVRDB-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(2-methoxyphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.254; KXPBUCLTUHSKQJ-UHFFFAOYSA-N; [M+H]+; tert-butyl 2-amino-3-methoxybenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.253; CAJCPYDCXVZYBI-UHFFFAOYSA-N; [M+H]+; tert-butyl N-(3-methoxyphenyl)carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.233; LSBYTACKGLHMBM-UHFFFAOYSA-N; [M+H]+; 2-(butylamino)-1-(3,4-dihydroxyphenyl)ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.233; UNKOWBNGINEEOQ-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-2-hydroxy-3-methoxybenzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.233; FFLBZJBCSKGBBK-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-3-hydroxy-4-methoxybenzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.233; YYBGWGLGOFFORL-UHFFFAOYSA-N; [M+H]+; 2-(diethylamino)-1-(3,4-dihydroxyphenyl)ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.233; YAICHDLMXOAJLD-UHFFFAOYSA-N; [M+H]+; 5-tert-butyl-4,5,6,7-tetrahydro-1,2-benzoxazole-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.227; YRQVMOOPIMHYOQ-UHFFFAOYSA-N; [M+H]+; 2-(tert-butylamino)-1-(3,5-dihydroxyphenyl)ethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.215; GHIVIJCNBBEVPR-UHFFFAOYSA-N; [M+H]+; 5-(1-piperidin-1-ylethyl)furan-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.200; PGZVEKAUTNBKMA-UHFFFAOYSA-N; [M+H]+; 5-[2-(cyclobutylamino)-1-hydroxyethyl]benzene-1,3-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.177; HRRFQOPYFCYNRN-UHFFFAOYSA-N; [M+H]+; 6-hydroxyhexyl pyridine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.174; VQKYKJZDDMASRH-UHFFFAOYSA-N; [M+H]+; 2-piperidin-1-ylethyl furan-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -117.948; KDVBLCRQNNLSIV; [M+H]+; [1-carboxy-2-(4-hydroxyphenyl)ethyl]-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -132.398; BAPAICNRGIBFJT; [M+H]+; Parabens-choline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -140.932; VFOPXGBJCFJIFX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -150.712; DDGBWYKIAUAJAT; [M+H]+; 3-[(1-hydroxy-1-phenylpropan-2-yl)amino]propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -164.013; WEQRLEDPPGQGOP; [M+H]+; Oprea1_385764
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -169.053; IYTKQZNVGDSFLH; [M+H]+; n-(4-butoxyphenyl)glycine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -177.197; HTCQNXQVACMNDD; [M+H]+; Maokonine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -183.938; NVKFZFFKSDIGSY; [M+H]+; N-[(3,4-dimethoxyphenyl)methyl]propanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -191.871; RYEJORVMPOOLGZ; [M+H]+; 2-[4-(2-aminoethyl)phenoxy]-2-methylpropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -196.440; UQXGVJZBJNUWFF; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -204.307; BQJODPIMMWWMFC; [M+H]+; Etamivan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -208.893; GQJOHIGVBBGCRS; [M+H]+; Oprea1_284048
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -210.075; PONJIMVVHPQAJL; [M+H]+; Ambpe2020178
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -211.991; QZHSYLWUHSOFJG; [M+H]+; 2-(4-hydroxyphenoxy)-N-isopropylpropanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -213.023; HYGXNCVIGJQTAQ; [M+H]+; N-[(4-hydroxy-3-methoxyphenyl)methyl]butanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -219.212; VMOUXNFQXOJPMS; [M+H]+; N-[3-hydroxy-1-(4-methoxyphenyl)propyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -220.077; GPHUDPVNXDFRCO; [M+H]+; Phenisonone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -232.946; AVSCLOPFRCQQAR; [M+H]+; ethyl(1-hydroxy-3-phenylpropan-2-yl)carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -235.152; JEQIMDDMLRIZKL; [M+H]+; (3-HYDROXYbenzyl)carbaMIC ACID TERT-BUTYL ESTER
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -235.381; ICWSHDGEMYAGOW; [M+H]+; 2-hydroxyethyl N-(2-phenylpropyl)carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -235.723; WYJUJCNMYPLXOF; [M+H]+; N-Ethyl-N-ethoxy phenoxyacetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -240.040; VLMYJULPWGTTAV; [M+H]+; 4-Hexyloxynitrobenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -240.494; FFLBZJBCSKGBBK; [M+H]+; Diethylamide isovanillique
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -242.211; MXJWRABVEGLYDG; [M+H]+; Droxaryl
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -245.883; LSBYTACKGLHMBM; [M+H]+; 2-(Butylamino)-3'',4''-dihydroxyacetophenone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -248.885; OXTGYDWQGFWOBE; [M+H]+; 2-(4-Propoxy-m-tolyl)acetohydroxamic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -253.600; NVBOMFYGAUXYPE; [M+H]+; 2-(2,3-dihydro-1,4-benzodioxin-5-yloxy)-N-ethylethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -256.148; KOWRPDYPDOSDRG; [M+H]+; Isopropyl p-ethoxycarbanilate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -256.599; XEULPLUJSUSGMX; [M+H]+; 3-Methoxy-4,5-methylenedioxy-N-methylamphetamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -260.221; CUOVGKJXRFLMNE; [M+H]+; 2-(3,4-Dimethoxyphenyl)-3-methyloxazolidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -261.592; NYASYUYEILXZAS; [M+H]+; 5-amino-2-pentoxybenzoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -262.161; NJNHLPYLCKMUMH; [M+H]+; N-Z-Isopropoxymethylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -263.098; QPKFTACDOTUDHL; [M+H]+; 3-(3,4-dimethoxyphenyl)butanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -274.611; UNKOWBNGINEEOQ; [M+H]+; Diethylamide orthovanillique
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -274.783; BNFLPFDVXGOHJY; [M+H]+; 4-(Z-Amino)-1-butanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -275.347; DTJDZTUATTYLBB; [M+H]+; Maybridge1_008097
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -277.616; FCSJBORCTWILJP; [M+H]+; 2-amino-5-(4-methoxyphenyl)pentanoic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -280.137; MZNBNPWFHGWAGH; [M+H]+; tert-butyl benzyloxycarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -281.197; RNGOPMBKNLMANA; [M+H]+; 1-Oxo Colterol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -281.348; LIAWQASKBFCRNR; [M+H]+; Bucetina
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -284.922; DHSWMVURURVRDB; [M+H]+; AmbkkkkK259
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -286.419; YRQVMOOPIMHYOQ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -288.657; ZJUCFKMSYJGSFT; [M+H]+; ethyl 2-cyano-2-(2,6-dimethyloxan-4-ylidene)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -300.471; IJHKPBBVCNYJME; [M+H]+; methyl alpha,3-dimethyl-L-tyrosinate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -301.682; CAJCPYDCXVZYBI; [M+H]+; tert-butyl 3-methoxyphenylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -302.574; CKYQQSJXQJDXNK; [M+H]+; 2-sec-Butyl-5-nitrobenzyl methyl ether
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -303.886; ITJVRYXLLZBECB; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -308.582; UMWAPBCLJQSOJX; [M+H]+; Deacetylanisomycin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.605; NUOABGIIYNJJBX; [M+H]+; 2-(N-Methyl-N-(2-hydroxyethyl)aminomethyl)-1,4-benzodioxan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -316.196; XQGRRRUKOWQZKI; [M+H]+; Isopentyl m-hydroxycarbanilate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -316.230; RKXSAOHOUIGEAB; [M+H]+; |A,2,6-trimethyl-d-tyrosine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -318.024; XOXKSLGPWZNSBO; [M+H]+; O,2,3-trimethyltyrosine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -320.210; HNYWYOQSLRJIMG; [M+H]+; 3,4,5-Trimethoxytranylcypromine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -327.116; HMJWNMXNHQIAGT; [M+H]+; nortehuanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -328.635; QQAMZZFIHGASEX; [M+H]+; tert-Butyl (2-(hydroxymethyl)phenyl)carbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -335.098; RMKWLQBEDHKISQ; [M+H]+; (2s,3s,4r,5s)-2-(4-Methoxyphenyl)-5-Methylpyrrolidine-3,4-Diol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -335.634; GOBKARNYNSWQFZ; [M+H]+; Anhalinine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -337.751; XTAAANMPVNIYBF; [M+H]+; (1S)-2-amino-1-(2,2-dimethyl-4H-1,3-benzodioxin-6-yl)ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -339.073; QYKJYRWPFATDSA; [M+H]+; 7-methoxy-1,2-dimethyl-3,4-dihydro-1H-isoquinoline-4,6-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -340.377; OPWGWIFGFWQEEQ; [M+H]+; ethyl 4-acetyl-1,3,5-trimethylpyrrole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -346.764; BDRYUPSBSJWEFN; [M+H]+; 2-(hydroxymethyl)butyl phenylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -347.958; NDQBRGWFAQLRFZ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -348.537; DUMIYBZROAZLRP; [M+H]+; 4-[2-(cyclohexen-1-yl)ethylamino]-4-oxobut-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -348.822; COYDOKLRNWKQTK; [M+H]+; 4-(3,6-Dimethyl-2-morpholinyl)pyrocatechol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -354.911; ZKAKIZKTGWUHFD; [M+H]+; 2-(N-(1,4-Benzodioxan-2-yl)ethylamino)ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -355.620; IYMMESGOJVNCKV; [M+H]+; Rimiterol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -356.431; IZJRISIINLJVBU; [M+H]+; Nicoboxil
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -356.627; VUFKFLMLIJLTQM; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -365.788; WYNQRSDHALABAA; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -370.253; JVLGDDNDVOSMSI; [M+H]+; Calycotomine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -379.543; IPYGKVNRDYGKKQ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -383.501; IOULHECGFCVGKE; [M+H]+; 3-(1,2,3,4-Tetrahydroquinol-8-yloxy)-1,2-propanediol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -390.989; JWXKUFXXEUIGLF; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -398.389; HRRFQOPYFCYNRN; [M+H]+; 6-Hydroxyhexyl nicotinate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -402.296; CKXQLNPKQMIGKU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -403.166; YMPWXMAFKMYBSE; [M+H]+; 6,7-dimethoxy-2-methyl-3,4-dihydro-1H-isoquinolin-5-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -415.741; DTXOXOHMRGAFDX; [M+H]+; Anhalidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -422.027; CUBQYAUDOIVNDG; [M+H]+; 3-hydroxy-6-methyl-2-(1-piperidylmethyl)pyran-4-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -423.372; CVWSEQWTUAHWLN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -428.477; PRNZAMQMBOFSJY; [M+H]+; Anhalonidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -445.466; JTDBGJWBSDBUQB; [M+H]+; Oprea1_127521
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -453.724; LDPHQZFDFWJNGY; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -460.925; MFFWEFPNGDBSLN; [M+H]+; Oprea1_090646
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -496.246; GVEZIHKRYBHEFX; [M+H]+; cerulenin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -504.952; SAPZVGRYQFNLJK; [M+H]+; AmbotzLS-1016
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -556.083; QUGJNGCHEUYEPN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -556.277; QSYTXMHEWSENTC; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -578.541; MIHPYTYSLJCWQU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -622.538; HMBZERLHUQKQFZ; [M+H]+; Ambcb5618688
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -652.468; XYRMBRBAWFZQDU; [M+H]+; 6-Oxa-3-azabicyclo[3.1.0]hexan-2-one, 4-hydroxy-4-(3,6-octadienyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -668.383; SRLGFJSPXVLEEN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -682.890; XRLDLFOQCUEXSX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.347; KDVBLCRQNNLSIV; [M+H]+; [1-carboxy-2-(4-hydroxyphenyl)ethyl]-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -175.561; XNZTXCNZGNIBDP; [M+H]+; (R)-2-(Dimethylamino)-2-(4-methoxyphenyl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -183.026; KOHIPRUAATWABH; [M+H]+; Trimethyltyrosine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -197.772; LWIXUAUAJKFCCX; [M+H]+; 2-{3-[2-(Dimethylamino)ethoxy]phenyl}acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -200.757; QZHSYLWUHSOFJG; [M+H]+; (2R)-2-(4-hydroxyphenoxy)-N-propan-2-ylpropanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -205.332; RYEJORVMPOOLGZ; [M+H]+; 2-[4-(2-Aminoethyl)phenoxy]-2-methylpropanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -213.790; WEQRLEDPPGQGOP; [M+H]+; N-[2-(3,4-dimethoxyphenyl)ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -224.199; GQJOHIGVBBGCRS; [M+H]+; 3-amino-3-[4-(propan-2-yloxy)phenyl]propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -228.710; JBYRPVKPXOUMHU; [M+H]+; (R)-2-(Dimethylamino)-2-(3-methoxyphenyl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -238.600; PONJIMVVHPQAJL; [M+H]+; tert-Butyl 4-hydroxybenzylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.740; KDVBLCRQNNLSIV; [M+H]+; (2R)-3-(4-hydroxyphenyl)-2-(trimethylazaniumyl)propanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.152; XNZTXCNZGNIBDP; [M+H]+; (R)-2-(Dimethylamino)-2-(4-methoxyphenyl)propanoic acid
+COMMENT: CONFIDENCE Level 4: Unequivocal precursor ion formula C12H18N1O3; Top hit by both SIRIUS6_Zodiac and MS-FINDER; and SevenGoldenRules(1), SIRIUS5_Sirius(1), SIRIUS5_Zodiac(1);
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 5.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.129
+MS$FOCUSED_ION: PRECURSOR_M/Z 224.128069
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00bc-5490000000-8ade7ad98f829c77f40b
+PK$ANNOTATION: m/z int m/z_nocal m/z_std(ppm) int_std cor n annotation
+  53.0388221 49.2167 53.039520 0.9050 15.04 0.5463 160 f{C4H5}/4.63ppm,p-C8H13N1O3
+  55.0544322 30.0254 55.055140 1.0898 8.02 -0.2596 155 f{C4H7}/3.73ppm,p-C8H11N1O3
+  57.0701335 92.3222 57.070850 0.8586 18.20 -0.4963 167 f{C4H9}/4.50ppm,p-C8H9N1O3
+  58.0653697 127.9890 58.066090 0.7578 50.62 0.6970 167 f{C3H8N1}/4.20ppm,p-C9H10O3
+  60.0809828 66.0264 60.081710 0.9820 20.99 0.5594 166 f{C3H10N1}/3.45ppm,p-C9H8O3
+  67.0543485 31.4848 67.055090 1.0290 8.09 -0.2933 157 f{C5H7}/1.82ppm,p-C7H11N1O3
+  69.0699870 28.6420 69.070730 1.1872 8.19 -0.2609 139 f{C5H9}/1.60ppm,p-C7H9N1O3
+  79.0542978 204.3075 79.055030 0.5692 54.14 0.6489 167 f{C6H7}/0.90ppm,p-C6H11N1O3
+  81.0699036 45.4156 81.070630 0.8264 10.24 -0.3743 163 f{C6H9}/0.33ppm,p-C6H9N1O3
+  83.0855306 23.4736 83.086250 1.3119 6.68 -0.1157 130 f{C6H11}/0.05ppm,p-C6H7N1O3
+  91.0542103 180.1737 91.054890 0.6699 50.87 0.6339 167 f{C7H7}/-0.18ppm,p-C5H11N1O3
+  93.0698933 532.3763 93.070560 0.3331 151.95 0.7086 167 f{C7H9}/0.18ppm,p-C5H9N1O3
+  95.0490873 47.0722 95.049740 1.0731 13.19 0.4885 163 f{C6H7O1}/-0.57ppm,p-C6H11N1O2
+  95.0855076 41.1412 95.086160 1.0307 10.39 -0.4742 159 f{C7H11}/-0.20ppm,p-C5H7N1O3
+  105.0335058 70.6323 105.034070 0.8854 13.47 -0.2434 143 f{C7H5O1}/0.14ppm,p-C5H13N1O2
+  107.0855177 27.7828 107.086060 1.3914 8.43 -0.3433 142 f{C8H11}/-0.08ppm,p-C4H7N1O3
+  109.1011914 25.6078 109.101720 1.3474 7.52 -0.2262 140 f{C8H13}/0.13ppm,p-C4H5N1O3
+  119.0491418 57.3224 119.049590 1.1844 18.36 0.4828 161 f{C8H7O1}/0.00ppm,p-C4H11N1O2
+  121.0648358 172.1150 121.065265 0.7434 52.41 0.5851 166 f{C8H9O1}/0.37ppm,p-C4H9N1O2
+  134.0964244 237.3133 134.096710 0.5742 26.23 -0.2019 167 f{C9H12N1}/-0.01ppm,p-C3H6O3
+  149.0233719 33.3933 149.023670 1.4629 9.61 -0.4655 141 f{C8H5O3}/0.35ppm,p-C4H13N1
+  155.9747878 35.3634 155.975105 1.0579 15.11 -0.4161 132 ?
+  165.0546672 268.2998 165.055010 0.5695 81.14 0.7292 167 f{C9H9O3}/0.28ppm,p-C3H9N1
+  170.0963026 54.2174 170.096660 1.1288 10.46 -0.1420 135 f{C12H12N1}/-0.72ppm,p-H6O3
+  196.9039508 205.9672 196.904390 0.7516 51.74 -0.5431 161 ?
+  210.1276243 27.5146 210.128050 1.5419 7.46 0.1825 117 ?
+  214.9146371 50.1216 214.915050 1.2982 13.64 -0.3613 135 ?
+  222.9036509 67.6776 222.904040 1.5881 15.72 -0.4740 131 ?
+  223.1692617 161.4629 223.169650 1.1695 40.39 -0.5907 146 ?
+  223.9027940 65.8571 223.903180 1.3488 17.41 -0.4607 125 ?
+  224.1280648 679.2971 224.128450 0.4239 199.36 1.0000 167 f{C12H18N1O3}/-0.25ppm,p
+  224.8988872 264.7177 224.899270 0.7426 61.80 -0.5109 160 ?
+  225.0425977 130.3705 225.042980 1.1331 19.73 -0.0894 139 ?
+  225.1306230 68.2732 225.131005 1.3725 23.11 0.6508 128 ?
+  225.8990005 38.2789 225.899380 1.4741 9.92 -0.4111 130 ?
+  226.1590313 999.0000 226.159410 0.3139 73.36 -0.2146 167 ?
+  227.0218942 33.5634 227.022270 1.5065 7.73 -0.0503 130 ?
+PK$NUM_PEAK: 37
+PK$PEAK: m/z int. rel.int.
+  53.038822 49.22 49
+  55.054432 30.03 30
+  57.070134 92.32 92
+  58.065370 127.99 127
+  60.080983 66.03 66
+  67.054348 31.48 31
+  69.069987 28.64 28
+  79.054298 204.31 204
+  81.069904 45.42 45
+  83.085531 23.47 23
+  91.054210 180.17 180
+  93.069893 532.38 532
+  95.049087 47.07 47
+  95.085508 41.14 41
+  105.033506 70.63 70
+  107.085518 27.78 27
+  109.101191 25.61 25
+  119.049142 57.32 57
+  121.064836 172.12 172
+  134.096424 237.31 237
+  149.023372 33.39 33
+  155.974788 35.36 35
+  165.054667 268.30 268
+  170.096303 54.22 54
+  196.903951 205.97 205
+  210.127624 27.51 27
+  214.914637 50.12 50
+  222.903651 67.68 67
+  223.169262 161.46 161
+  223.902794 65.86 65
+  224.128065 679.30 679
+  224.898887 264.72 264
+  225.042598 130.37 130
+  225.130623 68.27 68
+  225.899000 38.28 38
+  226.159031 999.00 999
+  227.021894 33.56 33
+//

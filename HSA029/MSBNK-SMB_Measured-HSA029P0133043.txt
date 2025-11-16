@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0133043
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.24, Processed 2025.09.24, Annotated 2025.10.10, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.500
+COMMENT: MS2_M/Z_AVERAGED_THRES 7.000
+COMMENT: DATASET_FILE_NUM 70
+COMMENT: NUM_AVERAGED_SPEC 14
+COMMENT: RAW_SPEC {'056_HEP_SOL3_LYS_pos_Spiking_5758': {'bp': 19589.0, 'sum': 57695.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_5714': {'bp': 15719.0, 'sum': 54023.0}, '055_HEP_SOL1_LYS_pos_Spiking_5733': {'bp': 19540.0, 'sum': 48438.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_5647': {'bp': 13133.0, 'sum': 42014.0}, '057_HT_SOL2_LYS_pos_Spiking_5810': {'bp': 14596.0, 'sum': 45091.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_6600': {'bp': 13164.0, 'sum': 36756.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_5668': {'bp': 13691.0, 'sum': 44566.0}, '056_HEP_SOL3_LYS_pos_Spiking_5846': {'bp': 18168.0, 'sum': 59566.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_5601': {'bp': 18006.0, 'sum': 53833.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_5737': {'bp': 19511.0, 'sum': 66148.0}, '055_HEP_SOL1_LYS_pos_Spiking_5824': {'bp': 17377.0, 'sum': 53927.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_5635': {'bp': 19398.0, 'sum': 61275.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_5805': {'bp': 13558.0, 'sum': 48232.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_5823': {'bp': 17052.0, 'sum': 52022.0}}
+COMMENT: RETENTION_TIME_STDEV 0.433
+COMMENT: PRECURSOR_M/Z_RAW 133.002465
+COMMENT: PRECURSOR_M/Z_STDEV 0.000038
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 133.002656;  No signal in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 7.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.996
+MS$FOCUSED_ION: PRECURSOR_M/Z 133.002656
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-531063df7d3f0fdb0cce
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  91.0545425 166.6295 ? 91.054827 1.5485 40.09 0.2637 13
+  105.0703431 577.4786 ? 105.070580 2.8076 115.89 0.1736 14
+  133.0764942 999.0000 ? 133.076704 4.1330 0.00 0.0769 14
+  133.1018249 271.9306 ? 133.102034 1.0067 73.82 1.0000 14
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  91.054543 166.63 166
+  105.070343 577.48 577
+  133.076494 999.00 999
+  133.101825 271.93 271
+//

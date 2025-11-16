@@ -1,0 +1,94 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0172008
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; POSITIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.24, Processed 2025.09.24, Annotated 2025.10.10, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.500
+COMMENT: MS2_M/Z_AVERAGED_THRES 7.000
+COMMENT: DATASET_FILE_NUM 70
+COMMENT: NUM_AVERAGED_SPEC 21
+COMMENT: RAW_SPEC {'061_Spikesol_6666ppb_diluted10_pos_Spiking_1142': {'bp': 324264.0, 'sum': 889694.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1862': {'bp': 324187.0, 'sum': 913213.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1247': {'bp': 314045.0, 'sum': 871411.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1156': {'bp': 310563.0, 'sum': 879176.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1849': {'bp': 308708.0, 'sum': 825095.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1584': {'bp': 306159.0, 'sum': 855917.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1048': {'bp': 303841.0, 'sum': 820364.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1511': {'bp': 287993.0, 'sum': 885422.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1686': {'bp': 287229.0, 'sum': 816505.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1426': {'bp': 286314.0, 'sum': 855536.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_983': {'bp': 285155.0, 'sum': 827808.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1335': {'bp': 279471.0, 'sum': 851799.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1323': {'bp': 275082.0, 'sum': 783319.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1597': {'bp': 271049.0, 'sum': 824500.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1498': {'bp': 268292.0, 'sum': 771015.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1409': {'bp': 260571.0, 'sum': 748670.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1761': {'bp': 255519.0, 'sum': 705806.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1068': {'bp': 248313.0, 'sum': 741256.0}, '055_HEP_SOL1_LYS_pos_Spiking_1842': {'bp': 163592.0, 'sum': 495306.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_1778': {'bp': 163096.0, 'sum': 448963.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_1713': {'bp': 144028.0, 'sum': 428800.0}}
+COMMENT: RETENTION_TIME_STDEV 0.485
+COMMENT: PRECURSOR_M/Z_RAW 171.965510
+COMMENT: PRECURSOR_M/Z_STDEV 0.000061
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 171.965952;  No signal in MS1; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 7.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.523
+MS$FOCUSED_ION: PRECURSOR_M/Z 171.965952
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000t-1900000000-1cb1e4177de52f69a269
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  68.9627655 54.1043 ? 68.963221 3.0016 7.74 0.2930 21
+  70.9420265 153.9558 ? 70.942473 3.0729 12.49 0.2912 21
+  86.9732223 13.5906 ? 86.973550 2.7365 2.37 0.1476 20
+  88.9493860 17.4045 ? 88.949693 0.3935 2.81 0.0879 15
+  88.9526437 195.2848 ? 88.952951 3.0353 13.55 0.1667 21
+  98.9755208 12.2811 ? 98.975759 2.6673 4.11 0.5341 15
+  106.9633851 33.9931 ? 106.963621 3.0571 5.29 -0.0298 21
+  112.9526940 11.7049 ? 112.952927 2.7622 2.69 0.0036 17
+  129.9862638 23.5589 ? 129.986478 2.7695 8.39 -0.1351 21
+  130.9634501 770.6654 ? 130.963663 3.8942 52.00 0.0561 21
+  130.9823097 18.2026 ? 130.982522 2.7790 4.43 -0.1956 16
+  147.9658226 138.8430 ? 147.966002 3.5346 12.24 0.4614 21
+  148.9736688 999.0000 ? 148.973846 3.2086 0.00 0.1912 21
+  153.9795113 13.4330 ? 153.979675 2.9809 2.58 0.4214 17
+  165.9763892 98.2842 ? 165.976518 3.9704 7.85 0.1719 21
+  166.9850738 20.9755 ? 166.985199 2.5511 4.83 -0.0853 18
+  172.0975672 18.7083 ? 172.097675 3.2482 7.72 1.0000 19
+  172.1339921 16.8102 ? 172.134099 2.6201 6.88 0.3870 20
+  189.9772650 20.0543 ? 189.977301 3.1899 4.11 0.6904 20
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+  68.962765 54.10 54
+  70.942026 153.96 153
+  86.973222 13.59 13
+  88.949386 17.40 17
+  88.952644 195.28 195
+  98.975521 12.28 12
+  106.963385 33.99 33
+  112.952694 11.70 11
+  129.986264 23.56 23
+  130.963450 770.67 770
+  130.982310 18.20 18
+  147.965823 138.84 138
+  148.973669 999.00 999
+  153.979511 13.43 13
+  165.976389 98.28 98
+  166.985074 20.98 20
+  172.097567 18.71 18
+  172.133992 16.81 16
+  189.977265 20.05 20
+//

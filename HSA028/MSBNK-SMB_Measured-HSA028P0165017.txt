@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0165017
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.23, Processed 2025.09.23, Annotated 2025.10.24, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 25 product ion spectra among 75 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 2.000
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 25
+COMMENT: RAW_SPEC {'STD1_DONmix_004_neg_2209': {'bp': 220751.0, 'sum': 298834.0}, 'STD01_DONmix_003_neg_2209': {'bp': 187288.0, 'sum': 242610.0}, 'STD10_DONmix_005_neg_2265': {'bp': 204504.0, 'sum': 272030.0}, '028_HT_SOL2_SUP_neg_Spiking_2812': {'bp': 42110.0, 'sum': 88573.0}, '017_HEP_SOL3_LYS_neg_Spiking_2437': {'bp': 62087.0, 'sum': 91030.0}, 'STD01_DONmix_003_neg_2385': {'bp': 190700.0, 'sum': 254350.0}, '017_HEP_SOL3_LYS_neg_Spiking_2536': {'bp': 48984.0, 'sum': 77577.0}, '028_HT_SOL2_SUP_neg_Spiking_2550': {'bp': 54485.0, 'sum': 89485.0}, '028_HT_SOL2_SUP_neg_Spiking_2374': {'bp': 61549.0, 'sum': 84904.0}, '019_HEP_SOL1_LYS_Spike_666ppb_neg_Spiking_2205': {'bp': 64410.0, 'sum': 78676.0}, '016_HEP_SOL1_LYS_neg_Spiking_2528': {'bp': 61431.0, 'sum': 86445.0}, '019_HEP_SOL1_LYS_Spike_666ppb_neg_Spiking_2547': {'bp': 61218.0, 'sum': 94491.0}, '016_HEP_SOL1_LYS_neg_Spiking_2288': {'bp': 81635.0, 'sum': 127615.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_2295': {'bp': 54477.0, 'sum': 66914.0}, 'STD1_DONmix_004_neg_2309': {'bp': 193541.0, 'sum': 258122.0}, 'STD1_DONmix_004_neg_2584': {'bp': 179753.0, 'sum': 252706.0}, '033_Spikesol_6666ppb_diluted10_neg_Spiking_2263': {'bp': 56181.0, 'sum': 80120.0}, 'STD10_DONmix_005_neg_2639': {'bp': 193558.0, 'sum': 256030.0}, 'STD10_DONmix_005_neg_2394': {'bp': 181264.0, 'sum': 239532.0}, 'STD1_DONmix_004_neg_2836': {'bp': 169041.0, 'sum': 228472.0}, 'STD01_DONmix_003_neg_2551': {'bp': 195543.0, 'sum': 269310.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_2395': {'bp': 58759.0, 'sum': 82198.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_2205': {'bp': 59081.0, 'sum': 82832.0}, '028_HT_SOL2_SUP_neg_Spiking_2649': {'bp': 53461.0, 'sum': 73291.0}, 'STD1_DONmix_004_neg_3068': {'bp': 143857.0, 'sum': 193464.0}}
+COMMENT: RETENTION_TIME_STDEV 0.386
+COMMENT: PRECURSOR_M/Z_RAW 164.895355
+COMMENT: PRECURSOR_M/Z_STDEV 0.000067
+COMMENT: PRECURSOR_IN_MS1 mz 164.895423; int 12.498; delta(ppm) 0.411776
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 164.895424;  Observed in MS1 m/z 164.895424; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.353
+MS$FOCUSED_ION: PRECURSOR_M/Z 164.895424
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-056b3805034748e12c41
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  164.8954120 999.0000 ? 164.895412 0.2911 0.00 1.0000 25
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  164.895412 999.00 999
+//

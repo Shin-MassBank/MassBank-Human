@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0239021
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.23, Processed 2025.09.23, Annotated 2025.10.24, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 75 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 2.000
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 11
+COMMENT: RAW_SPEC {'027_HEP_SOL3_SUP_neg_Spiking_106': {'bp': 90940.0, 'sum': 252680.0}, '033_Spikesol_6666ppb_diluted10_neg_Spiking_888': {'bp': 38376.0, 'sum': 145655.0}, '033_Spikesol_6666ppb_diluted10_neg_Spiking_768': {'bp': 50881.0, 'sum': 191835.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_668': {'bp': 51476.0, 'sum': 165668.0}, '028_HT_SOL2_SUP_neg_Spiking_790': {'bp': 44036.0, 'sum': 154610.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_755': {'bp': 44627.0, 'sum': 132347.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_841': {'bp': 44450.0, 'sum': 145111.0}, '028_HT_SOL2_SUP_neg_Spiking_878': {'bp': 47347.0, 'sum': 158324.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_930': {'bp': 46097.0, 'sum': 143282.0}, '022_Spikesol_6666ppb_diluted10_neg_Spiking_548': {'bp': 60845.0, 'sum': 174452.0}, '016_HEP_SOL1_LYS_neg_Spiking_105': {'bp': 76812.0, 'sum': 262017.0}}
+COMMENT: RETENTION_TIME_STDEV 0.521
+COMMENT: PRECURSOR_M/Z_RAW 238.968733
+COMMENT: PRECURSOR_M/Z_STDEV 0.000064
+COMMENT: PRECURSOR_IN_MS1 mz 238.968741; int 11.580; delta(ppm) 0.031803
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 238.968739;  Observed in MS1 m/z 238.968739; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.185
+MS$FOCUSED_ION: PRECURSOR_M/Z 238.968739
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-052r-6290000000-236fd9c841e34970fba7
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  59.0137392 902.0977 ? 59.013592 0.2203 120.58 -0.3818 11
+  154.9669082 76.7899 ? 154.966908 1.7488 19.10 -0.3091 11
+  160.8927840 84.7427 ? 160.892784 1.0566 18.27 -0.0333 10
+  178.9673110 72.0461 ? 178.967311 2.1009 23.23 -0.0667 10
+  196.9787210 90.2434 ? 196.978721 2.2033 23.84 -0.3939 10
+  220.8595663 58.0186 ? 220.859566 2.0194 10.56 -0.2500 8
+  238.8697191 999.0000 ? 238.869719 0.4061 63.84 0.3212 11
+  238.9686490 63.2366 ? 238.968649 2.1300 20.75 1.0000 10
+  238.9882382 151.4927 ? 238.988238 1.8578 42.00 -0.2485 11
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  59.013739 902.10 902
+  154.966908 76.79 76
+  160.892784 84.74 84
+  178.967311 72.05 72
+  196.978721 90.24 90
+  220.859566 58.02 58
+  238.869719 999.00 999
+  238.968649 63.24 63
+  238.988238 151.49 151
+//

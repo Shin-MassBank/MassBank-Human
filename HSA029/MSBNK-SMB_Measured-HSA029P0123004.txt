@@ -1,0 +1,245 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0123004
+RECORD_TITLE: isonicotinamide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2025.10.31 (Averaged 2025.09.24, Processed 2025.09.24, Annotated 2025.10.10, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotataed at Level 3b using a criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 153 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.500
+COMMENT: MS2_M/Z_AVERAGED_THRES 7.000
+COMMENT: DATASET_FILE_NUM 70
+COMMENT: NUM_AVERAGED_SPEC 153
+COMMENT: RAW_SPEC {'060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_1950': {'bp': 739900.0, 'sum': 1151141.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_1709': {'bp': 353755.0, 'sum': 661152.0}, '057_HT_SOL2_LYS_pos_Spiking_1779': {'bp': 355179.0, 'sum': 599219.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_1797': {'bp': 365112.0, 'sum': 693931.0}, '068_HT_SOL3_SUP_pos_Spiking_2784': {'bp': 389952.0, 'sum': 751124.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_1941': {'bp': 393999.0, 'sum': 665785.0}, '068_HT_SOL3_SUP_pos_Spiking_2509': {'bp': 398824.0, 'sum': 813716.0}, '067_HT_SOL2_SUP_pos_Spiking_1803': {'bp': 407989.0, 'sum': 745547.0}, '068_HT_SOL3_SUP_pos_Spiking_2188': {'bp': 416083.0, 'sum': 855897.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2460': {'bp': 454378.0, 'sum': 882107.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2730': {'bp': 473135.0, 'sum': 896015.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2725': {'bp': 202797.0, 'sum': 408423.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2339': {'bp': 226037.0, 'sum': 472818.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2778': {'bp': 234776.0, 'sum': 420955.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_2821': {'bp': 235434.0, 'sum': 478000.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_2712': {'bp': 280521.0, 'sum': 540630.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_1984': {'bp': 302141.0, 'sum': 582257.0}, '066_HEP_SOL3_SUP_pos_Spiking_1679': {'bp': 305402.0, 'sum': 560278.0}, '056_HEP_SOL3_LYS_pos_Spiking_1755': {'bp': 315255.0, 'sum': 560345.0}, '057_HT_SOL2_LYS_pos_Spiking_2317': {'bp': 347317.0, 'sum': 575713.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2325': {'bp': 357712.0, 'sum': 589400.0}, '057_HT_SOL2_LYS_pos_Spiking_1865': {'bp': 360853.0, 'sum': 590441.0}, '057_HT_SOL2_LYS_pos_Spiking_1954': {'bp': 374295.0, 'sum': 620074.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2705': {'bp': 416018.0, 'sum': 797720.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2567': {'bp': 606294.0, 'sum': 945373.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2128': {'bp': 187785.0, 'sum': 345418.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2220': {'bp': 205223.0, 'sum': 369897.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1689': {'bp': 223261.0, 'sum': 457633.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1867': {'bp': 235313.0, 'sum': 456149.0}, '067_HT_SOL2_SUP_pos_Spiking_2090': {'bp': 273271.0, 'sum': 533218.0}, '056_HEP_SOL3_LYS_pos_Spiking_2396': {'bp': 282098.0, 'sum': 529868.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2690': {'bp': 284117.0, 'sum': 480671.0}, '057_HT_SOL2_LYS_pos_Spiking_2759': {'bp': 304072.0, 'sum': 533521.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2417': {'bp': 310420.0, 'sum': 558147.0}, '057_HT_SOL2_LYS_pos_Spiking_1691': {'bp': 346314.0, 'sum': 602171.0}, '067_HT_SOL2_SUP_pos_Spiking_1706': {'bp': 352831.0, 'sum': 655530.0}, '057_HT_SOL2_LYS_pos_Spiking_2231': {'bp': 357414.0, 'sum': 618492.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2530': {'bp': 384811.0, 'sum': 772449.0}, '067_HT_SOL2_SUP_pos_Spiking_1998': {'bp': 394371.0, 'sum': 695303.0}, '068_HT_SOL3_SUP_pos_Spiking_1986': {'bp': 500600.0, 'sum': 930704.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2044': {'bp': 568565.0, 'sum': 1051922.0}, '068_HT_SOL3_SUP_pos_Spiking_1899': {'bp': 616418.0, 'sum': 1119558.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2391': {'bp': 640484.0, 'sum': 996596.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_1698': {'bp': 734920.0, 'sum': 1289064.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2559': {'bp': 203029.0, 'sum': 380601.0}, '055_HEP_SOL1_LYS_pos_Spiking_2273': {'bp': 219574.0, 'sum': 415707.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2154': {'bp': 253923.0, 'sum': 460451.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_1850': {'bp': 340166.0, 'sum': 575787.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2345': {'bp': 345738.0, 'sum': 671393.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2502': {'bp': 355046.0, 'sum': 606022.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2820': {'bp': 410182.0, 'sum': 804616.0}, '068_HT_SOL3_SUP_pos_Spiking_2410': {'bp': 422317.0, 'sum': 877775.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_1688': {'bp': 537683.0, 'sum': 859523.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2303': {'bp': 591920.0, 'sum': 944357.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2470': {'bp': 195888.0, 'sum': 361489.0}, '056_HEP_SOL3_LYS_pos_Spiking_2666': {'bp': 239640.0, 'sum': 457628.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2516': {'bp': 286078.0, 'sum': 501143.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_1852': {'bp': 375290.0, 'sum': 624935.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2816': {'bp': 396604.0, 'sum': 783636.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2215': {'bp': 543545.0, 'sum': 854545.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2655': {'bp': 616584.0, 'sum': 953808.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2039': {'bp': 672370.0, 'sum': 1073913.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2479': {'bp': 679097.0, 'sum': 1059608.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1752': {'bp': 218890.0, 'sum': 389254.0}, '056_HEP_SOL3_LYS_pos_Spiking_2216': {'bp': 268319.0, 'sum': 486720.0}, '056_HEP_SOL3_LYS_pos_Spiking_2580': {'bp': 275231.0, 'sum': 493627.0}, '055_HEP_SOL1_LYS_pos_Spiking_1664': {'bp': 276341.0, 'sum': 491143.0}, '056_HEP_SOL3_LYS_pos_Spiking_2306': {'bp': 276463.0, 'sum': 510783.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1775': {'bp': 283677.0, 'sum': 518143.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2141': {'bp': 283760.0, 'sum': 499694.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2025': {'bp': 331154.0, 'sum': 569814.0}, '057_HT_SOL2_LYS_pos_Spiking_2494': {'bp': 352813.0, 'sum': 596959.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2905': {'bp': 380054.0, 'sum': 805343.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2149': {'bp': 502333.0, 'sum': 968590.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2643': {'bp': 506429.0, 'sum': 957306.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2525': {'bp': 220045.0, 'sum': 432204.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2153': {'bp': 239225.0, 'sum': 463929.0}, '055_HEP_SOL1_LYS_pos_Spiking_1752': {'bp': 257746.0, 'sum': 478891.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2339': {'bp': 277300.0, 'sum': 507961.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_1895': {'bp': 301841.0, 'sum': 572502.0}, '056_HEP_SOL3_LYS_pos_Spiking_1931': {'bp': 314371.0, 'sum': 547456.0}, '068_HT_SOL3_SUP_pos_Spiking_2290': {'bp': 359963.0, 'sum': 686364.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_1863': {'bp': 644884.0, 'sum': 1026274.0}, '056_HEP_SOL3_LYS_pos_Spiking_2767': {'bp': 207889.0, 'sum': 388096.0}, '055_HEP_SOL1_LYS_pos_Spiking_2359': {'bp': 221625.0, 'sum': 446988.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2251': {'bp': 221907.0, 'sum': 458889.0}, '056_HEP_SOL3_LYS_pos_Spiking_1844': {'bp': 307837.0, 'sum': 562664.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2744': {'bp': 514779.0, 'sum': 807135.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_1882': {'bp': 617210.0, 'sum': 1093960.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2769': {'bp': 276650.0, 'sum': 496613.0}, '057_HT_SOL2_LYS_pos_Spiking_2405': {'bp': 337843.0, 'sum': 593043.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2028': {'bp': 364444.0, 'sum': 614328.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2590': {'bp': 366769.0, 'sum': 599628.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_1971': {'bp': 629816.0, 'sum': 1114711.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_1788': {'bp': 649203.0, 'sum': 1131002.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_1775': {'bp': 660594.0, 'sum': 1023389.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2636': {'bp': 218521.0, 'sum': 444708.0}, '056_HEP_SOL3_LYS_pos_Spiking_2490': {'bp': 265027.0, 'sum': 471525.0}, '057_HT_SOL2_LYS_pos_Spiking_2672': {'bp': 301426.0, 'sum': 508806.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2557': {'bp': 419377.0, 'sum': 799342.0}, '055_HEP_SOL1_LYS_pos_Spiking_2560': {'bp': 235611.0, 'sum': 458364.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2239': {'bp': 345508.0, 'sum': 577319.0}, '055_HEP_SOL1_LYS_pos_Spiking_2449': {'bp': 248119.0, 'sum': 478799.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1846': {'bp': 173447.0, 'sum': 349438.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2812': {'bp': 223057.0, 'sum': 431832.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2054': {'bp': 247046.0, 'sum': 484312.0}, '060_HT_SOL2_LYS_Spike_666ppb_pos_Spiking_2128': {'bp': 422584.0, 'sum': 699579.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2654': {'bp': 195517.0, 'sum': 353240.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2040': {'bp': 183328.0, 'sum': 335952.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2427': {'bp': 311295.0, 'sum': 582200.0}, '055_HEP_SOL1_LYS_pos_Spiking_1841': {'bp': 301057.0, 'sum': 510740.0}, '057_HT_SOL2_LYS_pos_Spiking_2142': {'bp': 292622.0, 'sum': 524015.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_1674': {'bp': 292517.0, 'sum': 509624.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2251': {'bp': 269146.0, 'sum': 483263.0}, '055_HEP_SOL1_LYS_pos_Spiking_2029': {'bp': 265903.0, 'sum': 491712.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_1677': {'bp': 263824.0, 'sum': 471254.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2361': {'bp': 204533.0, 'sum': 370396.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_1868': {'bp': 660086.0, 'sum': 1144008.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2442': {'bp': 435062.0, 'sum': 856437.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2616': {'bp': 408092.0, 'sum': 811699.0}, '068_HT_SOL3_SUP_pos_Spiking_2870': {'bp': 389092.0, 'sum': 758101.0}, '057_HT_SOL2_LYS_pos_Spiking_2583': {'bp': 325847.0, 'sum': 562065.0}, '056_HEP_SOL3_LYS_pos_Spiking_2021': {'bp': 288190.0, 'sum': 528640.0}, '069_HEP_SOL3_SUP_Spike_666ppb_pos_Spiking_2437': {'bp': 257625.0, 'sum': 609806.0}, '056_HEP_SOL3_LYS_pos_Spiking_2121': {'bp': 207155.0, 'sum': 401632.0}, '068_HT_SOL3_SUP_pos_Spiking_1725': {'bp': 601293.0, 'sum': 1025470.0}, '068_HT_SOL3_SUP_pos_Spiking_1813': {'bp': 559755.0, 'sum': 993275.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_2133': {'bp': 449086.0, 'sum': 828970.0}, '067_HT_SOL2_SUP_pos_Spiking_2443': {'bp': 268193.0, 'sum': 601026.0}, '068_HT_SOL3_SUP_pos_Spiking_2686': {'bp': 398694.0, 'sum': 735194.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_1764': {'bp': 376016.0, 'sum': 645036.0}, '067_HT_SOL2_SUP_pos_Spiking_1904': {'bp': 366299.0, 'sum': 662565.0}, '055_HEP_SOL1_LYS_pos_Spiking_2174': {'bp': 209560.0, 'sum': 387053.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_1780': {'bp': 607079.0, 'sum': 1067603.0}, '057_HT_SOL2_LYS_pos_Spiking_2043': {'bp': 337774.0, 'sum': 602754.0}, '067_HT_SOL2_SUP_pos_Spiking_2595': {'bp': 281889.0, 'sum': 557062.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_2603': {'bp': 275621.0, 'sum': 509508.0}, '055_HEP_SOL1_LYS_pos_Spiking_2669': {'bp': 224445.0, 'sum': 403734.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1953': {'bp': 212449.0, 'sum': 400564.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_2746': {'bp': 192678.0, 'sum': 333825.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2059': {'bp': 557352.0, 'sum': 1014848.0}, '070_HT_SOL2_SUP_Spike_666ppb_pos_Spiking_1957': {'bp': 568602.0, 'sum': 1051430.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_1763': {'bp': 352991.0, 'sum': 585144.0}, '056_HEP_SOL3_LYS_pos_Spiking_1667': {'bp': 287020.0, 'sum': 507618.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_2428': {'bp': 249751.0, 'sum': 492621.0}, '072_Spikesol_6666ppb_diluted10_pos_Spiking_1966': {'bp': 264395.0, 'sum': 499837.0}, '059_HEP_SOL3_LYS_Spike_666ppb_pos_Spiking_2677': {'bp': 323595.0, 'sum': 561501.0}, '058_HEP_SOL1_LYS_Spike_666ppb_pos_Spiking_1941': {'bp': 287805.0, 'sum': 508301.0}, '061_Spikesol_6666ppb_diluted10_pos_Spiking_1659': {'bp': 179317.0, 'sum': 328098.0}, '068_HT_SOL3_SUP_pos_Spiking_2596': {'bp': 398507.0, 'sum': 820012.0}, '055_HEP_SOL1_LYS_pos_Spiking_1933': {'bp': 301058.0, 'sum': 549325.0}, '071_HT_SOL3_SUP_Spike_666ppb_pos_Spiking_2361': {'bp': 466640.0, 'sum': 892589.0}, '068_HT_SOL3_SUP_pos_Spiking_2091': {'bp': 442140.0, 'sum': 816630.0}}
+COMMENT: RETENTION_TIME_STDEV 0.610
+COMMENT: PRECURSOR_M/Z_RAW 123.055244
+COMMENT: PRECURSOR_M/Z_STDEV 0.000039
+COMMENT: PRECURSOR_IN_MS1 mz 123.055324; int 6.875; delta(ppm) 2.470939
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+NH4; M+IsoProp+H; mz 166.086634; int 64.011; cor 0.759
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 0.320; C6H6N2O; [M+H]+; delta(ppm) 0.319546
+COMMENT: PROPOSED_MF SevenGoldenRules 0.390; C6H3NO; [M+NH4]+; delta(ppm) 0.390396
+COMMENT: PROPOSED_MF MS-FINDER 4.224; C6H6N2O; [M+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF MS-FINDER 2.381; C6H3NO; [M+NH4]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.640; C6H6N2O; [M+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 2.607; C4H11O2P; [M+H]+; delta(ppm) -13.107971
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.851; C5H11ClO; [M+H]+; delta(ppm) -163214.072885
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.393; C6H3NO; [M+H3N+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.393; C6H6N2O; [M+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.890; C3H4FNO2; [M+H3N+H]+; delta(ppm) -8.970795
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.890; C3H7FN2O2; [M+H]+; delta(ppm) -8.970795
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.839; C2H6N2OP; [M+H3N+H]+; delta(ppm) -2.197082
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.839; C2H9N3OP; [M+H]+; delta(ppm) -2.197082
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.997; C4H11O2P; [M+H]+; delta(ppm) -13.107971
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.046; C5H11ClO; [M+H]+; delta(ppm) -163214.072885
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.886; C3H6ClN2; [M+H3N+H]+; delta(ppm) -226338.517712
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.886; C3H9ClN3; [M+H]+; delta(ppm) -163206.432777
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.859; C4HN4; [M+H3N+H]+; delta(ppm) 11.225999
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.859; C4H4N5; [M+H]+; delta(ppm) 11.225999
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -2.812; CH5N4S; [M+H3N+H]+; delta(ppm) -16.169084
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -2.812; CH8N5S; [M+H]+; delta(ppm) -16.169084
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -6.527; H4N5P; [M+H3N+H]+; delta(ppm) 8.714046
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -6.527; H7N6P; [M+H]+; delta(ppm) 8.714046
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H3NO; [M+H3N+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.314817
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 57.000; DFPAKSUCGFBDDF-UHFFFAOYSA-N; C6H6N2O; nicotinamide CollisionEnergy:205060
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; VFQXVTODMYMSMJ-UHFFFAOYSA-N; C6H6N2O; Massbank:KO003232 IsonicotinamideIsonicotineamide
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; IBBMAWULFFBRKK-UHFFFAOYSA-N; C6H6N2O; Massbank:KO003873 Picolinamide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.075; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; NC(=O)C1=CC=CN=C1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.994; VFQXVTODMYMSMJ-UHFFFAOYSA-N; [M+H]+; NC(=O)C1=CC=NC=C1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.944; NDEGFXFYOKVWAK-UHFFFAOYSA-N; [M+H]+; C1=CN=CC(=C1C=O)N
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.883; NOCSAAHHSOQRCI-UHFFFAOYSA-N; [M+H]+; C1=CC=NC(=C1)NC=O
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.856; HZKPKAKLGRSCJS-UHFFFAOYSA-N; [M+H]+; C1C=COC2=C1C=NN2
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.397; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.875; HZKPKAKLGRSCJS-UHFFFAOYSA-N; [M+H]+; 1,4-dihydropyrano[2,3-c]pyrazole
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.564; IBBMAWULFFBRKK-UHFFFAOYSA-N; [M+H]+; picolinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.564; VFQXVTODMYMSMJ-UHFFFAOYSA-N; [M+H]+; isonicotinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.430; UFGLSUVQFZLTJW-UHFFFAOYSA-N; [M+H]+; 5H-imidazo[2,1-b][1,3]oxazine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.419; NDEGFXFYOKVWAK-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.419; QNJCRBZVUFRESB-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.240; YBKOPFQCLSPTPV-UHFFFAOYSA-N; [M+H]+; pyridine-3-carbaldehyde oxime
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.188; MTFJSAGADRTKCI-UHFFFAOYSA-N; [M+H]+; N-(pyridin-2-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.188; OFYLBLSSPQTTHT-VMPITWQZSA-N; [M+H]+; (NE)-N-(pyridin-4-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.181; DBZAKQWXICEWNW-UHFFFAOYSA-N; [M+H]+; 2-Acetylpyrazine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.177; NOCSAAHHSOQRCI-UHFFFAOYSA-N; [M+H]+; N-pyridin-2-ylformamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.005; CRXRBDHMQXENCG-UHFFFAOYSA-N; [M+H]+; 3-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.005; UGHCXFVGHWJJOG-UHFFFAOYSA-N; [M+H]+; 2-methyl-6-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.982; LEZBFHGIYQRUDL-UHFFFAOYSA-N; [M+H]+; 4-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.925; NZNHTKNELYIQNB-UHFFFAOYSA-N; [M+H]+; 2-(nitrosomethyl)pyridine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.925; OVXGURQHDBLCBY-UHFFFAOYSA-N; [M+H]+; 4-(nitrosomethyl)pyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VFQXVTODMYMSMJ-UHFFFAOYSA-N; [M+H]+; isonicotinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.976; IBBMAWULFFBRKK-UHFFFAOYSA-N; [M+H]+; picolinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.974; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.917; QNJCRBZVUFRESB-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.915; NDEGFXFYOKVWAK-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.772; MTFJSAGADRTKCI-UHFFFAOYSA-N; [M+H]+; N-(pyridin-2-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.771; YBKOPFQCLSPTPV-UHFFFAOYSA-N; [M+H]+; pyridine-3-carbaldehyde oxime
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.771; OFYLBLSSPQTTHT-VMPITWQZSA-N; [M+H]+; (NE)-N-(pyridin-4-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.765; NOCSAAHHSOQRCI-UHFFFAOYSA-N; [M+H]+; N-pyridin-2-ylformamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.760; HZKPKAKLGRSCJS-UHFFFAOYSA-N; [M+H]+; 1,4-dihydropyrano[2,3-c]pyrazole
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.716; NZNHTKNELYIQNB-UHFFFAOYSA-N; [M+H]+; 2-(nitrosomethyl)pyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.715; OVXGURQHDBLCBY-UHFFFAOYSA-N; [M+H]+; 4-(nitrosomethyl)pyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.615; CRXRBDHMQXENCG-UHFFFAOYSA-N; [M+H]+; 3-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.615; LEZBFHGIYQRUDL-UHFFFAOYSA-N; [M+H]+; 4-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.589; UGHCXFVGHWJJOG-UHFFFAOYSA-N; [M+H]+; 2-methyl-6-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.478; DBZAKQWXICEWNW-UHFFFAOYSA-N; [M+H]+; 2-Acetylpyrazine
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.473; UFGLSUVQFZLTJW-UHFFFAOYSA-N; [M+H]+; 5H-imidazo[2,1-b][1,3]oxazine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.974; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; pyridine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.519; IBBMAWULFFBRKK-UHFFFAOYSA-N; [M+H]+; pyridine-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.439; VFQXVTODMYMSMJ-UHFFFAOYSA-N; [M+H]+; pyridine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.218; YBKOPFQCLSPTPV-YVMONPNESA-N; [M+H]+; (NZ)-N-(pyridin-3-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.068; IPEZLDLJNUPTMI-UHFFFAOYSA-N; [M+H]+; 2-amino-4-methylfuran-3-carbonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.059; NXMFJCRMSDRXLD-UHFFFAOYSA-N; [M+H]+; 2-aminopyridine-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.035; BMNPVMQSUPTGFD-UHFFFAOYSA-N; [M+H]+; 6-aminopyridine-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.032; QNJCRBZVUFRESB-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.028; NDEGFXFYOKVWAK-UHFFFAOYSA-N; [M+H]+; 3-aminopyridine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.010; MTFJSAGADRTKCI-VMPITWQZSA-N; [M+H]+; (NE)-N-(pyridin-2-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.996; OFYLBLSSPQTTHT-VMPITWQZSA-N; [M+H]+; (NE)-N-(pyridin-4-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.990; GTPZHMGXKZIHKW-UHFFFAOYSA-N; [M+H]+; 4-aminopyridine-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.975; AIBYYQLJOMFINU-UHFFFAOYSA-N; [M+H]+; 5-(aminomethyl)furan-2-carbonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.946; DBZAKQWXICEWNW-UHFFFAOYSA-N; [M+H]+; 1-pyrazin-2-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.896; MNYHPCBHCDWOKS-UHFFFAOYSA-N; [M+H]+; 2-(4-methyl-1,2-oxazol-3-yl)acetonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.891; NOCSAAHHSOQRCI-UHFFFAOYSA-N; [M+H]+; N-pyridin-2-ylformamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.877; FBAMWFMIJZIVKS-UHFFFAOYSA-N; [M+H]+; 5,6-dihydro-1H-cyclopenta[c]pyrazol-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.837; SALQMMXSINGXMI-UHFFFAOYSA-N; [M+H]+; 4-nitrosoaniline
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.824; WYPZNJNOPIFFMQ-UHFFFAOYSA-N; [M+H]+; 2-(2-methyl-1,3-oxazol-4-yl)acetonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.820; OPKGSXZJDAALJL-UHFFFAOYSA-N; [M+H]+; 6-methylpyridazine-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.812; FMCBKOOPDBRCGZ-UHFFFAOYSA-N; [M+H]+; 2-(5-methyl-1,2-oxazol-3-yl)acetonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.810; NBLIVFMKDQOTHN-UHFFFAOYSA-N; [M+H]+; 3,5-dimethyl-1,2-oxazole-4-carbonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.781; FTSKLNSVINAQGJ-UHFFFAOYSA-N; [M+H]+; 1-pyridazin-3-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.780; IWFYWGOLMZIBQB-UHFFFAOYSA-N; [M+H]+; 1-pyridazin-4-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.776; PHYGYYHJSAGREB-UHFFFAOYSA-N; [M+H]+; 2-(2-methyl-1,3-oxazol-5-yl)acetonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.759; OEICGMPRFOJHKO-UHFFFAOYSA-N; [M+H]+; 2-(ethoxymethylidene)propanedinitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.682; PRSLZFDVLMBABM-UHFFFAOYSA-N; [M+H]+; 1-ethenylpyrazole-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.676; UVJSZAAUOFNPPG-UHFFFAOYSA-N; [M+H]+; 6-methylpyrimidine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.676; WVJQNZDDJVKNTJ-UHFFFAOYSA-N; [M+H]+; 4-methylpyrimidine-5-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.676; LGJYVWPNGISHBU-UHFFFAOYSA-N; [M+H]+; 5-methylpyrimidine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.657; IJBONYUNKRDIFC-UHFFFAOYSA-N; [M+H]+; 2-methylpyrimidine-5-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.655; BXHGNAADUUXBKK-UHFFFAOYSA-N; [M+H]+; 2-methylpyrimidine-4-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.654; NLLAFZNIRAPTBK-UHFFFAOYSA-N; [M+H]+; 3-methylpyrazine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.643; JUPFEWGPEBACJP-UHFFFAOYSA-N; [M+H]+; 5-methylpyrazine-2-carbaldehyde
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.612; COTYNDRSENVEFI-UHFFFAOYSA-N; [M+H]+; 1-pyrimidin-5-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.605; JXQCJYNMPFHDED-UHFFFAOYSA-N; [M+H]+; 5,6-dihydropyrrolo[1,2-a]imidazol-7-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.580; SPZUXKZZYDALEY-UHFFFAOYSA-N; [M+H]+; 1-pyrimidin-2-ylethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.725; VFQXVTODMYMSMJ; [M+H]+; Isonicotinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.993; DFPAKSUCGFBDDF; [M+H]+; Amide PP
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -39.616; IBBMAWULFFBRKK; [M+H]+; Picolinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -111.400; YBKOPFQCLSPTPV; [M+H]+; bmse000621
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -114.431; OFYLBLSSPQTTHT; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -118.679; MTFJSAGADRTKCI; [M+H]+; N-oxido-1-pyridin-2-ylmethanimine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -134.562; NDEGFXFYOKVWAK; [M+H]+; 3-Amino-4-formylpyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -135.158; GTPZHMGXKZIHKW; [M+H]+; zlchem 837
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -142.286; JUPFEWGPEBACJP; [M+H]+; 2-Formyl-5-methylpyrazine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -146.975; LEZBFHGIYQRUDL; [M+H]+; 4-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -147.286; NXMFJCRMSDRXLD; [M+H]+; 2-Aminonicotinaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -151.119; CRXRBDHMQXENCG; [M+H]+; 3-methyl-2-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -152.395; DBZAKQWXICEWNW; [M+H]+; zlchem 353
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -159.632; UGHCXFVGHWJJOG; [M+H]+; 2-methyl-6-nitrosopyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -160.131; IWFYWGOLMZIBQB; [M+H]+; 1-(Pyridazin-4-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -163.835; OPKGSXZJDAALJL; [M+H]+; 3-Pyridazinecarboxaldehyde, 6-methyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -188.395; LGJYVWPNGISHBU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -188.935; SPZUXKZZYDALEY; [M+H]+; 2-acetylpyrimidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -189.190; SALQMMXSINGXMI; [M+H]+; 4-Nitrosoaniline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -192.287; WVJQNZDDJVKNTJ; [M+H]+; 4-methylpyrimidine-5-carbaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -197.934; IJBONYUNKRDIFC; [M+H]+; 5-Formyl-2-methylpyrimidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -272.348; OEICGMPRFOJHKO; [M+H]+; 1-Ethoxy-2,2-dicyanoethene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -351.012; UFGLSUVQFZLTJW; [M+H]+; 5H-imidazo[2,1-b][1,3]oxazine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.336; VFQXVTODMYMSMJ; [M+H]+; Isonicotinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -29.760; VFQXVTODMYMSMJ; [M+H]+; pyridine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -33.079; DFPAKSUCGFBDDF; [M+H]+; Niacin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -42.257; ZGXAGDBDEUHHPK; [M+H3N+H]+; Nitrosocyclohexatriene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -43.547; GQTQLSCRSBJTTO; [M+H3N+H]+; Pyridin-4-ylmethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.594; IBBMAWULFFBRKK; [M+H]+; pyridine-2-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -68.307; YBKOPFQCLSPTPV; [M+H]+; 3-pyridine aldoxime
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -68.492; CZCKSNINBUTNMA; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -70.356; OFYLBLSSPQTTHT; [M+H]+; N-(pyridin-1-ium-4-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.374; MTFJSAGADRTKCI; [M+H]+; N-(pyridin-1-ium-2-ylmethylidene)hydroxylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.413; GLUUOEGHFMYEKA; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.798; BMNPVMQSUPTGFD; [M+H]+; 6-Aminonicotinaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.943; NDEGFXFYOKVWAK; [M+H]+; 3-Aminoisonicotinaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -83.583; GTPZHMGXKZIHKW; [M+H]+; 4-Aminonicotinaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -84.957; NXMFJCRMSDRXLD; [M+H]+; 2-Aminopyridin-1-ium-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -92.021; DJAIWDGHJPTLNN; [M+H3N+H]+; Pyridine ketone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -97.081; STOADAOQEBSYHR; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -100.168; QHSFRHNMMZOONI; [M+H3N+H]+; 2-Azabicyclo[3.1.1]hepta-1,3,5(7)-trien-6-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -106.483; KWGIJJRDLOILSQ; [M+H3N+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -112.012; WMQDTTDVNMTVDE; [M+H3N+H]+; 3-Azabicyclo[4.1.0]hepta-1(6),2,4-trien-7-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -115.294; CVJAQMDZHXSQPA; [M+H3N+H]+; Pyrylium-4-carbonitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.798; VFQXVTODMYMSMJ; [M+H]+; pyridine-4-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.015; ZGXAGDBDEUHHPK; [M+H3N+H]+; Nitrosocyclohexatriene
+COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3)
+CH$NAME: isonicotinamide
+CH$NAME: pyridine-4-carboxamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H6N2O
+CH$EXACT_MASS: 122.048013
+CH$SMILES: C1=CN=CC=C1C(=O)N
+CH$IUPAC: InChI=1S/C6H6N2O/c7-6(9)5-1-3-8-4-2-5/h1-4H,(H2,7,9)
+CH$LINK: INCHIKEY VFQXVTODMYMSMJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:15074
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 7.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.774
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 123.055328
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-3900000000-32ebfe535e48efdeac65
+PK$ANNOTATION: m/z int m/z_nocal m/z_std(ppm) int_std cor n annotation
+  53.0388960 10.2375 53.039380 1.2444 3.55 0.5576 125 f{C4H5}/6.02ppm,p-C2H2N2O1
+  67.0544865 13.7900 67.054950 1.4018 5.47 0.3625 147 f{C5H7}/3.88ppm,p-C1N2O1
+  78.0340459 13.3053 78.034450 1.4737 3.02 0.7952 148 f{C5H4N1}/2.82ppm,p-C1H3N1O1
+  79.0544233 13.0251 79.054820 1.4547 5.53 0.1918 145 f{C6H7}/2.49ppm,p-N2O1
+  80.0498209 267.2586 80.050210 0.7620 17.23 0.9817 153 f{C5H6N1}/4.31ppm,p-C1H1N1O1
+  81.0700990 13.8249 81.070480 1.4309 6.53 -0.2382 149 ?
+  95.0496925 81.5280 95.049930 1.6939 42.79 0.4591 153 f{C6H7O1}/5.80ppm,p-N2
+  95.0608175 14.7861 95.061055 1.9672 7.09 0.4921 120 f{C5H7N2}/4.66ppm,p-C1O1
+  96.0449323 95.5011 96.045170 1.6555 10.81 0.9414 153 f{C5H6N1O1}/5.64ppm,p-C1H1N1
+  105.0451831 12.7532 105.045420 1.7802 5.28 0.5770 138 f{C6H5N2}/4.37ppm,p-H2O1
+  106.0293534 26.0387 106.029590 2.2164 5.91 0.8424 153 f{C6H4N1O1}/5.78ppm,p-H3N1
+  123.0447563 42.0427 123.044980 1.3897 16.15 0.6429 136 ?
+  123.0560463 999.0000 123.056270 3.8844 0.00 1.0000 152 f{C6H7N2O1}/6.15ppm,p
+  123.0809264 15.4199 123.081150 2.0637 8.59 0.4779 112 ?
+  123.0923864 54.4346 123.092610 3.6477 35.97 0.4917 153 ?
+  123.1004364 22.6435 123.100660 1.7384 13.18 -0.1680 127 ?
+  124.0400875 27.5004 124.040310 3.2006 5.61 0.8424 153 ?
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+  53.038896 10.24 10
+  67.054486 13.79 13
+  78.034046 13.31 13
+  79.054423 13.03 13
+  80.049821 267.26 267
+  81.070099 13.82 13
+  95.049692 81.53 81
+  95.060817 14.79 14
+  96.044932 95.50 95
+  105.045183 12.75 12
+  106.029353 26.04 26
+  123.044756 42.04 42
+  123.056046 999.00 999
+  123.080926 15.42 15
+  123.092386 54.43 54
+  123.100436 22.64 22
+  124.040088 27.50 27
+//

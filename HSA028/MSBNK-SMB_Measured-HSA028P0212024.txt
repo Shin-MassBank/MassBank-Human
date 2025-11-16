@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0212024
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.23, Processed 2025.09.23, Annotated 2025.10.24, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 75 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 2.000
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 12
+COMMENT: RAW_SPEC {'029_HT_SOL3_SUP_neg_Spiking_6537': {'bp': 158700.0, 'sum': 209129.0}, '030_HEP_SOL3_SUP_Spike_666ppb_neg_Spiking_6270': {'bp': 74473.0, 'sum': 111745.0}, '029_HT_SOL3_SUP_neg_Spiking_6328': {'bp': 107522.0, 'sum': 144616.0}, '031_HT_SOL2_SUP_Spike_666ppb_neg_Spiking_6419': {'bp': 73400.0, 'sum': 108398.0}, '032_HT_SOL3_SUP_Spike_666ppb_neg_Spiking_6529': {'bp': 112870.0, 'sum': 149537.0}, '031_HT_SOL2_SUP_Spike_666ppb_neg_Spiking_6255': {'bp': 120167.0, 'sum': 163222.0}, '032_HT_SOL3_SUP_Spike_666ppb_neg_Spiking_6418': {'bp': 96655.0, 'sum': 135257.0}, '029_HT_SOL3_SUP_neg_Spiking_6241': {'bp': 134742.0, 'sum': 165550.0}, '030_HEP_SOL3_SUP_Spike_666ppb_neg_Spiking_6566': {'bp': 123245.0, 'sum': 154097.0}, '032_HT_SOL3_SUP_Spike_666ppb_neg_Spiking_6323': {'bp': 76199.0, 'sum': 111145.0}, '029_HT_SOL3_SUP_neg_Spiking_6455': {'bp': 106456.0, 'sum': 155705.0}, '031_HT_SOL2_SUP_Spike_666ppb_neg_Spiking_6509': {'bp': 93946.0, 'sum': 130874.0}}
+COMMENT: RETENTION_TIME_STDEV 0.205
+COMMENT: PRECURSOR_M/Z_RAW 212.090288
+COMMENT: PRECURSOR_M/Z_STDEV 0.000090
+COMMENT: PRECURSOR_IN_MS1 mz 212.090323; int 5.872; delta(ppm) 0.162667
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 212.090324;  Observed in MS1 m/z 212.090324; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.189
+MS$FOCUSED_ION: PRECURSOR_M/Z 212.090324
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-140d44b5f70e4a47274b
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  59.0137999 40.9616 ? 59.013652 0.9150 14.23 0.2727 12
+  130.0872133 999.0000 ? 130.087213 0.1384 0.00 0.3273 12
+  212.0905400 32.8020 ? 212.090540 2.0180 7.73 1.0000 11
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  59.013800 40.96 40
+  130.087213 999.00 999
+  212.090540 32.80 32
+//

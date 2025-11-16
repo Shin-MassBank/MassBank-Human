@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA028P0469003
+RECORD_TITLE: Uncharacterized; LC-ESI-QFT; MS2; NEGATIVE; Averaged data
+DATE: 2025.10.31 (Averaged 2025.09.23, Processed 2025.09.23, Annotated 2025.10.24, Curated 2025.10.31)
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Flasch et al. ACS Chem Biol. 2020, 15, 4, 970-981
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at Level 5.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 75 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: MS1_M/Z_AVERAGED_THRES 1.000
+COMMENT: MS2_M/Z_AVERAGED_THRES 2.000
+COMMENT: DATASET_FILE_NUM 75
+COMMENT: NUM_AVERAGED_SPEC 15
+COMMENT: RAW_SPEC {'028_HT_SOL2_SUP_neg_Spiking_6403': {'bp': 41628.0, 'sum': 119870.0}, 'HT_DON3_LYS_017_neg_6508': {'bp': 37422.0, 'sum': 89157.0}, 'STD01_DONmix_037_neg_6503': {'bp': 32165.0, 'sum': 86763.0}, '033_Spikesol_6666ppb_diluted10_neg_Spiking_6449': {'bp': 31996.0, 'sum': 101065.0}, '031_HT_SOL2_SUP_Spike_666ppb_neg_Spiking_6504': {'bp': 31640.0, 'sum': 112001.0}, '030_HEP_SOL3_SUP_Spike_666ppb_neg_Spiking_6595': {'bp': 29762.0, 'sum': 89775.0}, '018_HT_SOL2_LYS_neg_Spiking_6504': {'bp': 27133.0, 'sum': 82430.0}, '032_HT_SOL3_SUP_Spike_666ppb_neg_Spiking_6484': {'bp': 26428.0, 'sum': 73816.0}, 'HT_SOL3_LYS_018_neg_6543': {'bp': 25515.0, 'sum': 67911.0}, 'HT_DON1_LYS_009_neg_6528': {'bp': 25444.0, 'sum': 80359.0}, 'HT_SOL2_LYS_014_neg_6440': {'bp': 22229.0, 'sum': 69037.0}, 'STD1_DONmix_038_neg_6651': {'bp': 22058.0, 'sum': 65280.0}, 'RECON_SOL_neg_6588': {'bp': 20467.0, 'sum': 57596.0}, 'HT_SOL3_LYS_018_neg_6631': {'bp': 20227.0, 'sum': 62151.0}, 'HT_SOL2_LYS_014_neg_6554': {'bp': 20093.0, 'sum': 59901.0}}
+COMMENT: RETENTION_TIME_STDEV 0.101
+COMMENT: PRECURSOR_M/Z_RAW 469.029460
+COMMENT: PRECURSOR_M/Z_STDEV 0.000579
+COMMENT: PRECURSOR_IN_MS1 mz 469.029361; int 13.486; delta(ppm) 0.788713
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ISOTOPE_STATE ND
+COMMENT: PROPOSED_MAX_NUM_S 0
+COMMENT: PROPOSED_MF SevenGoldenRules 0.515; C17H15N2O12P; [M-H]1; delta(ppm) 0.514854
+COMMENT: CONFIDENCE Exact mass of interest (Level 5); m/z 469.029225;  Observed in MS1 m/z 469.029225; Charge state Unknown;
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: Uncharacterized
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.2 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.374
+MS$FOCUSED_ION: PRECURSOR_M/Z 469.029225
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-052f-6900000000-f6b467bd3a21b2199bdc
+PK$ANNOTATION: m/z int annotation m/z_nocal m/z_std(ppm) int_std cor n
+  59.0137514 672.1228 ? 59.013604 0.9998 104.97 1.0000 15
+  141.0168867 999.0000 ? 141.016887 0.5319 0.00 0.7321 15
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  59.013751 672.12 672
+  141.016887 999.00 999
+//

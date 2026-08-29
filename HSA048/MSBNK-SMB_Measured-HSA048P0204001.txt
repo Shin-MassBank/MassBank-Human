@@ -1,0 +1,427 @@
+ACCESSION: MSBNK-SMB_Measured-HSA048P0204001
+RECORD_TITLE: N-acyl-alpha amino acids; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-CL
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-CL.
+COMMENT: This is an averaged mass spectra data created by averaging 22 product ion spectra among 33 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-CL (Tentative candidate, Class-supported); N-acyl-alpha amino acids; C8H13NO3S; [M+H]+
+COMMENT: EVIDENCE_INVENTORY [IS]; IS (In silico evidence) q-Value-like = 0.000114
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS7878
+COMMENT: DATASET_TITLE Circulating sepsis-related metabolite sphinganine could protect against intestinal damage during sepsis
+COMMENT: DATASET_AUTHORS Zetian Wang
+COMMENT: DATASET_PUBLICATION Wang Z et al. Circulating sepsis-related metabolite sphinganine could protect against intestinal damage during sepsis. Front Immunol, 14, 1151728 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37292192
+COMMENT: PRECURSOR_IN_MS1 mz 204.068735; int 58.855; delta(ppm) 0.044103
+COMMENT: MS1_SPEC {154.085984: 3, 154.989962: 37, 155.069953: 2, 156.101707: 3, 156.990393: 5, 157.075845: 1, 158.002622: 4, 158.059798: 1, 158.080987: 4, 158.117355: 2, 158.96115: 7, 158.985772: 2, 159.123849: 4, 160.042442: 23, 160.096658: 3, 161.045705: 1, 164.066674: 7, 164.070405: 14, 166.086029: 15, 167.012588: 33, 167.070016: 26, 167.998294: 3, 168.065339: 3, 168.101718: 2, 169.977058: 20, 170.080864: 2, 171.034313: 4, 171.148929: 2, 171.992726: 8, 172.096705: 1, 173.070744: 1, 174.058144: 5, 174.075893: 1, 175.086457: 1, 177.054429: 2, 180.044173: 14, 180.101665: 19, 181.014226: 2, 181.104965: 2, 182.080952: 9, 182.984903: 13, 185.091964: 4, 186.075901: 2, 186.956148: 3, 189.080356: 2, 190.992936: 3, 194.081: 2, 195.122531: 3, 195.993332: 3, 196.01658: 9, 196.096637: 8, 197.992351: 2, 199.029241: 7, 199.987759: 45, 204.068735: 58, 205.071747: 3, 206.06448: 1, 208.039201: 11, 208.096739: 3, 210.112294: 3, 212.128084: 1, 218.092172: 4, 223.988179: 4, 224.011607: 3, 227.117599: 1, 227.982564: 8, 235.169031: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 205.071747; int 3.223; cor 0.938
+COMMENT: PROPOSED_ION_FORM M+CH3OH+H; M+NH4; mz 189.069123; int 0.697; cor 0.812
+COMMENT: PROPOSED_MF SevenGoldenRules 0.808; C8H13NO3S; [M+H]+; delta(ppm) -0.807637
+COMMENT: PROPOSED_MF SevenGoldenRules 1.074; C10H10N3P; [M+H]+; delta(ppm) 1.073567
+COMMENT: PROPOSED_MF SevenGoldenRules 0.953; C7H9NO2S; [M+CH3OH+H]+; delta(ppm) -0.953020
+COMMENT: PROPOSED_MF Aggregated_ranking 0.9995669; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF Aggregated_ranking 0.0004331; C7H9NO2S; [M+CH4O+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF MS-FINDER 3.731; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF MS-FINDER 3.480; C7H9NO2S; [M+CH3OH+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 45.386; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.282; C7H9NO2S; [M+CH4O+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H9NO2S; [M+CH4O+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 65.503; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 65.503; C7H9NO2S; [M+CH4O+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 50.883; C7H13NO4Si; [M+H]+; delta(ppm) -238585.908233
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 50.883; C6H9NO3Si; [M+CH4O+H]+; delta(ppm) -319736.617497
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.109; C5H11F2NO5; [M+H]+; delta(ppm) 4.513695
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.109; C4H7F2NO4; [M+CH4O+H]+; delta(ppm) 4.513695
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 39.721; C6H11N4O2S; [M+H]+; delta(ppm) 5.772322
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 39.721; C5H7N4OS; [M+CH4O+H]+; delta(ppm) 5.772322
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 38.513; C4H9ClFN2O2; [M+CH4O+H]+; delta(ppm) -149951.477194
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.794; C2H8FN4O2S; [M+CH4O+H]+; delta(ppm) 0.172930
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.224; C10H9BO4; [M+H]+; delta(ppm) 51589.724720
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.224; C9H5BO3; [M+CH4O+H]+; delta(ppm) 51589.724720
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.729; C4H10FNO3S; [M+CH4O+H]+; delta(ppm) -6.406496
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.877; C2H11N4O7; [M+H]+; delta(ppm) -6.488784
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.877; CH7N4O6; [M+CH4O+H]+; delta(ppm) -6.488784
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.065; C6H17NOSi3; [M+H]+; delta(ppm) -238587.079451
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.065; C5H13NSi3; [M+CH4O+H]+; delta(ppm) -319737.552364
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.924; C11H8FN2O; [M+H]+; delta(ppm) -3.020169
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.861; C6H7F2N5O; [M+H]+; delta(ppm) -2.040064
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.433; CH5N11O2; [M+H]+; delta(ppm) -6.463059
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H9NO2S; [M+CH4O+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_MF q-value_like 0.0001190; C8H13NO3S; [M+H]+; delta(ppm) -0.807178
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9991879; LKRAEHUDIUJBSF; [M+H]+; N-Acetyl-S-allyl-L-cysteine_[S6: 6, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0007097; CPIWIFHDFQMGKR; [M+CH4O+H]+; 2-(5-methyl-1,3-thiazol-4-yl)ethyl formate_[S6: 15, Finder: 2, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000435; WTOFYLAWDLQMBZ; [M+CH4O+H]+; 2-amino-3-(thiophen-2-yl)propanoic acid_[S6: 31, Finder: 3, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000351; WRQSUCJAKAMYMQ; [M+CH4O+H]+; 3-Thienylalanine_[S6: 32, Finder: 4, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000103; RIJXYOPYBANALA; [M+CH4O+H]+; 2-Ethyl-4-methyl-1,3-thiazole-5-carboxylic acid_[S6: 1, Finder: 100, Frag: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000086; QWWPUBQHZFHZSF; [M+CH4O+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate_[S6: 26, Finder: 5, Frag: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000035; FHGGEEAYFMHIHF; [M+CH4O+H]+; 4-Amino-5-ethylthiophene-3-carboxylic acid_[S6: 35, Finder: 6, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000009; GTJVVEBKLSYEKA; [M+H]+; 3-Formyl-2,2,5-trimethyl-1,3-thiazolidine-4-carboxylic acid_[S6: 2, Finder: 100, Frag: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.921; RIJXYOPYBANALA; [M+CH4O+H]+; 2-Ethyl-4-methyl-1,3-thiazole-5-carboxylic acid_[S6: 1, FragP: 23]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.062; VVEIGFCSKPLKGZ; [M+CH4O+H]+; (2,4-Dimethyl-thiazol-5-yl)-acetic acid_[S6: 3, FragP: 13]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.006; VANMGYYUWZXKPW; [M+CH4O+H]+; 4-Ethyl-2-methyl-1,3-thiazole-5-carboxylate_[S6: 5, FragP: 17]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.005; FFPWICPYXBDRHM; [M+CH4O+H]+; 2-(2,5-Dimethylthiazol-4-yl)acetic acid_[S6: 4, FragP: 27]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.004; GTJVVEBKLSYEKA; [M+H]+; 3-Formyl-2,2,5-trimethyl-1,3-thiazolidine-4-carboxylic acid_[S6: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.001; IOSZDNOGOPHEPH; [M+CH4O+H]+; Tizoprolic acid_[S6: 11, FragP: 12]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.001; HPMBMJNAPIPXFK; [M+CH4O+H]+; 4-Methylthiazole-5-propionic acid_[S6: 7, FragP: 28]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; GWPNKBDXQBLJKJ; [M+CH4O+H]+; 5-Isopropylthiazole-4-carboxylic acid_[S6: 9, FragP: 22]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; HUJQAKXNVMFFNW; [M+CH4O+H]+; 2-Methyl-2-(1,3-thiazol-4-yl)propanoic acid_[S6: 8, FragP: 33]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; CRDHNCRZANDFFU; [M+H]+; 3-Ethoxy-2-propan-2-ylsulfonylprop-2-enenitrile_[S6: 18, FragP: 9]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; WTOFYLAWDLQMBZ; [M+CH4O+H]+; 2-amino-3-(thiophen-2-yl)propanoic acid_[S6: 31, FragP: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; FVSORVIZXIZSNY; [M+CH4O+H]+; 2-Propan-2-yl-1,3-thiazole-5-carboxylate_[S6: 10, FragP: 35]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; LKRAEHUDIUJBSF; [M+H]+; N-Acetyl-S-allyl-L-cysteine_[S6: 6, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; HYIXVZHJZDSDBA; [M+H]+; 1-(3-sulfanylpropanoyl)-l-proline_[S6: 100, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; XHYVJUUPYNCLHY; [M+CH4O+H]+; 2-Propan-2-yl-1,3-thiazole-4-carboxylate_[S6: 12, FragP: 39]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; MBWVPULRFTYSNB; [M+CH4O+H]+; 2-Propyl-1,3-thiazole-4-carboxylic acid_[S6: 13, FragP: 37]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; CHXTVGNHPARVNU; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-4-yl)propanoic acid_[S6: 19, FragP: 21]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; MONFGMLYTMEKTC; [M+CH4O+H]+; 2-(4-Methylthiazol-5-yl)ethyl formate_[S6: 16, FragP: 31]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; IFWHMXGTVAEOFM; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-5-yl)propanoic acid_[S6: 24, FragP: 16]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; UPDVATYZQLTZOZ; [M+CH4O+H]+; (R)-3-Amino-3-(thiophen-3-yl)propanoic acid_[S6: 23, FragP: 18]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; BMQFZUBFEALRJE; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-3-yl)propanoic acid_[S6: 20, FragP: 24]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; GYAYLYLPTPXESE; [M+CH4O+H]+; (S)-3-Amino-3-(thiophen-2-yl)propanoic acid_[S6: 29, FragP: 14]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; VOIZSAUUYAGTMS; [M+CH4O+H]+; 3-(3-Thienyl)-DL-alanine_[S6: 28, FragP: 15]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; CPIWIFHDFQMGKR; [M+CH4O+H]+; 2-(5-methyl-1,3-thiazol-4-yl)ethyl formate_[S6: 15, FragP: 46]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; LMYRWZFENFIFIT; [M+CH4O+H]+; Tosylamide_[S6: 100, FragP: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; IWXRXGRHXXLVHJ; [M+H]+; ethyl 2-isocyanato-4-methylsulfanylbutanoate_[S6: 100, FragP: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ORCQTMZHDQSNOJ; [M+CH4O+H]+; Ethyl 4-deuterio-2-methyl-1,3-thiazole-5-carboxylate_[S6: 22, FragP: 45]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; PHUPHROQPYXKBX; [M+CH4O+H]+; (2R)-2-amino-2-(3-methylthiophen-2-yl)acetic acid_[S6: 14, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; YJWKNFZGGQBYGD; [M+CH4O+H]+; Ethyl 4-methylthiazole-2-carboxylate_[S6: 21, FragP: 52]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; MTVVMHZOBFCPMW; [M+CH4O+H]+; Methyl (4-methyl-1,3-thiazol-2-yl)acetate_[S6: 17, FragP: 75]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; QWWPUBQHZFHZSF; [M+CH4O+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate_[S6: 26, FragP: 43]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; VYNRDZHHFONHMH; [M+CH4O+H]+; 2-Amino-4,5-dimethylthiophene-3-carboxylic acid_[S6: 30, FragP: 34]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; UMCBKPOYFXBWBZ; [M+CH4O+H]+; Ethyl 2-(4-Thiazolyl)acetate_[S6: 25, FragP: 49]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; WXRCDHNXDAYFRK; [M+H]+; 8,8-dioxo-8lambda6-thia-2-azaspiro[4.5]decan-3-one_[S6: 100, FragP: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; HCUXTQONPASQRB; [M+H]+; ethyl 2-imino-2-oxo-2lambda6-thiabicyclo[2.1.1]hexane-4-carboxylate_[S6: 100, FragP: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ZGXOVDNNOCZELP; [M+H]+; 3a-methyl-1,1-dioxo-4,5,6,7-tetrahydro-[1,2]thiazolo[2,3-a]pyridin-3-one_[S6: 100, FragP: 7]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.148; LKRAEHUDIUJBSF-ZETCQYMHSA-N; [M+H]+; CC(=O)NC(CSCC=C)C(=O)O
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.200; LKRAEHUDIUJBSF-ZETCQYMHSA-N; [M+H]+; (2R)-2-acetamido-3-prop-2-enylsulfanylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.730; CPIWIFHDFQMGKR-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(4-Methyl-5-thiazolyl)ethyl formate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.609; WTOFYLAWDLQMBZ-MDOHGIEYNA-N; [M+CH3OH+H]+; beta-(2-thienyl)-D-alanine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.598; WRQSUCJAKAMYMQ-YFKPBYRVSA-N; [M+CH3OH+H]+; (2S)-2-(thiophen-3-ylamino)propanoic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.497; QWWPUBQHZFHZSF-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.415; FHGGEEAYFMHIHF-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.012; LMYRWZFENFIFIT-UHFFFAOYSA-N; [M+CH3OH+H]+; toluene-4-sulfonamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.960; YCMLQMDWSXFTIF-UHFFFAOYSA-N; [M+CH3OH+H]+; toluenesulphonamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.949; LBTPIFQNEKOAIM-UHFFFAOYSA-N; [M+CH3OH+H]+; N-phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.873; ABOYDMHGKWRPFD-UHFFFAOYSA-N; [M+CH3OH+H]+; phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; LKRAEHUDIUJBSF-ZETCQYMHSA-N; [M+H]+; (2R)-2-acetamido-3-prop-2-enylsulfanylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; WRQSUCJAKAMYMQ-YFKPBYRVSA-N; [M+CH3OH+H]+; (2S)-2-(thiophen-3-ylamino)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.995; WTOFYLAWDLQMBZ-MDOHGIEYNA-N; [M+CH3OH+H]+; beta-(2-thienyl)-D-alanine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.929; FHGGEEAYFMHIHF-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.639; CPIWIFHDFQMGKR-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(4-Methyl-5-thiazolyl)ethyl formate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.626; QWWPUBQHZFHZSF-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.169; LBTPIFQNEKOAIM-UHFFFAOYSA-N; [M+CH3OH+H]+; N-phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.090; LMYRWZFENFIFIT-UHFFFAOYSA-N; [M+CH3OH+H]+; toluene-4-sulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.090; YCMLQMDWSXFTIF-UHFFFAOYSA-N; [M+CH3OH+H]+; toluenesulphonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.081; ABOYDMHGKWRPFD-UHFFFAOYSA-N; [M+CH3OH+H]+; phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 4.000; HYIXVZHJZDSDBA-LURJTMIESA-N; [M+H]+; (2S)-1-(3-sulfanylpropanoyl)pyrrolidine-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.089; LMYRWZFENFIFIT-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-methylbenzenesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 2.370; IWXRXGRHXXLVHJ-UHFFFAOYSA-N; [M+H]+; ethyl 2-isocyanato-4-methylsulfanylbutanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.841; WTOFYLAWDLQMBZ-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-amino-3-thiophen-2-ylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.805; WXRCDHNXDAYFRK-UHFFFAOYSA-N; [M+H]+; 8,8-dioxo-8lambda6-thia-2-azaspiro[4.5]decan-3-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.742; HCUXTQONPASQRB-UHFFFAOYSA-N; [M+H]+; ethyl 2-imino-2-oxo-2lambda6-thiabicyclo[2.1.1]hexane-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.667; ZGXOVDNNOCZELP-UHFFFAOYSA-N; [M+H]+; 3a-methyl-1,1-dioxo-4,5,6,7-tetrahydro-[1,2]thiazolo[2,3-a]pyridin-3-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.611; NIHTWNYVIFCTAN-UHFFFAOYSA-N; [M+H]+; 8-methylsulfonyl-8-azabicyclo[3.2.1]octan-3-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.590; CRDHNCRZANDFFU-SOFGYWHQSA-N; [M+H]+; (E)-3-ethoxy-2-propan-2-ylsulfonylprop-2-enenitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.590; GSTVZDQYWLPACL-FPLPWBNLSA-N; [M+H]+; (Z)-3-ethoxy-2-methylsulfonylpent-2-enenitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.337; YCMLQMDWSXFTIF-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methylbenzenesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.262; IOSZDNOGOPHEPH-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-propyl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.166; VVEIGFCSKPLKGZ-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(2,4-dimethyl-1,3-thiazol-5-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.157; GYAYLYLPTPXESE-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-amino-3-thiophen-2-ylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.141; VOIZSAUUYAGTMS-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-amino-3-thiophen-3-ylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.127; IFWHMXGTVAEOFM-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,2-thiazol-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.125; VANMGYYUWZXKPW-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-ethyl-2-methyl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.124; UPDVATYZQLTZOZ-ZCFIWIBFSA-N; [M+CH3OH+H]+; (3R)-3-amino-3-thiophen-3-ylpropanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.117; CWIHHMWYPLTVMT-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(methylamino)-2-thiophen-2-ylacetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.110; CMLLZLOJUUBLIZ-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,3-thiazol-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.102; CHXTVGNHPARVNU-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,2-thiazol-4-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.099; GWPNKBDXQBLJKJ-UHFFFAOYSA-N; [M+CH3OH+H]+; 5-propan-2-yl-1,3-thiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.096; RIJXYOPYBANALA-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-ethyl-4-methyl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.095; BMQFZUBFEALRJE-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,2-thiazol-3-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.092; WDMYPSCOGWQUSE-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,3-thiazol-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.083; XRLZIUOLRAEAHR-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-propan-2-yl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.081; FFPWICPYXBDRHM-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(2,5-dimethyl-1,3-thiazol-4-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.080; HPMBMJNAPIPXFK-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-(4-methyl-1,3-thiazol-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.075; VHYZAYLRCNHMSK-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-(4-methyl-1,3-thiazol-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.075; DXWAMOUMQYPGDC-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-(2-methyl-1,3-thiazol-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.059; MONFGMLYTMEKTC-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(4-methyl-1,3-thiazol-5-yl)ethyl formate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.057; NZFMOFBZGOYRGD-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(4-methyl-1,3-thiazol-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.057; HUJQAKXNVMFFNW-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-2-(1,3-thiazol-4-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.053; VYNRDZHHFONHMH-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-amino-4,5-dimethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.052; FVSORVIZXIZSNY-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-propan-2-yl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.047; SZZQTGDGOYRCRV-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-ethoxythiophene-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.043; MBWVPULRFTYSNB-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-propyl-1,3-thiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.030; GLCYYDYNWMTCJY-UHFFFAOYSA-N; [M+CH3OH+H]+; 5-(2-aminoethyl)thiophene-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.028; XHYVJUUPYNCLHY-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-propan-2-yl-1,3-thiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.019; SHVVEEMDOHLGDF-UHFFFAOYSA-N; [M+CH3OH+H]+; 5-propan-2-yl-1,2-thiazole-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.018; RDWHKWXYJQUZNS-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-propan-2-yl-1,3-thiazole-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.938; ICWJRGTUGSJISX-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(4,5-dimethyl-1,3-thiazol-2-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.790; QWWPUBQHZFHZSF-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.776; MKJQYFVTEPGXIE-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-aminothiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.775; ORCQTMZHDQSNOJ-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-methyl-1,3-thiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.772; CPIWIFHDFQMGKR-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-(5-methyl-1,3-thiazol-4-yl)ethyl formate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.758; ABOYDMHGKWRPFD-UHFFFAOYSA-N; [M+CH3OH+H]+; phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.757; WISQBJLUORKXNY-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 4-methyl-1,3-thiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.753; UMCBKPOYFXBWBZ-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 2-(1,3-thiazol-4-yl)acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.720; LBTPIFQNEKOAIM-UHFFFAOYSA-N; [M+CH3OH+H]+; N-phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.713; FDYICWNHUBQXAT-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 5-aminothiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.606; YJWKNFZGGQBYGD-UHFFFAOYSA-N; [M+CH3OH+H]+; ethyl 4-methyl-1,3-thiazole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.527; QCPPHZGZDOALJG-UHFFFAOYSA-N; [M+CH3OH+H]+; oxane-4-carbonyl isothiocyanate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.519; SVDVKEBISAOWJT-UHFFFAOYSA-N; [M+CH3OH+H]+; N-methylbenzenesulfonamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.510; PLLLBSPBFALBFB-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2-amino-4-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.509; CQZPEBDZIWYWEL-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 5-amino-4-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.508; YRIRKBDOBLYWCY-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 4-amino-3-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.493; JHDDZIJMVIYYRH-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 3,5-dimethyl-1,2-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.475; JSMVDLBAEQWKFD-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2,5-dimethyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.460; RAVJDUVCFFYGMJ-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 5-amino-2-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.459; NIQYTSNCFFGUMC-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2-amino-2-thiophen-2-ylacetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.458; GBBDZLMXBJRIER-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 5-amino-3-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.457; KEAKUFQPSKQXOG-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 5-(aminomethyl)thiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.456; DKCFQFABKSDUDD-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2-amino-2-thiophen-3-ylacetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.441; DGMGILGPRYQSOX-UHFFFAOYSA-N; [M+CH3OH+H]+; N-methoxy-N-methylthiophene-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.413; GHPDMFBHITXJAZ-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2-amino-5-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.408; XJEVFFNOMKXBLU-UHFFFAOYSA-N; [M+CH3OH+H]+; 4-methylsulfonylaniline
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.392; YICRPERKKBDRSP-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 3-amino-4-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.377; ZTTXAKCLKGBDIR-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 4-amino-5-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.377; FVKMOPIFLCMZMI-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 3-amino-5-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.376; IEZNLUYSTWCFIP-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 4-amino-5-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.356; AUSRSVRJOXYXMI-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methylsulfonylaniline
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.355; MMWQALKHHPSNNY-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 3-(aminomethyl)thiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.351; GHUZKFWDASVPEO-UHFFFAOYSA-N; [M+CH3OH+H]+; 2-methyl-5-methylsulfonylpyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.341; MTVVMHZOBFCPMW-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 2-(4-methyl-1,3-thiazol-2-yl)acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.339; XQNRXJWIFJQYPP-UHFFFAOYSA-N; [M+CH3OH+H]+; methyl 4-(aminomethyl)thiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.327; MBNPJRQKQLLRIS-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-methylsulfonylaniline
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.314; NVZINPVISUVPHW-UHFFFAOYSA-N; [M+CH3OH+H]+; 3-methylbenzenesulfonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -91.377; LKRAEHUDIUJBSF; [M+H]+; Allylmercapturic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -97.407; GTJVVEBKLSYEKA; [M+H]+; 3-formyl-2,2,5-trimethyl-1,3-thiazolidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -130.392; FFPWICPYXBDRHM; [M+CH4O+H]+; Maybridge3_007546
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -132.703; HPMBMJNAPIPXFK; [M+CH4O+H]+; Ambcb4003346
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -134.691; JFTGQZKJAXFLDQ; [M+H]+; Acetoacetyl-S-N-acetyl cysteamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -136.899; VVEIGFCSKPLKGZ; [M+CH4O+H]+; 2,4-Dimethyl-5-thiazoleacetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -148.458; WISQBJLUORKXNY; [M+CH4O+H]+; Ethyl4-methyl-5-thiazoleactate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -161.780; QWWPUBQHZFHZSF; [M+CH4O+H]+; Maybridge1_008348
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -170.673; UMCBKPOYFXBWBZ; [M+CH4O+H]+; 4-Thiazoleacetic acid ethyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -174.033; MTVVMHZOBFCPMW; [M+CH4O+H]+; Methyl 2-(4-methylthiazol-2-yl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -175.672; GWPNKBDXQBLJKJ; [M+CH4O+H]+; 5-Isopropylthiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -180.659; RDWHKWXYJQUZNS; [M+CH4O+H]+; Ambcb4009802
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -189.038; IOSZDNOGOPHEPH; [M+CH4O+H]+; Tizoprolic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -191.299; HYIXVZHJZDSDBA; [M+H]+; 1-(3-sulfanylpropanoyl)-l-proline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -194.529; ORCQTMZHDQSNOJ; [M+CH4O+H]+; Ethyl 2-methylthiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -195.149; CPIWIFHDFQMGKR; [M+CH4O+H]+; 2-(5-Methyl-4-thiazolyl)ethyl formate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -200.232; VYNRDZHHFONHMH; [M+CH4O+H]+; 3-Carboxy-4,5-dimethylthiophen-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -217.571; MKJQYFVTEPGXIE; [M+CH4O+H]+; 2-aminothiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -222.713; YQRNEFFCJKUMIN; [M+H]+; 3-(Mercaptomethyl)-2-oxo-1-piperidineacetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -238.317; UPDVATYZQLTZOZ; [M+CH4O+H]+; Bionet2_001187
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -238.575; GYAYLYLPTPXESE; [M+CH4O+H]+; Oprea1_644016
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -242.023; CRDHNCRZANDFFU; [M+H]+; Maybridge1_004680
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -249.028; VOIZSAUUYAGTMS; [M+CH4O+H]+; L-3-Thienylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -250.962; WTOFYLAWDLQMBZ; [M+CH4O+H]+; Thienylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -257.298; PLLLBSPBFALBFB; [M+CH4O+H]+; methyl 2-amino-4-methyl-3-thiophenecarboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -268.607; GHPDMFBHITXJAZ; [M+CH4O+H]+; methyl 2-amino-5-methyl-3-thiophenecarboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -276.115; YICRPERKKBDRSP; [M+CH4O+H]+; Methyl 3-amino-4-methyl-2-thenoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -281.666; IEZNLUYSTWCFIP; [M+CH4O+H]+; Methyl 4-amino-5-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -297.937; FVKMOPIFLCMZMI; [M+CH4O+H]+; 3-Amino-5-methyl-thiophene-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -310.281; SZZQTGDGOYRCRV; [M+CH4O+H]+; 3-Ethoxy-2-thiophenecarboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -338.359; CBWRLQQVMSGUKD; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -348.438; ABOYDMHGKWRPFD; [M+CH4O+H]+; Oprea1_735595
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -360.746; MBNPJRQKQLLRIS; [M+CH4O+H]+; 3-methylsulfonylaniline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -368.785; YCMLQMDWSXFTIF; [M+CH4O+H]+; Ketjenflex 9
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -371.369; NVZINPVISUVPHW; [M+CH4O+H]+; m-Toluenesulphonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -372.318; XJEVFFNOMKXBLU; [M+CH4O+H]+; 4-Mesylaniline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -376.591; LBTPIFQNEKOAIM; [M+CH4O+H]+; Mesylaniline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -380.893; LMYRWZFENFIFIT; [M+CH4O+H]+; Tosylamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -386.701; SVDVKEBISAOWJT; [M+CH4O+H]+; N-Methylbenzenesulfonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -396.242; QGBQCPHSJCMGIN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -401.203; XACBCDWHNBLRQQ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -402.974; CEVAXQXUGVTULW; [M+H]+; 3-(4H-pyridin-1-yl)propane-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -403.480; NGDJGGSIWLQUTC; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -403.850; PZVVROBRGOYAJW; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -442.995; NLHKGMGTPNBCNE; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.518; LKRAEHUDIUJBSF; [M+H]+; Allylmercapturic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.204; FFPWICPYXBDRHM; [M+CH4O+H]+; Maybridge3_007546
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -83.534; RIJXYOPYBANALA; [M+CH4O+H]+; 2-Ethyl-4-methyl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -90.456; GTJVVEBKLSYEKA; [M+H]+; 3-Formyl-2,2,5-trimethyl-1,3-thiazolidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -91.950; VVEIGFCSKPLKGZ; [M+CH4O+H]+; (2,4-Dimethyl-thiazol-5-yl)-acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -91.973; FFPWICPYXBDRHM; [M+CH4O+H]+; 2-(2,5-Dimethylthiazol-4-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -96.784; VANMGYYUWZXKPW; [M+CH4O+H]+; 4-Ethyl-2-methyl-1,3-thiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -109.246; LKRAEHUDIUJBSF; [M+H]+; N-Acetyl-S-allyl-L-cysteine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -116.282; HPMBMJNAPIPXFK; [M+CH4O+H]+; 4-Methylthiazole-5-propionic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -127.645; HUJQAKXNVMFFNW; [M+CH4O+H]+; 2-Methyl-2-(1,3-thiazol-4-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -132.339; GWPNKBDXQBLJKJ; [M+CH4O+H]+; 5-Isopropylthiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -133.797; FVSORVIZXIZSNY; [M+CH4O+H]+; 2-Propan-2-yl-1,3-thiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -135.754; IOSZDNOGOPHEPH; [M+CH4O+H]+; Tizoprolic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -143.656; XHYVJUUPYNCLHY; [M+CH4O+H]+; 2-Propan-2-yl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -145.613; MBWVPULRFTYSNB; [M+CH4O+H]+; 2-Propyl-1,3-thiazole-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -155.852; PHUPHROQPYXKBX; [M+CH4O+H]+; (2R)-2-amino-2-(3-methylthiophen-2-yl)acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -155.931; CPIWIFHDFQMGKR; [M+CH4O+H]+; 2-(5-methyl-1,3-thiazol-4-yl)ethyl formate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -161.251; MONFGMLYTMEKTC; [M+CH4O+H]+; 2-(4-Methylthiazol-5-yl)ethyl formate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -162.240; MTVVMHZOBFCPMW; [M+CH4O+H]+; Methyl (4-methyl-1,3-thiazol-2-yl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -175.301; CRDHNCRZANDFFU; [M+H]+; 3-Ethoxy-2-propan-2-ylsulfonylprop-2-enenitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -175.771; CHXTVGNHPARVNU; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-4-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -182.211; BMQFZUBFEALRJE; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-3-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -187.235; YJWKNFZGGQBYGD; [M+CH4O+H]+; Ethyl 4-methylthiazole-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -187.898; ORCQTMZHDQSNOJ; [M+CH4O+H]+; Ethyl 4-deuterio-2-methyl-1,3-thiazole-5-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -196.071; UPDVATYZQLTZOZ; [M+CH4O+H]+; (R)-3-Amino-3-(thiophen-3-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -196.346; IFWHMXGTVAEOFM; [M+CH4O+H]+; 2-Methyl-2-(1,2-thiazol-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -198.822; UMCBKPOYFXBWBZ; [M+CH4O+H]+; Ethyl 2-(4-Thiazolyl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -199.576; QWWPUBQHZFHZSF; [M+CH4O+H]+; ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -207.225; JFTGQZKJAXFLDQ; [M+H]+; S-[2-(acetylamino)ethyl] 3-oxobutanethioate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -208.462; VOIZSAUUYAGTMS; [M+CH4O+H]+; 3-(3-Thienyl)-DL-alanine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -218.494; GYAYLYLPTPXESE; [M+CH4O+H]+; (S)-3-Amino-3-(thiophen-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -223.148; VYNRDZHHFONHMH; [M+CH4O+H]+; 2-Amino-4,5-dimethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -238.242; WTOFYLAWDLQMBZ; [M+CH4O+H]+; 2-amino-3-(thiophen-2-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -246.876; WRQSUCJAKAMYMQ; [M+CH4O+H]+; 3-Thienylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -252.068; JHDDZIJMVIYYRH; [M+CH4O+H]+; Methyl 3,5-dimethyl-1,2-thiazole-4-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -262.032; GBEPMLYZCPHOBB; [M+CH4O+H]+; (6R)-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -262.344; FHGGEEAYFMHIHF; [M+CH4O+H]+; 4-Amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -284.210; GHUZKFWDASVPEO; [M+CH4O+H]+; 5-Methanesulfonyl-2-methylpyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -284.321; NGDJGGSIWLQUTC; [M+H]+; 2-(Cyclohexa-1,4-dien-1-ylamino)ethanesulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -289.608; CBWRLQQVMSGUKD; [M+H]+; 2-(Cyclohexa-2,5-dien-1-ylamino)ethanesulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -299.283; PZVVROBRGOYAJW; [M+H]+; 2-(Cyclohexa-1,5-dien-1-ylamino)ethanesulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -301.335; CEVAXQXUGVTULW; [M+H]+; 3-(4H-pyridin-1-yl)propane-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -305.428; FDYICWNHUBQXAT; [M+CH4O+H]+; Ethyl 5-aminothiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -310.253; MKJQYFVTEPGXIE; [M+CH4O+H]+; Ethyl 2-aminothiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -311.048; PLLLBSPBFALBFB; [M+CH4O+H]+; Methyl 2-amino-4-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -314.380; YRIRKBDOBLYWCY; [M+CH4O+H]+; Methyl 4-amino-3-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -321.285; YICRPERKKBDRSP; [M+CH4O+H]+; Methyl 3-amino-4-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -321.778; ZTTXAKCLKGBDIR; [M+CH4O+H]+; Methyl 4-amino-5-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -323.698; CQZPEBDZIWYWEL; [M+CH4O+H]+; Methyl 5-amino-4-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -324.264; SZZQTGDGOYRCRV; [M+CH4O+H]+; 2-Thiophenecarboxamide, 3-ethoxy-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -330.220; ABOYDMHGKWRPFD; [M+CH4O+H]+; Phenylmethanesulfonamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -330.435; FVKMOPIFLCMZMI; [M+CH4O+H]+; Methyl 3-amino-5-methylthiophene-2-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -331.662; GHPDMFBHITXJAZ; [M+CH4O+H]+; Methyl 2-amino-5-methylthiophene-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -339.684; QGBQCPHSJCMGIN; [M+H]+; 2-[[(1S)-cyclohexa-2,4-dien-1-yl]amino]ethanesulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -346.095; YQRNEFFCJKUMIN; [M+H]+; 3-(Mercaptomethyl)-2-oxo-1-piperidineacetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.688; GTJVVEBKLSYEKA; [M+H]+; 3-Formyl-2,2,5-trimethyl-1,3-thiazolidine-4-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.226; RIJXYOPYBANALA; [M+CH4O+H]+; 2-Ethyl-4-methyl-1,3-thiazole-5-carboxylic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.200; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_(2R)-2-acetamido-3-prop-2-enylsulfanylpropanoic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.730; 4,5-disubstituted thiazoles; [M+CH3OH+H]+; CPIWIFHDFQMGKR_2-(4-Methyl-5-thiazolyl)ethyl formate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.609; Alpha amino acids; [M+CH3OH+H]+; WTOFYLAWDLQMBZ_beta-(2-thienyl)-D-alanine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.598; Alanine and derivatives; [M+CH3OH+H]+; WRQSUCJAKAMYMQ_(2S)-2-(thiophen-3-ylamino)propanoic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.497; Thiazolecarboxylic acids and derivatives; [M+CH3OH+H]+; QWWPUBQHZFHZSF_ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.415; Thiophene carboxylic acids; [M+CH3OH+H]+; FHGGEEAYFMHIHF_4-amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.012; P-toluenesulfonamides; [M+CH3OH+H]+; LMYRWZFENFIFIT_toluene-4-sulfonamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.960; Benzenesulfonamides; [M+CH3OH+H]+; YCMLQMDWSXFTIF_toluenesulphonamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.949; Sulfanilides; [M+CH3OH+H]+; LBTPIFQNEKOAIM_N-phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.873; Benzene and substituted derivatives; [M+CH3OH+H]+; ABOYDMHGKWRPFD_phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_(2R)-2-acetamido-3-prop-2-enylsulfanylpropanoic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Alanine and derivatives; [M+CH3OH+H]+; WRQSUCJAKAMYMQ_(2S)-2-(thiophen-3-ylamino)propanoic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.995; Alpha amino acids; [M+CH3OH+H]+; WTOFYLAWDLQMBZ_beta-(2-thienyl)-D-alanine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.929; Thiophene carboxylic acids; [M+CH3OH+H]+; FHGGEEAYFMHIHF_4-amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.639; 4,5-disubstituted thiazoles; [M+CH3OH+H]+; CPIWIFHDFQMGKR_2-(4-Methyl-5-thiazolyl)ethyl formate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.626; Thiazolecarboxylic acids and derivatives; [M+CH3OH+H]+; QWWPUBQHZFHZSF_ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.169; Sulfanilides; [M+CH3OH+H]+; LBTPIFQNEKOAIM_N-phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.090; P-toluenesulfonamides; [M+CH3OH+H]+; LMYRWZFENFIFIT_toluene-4-sulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.090; Benzenesulfonamides; [M+CH3OH+H]+; YCMLQMDWSXFTIF_toluenesulphonamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.081; Benzene and substituted derivatives; [M+CH3OH+H]+; ABOYDMHGKWRPFD_phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.089; P-toluenesulfonamides; [M+CH3OH+H]+; LMYRWZFENFIFIT_4-methylbenzenesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.841; Alpha amino acids; [M+CH3OH+H]+; WTOFYLAWDLQMBZ_2-amino-3-thiophen-2-ylpropanoic acid
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.337; Benzenesulfonamides; [M+CH3OH+H]+; YCMLQMDWSXFTIF_2-methylbenzenesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.157; Beta amino acids and derivatives; [M+CH3OH+H]+; GYAYLYLPTPXESE_3-amino-3-thiophen-2-ylpropanoic acid
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.790; Thiazolecarboxylic acids and derivatives; [M+CH3OH+H]+; QWWPUBQHZFHZSF_ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.772; 4,5-disubstituted thiazoles; [M+CH3OH+H]+; CPIWIFHDFQMGKR_2-(5-methyl-1,3-thiazol-4-yl)ethyl formate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.758; Benzene and substituted derivatives; [M+CH3OH+H]+; ABOYDMHGKWRPFD_phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.720; Sulfanilides; [M+CH3OH+H]+; LBTPIFQNEKOAIM_N-phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -91.377; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_Allylmercapturic Acid
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -161.780; Thiazolecarboxylic acids and derivatives; [M+CH4O+H]+; QWWPUBQHZFHZSF_Maybridge1_008348
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -195.149; 4,5-disubstituted thiazoles; [M+CH4O+H]+; CPIWIFHDFQMGKR_2-(5-Methyl-4-thiazolyl)ethyl formate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -238.575; Beta amino acids and derivatives; [M+CH4O+H]+; GYAYLYLPTPXESE_Oprea1_644016
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -250.962; Alpha amino acids; [M+CH4O+H]+; WTOFYLAWDLQMBZ_Thienylalanine
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -348.438; Benzene and substituted derivatives; [M+CH4O+H]+; ABOYDMHGKWRPFD_Oprea1_735595
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -368.785; Benzenesulfonamides; [M+CH4O+H]+; YCMLQMDWSXFTIF_Ketjenflex 9
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -376.591; Sulfanilides; [M+CH4O+H]+; LBTPIFQNEKOAIM_Mesylaniline
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -380.893; P-toluenesulfonamides; [M+CH4O+H]+; LMYRWZFENFIFIT_Tosylamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -109.246; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_N-Acetyl-S-allyl-L-cysteine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -155.931; 4,5-disubstituted thiazoles; [M+CH4O+H]+; CPIWIFHDFQMGKR_2-(5-methyl-1,3-thiazol-4-yl)ethyl formate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -199.576; Thiazolecarboxylic acids and derivatives; [M+CH4O+H]+; QWWPUBQHZFHZSF_ethyl 2-methyl-1,3-thiazole-4-carboxylate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -218.494; Beta amino acids and derivatives; [M+CH4O+H]+; GYAYLYLPTPXESE_(S)-3-Amino-3-(thiophen-2-yl)propanoic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -238.242; Alpha amino acids; [M+CH4O+H]+; WTOFYLAWDLQMBZ_2-amino-3-(thiophen-2-yl)propanoic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -246.876; Alanine and derivatives; [M+CH4O+H]+; WRQSUCJAKAMYMQ_3-Thienylalanine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -262.344; Thiophene carboxylic acids; [M+CH4O+H]+; FHGGEEAYFMHIHF_4-Amino-5-ethylthiophene-3-carboxylic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -330.220; Benzene and substituted derivatives; [M+CH4O+H]+; ABOYDMHGKWRPFD_Phenylmethanesulfonamide
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999905; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_N-Acetyl-S-allyl-L-cysteine_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000095; 4,5-disubstituted thiazoles; [M+CH4O+H]+; CPIWIFHDFQMGKR_2-(5-methyl-1,3-thiazol-4-yl)ethyl formate_[S6: 2, Finder: 2, Frag: 5]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_N-Acetyl-S-allyl-L-cysteine_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001137; N-acyl-alpha amino acids; [M+H]+; LKRAEHUDIUJBSF_N-Acetyl-S-allyl-L-cysteine_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Q Exactive HF-X mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.500 ppm, MS2 8.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 150 x 2.1 mm, Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 98% B; 9.0 min, 50% B; 12.0 min, 2% B; 12.0-13.5 min, 2% B; 14.0 min, 98% B; 14.0-20.0 min, 98% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.25 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.296
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% (v/v) formic acid in acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% (v/v) formic acid in water
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.068726
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0190000000-c44798cafb9eca25a0d2
+PK$ANNOTATION: m/z int cor n mzPAF
+  71.0602762 7.0848 -0.3168 22 ?
+  72.0442916 41.1149 0.9977 22 f{C3H6N1O1}/-1.37ppm,p-C5H8O2S1
+  87.0261475 3.6590 0.8735 22 f{C4H7S1}/-1.73ppm,p-C4H7N1O3
+  88.0213841 2.2973 0.9650 22 f{C3H6N1S1}/-1.85ppm,p-C5H8O3
+  99.0438679 2.4089 0.9706 22 f{C5H7O2}/-1.90ppm,p-C3H7N1O1S1
+  106.0319578 2.3655 0.9424 22 f{C3H8N1O1S1}/-1.45ppm,p-C5H6O2
+  114.0371832 29.1520 1.0000 22 f{C5H8N1S1}/-0.12ppm,p-C3H6O3
+  114.0914160 3.8797 0.9785 22 f{C6H12N1O1}/0.66ppm,p-C2H2O2S1
+  115.0211103 4.1625 0.9119 22 f{C5H7O1S1}/-0.89ppm,p-C3H7N1O2
+  126.0548882 2.9212 0.1982 22 f{C6H8N1O2}/-0.53ppm,p-C2H6O1S1
+  130.0684341 1.1478 0.8987 21 f{C6H12N1S1}/-0.48ppm,p-C2H2O3
+  133.0316008 1.7111 0.7974 21 f{C5H9O2S1}/-1.32ppm,p-C3H5N1O1
+  139.9819528 2.3947 -0.1188 20 f{C5H2N1O2S1}/13.41ppm,p-C3H12O1
+  142.0321123 2.0094 0.9455 21 f{C6H8N1O1S1}/0.01ppm,p-C2H6O2
+  142.0683005 2.4242 0.9494 21 f{C7H12N1S1}/-1.38ppm,p-C1H2O3
+  158.0635946 9.5028 0.9752 22 f{C7H12N1O1S1}/1.16ppm,p-C1H2O2
+  160.0426961 19.8358 0.9921 22 f{C6H10N1O2S1}/0.13ppm,p-C2H4O1
+  163.0178433 2.1663 -0.0735 17 ?
+  175.0751200 4.0233 -0.0368 17 ?
+  176.0732717 2.3698 0.9695 22 f{C7H14N1O2S1}/-4.00ppm,p-C1O1
+  177.0485718 2.1041 0.8473 18 ?
+  186.0584173 27.5886 0.9876 22 f{C8H12N1O2S1}/0.49ppm,p-H2O1
+  188.0707753 2.1150 -0.6118 16 ?
+  204.0688784 999.0000 1.0000 22 f{C8H14N1O3S1}/-0.06ppm,p
+  205.0715834 37.9417 0.9898 22 ?
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+  72.044292 41.11 41
+  87.026147 3.66 3
+  88.021384 2.30 2
+  99.043868 2.41 2
+  106.031958 2.37 2
+  114.037183 29.15 29
+  114.091416 3.88 3
+  115.021110 4.16 4
+  130.068434 1.15 1
+  133.031601 1.71 1
+  142.032112 2.01 2
+  142.068300 2.42 2
+  158.063595 9.50 9
+  160.042696 19.84 19
+  176.073272 2.37 2
+  177.048572 2.10 2
+  186.058417 27.59 27
+  204.068878 999.00 999
+  205.071583 37.94 37
+//

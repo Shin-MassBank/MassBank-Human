@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA044P0871000
+RECORD_TITLE: m/z 871.565088; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 83 product ion spectra among 80 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 871.56509
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6039
+COMMENT: DATASET_TITLE Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)
+COMMENT: DATASET_AUTHORS Jinhua He
+COMMENT: DATASET_PUBLICATION He J et al. Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer. Front Immunol, 13, 998447 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 36685547
+COMMENT: PRECURSOR_IN_MS1 mz 871.565088; int 21.855; delta(ppm) -0.000004
+COMMENT: MS1_SPEC {822.583152: 10, 827.538807: 26, 828.542102: 12, 835.670618: 23, 837.684848: 8, 871.565087: 21, 872.568142: 10, 915.591552: 13, 916.594517: 7}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 872.568143; int 10.568; cor 0.734
+COMMENT: PROPOSED_MF SevenGoldenRules 7.835; C48H81N4O8P; [M-H]1; delta(ppm) -7.835453
+COMMENT: PROPOSED_MF SevenGoldenRules 6.530; C37H84N4O18; [M-H]1; delta(ppm) -6.530117
+COMMENT: PROPOSED_MF SevenGoldenRules 6.302; C47H85O12P; [M-H]1; delta(ppm) -6.302056
+COMMENT: PROPOSED_MF SevenGoldenRules 5.118; C41H86N4O11P2; [M-H]1; delta(ppm) -5.118200
+COMMENT: PROPOSED_MF SevenGoldenRules 4.409; C49H80N2O11; [M-H]1; delta(ppm) -4.408803
+COMMENT: PROPOSED_MF SevenGoldenRules 2.997; C53H82N2O4P2; [M-H]1; delta(ppm) -2.996886
+COMMENT: PROPOSED_MF SevenGoldenRules 1.692; C42H85N2O14P; [M-H]1; delta(ppm) -1.691550
+COMMENT: PROPOSED_MF SevenGoldenRules 0.201; C44H80N4O13; [M-H]1; delta(ppm) 0.200556
+COMMENT: PROPOSED_MF SevenGoldenRules 0.429; C54H81O7P; [M-H]1; delta(ppm) 0.428618
+COMMENT: PROPOSED_MF SevenGoldenRules 1.614; C48H82N4O6P2; [M-H]1; delta(ppm) 1.613620
+COMMENT: PROPOSED_MF SevenGoldenRules 1.734; C43H84O17; [M-H]1; delta(ppm) 1.733954
+COMMENT: PROPOSED_MF SevenGoldenRules 2.918; C37H85N4O16P; [M-H]1; delta(ppm) 2.917810
+COMMENT: PROPOSED_MF SevenGoldenRules 3.146; C47H86O10P2; [M-H]1; delta(ppm) 3.145871
+COMMENT: PROPOSED_MF SevenGoldenRules 5.039; C49H81N2O9P; [M-H]1; delta(ppm) 5.039124
+COMMENT: PROPOSED_MF SevenGoldenRules 6.343; C38H84N2O19; [M-H]1; delta(ppm) 6.343313
+COMMENT: PROPOSED_MF SevenGoldenRules 7.756; C42H86N2O12P2; [M-H]1; delta(ppm) 7.756377
+COMMENT: PROPOSED_MF SevenGoldenRules 8.465; C50H80O12; [M-H]1; delta(ppm) 8.464627
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 9.000 ppm, MS2 15.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 150 x 2.1 mm, Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 2% B; 9.0 min, 50% B; 12.0 min, 98% B; 13.5 min, 98% B; 14.0-20.0 min, 2% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.25 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.783
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 871.565088
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000000090-8f88d80e7fceded275ad
+PK$ANNOTATION: m/z int cor n mzPAF
+  184.0750869 38.5598 -0.0742 67 ?
+  871.5636278 999.0000 1.0000 83 ?
+  872.5672928 166.1851 0.7872 83 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  871.563628 999.00 999
+  872.567293 166.19 166
+//

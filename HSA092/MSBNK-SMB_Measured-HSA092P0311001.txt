@@ -1,0 +1,256 @@
+ACCESSION: MSBNK-SMB_Measured-HSA092P0311001
+RECORD_TITLE: N-Undecylbenzenesulfonic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 571 product ion spectra among 44 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); UCDCOJNNUVYFKJ
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000000, MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 1), SIRIUS5_CSI:biodatabase (rank 2), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.710); CX (Contextual evidence) HMDB (HMDB0032549)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS9087
+COMMENT: DATASET_TITLE Gut microbiota-derived butyric acid protected against secondary brain injury after SAH by inhibiting neuronal pyroptosis and regulating gut microbiota composition (Human assays)
+COMMENT: DATASET_AUTHORS Yuan Bin
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 311.168588; int 46.370; delta(ppm) 0.000078
+COMMENT: MS1_SPEC {264.100212: 2, 265.147733: 20, 266.115844: 3, 266.151214: 2, 270.110807: 1, 271.227748: 35, 272.231109: 7, 275.011171: 3, 276.100072: 1, 278.115694: 2, 279.111025: 1, 280.131416: 1, 282.110787: 1, 285.24339: 10, 291.111196: 1, 293.179308: 13, 297.152732: 15, 297.243313: 12, 298.156063: 2, 299.258905: 50, 300.262266: 11, 303.199739: 5, 305.126801: 1, 309.174076: 6, 311.168588: 46, 312.172039: 8, 313.16435: 1, 321.21041: 2, 325.184195: 95, 326.187646: 18, 327.179928: 3, 327.190428: 1, 337.205521: 13, 339.199784: 157, 340.203175: 31, 341.142376: 5, 341.195387: 6, 341.206007: 3, 342.198928: 1, 353.200324: 4, 355.158267: 50}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 312.172040; int 8.370; cor 0.917
+COMMENT: PROPOSED_ION_FORM M+FA-H; M+Hac-H; mz 325.184196; int 95.071; cor 0.777
+COMMENT: PROPOSED_ION_FORM M+Hac-H; M+FA-H; mz 297.152733; int 15.209; cor 0.907
+COMMENT: PROPOSED_MF SevenGoldenRules 0.167; C17H28O3S; [M-H]1; delta(ppm) -0.166573
+COMMENT: PROPOSED_MF SevenGoldenRules 0.184; C16H26OS; [M+FA-H]1; delta(ppm) -0.184093
+COMMENT: PROPOSED_MF SevenGoldenRules 0.194; C15H24OS; [M+Hac-H]1; delta(ppm) -0.194325
+COMMENT: PROPOSED_MF Aggregated_ranking 0.8998440; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF Aggregated_ranking 0.1000887; C16H26OS; [M+CH2O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF Aggregated_ranking 0.0000673; C15H24OS; [M+C2H4O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF MS-FINDER 2.708; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF MS-FINDER 2.049; C16H26OS; [M+FA-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF MS-FINDER 2.048; C15H24OS; [M+Hac-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF MS-FINDER 1.994; C9H24N6O6; [M-H]-; delta(ppm) 0.423854
+COMMENT: PROPOSED_MF MS-FINDER 1.964; C8H22N6O4; [M+FA-H]-; delta(ppm) 0.423854
+COMMENT: PROPOSED_MF MS-FINDER 1.939; C7H20N6O4; [M+Hac-H]-; delta(ppm) 0.423854
+COMMENT: PROPOSED_MF MS-FINDER 1.907; C10H36N2S4; [M-H]-; delta(ppm) -0.863619
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.480; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.031; C16H26OS; [M+CH2O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.031; C15H24OS; [M+C2H4O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4.323; C13H28O8; [M-H]-; delta(ppm) -8.205894
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4.323; C12H26O6; [M+CH2O2-H]-; delta(ppm) -8.205894
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4.323; C11H24O6; [M+C2H4O2-H]-; delta(ppm) -8.205894
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -1.502; C12H20BNO4; [M+C2H4O2-H]-; delta(ppm) 33257.178459
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -3.092; C12H28ClN2P; [M+CH2O2-H]-; delta(ppm) -103689.503196
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H26OS; [M+CH2O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H24OS; [M+C2H4O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.985; C16H26OS; [M+CH2O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.985; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.985; C15H24OS; [M+C2H4O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 32.921; C15H22F2N4O; [M-H]-; delta(ppm) -0.973495
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.960; C14H24N3S; [M+CH2O2-H]-; delta(ppm) 4.149974
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.960; C15H26N3O2S; [M-H]-; delta(ppm) 4.149974
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.960; C13H22N3S; [M+C2H4O2-H]-; delta(ppm) 4.149974
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.621; C13H24F2O3; [M+CH2O2-H]-; delta(ppm) 3.324551
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.621; C14H26F2O5; [M-H]-; delta(ppm) 3.324551
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.621; C12H22F2O3; [M+C2H4O2-H]-; delta(ppm) 3.324551
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.351; C18H21FN4; [M-H]-; delta(ppm) 2.698649
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.943; C20H23FNO; [M-H]-; delta(ppm) -1.616263
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.405; C13H27FO2S; [M+CH2O2-H]-; delta(ppm) -3.837073
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.405; C14H29FO4S; [M-H]-; delta(ppm) -3.837073
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.405; C12H25FO2S; [M+C2H4O2-H]-; delta(ppm) -3.837073
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.256; C15H26O2Si; [M+CH2O2-H]-; delta(ppm) -235616.946223
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.256; C16H28O4Si; [M-H]-; delta(ppm) -170466.075973
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.256; C14H24O2Si; [M+C2H4O2-H]-; delta(ppm) -235616.946223
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.522; C12H29NOPS; [M+CH2O2-H]-; delta(ppm) -1.158311
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.522; C13H31NO3PS; [M-H]-; delta(ppm) -1.158311
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.522; C11H27NOPS; [M+C2H4O2-H]-; delta(ppm) -1.158311
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.802; C12H27FO3Si; [M+CH2O2-H]-; delta(ppm) -235619.091779
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.802; C13H29FO5Si; [M-H]-; delta(ppm) -170468.602860
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.802; C11H25FO3Si; [M+C2H4O2-H]-; delta(ppm) -235619.091779
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.550; C11H21F3N4; [M+CH2O2-H]-; delta(ppm) -4.645613
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.550; C10H19F3N4; [M+C2H4O2-H]-; delta(ppm) -4.645613
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.251; C8H22N6O4; [M+CH2O2-H]-; delta(ppm) 0.423854
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.251; C7H20N6O4; [M+C2H4O2-H]-; delta(ppm) 0.423854
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.813; C10H27N4PS; [M+CH2O2-H]-; delta(ppm) 3.156605
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.813; C9H25N4PS; [M+C2H4O2-H]-; delta(ppm) 3.156605
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H26OS; [M+CH2O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H24OS; [M+C2H4O2-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF p-value_like 0.0099000; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_MF q-value_like 0.0107645; C17H28O3S; [M-H]-; delta(ppm) -0.164950
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9992821; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0004504; FERBTPHUEYEGDN; [M-H]-; 4-(undecan-5-yl)benzene-1-sulfonic acid_[S6: 2, Finder: 3, Frag: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0002675; XNESFGKFSZHIKF; [M-H]-; 2-undecylbenzenesulfonic Acid_[S6: 3, Finder: 4, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.998; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.002; XNESFGKFSZHIKF; [M-H]-; 2-undecylbenzenesulfonic Acid_[S6: 3, FragP: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; FERBTPHUEYEGDN; [M-H]-; 4-(undecan-5-yl)benzene-1-sulfonic acid_[S6: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; DBPMCLKNUALRFM; [M+CH2O2-H]-; 2-Methyl-4-nonylsulfanylphenol_[S6: 4, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.710; UCDCOJNNUVYFKJ; [M-H]-; Spectral Match to Benzenesulfonic acid, 4-undecyl- from NIST14_C17H28O3S
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.391; UCDCOJNNUVYFKJ-UHFFFAOYSA-N; [M-H]-; N-Undecylbenzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.296; JDFINPCOQNLJJT-UHFFFAOYSA-N; [M-H]-; 3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.273; FERBTPHUEYEGDN-UHFFFAOYSA-N; [M-H]-; 4-(undecan-5-yl)benzene-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.234; XNESFGKFSZHIKF-UHFFFAOYSA-N; [M-H]-; 2-undecylbenzenesulfonic Acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 3.363; YNDWYCVIIYXSKS-UHFFFAOYSA-N; [M+FA-H]-; 2,6-Di-tert-butyl-4-((methylthio)methyl)phenol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 3.362; SMMZXHBQLPPFJF-UHFFFAOYSA-N; [M+Hac-H]-; 2,6-Di-tert-butyl-alpha-mercapto-p-cresol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; UCDCOJNNUVYFKJ-UHFFFAOYSA-N; [M-H]-; N-Undecylbenzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; XNESFGKFSZHIKF-UHFFFAOYSA-N; [M-H]-; 2-undecylbenzenesulfonic Acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; YNDWYCVIIYXSKS-UHFFFAOYSA-N; [M+FA-H]-; 2,6-Di-tert-butyl-4-((methylthio)methyl)phenol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; SMMZXHBQLPPFJF-UHFFFAOYSA-N; [M+Hac-H]-; 2,6-Di-tert-butyl-alpha-mercapto-p-cresol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.992; JDFINPCOQNLJJT-UHFFFAOYSA-N; [M-H]-; 3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.815; FERBTPHUEYEGDN-UHFFFAOYSA-N; [M-H]-; 4-(undecan-5-yl)benzene-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.000; UCDCOJNNUVYFKJ-UHFFFAOYSA-N; [M-H]-; 4-undecylbenzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.000; YNDWYCVIIYXSKS-UHFFFAOYSA-N; [M+FA-H]-; 2,6-ditert-butyl-4-(methylsulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 2.124; XNESFGKFSZHIKF-UHFFFAOYSA-N; [M-H]-; 2-undecylbenzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.531; XTCNQNOXKLHEBB-UHFFFAOYSA-N; [M-H]-; 3-undecylbenzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.251; BXIWSRYIMLQVCT-UHFFFAOYSA-N; [M-H]-; 2-(9-methyldecyl)benzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.149; JDFKJMYGKUSROO-UHFFFAOYSA-N; [M-H]-; 2-(4-octylphenyl)ethyl methanesulfonate
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.617; UCDCOJNNUVYFKJ; [M-H]-; Spectral Match to Benzenesulfonic acid, 4-undecyl- from NIST14_C17H28O3S
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.011; FERBTPHUEYEGDN; [M-H]-; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -19.503; UCDCOJNNUVYFKJ; [M-H]-; Undecylbenzenesulphonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -35.462; XNESFGKFSZHIKF; [M-H]-; Undecylbenzenesulfonicacid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -54.681; FTBBCQCACFWBKI; [M-H]-; 4-(7-ethylnonyl)benzenesulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -144.683; JDFINPCOQNLJJT; [M-H]-; 3,7-dimethyloctyl 4-methylbenzenesulfonate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -186.758; YNDWYCVIIYXSKS; [M+CH2O2-H]-; 2,6-Di-tert-butyl-4-((methylthio)methyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -189.386; SMMZXHBQLPPFJF; [M+C2H4O2-H]-; 2,6-ditert-butyl-4-(sulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.140; FERBTPHUEYEGDN; [M-H]-; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.099; YNDWYCVIIYXSKS; [M+CH2O2-H]-; 2,6-Di-tert-butyl-4-((methylthio)methyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.092; SMMZXHBQLPPFJF; [M+C2H4O2-H]-; 2,6-ditert-butyl-4-(sulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -15.522; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -19.088; FERBTPHUEYEGDN; [M-H]-; 4-(undecan-5-yl)benzene-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -37.023; XNESFGKFSZHIKF; [M-H]-; 2-undecylbenzenesulfonic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.006; DBPMCLKNUALRFM; [M+CH2O2-H]-; 2-Methyl-4-nonylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.147; FWFPCXDCYLKYIP; [M+CH2O2-H]-; 2,6-Ditert-butyl-4-ethylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -96.616; UBQFECJSUWBQIU; [M+CH2O2-H]-; 2,6-Dimethyl-3-octylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.605; DHGKGFLOCRGGMJ; [M+CH2O2-H]-; 2-Methyl-4-(2-methyloctan-2-ylsulfanyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.636; NCXNKXOSVUYXAB; [M+CH2O2-H]-; 2-Methyl-3-nonylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -110.349; IQBFLFVLWDKPBX; [M+CH2O2-H]-; 2,6-Dipentyl-4-sulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -110.367; SQYKGRYNYHIKHE; [M+CH2O2-H]-; 4-Methyl-2-[(octylsulfanyl)methyl]phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -110.419; ZFQSDRHCQNFDGT; [M+CH2O2-H]-; 6-Methyl-2-[(octylthio)methyl]phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -113.333; MMCRBGPREFXNCQ; [M+CH2O2-H]-; 2-Methyl-4-(octylsulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -114.830; BTRUDZKYTBVWHR; [M+CH2O2-H]-; 1-Methylsulfinyl-4-nonylbenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -115.234; GTSDDWKBHVKAJR; [M+CH2O2-H]-; 1-Decyl-4-sulfanyloxybenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -117.909; LRBMRXDNYPGDLJ; [M+CH2O2-H]-; 2,6-Dimethyl-4-(2,4,4-trimethylpentan-2-ylsulfanyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.285; FCQFWFZFQUUZME; [M+CH2O2-H]-; 2-Tert-butyl-6-propan-2-yl-4-propylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.839; QLPZHBLWBIOTGL; [M+CH2O2-H]-; 2,6-Bis(2-methylbutan-2-yl)-4-sulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -122.508; DTDGHULXOWUIDW; [M+CH2O2-H]-; 2-Methyl-6-methylsulfanyl-4-octylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -125.710; QIGNWFWOMXYGEN; [M+CH2O2-H]-; 2,6-Dimethyl-4-(2-methylheptan-2-ylsulfanyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -127.008; HFHCFINDIYPJJQ; [M+CH2O2-H]-; 4-Tert-butylsulfanyl-2,6-di(propan-2-yl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -127.100; KHRHBVXSKFFMAN; [M+CH2O2-H]-; 5-Tert-butyl-2-tert-butylsulfinyl-1,3-dimethylbenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -129.553; MQBJHIQNSDPEPU; [M+CH2O2-H]-; 5-Methyl-2-(octylsulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -130.560; GUNBJLJZZVDODX; [M+CH2O2-H]-; 4-Butylsulfanyl-2,6-di(propan-2-yl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -131.016; XRVVNJCEOSLWQL; [M+CH2O2-H]-; 2-Methylsulfanyl-4-nonylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -131.629; WDRVLQMZNQLHFF; [M+CH2O2-H]-; 4-Nonyl-2-(sulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -131.959; TWMSCWLGIAWWAS; [M+CH2O2-H]-; 6-Methyl-2-[3-(hexylthio)propyl]phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -132.095; ADQIEDLQXBOBGN; [M+CH2O2-H]-; 2-Tert-butyl-4-(pentylsulfanylmethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -132.666; BUXYOMHZPWQQID; [M+CH2O2-H]-; 4-Methyl-2-[3-(hexylthio)propyl]phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -133.925; NVBPMTMOSXAEEL; [M+CH2O2-H]-; 1-(4-Methylphenyl)sulfanylnonan-2-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -134.938; XZSGTQDUVOEJQZ; [M+CH2O2-H]-; 2,3-Dimethyl-4-octylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -135.059; GFVOBNKDXNFOJT; [M+CH2O2-H]-; Methyl 3,5-di-tert-butyl-4-methoxyphenyl sulfide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -135.331; SMMZXHBQLPPFJF; [M+C2H4O2-H]-; 2,6-Di-tert-butyl-alpha-mercapto-p-cresol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -135.338; QUBZUPAETLGBEQ; [M+CH2O2-H]-; 2-Methoxysulfanyl-1,3,5-tri(propan-2-yl)benzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -136.231; XQSMAJPLVZVCEX; [M+CH2O2-H]-; 4-(Decylsulfanyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -137.796; XBMTXIKDQQMZEW; [M+CH2O2-H]-; Nonylsulfinylmethylbenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -138.264; SJWHGMAXUHGMHK; [M+CH2O2-H]-; (4-Nonylsulfanylphenyl)methanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -139.053; WJMHJZBJPRYDOX; [M+CH2O2-H]-; 2-Decylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -139.359; VFDRRVBUQYGICA; [M+CH2O2-H]-; 2,6-Di-tert-butyl-3-ethyl-4-mercaptophenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -139.458; VUCHIAPNVACWIL; [M+CH2O2-H]-; 1-Butan-2-yl-2-hydroxysulfanyl-3,5-di(propan-2-yl)benzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -140.087; OVTONLIGDMGGCQ; [M+CH2O2-H]-; 1-(2-Methylphenyl)sulfanylnonan-2-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -140.343; WZCCOOVRSMAKSD; [M+CH2O2-H]-; 1-(2-Methylsulfanylphenyl)nonan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -140.632; LJSRKXHVFMOLIQ; [M+CH2O2-H]-; 2-Methyl-4-(1-sulfanylnonyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -143.011; YNDWYCVIIYXSKS; [M+CH2O2-H]-; 2,6-Di-tert-butyl-4-((methylthio)methyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.053; CBVTZVJDXIRQAD; [M+CH2O2-H]-; 2-[(R)-methylsulfinyl]-1,3,5-tri(propan-2-yl)benzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.630; CVEFQSNVXZJKES; [M+CH2O2-H]-; 5-Hexyl-2-pentylthiophene-3-carbaldehyde
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.812; ICPDGFPMHWLRJC; [M+CH2O2-H]-; 1-(3-Methylphenyl)sulfanylnonan-2-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -145.096; VYLWQQUDSNVARC; [M+CH2O2-H]-; Octyl(4-methylbenzyl) sulfoxide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -145.985; CLPPTHOQYKDRAI; [M+CH2O2-H]-; 1-(4-Methylsulfanylphenyl)nonan-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.307; DLJKIOOJMIHTNL; [M+CH2O2-H]-; 1-(4-Octylsulfanylphenyl)ethanol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.934; BJJDHURQOVZQTO; [M+CH2O2-H]-; 3-Decylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -148.828; PABIZAXZTIHGDM; [M+CH2O2-H]-; 2,6-Ditert-butyl-4-(2-sulfanylethyl)phenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -167.535; JDFINPCOQNLJJT; [M-H]-; 3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.525; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.168; DBPMCLKNUALRFM; [M+CH2O2-H]-; 2-Methyl-4-nonylsulfanylphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.084; SMMZXHBQLPPFJF; [M+C2H4O2-H]-; 2,6-Di-tert-butyl-alpha-mercapto-p-cresol
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000000; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000000; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; UCDCOJNNUVYFKJ; [M-H]-; 4-undecylbenzene-1-sulfonic acid_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.710; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_Spectral Match to Benzenesulfonic acid, 4-undecyl- from NIST14::C17H28O3S::2::0.6169::0.1705::0.7100
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.391; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_N-Undecylbenzenesulfonic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.296; Benzenesulfonate esters; [M-H]-; JDFINPCOQNLJJT_3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_N-Undecylbenzenesulfonic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.992; Benzenesulfonate esters; [M-H]-; JDFINPCOQNLJJT_3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.000; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_4-undecylbenzenesulfonic acid
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -19.503; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_Undecylbenzenesulphonic acid
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -144.683; Benzenesulfonate esters; [M-H]-; JDFINPCOQNLJJT_3,7-dimethyloctyl 4-methylbenzenesulfonate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -15.522; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_4-undecylbenzene-1-sulfonic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -167.535; Benzenesulfonate esters; [M-H]-; JDFINPCOQNLJJT_3,7-dimethyloctyl 4-methylbenzene-1-sulfonate
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999370; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_4-undecylbenzene-1-sulfonic acid_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000630; Benzenesulfonate esters; [M-H]-; JDFINPCOQNLJJT_3,7-dimethyloctyl 4-methylbenzene-1-sulfonate_[S6: 2, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_4-undecylbenzene-1-sulfonic acid_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001130; Benzenesulfonic acids and derivatives; [M-H]-; UCDCOJNNUVYFKJ_4-undecylbenzene-1-sulfonic acid_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2026.01.11, Processed 2026.02.05, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: N-Undecylbenzenesulfonic acid
+CH$NAME: 4-undecylbenzenesulfonic acid
+CH$COMPOUND_CLASS: N/A; Benzenesulfonic acids and derivatives
+CH$FORMULA: C17H28O3S
+CH$EXACT_MASS: 312.175916
+CH$SMILES: CCCCCCCCCCCC1=CC=C(C=C1)S(=O)(=O)O
+CH$IUPAC: InChI=1S/C17H28O3S/c1-2-3-4-5-6-7-8-9-10-11-16-12-14-17(15-13-16)21(18,19)20/h12-15H,2-11H2,1H3,(H,18,19,20)
+CH$LINK: HMDB HMDB0032549
+CH$LINK: INCHIKEY UCDCOJNNUVYFKJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:38222
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Thermo UltiMate 3000 HPLC system, Thermo Fisher Scientific - Thermo Q Exactive  Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 1.800 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC BEH C18 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0-0.5 min, 5% B; 0.5-7 min,100% B; 7-8 min, 100% B; 8-8.1 min, 5% B; 8.1-10 min, 5% B.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.512
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 100% water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 100% acetonitrile
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 311.168588
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03e9-0509000000-3765d2180f91ab4391ff
+PK$ANNOTATION: m/z int cor n mzPAF
+  61.9882795 5.3142 0.4257 447 ?
+  79.9570550 23.4048 0.9302 571 ?
+  96.9600949 12.2631 0.4750 539 ?
+  119.0501785 16.6828 0.8971 571 f{C8H7O1}/-0.50ppm,p-C9H20O2S1
+  170.0042610 18.1286 0.9123 569 f{C7H6O3S1}/-0.31ppm,p-C10H21
+  183.0119380 615.2983 0.9878 571 f{C8H7O3S1}/-1.10ppm,p-C9H20
+  184.0169580 68.2612 0.9736 560 f{C11H4O3}/1.99ppm,p-C6H23S1
+  197.0275474 27.3428 0.9269 569 f{C9H9O3S1}/-1.22ppm,p-C8H18
+  198.0344474 7.2486 0.8220 529 ?
+  216.0094668 11.4338 0.8809 506 ?
+  225.0591366 7.4952 0.8525 545 f{C11H13O3S1}/0.21ppm,p-C6H14
+  239.0747377 7.9416 0.8479 560 f{C12H15O3S1}/-0.01ppm,p-C5H12
+  310.1769187 10.7116 0.4017 411 ?
+  311.1685553 999.0000 1.0000 571 f{C17H27O3S1}/-0.27ppm,p
+  312.1717918 202.8864 0.9889 571 ?
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  61.988279 5.31 5
+  79.957055 23.40 23
+  96.960095 12.26 12
+  119.050179 16.68 16
+  170.004261 18.13 18
+  183.011938 615.30 615
+  184.016958 68.26 68
+  197.027547 27.34 27
+  198.034447 7.25 7
+  216.009467 11.43 11
+  225.059137 7.50 7
+  239.074738 7.94 7
+  310.176919 10.71 10
+  311.168555 999.00 999
+  312.171792 202.89 202
+//

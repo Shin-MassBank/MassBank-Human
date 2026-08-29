@@ -1,0 +1,335 @@
+ACCESSION: MSBNK-SMB_Measured-HSA088P0380000
+RECORD_TITLE: Sphingosine 1-phosphate; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 317 product ion spectra among 178 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); DUYSYHSSBDVJSM
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000000, MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 1), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.899); CX (Contextual evidence) HMDB (HMDB0000277;HMDB0062531)
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002533
+COMMENT: DATASET_TITLE Untargeted Metabolomics on First Trimester Serum Implicates Metabolic Perturbations Associated with BMI in Development of Hypertensive Disorders: A Discovery Study
+COMMENT: DATASET_AUTHORS Susan Sumner
+COMMENT: DATASET_PUBLICATION Li Y et al. Untargeted metabolomics on first trimester serum implicates metabolic perturbations associated with BMI in development of hypertensive disorders: a discovery study. Front Nutr, 10, 1144131 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37528997
+COMMENT: PRECURSOR_IN_MS1 mz 380.255819; int 49.245; delta(ppm) 0.002565
+COMMENT: MS1_SPEC {335.125087: 3, 335.218957: 3, 335.255307: 2, 337.074677: 1, 337.204707: 2, 337.234557: 7, 337.270997: 1, 338.237978: 1, 339.250548: 1, 339.289118: 1, 341.172119: 13, 347.206762: 1, 347.219032: 9, 347.541292: 1, 348.222382: 2, 348.989843: 3, 350.987003: 3, 351.090393: 1, 351.250344: 3, 352.983924: 1, 353.229654: 1, 353.266084: 1, 355.284065: 10, 356.287326: 2, 357.278536: 39, 357.299596: 3, 358.281882: 11, 359.218967: 2, 361.177243: 1, 361.234658: 6, 361.882149: 2, 362.216619: 1, 362.238199: 1, 362.245219: 3, 363.192699: 6, 365.26612: 1, 367.224221: 7, 367.245341: 2, 369.231062: 2, 371.219133: 2, 373.234784: 22, 373.294664: 4, 374.238175: 4, 374.298085: 1, 375.250475: 2, 375.310405: 1, 376.557636: 2, 376.892136: 1, 379.245468: 1, 380.255818: 49, 381.259239: 10, 381.297349: 1, 383.21035: 1, 385.234761: 1, 389.229633: 1, 391.233084: 1, 391.245234: 2, 392.287165: 1, 392.313285: 2, 393.261015: 1, 393.297386: 1, 394.329066: 3, 395.276667: 101, 396.280027: 22, 397.234798: 19, 397.283448: 2, 397.292268: 31, 398.238188: 5, 398.295648: 6, 399.214079: 1, 399.250609: 1, 401.22977: 1, 402.23788: 12, 403.24097: 2, 405.26102: 1, 405.29764: 1, 405.90851: 1, 407.27734: 1, 409.25604: 1, 409.29263: 1, 411.09363: 8, 412.09268: 1, 413.09052: 1, 413.26608: 15, 413.31134: 2, 413.81308: 1, 414.26941: 3, 415.28168: 45, 416.28506: 13, 421.23245: 1, 424.21967: 2, 424.27167: 17, 425.10925: 3, 426.31912: 11, 426.82101: 6, 429.26114: 3, 429.29993: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 381.259239; int 10.227; cor 0.986
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 402.237880; int 12.660; cor 0.797
+COMMENT: PROPOSED_ION_FORM M+H; M+2Na-H; mz 424.219670; int 2.281; cor 0.652
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 402.237880; int 12.660; cor 0.797
+COMMENT: PROPOSED_MF SevenGoldenRules 0.570; C18H38NO5P; [M+H]+; delta(ppm) -0.569547
+COMMENT: PROPOSED_MF SevenGoldenRules 0.501; C23H35NO2; [M+Na]+; delta(ppm) -0.501026
+COMMENT: PROPOSED_MF Aggregated_ranking 0.9999145; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF Aggregated_ranking 0.0000855; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF MS-FINDER 3.757; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF MS-FINDER 3.612; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF MS-FINDER 2.656; C21H29N7; [M+H]+; delta(ppm) 0.256646
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 31.176; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.636; C20H33N3O4; [M+H]+; delta(ppm) 3.773803
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.538; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.075; C25H33NO2; [M+H]+; delta(ppm) -6.805204
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.320; C20H39NO2S; [M+Na]+; delta(ppm) 64338.572279
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.995; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.005; C20H33N3O4; [M+H]+; delta(ppm) 3.773803
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 70.814; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 68.371; C20H33N3O4; [M+H]+; delta(ppm) 3.773803
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 66.178; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 65.635; C25H33NO2; [M+H]+; delta(ppm) -6.805204
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 60.030; C22H34FNO3; [M+H]+; delta(ppm) -9.810115
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 59.144; C22H35O5; [M+H]+; delta(ppm) 0.242841
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 56.940; C20H37O5; [M+Na]+; delta(ppm) 64356.599673
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 56.904; C20H39NO2S; [M+Na]+; delta(ppm) 64338.572279
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 48.499; C20H33F4NO; [M+H]+; delta(ppm) -3.379592
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.153; C19H38ClNO4; [M+H]+; delta(ppm) -59369.267211
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 45.691; C21H29N7; [M+H]+; delta(ppm) 0.256646
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 45.524; C20H36FNO3; [M+Na]+; delta(ppm) 64345.211145
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.774; C19H39O5S; [M+H]+; delta(ppm) -8.622505
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.255; C19H34N5OP; [M+H]+; delta(ppm) -4.087167
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.001; C19H31N7; [M+Na]+; delta(ppm) 64356.615313
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.236; C18H35F4NO; [M+Na]+; delta(ppm) 64352.495985
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 39.339; C19H38N2O2P; [M+Na]+; delta(ppm) 64347.694406
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 39.073; C16H32FN7O; [M+Na]+; delta(ppm) 64353.211139
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 38.946; C18H36ClN5; [M+Na]+; delta(ppm) 29762.991987
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.896; C21H33N4O; [M+Na]+; delta(ppm) 64352.615276
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H35NO2; [M+Na]+; delta(ppm) 64348.615268
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.002; C20H33N3O4; [M+H]+; delta(ppm) 3.773803
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_MF q-value_like 0.0001207; C18H38NO5P; [M+H]+; delta(ppm) -0.570041
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9999964; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000021; CYIRNKIFROUCMA; [M+Na]+; 17-(5-Hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol_[S6: 9, Finder: 6, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000004; QTDZRBHQQYRERW; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol_[S6: 8, Finder: 11, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.998; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.002; REFUVLFHSVMCAO; [M+H]+; N-palmitoyl-phosphoethanolamine_[S6: 2, FragP: 7]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; QTDZRBHQQYRERW; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol_[S6: 8, FragP: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; RDPJISLOFXUIDK; [M+Na]+; (9aR,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one_[S6: 16, FragP: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; BEJUUNOSKFATNL; [M+Na]+; 5H-(1)Benzopyrano(4,3-c)pyridine, 1,2,3,4-tetrahydro-5,5-dimethyl-8-(1,2-dimethylheptyl)-10-hydroxy-_[S6: 18, FragP: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ZDNHCXMAEKVLGG; [M+Na]+; Type III cyanolipid 18:3 ester_[S6: 3, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ZZMJTNMGPPBIOY; [M+Na]+; (2S,4R,6S,12S,14S,16S)-2,16-dimethyl-14-pyrrolidin-1-yl-5-oxapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-one_[S6: 26, FragP: 4]
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.899; DUYSYHSSBDVJSM; [M+H]+; Spectral Match to D-erythro-Sphingosine-1-phosphate from NIST14_C18H38NO5P
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.826; DUYSYHSSBDVJSM-CCEZHUSRNA-N; [M+H]+; Sphingosine 1-phosphate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.356; CPFHFTZPRVGBSC-RLFNEDOWNA-N; [M+Na]+; UNPD139735
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.336; CPFHFTZPRVGBSC-RLFNEDOWNA-N; [M+Na]+; UNPD139735
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.284; BSTAVZCXPLMHKH-GSDKABSXSA-N; [M+Na]+; Anandin A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.250; CYIRNKIFROUCMA-VROINQGHSA-N; [M+Na]+; (8R,9S,13S,14S,17S)-17-(5-hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.244; CYIRNKIFROUCMA-VROINQGHSA-N; [M+Na]+; (8R,9S,13S,14S,17S)-17-(5-hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.223; PQUGGJDNPWLFES-UHFFFAOYSA-N; [M+Na]+; Spongidine A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.156; BSTAVZCXPLMHKH-GSDKABSXSA-N; [M+Na]+; Anandin A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.106; HXYJGBLGTALODR-UHFFFAOYSA-N; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-5,8a-dimethyl-2H,3H,3aH,5H,6H,7H,8H,8aH,9H,9aH-naphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.085; QDPANORNHMPXKQ-UHFFFAOYSA-N; [M+Na]+; 19-methyl-9-(methylamino)hexacyclo[15.3.1.0?,??.0?,?.0?,??.0??,??]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.084; QTDZRBHQQYRERW-UHFFFAOYSA-N; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.074; QDPANORNHMPXKQ-UHFFFAOYSA-N; [M+Na]+; 19-methyl-9-(methylamino)hexacyclo[15.3.1.0?,??.0?,?.0?,??.0??,??]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.071; AENSHGKORGDOBI-LMUZJLHONA-N; [M+Na]+; 20-Epikibataline;20-epi-Kibataline
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.068; VPTHFEXYJFCRLI-UHFFFAOYSA-N; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-8a-methyl-5-methylidene-dodecahydronaphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.045; ASJBAMFLUNNOSV-LOTOSHMMNA-N; [M+Na]+; UNPD190455
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.034; RDPJISLOFXUIDK-RLAPWRJVSA-N; [M+Na]+; (1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.033; RDPJISLOFXUIDK-RLAPWRJVSA-N; [M+Na]+; (1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.000; MYMYSGUFPZXICQ-UHFFFAOYSA-N; [M+Na]+; UNPD128032
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.987; ZZMJTNMGPPBIOY-UHFFFAOYNA-N; [M+Na]+; Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-(2??,3??,5??,16??,17??)-
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.971; GDIXRZCZAAMRNS-UHFFFAOYSA-N; [M+Na]+; Dihydroxyl-3-Farnesylindole
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.896; FBFPTUVKXJCALB-UHFFFAOYSA-N; [M+Na]+; 6-methyl-13-(methylamino)hexacyclo[10.7.1.1?,?.0?,?.0?,??.0??,??]henicos-10-ene-2,8-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.885; FBFPTUVKXJCALB-UHFFFAOYSA-N; [M+Na]+; 6-methyl-13-(methylamino)hexacyclo[10.7.1.1?,?.0?,?.0?,??.0??,??]henicos-10-ene-2,8-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.851; ZDNHCXMAEKVLGG-MPFYFTGJSA-N; [M+Na]+; Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.851; ZQGNQCAFNOTXSF-AGRJPVHONA-N; [M+Na]+; Type IV cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.671; CPDMKDOXBXJZGN-ABPBKCQHNA-N; [M+Na]+; UNPD52922
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.648; REFUVLFHSVMCAO-UHFFFAOYNA-N; [M+H]+; N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.391; YEDQIWUNYSHHCM-DBTVDHQKNA-N; [M+Na]+; UNPD61403
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.174; DWGRYLIEPUNCLE-UHFFFAOYSA-N; [M+H]+; [methyl-[3-propoxy-2,2-bis(propoxymethyl)propoxy]phosphanyl] N-ethylmethanimidate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; DUYSYHSSBDVJSM-CCEZHUSRNA-N; [M+H]+; Sphingosine 1-phosphate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; CYIRNKIFROUCMA-VROINQGHSA-N; [M+Na]+; (8R,9S,13S,14S,17S)-17-(5-hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.936; QTDZRBHQQYRERW-UHFFFAOYSA-N; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.929; PQUGGJDNPWLFES-UHFFFAOYSA-N; [M+Na]+; Spongidine A
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.921; MYMYSGUFPZXICQ-UHFFFAOYSA-N; [M+Na]+; UNPD128032
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.891; GDIXRZCZAAMRNS-UHFFFAOYSA-N; [M+Na]+; Dihydroxyl-3-Farnesylindole
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.875; BSTAVZCXPLMHKH-GSDKABSXSA-N; [M+Na]+; Anandin A
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.825; QDPANORNHMPXKQ-UHFFFAOYSA-N; [M+Na]+; 19-methyl-9-(methylamino)hexacyclo[15.3.1.0?,??.0?,?.0?,??.0??,??]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.767; FBFPTUVKXJCALB-UHFFFAOYSA-N; [M+Na]+; 6-methyl-13-(methylamino)hexacyclo[10.7.1.1?,?.0?,?.0?,??.0??,??]henicos-10-ene-2,8-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.756; RDPJISLOFXUIDK-RLAPWRJVSA-N; [M+Na]+; (1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.726; YEDQIWUNYSHHCM-DBTVDHQKNA-N; [M+Na]+; UNPD61403
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.695; CPFHFTZPRVGBSC-RLFNEDOWNA-N; [M+Na]+; UNPD139735
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.631; VPTHFEXYJFCRLI-UHFFFAOYSA-N; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-8a-methyl-5-methylidene-dodecahydronaphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.627; ZDNHCXMAEKVLGG-MPFYFTGJSA-N; [M+Na]+; Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.627; ZQGNQCAFNOTXSF-AGRJPVHONA-N; [M+Na]+; Type IV cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.564; CPDMKDOXBXJZGN-ABPBKCQHNA-N; [M+Na]+; UNPD52922
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.548; ASJBAMFLUNNOSV-LOTOSHMMNA-N; [M+Na]+; UNPD190455
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.510; AENSHGKORGDOBI-LMUZJLHONA-N; [M+Na]+; 20-Epikibataline;20-epi-Kibataline
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.498; HXYJGBLGTALODR-UHFFFAOYSA-N; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-5,8a-dimethyl-2H,3H,3aH,5H,6H,7H,8H,8aH,9H,9aH-naphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.349; ZZMJTNMGPPBIOY-UHFFFAOYNA-N; [M+Na]+; Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-(2??,3??,5??,16??,17??)-
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.169; REFUVLFHSVMCAO-UHFFFAOYNA-N; [M+H]+; N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.000; DWGRYLIEPUNCLE-UHFFFAOYSA-N; [M+H]+; [methyl-[3-propoxy-2,2-bis(propoxymethyl)propoxy]phosphanyl] N-ethylmethanimidate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 4.000; DUYSYHSSBDVJSM-KRWOKUGFSA-N; [M+H]+; [(E,2S,3R)-2-amino-3-hydroxyoctadec-4-enyl] dihydrogen phosphate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.264; RDPJISLOFXUIDK-RLAPWRJVSA-N; [M+Na]+; (1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.919; BEJUUNOSKFATNL-UHFFFAOYSA-N; [M+Na]+; 5,5-dimethyl-8-(3-methyloctan-2-yl)-1,2,3,4-tetrahydrochromeno[4,3-c]pyridin-10-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.869; ZZMJTNMGPPBIOY-SLGODVNHSA-N; [M+Na]+; (2S,16S)-2,16-dimethyl-14-pyrrolidin-1-yl-5-oxapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.446; QTDZRBHQQYRERW-VQTJNVASSA-N; [M+Na]+; 2-[(1R,6R)-6-[3-(ethylamino)prop-1-en-2-yl]-3-methylcyclohex-2-en-1-yl]-5-pentylbenzene-1,3-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.023; OOKWHTKWDDXSKE-UHFFFAOYSA-N; [M+Na]+; (1-methylindol-3-yl) tetradecanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.369; REFUVLFHSVMCAO-UHFFFAOYSA-N; [M+H]+; [2-(hexadecanoylamino)-2-hydroxyethyl]phosphonic acid
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.993; DUYSYHSSBDVJSM; [M+H]+; Spectral Match to D-erythro-Sphingosine-1-phosphate from NIST14_C18H38NO5P
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.368; DUYSYHSSBDVJSM; [M+H]+; Epitope ID:161059
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -215.728; REFUVLFHSVMCAO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -340.508; CYIRNKIFROUCMA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -415.474; CPFHFTZPRVGBSC; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -426.996; RDPJISLOFXUIDK; [M+Na]+; (5alpha)-23-Methyl-4-aza-21-norchol-1-ene-3,20-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -429.984; GDIXRZCZAAMRNS; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -433.711; QTDZRBHQQYRERW; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -442.062; MYMYSGUFPZXICQ; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -470.243; DSECDKYYUXLWMP; [M+Na]+; 2,3-Dihydro-4,4,17-trimethyl-androsta-2,5-dieno(3,2-d)isoxaol-17-ol (17beta)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -482.405; QDPANORNHMPXKQ; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -495.189; FBFPTUVKXJCALB; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -496.479; CPDMKDOXBXJZGN; [M+Na]+; Daphnezomine L methyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -501.127; UDNUCVYCLQJJBY; [M+Na]+; Tonazocina
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -508.394; JZFZEWWOIOYBTQ; [M+Na]+; Zenazocine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -545.400; ZZMJTNMGPPBIOY; [M+Na]+; Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-, (2|A,3|A,5|A,16|A)-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -551.500; AENSHGKORGDOBI; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -558.173; BEJUUNOSKFATNL; [M+Na]+; 5,5-dimethyl-8-(3-methyloctan-2-yl)-1,2,3,4-tetrahydrochromeno[4,3-c]pyridin-10-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -579.416; ASJBAMFLUNNOSV; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -601.235; HXYJGBLGTALODR; [M+Na]+; 3-[[2-(cyclohexen-1-yl)ethylamino]methyl]-5,8a-dimethyl-3,3a,5,6,7,8,9,9a-octahydrobenzo[f][1]benzofuran-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -601.279; YEDQIWUNYSHHCM; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -659.490; VPTHFEXYJFCRLI; [M+Na]+; 3-[[2-(cyclohexen-1-yl)ethylamino]methyl]-8a-methyl-5-methylidene-3a,4,4a,6,7,8,9,9a-octahydro-3H-benzo[f][1]benzofuran-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.563; DUYSYHSSBDVJSM; [M+H]+; Epitope ID:161059
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.143; CYIRNKIFROUCMA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_FDR_2ndRank:biodatabase -1.368; DUYSYHSSBDVJSM; [M+H]+; Epitope ID:161059; FDR less than 5% by the 2nd-rank method. Threshold = -8.801
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.903; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -238.844; REFUVLFHSVMCAO; [M+H]+; N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -371.094; ZDNHCXMAEKVLGG; [M+Na]+; Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -414.082; ZQGNQCAFNOTXSF; [M+Na]+; Type IV cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -446.943; MYMYSGUFPZXICQ; [M+Na]+; 2-(12'-Hydroxy-12'-Methyltridecanyl)-4-Quinolone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -461.309; FRFHCUSWGKQCJH; [M+Na]+; 2-(12-hydroxy-12-methyltridecyl)-3H-quinolin-4-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -527.526; SWSWEUYPXYBKBC; [M+Na]+; 2-[2,4-Bis(cyclohexylmethoxy)phenyl]cyclopropan-1-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -544.602; QTDZRBHQQYRERW; [M+Na]+; (-)-trans-2-(10-(Ethylamino)-p-mentha-1,8-dien-3-yl)-5-pentylresorcinol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -560.944; CYIRNKIFROUCMA; [M+Na]+; 17-(5-Hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -568.228; GDIXRZCZAAMRNS; [M+Na]+; Dihydroxyl-3-Farnesylindole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -570.141; UZKATYCSEUEWKQ; [M+Na]+; caldaphnidine o
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -583.331; FBFPTUVKXJCALB; [M+Na]+; 6-methyl-13-(methylamino)hexacyclo[10.7.1.1²,⁶.0¹,⁹.0⁹,¹⁸.0¹⁴,¹⁸]henicos-10-ene-2,8-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -585.507; DSECDKYYUXLWMP; [M+Na]+; 2,3-Dihydro-4,4,17-trimethyl-androsta-2,5-dieno(3,2-d)isoxaol-17-ol (17beta)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -593.922; CPDMKDOXBXJZGN; [M+Na]+; methyl 3-[1-methyl-14-(propan-2-yl)-12-azatetracyclo[8.6.0.0²,¹³.0³,⁷]hexadeca-3,11-dien-2-yl]propanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -628.643; PQUGGJDNPWLFES; [M+Na]+; Spongidine A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -634.026; RDPJISLOFXUIDK; [M+Na]+; (9aR,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -634.523; QDPANORNHMPXKQ; [M+Na]+; 19-methyl-9-(methylamino)hexacyclo[15.3.1.0²,¹².0⁴,⁸.0⁴,¹².0¹⁴,¹⁹]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -654.006; BEJUUNOSKFATNL; [M+Na]+; 5H-(1)Benzopyrano(4,3-c)pyridine, 1,2,3,4-tetrahydro-5,5-dimethyl-8-(1,2-dimethylheptyl)-10-hydroxy-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -654.956; WPVQCRNUKYZBFW; [M+Na]+; spongidine a
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -660.766; VPTHFEXYJFCRLI; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-8a-methyl-5-methylidene-dodecahydronaphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -661.983; ROIGGZDZSZEDCH; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -663.975; OIRTXUBVAAOZJT; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -678.091; AENSHGKORGDOBI; [M+Na]+; 20-Epikibataline
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -680.549; YEDQIWUNYSHHCM; [M+Na]+; 11-methyl-14-(propan-2-yl)-6-oxa-16-azahexacyclo[14.4.1.0¹,⁵.0⁵,¹⁰.0¹⁰,¹⁵.0¹¹,¹⁸]henicosan-7-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -681.318; ASJBAMFLUNNOSV; [M+Na]+; Paxdaphnidine A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -704.901; ZZMJTNMGPPBIOY; [M+Na]+; (2S,4R,6S,12S,14S,16S)-2,16-dimethyl-14-pyrrolidin-1-yl-5-oxapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -705.457; UDNUCVYCLQJJBY; [M+Na]+; 1-(8-Hydroxy-3,6,11-trimethyl-1,2,3,4,5,6-hexahydro-2,6-methano-3-benzazocin-11-yl)octan-3-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -717.151; JZFZEWWOIOYBTQ; [M+Na]+; 3-Heptanone, 1-((2R,6S,11S)-1,2,3,4,5,6-hexahydro-8-hydroxy-3,6,11-trimethyl-2,6-methano-3-benzazocin-11-yl)-6-methyl-, rel-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -719.476; HXYJGBLGTALODR; [M+Na]+; 3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-5,8a-dimethyl-2H,3H,3aH,5H,6H,7H,8H,8aH,9H,9aH-naphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -724.640; CPFHFTZPRVGBSC; [M+Na]+; 1-[1-(dimethylamino)ethyl]-11a-(hydroxymethyl)-9a-methyl-1H,2H,3H,3aH,3bH,4H,5H,7H,9aH,9bH,10H,11H,11aH-cyclopenta[a]phenanthren-7-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -761.316; BSTAVZCXPLMHKH; [M+Na]+; Anandin A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.628; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.048; ZDNHCXMAEKVLGG; [M+Na]+; Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000000; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000000; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; DUYSYHSSBDVJSM; [M+H]+; Sphingosine 1-Phosphate(1-)_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.899; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Spectral Match to D-erythro-Sphingosine-1-phosphate from NIST14::C18H38NO5P::3::0.9927::0.7222::0.8990
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.826; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-phosphate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.356; Gluco/mineralocorticoids, progestogins and derivatives; [M+Na]+; CPFHFTZPRVGBSC_UNPD139735
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.284; Sesquiterpenoids; [M+Na]+; BSTAVZCXPLMHKH_Anandin A
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.250; 3-hydroxysteroids; [M+Na]+; CYIRNKIFROUCMA_(8R,9S,13S,14S,17S)-17-(5-hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.223; Alpha amino acids; [M+Na]+; PQUGGJDNPWLFES_Spongidine A
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.106; Eudesmanolides, secoeudesmanolides, and derivatives; [M+Na]+; HXYJGBLGTALODR_3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-5,8a-dimethyl-2H,3H,3aH,5H,6H,7H,8H,8aH,9H,9aH-naphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.085; Tertiary alcohols; [M+Na]+; QDPANORNHMPXKQ_19-methyl-9-(methylamino)hexacyclo[15.3.1.0?,??.0?,?.0?,??.0??,??]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.071; Gamma butyrolactones; [M+Na]+; AENSHGKORGDOBI_20-Epikibataline;20-epi-Kibataline
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.034; 20-oxosteroids; [M+Na]+; RDPJISLOFXUIDK_(1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.000; Hydroquinolones; [M+Na]+; MYMYSGUFPZXICQ_UNPD128032
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.987; Estrane steroids; [M+Na]+; ZZMJTNMGPPBIOY_Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-(2??,3??,5??,16??,17??)-
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.851; Type 1 cyanolipids; [M+Na]+; ZDNHCXMAEKVLGG_Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.648; Organic phosphonic acids; [M+H]+; REFUVLFHSVMCAO_N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.391; Terpene lactones; [M+Na]+; YEDQIWUNYSHHCM_UNPD61403
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-phosphate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; 3-hydroxysteroids; [M+Na]+; CYIRNKIFROUCMA_(8R,9S,13S,14S,17S)-17-(5-hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.929; Alpha amino acids; [M+Na]+; PQUGGJDNPWLFES_Spongidine A
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.921; Hydroquinolones; [M+Na]+; MYMYSGUFPZXICQ_UNPD128032
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.891; Sesquiterpenoids; [M+Na]+; GDIXRZCZAAMRNS_Dihydroxyl-3-Farnesylindole
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.825; Tertiary alcohols; [M+Na]+; QDPANORNHMPXKQ_19-methyl-9-(methylamino)hexacyclo[15.3.1.0?,??.0?,?.0?,??.0??,??]henicos-15-ene-1,13-diol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.756; 20-oxosteroids; [M+Na]+; RDPJISLOFXUIDK_(1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.726; Terpene lactones; [M+Na]+; YEDQIWUNYSHHCM_UNPD61403
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.695; Gluco/mineralocorticoids, progestogins and derivatives; [M+Na]+; CPFHFTZPRVGBSC_UNPD139735
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.631; Eudesmanolides, secoeudesmanolides, and derivatives; [M+Na]+; VPTHFEXYJFCRLI_3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-8a-methyl-5-methylidene-dodecahydronaphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.627; Type 1 cyanolipids; [M+Na]+; ZDNHCXMAEKVLGG_Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.510; Gamma butyrolactones; [M+Na]+; AENSHGKORGDOBI_20-Epikibataline;20-epi-Kibataline
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.349; Estrane steroids; [M+Na]+; ZZMJTNMGPPBIOY_Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-(2??,3??,5??,16??,17??)-
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.169; Organic phosphonic acids; [M+H]+; REFUVLFHSVMCAO_N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 4.000; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_[(E,2S,3R)-2-amino-3-hydroxyoctadec-4-enyl] dihydrogen phosphate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.264; 20-oxosteroids; [M+Na]+; RDPJISLOFXUIDK_(1S,3aS,3bS,5aR,9aR,9bS,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.869; Estrane steroids; [M+Na]+; ZZMJTNMGPPBIOY_(2S,16S)-2,16-dimethyl-14-pyrrolidin-1-yl-5-oxapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-one
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.369; Organic phosphonic acids; [M+H]+; REFUVLFHSVMCAO_[2-(hexadecanoylamino)-2-hydroxyethyl]phosphonic acid
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -1.368; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Epitope ID:161059
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -215.728; Organic phosphonic acids; [M+H]+; REFUVLFHSVMCAO_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -340.508; 3-hydroxysteroids; [M+Na]+; CYIRNKIFROUCMA_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -415.474; Gluco/mineralocorticoids, progestogins and derivatives; [M+Na]+; CPFHFTZPRVGBSC_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -426.996; 20-oxosteroids; [M+Na]+; RDPJISLOFXUIDK_(5alpha)-23-Methyl-4-aza-21-norchol-1-ene-3,20-dione
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -429.984; Sesquiterpenoids; [M+Na]+; GDIXRZCZAAMRNS_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -442.062; Hydroquinolones; [M+Na]+; MYMYSGUFPZXICQ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -482.405; Tertiary alcohols; [M+Na]+; QDPANORNHMPXKQ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -545.400; Estrane steroids; [M+Na]+; ZZMJTNMGPPBIOY_Androstan-17-one,2,3-epoxy-16-(1-pyrrolidinyl)-, (2|A,3|A,5|A,16|A)-
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -551.500; Gamma butyrolactones; [M+Na]+; AENSHGKORGDOBI_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -601.235; Eudesmanolides, secoeudesmanolides, and derivatives; [M+Na]+; HXYJGBLGTALODR_3-[[2-(cyclohexen-1-yl)ethylamino]methyl]-5,8a-dimethyl-3,3a,5,6,7,8,9,9a-octahydrobenzo[f][1]benzofuran-2-one
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -601.279; Terpene lactones; [M+Na]+; YEDQIWUNYSHHCM_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -38.903; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-Phosphate(1-)
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -238.844; Organic phosphonic acids; [M+H]+; REFUVLFHSVMCAO_N-palmitoyl-phosphoethanolamine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -371.094; Type 1 cyanolipids; [M+Na]+; ZDNHCXMAEKVLGG_Type III cyanolipid 18:3 ester
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -446.943; Hydroquinolones; [M+Na]+; MYMYSGUFPZXICQ_2-(12'-Hydroxy-12'-Methyltridecanyl)-4-Quinolone
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -560.944; 3-hydroxysteroids; [M+Na]+; CYIRNKIFROUCMA_17-(5-Hydroxypentylamino)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -568.228; Sesquiterpenoids; [M+Na]+; GDIXRZCZAAMRNS_Dihydroxyl-3-Farnesylindole
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -583.331; Tertiary alcohols; [M+Na]+; FBFPTUVKXJCALB_6-methyl-13-(methylamino)hexacyclo[10.7.1.1²,⁶.0¹,⁹.0⁹,¹⁸.0¹⁴,¹⁸]henicos-10-ene-2,8-diol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -628.643; Alpha amino acids; [M+Na]+; PQUGGJDNPWLFES_Spongidine A
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -634.026; 20-oxosteroids; [M+Na]+; RDPJISLOFXUIDK_(9aR,11aS)-9a,11a-dimethyl-1-(3-methylbutanoyl)-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinolin-7-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -660.766; Eudesmanolides, secoeudesmanolides, and derivatives; [M+Na]+; VPTHFEXYJFCRLI_3-({[2-(cyclohex-1-en-1-yl)ethyl]amino}methyl)-8a-methyl-5-methylidene-dodecahydronaphtho[2,3-b]furan-2-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -678.091; Gamma butyrolactones; [M+Na]+; AENSHGKORGDOBI_20-Epikibataline
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -680.549; Terpene lactones; [M+Na]+; YEDQIWUNYSHHCM_11-methyl-14-(propan-2-yl)-6-oxa-16-azahexacyclo[14.4.1.0¹,⁵.0⁵,¹⁰.0¹⁰,¹⁵.0¹¹,¹⁸]henicosan-7-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -704.901; Estrane steroids; [M+Na]+; ZZMJTNMGPPBIOY_(2S,4R,6S,12S,14S,16S)-2,16-dimethyl-14-pyrrolidin-1-yl-5-oxapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -724.640; Gluco/mineralocorticoids, progestogins and derivatives; [M+Na]+; CPFHFTZPRVGBSC_1-[1-(dimethylamino)ethyl]-11a-(hydroxymethyl)-9a-methyl-1H,2H,3H,3aH,3bH,4H,5H,7H,9aH,9bH,10H,11H,11aH-cyclopenta[a]phenanthren-7-one
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 1.0000000; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-Phosphate(1-)_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-Phosphate(1-)_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001124; Phosphosphingolipids; [M+H]+; DUYSYHSSBDVJSM_Sphingosine 1-Phosphate(1-)_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2026.01.07, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Sphingosine 1-phosphate
+CH$NAME: (2-amino-3-hydroxy-octadec-4-enyl) dihydrogen phosphate
+CH$COMPOUND_CLASS: N/A; Phosphosphingolipids
+CH$FORMULA: C18H38NO5P
+CH$EXACT_MASS: 379.248760
+CH$SMILES: CCCCCCCCCCCCCC=CC(C(COP(=O)(O)O)N)O
+CH$IUPAC: InChI=1S/C18H38NO5P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(20)17(19)16-24-25(21,22)23/h14-15,17-18,20H,2-13,16,19H2,1H3,(H2,21,22,23)
+CH$LINK: CHEBI CHEBI:37550
+CH$LINK: HMDB HMDB0000277
+CH$LINK: INCHIKEY DUYSYHSSBDVJSM-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMSP01050001
+CH$LINK: PUBCHEM CID:5262
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-45, ramp
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 8.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 99% B; 16.0-19.0 min, 1% B; 19.5 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.059
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 100% water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 100% methanol
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 380.255818
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-2090000000-1c98f68953fa9500b329
+PK$ANNOTATION: m/z int cor n mzPAF
+  57.0697402 7.3830 0.9841 274 f{C4H9}/-2.39ppm,p-C14H30N1O5P1
+  67.0541648 14.4243 0.9823 316 f{C5H7}/-0.92ppm,p-C13H32N1O5P1
+  69.0697951 7.2211 0.9806 253 f{C5H9}/-1.18ppm,p-C13H30N1O5P1
+  79.0543887 21.7179 0.9910 317 f{C6H7}/2.05ppm,p-C12H32N1O5P1
+  81.0699746 17.7972 0.9897 317 f{C6H9}/1.21ppm,p-C12H30N1O5P1
+  82.0654156 105.5539 0.9972 317 f{C5H8N1}/3.53ppm,p-C13H31O5P1
+  83.0856365 6.9718 0.9726 247 f{C6H11}/1.32ppm,p-C12H28N1O5P1
+  93.0701912 41.0468 0.9961 317 f{C7H9}/3.38ppm,p-C11H30N1O5P1
+  95.0856011 15.9660 0.9892 317 f{C7H11}/0.78ppm,p-C11H28N1O5P1
+  96.0809009 25.1998 0.9932 317 f{C6H10N1}/1.30ppm,p-C12H29O5P1
+  107.0857134 18.0627 0.9914 317 f{C8H11}/1.74ppm,p-C10H28N1O5P1
+  109.1017609 8.1729 0.9761 266 f{C8H13}/5.35ppm,p-C10H26N1O5P1
+  121.1013790 16.4845 0.9876 317 f{C9H13}/1.67ppm,p-C9H26N1O5P1
+  135.1168880 16.7410 0.9892 316 f{C10H15}/0.45ppm,p-C8H24N1O5P1
+  149.1324402 7.3041 0.9838 255 f{C11H17}/-0.25ppm,p-C7H22N1O5P1
+  247.2410506 20.3478 0.9922 317 f{C18H31}/-3.95ppm,p-H8N1O5P1
+  262.2519964 21.3382 0.9924 317 f{C18H32N1}/-3.55ppm,p-H7O5P1
+  264.2676918 999.0000 1.0000 317 f{C18H34N1}/-3.35ppm,p-H5O5P1
+  265.2708645 80.8313 0.9875 317 ?
+  362.2444081 16.9902 0.9882 314 f{C18H37N1O4P1}/-2.93ppm,p-H2O1
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+  57.069740 7.38 7
+  67.054165 14.42 14
+  69.069795 7.22 7
+  79.054389 21.72 21
+  81.069975 17.80 17
+  82.065416 105.55 105
+  83.085637 6.97 6
+  93.070191 41.05 41
+  95.085601 15.97 15
+  96.080901 25.20 25
+  107.085713 18.06 18
+  109.101761 8.17 8
+  121.101379 16.48 16
+  135.116888 16.74 16
+  149.132440 7.30 7
+  247.241051 20.35 20
+  262.251996 21.34 21
+  264.267692 999.00 999
+  265.270865 80.83 80
+  362.244408 16.99 16
+//

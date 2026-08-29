@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-SMB_Measured-HSA081P0871002
+RECORD_TITLE: m/z 871.692858; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 871.69286
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003168
+COMMENT: DATASET_TITLE Lipidomic analysis of cryopreserved human cardiac tissue from young and ageing adults
+COMMENT: DATASET_AUTHORS Don Anthony
+COMMENT: DATASET_PUBLICATION Malecki C et al. The Human Cardiac Age-OME: Age-Specific Changes in Myocardial Molecular Expression. Aging Cell, 24, e70219 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 40915658
+COMMENT: PRECURSOR_IN_MS1 mz 871.692462; int 140.565; delta(ppm) -0.454316
+COMMENT: MS1_SPEC {826.564087: 13, 827.566095: 5, 832.663762: 377, 834.530496: 19, 835.535531: 10, 848.652725: 38, 850.652909: 11, 857.675063: 990, 858.680389: 558, 871.692462: 140, 872.695844: 74, 873.700376: 25, 899.647173: 70, 901.656969: 11}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 872.695844; int 74.260; cor 0.915
+COMMENT: PROPOSED_ION_FORM M+Hac-H; M-H; mz 811.670259; int 40.580; cor 0.867
+COMMENT: PROPOSED_MF SevenGoldenRules 1.270; C48H98N4O5P2; [M-H]1; delta(ppm) -1.269623
+COMMENT: PROPOSED_MF SevenGoldenRules 0.561; C56H92N2O5; [M-H]1; delta(ppm) -0.561476
+COMMENT: PROPOSED_MF SevenGoldenRules 0.262; C47H102O9P2; [M-H]1; delta(ppm) 0.262404
+COMMENT: PROPOSED_MF SevenGoldenRules 1.361; C46H94N4O3P2; [M+Hac-H]1; delta(ppm) -1.360931
+COMMENT: PROPOSED_MF SevenGoldenRules 0.600; C54H88N2O3; [M+Hac-H]1; delta(ppm) -0.600483
+COMMENT: PROPOSED_MF SevenGoldenRules 0.285; C45H98O7P2; [M+Hac-H]1; delta(ppm) 0.285476
+COMMENT: DATES Averaged 2025.12.02, Processed 2026.02.09, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Heart
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 9.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-3.0 min, 20% B; 5.5 min, 45% B; 8.0 min, 65% B; 13.0 min, 85% B; 14.0-20.0 min, 100% B; 20.2-27.0 min, 30% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.28 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.532
+AC$CHROMATOGRAPHY: SOLVENT A 10 mM ammonium formate, 0.1% formic acid in acetonitrile:water (60:40)
+AC$CHROMATOGRAPHY: SOLVENT B 10 mM ammonium formate, 0.1% formic acid in isopropanol:acetonitrile (90:10)
+MS$FOCUSED_ION: PRECURSOR_M/Z 871.692858
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03xr-1500000090-98958b180b07d4bcb7ed
+PK$ANNOTATION: m/z int cor n mzPAF
+  78.9590500 186.2249 0.7167 9 ?
+  168.0437522 619.6641 0.7818 10 ?
+  811.6709558 999.0000 1.0000 10 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  168.043752 619.66 619
+  811.670956 999.00 999
+//

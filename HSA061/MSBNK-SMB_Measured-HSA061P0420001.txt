@@ -1,0 +1,55 @@
+ACCESSION: MSBNK-SMB_Measured-HSA061P0420001
+RECORD_TITLE: m/z 420.250456; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 33 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 420.25046
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS7840
+COMMENT: DATASET_TITLE PRODH regultes naive pluripotency by influencing mitochondrial oxidative phosphorylation (Untargeted metabolomics)
+COMMENT: DATASET_AUTHORS Cheng Chen
+COMMENT: DATASET_PUBLICATION Chen C et al. PRODH safeguards human naive pluripotency by limiting mitochondrial oxidative phosphorylation and reactive oxygen species production. EMBO Rep, 25, 2015-2044 (2024)
+COMMENT: DATASET_PUBLICATION_PMID 38480845
+COMMENT: PRECURSOR_IN_MS1 mz 420.250411; int 30.097; delta(ppm) -0.107079
+COMMENT: MS1_SPEC {374.244685: 29, 375.248184: 6, 377.272718: 1, 381.2315: 1, 392.119933: 2, 420.250411: 30, 421.253829: 7, 422.256828: 1, 434.130327: 1, 463.283143: 2, 464.314442: 19}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 421.253829; int 7.032; cor 0.942
+COMMENT: PROPOSED_ION_FORM M+FA-H; M-H; mz 374.244686; int 29.290; cor 0.927
+COMMENT: PROPOSED_MF SevenGoldenRules 0.145; C22H35N3O5; [M-H]1; delta(ppm) 0.144804
+COMMENT: PROPOSED_MF SevenGoldenRules 0.168; C21H33N3O3; [M+FA-H]1; delta(ppm) 0.167887
+COMMENT: DATES Averaged 2025.09.29, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: UltiMate 3000 HPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 1.500 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 7.0 min, 100% B; 7.0-8.0 min, 100% B; 8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.975
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 420.250456
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0009000000-04267d0ba9df1a578cb7
+PK$ANNOTATION: m/z int cor n mzPAF
+  374.2447698 999.0000 1.0000 21 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  374.244770 999.00 999
+//

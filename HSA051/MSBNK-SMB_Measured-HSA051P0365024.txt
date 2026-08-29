@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA051P0365024
+RECORD_TITLE: m/z 365.032844; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 34 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 365.03284
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2349
+COMMENT: DATASET_TITLE Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Nasopharyngeal swab assay)
+COMMENT: DATASET_AUTHORS Shalini Aggarwal, Shashwati Parihari, Arghya Banerjee, Jyotirmoy Roy, Nirjhar Banerjee, Renuka Bankar, Saravanan Kumar, Manisha Choudhury, Rhythm Shah, Kharanshu Bhojak, Viswanthram Palanivel, Akanksha Salkar, Sachee Agrawal, Om Shrivastav, Jayanthi Shastri, Sanjeeva Srivastava
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 365.029835; int 3.113; delta(ppm) -8.244219
+COMMENT: MS1_SPEC {325.114141: 33, 326.117347: 4, 342.140556: 2, 343.124491: 1, 347.095909: 2, 360.15132: 21, 361.154662: 2, 364.921631: 2, 365.029834: 3, 365.106902: 999, 365.180751: 4, 365.186646: 1, 365.290072: 2, 366.11022: 136, 367.11054: 23, 368.113771: 3, 371.102302: 5, 372.101371: 1, 381.080494: 47, 382.083664: 6, 383.078472: 3, 395.117221: 1}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 2.720; C16H14O6P2; [M+H]+; delta(ppm) -2.719589
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Nasal mucosa
+AC$INSTRUMENT: UltiMate 3000 UHPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 33 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 6.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD™ C18 Selectivity HPLC Column (1.9 µm, 2.1 mm x 100 mm; Thermo Fisher Scientific)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 98% B; 5.0 min, 50% B; 14.0 min, 2% B; 14.0-17.0 min, 2% B; 17.2 min, 99% B; 17.2-20.0 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.877
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in methanol
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in water
+MS$FOCUSED_ION: PRECURSOR_M/Z 365.032844
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0149000000-fbce673f22ee2f109066
+PK$ANNOTATION: m/z int cor n mzPAF
+  185.0422841 167.1261 0.5604 15 ?
+  186.0457394 7.9315 1.0000 14 ?
+  203.0527833 498.0538 0.5736 15 ?
+  204.0563242 33.5899 0.3846 15 ?
+  365.1064569 999.0000 0.5473 15 ?
+  366.1099005 141.1394 0.5473 15 ?
+  367.1118137 10.3702 0.2273 12 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  186.045739 7.93 999
+//

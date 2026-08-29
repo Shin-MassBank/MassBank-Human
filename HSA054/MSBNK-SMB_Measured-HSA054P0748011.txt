@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA054P0748011
+RECORD_TITLE: m/z 748.513751; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 45 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 748.51375
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS8280
+COMMENT: DATASET_TITLE MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis
+COMMENT: DATASET_AUTHORS Vaishnavi V Phadnis, Whitney S Henry, Tenzin Kunchok, Amy Deik, Zon Weng Lai
+COMMENT: DATASET_PUBLICATION Phadnis VV et al. MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis. Cell Rep, 42, 113023 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37691145
+COMMENT: PRECURSOR_IN_MS1 mz 748.513671; int 352.336; delta(ppm) -0.106878
+COMMENT: MS1_SPEC {719.535065: 16, 722.49801: 17, 732.482217: 24, 733.550613: 129, 745.550561: 354, 746.553844: 151, 747.557056: 51, 748.513671: 352, 749.517095: 158, 750.520247: 19, 772.513903: 74, 773.517124: 33, 782.498145: 25}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 749.517095; int 158.264; cor 0.891
+COMMENT: PROPOSED_ION_FORM M+FA-H; M+TFA-H; mz 816.501030; int 25.589; cor 0.883
+COMMENT: PROPOSED_MF SevenGoldenRules 1.325; C40H72N5O6P; [M-H]1; delta(ppm) -1.324846
+COMMENT: PROPOSED_MF SevenGoldenRules 0.459; C39H76NO10P; [M-H]1; delta(ppm) 0.458960
+COMMENT: PROPOSED_MF SevenGoldenRules 1.839; C33H77N5O9P2; [M-H]1; delta(ppm) 1.838507
+COMMENT: PROPOSED_MF SevenGoldenRules 1.409; C39H70N5O4P; [M+FA-H]1; delta(ppm) -1.408640
+COMMENT: PROPOSED_MF SevenGoldenRules 0.493; C38H74NO8P; [M+FA-H]1; delta(ppm) 0.493237
+COMMENT: PROPOSED_MF SevenGoldenRules 1.962; C32H75N5O7P2; [M+FA-H]1; delta(ppm) 1.961577
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Horizon UPLC system, Thermo Fisher Scientific - ID-X tribrid mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION HESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Ascentis Express C18 (2.7 µm, 150 x 2.1 mm, Sigma-Aldrich)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.5 min, 32% B; 4.0 min, 45% B; 5.0 min, 52% B; 8.0 min, 58% B; 11.0 min, 66% B; 14.0 min, 70% B; 18.0 min, 75% B; 21.0 min, 97% B;  21.0-35.0 min, 97% B; 35.1 min, 32% B; 35.1-40.0 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.26 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.072
+AC$CHROMATOGRAPHY: SOLVENT A 60:40 water:acetonitrile with 10 mM ammonium formate and 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90:10 isopropanol:acetonitrile, with 10 mM ammonium formate and 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 748.513751
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f9i-0090007100-120f56c8d0ba48be4b2f
+PK$ANNOTATION: m/z int cor n mzPAF
+  227.2033569 611.7770 0.8061 10 ?
+  253.2192845 530.4610 0.5030 10 ?
+  688.4974698 999.0000 0.5879 10 ?
+  748.5185232 231.3539 1.0000 10 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  227.203357 611.78 999
+  748.518523 231.35 377
+//

@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA004P0379012
+RECORD_TITLE: m/z 378.979322; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 48 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 378.97932
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: DATASET_PUBLICATION Bouranis JA et al. Interplay between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach. Nutrients, 15,  (2022)
+COMMENT: DATASET_PUBLICATION_PMID 36615700
+COMMENT: PRECURSOR_IN_MS1 mz 378.978741; int 39.654; delta(ppm) -1.533068
+COMMENT: MS1_SPEC {330.842677: 40, 332.839675: 7, 333.034957: 13, 336.858463: 67, 337.857987: 4, 338.855042: 15, 348.999735: 12, 352.825246: 28, 355.016895: 17, 358.840473: 42, 360.835806: 7, 372.108827: 7, 374.806526: 20, 378.978741: 39, 379.982966: 5, 380.822434: 17, 384.99524: 40, 386.947688: 10, 394.955566: 13, 400.96233: 22, 428.961173: 10}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M-H; M+Na-2H; mz 400.962331; int 22.954; cor 0.733
+COMMENT: PROPOSED_MF SevenGoldenRules 2.787; C12H4N4O11; [M-H]1; delta(ppm) -2.786940
+COMMENT: PROPOSED_MF SevenGoldenRules 3.976; C15H10O8P2; [M-H]1; delta(ppm) 3.976456
+COMMENT: DATES Averaged 2024.12.24, Processed 2025.12.16, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.156
+AC$CHROMATOGRAPHY: SOLVENT A 100% water; 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 100% methanol; 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 378.979322
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f89-0490000000-89cb7f65bd343a997f34
+PK$ANNOTATION: m/z int cor n mzPAF
+  96.9598028 107.1117 0.2679 13 ?
+  152.9171908 521.4827 0.2936 13 ?
+  232.8743000 999.0000 0.2799 13 ?
+  378.9806880 38.0918 1.0000 10 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  378.980688 38.09 999
+//

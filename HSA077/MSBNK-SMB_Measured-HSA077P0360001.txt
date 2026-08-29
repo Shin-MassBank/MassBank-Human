@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA077P0360001
+RECORD_TITLE: m/z 360.323593; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 28 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 360.32359
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003576
+COMMENT: DATASET_TITLE Comparison of the capillary and venous blood lipidomes- validation of the Tasso SST capillary blood collection device for circulating lipid biomarker analysis
+COMMENT: DATASET_AUTHORS Hameed Ahsan
+COMMENT: DATASET_PUBLICATION Hameed A et al. Comparison of the capillary and venous blood plasma lipidomes: validation of self-collected blood for plasma lipidomics. J Lipid Res, 66, 100755 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 39952568
+COMMENT: PRECURSOR_IN_MS1 mz 360.323593; int 12.421; delta(ppm) 0.002407
+COMMENT: MS1_SPEC {324.217076: 4, 338.320628: 1, 338.341773: 268, 338.363458: 1, 339.345166: 63, 340.348528: 6, 355.368317: 20, 356.371748: 4, 358.367921: 1, 360.323593: 12, 361.327062: 2, 366.264028: 4, 380.279744: 1, 383.331029: 1, 391.284319: 19, 392.287616: 5}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 361.327062; int 2.862; cor 0.791
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 355.368317; int 20.443; cor 0.648
+COMMENT: PROPOSED_MF SevenGoldenRules 0.267; C22H43NO; [M+Na]+; delta(ppm) -0.266798
+COMMENT: DATES Averaged 2026.02.08, Processed 2026.02.08, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Thermo Dionex Ultimate 3000, Thermo Fisher Scientific - Thermo Exactive Plus Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 2.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC BEH C8 (1.7 µm, 50 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0–24.0 min, 32% B; 25.0 min, 32% B; 28.0 min, 97% B; 28.0–29.0 min, 97% B; 29.1 min, 32% B; 29.1–35.0 min, 32% B.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.25 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.154
+AC$CHROMATOGRAPHY: SOLVENT A 40% acetonitrile/60% water; 10 mM ammonium formate; 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90% isopropanol/10% acetonitrile; 10 mM ammonium formate; 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 360.323593
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0009000000-57ddfbd40ea8291d0827
+PK$ANNOTATION: m/z int cor n mzPAF
+  88.1121612 7.2730 0.0714 13 ?
+  102.1278475 1.9807 0.0714 13 ?
+  134.1177155 1.1639 0.2091 11 ?
+  163.0755144 7.3059 -0.0055 13 ?
+  360.3007653 6.4790 0.7857 13 ?
+  360.3054084 5.1776 0.4545 12 ?
+  360.3240408 999.0000 1.0000 13 ?
+  360.3475770 6.2370 0.5062 13 ?
+  360.3622386 15.1294 0.0440 13 ?
+  360.3745279 8.2267 0.0440 13 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  360.300765 6.48 6
+  360.324041 999.00 999
+//

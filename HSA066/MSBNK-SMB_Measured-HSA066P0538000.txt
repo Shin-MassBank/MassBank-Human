@@ -1,0 +1,168 @@
+ACCESSION: MSBNK-SMB_Measured-HSA066P0538000
+RECORD_TITLE: N-Palmitoylsphingosine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); YDNKGFDKKRUKPY
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000000, CFM-ID:MS-FINDER_DB (rank 1), MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 6), SIRIUS5_CSI:biodatabase (rank 2), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.708); CX (Contextual evidence) HMDB (HMDB0000790;HMDB0004949)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2716
+COMMENT: DATASET_TITLE Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Giorgia Del Favero, Gerhard Adam, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells. Environ Int, 158, 106940 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34673318
+COMMENT: PRECURSOR_IN_MS1 mz 538.519520; int 61.965; delta(ppm) -0.040422
+COMMENT: MS1_SPEC {494.405074: 3, 496.420842: 24, 497.42407: 6, 504.337235: 3, 505.449548: 8, 508.545345: 9, 512.415869: 15, 513.419334: 4, 520.508927: 52, 521.512381: 18, 522.51548: 3, 524.452203: 11, 526.431561: 25, 527.434849: 7, 532.384759: 25, 536.165625: 9, 536.576882: 7, 537.165666: 4, 538.519519: 61, 539.522932: 22, 540.447173: 18, 540.526001: 4, 541.450432: 5, 547.472112: 6, 549.487937: 2, 556.265343: 7, 556.442151: 13, 557.445551: 3, 560.501445: 12, 561.504914: 4, 565.567294: 12, 568.478462: 8, 569.482182: 3, 570.458042: 20, 571.461407: 6, 575.504186: 5, 576.411154: 24, 577.51966: 223, 578.523032: 89, 579.52605: 22, 584.47385: 14, 585.477006: 5}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 539.522933; int 22.657; cor 0.965
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 560.501446; int 12.974; cor 0.679
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 560.501446; int 12.974; cor 0.679
+COMMENT: PROPOSED_MF SevenGoldenRules 0.316; C34H67NO3; [M+H]+; delta(ppm) 0.316272
+COMMENT: PROPOSED_MF SevenGoldenRules 2.240; C28H68N5O2P; [M+H]+; delta(ppm) 2.239949
+COMMENT: PROPOSED_MF SevenGoldenRules 0.797; C31H70N3P; [M+Na]+; delta(ppm) -0.797237
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF MS-FINDER 4.172; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF MS-FINDER 3.137; C27H67N7OS; [M+H]+; delta(ppm) -0.958633
+COMMENT: PROPOSED_MF MS-FINDER 2.453; C20H59N17; [M+H]+; delta(ppm) -3.101902
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3014.860; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3008.385; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.970; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_MF q-value_like 0.0001632; C34H67NO3; [M+H]+; delta(ppm) 0.314858
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9904655; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[S6: 1, Finder: 1, Frag: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0078320; UQKAUNJILIUTGT; [M+H]+; N-(octadecanoyl)-hexadecasphing-4-enine_[S6: 2, Finder: 8, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0007254; NQJBRXDZDNXGGL; [M+H]+; N-Heptadecanoyl-14-Methylhexadecasphingosine_[S6: 4, Finder: 4, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0005091; LUZOAWOTNJCHBW; [M+H]+; nan_[S6: 5, Finder: 2, Frag: 7]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0003580; DLTXHYMYPKOZOA; [M+H]+; N-(1,3-dihydroxytetradec-4-en-2-yl)icosanamide_[S6: 3, Finder: 6, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000666; WSQTXGWVQVJEKA; [M+H]+; N-heptadecanoyl-15-methylhexadecasphing-4-enine_[S6: 6, Finder: 5, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000301; WBVLQMCMYUHVOR; [M+H]+; N-(1,3-dihydroxyoctadec-8-en-2-yl)hexadecanamide_[S6: 8, Finder: 3, Frag: 8]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000134; WVYZVHOGWHERHM; [M+H]+; N-(5-dodecyl-4-hydroxyoxolan-3-yl)octadecanamide_[S6: 10, Finder: 7, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 1.000; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; KOBCXJLOSVLMFJ; [M+H]+; N-(1-Hydroxy-3-oxooctadecan-2-YL)hexadecanamide_[S6: 9, FragP: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; UQKAUNJILIUTGT; [M+H]+; N-(octadecanoyl)-hexadecasphing-4-enine_[S6: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; DLTXHYMYPKOZOA; [M+H]+; N-(1,3-dihydroxytetradec-4-en-2-yl)icosanamide_[S6: 3, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; NQJBRXDZDNXGGL; [M+H]+; N-Heptadecanoyl-14-Methylhexadecasphingosine_[S6: 4, FragP: 100]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.178; YDNKGFDKKRUKPY-UHFFFAOYNA-N; [M+H]+; CCCCCCCCCCCCCCCC(=O)NC(CO)C(O)C=CCCCCCCCCCCCCC
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.178; WBVLQMCMYUHVOR-UHFFFAOYSA-N; [M+H]+; O=C(NC(CO)C(O)CCCCC=CCCCCCCCCC)CCCCCCCCCCCCCCC
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.176; LUZOAWOTNJCHBW-UHFFFAOYSA-N; [M+H]+; O=C(NC(CO)C(O)C=CCCCCCCCCCCCCC)CCCCCCCCCCCCC(C)C
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.000; NQJBRXDZDNXGGL-ZWTFWLHVSA-N; [M+H]+; CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO)[C@H](O)\C=C\CCCCCCCCC(C)CC
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.000; WSQTXGWVQVJEKA-XJMJJNTRNA-N; [M+H]+; CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO)[C@H](O)\C=C\CCCCCCCCCC(C)C
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.708; YDNKGFDKKRUKPY; [M+H]+; Ceramide (18:1/16:0)_C34H67NO3
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.574; YDNKGFDKKRUKPY-UHFFFAOYNA-N; [M+H]+; N-Palmitoylsphingosine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.994; LUZOAWOTNJCHBW-UHFFFAOYSA-N; [M+H]+; CNP0437798
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.994; WBVLQMCMYUHVOR-UHFFFAOYSA-N; [M+H]+; N-(1,3-dihydroxyoctadec-8-en-2-yl)hexadecanamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.562; NQJBRXDZDNXGGL-ZWTFWLHVSA-N; [M+H]+; N-heptadecanoyl-14-methylhexadecasphingosine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.510; WSQTXGWVQVJEKA-XJMJJNTRNA-N; [M+H]+; N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.143; DLTXHYMYPKOZOA-XBYITFIANA-N; [M+H]+; Cer(d14:1/20:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.138; WVYZVHOGWHERHM-MVIDNBQJSA-N; [M+H]+; UNPD223990
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.112; UQKAUNJILIUTGT-XBYITFIANA-N; [M+H]+; Cer(d16:1/18:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; UQKAUNJILIUTGT-XBYITFIANA-N; [M+H]+; Cer(d16:1/18:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; WVYZVHOGWHERHM-MVIDNBQJSA-N; [M+H]+; UNPD223990
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.404; NQJBRXDZDNXGGL-ZWTFWLHVSA-N; [M+H]+; N-heptadecanoyl-14-methylhexadecasphingosine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.404; WSQTXGWVQVJEKA-XJMJJNTRNA-N; [M+H]+; N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.236; DLTXHYMYPKOZOA-XBYITFIANA-N; [M+H]+; Cer(d14:1/20:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.227; YDNKGFDKKRUKPY-UHFFFAOYNA-N; [M+H]+; N-Palmitoylsphingosine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.227; LUZOAWOTNJCHBW-UHFFFAOYSA-N; [M+H]+; CNP0437798
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.227; WBVLQMCMYUHVOR-UHFFFAOYSA-N; [M+H]+; N-(1,3-dihydroxyoctadec-8-en-2-yl)hexadecanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 4.000; YDNKGFDKKRUKPY-TURZORIXSA-N; [M+H]+; N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]hexadecanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.200; KOBCXJLOSVLMFJ-YTTGMZPUSA-N; [M+H]+; N-[(2S)-1-hydroxy-3-oxooctadecan-2-yl]hexadecanamide
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.977; YDNKGFDKKRUKPY; [M+H]+; Ceramide (18:1/16:0)_C34H67NO3
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.849; DLTXHYMYPKOZOA; [M+H]+; N-(eicosanoyl)-tetradecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.849; YDNKGFDKKRUKPY; [M+H]+; C16-ceramide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -55.907; WBVLQMCMYUHVOR; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -61.569; WSQTXGWVQVJEKA; [M+H]+; N-[(2S,3R,4E)-1,3-dihydroxy-15-methylhexadec-4-en-2-yl]heptadecanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -61.930; NQJBRXDZDNXGGL; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -174.509; WVYZVHOGWHERHM; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.202; DLTXHYMYPKOZOA; [M+H]+; N-(eicosanoyl)-tetradecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.202; YDNKGFDKKRUKPY; [M+H]+; C16-ceramide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.943; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -106.123; UQKAUNJILIUTGT; [M+H]+; N-(octadecanoyl)-hexadecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -109.217; DLTXHYMYPKOZOA; [M+H]+; N-(1,3-dihydroxytetradec-4-en-2-yl)icosanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -141.322; NQJBRXDZDNXGGL; [M+H]+; N-Heptadecanoyl-14-Methylhexadecasphingosine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -146.036; LUZOAWOTNJCHBW; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -151.373; WSQTXGWVQVJEKA; [M+H]+; N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -176.037; CNOVLYHRDNYVLT; [M+H]+; Arginine-betaxanthin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -177.529; WBVLQMCMYUHVOR; [M+H]+; N-(1,3-dihydroxyoctadec-8-en-2-yl)hexadecanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -212.399; KOBCXJLOSVLMFJ; [M+H]+; N-(1-Hydroxy-3-oxooctadecan-2-YL)hexadecanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -278.350; WVYZVHOGWHERHM; [M+H]+; N-(5-dodecyl-4-hydroxyoxolan-3-yl)octadecanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.525; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000000; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[-1, 1, 1, 6, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000000; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[-1, 1, 1, 6, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; YDNKGFDKKRUKPY; [M+H]+; N-Hexadecanoylsphingosine_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.708; Ceramides; [M+H]+; YDNKGFDKKRUKPY_Ceramide (18:1/16:0)::C34H67NO3::1::0.9773::0.0150::0.7084
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.574; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-Palmitoylsphingosine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.994; Secondary alcohols; [M+H]+; WBVLQMCMYUHVOR_N-(1,3-dihydroxyoctadec-8-en-2-yl)hexadecanamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.510; Long-chain ceramides; [M+H]+; WSQTXGWVQVJEKA_N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.143; N-acyl amines; [M+H]+; DLTXHYMYPKOZOA_Cer(d14:1/20:0)
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.138; Tetrahydrofurans; [M+H]+; WVYZVHOGWHERHM_UNPD223990
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Ceramides; [M+H]+; UQKAUNJILIUTGT_Cer(d16:1/18:0)
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Tetrahydrofurans; [M+H]+; WVYZVHOGWHERHM_UNPD223990
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.404; Secondary alcohols; [M+H]+; NQJBRXDZDNXGGL_N-heptadecanoyl-14-methylhexadecasphingosine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.404; Long-chain ceramides; [M+H]+; WSQTXGWVQVJEKA_N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.236; N-acyl amines; [M+H]+; DLTXHYMYPKOZOA_Cer(d14:1/20:0)
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 4.000; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]hexadecanamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.200; N-acyl amines; [M+H]+; KOBCXJLOSVLMFJ_N-[(2S)-1-hydroxy-3-oxooctadecan-2-yl]hexadecanamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -4.849; N-acyl amines; [M+H]+; DLTXHYMYPKOZOA_N-(eicosanoyl)-tetradecasphing-4-enine
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -4.849; Ceramides; [M+H]+; YDNKGFDKKRUKPY_C16-ceramide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -55.907; Secondary alcohols; [M+H]+; WBVLQMCMYUHVOR_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -61.569; Long-chain ceramides; [M+H]+; WSQTXGWVQVJEKA_N-[(2S,3R,4E)-1,3-dihydroxy-15-methylhexadec-4-en-2-yl]heptadecanamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -174.509; Tetrahydrofurans; [M+H]+; WVYZVHOGWHERHM_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -102.943; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-Hexadecanoylsphingosine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -109.217; N-acyl amines; [M+H]+; DLTXHYMYPKOZOA_N-(1,3-dihydroxytetradec-4-en-2-yl)icosanamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -141.322; Secondary alcohols; [M+H]+; NQJBRXDZDNXGGL_N-Heptadecanoyl-14-Methylhexadecasphingosine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -151.373; Long-chain ceramides; [M+H]+; WSQTXGWVQVJEKA_N-heptadecanoyl-15-methylhexadecasphing-4-enine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -278.350; Tetrahydrofurans; [M+H]+; WVYZVHOGWHERHM_N-(5-dodecyl-4-hydroxyoxolan-3-yl)octadecanamide
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999983; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-Hexadecanoylsphingosine_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000011; Secondary alcohols; [M+H]+; NQJBRXDZDNXGGL_N-Heptadecanoyl-14-Methylhexadecasphingosine_[S6: 3, Finder: 2, Frag: 3]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-Hexadecanoylsphingosine_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001129; Ceramides; [M+H]+; YDNKGFDKKRUKPY_N-Hexadecanoylsphingosine_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: N-Palmitoylsphingosine
+CH$NAME: N-(2-hydroxy-1-methylol-heptadec-3-enyl)palmitamide
+CH$COMPOUND_CLASS: N/A; Ceramides
+CH$FORMULA: C34H67NO3
+CH$EXACT_MASS: 537.512095
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)NC(CO)C(C=CCCCCCCCCCCCCC)O
+CH$IUPAC: InChI=1S/C34H67NO3/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-33(37)32(31-36)35-34(38)30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h27,29,32-33,36-37H,3-26,28,30-31H2,1-2H3,(H,35,38)
+CH$LINK: CHEBI CHEBI:72959
+CH$LINK: HMDB HMDB0000790
+CH$LINK: INCHIKEY YDNKGFDKKRUKPY-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMSP02010004
+CH$LINK: PUBCHEM CID:2498
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: UHPLC Vanquish system, Thermo Fisher Scientific - Q Exactive HF high-resolution mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 μm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 10% B; 15.0 min, 100% B; 15.0-17.0 min, 100% B; 17.0-19.0 min, 10% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.295
+AC$CHROMATOGRAPHY: SOLVENT A 10 mmol/L Ammonium acetate
+AC$CHROMATOGRAPHY: SOLVENT B 96% (v/v) Acetonitrile/water with 10 mmol/L Ammonium acetate
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 538.519541
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0090000000-928ea5363083ba746f60
+PK$ANNOTATION: m/z int cor n mzPAF
+  252.2684017 108.6877 1.0000 24 f{C17H34N1}/-0.69ppm,p-C17H34O3
+  264.2686769 999.0000 0.9678 24 f{C18H34N1}/0.38ppm,p-C16H34O3
+  282.2788365 124.4027 0.9348 24 f{C18H36N1O1}/-1.08ppm,p-C16H32O2
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  252.268402 108.69 108
+  264.268677 999.00 999
+  282.278837 124.40 124
+//

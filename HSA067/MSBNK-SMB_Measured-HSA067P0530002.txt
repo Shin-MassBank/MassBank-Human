@@ -1,0 +1,56 @@
+ACCESSION: MSBNK-SMB_Measured-HSA067P0530002
+RECORD_TITLE: m/z 530.369097; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 39 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 530.36910
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2716
+COMMENT: DATASET_TITLE Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Giorgia Del Favero, Gerhard Adam, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells. Environ Int, 158, 106940 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34673318
+COMMENT: PRECURSOR_IN_MS1 mz 530.369098; int 18.581; delta(ppm) 0.001786
+COMMENT: MS1_SPEC {481.329539: 1, 486.146256: 4, 488.322324: 4, 488.35868: 2, 489.325265: 1, 491.35834: 7, 492.361979: 1, 494.260073: 1, 505.373969: 166, 506.376854: 49, 507.37039: 9, 507.379353: 6, 508.225896: 4, 508.348321: 10, 508.372784: 2, 509.229297: 1, 509.351581: 2, 515.216156: 1, 521.117586: 1, 523.330198: 2, 529.2313: 1, 530.369097: 18, 531.372434: 5, 533.190407: 1, 533.405203: 1, 541.304166: 3, 544.278729: 1, 566.299568: 1, 575.237399: 2, 577.413528: 3, 578.211967: 1, 578.415954: 1}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 531.372434; int 5.731; cor 0.770
+COMMENT: PROPOSED_MF SevenGoldenRules 1.402; C28H53NO8; [M-H]1; delta(ppm) -1.402019
+COMMENT: PROPOSED_MF SevenGoldenRules 0.544; C22H54N5O7P; [M-H]1; delta(ppm) 0.543871
+COMMENT: PROPOSED_MF SevenGoldenRules 0.918; C32H55NOP2; [M-H]1; delta(ppm) 0.918370
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.05, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Medium
+AC$INSTRUMENT: UHPLC Vanquish system, Thermo Fisher Scientific - Q Exactive HF high-resolution mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 4.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 10% B; 15.0 min, 100% B; 15.0-17.0 min, 100% B; 17.0-19.0 min, 10% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.985
+AC$CHROMATOGRAPHY: SOLVENT A 10 mmol/L Ammonium acetate
+AC$CHROMATOGRAPHY: SOLVENT B 96% (v/v) Acetonitrile/water with 10 mmol/L Ammonium acetate
+MS$FOCUSED_ION: PRECURSOR_M/Z 530.369097
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9000000000-d26ecb1024adbce456d5
+PK$ANNOTATION: m/z int cor n mzPAF
+  84.0090730 999.0000 1.0000 17 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  84.009073 999.00 999
+//

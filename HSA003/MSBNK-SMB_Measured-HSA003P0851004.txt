@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003P0851004
+RECORD_TITLE: m/z 851.396125; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 851.39612
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: DATASET_PUBLICATION Bouranis JA et al. Interplay between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach. Nutrients, 15,  (2022)
+COMMENT: DATASET_PUBLICATION_PMID 36615700
+COMMENT: PRECURSOR_IN_MS1 mz 851.397481; int 10.181; delta(ppm) 1.593297
+COMMENT: MS1_SPEC {834.198747: 1, 846.441053: 3, 851.300802: 6, 851.397481: 10, 852.304761: 5, 852.398475: 6, 853.3065: 2}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 846.441054; int 3.610; cor 0.817
+COMMENT: PROPOSED_MF SevenGoldenRules 4.066; C31H67N2O22P; [M+H]+; delta(ppm) -4.066375
+COMMENT: PROPOSED_MF SevenGoldenRules 2.124; C33H62N4O21; [M+H]+; delta(ppm) -2.123734
+COMMENT: PROPOSED_MF SevenGoldenRules 1.890; C43H63O15P; [M+H]+; delta(ppm) -1.889724
+COMMENT: PROPOSED_MF SevenGoldenRules 0.675; C37H64N4O14P2; [M+H]+; delta(ppm) -0.674985
+COMMENT: PROPOSED_MF SevenGoldenRules 0.552; C32H66O25; [M+H]+; delta(ppm) -0.551512
+COMMENT: PROPOSED_MF SevenGoldenRules 0.898; C36H68O18P2; [M+H]+; delta(ppm) 0.898413
+COMMENT: PROPOSED_MF SevenGoldenRules 2.840; C38H63N2O17P; [M+H]+; delta(ppm) 2.839877
+COMMENT: PROPOSED_MF SevenGoldenRules 4.783; C40H58N4O16; [M+H]+; delta(ppm) 4.782518
+COMMENT: PROPOSED_MF SevenGoldenRules 4.130; C36H64N2O19; [M+Na]+; delta(ppm) -4.129613
+COMMENT: PROPOSED_MF SevenGoldenRules 2.642; C40H66N2O12P2; [M+Na]+; delta(ppm) -2.642421
+COMMENT: PROPOSED_MF SevenGoldenRules 0.648; C42H61N4O11P; [M+Na]+; delta(ppm) -0.648232
+COMMENT: PROPOSED_MF SevenGoldenRules 0.727; C31H64N4O21; [M+Na]+; delta(ppm) 0.726696
+COMMENT: PROPOSED_MF SevenGoldenRules 0.967; C41H65O15P; [M+Na]+; delta(ppm) 0.966916
+COMMENT: PROPOSED_MF SevenGoldenRules 2.214; C35H66N4O14P2; [M+Na]+; delta(ppm) 2.213888
+COMMENT: PROPOSED_MF SevenGoldenRules 2.960; C43H60N2O14; [M+Na]+; delta(ppm) 2.959898
+COMMENT: PROPOSED_MF SevenGoldenRules 3.829; C34H70O18P2; [M+Na]+; delta(ppm) 3.829036
+COMMENT: DATES Averaged 2024.12.24, Processed 2025.12.16, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 25.270
+AC$CHROMATOGRAPHY: SOLVENT A 100% water; 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 100% methanol; 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 851.396125
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0000900000-5140d014a97efe259d44
+PK$ANNOTATION: m/z int cor n mzPAF
+  226.9503653 6.9618 0.2098 10 ?
+  437.0983655 111.8497 -0.4720 14 ?
+  437.1928467 999.0000 -0.3587 14 ?
+  851.0753152 7.9002 0.6351 11 ?
+  851.1085635 9.3683 0.2693 11 ?
+  851.2399940 5.9223 0.0098 11 ?
+  851.3286008 5.2903 -0.1190 11 ?
+  851.3965676 14.1266 1.0000 10 ?
+  851.4294457 13.6312 0.8500 10 ?
+  851.4631908 15.5826 -0.1731 10 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  851.396568 14.13 999
+  851.429446 13.63 963
+//

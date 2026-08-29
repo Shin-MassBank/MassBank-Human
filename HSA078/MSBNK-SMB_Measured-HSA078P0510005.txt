@@ -1,0 +1,150 @@
+ACCESSION: MSBNK-SMB_Measured-HSA078P0510005
+RECORD_TITLE: LysoPC(O-18:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 26 product ion spectra among 72 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); XKBJVQHMEXMFDZ
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000026, MS-FINDER:MS-FINDER_DB (rank 2), MetFrag:MS-FINDER_DB (rank 5), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.906); CX (Contextual evidence) HMDB (HMDB0011149;HMDB0062689)
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003370
+COMMENT: DATASET_TITLE An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells
+COMMENT: DATASET_AUTHORS Rushing Blake
+COMMENT: DATASET_PUBLICATION Cao HH et al. An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells. PLoS One, 20, e0313159 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 39883710
+COMMENT: PRECURSOR_IN_MS1 mz 510.391746; int 6.032; delta(ppm) 0.001385
+COMMENT: MS1_SPEC {461.240892: 2, 463.201694: 3, 463.339243: 1, 471.36563: 9, 479.268569: 1, 481.160371: 1, 503.406895: 1, 508.376047: 2, 510.391746: 6, 511.395101: 1, 515.391568: 6, 519.138654: 1, 530.357772: 3, 532.373707: 5, 559.417529: 4}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 511.395101; int 1.824; cor 0.816
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 532.373708; int 5.529; cor 0.647
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 532.373708; int 5.529; cor 0.647
+COMMENT: PROPOSED_MF SevenGoldenRules 0.108; C26H56NO6P; [M+H]+; delta(ppm) -0.107973
+COMMENT: PROPOSED_MF SevenGoldenRules 0.037; C31H53NO3; [M+Na]+; delta(ppm) -0.036930
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF MS-FINDER 3.342; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF MS-FINDER 2.810; C31H53NO3; [M+Na]+; delta(ppm) 47167.941917
+COMMENT: PROPOSED_MF MS-FINDER 2.398; C14H43N19O2; [M+H]+; delta(ppm) -0.476473
+COMMENT: PROPOSED_MF MS-FINDER 2.389; C14H51N15OS2; [M+H]+; delta(ppm) 0.441246
+COMMENT: PROPOSED_MF MS-FINDER 2.219; C29H47N7O; [M+H]+; delta(ppm) 0.508228
+COMMENT: PROPOSED_MF MS-FINDER 2.163; C21H51N9O3S; [M+H]+; delta(ppm) 1.784924
+COMMENT: PROPOSED_MF MS-FINDER 2.059; C24H53N7OS; [M+Na]+; delta(ppm) 47166.468498
+COMMENT: PROPOSED_MF MS-FINDER 2.034; C24H61N3S3; [M+Na]+; delta(ppm) 47167.474832
+COMMENT: PROPOSED_MF MS-FINDER 1.817; C29H55N3S2; [M+H]+; delta(ppm) 1.425949
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3040.294; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.077; C31H53NO3; [M+Na]+; delta(ppm) 47167.941917
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C31H53NO3; [M+Na]+; delta(ppm) 47167.941917
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.047; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_MF q-value_like 0.0001466; C26H56NO6P; [M+H]+; delta(ppm) -0.107677
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9819361; XKBJVQHMEXMFDZ; [M+H]+; 2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[S6: 1, Finder: 2, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0161408; LPHUUVMLQFHHQG; [M+H]+; 2-[[(2S)-2-ethoxy-3-hexadecoxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium_[S6: 3, Finder: 3, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0019230; PMQJRYFJLGTDHG; [M+H]+; (3-Hexadecoxy-2-methoxy-2-methylpropyl) 2-(trimethylazaniumyl)ethyl phosphate_[S6: 4, Finder: 4, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.906; XKBJVQHMEXMFDZ; [M+H]+; Spectral Match to Lyso-PAF C-18 from NIST14_C26H56NO6P
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.008; XKBJVQHMEXMFDZ-AREMUKBSSA-N; [M+H]+; LysoPC(O-18:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.988; XKBJVQHMEXMFDZ-AREMUKBSSA-N; [M+H]+; LysoPC(O-18:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.532; LPHUUVMLQFHHQG-UHFFFAOYSA-N; [M+H]+; 2-[[(2S)-2-ethoxy-3-hexadecoxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.521; PMQJRYFJLGTDHG-UHFFFAOYSA-N; [M+H]+; 2-Methyl-2-methoxy-paf
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.419; GDJXJSMYESJFMI-UHFFFAOYSA-N; [M+Na]+; UNPD223072
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.377; ZCKYIMVVSFEAIM-UHFFFAOYSA-N; [M+Na]+; UNPD55362
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; XKBJVQHMEXMFDZ-AREMUKBSSA-N; [M+H]+; LysoPC(O-18:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; ZCKYIMVVSFEAIM-UHFFFAOYSA-N; [M+Na]+; UNPD55362
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; LPHUUVMLQFHHQG-UHFFFAOYSA-N; [M+H]+; 2-[[(2S)-2-ethoxy-3-hexadecoxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; PMQJRYFJLGTDHG-UHFFFAOYSA-N; [M+H]+; 2-Methyl-2-methoxy-paf
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.961; XKBJVQHMEXMFDZ-AREMUKBSSA-N; [M+H]+; LysoPC(O-18:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.951; GDJXJSMYESJFMI-UHFFFAOYSA-N; [M+Na]+; UNPD223072
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.963; XKBJVQHMEXMFDZ; [M+H]+; Spectral Match to Lyso-PAF C-18 from NIST14_C26H56NO6P
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.689; XKBJVQHMEXMFDZ; [M+H]+; Lyso-C18-platelet activating factor
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -138.170; PMQJRYFJLGTDHG; [M+H]+; 2-Methyl-2-methoxy-paf
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -347.929; ZCKYIMVVSFEAIM; [M+Na]+; Ethyl N-docosanoylanthranilate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -373.101; GDJXJSMYESJFMI; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -374.513; XKAKGVWSPKWVGH; [M+Na]+; Cholesteryl GABA
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.594; XKBJVQHMEXMFDZ; [M+H]+; Lyso-C18-platelet activating factor
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.090; ZCKYIMVVSFEAIM; [M+Na]+; Ethyl N-docosanoylanthranilate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -121.025; XKBJVQHMEXMFDZ; [M+H]+; 2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -156.416; URCIPPRFXLINFG; [M+H]+; 2-[hydroxy-[(2R)-1-hydroxy-3-octadecoxypropan-2-yl]oxyphosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -159.596; LPHUUVMLQFHHQG; [M+H]+; 2-[[(2S)-2-ethoxy-3-hexadecoxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -215.698; PMQJRYFJLGTDHG; [M+H]+; (3-Hexadecoxy-2-methoxy-2-methylpropyl) 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.607; XKBJVQHMEXMFDZ; [M+H]+; 2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000150; XKBJVQHMEXMFDZ; [M+H]+; 2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[-1, 1, 2, 5, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000258; XKBJVQHMEXMFDZ; [M+H]+; 2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[-1, 1, 2, 5, -1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.906; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_Spectral Match to Lyso-PAF C-18 from NIST14::C26H56NO6P::10::0.9633::0.6222::0.9056
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.008; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_LysoPC(O-18:0)
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.419; Acylaminobenzoic acid and derivatives; [M+Na]+; GDJXJSMYESJFMI_UNPD223072
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_LysoPC(O-18:0)
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Acylaminobenzoic acid and derivatives; [M+Na]+; ZCKYIMVVSFEAIM_UNPD55362
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -2.689; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_Lyso-C18-platelet activating factor
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -347.929; Acylaminobenzoic acid and derivatives; [M+Na]+; ZCKYIMVVSFEAIM_Ethyl N-docosanoylanthranilate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -121.025; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -156.416; Phosphocholines; [M+H]+; URCIPPRFXLINFG_2-[hydroxy-[(2R)-1-hydroxy-3-octadecoxypropan-2-yl]oxyphosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 1.0000000; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001088; Monoalkylglycerophosphocholines; [M+H]+; XKBJVQHMEXMFDZ_2-[Hydroxy-(2-hydroxy-3-octadecoxypropoxy)phosphoryl]oxyethyl-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2025.11.17, Processed 2026.02.08, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: LysoPC(O-18:0)
+CH$NAME: (2-hydroxy-3-octadecoxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
+CH$COMPOUND_CLASS: N/A; Monoalkylglycerophosphocholines
+CH$FORMULA: C26H56NO6P
+CH$EXACT_MASS: 509.384525
+CH$SMILES: CCCCCCCCCCCCCCCCCCOCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H56NO6P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-22-31-24-26(28)25-33-34(29,30)32-23-21-27(2,3)4/h26,28H,5-25H2,1-4H3
+CH$LINK: CHEBI CHEBI:75216
+CH$LINK: HMDB HMDB0011149
+CH$LINK: INCHIKEY XKBJVQHMEXMFDZ-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMGP01060014
+CH$LINK: PUBCHEM CID:3985
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 31.67 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 1% B; 16.0 min, 99% B; 16.0-19.0 min, 99% B; 19.5 min, 1% B; 19.5-22.0 min, 1% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.545
+AC$CHROMATOGRAPHY: SOLVENT A 0.1%(v/v) formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1%(v/v) formic acid in methanol
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 510.391745
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-1900020000-6c5228d204c17df2090a
+PK$ANNOTATION: m/z int cor n mzPAF
+  57.0697572 10.2245 0.9169 25 f{C4H9}/-2.09ppm,p-C22H48N1O6P1
+  58.0658179 4.2737 0.8947 19 f{C3H8N1}/11.92ppm,p-C23H49O6P1
+  60.0806559 40.9936 0.9762 25 f{C3H10N1}/-1.99ppm,p-C23H47O6P1
+  71.0726176 8.3870 0.9615 23 f{C4H9N1}/-4.69ppm,p-C22H48O6P1
+  71.0852774 9.6884 0.8423 25 f{C5H11}/-3.51ppm,p-C21H46N1O6P1
+  75.0436445 8.2641 0.9585 25 f{C3H7O2}/-5.48ppm,p-C23H50N1O4P1
+  85.1008690 6.8365 0.8562 25 f{C6H13}/-3.62ppm,p-C20H44N1O6P1
+  86.0961943 125.1423 0.9808 25 f{C5H12N1}/-2.69ppm,p-C21H45O6P1
+  98.9841237 4.3649 0.8351 19 f{H4O4P1}/-0.47ppm,p-C26H53N1O2
+  104.1069392 999.0000 0.9854 25 f{C5H14N1O1}/-0.49ppm,p-C21H43O5P1
+  105.1104034 10.0192 0.8765 24 ?
+  124.9998467 86.7353 0.9854 25 f{C2H6O4P1}/0.21ppm,p-C24H51N1O2
+  184.0732957 191.3679 0.9831 25 f{C5H15N1O4P1}/-0.13ppm,p-C21H42O2
+  510.3926184 294.1370 1.0000 26 f{C26H57N1O6P1}/1.60ppm,p
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  57.069757 10.22 10
+  58.065818 4.27 4
+  60.080656 40.99 40
+  71.072618 8.39 8
+  71.085277 9.69 9
+  75.043644 8.26 8
+  85.100869 6.84 6
+  86.096194 125.14 125
+  98.984124 4.36 4
+  104.106939 999.00 999
+  105.110403 10.02 10
+  124.999847 86.74 86
+  184.073296 191.37 191
+  510.392618 294.14 294
+//

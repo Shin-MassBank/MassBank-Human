@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-SMB_Measured-HSA054P0940002
+RECORD_TITLE: m/z 940.550899; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 45 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 940.55090
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS8280
+COMMENT: DATASET_TITLE MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis
+COMMENT: DATASET_AUTHORS Vaishnavi V Phadnis, Whitney S Henry, Tenzin Kunchok, Amy Deik, Zon Weng Lai
+COMMENT: DATASET_PUBLICATION Phadnis VV et al. MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis. Cell Rep, 42, 113023 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37691145
+COMMENT: PRECURSOR_IN_MS1 mz 940.550970; int 27.971; delta(ppm) 0.075488
+COMMENT: MS1_SPEC {904.60786: 2, 905.610867: 1, 918.554313: 10, 919.55695: 6, 920.559066: 2, 922.579071: 3, 930.623212: 3, 931.626423: 1, 934.533976: 4, 935.537696: 1, 940.55097: 27, 941.554423: 13, 942.557024: 4, 946.578947: 2, 948.594157: 2, 949.597766: 1, 952.506976: 11, 953.506057: 18, 954.506696: 10, 955.508305: 3, 986.54148: 4, 987.544601: 2, 988.545559: 1}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 941.554424; int 13.973; cor 0.846
+COMMENT: PROPOSED_ION_FORM M+FA-H; M+TFA-H; mz 1008.538876; int 11.304; cor 0.791
+COMMENT: PROPOSED_ION_FORM M+TFA-H; M+Cl; mz 862.534494; int 6.889; cor 0.940
+COMMENT: PROPOSED_MF SevenGoldenRules 0.790; C44H84N3O16P; [M-H]1; delta(ppm) -0.790180
+COMMENT: PROPOSED_MF SevenGoldenRules 0.964; C46H79N5O15; [M-H]1; delta(ppm) 0.964359
+COMMENT: PROPOSED_MF SevenGoldenRules 0.827; C43H82N3O14P; [M+FA-H]1; delta(ppm) -0.827422
+COMMENT: PROPOSED_MF SevenGoldenRules 1.016; C45H77N5O13; [M+FA-H]1; delta(ppm) 1.016132
+COMMENT: PROPOSED_MF SevenGoldenRules 1.554; C39H83N5O9P2; [M+TFA-H]1; delta(ppm) -1.553956
+COMMENT: PROPOSED_MF SevenGoldenRules 0.807; C47H77N3O9; [M+TFA-H]1; delta(ppm) -0.807187
+COMMENT: PROPOSED_MF SevenGoldenRules 0.682; C51H79N3O2P2; [M+TFA-H]1; delta(ppm) 0.681517
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Horizon UPLC system, Thermo Fisher Scientific - ID-X tribrid mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION HESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Ascentis Express C18 (2.7 µm, 150 x 2.1 mm, Sigma-Aldrich)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.5 min, 32% B; 4.0 min, 45% B; 5.0 min, 52% B; 8.0 min, 58% B; 11.0 min, 66% B; 14.0 min, 70% B; 18.0 min, 75% B; 21.0 min, 97% B;  21.0-35.0 min, 97% B; 35.1 min, 32% B; 35.1-40.0 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.26 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.164
+AC$CHROMATOGRAPHY: SOLVENT A 60:40 water:acetonitrile with 10 mM ammonium formate and 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90:10 isopropanol:acetonitrile, with 10 mM ammonium formate and 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 940.550899
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-c86e780008adb1dc2791
+PK$ANNOTATION: m/z int cor n mzPAF
+  112.9858086 999.0000 1.0000 13 ?
+  173.5225896 400.1537 0.2485 10 ?
+  180.9731767 219.6557 0.8132 13 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  112.985809 999.00 999
+  180.973177 219.66 219
+//

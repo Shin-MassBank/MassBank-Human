@@ -1,0 +1,283 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0482003
+RECORD_TITLE: LysoPC(15:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); RJZVWDTYEWCUAR
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000009, CFM-ID:MS-FINDER_DB (rank 1), MS-FINDER:MS-FINDER_DB (rank 2), MetFrag:MS-FINDER_DB (rank 4), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.782); CX (Contextual evidence) HMDB (HMDB0010381)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture. ACS Chem Biol, 15, 970-981 (2020)
+COMMENT: DATASET_PUBLICATION_PMID 32167285
+COMMENT: PRECURSOR_IN_MS1 mz 482.324022; int 216.201; delta(ppm) -0.009845
+COMMENT: MS1_SPEC {435.367663: 5, 440.26721: 9, 449.32586: 12, 452.276761: 11, 452.313424: 18, 452.394376: 5, 453.316778: 3, 453.894004: 16, 454.37345: 5, 457.349787: 8, 466.410213: 5, 468.308369: 30, 469.311631: 8, 471.365223: 6, 475.297601: 7, 478.865116: 3, 479.893762: 8, 480.425677: 7, 481.889114: 47, 482.324021: 216, 483.327425: 57, 484.330021: 11, 485.381546: 3, 494.323944: 779, 495.327395: 204, 502.292402: 23, 504.305728: 45, 505.309385: 12, 507.888552: 6, 509.88406: 38, 510.436504: 14, 510.886509: 7, 515.391887: 10, 516.306036: 189, 517.309443: 50, 520.339712: 368, 521.343338: 108, 522.34553: 24, 524.451993: 6, 526.292672: 25, 527.930715: 3}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 483.327425; int 57.202; cor 0.982
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 504.305728; int 45.163; cor 0.921
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 504.305728; int 45.163; cor 0.921
+COMMENT: PROPOSED_MF SevenGoldenRules 0.183; C23H48NO7P; [M+H]+; delta(ppm) -0.182832
+COMMENT: PROPOSED_MF SevenGoldenRules 1.456; C20H51N3O4P2; [M+Na]+; delta(ppm) -1.456454
+COMMENT: PROPOSED_MF SevenGoldenRules 0.111; C28H45NO4; [M+Na]+; delta(ppm) -0.111030
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF MS-FINDER 3.314; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF MS-FINDER 2.687; C28H45NO4; [M+Na]+; delta(ppm) 50050.072795
+COMMENT: PROPOSED_MF MS-FINDER 2.220; C11H43N15O2S2; [M+H]+; delta(ppm) 0.397744
+COMMENT: PROPOSED_MF MS-FINDER 2.121; C26H39N7O2; [M+H]+; delta(ppm) 0.468623
+COMMENT: PROPOSED_MF MS-FINDER 2.110; C11H35N19O3; [M+H]+; delta(ppm) -0.573380
+COMMENT: PROPOSED_MF MS-FINDER 1.958; C20H49N3O6S; [M+Na]+; delta(ppm) 50051.562402
+COMMENT: PROPOSED_MF MS-FINDER 1.956; C21H53N3OS3; [M+Na]+; delta(ppm) 50049.575804
+COMMENT: PROPOSED_MF MS-FINDER 1.883; C19H39N13S; [M+H]+; delta(ppm) -0.953243
+COMMENT: PROPOSED_MF MS-FINDER 1.845; C13H41N13O5; [M+Na]+; delta(ppm) 50048.923878
+COMMENT: PROPOSED_MF MS-FINDER 1.807; C20H51N3O4P2; [M+Na]+; delta(ppm) 50048.659561
+COMMENT: PROPOSED_MF MS-FINDER 1.742; C26H47N3OS2; [M+H]+; delta(ppm) 1.439749
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5064.294; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 54.795; C28H45NO4; [M+Na]+; delta(ppm) 50050.072795
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C28H45NO4; [M+Na]+; delta(ppm) 50050.072795
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 68.355; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_MF q-value_like 0.0001155; C23H48NO7P; [M+H]+; delta(ppm) -0.183123
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9388878; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine_[S6: 1, Finder: 2, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0300829; DTCAUIJNNGBAMH; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 2, Finder: 7, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0270108; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 4, Finder: 1, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0037939; YSZRVLWZLLULHT; [M+H]+; 2-[hydroxy-[(2R)-3-methoxy-2-tetradecanoyloxypropoxy]phosphoryl]oxyethyl-trimethylazanium_[S6: 3, Finder: 6, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0002040; KIHAGWUUUHJRMS; [M+H]+; 2-Octadecanoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 7, Finder: 3, Frag: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000196; LEBRETLBLINJDM; [M+H]+; 2-(Acetyloxy)-3-(hexadecyloxy)propyl 2-aminoethyl hydrogen phosphate_[S6: 9, Finder: 5, Frag: 7]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000011; SKOJWJADWCAPSY; [M+H]+; [3-(2,12-Dimethyltridecanoyloxy)-2-hydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 8, Finder: 4, Frag: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.949; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 4, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.032; KIHAGWUUUHJRMS; [M+H]+; 2-Octadecanoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 7, FragP: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.010; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine_[S6: 1, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.006; LEBRETLBLINJDM; [M+H]+; 2-(Acetyloxy)-3-(hexadecyloxy)propyl 2-aminoethyl hydrogen phosphate_[S6: 9, FragP: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.002; GWPSWVKRTQYSAW; [M+H]+; N-octadecanoyl-sn-glycero-3-phosphoethanolamine(1-)_[S6: 10, FragP: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.001; DTCAUIJNNGBAMH; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; YSZRVLWZLLULHT; [M+H]+; 2-[hydroxy-[(2R)-3-methoxy-2-tetradecanoyloxypropoxy]phosphoryl]oxyethyl-trimethylazanium_[S6: 3, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; NDLORRZUDRJBPC; [M+H]+; [(2R)-3-heptanoyloxy-2-octoxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 5, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; LEFGRTKRNXPBLH; [M+H]+; [(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-methoxypropan-2-yl] heptadecanoate_[S6: 6, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; SKOJWJADWCAPSY; [M+H]+; [3-(2,12-Dimethyltridecanoyloxy)-2-hydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 8, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; YYSFNFUXDNVHFT; [M+H]+; 1-(2-methoxy-6Z-heptadecenyl)-sn-glycero-3-phosphoethanolamine_[S6: 11, FragP: 100]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 1.019; RJZVWDTYEWCUAR; [M+H]+; LysoPC(15:0)
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.824; DTCAUIJNNGBAMH; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.766; KIHAGWUUUHJRMS; [M+H]+; LysoPE(0:0/18:0)
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.757; YSZRVLWZLLULHT; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.675; BBYWOYAFBUOUFP; [M+H]+; LysoPE(18:0/0:0)
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.568; LEBRETLBLINJDM; [M+H]+; 1-hexadecyl-2-acetyl-sn-glycero-3-phosphoethanolamine zwitterion
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.782; RJZVWDTYEWCUAR; [M+H]+; Spectral Match to 1-Pentadecanoyl-sn-glycero-3-phosphocholine from NIST14_C23H48NO7P
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.174; BBYWOYAFBUOUFP; [M+H]+; Spectral Match to 1-Octadecanoyl-sn-glycero-3-phosphoethanolamine from NIST14_C23H48NO7P
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.723; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.681; RJZVWDTYEWCUAR-JOCHJYFZSA-N; [M+H]+; LysoPC(15:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.588; KIHAGWUUUHJRMS-JOCHJYFZSA-N; [M+H]+; LysoPE(0:0/18:0)
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.354; SKOJWJADWCAPSY-ZREVVVSZNA-N; [M+H]+; Stellettacholine B;(-)-Stellettacholine B
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.231; LEBRETLBLINJDM-HSZRJFAPSA-N; [M+H]+; 1-hexadecyl-2-acetyl-sn-glycero-3-phosphoethanolamine zwitterion
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.213; YSZRVLWZLLULHT-UHFFFAOYSA-N; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.198; DTCAUIJNNGBAMH-UHFFFAOYSA-N; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.387; CVNABROKRBTXMA-LQPZUMSLNA-N; [M+Na]+; UNPD53430
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.382; CYRLHLBKEVYGLM-UHFFFAOYSA-N; [M+Na]+; CNP0429965
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.372; WXNFDGXJCBQIFD-ZGWOYYGINA-N; [M+Na]+; UNPD51070
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.289; DCGSXJFNFLTPDH-UHFFFAOYSA-N; [M+Na]+; N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-en-1-yl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; DTCAUIJNNGBAMH-UHFFFAOYSA-N; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; YSZRVLWZLLULHT-UHFFFAOYSA-N; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; CYRLHLBKEVYGLM-UHFFFAOYSA-N; [M+Na]+; CNP0429965
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.999; RJZVWDTYEWCUAR-JOCHJYFZSA-N; [M+H]+; LysoPC(15:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.774; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.774; KIHAGWUUUHJRMS-JOCHJYFZSA-N; [M+H]+; LysoPE(0:0/18:0)
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.761; LEBRETLBLINJDM-HSZRJFAPSA-N; [M+H]+; 1-hexadecyl-2-acetyl-sn-glycero-3-phosphoethanolamine zwitterion
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.652; WXNFDGXJCBQIFD-ZGWOYYGINA-N; [M+Na]+; UNPD51070
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.652; CVNABROKRBTXMA-LQPZUMSLNA-N; [M+Na]+; UNPD53430
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.627; DCGSXJFNFLTPDH-UHFFFAOYSA-N; [M+Na]+; N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-en-1-yl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] octadecanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.509; KIHAGWUUUHJRMS-JOCHJYFZSA-N; [M+H]+; [(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hydroxypropan-2-yl] octadecanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.234; LEBRETLBLINJDM-HSZRJFAPSA-N; [M+H]+; [(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecoxypropan-2-yl] acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.913; GWPSWVKRTQYSAW-JOCHJYFZSA-N; [M+H]+; [(2R)-2,3-dihydroxypropyl] 2-(octadecanoylamino)ethyl hydrogen phosphate
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.901; RJZVWDTYEWCUAR; [M+H]+; Spectral Match to 1-Pentadecanoyl-sn-glycero-3-phosphocholine from NIST14_C23H48NO7P
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.079; BBYWOYAFBUOUFP; [M+H]+; Spectral Match to 1-Octadecanoyl-sn-glycero-3-phosphoethanolamine from NIST14_C23H48NO7P
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.692; RJZVWDTYEWCUAR; [M+H]+; Lysophosphatidylcholine(15:0/0:0)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -36.070; BBYWOYAFBUOUFP; [M+H]+; 1-stearoyl-phosphatidylethenolamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -70.474; YSZRVLWZLLULHT; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -82.154; KIHAGWUUUHJRMS; [M+H]+; Lysophosphatidylethanolamine(0:0/18:0)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -101.730; LEFGRTKRNXPBLH; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -104.106; SKOJWJADWCAPSY; [M+H]+; [3-(2,12-dimethyltridecanoyloxy)-2-hydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -119.052; LEBRETLBLINJDM; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -147.083; GWPSWVKRTQYSAW; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -378.092; CVNABROKRBTXMA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -415.715; WXNFDGXJCBQIFD; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -520.646; DCGSXJFNFLTPDH; [M+Na]+; N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-enyl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.367; RJZVWDTYEWCUAR; [M+H]+; Lysophosphatidylcholine(15:0/0:0)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.084; CVNABROKRBTXMA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_FDR_2ndRank:biodatabase -0.692; RJZVWDTYEWCUAR; [M+H]+; Lysophosphatidylcholine(15:0/0:0); FDR less than 5% by the 2nd-rank method. Threshold = -3.074
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -108.706; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.041; DTCAUIJNNGBAMH; [M+H]+; [(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -156.704; YSZRVLWZLLULHT; [M+H]+; 2-[hydroxy-[(2R)-3-methoxy-2-tetradecanoyloxypropoxy]phosphoryl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -190.239; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -191.135; NDLORRZUDRJBPC; [M+H]+; [(2R)-3-heptanoyloxy-2-octoxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -250.720; LEFGRTKRNXPBLH; [M+H]+; [(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-methoxypropan-2-yl] heptadecanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -251.392; KIHAGWUUUHJRMS; [M+H]+; 2-Octadecanoyl-Sn-Glycero-3-Phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -255.018; SKOJWJADWCAPSY; [M+H]+; [3-(2,12-Dimethyltridecanoyloxy)-2-hydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -264.970; LEBRETLBLINJDM; [M+H]+; 2-(Acetyloxy)-3-(hexadecyloxy)propyl 2-aminoethyl hydrogen phosphate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -314.206; GWPSWVKRTQYSAW; [M+H]+; N-octadecanoyl-sn-glycero-3-phosphoethanolamine(1-)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -332.633; YYSFNFUXDNVHFT; [M+H]+; 1-(2-methoxy-6Z-heptadecenyl)-sn-glycero-3-phosphoethanolamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.525; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000065; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine_[-1, 1, 2, 4, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000094; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine_[-1, 1, 2, 4, -1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.782; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_Spectral Match to 1-Pentadecanoyl-sn-glycero-3-phosphocholine from NIST14::C23H48NO7P::9::0.9015::0.4118::0.7821
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.174; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_Spectral Match to 1-Octadecanoyl-sn-glycero-3-phosphoethanolamine from NIST14::C23H48NO7P::1::0.0795::0.0299::0.1739
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.723; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_LysoPE(18:0/0:0)
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.681; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_LysoPC(15:0)
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.588; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_LysoPE(0:0/18:0)
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.231; 1-alkyl,2-acylglycerophosphoethanolamines; [M+H]+; LEBRETLBLINJDM_1-hexadecyl-2-acetyl-sn-glycero-3-phosphoethanolamine zwitterion
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.198; 1-acyl,2-alkylglycero-3-phosphocholines; [M+H]+; DTCAUIJNNGBAMH_[(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.387; Piperidines; [M+Na]+; CVNABROKRBTXMA_UNPD53430
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.382; Diterpenoids; [M+Na]+; CYRLHLBKEVYGLM_CNP0429965
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.372; Cyclohexenones; [M+Na]+; WXNFDGXJCBQIFD_UNPD51070
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.289; Prostaglandins and related compounds; [M+Na]+; DCGSXJFNFLTPDH_N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-en-1-yl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; 1-acyl,2-alkylglycero-3-phosphocholines; [M+H]+; DTCAUIJNNGBAMH_[(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Diterpenoids; [M+Na]+; CYRLHLBKEVYGLM_CNP0429965
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.999; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_LysoPC(15:0)
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.774; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_LysoPE(18:0/0:0)
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.774; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_LysoPE(0:0/18:0)
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.761; 1-alkyl,2-acylglycerophosphoethanolamines; [M+H]+; LEBRETLBLINJDM_1-hexadecyl-2-acetyl-sn-glycero-3-phosphoethanolamine zwitterion
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.652; Cyclohexenones; [M+Na]+; WXNFDGXJCBQIFD_UNPD51070
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.652; Piperidines; [M+Na]+; CVNABROKRBTXMA_UNPD53430
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.627; Prostaglandins and related compounds; [M+Na]+; DCGSXJFNFLTPDH_N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-en-1-yl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.000; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] octadecanoate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.509; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hydroxypropan-2-yl] octadecanoate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 1.234; 1-alkyl,2-acylglycerophosphoethanolamines; [M+H]+; LEBRETLBLINJDM_[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecoxypropan-2-yl] acetate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.913; Glycero-3-phospho-N-acyl-ethanolamines; [M+H]+; GWPSWVKRTQYSAW_[(2R)-2,3-dihydroxypropyl] 2-(octadecanoylamino)ethyl hydrogen phosphate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -0.692; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_Lysophosphatidylcholine(15:0/0:0)
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -36.070; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_1-stearoyl-phosphatidylethenolamine
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -82.154; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_Lysophosphatidylethanolamine(0:0/18:0)
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -119.052; 1-alkyl,2-acylglycerophosphoethanolamines; [M+H]+; LEBRETLBLINJDM_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -147.083; Glycero-3-phospho-N-acyl-ethanolamines; [M+H]+; GWPSWVKRTQYSAW_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -378.092; Piperidines; [M+Na]+; CVNABROKRBTXMA_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -415.715; Cyclohexenones; [M+Na]+; WXNFDGXJCBQIFD_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -520.646; Prostaglandins and related compounds; [M+Na]+; DCGSXJFNFLTPDH_N-[4-(furan-2-yl)butan-2-yl]-7-[2-(3-hydroxyoct-1-enyl)-5-oxocyclopentyl]heptanamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -108.706; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_1-Pentadecanoyl-sn-glycero-3-phosphocholine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -144.041; 1-acyl,2-alkylglycero-3-phosphocholines; [M+H]+; DTCAUIJNNGBAMH_[(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -190.239; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -251.392; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_2-Octadecanoyl-Sn-Glycero-3-Phosphoethanolamine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -264.970; 1-alkyl,2-acylglycerophosphoethanolamines; [M+H]+; LEBRETLBLINJDM_2-(Acetyloxy)-3-(hexadecyloxy)propyl 2-aminoethyl hydrogen phosphate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -314.206; Glycero-3-phospho-N-acyl-ethanolamines; [M+H]+; GWPSWVKRTQYSAW_N-octadecanoyl-sn-glycero-3-phosphoethanolamine(1-)
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9977192; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_1-Pentadecanoyl-sn-glycero-3-phosphocholine_[S6: 1, Finder: 2, Frag: 3]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0012069; 1-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; BBYWOYAFBUOUFP_1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 3, Finder: 1, Frag: 4]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0010727; 1-acyl,2-alkylglycero-3-phosphocholines; [M+H]+; DTCAUIJNNGBAMH_[(2R)-2-methoxy-3-tetradecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate_[S6: 2, Finder: 5, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000011; 2-acyl-sn-glycero-3-phosphoethanolamines; [M+H]+; KIHAGWUUUHJRMS_2-Octadecanoyl-Sn-Glycero-3-Phosphoethanolamine_[S6: 4, Finder: 3, Frag: 5]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_1-Pentadecanoyl-sn-glycero-3-phosphocholine_[-1, 1, 2, 3, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001126; 1-acyl-sn-glycero-3-phosphocholines; [M+H]+; RJZVWDTYEWCUAR_1-Pentadecanoyl-sn-glycero-3-phosphocholine_[-1, 1, 2, 3, -1]
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: LysoPC(15:0)
+CH$NAME: (2-hydroxy-3-pentadecanoyloxy-propyl) 2-(trimethylammonio)ethyl phosphate
+CH$COMPOUND_CLASS: N/A; 1-acyl-sn-glycero-3-phosphocholines
+CH$FORMULA: C23H48NO7P
+CH$EXACT_MASS: 481.316840
+CH$SMILES: CCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C23H48NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-23(26)29-20-22(25)21-31-32(27,28)30-19-18-24(2,3)4/h22,25H,5-21H2,1-4H3
+CH$LINK: CHEBI CHEBI:131924
+CH$LINK: HMDB HMDB0010381
+CH$LINK: INCHIKEY RJZVWDTYEWCUAR-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMGP01050016
+CH$LINK: PUBCHEM CID:24779515
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 7.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.759
+AC$CHROMATOGRAPHY: SOLVENT A Water with 0.1% (v/v) acetic acid 
+AC$CHROMATOGRAPHY: SOLVENT B Methanol with 0.1% (v/v) acetic acid
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 482.324026
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-2902400000-ef67b88343852723e115
+PK$ANNOTATION: m/z int cor n mzPAF
+  56.0491907 2.9967 0.7091 11 f{C3H6N1}/-5.08ppm,p-C20H43O7P1
+  57.0696191 17.4277 0.9648 14 f{C4H9}/-4.51ppm,p-C19H40N1O7P1
+  58.0649562 6.2253 0.8022 13 f{C3H8N1}/-2.92ppm,p-C20H41O7P1
+  60.0804277 74.1486 0.9505 13 f{C3H10N1}/-5.79ppm,p-C20H39O7P1
+  69.0693981 3.9036 0.8818 11 f{C5H9}/-6.93ppm,p-C18H40N1O7P1
+  71.0724561 21.1161 0.9615 13 f{C4H9N1}/-6.96ppm,p-C19H40O7P1
+  71.0850585 12.5559 0.9725 13 f{C5H11}/-6.59ppm,p-C18H38N1O7P1
+  81.0694559 4.7026 0.8352 13 f{C6H9}/-5.19ppm,p-C17H40N1O7P1
+  85.1007706 8.1607 0.9077 14 f{C6H13}/-4.77ppm,p-C17H36N1O7P1
+  86.0960724 279.4291 0.9750 15 f{C5H12N1}/-4.10ppm,p-C18H37O7P1
+  89.0593084 3.8010 0.6978 13 f{C4H9O2}/-4.46ppm,p-C19H40N1O5P1
+  95.0851956 8.4485 0.9505 13 f{C7H11}/-3.48ppm,p-C16H38N1O7P1
+  98.9837306 12.3877 0.7912 13 f{H4O4P1}/-4.44ppm,p-C23H45N1O3
+  104.1067135 691.7719 0.9929 15 f{C5H14N1O1}/-2.66ppm,p-C18H35O6P1
+  125.0069456 180.7383 0.9615 13 ?
+  163.0150455 2.6226 0.9161 12 f{C5H8O4P1}/-2.60ppm,p-C18H41N1O3
+  184.0730186 999.0000 0.9714 15 f{C9H12O4}/0.05ppm,p-C14H37N1O3P1
+  222.8988442 27.9959 0.8214 15 ?
+  227.2003853 30.3077 0.9273 11 f{C14H27O2}/-0.75ppm,p-C9H22N1O5P1
+  240.9091348 47.6655 0.0198 14 ?
+  258.1100828 14.5216 0.9893 15 f{C8H21N1O6P1}/-0.06ppm,p-C15H28O1
+  281.9119715 14.3897 0.2473 13 ?
+  299.2580671 14.9947 0.9868 14 f{C18H35O3}/-0.01ppm,p-C5H14N1O4P1
+  312.8389630 7.9537 0.3545 11 ?
+  319.8363617 50.8226 0.6036 15 ?
+  328.8341719 7.0156 0.0070 12 ?
+  336.8390764 45.4481 0.5536 15 ?
+  337.8470337 32.1680 0.6464 15 ?
+  353.8415954 10.8251 -0.0934 13 ?
+  354.8495783 8.4743 -0.2308 14 ?
+  360.8389057 181.1944 0.7964 15 ?
+  369.8368157 33.5613 0.8714 15 ?
+  377.8421832 6.1423 -0.0559 12 ?
+  378.8497157 55.5779 0.6929 15 ?
+  387.8476112 10.5273 -0.4273 11 ?
+  391.8571254 4.7757 -0.1538 12 ?
+  405.2402582 3.6553 0.8242 13 f{C20H38O6P1}/0.51ppm,p-C3H11N1O1
+  419.8523137 220.3349 0.7643 15 ?
+  437.8645194 76.4838 0.7179 15 ?
+  450.8722520 61.8003 0.7607 15 ?
+  464.3149793 116.5094 0.9857 15 f{C23H47N1O6P1}/3.08ppm,p-H2O1
+  482.3253492 402.2312 1.0000 15 f{C23H49N1O7P1}/2.56ppm,p
+PK$NUM_PEAK: 32
+PK$PEAK: m/z int. rel.int.
+  56.049191 3.00 2
+  57.069619 17.43 17
+  58.064956 6.23 6
+  60.080428 74.15 74
+  69.069398 3.90 3
+  71.072456 21.12 21
+  71.085059 12.56 12
+  81.069456 4.70 4
+  85.100771 8.16 8
+  86.096072 279.43 279
+  89.059308 3.80 3
+  95.085196 8.45 8
+  98.983731 12.39 12
+  104.106713 691.77 691
+  125.006946 180.74 180
+  163.015046 2.62 2
+  184.073019 999.00 999
+  222.898844 28.00 27
+  227.200385 30.31 30
+  258.110083 14.52 14
+  299.258067 14.99 14
+  319.836362 50.82 50
+  337.847034 32.17 32
+  360.838906 181.19 181
+  369.836816 33.56 33
+  378.849716 55.58 55
+  405.240258 3.66 3
+  419.852314 220.33 220
+  437.864519 76.48 76
+  450.872252 61.80 61
+  464.314979 116.51 116
+  482.325349 402.23 402
+//

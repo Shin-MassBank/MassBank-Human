@@ -1,0 +1,175 @@
+ACCESSION: MSBNK-SMB_Measured-HSA036P0226000
+RECORD_TITLE: prometon; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 28 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); ISEUFVQQFVOBCY
+COMMENT: EVIDENCE_INVENTORY [IS, SL]; IS (In silico evidence) q-Value-like = 0.009800, CFM-ID:MS-FINDER_DB (rank 3), MS-FINDER:MS-FINDER_DB (rank 3), MetFrag:MS-FINDER_DB (rank 4), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.830)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1108
+COMMENT: DATASET_TITLE DIAMetAlyzer allows automated false-discovery rate-controlled analysis for data-independent acquisition in metabolomics.
+COMMENT: DATASET_AUTHORS Oliver Alka, Premy Shanthamoorthy, Michael Witting, Karin Kleigrewe, Oliver Kohlbacher, Hannes Röst
+COMMENT: DATASET_PUBLICATION Alka O et al. DIAMetAlyzer allows automated false-discovery rate-controlled analysis for data-independent acquisition in metabolomics. Nat Commun, 13, 1347 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 35292629
+COMMENT: PRECURSOR_IN_MS1 mz 226.164941; int 850.964; delta(ppm) -5.355555
+COMMENT: MS1_SPEC {177.054175: 1, 177.090225: 1, 178.158418: 3, 179.105779: 3, 181.121782: 1, 182.960727: 2, 184.117409: 28, 186.22004: 2, 192.137086: 3, 192.172738: 1, 193.156737: 2, 194.115726: 4, 195.099661: 1, 195.120503: 2, 197.152795: 1, 198.183964: 4, 199.003923: 3, 199.094419: 1, 200.199414: 1, 203.090372: 1, 204.137179: 9, 205.084526: 1, 205.141745: 2, 207.031155: 2, 209.152664: 1, 211.108803: 1, 211.167567: 1, 212.142185: 2, 213.145939: 1, 214.17956: 2, 215.095065: 13, 215.125811: 1, 217.106417: 29, 218.110656: 3, 221.153171: 1, 223.062092: 4, 224.061317: 1, 224.124922: 2, 225.480745: 4, 226.16494: 850, 227.166691: 127, 228.168781: 13, 229.140971: 3, 235.168093: 1, 235.204335: 1, 236.16639: 3, 239.0892: 8, 244.19273: 1, 249.187738: 1, 251.00319: 3, 253.001436: 2, 267.171038: 1}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 227.166691; int 127.959; cor 0.988
+COMMENT: PROPOSED_MF SevenGoldenRules 7.710; C8H24N3O2P; [M+H]+; delta(ppm) -7.710111
+COMMENT: PROPOSED_MF SevenGoldenRules 0.373; C10H19N5O; [M+H]+; delta(ppm) -0.373070
+COMMENT: PROPOSED_MF SevenGoldenRules 5.565; C9H23NO5; [M+H]+; delta(ppm) 5.564959
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF MS-FINDER 4.040; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF MS-FINDER 2.885; C8H24N3O2P; [M+H]+; delta(ppm) -7.677764
+COMMENT: PROPOSED_MF MS-FINDER 2.015; C10H27NS2; [M+H]+; delta(ppm) 1.696541
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 41.159; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 66.301; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.469; C7H21N4O4; [M+H]+; delta(ppm) 11.475680
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.738; C6H22N6OP; [M+H]+; delta(ppm) -1.741195
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.165; C8H17N8; [M+H]+; delta(ppm) 5.562166
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.569; C4H20N9P; [M+H]+; delta(ppm) 4.195444
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF p-value_like 0.0000001; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_MF q-value_like 0.0000002; C10H19N5O; [M+H]+; delta(ppm) -0.374490
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.6495195; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[S6: 1, Finder: 3, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.2032290; BCQMBFHBDZVHKU; [M+H]+; nan_[S6: 2, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.1472231; ZJMZZNVGNSWOOM; [M+H]+; N2-(butan-2-yl)-N4-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine_[S6: 4, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000283; VSGJJDIERZZRKV; [M+H]+; s-Triazine, 2,4-bis(ethylamino)-6-isopropoxy-_[S6: 5, Finder: 6, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.993; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.007; BCQMBFHBDZVHKU; [M+H]+; nan_[S6: 2, FragP: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ZJMZZNVGNSWOOM; [M+H]+; N2-(butan-2-yl)-N4-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine_[S6: 4, FragP: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; VPYFEDXTWUPBQQ; [M+H]+; Atrazine-2-ethoxy_[S6: 3, FragP: 6]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; VRNJKSSGPWBMEW; [M+H]+; 6-(Heptyloxy)-1,3,5-triazine-2,4-diamine_[S6: 6, FragP: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; VSGJJDIERZZRKV; [M+H]+; s-Triazine, 2,4-bis(ethylamino)-6-isopropoxy-_[S6: 5, FragP: 9]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; QTDWOMFIPLCPDL; [M+H]+; Pyrimidine, 2,4-diamino-6-(2-(diethylamino)ethoxy)-_[S6: 7, FragP: 5]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.283; BCQMBFHBDZVHKU-UHFFFAOYSA-N; [M+H]+; CCNC1=NC(NC(C)(C)C)=NC(OC)=N1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.229; ZJMZZNVGNSWOOM-UHFFFAOYNA-N; [M+H]+; CCNC1=NC(OC)=NC(NC(C)CC)=N1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.129; ISEUFVQQFVOBCY-UHFFFAOYSA-N; [M+H]+; COC1=NC(NC(C)C)=NC(NC(C)C)=N1
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.000; YMMZNLDBIXMBHH-UHFFFAOYSA-N; [M+H]+; O=C(OCC)CC(=[N+]1N=C(C)CC1(C)C)C
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.830; ISEUFVQQFVOBCY; [M+H]+; Massbank:LU088706 Prometon6-methoxy-2-N,4-N-di(propan-2-yl)-1,3,5-triazine-2,4-diamine_C10H19N5O
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.830; ZJMZZNVGNSWOOM; [M+H]+; Massbank:LU118106 Secbumeton2-N-butan-2-yl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine_C10H19N5O
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.682; BCQMBFHBDZVHKU; [M+H]+; Massbank:EA034613 Terbumeton2-N-tert-butyl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine1,3,5-Triazine-2,4-diamine, N-(1,1-dimethylethyl)-N'-ethyl-6-methoxy-_C10H19N5O
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.651; ZJMZZNVGNSWOOM-UHFFFAOYNA-N; [M+H]+; N-(butan-2-yl)-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.494; BCQMBFHBDZVHKU-UHFFFAOYSA-N; [M+H]+; terbumeton
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.394; ISEUFVQQFVOBCY-UHFFFAOYSA-N; [M+H]+; prometon
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.000; YDAYAGFPLMBISC-UHFFFAOYSA-N; [M+H]+; N-(2-tert-butyltetrazol-5-yl)-2,2-dimethylpropanamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.963; YPWHHWBHGQGYFJ-UHFFFAOYSA-N; [M+H]+; 3-(3,5-Diethyl-1,2,4-triazol-1-yl)-2-methylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.810; VSGJJDIERZZRKV-UHFFFAOYSA-N; [M+H]+; 2,4-Bis(ethylamino)-6-isopropoxy-s-triazine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; ZJMZZNVGNSWOOM-UHFFFAOYNA-N; [M+H]+; N-(butan-2-yl)-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.957; BCQMBFHBDZVHKU-UHFFFAOYSA-N; [M+H]+; terbumeton
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.803; YDAYAGFPLMBISC-UHFFFAOYSA-N; [M+H]+; N-(2-tert-butyltetrazol-5-yl)-2,2-dimethylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.599; ISEUFVQQFVOBCY-UHFFFAOYSA-N; [M+H]+; prometon
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.502; VSGJJDIERZZRKV-UHFFFAOYSA-N; [M+H]+; 2,4-Bis(ethylamino)-6-isopropoxy-s-triazine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.423; YPWHHWBHGQGYFJ-UHFFFAOYSA-N; [M+H]+; 3-(3,5-Diethyl-1,2,4-triazol-1-yl)-2-methylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.432; ISEUFVQQFVOBCY-UHFFFAOYSA-N; [M+H]+; 6-methoxy-2-N,4-N-di(propan-2-yl)-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 2.573; BCQMBFHBDZVHKU-UHFFFAOYSA-N; [M+H]+; 2-N-tert-butyl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.929; ZJMZZNVGNSWOOM-UHFFFAOYSA-N; [M+H]+; 2-N-butan-2-yl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.167; VRNJKSSGPWBMEW-UHFFFAOYSA-N; [M+H]+; 6-heptoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.070; QTDWOMFIPLCPDL-UHFFFAOYSA-N; [M+H]+; 6-[2-(diethylamino)ethoxy]pyrimidine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.876; VPYFEDXTWUPBQQ-UHFFFAOYSA-N; [M+H]+; 6-ethoxy-4-N-ethyl-2-N-propan-2-yl-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.799; RDEIQZVHBIIIBG-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-2-(6-hydrazinylpyridazin-3-yl)oxyethanamine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.548; NSFRQXZPDHOYJW-UHFFFAOYSA-N; [M+H]+; N,N-diethyl-4-(5-methyltetrazol-1-yl)butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.528; VSGJJDIERZZRKV-UHFFFAOYSA-N; [M+H]+; 2-N,4-N-diethyl-6-propan-2-yloxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.549; ISEUFVQQFVOBCY; [M+H]+; Massbank:LU088706 Prometon6-methoxy-2-N,4-N-di(propan-2-yl)-1,3,5-triazine-2,4-diamine_C10H19N5O
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.549; ZJMZZNVGNSWOOM; [M+H]+; Massbank:LU118106 Secbumeton2-N-butan-2-yl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine_C10H19N5O
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.364; BCQMBFHBDZVHKU; [M+H]+; Massbank:EA034613 Terbumeton2-N-tert-butyl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine1,3,5-Triazine-2,4-diamine, N-(1,1-dimethylethyl)-N'-ethyl-6-methoxy-_C10H19N5O
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.701; ISEUFVQQFVOBCY; [M+H]+; Gesafram
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -32.149; ZJMZZNVGNSWOOM; [M+H]+; Etazine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -32.758; BCQMBFHBDZVHKU; [M+H]+; Caragard
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -86.184; VPYFEDXTWUPBQQ; [M+H]+; Ambcb5838746
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -91.696; VSGJJDIERZZRKV; [M+H]+; 2,4-Bis(ethylamino)-6-isopropoxy-s-triazine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -221.146; VRNJKSSGPWBMEW; [M+H]+; s-Triazine, 4,6-diamino-2-heptoxy-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -315.724; NSFRQXZPDHOYJW; [M+H]+; N,N-Diethyl-5-methyl-1H-tetrazole-1-butanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -318.814; QTDWOMFIPLCPDL; [M+H]+; 2,4-Diamino-6-(2-(diethylamino)ethoxy)pyrimidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.444; ISEUFVQQFVOBCY; [M+H]+; Gesafram
+COMMENT: PROPOSED_COMPOUND SIRIUS5_FDR_2ndRank:biodatabase -12.701; ISEUFVQQFVOBCY; [M+H]+; Gesafram; FDR less than 5% by the 2nd-rank method. Threshold = -20.151
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.892; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -21.423; BCQMBFHBDZVHKU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.911; VPYFEDXTWUPBQQ; [M+H]+; Atrazine-2-ethoxy
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.263; ZJMZZNVGNSWOOM; [M+H]+; N2-(butan-2-yl)-N4-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -94.346; VSGJJDIERZZRKV; [M+H]+; s-Triazine, 2,4-bis(ethylamino)-6-isopropoxy-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -210.769; VRNJKSSGPWBMEW; [M+H]+; 6-(Heptyloxy)-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -285.403; QTDWOMFIPLCPDL; [M+H]+; Pyrimidine, 2,4-diamino-6-(2-(diethylamino)ethoxy)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -329.539; NSFRQXZPDHOYJW; [M+H]+; N,N-Diethyl-5-methyl-1H-tetrazole-1-butanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.737; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0049000; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, 3, 4, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0098000; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, 3, 4, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; ISEUFVQQFVOBCY; [M+H]+; N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.830; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_Massbank:LU088706 Prometon6-methoxy-2-N,4-N-di(propan-2-yl)-1,3,5-triazine-2,4-diamine::C10H19N5O::8::0.5490::0.7692::0.8301
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.682; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_Massbank:EA034613 Terbumeton2-N-tert-butyl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine1,3,5-Triazine-2,4-diamine, N-(1,1-dimethylethyl)-N'-ethyl-6-methoxy-::C10H19N5O::4::0.3636::0.5556::0.6818
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.651; 2-methoxy-1,3,5-triazines; [M+H]+; ZJMZZNVGNSWOOM_N-(butan-2-yl)-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.494; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_terbumeton
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; 2-methoxy-1,3,5-triazines; [M+H]+; ZJMZZNVGNSWOOM_N-(butan-2-yl)-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.957; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_terbumeton
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.432; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_6-methoxy-2-N,4-N-di(propan-2-yl)-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 2.573; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_2-N-tert-butyl-4-N-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -12.701; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_Gesafram
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -32.758; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_Caragard
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -11.892; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -21.423; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_nan
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999974; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000026; 1,3,5-triazine-2,4-diamines; [M+H]+; BCQMBFHBDZVHKU_nan_[S6: 2, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001095; 2-methoxy-1,3,5-triazines; [M+H]+; ISEUFVQQFVOBCY_N-{4-methoxy-6-[(propan-2-yl)imino]-1,2,5,6-tetrahydro-1,3,5-triazin-2-ylidene}propan-2-amine_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2025.09.23, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: prometon
+CH$NAME: isopropyl-[4-(isopropylamino)-6-methoxy-s-triazin-2-yl]amine
+CH$COMPOUND_CLASS: N/A; 2-methoxy-1,3,5-triazines
+CH$FORMULA: C10H19N5O
+CH$EXACT_MASS: 225.158960
+CH$SMILES: CC(C)NC1=NC(=NC(=N1)OC)NC(C)C
+CH$IUPAC: InChI=1S/C10H19N5O/c1-6(2)11-8-13-9(12-7(3)4)15-10(14-8)16-5/h6-7H,1-5H3,(H2,11,12,13,14,15)
+CH$LINK: CHEBI CHEBI:34934
+CH$LINK: INCHIKEY ISEUFVQQFVOBCY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4928
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Nexera UHPLC system, Shimadzu - TripleTOF 6600 mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped from 20 to 50 V or from 50 to 80 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 8.000 ppm, MS2 13.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 0.5 min: 5, 10.0 min: 100, 13.0 min: 100, 13.5 min: 5, 16.0 min: 5.
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.375
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 226.166152
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-066r-9000000000-e1249518f2619bf977d1
+PK$ANNOTATION: m/z int cor n mzPAF
+  55.0291640 14.7025 0.9878 10 f{C2H3N2}/1.63ppm,p-C8H17N3O1
+  57.0446978 659.5027 0.9559 13 f{C2H5N2}/-0.47ppm,p-C8H15N3O1
+  58.0288174 347.8407 0.9229 13 f{C2H4N1O1}/1.33ppm,p-C8H16N4
+  68.0243908 999.0000 0.9449 13 f{C2H2N3}/0.99ppm,p-C8H18N2O1
+  69.0083176 530.7151 0.9642 13 f{C2H1N2O1}/-0.31ppm,p-C8H19N3
+  75.0552004 65.9942 1.0000 13 f{C2H7N2O1}/-1.18ppm,p-C8H13N3
+  82.0402370 61.0619 0.8172 13 f{C3H4N3}/3.21ppm,p-C7H16N2O1
+  83.0236288 77.3925 0.9076 13 f{C3H3N2O1}/-4.34ppm,p-C7H17N3
+  86.0348677 149.2607 0.9158 12 f{C2H4N3O1}/-0.24ppm,p-C8H16N2
+  100.0504414 151.7533 0.9697 13 f{C3H6N3O1}/-0.97ppm,p-C7H14N2
+  142.0728249 21.1382 0.8754 10 f{C4H8N5O1}/3.44ppm,p-C6H12
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  55.029164 14.70 14
+  57.044698 659.50 659
+  58.028817 347.84 347
+  68.024391 999.00 999
+  69.008318 530.72 530
+  75.055200 65.99 65
+  82.040237 61.06 61
+  83.023629 77.39 77
+  86.034868 149.26 149
+  100.050441 151.75 151
+  142.072825 21.14 21
+//

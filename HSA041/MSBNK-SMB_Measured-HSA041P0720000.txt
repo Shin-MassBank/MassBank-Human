@@ -1,0 +1,59 @@
+ACCESSION: MSBNK-SMB_Measured-HSA041P0720000
+RECORD_TITLE: m/z 720.965936; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 26 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 720.96594
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4568
+COMMENT: DATASET_TITLE AMPK activation orchestrated replicative senescence of periodontal ligament stem cells via regulating metabolomics
+COMMENT: DATASET_AUTHORS Dayong Liu
+COMMENT: DATASET_PUBLICATION Hu M et al. Metabolomics Dysfunction in Replicative Senescence of Periodontal Ligament Stem Cells Regulated by AMPK Signaling Pathway. Stem Cells Dev, 33, 607-615 (2024)
+COMMENT: DATASET_PUBLICATION_PMID 39302052
+COMMENT: PRECURSOR_IN_MS1 mz 720.965412; int 1.112; delta(ppm) -0.726073
+COMMENT: MS1_SPEC {698.984262: 1, 720.965412: 1}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 721.968955; int 0.383; cor 0.887
+COMMENT: PROPOSED_ION_FORM M-H; M+Na-2H; mz 742.948094; int 0.637; cor 0.710
+COMMENT: PROPOSED_ION_FORM M+Na-2H; M-H; mz 698.984262; int 1.726; cor 0.695
+COMMENT: PROPOSED_MF SevenGoldenRules 5.089; C20H20O25P2; [M-H]1; delta(ppm) -5.088831
+COMMENT: PROPOSED_MF SevenGoldenRules 3.720; C19H18N4O21P2; [M+Na-2H]1; delta(ppm) -3.720046
+COMMENT: PROPOSED_MF SevenGoldenRules 0.551; C20H17N2O24P; [M+Na-2H]1; delta(ppm) 0.551435
+COMMENT: DATES Averaged 2025.09.23, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 6600 mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 7.000 ppm, MS2 30.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH Amide column (1.7 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 95% B; 7.0 min, 65% B; 8.0 min, 40% B; 8.0-9.0 min, 40% B; 9.1 min, 95% B; 9.1-12.0 min, 95% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.066
+AC$CHROMATOGRAPHY: SOLVENT A 25 mM ammonium acetate and 25 mM ammonium hydroxide in water
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 720.965936
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000009100-39cb759eae62dc35b9fd
+PK$ANNOTATION: m/z int cor n mzPAF
+  622.9874705 999.0000 0.2433 20 ?
+  720.9535184 115.7606 1.0000 20 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  720.953518 115.76 999
+//

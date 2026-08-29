@@ -1,0 +1,70 @@
+ACCESSION: MSBNK-SMB_Measured-HSA047P0779001
+RECORD_TITLE: m/z 779.547651; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 33 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 779.54765
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS7878
+COMMENT: DATASET_TITLE Circulating sepsis-related metabolite sphinganine could protect against intestinal damage during sepsis
+COMMENT: DATASET_AUTHORS Zetian Wang
+COMMENT: DATASET_PUBLICATION Wang Z et al. Circulating sepsis-related metabolite sphinganine could protect against intestinal damage during sepsis. Front Immunol, 14, 1151728 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37292192
+COMMENT: PRECURSOR_IN_MS1 mz 779.547570; int 6.414; delta(ppm) -0.103900
+COMMENT: MS1_SPEC {779.547569: 6, 780.551862: 3}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 780.551863; int 3.160; cor 0.855
+COMMENT: PROPOSED_MF SevenGoldenRules 8.075; C42H76N4O9; [M-H]1; delta(ppm) -8.075024
+COMMENT: PROPOSED_MF SevenGoldenRules 7.820; C52H77O3P; [M-H]1; delta(ppm) -7.820077
+COMMENT: PROPOSED_MF SevenGoldenRules 6.497; C46H78N4O2P2; [M-H]1; delta(ppm) -6.496660
+COMMENT: PROPOSED_MF SevenGoldenRules 6.362; C41H80O13; [M-H]1; delta(ppm) -6.362140
+COMMENT: PROPOSED_MF SevenGoldenRules 5.037; C35H81N4O12P; [M-H]1; delta(ppm) -5.037442
+COMMENT: PROPOSED_MF SevenGoldenRules 4.782; C45H82O6P2; [M-H]1; delta(ppm) -4.782495
+COMMENT: PROPOSED_MF SevenGoldenRules 2.667; C47H77N2O5P; [M-H]1; delta(ppm) -2.667333
+COMMENT: PROPOSED_MF SevenGoldenRules 1.208; C36H80N2O15; [M-H]1; delta(ppm) -1.208115
+COMMENT: PROPOSED_MF SevenGoldenRules 0.370; C40H82N2O8P2; [M-H]1; delta(ppm) 0.370249
+COMMENT: PROPOSED_MF SevenGoldenRules 1.163; C48H76O8; [M-H]1; delta(ppm) 1.163275
+COMMENT: PROPOSED_MF SevenGoldenRules 2.487; C42H77N4O7P; [M-H]1; delta(ppm) 2.486692
+COMMENT: PROPOSED_MF SevenGoldenRules 2.742; C52H78OP2; [M-H]1; delta(ppm) 2.741639
+COMMENT: PROPOSED_MF SevenGoldenRules 4.201; C41H81O11P; [M-H]1; delta(ppm) 4.200857
+COMMENT: PROPOSED_MF SevenGoldenRules 5.524; C35H82N4O10P2; [M-H]1; delta(ppm) 5.524275
+COMMENT: PROPOSED_MF SevenGoldenRules 6.316; C43H76N2O10; [M-H]1; delta(ppm) 6.316019
+COMMENT: PROPOSED_MF SevenGoldenRules 7.896; C47H78N2O3P2; [M-H]1; delta(ppm) 7.895665
+COMMENT: PROPOSED_MF SevenGoldenRules 9.354; C36H81N2O13P; [M-H]1; delta(ppm) 9.353602
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Q Exactive HF-X mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -2.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 150 x 2.1 mm, Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 98% B; 9.0 min, 50% B; 12.0 min, 2% B; 12.0-13.5 min, 2% B; 14.0 min, 98% B;  14.0-17.0 min, 98% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.25 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.310
+AC$CHROMATOGRAPHY: SOLVENT A Acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 5 mM ammonium formate
+MS$FOCUSED_ION: PRECURSOR_M/Z 779.547651
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0009000000-d3ce219f17e3221c5032
+PK$ANNOTATION: m/z int cor n mzPAF
+  389.2693499 999.0000 1.0000 10 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  389.269350 999.00 999
+//

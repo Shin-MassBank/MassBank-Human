@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007P0869002
+RECORD_TITLE: m/z 869.326262; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.07.06
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 869.32626
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: DATASET_PUBLICATION Chen G et al. Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow. Anal Chem, 89, 4897-4906 (2017)
+COMMENT: DATASET_PUBLICATION_PMID 28391692
+COMMENT: PRECURSOR_IN_MS1 mz 869.324574; int 8.242; delta(ppm) -1.942866
+COMMENT: MS1_SPEC {869.324573: 8, 887.32913: 5}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 4.134; C38H52N4O19; [M+H]+; delta(ppm) -4.134425
+COMMENT: PROPOSED_MF SevenGoldenRules 3.305; C29H62N2O23P2; [M+H]+; delta(ppm) -3.305237
+COMMENT: PROPOSED_MF SevenGoldenRules 2.594; C37H56O23; [M+H]+; delta(ppm) -2.593517
+COMMENT: PROPOSED_MF SevenGoldenRules 1.404; C31H57N4O22P; [M+H]+; delta(ppm) -1.403862
+COMMENT: PROPOSED_MF SevenGoldenRules 1.175; C41H58O16P2; [M+H]+; delta(ppm) -1.174684
+COMMENT: PROPOSED_MF SevenGoldenRules 0.137; C30H61O26P; [M+H]+; delta(ppm) 0.137046
+COMMENT: PROPOSED_MF SevenGoldenRules 2.040; C32H56N2O25; [M+H]+; delta(ppm) 2.039573
+COMMENT: PROPOSED_MF SevenGoldenRules 3.458; C36H58N2O18P2; [M+H]+; delta(ppm) 3.458406
+COMMENT: DATES Averaged 2024.12.24, Processed 2025.12.16, Annotated 2026.05.25, Curated 2026.07.06
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.193
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 869.326262
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0001000290-d4202414c5bf9ceb4ad3
+PK$ANNOTATION: m/z int cor n mzPAF
+  373.1368527 190.4365 0.5485 10 ?
+  611.2426745 147.9214 0.5727 10 ?
+  740.2803261 323.9988 0.1772 9 ?
+  851.3200874 174.3003 0.3990 9 ?
+  852.2952179 240.0065 0.7425 8 ?
+  869.3257922 999.0000 1.0000 11 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  869.325792 999.00 999
+//

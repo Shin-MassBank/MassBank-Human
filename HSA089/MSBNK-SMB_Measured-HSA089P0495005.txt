@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-SMB_Measured-HSA089P0495005
+RECORD_TITLE: m/z 495.170262; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 49 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 495.17026
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002368
+COMMENT: DATASET_TITLE Sperm Environmental Epigenetics and Development Study (SEEDS)
+COMMENT: DATASET_AUTHORS Yuanyuan Li
+COMMENT: DATASET_PUBLICATION Wang Y et al. Disorders of gut microbiota and fecal-serum metabolic patterns are associated with pulmonary tuberculosis and pulmonary tuberculosis comorbid type 2 diabetes mellitus. Microbiol Spectr, 13, e0177224 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 40084872
+COMMENT: PRECURSOR_IN_MS1 mz 495.170039; int 46.175; delta(ppm) -0.449546
+COMMENT: MS1_SPEC {458.189606: 2, 468.151053: 33, 469.120154: 1, 469.154906: 6, 470.147599: 12, 478.179854: 25, 479.1831: 5, 495.170039: 46, 496.173155: 8, 503.197625: 4}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 496.173155; int 8.579; cor 0.976
+COMMENT: PROPOSED_MF SevenGoldenRules 0.877; C24H34O7P2; [M-H]1; delta(ppm) -0.876702
+COMMENT: DATES Averaged 2026.01.12, Processed 2026.02.05, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Seminal plasma
+AC$INSTRUMENT: Thermo Scientific UltiMate 3000 UPLC System, Thermo Fisher Scientific - Thermo Q Exactive Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 2.500 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.8 min, 2% B; 0.8-2.8 min, 2-70% B; 2.8-5.6 min, 70-90% B; 5.6-6.4 min, 90-100% B; 6.4-8.0 min, 100% B; 8.0-8.1 min, 100-2% B; 8.1-10.0 min, 2% B.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.876
+AC$CHROMATOGRAPHY: SOLVENT A 5 mM ammonium acetate and 5 mM acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 495.170262
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-9000000000-95f1a5a91bc5c1cee481
+PK$ANNOTATION: m/z int cor n mzPAF
+  61.9884043 999.0000 1.0000 11 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  61.988404 999.00 999
+//

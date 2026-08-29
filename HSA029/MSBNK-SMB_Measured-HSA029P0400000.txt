@@ -1,0 +1,235 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0400000
+RECORD_TITLE: Palmitoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 23 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); XOMRRQXKHMYMOC
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000000, CFM-ID:MS-FINDER_DB (rank 1), MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 1), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.875); CX (Contextual evidence) HMDB (HMDB0000222)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture. ACS Chem Biol, 15, 970-981 (2020)
+COMMENT: DATASET_PUBLICATION_PMID 32167285
+COMMENT: PRECURSOR_IN_MS1 mz 400.342200; int 117.754; delta(ppm) -0.006564
+COMMENT: MS1_SPEC {354.284894: 4, 355.245753: 3, 357.2613: 3, 367.245706: 5, 369.261551: 4, 369.35165: 13, 371.276615: 10, 376.305867: 10, 381.146167: 32, 381.261302: 25, 382.440597: 15, 383.312683: 2, 389.251109: 3, 400.342199: 117, 401.345708: 29, 415.211359: 18, 415.302933: 5, 417.345124: 5, 422.32388: 7, 426.35769: 176, 427.36137: 47, 428.364076: 8, 437.193482: 32}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 401.345709; int 29.896; cor 0.995
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 422.323880; int 7.205; cor 0.858
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 422.323880; int 7.205; cor 0.858
+COMMENT: PROPOSED_MF SevenGoldenRules 0.168; C23H45NO4; [M+H]+; delta(ppm) 0.167779
+COMMENT: PROPOSED_MF SevenGoldenRules 1.362; C20H48N3OP; [M+Na]+; delta(ppm) -1.362120
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF MS-FINDER 3.608; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 10.488; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 19.554; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.375; C22H43N5; [M+Na]+; delta(ppm) 60927.057426
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.019; C19H44FN5O; [M+Na]+; delta(ppm) 60923.844852
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 7.530; C19H41N7O2; [M+H]+; delta(ppm) 6.874077
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.919; C24H45N2O; [M+Na]+; delta(ppm) 60923.282527
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.882; C24H41N5; [M+H]+; delta(ppm) -3.174216
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 1.873; C21H42FN5O; [M+H]+; delta(ppm) -6.028383
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -0.599; C22H49NOSi2; [M+H]+; delta(ppm) -137726.299404
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.523; C22H43N5; [M+Na]+; delta(ppm) 60927.057426
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.426; C19H44FN5O; [M+Na]+; delta(ppm) 60923.844852
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.052; C24H45N2O; [M+Na]+; delta(ppm) 60923.282527
+COMMENT: PROPOSED_MF p-value_like 0.0001000; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_MF q-value_like 0.0001155; C23H45NO4; [M+H]+; delta(ppm) 0.166451
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9967193; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0032777; QXQAOSCYVRCUGZ; [M+H]+; 11-Methylpentadecanoylcarnitine_[S6: 2, Finder: 2, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000030; UPPYCLCCZXINQI; [M+H]+; 3-Methylpentadecanoylcarnitine_[S6: 13, Finder: 3, Frag: 2]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 1.559; XOMRRQXKHMYMOC; [M+H]+; L-Palmitoylcarnitine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 1.342; UPPYCLCCZXINQI; [M+H]+; 3-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 1.136; QXQAOSCYVRCUGZ; [M+H]+; 11-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.323; PBRQWSVRVWNFNZ; [M+H]+; methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.875; XOMRRQXKHMYMOC; [M+H]+; Palmitoylcarnitine -  eV_C23H45NO4
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.585; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.841; QXQAOSCYVRCUGZ-UHFFFAOYSA-N; [M+H]+; 11-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.833; UPPYCLCCZXINQI-UHFFFAOYSA-N; [M+H]+; 3-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.677; PBRQWSVRVWNFNZ-UHFFFAOYSA-N; [M+H]+; methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.987; UPPYCLCCZXINQI-UHFFFAOYSA-N; [M+H]+; 3-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.985; QXQAOSCYVRCUGZ-UHFFFAOYSA-N; [M+H]+; 11-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.254; PBRQWSVRVWNFNZ-UHFFFAOYSA-N; [M+H]+; methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.972; XOMRRQXKHMYMOC; [M+H]+; Palmitoylcarnitine -  eV_C23H45NO4
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.356; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -189.997; VUOLFEKUUQKXLR; [M+H]+; 2-(3-acetyloxyhexadecanoyloxy)ethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -213.437; SPDGRWIGMIHIAC; [M+H]+; Rac-Hemipalmitoylcarnitinium
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -328.780; PBRQWSVRVWNFNZ; [M+H]+; methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -367.037; QHEIPGQAGVCSIG; [M+H]+; (3-dodecoxy-2-hydroxypropyl)-dimethyl-[2-(2-methylprop-2-enoyloxy)ethyl]azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.836; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609
+COMMENT: PROPOSED_COMPOUND SIRIUS5_FDR_2ndRank:biodatabase -0.356; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609; FDR less than 5% by the 2nd-rank method. Threshold = -3.074
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -39.643; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -87.437; QXQAOSCYVRCUGZ; [M+H]+; 11-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.553; VYIMOHHEMZHXOZ; [M+H]+; 13-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -99.317; LEOBKKBBRMVKAB; [M+H]+; 14-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -106.501; CVMPGGCNTIVHDV; [M+H]+; 10-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -113.417; UKTOBDLFEXLLDB; [M+H]+; 6-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -119.297; NSZYREFIFDFDGO; [M+H]+; 9-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -120.695; LHNUOWOQRJFTTL; [M+H]+; 12-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -132.796; UDLGUPBNVNGINY; [M+H]+; 7-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -134.163; ZPEPJMHZPLYWDO; [M+H]+; 8-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -152.241; JGCODOZHPLHSHF; [M+H]+; 5-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -171.841; JAMFZRZIISLIKM; [M+Na]+; 2-imino-N-[2-imino-2-(2,2,6,6-tetramethylpiperidin-4-yl)ethyl]-2-(2,2,6,6-tetramethylpiperidin-4-yl)ethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -173.415; UPPYCLCCZXINQI; [M+H]+; 3-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -190.498; HPYXPCMZDSDXPV; [M+Na]+; 2-pyrrolidin-1-yl-N-(2-pyrrolidin-1-ylethyl)-2-[1-(2-pyrrolidin-1-ylethyl)pyrrolidin-3-yl]ethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -195.478; OZTHYWGRHFMULN; [M+Na]+; 1-[(1-Ethylcyclopentyl)methyl]-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -198.081; QGVPITUVSOBQCI; [M+Na]+; 2-[2-Imino-2-(2,2,6,6-tetramethylpiperidin-4-yl)ethyl]imino-1-(2,2,6,6-tetramethylpiperidin-4-yl)ethanamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -198.441; SJPNKOIRWWBCTD; [M+Na]+; 1-Ethyl-2-[(1-ethylcyclobutyl)methyl]-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -200.880; XBJMTRAQAMNESW; [M+Na]+; 2-ethyl-2-(ethylideneamino)-N'-[(8-methyl-1,5-diazacycloundec-8-en-3-yl)methyl]-4-methylidenehexane-1,6-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -203.098; HCQJRWXAUQOYDW; [M+Na]+; 2-N,2-N,4-N,4-N-tetrabutyl-6-propan-2-yl-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -203.394; KLTQGPSSJHBASW; [M+Na]+; 2-[2-(Azepan-1-yl)-3-methylbutyl]-1-[(1-cyclopropylpyrrolidin-3-yl)methyl]-3-ethylguanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -204.265; LBWUUOQLOUJNBE; [M+Na]+; 2-[2-[Bis(prop-2-enyl)amino]-3-methylbutyl]-1-ethyl-3-(1-propan-2-ylpiperidin-4-yl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -205.363; XRYKXKDUIRBNCY; [M+Na]+; N-ethyl-3,5-dimethyl-N'-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]piperidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -210.594; NWAGBCRERWFMIX; [M+H]+; 4-Methylpentadecanoylcarnitine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -210.767; BRGKUMFVBKHKMJ; [M+Na]+; N-ethyl-2,2,3,3-tetramethyl-N'-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]azetidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -212.456; ZKGLNVPJEUTOGW; [M+Na]+; 4-(2,4-diiminopentyl)-6-hexyl-N-(methylideneamino)-N-propylazocan-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -213.301; AMEUQXWJCOSRSD; [M+Na]+; 1-[1-(Cyclopentylmethyl)pyrrolidin-3-yl]-3-ethyl-2-[2-(1-ethylpiperidin-4-yl)ethyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -213.935; QPKMKLNPBZLXBN; [M+Na]+; 2-N,2-N,4-N-tributyl-6-tert-butyl-4-N-propyl-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -214.108; ITKBXVVEROXWGW; [M+Na]+; 1-Ethyl-3-[(1-methylpiperidin-3-yl)methyl]-2-[(1-piperidin-1-ylcyclohexyl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -215.339; ZRKXPERNNSVPHO; [M+Na]+; N'-methyl-N-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]-3-(2-methylpropyl)pyrrolidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -216.762; VQVSHZPBDIPEQS; [M+Na]+; 1-(1-Cyclopentylpiperidin-4-yl)-2-methyl-3-[[1-(2-methylpropyl)piperidin-3-yl]methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -218.057; AMAASEVFUHUEPF; [M+Na]+; 1-Ethyl-3-[(1-methylpiperidin-4-yl)methyl]-2-[(1-piperidin-1-ylcyclohexyl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -218.125; MQBVBQLWPVYFKT; [M+Na]+; N'-[[4-[(3-aminopropylamino)methyl]phenyl]methyl]-N-[4-(methylamino)butyl]hexane-1,6-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -218.966; MTVDHKKTFYWBLU; [M+Na]+; 1-Ethyl-3-[1-(2-methylprop-2-enyl)piperidin-4-yl]-2-[[1-(2-methylpropyl)piperidin-3-yl]methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -219.902; MJEAGPURJHRYTC; [M+Na]+; N-ethyl-N'-[3-methyl-2-(4-methylpiperazin-1-yl)butyl]-2-azaspiro[4.5]decane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -220.659; YOVCEXRVPBDWRO; [M+Na]+; N-ethyl-N'-[2-(1-ethylpiperidin-4-yl)ethyl]-3-(piperidin-1-ylmethyl)pyrrolidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -220.897; BNBNVLDWCCRRJH; [M+Na]+; 1-(1-Cyclopentylpiperidin-4-yl)-3-ethyl-2-[2-(1-ethylpiperidin-4-yl)ethyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -221.348; CGRJJKRDRGBNCO; [M+Na]+; N-ethyl-N'-[2-(4-methylpiperazin-1-yl)propyl]-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -221.978; YTOPNDNKWACEMY; [M+Na]+; N'-[[4-[1-(piperidin-4-ylmethyl)-2,3,3a,4,5,6,7,7a-octahydroindazol-6-yl]cyclohexyl]methyl]ethane-1,2-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -222.086; JKNHEGGJXNFLNH; [M+Na]+; 1-Ethyl-3-[(1-ethylpyrrolidin-3-yl)methyl]-2-[(1-piperidin-1-ylcyclohexyl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -222.629; WWJJPLDOJBYQEY; [M+Na]+; 11-[(4-Methylpiperazin-1-yl)methyl]-2-(2-piperidin-4-ylethyl)-2,8-diazaspiro[5.5]undecane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -223.782; BZVKPYLAHLGKNA; [M+Na]+; 2-Methyl-1-[(1-piperidin-1-ylcyclohexyl)methyl]-3-(1-propan-2-ylpiperidin-4-yl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -223.928; NMTDJXZKNVICJJ; [M+Na]+; N'-[[4-[3-(piperidin-3-ylmethyl)-1,2,3a,4,5,6,7,7a-octahydrobenzimidazol-5-yl]cyclohexyl]methyl]ethane-1,2-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -224.346; NFTNQHGQGRABJY; [M+Na]+; 1-(3-Cyclopentylpropyl)-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -224.985; SJTAJQNICJQSNJ; [M+Na]+; N'-[[4-[3-(piperidin-4-ylmethyl)-1,2,3a,4,5,6,7,7a-octahydrobenzimidazol-5-yl]cyclohexyl]methyl]ethane-1,2-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -226.061; UUBNYKSUIZWISJ; [M+Na]+; N-ethyl-N'-[3-(4-ethylpiperazin-1-yl)-2-methylpropyl]-2-azaspiro[4.5]decane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -227.151; GWNSYJFMNZABLG; [M+Na]+; 1-(1-Cyclohexylpiperidin-4-yl)-2-[2-[cyclopentyl(methyl)amino]ethyl]-3-ethylguanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -227.213; AAZPVKHXVQPIGN; [M+Na]+; N-ethyl-N'-[2-(4-methyl-1,4-diazepan-1-yl)ethyl]-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -227.663; SMDBWQDYWSEGHI; [M+Na]+; 4-N-(2,2-dimethylhexyl)-6-methyl-2-N-(3,3,4-trimethylheptan-4-yl)-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -227.944; FKELEGNMOCKYEO; [M+Na]+; N'-methyl-N-[3-(4-methyl-1,4-diazepan-1-yl)propyl]-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -229.101; FAEOVYAWNDFLGK; [M+Na]+; 1-Methyl-4-[2-[5-(4-methylcyclohexyl)-4-piperidin-4-ylpyrazolidin-3-yl]ethyl]piperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -229.249; MTADWWKVYSMRIX; [M+Na]+; 1-[1-(Cyclohexylmethyl)piperidin-4-yl]-3-ethyl-2-[(1-methylpiperidin-3-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -229.934; XPGFQMPSXZYPBZ; [M+Na]+; N'-methyl-N-[2-methyl-3-(4-methylpiperazin-1-yl)propyl]-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -230.011; XTNMIVFAVQXIRR; [M+Na]+; 2-Methyl-1-[2-(1-methylpiperidin-4-yl)ethyl]-3-[(1-piperidin-1-ylcyclohexyl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -232.440; XRXFZDSACUGOKW; [M+Na]+; N'-methyl-3-(piperidin-1-ylmethyl)-N-(5-piperidin-1-ylpentyl)pyrrolidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -233.518; XNFNALKYWUZIHX; [M+Na]+; N'-methyl-N-[(1-methylpiperidin-3-yl)methyl]-4-(4-propan-2-ylcyclohexyl)piperazine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -234.389; DNGKSNCLMUFXOL; [M+Na]+; N'-[2-[[(E)-1-[(E)-[(Z)-1-(azepan-1-yl)but-2-enylidene]amino]-2-methylbut-1-enyl]amino]ethyl]-N'-propylethane-1,2-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -239.231; GUQGHSCUNYQWIJ; [M+Na]+; 1-Ethyl-3-(4-methylcyclohexyl)-2-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -240.703; WGCSEGCGJZCEPC; [M+Na]+; N-ethyl-N'-(5-piperidin-1-ylpentyl)-3-(pyrrolidin-1-ylmethyl)pyrrolidine-1-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -240.940; PKXLMQQYHIQACV; [M+Na]+; 1-(4-Ethylcyclohexyl)-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.096; DQXJVIJDLXOGFK; [M+Na]+; N-(3,4-dihydro-2H-pyrrol-5-yl)-N'-(5,5-dimethyl-4,6-dihydro-1H-pyrimidin-2-yl)dodecane-1,12-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.197; DSOPXAXDEYGKDB; [M+Na]+; 1-(1-Cyclopentylpyrrolidin-3-yl)-3-ethyl-2-[4-(2-methylpiperidin-1-yl)butyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -243.502; HADYIJUYVVQYHP; [M+Na]+; N-[2-(4-ethylpiperazin-1-yl)propyl]-N'-methyl-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -244.207; STMHEAUGPDNUGJ; [M+Na]+; 1-(1-Cyclopentylpyrrolidin-3-yl)-3-ethyl-2-[4-(3-methylpiperidin-1-yl)butyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -244.274; XLLVKMBSKHZOQN; [M+Na]+; N-ethyl-N'-[2-(4-ethylpiperazin-1-yl)ethyl]-2-azaspiro[5.6]dodecane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -246.420; BZCXQOJWIWCKNW; [M+Na]+; Dimenthylbiguanide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -247.610; HNUCXOLRCBDBOW; [M+Na]+; 1-(3,5-Dimethylcyclohexyl)-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -247.785; BKYRBNNHGBAKDJ; [M+Na]+; 1-(4,4-Dimethylcyclohexyl)-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -249.477; DYPOHTRSEFELCS; [M+Na]+; 1-(1-Cyclohexylpiperidin-4-yl)-3-[2-(1-ethylpiperidin-4-yl)ethyl]-2-methylguanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -250.522; RDQIHJPISSTEHM; [M+Na]+; 1-[1-(Cyclohexylmethyl)piperidin-4-yl]-3-[2-[cyclopentyl(methyl)amino]ethyl]-2-methylguanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -251.492; PZTDZUYSAJAVPG; [M+Na]+; 1-Ethyl-3-(3-methylcyclohexyl)-2-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -251.592; RKVJLEVLNKUTFB; [M+Na]+; N-ethyl-N'-[4-(4-ethylpiperazin-1-yl)butyl]-2-azaspiro[4.5]decane-2-carboximidamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -251.755; ONXHBWFPOHZMSD; [M+Na]+; 1-Ethyl-3-[1-(2-methylprop-2-enyl)piperidin-4-yl]-2-(5-piperidin-1-ylpentyl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -255.410; RGTWXBKTORENQR; [M+Na]+; 1-(3-Ethylcyclohexyl)-2-methyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -259.266; UFDLVTLHSBSIGX; [M+Na]+; 1-(1-Cyclopentylpiperidin-4-yl)-2-methyl-3-(5-piperidin-1-ylpentyl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -260.444; FIWLBXLYHPKKRB; [M+Na]+; 1-N-(3,4-dihydro-2H-pyrrol-5-yl)-1-N'-(5,5-dimethyl-4,6-dihydro-1H-pyrimidin-2-yl)dodecane-1,1-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -260.755; IMMXMMQGQAEMDP; [M+Na]+; 1-(1-Cyclohexylpiperidin-4-yl)-3-ethyl-2-[(1-ethylpiperidin-2-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -261.351; VJJOLJBPCVCZMG; [M+Na]+; 1-(1-Cyclopentylpyrrolidin-3-yl)-3-ethyl-2-(5-piperidin-1-ylpentyl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -262.583; DDSFRNPKTVXXPE; [M+Na]+; 1-Hept-6-enyl-1,2-dimethyl-3-[(1-methyl-4-piperidin-1-ylpiperidin-4-yl)methyl]guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -267.336; RVIGNKCEPLKJRZ; [M+Na]+; 1-[2-[3-Methyl-4-(2,4,4,5-tetramethylhexan-2-yl)triazol-1-ium-1-yl]ethyl]-4-propan-2-ylpiperazine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -271.182; OCRSDXGLOTYZGG; [M+Na]+; 6-tert-butyl-N4-[2-(butylamino)ethyl]-N2-octyl-pyrimidine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -280.815; SPDGRWIGMIHIAC; [M+H]+; 2-[(2R,6S)-6-hydroxy-4,4-dimethyl-6-pentadecyl-morpholin-4-ium-2-yl]acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -280.837; AJHXDEGVJXRQAF; [M+Na]+; 1-Ethyl-3-(9-methyl-9-azabicyclo[3.3.1]nonan-3-yl)-2-(5-piperidin-1-ylpentyl)guanidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -285.479; HCYHXCFZMYCJBC; [M+Na]+; 6-Heptadecyl-N~2~,N~2~-dimethyl-1,3,5-triazine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -295.771; ZXMGRDIWFFHZJD; [M+Na]+; 6-N-hexadecyl-4-N,4-N-dimethylpyrimidine-4,5,6-triamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -296.037; GZFIEJTWSCXGGG; [M+Na]+; 4-N-[3-(dimethylamino)propyl]-2-N-dodecyl-6-methylpyrimidine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -296.037; XZYBAMYCUZIHTI; [M+Na]+; 2-N-[3-(dimethylamino)propyl]-4-N-dodecyl-6-methylpyrimidine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -296.125; QIGVOKNIGXXNOX; [M+Na]+; 6-N-ethyl-4-N-hexadecylpyrimidine-4,5,6-triamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -296.961; IYRJAOUNRRCPOX; [M+Na]+; N4-[3-(diethylamino)propyl]-N2-octyl-6-propyl-pyrimidine-2,4-diamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -304.829; BSQNMSWJGAXEND; [M+Na]+; N-hexadecyl-N-(3-methylbut-2-en-1-yl)-1H-1,2,3,4-tetrazol-5-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -313.205; VUOLFEKUUQKXLR; [M+H]+; 2-[(3S)-3-acetyloxyhexadecanoyl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -317.657; KVTOOFXLYHKXCK; [M+Na]+; 5-Octadecylpyrimidine-2,4,6-triamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -384.958; PBRQWSVRVWNFNZ; [M+H]+; methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -426.749; CLDQYVKJQNEYPG; [M+Na]+; (3S)-4,4,8,10,14-pentamethyl-1,2,3,5,6,7,9,11,12,13,15,16-dodecahydrocyclopenta[a]phenanthrene-3,6,12,17,17-pentamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -477.725; QHEIPGQAGVCSIG; [M+H]+; 3-(Dodecyloxy)-2-hydroxy-N,N-dimethyl-N-[2-[(2-methyl-1-oxo-2-propenyl)oxy]ethyl]-1-propanaminium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.708; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.245; JAMFZRZIISLIKM; [M+Na]+; 2-imino-N-[2-imino-2-(2,2,6,6-tetramethylpiperidin-4-yl)ethyl]-2-(2,2,6,6-tetramethylpiperidin-4-yl)ethanamine
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000000; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000000; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.875; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_Palmitoylcarnitine -  eV::C23H45NO4::11::0.9724::0.5455::0.8748
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.585; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_L-Palmitoylcarnitine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.677; Fatty acid methyl esters; [M+H]+; PBRQWSVRVWNFNZ_methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_L-Palmitoylcarnitine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.254; Fatty acid methyl esters; [M+H]+; PBRQWSVRVWNFNZ_methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -0.356; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_Tocris-0609
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -189.997; Acyl cholines; [M+H]+; VUOLFEKUUQKXLR_2-(3-acetyloxyhexadecanoyloxy)ethyl-trimethylazanium
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -328.780; Fatty acid methyl esters; [M+H]+; PBRQWSVRVWNFNZ_methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -39.643; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_[(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -313.205; Acyl cholines; [M+H]+; VUOLFEKUUQKXLR_2-[(3S)-3-acetyloxyhexadecanoyl]oxyethyl-trimethylazanium
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -384.958; Fatty acid methyl esters; [M+H]+; PBRQWSVRVWNFNZ_methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999976; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_[(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000024; Fatty acid methyl esters; [M+H]+; PBRQWSVRVWNFNZ_methyl 15-(2-ethyl-3-hydroxy-4,4-dimethyl-1,3-oxazolidin-2-yl)pentadecanoate_[S6: 3, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_[(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001126; Acyl carnitines; [M+H]+; XOMRRQXKHMYMOC_[(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Palmitoylcarnitine
+CH$NAME: 3-hexadecanoyloxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: N/A; Acyl carnitines
+CH$FORMULA: C23H45NO4
+CH$EXACT_MASS: 399.334859
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C23H45NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-23(27)28-21(19-22(25)26)20-24(2,3)4/h21H,5-20H2,1-4H3
+CH$LINK: CHEBI CHEBI:17490
+CH$LINK: HMDB HMDB0000222
+CH$LINK: INCHIKEY XOMRRQXKHMYMOC-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMFA07070004
+CH$LINK: PUBCHEM CID:461
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 7.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.518
+AC$CHROMATOGRAPHY: SOLVENT A Water with 0.1% (v/v) acetic acid 
+AC$CHROMATOGRAPHY: SOLVENT B Methanol with 0.1% (v/v) acetic acid
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 400.342202
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udr-8001900000-f5c6c6e0144b0a3fdafb
+PK$ANNOTATION: m/z int cor n mzPAF
+  57.0696371 15.5806 0.8737 19 f{C4H9}/-4.20ppm,p-C19H37N1O4
+  60.0804422 74.7501 0.9772 19 f{C3H10N1}/-5.55ppm,p-C20H36O4
+  71.0852018 11.3380 0.5649 19 f{C5H11}/-4.57ppm,p-C18H35N1O4
+  85.0281075 814.4361 0.9822 23 f{C4H5O2}/-3.51ppm,p-C19H41N1O2
+  133.0894688 22.9868 0.1838 17 f{C9H11N1}/6.52ppm,p-C14H35O4
+  144.1015969 24.9788 0.9108 22 f{C7H14N1O2}/-2.14ppm,p-C16H32O2
+  239.2370103 26.4476 0.9403 21 f{C16H31O1}/0.29ppm,p-C7H15N1O3
+  341.2687416 112.5292 0.9911 23 f{C20H37O4}/0.31ppm,p-C3H9N1
+  400.3423564 999.0000 1.0000 23 f{C23H46N1O4}/0.55ppm,p
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  57.069637 15.58 15
+  60.080442 74.75 74
+  71.085202 11.34 11
+  85.028108 814.44 814
+  144.101597 24.98 24
+  239.237010 26.45 26
+  341.268742 112.53 112
+  400.342356 999.00 999
+//

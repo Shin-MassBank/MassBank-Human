@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA042P0872000
+RECORD_TITLE: m/z 872.422232; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 26 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 872.42223
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4568
+COMMENT: DATASET_TITLE AMPK activation orchestrated replicative senescence of periodontal ligament stem cells via regulating metabolomics
+COMMENT: DATASET_AUTHORS Dayong Liu
+COMMENT: DATASET_PUBLICATION Hu M et al. Metabolomics Dysfunction in Replicative Senescence of Periodontal Ligament Stem Cells Regulated by AMPK Signaling Pathway. Stem Cells Dev, 33, 607-615 (2024)
+COMMENT: DATASET_PUBLICATION_PMID 39302052
+COMMENT: PRECURSOR_IN_MS1 mz 872.422441; int 3.740; delta(ppm) 0.239157
+COMMENT: MS1_SPEC {832.239467: 1, 833.241515: 1, 852.360588: 4, 853.363676: 2, 868.33504: 4, 869.336756: 2, 872.42244: 3, 873.427042: 2, 888.397167: 2, 889.397284: 1}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 873.427043; int 2.050; cor 0.649
+COMMENT: PROPOSED_MF SevenGoldenRules 4.791; C36H66N5O17P; [M+H]+; delta(ppm) -4.791058
+COMMENT: PROPOSED_MF SevenGoldenRules 4.563; C46H67NO11P2; [M+H]+; delta(ppm) -4.562694
+COMMENT: PROPOSED_MF SevenGoldenRules 3.256; C35H70NO21P; [M+H]+; delta(ppm) -3.255625
+COMMENT: PROPOSED_MF SevenGoldenRules 2.070; C29H71N5O20P2; [M+H]+; delta(ppm) -2.070196
+COMMENT: PROPOSED_MF SevenGoldenRules 1.361; C37H65N3O20; [M+H]+; delta(ppm) -1.361005
+COMMENT: PROPOSED_MF SevenGoldenRules 0.054; C41H67N3O13P2; [M+H]+; delta(ppm) 0.053935
+COMMENT: PROPOSED_MF SevenGoldenRules 1.360; C30H70N3O23P; [M+H]+; delta(ppm) 1.359857
+COMMENT: PROPOSED_MF SevenGoldenRules 3.256; C32H65N5O22; [M+H]+; delta(ppm) 3.255625
+COMMENT: PROPOSED_MF SevenGoldenRules 3.484; C42H66NO16P; [M+H]+; delta(ppm) 3.483989
+COMMENT: PROPOSED_MF SevenGoldenRules 4.669; C36H67N5O15P2; [M+H]+; delta(ppm) 4.669417
+COMMENT: PROPOSED_MF SevenGoldenRules 4.791; C31H69NO26; [M+H]+; delta(ppm) 4.791058
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 6600 mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 20.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH Amide column (1.7 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 95% B; 7.0 min, 65% B; 8.0 min, 40% B; 8.0-9.0 min, 40% B; 9.1 min, 95% B; 9.1-12.0 min, 95% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.830
+AC$CHROMATOGRAPHY: SOLVENT A 25 mM ammonium acetate and 25 mM ammonium hydroxide in water
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 872.422232
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000000090-d237aefe32119c2bd3a9
+PK$ANNOTATION: m/z int cor n mzPAF
+  872.4258996 999.0000 1.0000 21 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  872.425900 999.00 999
+//

@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032P0457004
+RECORD_TITLE: m/z 457.302026; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 457.30203
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: DATASET_PUBLICATION Yu D et al. The Gut Microbiome and Metabolites Are Altered and Interrelated in Patients With Rheumatoid Arthritis. Front Cell Infect Microbiol, 11, 763507 (2021)
+COMMENT: DATASET_PUBLICATION_PMID 35145919
+COMMENT: PRECURSOR_IN_MS1 mz 457.302583; int 2.959; delta(ppm) 1.219557
+COMMENT: MS1_SPEC {445.119411: 2, 457.302583: 2, 462.147827: 1, 473.17677: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 458.305997; int 0.866; cor 0.833
+COMMENT: PROPOSED_MF SevenGoldenRules 12.514; C25H45O5P; [M+H]+; delta(ppm) -12.513841
+COMMENT: PROPOSED_MF SevenGoldenRules 10.248; C19H46N4O4P2; [M+H]+; delta(ppm) -10.247762
+COMMENT: PROPOSED_MF SevenGoldenRules 8.893; C27H40N2O4; [M+H]+; delta(ppm) -8.893374
+COMMENT: PROPOSED_MF SevenGoldenRules 3.697; C20H45N2O7P; [M+H]+; delta(ppm) -3.697172
+COMMENT: PROPOSED_MF SevenGoldenRules 0.077; C22H40N4O6; [M+H]+; delta(ppm) -0.076705
+COMMENT: PROPOSED_MF SevenGoldenRules 0.359; C32H41P; [M+H]+; delta(ppm) 0.359417
+COMMENT: PROPOSED_MF SevenGoldenRules 2.853; C21H44O10; [M+H]+; delta(ppm) 2.853419
+COMMENT: PROPOSED_MF SevenGoldenRules 5.556; C25H46O3P2; [M+H]+; delta(ppm) 5.555619
+COMMENT: PROPOSED_MF SevenGoldenRules 9.174; C27H41N2O2P; [M+H]+; delta(ppm) 9.173895
+COMMENT: PROPOSED_MF SevenGoldenRules 12.794; C29H36N4O; [M+H]+; delta(ppm) 12.794362
+COMMENT: DATES Averaged 2025.09.08, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 13.000 ppm, MS2 20.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.541
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% Formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% Formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 457.302026
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-0090000000-7cb8fc7f4f210571305d
+PK$ANNOTATION: m/z int cor n mzPAF
+  229.1541287 999.0000 1.0000 21 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  229.154129 999.00 999
+//

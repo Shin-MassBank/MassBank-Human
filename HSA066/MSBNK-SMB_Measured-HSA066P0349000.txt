@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-SMB_Measured-HSA066P0349000
+RECORD_TITLE: m/z 349.183009; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; L5
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 349.18301
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2716
+COMMENT: DATASET_TITLE Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Giorgia Del Favero, Gerhard Adam, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells. Environ Int, 158, 106940 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34673318
+COMMENT: PRECURSOR_IN_MS1 mz 349.182991; int 12.444; delta(ppm) -0.052511
+COMMENT: MS1_SPEC {300.092657: 5, 300.201801: 1, 310.23786: 1, 312.253409: 2, 327.201372: 244, 328.20465: 36, 329.205273: 3, 340.248116: 1, 344.22797: 999, 345.23117: 157, 346.232636: 18, 347.234751: 2, 349.18299: 12, 350.18611: 1, 356.279412: 1, 358.207399: 1, 365.157264: 5, 372.259032: 6, 373.262553: 1, 391.284172: 50, 392.287434: 12, 393.290948: 1}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 350.186111; int 1.701; cor 0.867
+COMMENT: PROPOSED_ION_FORM M+Na; M+H; mz 327.201372; int 244.950; cor 0.874
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 344.227970; int 999.000; cor 0.902
+COMMENT: PROPOSED_ION_FORM M+Na; M+K; mz 365.157264; int 5.106; cor 0.832
+COMMENT: PROPOSED_ION_FORM M+2Na-H; M+Na; mz 327.201372; int 244.950; cor 0.874
+COMMENT: PROPOSED_ION_FORM M+ACN+Na; M+IsoProp+H; mz 346.232637; int 18.891; cor 0.937
+COMMENT: PROPOSED_MF SevenGoldenRules 4.742; C10H29N4O7P; [M+H]+; delta(ppm) -4.741858
+COMMENT: PROPOSED_MF SevenGoldenRules 4.173; C20H30OP2; [M+H]+; delta(ppm) -4.173180
+COMMENT: PROPOSED_MF SevenGoldenRules 0.572; C22H25N2P; [M+H]+; delta(ppm) 0.571550
+COMMENT: PROPOSED_MF SevenGoldenRules 3.843; C11H28N2O10; [M+H]+; delta(ppm) 3.842887
+COMMENT: PROPOSED_MF SevenGoldenRules 4.948; C15H26N4O4; [M+Na]+; delta(ppm) -4.947979
+COMMENT: PROPOSED_MF SevenGoldenRules 0.849; C14H30O8; [M+Na]+; delta(ppm) -0.849188
+COMMENT: PROPOSED_MF SevenGoldenRules 2.928; C18H32OP2; [M+Na]+; delta(ppm) 2.927707
+COMMENT: PROPOSED_MF SevenGoldenRules 2.610; C13H28N4O4; [M+2Na-H]+; delta(ppm) 2.610023
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: UHPLC Vanquish system, Thermo Fisher Scientific - Q Exactive HF high-resolution mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 μm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 10% B; 15.0 min, 100% B; 15.0-17.0 min, 100% B; 17.0-19.0 min, 10% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.582
+AC$CHROMATOGRAPHY: SOLVENT A 10 mmol/L Ammonium acetate
+AC$CHROMATOGRAPHY: SOLVENT B 96% (v/v) Acetonitrile/water with 10 mmol/L Ammonium acetate
+MS$FOCUSED_ION: PRECURSOR_M/Z 349.183009
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-0009000000-6cb09a7e9447792259f9
+PK$ANNOTATION: m/z int cor n mzPAF
+  349.1848185 999.0000 1.0000 12 ?
+  350.1889655 73.6976 0.8252 12 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  349.184819 999.00 999
+  350.188965 73.70 73
+//

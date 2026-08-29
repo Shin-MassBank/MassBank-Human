@@ -1,0 +1,520 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007P0285007
+RECORD_TITLE: Tropicamide; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.07.06
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, SL, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); BGDKAVGWHJFAGW
+COMMENT: EVIDENCE_INVENTORY [IS, SL, CX]; IS (In silico evidence) q-Value-like = 0.000000, CFM-ID:MS-FINDER_DB (rank 3), MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 1), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library evidence) Entropy:GNPS (score 0.729); CX (Contextual evidence) HMDB (HMDB0014947)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: DATASET_PUBLICATION Chen G et al. Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow. Anal Chem, 89, 4897-4906 (2017)
+COMMENT: DATASET_PUBLICATION_PMID 28391692
+COMMENT: PRECURSOR_IN_MS1 mz 285.159062; int 999.000; delta(ppm) -1.351899
+COMMENT: MS1_SPEC {235.168672: 60, 235.205018: 109, 236.209403: 25, 237.220845: 13, 239.088982: 24, 239.146577: 70, 240.179333: 81, 243.132705: 416, 245.185398: 154, 255.157679: 61, 255.266111: 6, 256.174033: 13, 256.263064: 20, 257.243331: 26, 262.163242: 38, 265.115352: 64, 271.260457: 30, 279.158122: 341, 281.050283: 50, 284.203104: 27, 285.159062: 999, 286.162723: 195, 287.164286: 32, 288.192456: 20, 288.223429: 25, 290.888778: 21, 296.241118: 19, 297.082911: 36, 299.059982: 25, 301.140024: 67, 304.247833: 212, 309.20244: 79, 310.111687: 25, 312.200364: 30, 313.141823: 69, 313.904098: 29, 317.113943: 24, 324.215824: 267, 327.00677: 56, 327.076536: 95, 327.200454: 54, 328.079341: 27, 328.230286: 26, 329.004829: 61, 332.278141: 294, 332.993801: 6, 334.139249: 380}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 286.162724; int 195.685; cor 0.945
+COMMENT: PROPOSED_MF SevenGoldenRules 3.252; C9H26N4O2P2; [M+H]+; delta(ppm) -3.251779
+COMMENT: PROPOSED_MF SevenGoldenRules 1.077; C17H20N2O2; [M+H]+; delta(ppm) -1.076888
+COMMENT: PROPOSED_MF Aggregated_ranking 1.0000000; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF MS-FINDER 4.629; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF MS-FINDER 3.603; C9H24N4O4S; [M+H]+; delta(ppm) 1.210850
+COMMENT: PROPOSED_MF MS-FINDER 3.077; C9H32O3S3; [M+H]+; delta(ppm) 2.853434
+COMMENT: PROPOSED_MF MS-FINDER 2.434; C10H20N8S; [M+H]+; delta(ppm) -3.479196
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 8.663; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 2.908; C15H25O3P; [M+H]+; delta(ppm) -6.866621
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.035; C16H25ClO2; [M+H]+; delta(ppm) -77636.218983
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.997; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.004; C15H25O3P; [M+H]+; delta(ppm) -6.866621
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.053; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 7.811; C14H21FN2O3; [M+H]+; delta(ppm) -5.081281
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.692; C15H18N5O; [M+H]+; delta(ppm) 3.634243
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.504; C12H20F4N2O; [M+H]+; delta(ppm) 3.493824
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.462; C15H19F3N2; [M+H]+; delta(ppm) 7.500938
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.382; C13H16N8; [M+H]+; delta(ppm) 8.342765
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.109; C15H25O3P; [M+H]+; delta(ppm) -6.866621
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 1.378; C10H17FN8O; [M+H]+; delta(ppm) 4.335644
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -0.030; C14H22NO5; [M+H]+; delta(ppm) 8.324356
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -0.068; C10H25N2O5P; [M+H]+; delta(ppm) 7.240373
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.995; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.005; C14H21FN2O3; [M+H]+; delta(ppm) -5.081281
+COMMENT: PROPOSED_MF p-value_like 0.0000001; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_MF q-value_like 0.0000001; C17H20N2O2; [M+H]+; delta(ppm) -1.074235
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9999999; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 1.000; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; HCTKHJQOFVNFCC; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate_[S6: 2, FragP: 15]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; TTWJMTDJYIBJDS; [M+H]+; 5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol_[S6: 4, FragP: 16]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; OILNQZALWIPCRH; [M+H]+; N-(2-Hydroxyethyl)-N-(alpha-methylphenethyl)nicotinamide_[S6: 6, FragP: 11]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 1.029; JOMCYMUBCISXNJ; [M+H]+; Mersicarpine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.918; OPXRWFOXVXXQCO; [M+H]+; 18-methyl-6,10-diazatetracyclo[8.8.0.0,.0,]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.867; BGDKAVGWHJFAGW; [M+H]+; Tropicamide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.833; OQXLZVLYOCZOPU; [M+H]+; 2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.807; ZNRGQMMCGHDTEI; [M+H]+; tropisetron
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.803; XKWUMHJIMQSAIQ; [M+H]+; N-cyclobutyl-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.768; GQNNDZBIDOPSFF; [M+H]+; N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.745; BPBRIGJWPDHHGJ; [M+H]+; 2-(but-2-en-1-yloxy)-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.733; OUJXPBVMXBGHIA; [M+H]+; 2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.728; HXIIWJMPVYQCRJ; [M+H]+; 4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.690; FFBKUHDJNORZBU; [M+H]+; 4-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.686; RIJFNUHYNBVLOZ; [M+H]+; 3H-indole-3-carboxylic acid [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] ester
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.677; PWTCGLHUMIIRML; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.669; IEHDKRBHKAGVKZ; [M+H]+; Desfluoro-safinamide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.641; JFPKDMHLVBJLQA; [M+H]+; 2-cyclopentyl-1H,2H,3H,4H,6H,11H,11aH-pyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.641; KIXVWBIPDCIUAK; [M+H]+; 9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.635; HDHMLDGTBNBVDG; [M+H]+; 6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.633; DOGUAYAXSQVEBS; [M+H]+; 5-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.614; JYYVUMQUBHVWPC; [M+H]+; N-5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidenebenzamide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.602; VIBVZHKYECKWQQ; [M+H]+; 6-phenoxy-4-[(pyridin-2-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.602; TTWJMTDJYIBJDS; [M+H]+; 5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.592; OPOFIXPDEMKSON; [M+H]+; UNPD34247
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.592; QTWBKNVNGVYTNZ; [M+H]+; 4-amino-N-[4-(benzyloxy)phenyl]butanamide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.567; SZWKSGNRSHBSNP; [M+H]+; 2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.543; RIIBMOGCIJWBOO; [M+H]+; CNP0443404
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.534; RKZSHDVJCXCUJI; [M+H]+; 3-(benzylamino)-4-(pyridin-3-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.533; VQSWVFALFFYCMJ; [M+H]+; Penipaline A
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.529; OMFNIVCANVSVRU; [M+H]+; 1,8,8-trimethyl-3-(2-phenylhydrazin-1-ylidene)bicyclo[3.2.1]octane-2,4-dione
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.525; GTPFHMDZFSJXDV; [M+H]+; 3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.525; JSRAKTZEINQVIG; [M+H]+; UNPD142716
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.524; YHFVICYKHLQAML; [M+H]+; 3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.518; HHFYDXQZAAYDIX; [M+H]+; ethyl 1,4-diazatetracyclo[7.6.1.0,.0,]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.478; MFDXHRPPSJRQFX; [M+H]+; 4-HYDROXY-N'-(4-ISOPROPYLBENZYL)BENZOHYDRAZIDE
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.472; ZQXURGDNPNMDIC; [M+H]+; 5-(aminomethyl)-4-[(3-fluorophenyl)methyl](methyl)amino-2-(hydroxymethyl)oxolan-3-ol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.463; LCROHDLYLNYRFC; [M+H]+; 3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.451; HCTKHJQOFVNFCC; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.449; OILNQZALWIPCRH; [M+H]+; Ethanol-phenatine
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.444; BBKITNAKQHKIJO; [M+H]+; UNPD217229
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.400; RZGNTHQZYZRDDB; [M+H]+; Benzoic acid, 3-(6-amino-3-methyl-2-pyridinyl)-, 1,1-dimethylethyl ester
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.400; BLJLVIBUXXHCGH; [M+H]+; Urea, 1-butyl-3-(2-phenoxyphenyl)-
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.380; RUNWFOIXOHBRTB; [M+H]+; (2R,3R,4R)-1-(cyclopentanecarbonyl)-4-(hydroxymethyl)-3-phenylazetidine-2-carbonitrile
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.729; BGDKAVGWHJFAGW; [M+H]+; TROPICAMIDE_C17H20N2O2
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.244; ZNRGQMMCGHDTEI; [M+H]+; Tropisetron_C17H20N2O2
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.868; BGDKAVGWHJFAGW-UHFFFAOYSA-N; [M+H]+; Tropicamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.561; DOGUAYAXSQVEBS-UHFFFAOYSA-N; [M+H]+; 5-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.561; FFBKUHDJNORZBU-UHFFFAOYSA-N; [M+H]+; 4-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.533; HXIIWJMPVYQCRJ-UHFFFAOYSA-N; [M+H]+; 4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.492; JOMCYMUBCISXNJ-RXQGYGPJNA-N; [M+H]+; Mersicarpine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.440; HDHMLDGTBNBVDG-UHFFFAOYSA-N; [M+H]+; 6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.440; VIBVZHKYECKWQQ-UHFFFAOYSA-N; [M+H]+; 6-phenoxy-4-[(pyridin-2-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.420; OPXRWFOXVXXQCO-UHFFFAOYSA-N; [M+H]+; 18-methyl-6,10-diazatetracyclo[8.8.0.0?,?.0??,??]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.394; LCROHDLYLNYRFC-UHFFFAOYSA-N; [M+H]+; 3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.394; RKZSHDVJCXCUJI-UHFFFAOYSA-N; [M+H]+; 3-(benzylamino)-4-(pyridin-3-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.379; GQNNDZBIDOPSFF-UHFFFAOYSA-N; [M+H]+; N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.379; XKWUMHJIMQSAIQ-UHFFFAOYSA-N; [M+H]+; N-cyclobutyl-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.350; GTPFHMDZFSJXDV-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.345; BBKITNAKQHKIJO-KRWDZBQOSA-N; [M+H]+; UNPD217229
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.322; TTWJMTDJYIBJDS-UHFFFAOYSA-N; [M+H]+; 5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.292; PWTCGLHUMIIRML-UHFFFAOYSA-N; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.094; JSRAKTZEINQVIG-UHFFFAOYSA-N; [M+H]+; UNPD142716
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.064; YHFVICYKHLQAML-UHFFFAOYSA-N; [M+H]+; 3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.040; BPBRIGJWPDHHGJ-UHFFFAOYSA-N; [M+H]+; 2-(but-2-en-1-yloxy)-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.032; OUJXPBVMXBGHIA-UHFFFAOYSA-N; [M+H]+; 2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 7.007; RUNWFOIXOHBRTB-MCUZVLRKNA-N; [M+H]+; (2R,3R,4R)-1-(cyclopentanecarbonyl)-4-(hydroxymethyl)-3-phenylazetidine-2-carbonitrile
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.998; KIXVWBIPDCIUAK-UHFFFAOYSA-N; [M+H]+; 9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.987; VQSWVFALFFYCMJ-AWEZNQCLSA-N; [M+H]+; Penipaline A
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.986; OPOFIXPDEMKSON-YIMZAQHZNA-N; [M+H]+; UNPD34247
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.967; OQXLZVLYOCZOPU-UHFFFAOYSA-N; [M+H]+; 2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.963; JFPKDMHLVBJLQA-UHFFFAOYSA-N; [M+H]+; 2-cyclopentyl-1H,2H,3H,4H,6H,11H,11aH-pyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.961; JYYVUMQUBHVWPC-UHFFFAOYSA-N; [M+H]+; N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.959; OMFNIVCANVSVRU-UHFFFAOYSA-N; [M+H]+; 1,8,8-trimethyl-3-(2-phenylhydrazin-1-ylidene)bicyclo[3.2.1]octane-2,4-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.937; SZWKSGNRSHBSNP-UHFFFAOYSA-N; [M+H]+; 2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.936; OILNQZALWIPCRH-UHFFFAOYSA-N; [M+H]+; Ethanol-phenatine
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.878; MFDXHRPPSJRQFX-UHFFFAOYSA-N; [M+H]+; 4-HYDROXY-N'-(4-ISOPROPYLBENZYL)BENZOHYDRAZIDE
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.634; ZNRGQMMCGHDTEI-ITGUQSILNA-N; [M+H]+; tropisetron
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.517; QTWBKNVNGVYTNZ-UHFFFAOYSA-N; [M+H]+; 4-amino-N-[4-(benzyloxy)phenyl]butanamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.513; IEHDKRBHKAGVKZ-UHFFFAOYSA-N; [M+H]+; Desfluoro-safinamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.478; RIJFNUHYNBVLOZ-DOOHLRMFNA-N; [M+H]+; 3H-indole-3-carboxylic acid [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] ester
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.478; RZGNTHQZYZRDDB-UHFFFAOYSA-N; [M+H]+; Benzoic acid, 3-(6-amino-3-methyl-2-pyridinyl)-, 1,1-dimethylethyl ester
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.478; HHFYDXQZAAYDIX-UHFFFAOYSA-N; [M+H]+; ethyl 1,4-diazatetracyclo[7.6.1.0?,??.0??,??]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.478; RIIBMOGCIJWBOO-UHFFFAOYSA-N; [M+H]+; CNP0443404
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.478; BLJLVIBUXXHCGH-UHFFFAOYSA-N; [M+H]+; Urea, 1-butyl-3-(2-phenoxyphenyl)-
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.426; HCTKHJQOFVNFCC-UHFFFAOYSA-N; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; BGDKAVGWHJFAGW-UHFFFAOYSA-N; [M+H]+; Tropicamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.990; JSRAKTZEINQVIG-UHFFFAOYSA-N; [M+H]+; UNPD142716
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.977; YHFVICYKHLQAML-UHFFFAOYSA-N; [M+H]+; 3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.935; RUNWFOIXOHBRTB-MCUZVLRKNA-N; [M+H]+; (2R,3R,4R)-1-(cyclopentanecarbonyl)-4-(hydroxymethyl)-3-phenylazetidine-2-carbonitrile
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.925; DOGUAYAXSQVEBS-UHFFFAOYSA-N; [M+H]+; 5-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.925; FFBKUHDJNORZBU-UHFFFAOYSA-N; [M+H]+; 4-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.896; PWTCGLHUMIIRML-UHFFFAOYSA-N; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.894; KIXVWBIPDCIUAK-UHFFFAOYSA-N; [M+H]+; 9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.892; HXIIWJMPVYQCRJ-UHFFFAOYSA-N; [M+H]+; 4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.783; OILNQZALWIPCRH-UHFFFAOYSA-N; [M+H]+; Ethanol-phenatine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.782; HDHMLDGTBNBVDG-UHFFFAOYSA-N; [M+H]+; 6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.782; VIBVZHKYECKWQQ-UHFFFAOYSA-N; [M+H]+; 6-phenoxy-4-[(pyridin-2-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.755; LCROHDLYLNYRFC-UHFFFAOYSA-N; [M+H]+; 3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.755; RKZSHDVJCXCUJI-UHFFFAOYSA-N; [M+H]+; 3-(benzylamino)-4-(pyridin-3-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.749; OPXRWFOXVXXQCO-UHFFFAOYSA-N; [M+H]+; 18-methyl-6,10-diazatetracyclo[8.8.0.0?,?.0??,??]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.717; OUJXPBVMXBGHIA-UHFFFAOYSA-N; [M+H]+; 2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.715; BPBRIGJWPDHHGJ-UHFFFAOYSA-N; [M+H]+; 2-(but-2-en-1-yloxy)-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.710; TTWJMTDJYIBJDS-UHFFFAOYSA-N; [M+H]+; 5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.684; GTPFHMDZFSJXDV-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.683; OPOFIXPDEMKSON-YIMZAQHZNA-N; [M+H]+; UNPD34247
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.662; IEHDKRBHKAGVKZ-UHFFFAOYSA-N; [M+H]+; Desfluoro-safinamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.659; BLJLVIBUXXHCGH-UHFFFAOYSA-N; [M+H]+; Urea, 1-butyl-3-(2-phenoxyphenyl)-
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.658; MFDXHRPPSJRQFX-UHFFFAOYSA-N; [M+H]+; 4-HYDROXY-N'-(4-ISOPROPYLBENZYL)BENZOHYDRAZIDE
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.657; VQSWVFALFFYCMJ-AWEZNQCLSA-N; [M+H]+; Penipaline A
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.631; GQNNDZBIDOPSFF-UHFFFAOYSA-N; [M+H]+; N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.631; XKWUMHJIMQSAIQ-UHFFFAOYSA-N; [M+H]+; N-cyclobutyl-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.631; OQXLZVLYOCZOPU-UHFFFAOYSA-N; [M+H]+; 2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.613; JOMCYMUBCISXNJ-RXQGYGPJNA-N; [M+H]+; Mersicarpine
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.613; JFPKDMHLVBJLQA-UHFFFAOYSA-N; [M+H]+; 2-cyclopentyl-1H,2H,3H,4H,6H,11H,11aH-pyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.603; HHFYDXQZAAYDIX-UHFFFAOYSA-N; [M+H]+; ethyl 1,4-diazatetracyclo[7.6.1.0?,??.0??,??]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.598; OMFNIVCANVSVRU-UHFFFAOYSA-N; [M+H]+; 1,8,8-trimethyl-3-(2-phenylhydrazin-1-ylidene)bicyclo[3.2.1]octane-2,4-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.586; SZWKSGNRSHBSNP-UHFFFAOYSA-N; [M+H]+; 2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.583; RZGNTHQZYZRDDB-UHFFFAOYSA-N; [M+H]+; Benzoic acid, 3-(6-amino-3-methyl-2-pyridinyl)-, 1,1-dimethylethyl ester
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.562; JYYVUMQUBHVWPC-UHFFFAOYSA-N; [M+H]+; N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.562; HCTKHJQOFVNFCC-UHFFFAOYSA-N; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.510; BBKITNAKQHKIJO-KRWDZBQOSA-N; [M+H]+; UNPD217229
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.510; RIIBMOGCIJWBOO-UHFFFAOYSA-N; [M+H]+; CNP0443404
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.503; RIJFNUHYNBVLOZ-DOOHLRMFNA-N; [M+H]+; 3H-indole-3-carboxylic acid [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] ester
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.503; ZNRGQMMCGHDTEI-ITGUQSILNA-N; [M+H]+; tropisetron
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.479; QTWBKNVNGVYTNZ-UHFFFAOYSA-N; [M+H]+; 4-amino-N-[4-(benzyloxy)phenyl]butanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.371; BGDKAVGWHJFAGW-UHFFFAOYSA-N; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-(pyridin-4-ylmethyl)propanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.336; ZNRGQMMCGHDTEI-FUNVUKJBSA-N; [M+H]+; [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 1H-indole-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.130; FGPOAVHUVMWZQN-UHFFFAOYSA-N; [M+H]+; 6-[(3,4-dimethoxyphenyl)methyl]-7,8-dihydro-5H-1,6-naphthyridine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.109; LWPWICQRCLMVST-UHFFFAOYSA-N; [M+H]+; (4-butylphenyl)-(4-methoxyphenyl)imino-oxidoazanium
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.061; DEGBSBXQXYNUQU-UHFFFAOYSA-N; [M+H]+; methyl N-[1-(4-benzylphenyl)ethylamino]carbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.033; XDCSJJCJKBTPCJ-UHFFFAOYSA-N; [M+H]+; methyl 4-methyl-1-piperidin-1-ylisoquinoline-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.033; OSKZYLPFYNARRX-UHFFFAOYSA-N; [M+H]+; methyl 7-methyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.033; DPJQFIQFRZICNY-UHFFFAOYSA-N; [M+H]+; 1-(6-methoxyquinolin-4-yl)-2-piperidin-4-ylethanone
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.032; HVORHDWIMWSIAE-UHFFFAOYSA-N; [M+H]+; 4-(7-methoxy-2,3-dihydro-1H-cyclopenta[b]quinolin-9-yl)morpholine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.007; HPTJCEPNQHYWIH-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-N-(4-methylpentan-2-ylideneamino)naphthalene-2-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.950; OILNQZALWIPCRH-UHFFFAOYSA-N; [M+H]+; N-(2-hydroxyethyl)-N-(1-phenylpropan-2-yl)pyridine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.926; WLHRLHBLEQCWJZ-UHFFFAOYSA-N; [M+H]+; 4-(4-pyrrolidin-1-ylbut-2-ynyl)-4-azatricyclo[5.2.1.02,6]dec-8-ene-3,5-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.896; XEKGTVKEYMWYNL-UHFFFAOYSA-N; [M+H]+; N-[(4-propoxynaphthalen-1-yl)methyl]-4,5-dihydro-1,3-oxazol-2-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.896; PAXDSHJDFGCEQX-UHFFFAOYSA-N; [M+H]+; N-[(4-propan-2-yloxynaphthalen-1-yl)methyl]-4,5-dihydro-1,3-oxazol-2-amine
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.895; HCTKHJQOFVNFCC-UHFFFAOYSA-N; [M+H]+; 2-(N-ethylanilino)ethyl N-phenylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.886; TTWJMTDJYIBJDS-UHFFFAOYSA-N; [M+H]+; 5-benzyl-2-(morpholin-4-ylmethyl)pyridin-3-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.880; FLAZYNMEKNSLED-UHFFFAOYSA-N; [M+H]+; 2-[4-(2-aminoethyl)phenoxy]-N-(3-methylphenyl)acetamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.858; IFJOUBVKCWBZCT-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-2-(2-piperidin-1-ylethyliminomethyl)inden-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.854; KNNXBGSYELSNTQ-UHFFFAOYSA-N; [M+H]+; 2-ethyl-4-(2-phenylethyl)-2,4-dihydro-1H-pyridazino[6,1-c][1,4]oxazin-3-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.798; BDAKJRQEUJHFLG-UHFFFAOYSA-N; [M+H]+; 3-(morpholin-4-ylmethyl)-1,2,3,9-tetrahydrocarbazol-4-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.798; BGDYJCXFFBKUIE-UHFFFAOYSA-N; [M+H]+; N-azulen-1-yl-3-morpholin-4-ylpropanamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.798; FLDAAQJCYRTWGG-UHFFFAOYSA-N; [M+H]+; 1-cyclohexyl-14,15-dioxa-3,10-diazatetracyclo[10.2.1.02,10.04,9]pentadeca-2,4,6,8-tetraene
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.797; YHVFDGXISVNGJR-UHFFFAOYSA-N; [M+H]+; 1-phenyl-3-prop-2-enyl-1,3-diazaspiro[4.5]decane-2,4-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.780; GEOJUSNZNNFHAE-IAQYHMDHSA-N; [M+H]+; (5R)-6-[(2R)-2-hydroxypropyl]-1,6-diazatetracyclo[7.6.1.05,16.010,15]hexadeca-9(16),10,12,14-tetraen-2-one
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.772; UCBSXTTUNYWOCC-UHFFFAOYSA-N; [M+H]+; 6-(cyclooctylamino)quinoline-5,8-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.765; HWJNGISTYJUNBI-UHFFFAOYSA-N; [M+H]+; 1-cyclohexyl-3-(5-hydroxynaphthalen-1-yl)urea
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.764; IJVCHQLIJGYVRP-UHFFFAOYSA-N; [M+H]+; [3-(dimethylamino)-1-pyridin-3-ylpropyl] benzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.763; RZGNTHQZYZRDDB-UHFFFAOYSA-N; [M+H]+; tert-butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.763; CMGDWQFRXJTBKK-UHFFFAOYSA-N; [M+H]+; ethyl 11-methyl-1,2,4,5-tetrahydroazepino[4,5-b]quinoline-3-carboxylate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.751; DAGGGFKBDHQUTR-UHFFFAOYSA-N; [M+H]+; N-[4-(4-aminophenoxy)butyl]benzamide
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.728; AOKVQWYUEJOJHX-UHFFFAOYSA-N; [M+H]+; [3-(diethylamino)phenyl] N-phenylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.670; CSTCMTNYRCPDSF-UHFFFAOYSA-N; [M+H]+; 2-(dimethylamino)ethyl N,N-diphenylcarbamate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.670; CEKOPAVBIKRJKH-UHFFFAOYSA-N; [M+H]+; [2-(dimethylamino)-1-phenylethyl] 4-aminobenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.670; HICAFKKYHWJQRI-UHFFFAOYSA-N; [M+H]+; 2-[benzyl(methyl)amino]ethyl 4-aminobenzoate
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.661; LAUYTOPVFSGSFV-UHFFFAOYSA-N; [M+H]+; 1-(2-methyl-1H-indol-3-yl)-2-(2-methylpiperidin-1-yl)ethane-1,2-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.661; KYYLIHXBZFIPIZ-UHFFFAOYSA-N; [M+H]+; 1-(2-methyl-1H-indol-3-yl)-2-(3-methylpiperidin-1-yl)ethane-1,2-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 0.661; VVCAKFWZASEFTN-UHFFFAOYSA-N; [M+H]+; [2-(benzylamino)-2-methylpropyl] pyridine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.941; BGDKAVGWHJFAGW; [M+H]+; TROPICAMIDE_C17H20N2O2
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.725; ZNRGQMMCGHDTEI; [M+H]+; Tropisetron_C17H20N2O2
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -80.353; BGDKAVGWHJFAGW; [M+H]+; Mydricol
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -178.944; OILNQZALWIPCRH; [M+H]+; Ethanol-phenatine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -196.036; JSRAKTZEINQVIG; [M+H]+; N-[2-(4-methoxyphenyl)ethyl]-2-(methylamino)benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -212.936; FGPOAVHUVMWZQN; [M+H]+; 6-[(3,4-dimethoxyphenyl)methyl]-7,8-dihydro-5H-1,6-naphthyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -245.528; ZMTWQALRHGTUHL; [M+H]+; O-Benzyl-N-Methyl-L-Tyrosinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -247.175; AOKVQWYUEJOJHX; [M+H]+; 3-Diethylaminophenyl N-phenylcarbamate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -251.922; PWTCGLHUMIIRML; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -261.993; HCTKHJQOFVNFCC; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -266.297; LWPWICQRCLMVST; [M+H]+; 4-Butyl-4''-methoxyazoxybenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -267.251; RUNWFOIXOHBRTB; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -267.264; DAGGGFKBDHQUTR; [M+H]+; N-[4-(4-aminophenoxy)butyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -267.549; YHFVICYKHLQAML; [M+H]+; 3-(4-methoxyphenyl)-N''-methyl-N''-phenylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -271.603; BLJLVIBUXXHCGH; [M+H]+; 1-butyl-3-(2-phenoxyphenyl)urea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -273.679; CMGDWQFRXJTBKK; [M+H]+; ethyl 11-methyl-1,2,4,5-tetrahydroazepino[4,5-b]quinoline-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -276.387; XKZPCVJIRSIGQB; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -279.218; VIBVZHKYECKWQQ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -280.623; RDINMGBRZOIOLS; [M+H]+; 3-[2-[2-(1-naphthylamino)ethoxy]ethoxy]propiononitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -284.156; MFDXHRPPSJRQFX; [M+H]+; 4-Hydroxy-N''-(4-Isopropylbenzyl)benzohydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -288.443; HDHMLDGTBNBVDG; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -289.720; TTWJMTDJYIBJDS; [M+H]+; Oprea1_405746
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -305.511; BBKITNAKQHKIJO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.803; CEKOPAVBIKRJKH; [M+H]+; 4-14-00-01145 (Beilstein Handbook Reference)
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -319.946; DOGUAYAXSQVEBS; [M+H]+; Nomifensine M3
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -323.969; XDCSJJCJKBTPCJ; [M+H]+; methyl 4-methyl-1-piperidin-1-ylisoquinoline-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -324.957; RIIBMOGCIJWBOO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -326.941; KYYLIHXBZFIPIZ; [M+H]+; 3-Methyl-1-((2-methyl-1H-indol-3-yl)oxoacetyl)piperidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -327.953; QTWBKNVNGVYTNZ; [M+H]+; Modified amino acid analog, 7a
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -329.565; JFPKDMHLVBJLQA; [M+H]+; 2-cyclopentyl-3,6,11,11a-tetrahydropyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -330.638; LCROHDLYLNYRFC; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -333.738; KIXVWBIPDCIUAK; [M+H]+; Oprea1_096991
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -337.123; RKZSHDVJCXCUJI; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -351.523; FFBKUHDJNORZBU; [M+H]+; Nomifensine M2
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -352.007; YOQOHMWRJIMWLY; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -353.642; HXIIWJMPVYQCRJ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -361.661; LAUYTOPVFSGSFV; [M+H]+; 2-Methyl-1-((2-methyl-1H-indol-3-yl)oxoacetyl)piperidine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -363.459; GTPFHMDZFSJXDV; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -377.925; YHVFDGXISVNGJR; [M+H]+; 3''-Allyl-1''-phenylcyclohexanespiro-5''-hydantoin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -388.274; RZGNTHQZYZRDDB; [M+H]+; tert-Butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -390.204; OQXLZVLYOCZOPU; [M+H]+; 2-cyclohexyl-10,10a-dihydro-5H-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -393.932; GQNNDZBIDOPSFF; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -395.716; HWJNGISTYJUNBI; [M+H]+; 1-cyclohexyl-3-(5-hydroxynaphthalen-1-yl)urea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -400.338; JYYVUMQUBHVWPC; [M+H]+; N-(5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]oct-2-en-2-yl)benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -408.410; XKWUMHJIMQSAIQ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -414.019; VQSWVFALFFYCMJ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -430.624; UCBSXTTUNYWOCC; [M+H]+; Azaquinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -436.434; BDAKJRQEUJHFLG; [M+H]+; 2,3-Dihydro-3-(morpholino)methyl-4(1H)-carbazolone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -436.800; ZNRGQMMCGHDTEI; [M+H]+; Setrovel
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -443.305; OSKZYLPFYNARRX; [M+H]+; Methyl dihydrolysergate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -458.561; YIFQYDYQMHGCTN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -461.636; OUJXPBVMXBGHIA; [M+H]+; 2-(2-methylprop-2-enoxy)-7,8,9,10-tetrahydro-6H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -463.133; HPTJCEPNQHYWIH; [M+H]+; 3-hydroxy-N-(4-methylpentan-2-ylideneamino)naphthalene-2-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -467.476; BPBRIGJWPDHHGJ; [M+H]+; 2-[(E)-but-2-enoxy]-7,8,9,10-tetrahydro-6H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -476.968; PAXDSHJDFGCEQX; [M+H]+; 2-(4-Isopropoxy-1-naphthalenemethylamino)-2-oxazoline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -484.673; RIJFNUHYNBVLOZ; [M+H]+; [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3H-indole-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -484.944; JOMCYMUBCISXNJ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -486.040; HHFYDXQZAAYDIX; [M+H]+; Oprea1_280936
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -494.947; OPXRWFOXVXXQCO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -495.163; GEOJUSNZNNFHAE; [M+H]+; 6H-Indolo(3,2,1-de)(1,5)naphthyridin-6-one, 1,2,3,3a,4,5-hexahydro-3-(2-hydroxypropyl)-, (R*,R*)-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -511.425; OPOFIXPDEMKSON; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -530.314; SZWKSGNRSHBSNP; [M+H]+; spiro[1,2,3,4-tetrahydrobeta-carboline-1,1''-cyclohexane]-3-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -533.573; GBRRMIWGOIUNNI; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -538.588; FLDAAQJCYRTWGG; [M+H]+; 4,5-Dihydro-1-cyclohexyl-1,4-epoxy-1H,3H-(1,4)oxazepino(4,3-a)benzimidazole
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.787; BGDKAVGWHJFAGW; [M+H]+; Mydricol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -153.278; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -271.298; HCTKHJQOFVNFCC; [M+H]+; 2-(N-Ethylanilino)ethyl carbanilate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -301.451; IEHDKRBHKAGVKZ; [M+H]+; Desfluoro-safinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -302.393; TTWJMTDJYIBJDS; [M+H]+; 5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -307.029; VIBVZHKYECKWQQ; [M+H]+; 6-phenoxy-4-[(pyridin-2-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -320.227; OILNQZALWIPCRH; [M+H]+; N-(2-Hydroxyethyl)-N-(alpha-methylphenethyl)nicotinamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -336.196; HDHMLDGTBNBVDG; [M+H]+; 6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -352.282; AOKVQWYUEJOJHX; [M+H]+; Carbamic acid, N-phenyl-, 3-diethylaminophenyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -369.237; QLEXSWQYUHOSAR; [M+H]+; 3-amino-4-(3,5-dimethylbenzoyl)-5-ethyl-6-methyl-1H-pyridin-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -379.839; RDINMGBRZOIOLS; [M+H]+; 3-[2-[2-(1-Naphthylamino)ethoxy]ethoxy]propiononitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -398.544; MFDXHRPPSJRQFX; [M+H]+; 4-Hydroxy-N'-(4-Isopropylbenzyl)benzohydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -406.729; LWPWICQRCLMVST; [M+H]+; 4-Butyl-4'-methoxyazoxybenzene
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -412.397; FGPOAVHUVMWZQN; [M+H]+; 1,6-Naphthyridine, 5,6,7,8-tetrahydro-6-((3,4-dimethoxyphenyl)methyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -417.743; QTWBKNVNGVYTNZ; [M+H]+; [4-Oxo-4-(4-phenylmethoxyanilino)butyl]azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -426.233; PWTCGLHUMIIRML; [M+H]+; N-[2-[(4-methoxyphenyl)-phenylamino]ethyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -430.378; RUNWFOIXOHBRTB; [M+H]+; (2R,3R,4S)-1-[cyclopentyl(oxo)methyl]-4-(hydroxymethyl)-3-phenyl-2-azetidinecarbonitrile
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -430.710; RIJFNUHYNBVLOZ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -431.605; BLJLVIBUXXHCGH; [M+H]+; Urea, 1-butyl-3-(2-phenoxyphenyl)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -433.982; GTPFHMDZFSJXDV; [M+H]+; 3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -437.566; JSRAKTZEINQVIG; [M+H]+; N-[2-(4-methoxyphenyl)ethyl]-2-(methylamino)benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -443.810; YHFVICYKHLQAML; [M+H]+; 3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -444.285; YOQOHMWRJIMWLY; [M+H]+; (E)-4-[4-(2,5-dimethylpyrrol-1-yl)phenyl]-N-hydroxy-N-methylbut-3-enamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -456.210; CMGDWQFRXJTBKK; [M+H]+; 3H-Azepino(4,5-b)quinoline-3-carboxylic acid, 1,2,4,5-tetrahydro-11-methyl-, ethyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -459.078; ZMTWQALRHGTUHL; [M+H]+; [(2S)-1-(methylamino)-1-oxo-3-(4-phenylmethoxyphenyl)propan-2-yl]azanium
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -464.177; GZJLFOYGSNAXDK; [M+H]+; 2-(2-Methoxyphenoxy)-3-(piperidin-4-yl)pyridine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -469.348; XKZPCVJIRSIGQB; [M+H]+; N-[1-(3,4-dihydro-2H-1,5-benzodioxepin-7-yl)ethyl]-2-methylpyridin-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -474.021; RIIBMOGCIJWBOO; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -474.947; JFPKDMHLVBJLQA; [M+H]+; 2-cyclopentyl-1H,2H,3H,4H,6H,11H,11aH-pyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -481.870; GQNNDZBIDOPSFF; [M+H]+; N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -482.026; DAGGGFKBDHQUTR; [M+H]+; BENZAMIDE, N-(4-(p-AMINOPHENOXY)BUTYL)-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -503.158; BDAKJRQEUJHFLG; [M+H]+; 2,3-Dihydro-3-(morpholino)methyl-4(1H)-carbazolone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -507.066; YIFQYDYQMHGCTN; [M+H]+; N-(13-ethylidene-11-methyl-5-oxo-6-azatricyclo[7.3.1.02,7]trideca-2(7),3,10-trien-1-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -514.098; XKWUMHJIMQSAIQ; [M+H]+; N-cyclobutyl-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -520.145; CEKOPAVBIKRJKH; [M+H]+; beta-4-Aminobenzoyloxy-beta-phenylethyl dimethylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -520.193; BBKITNAKQHKIJO; [M+H]+; 1-[(2-hydroxyphenyl)methyl]-2-(pyridin-3-yl)piperidin-2-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -536.720; KIXVWBIPDCIUAK; [M+H]+; 9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -541.784; LCROHDLYLNYRFC; [M+H]+; 3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -552.439; OPOFIXPDEMKSON; [M+H]+; 1-amino-11-methyl-13-(2-oxobutylidene)-6-azatricyclo[7.3.1.0²,⁷]trideca-2(7),3,10-trien-5-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -558.029; UCBSXTTUNYWOCC; [M+H]+; Gangamicin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -559.047; OQXLZVLYOCZOPU; [M+H]+; 2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -566.172; PAXDSHJDFGCEQX; [M+H]+; N-((4-Isopropoxy-1-naphthyl)methyl)-4,5-dihydro-1,3-oxazol-2-amine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -575.052; HXIIWJMPVYQCRJ; [M+H]+; 4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -575.904; DOGUAYAXSQVEBS; [M+H]+; 5-(8-Amino-1,2,3,4-tetrahydro-2-methyl-4-isoquinolinyl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -577.754; RKZSHDVJCXCUJI; [M+H]+; 3-(benzylamino)-4-(pyridin-3-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -578.086; VQSWVFALFFYCMJ; [M+H]+; Penipaline A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -592.529; FLDAAQJCYRTWGG; [M+H]+; 4,5-Dihydro-1-cyclohexyl-1,4-epoxy-1H,3H-(1,4)oxazepino(4,3-a)benzimidazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -602.052; QVOPUBRLFHTGHD; [M+H]+; N-propargyl-6-methoxy-4-(2'-oxopyrrolidin-1'-yl)-1,2,3,4-tetrahydroquinoline (4bc)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -605.511; ZNRGQMMCGHDTEI; [M+H]+; 8-methyl-8-azabicyclo[3.2.1]octan-3-yl 1H-indole-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -612.163; FFBKUHDJNORZBU; [M+H]+; 4-(8-Amino-1,2,3,4-tetrahydro-2-methyl-4-isoquinolinyl)-2-methoxyphenol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -613.150; XDCSJJCJKBTPCJ; [M+H]+; 3-Isoquinolinecarboxylic acid, 4-methyl-1-(1-piperidinyl)-, methyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -635.305; GEOJUSNZNNFHAE; [M+H]+; 6-(2-Hydroxypropyl)-1,6-diazatetracyclo[7.6.1.05,16.010,15]hexadeca-9(16),10,12,14-tetraen-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -638.868; KYYLIHXBZFIPIZ; [M+H]+; 3-Methyl-1-((2-methyl-1H-indol-3-yl)oxoacetyl)piperidine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -648.867; HWJNGISTYJUNBI; [M+H]+; 1-Cyclohexyl-3-(5-hydroxynaphthalen-1-yl)urea
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -660.599; SZWKSGNRSHBSNP; [M+H]+; 2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -662.174; OPXRWFOXVXXQCO; [M+H]+; 18-methyl-6,10-diazatetracyclo[8.8.0.0²,⁶.0¹¹,¹⁶]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -668.766; RZGNTHQZYZRDDB; [M+H]+; tert-Butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -679.943; YHVFDGXISVNGJR; [M+H]+; 1,3-Diazaspiro(4.5)decane-2,4-dione, 3-allyl-1-phenyl-
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -684.975; HHFYDXQZAAYDIX; [M+H]+; ethyl 1,4-diazatetracyclo[7.6.1.0⁵,¹⁶.0¹⁰,¹⁵]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -707.197; JYYVUMQUBHVWPC; [M+H]+; N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -714.105; RSIGRRPNULEULT; [M+H]+; 5-[(6,7-dimethoxy-1-methyl-3,4-dihydronaphthalen-2-yl)methyl]-1H-imidazole
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -715.304; LAUYTOPVFSGSFV; [M+H]+; 1-(2-methyl-1H-indol-3-yl)-2-[(2R)-2-methylpiperidin-1-yl]ethane-1,2-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -725.566; JOMCYMUBCISXNJ; [M+H]+; Mersicarpine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -735.496; OUJXPBVMXBGHIA; [M+H]+; 2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -739.087; BPBRIGJWPDHHGJ; [M+H]+; 2-(but-2-en-1-yloxy)-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -751.959; OSKZYLPFYNARRX; [M+H]+; methyl (6aR)-7-methyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -771.065; HPTJCEPNQHYWIH; [M+H]+; 3-hydroxy-N-[(E)-4-methylpentan-2-ylideneamino]naphthalene-2-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -824.002; SKTIZSRPCXRDHX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -825.551; GBRRMIWGOIUNNI; [M+H]+; 4-Hydroxy-5,8,8-trimethyl-3-phenyldiazenylbicyclo[3.2.1]oct-3-en-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.739; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000001; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000002; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; BGDKAVGWHJFAGW; [M+H]+; N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.729; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_TROPICAMIDE::C17H20N2O2::21::0.9415::0.2727::0.7288
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.244; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_Tropisetron::C17H20N2O2::2::0.7251::0.0101::0.2436
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.868; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_Tropicamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.561; 4-phenyltetrahydroisoquinolines; [M+H]+; DOGUAYAXSQVEBS_5-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.533; Phenylpyrazoles; [M+H]+; HXIIWJMPVYQCRJ_4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.492; Indoles and derivatives; [M+H]+; JOMCYMUBCISXNJ_Mersicarpine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.440; Phenol ethers; [M+H]+; HDHMLDGTBNBVDG_6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.420; Cyclohexenones; [M+H]+; OPXRWFOXVXXQCO_18-methyl-6,10-diazatetracyclo[8.8.0.0?,?.0??,??]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.394; Phenylmethylamines; [M+H]+; LCROHDLYLNYRFC_3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.379; Aralkylamines; [M+H]+; GQNNDZBIDOPSFF_N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.350; Tetrahydroisoquinolines; [M+H]+; GTPFHMDZFSJXDV_3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.345; N-benzylpiperidines; [M+H]+; BBKITNAKQHKIJO_UNPD217229
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.322; 2-pyridylmethylamines; [M+H]+; TTWJMTDJYIBJDS_5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.094; Anthranilamides; [M+H]+; JSRAKTZEINQVIG_UNPD142716
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.064; Phenylhydrazines; [M+H]+; YHFVICYKHLQAML_3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.040; Quinazolines; [M+H]+; BPBRIGJWPDHHGJ_2-(but-2-en-1-yloxy)-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 7.007; Phenylazetidines; [M+H]+; RUNWFOIXOHBRTB_(2R,3R,4R)-1-(cyclopentanecarbonyl)-4-(hydroxymethyl)-3-phenylazetidine-2-carbonitrile
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.998; Acridines; [M+H]+; KIXVWBIPDCIUAK_9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.987; Beta carbolines; [M+H]+; VQSWVFALFFYCMJ_Penipaline A
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.986; Hydroxypyridines; [M+H]+; OPOFIXPDEMKSON_UNPD34247
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.967; Hydantoins; [M+H]+; OQXLZVLYOCZOPU_2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.961; Benzoic acids and derivatives; [M+H]+; JYYVUMQUBHVWPC_N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.937; Harmala alkaloids; [M+H]+; SZWKSGNRSHBSNP_2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.878; Aromatic monoterpenoids; [M+H]+; MFDXHRPPSJRQFX_4-HYDROXY-N'-(4-ISOPROPYLBENZYL)BENZOHYDRAZIDE
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.634; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_tropisetron
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.517; Gamma amino acids and derivatives; [M+H]+; QTWBKNVNGVYTNZ_4-amino-N-[4-(benzyloxy)phenyl]butanamide
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.478; Indolecarboxylic acids; [M+H]+; RIJFNUHYNBVLOZ_3H-indole-3-carboxylic acid [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] ester
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.478; Phenylpyridines; [M+H]+; RZGNTHQZYZRDDB_Benzoic acid, 3-(6-amino-3-methyl-2-pyridinyl)-, 1,1-dimethylethyl ester
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.478; Carbazoles; [M+H]+; HHFYDXQZAAYDIX_ethyl 1,4-diazatetracyclo[7.6.1.0?,??.0??,??]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.478; Quinuclidines; [M+H]+; RIIBMOGCIJWBOO_CNP0443404
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_Tropicamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.990; Anthranilamides; [M+H]+; JSRAKTZEINQVIG_UNPD142716
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.977; Phenylhydrazines; [M+H]+; YHFVICYKHLQAML_3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.935; Phenylazetidines; [M+H]+; RUNWFOIXOHBRTB_(2R,3R,4R)-1-(cyclopentanecarbonyl)-4-(hydroxymethyl)-3-phenylazetidine-2-carbonitrile
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.925; 4-phenyltetrahydroisoquinolines; [M+H]+; DOGUAYAXSQVEBS_5-(8-amino-2-methyl-3,4-dihydro-1H-isoquinolin-4-yl)-2-methoxyphenol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.894; Acridines; [M+H]+; KIXVWBIPDCIUAK_9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.892; Phenylpyrazoles; [M+H]+; HXIIWJMPVYQCRJ_4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.782; Phenol ethers; [M+H]+; HDHMLDGTBNBVDG_6-phenoxy-4-[(pyridin-3-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.755; Phenylmethylamines; [M+H]+; LCROHDLYLNYRFC_3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.749; Cyclohexenones; [M+H]+; OPXRWFOXVXXQCO_18-methyl-6,10-diazatetracyclo[8.8.0.0?,?.0??,??]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.717; Quinazolines; [M+H]+; OUJXPBVMXBGHIA_2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.710; 2-pyridylmethylamines; [M+H]+; TTWJMTDJYIBJDS_5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.684; Tetrahydroisoquinolines; [M+H]+; GTPFHMDZFSJXDV_3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.683; Hydroxypyridines; [M+H]+; OPOFIXPDEMKSON_UNPD34247
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.658; Aromatic monoterpenoids; [M+H]+; MFDXHRPPSJRQFX_4-HYDROXY-N'-(4-ISOPROPYLBENZYL)BENZOHYDRAZIDE
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.657; Beta carbolines; [M+H]+; VQSWVFALFFYCMJ_Penipaline A
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.631; Aralkylamines; [M+H]+; GQNNDZBIDOPSFF_N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.631; Hydantoins; [M+H]+; OQXLZVLYOCZOPU_2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.613; Indoles and derivatives; [M+H]+; JOMCYMUBCISXNJ_Mersicarpine
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.603; Carbazoles; [M+H]+; HHFYDXQZAAYDIX_ethyl 1,4-diazatetracyclo[7.6.1.0?,??.0??,??]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.586; Harmala alkaloids; [M+H]+; SZWKSGNRSHBSNP_2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.583; Phenylpyridines; [M+H]+; RZGNTHQZYZRDDB_Benzoic acid, 3-(6-amino-3-methyl-2-pyridinyl)-, 1,1-dimethylethyl ester
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.562; Benzoic acids and derivatives; [M+H]+; JYYVUMQUBHVWPC_N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.510; N-benzylpiperidines; [M+H]+; BBKITNAKQHKIJO_UNPD217229
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.510; Quinuclidines; [M+H]+; RIIBMOGCIJWBOO_CNP0443404
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.503; Indolecarboxylic acids; [M+H]+; RIJFNUHYNBVLOZ_3H-indole-3-carboxylic acid [(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] ester
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.503; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_tropisetron
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.479; Gamma amino acids and derivatives; [M+H]+; QTWBKNVNGVYTNZ_4-amino-N-[4-(benzyloxy)phenyl]butanamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.371; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_N-ethyl-3-hydroxy-2-phenyl-N-(pyridin-4-ylmethyl)propanamide
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.336; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_[(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 1H-indole-3-carboxylate
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.886; 2-pyridylmethylamines; [M+H]+; TTWJMTDJYIBJDS_5-benzyl-2-(morpholin-4-ylmethyl)pyridin-3-ol
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 0.763; Phenylpyridines; [M+H]+; RZGNTHQZYZRDDB_tert-butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -80.353; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_Mydricol
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -196.036; Anthranilamides; [M+H]+; JSRAKTZEINQVIG_N-[2-(4-methoxyphenyl)ethyl]-2-(methylamino)benzamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -267.251; Phenylazetidines; [M+H]+; RUNWFOIXOHBRTB_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -267.549; Phenylhydrazines; [M+H]+; YHFVICYKHLQAML_3-(4-methoxyphenyl)-N''-methyl-N''-phenylpropanehydrazide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -279.218; Phenol ethers; [M+H]+; VIBVZHKYECKWQQ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -284.156; Aromatic monoterpenoids; [M+H]+; MFDXHRPPSJRQFX_4-Hydroxy-N''-(4-Isopropylbenzyl)benzohydrazide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -289.720; 2-pyridylmethylamines; [M+H]+; TTWJMTDJYIBJDS_Oprea1_405746
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -305.511; N-benzylpiperidines; [M+H]+; BBKITNAKQHKIJO_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -319.946; 4-phenyltetrahydroisoquinolines; [M+H]+; DOGUAYAXSQVEBS_Nomifensine M3
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -324.957; Quinuclidines; [M+H]+; RIIBMOGCIJWBOO_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -327.953; Gamma amino acids and derivatives; [M+H]+; QTWBKNVNGVYTNZ_Modified amino acid analog, 7a
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -329.565; Tetrahydroisoquinolines; [M+H]+; JFPKDMHLVBJLQA_2-cyclopentyl-3,6,11,11a-tetrahydropyrazino[1,2-b]isoquinoline-1,4-dione
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -330.638; Phenylmethylamines; [M+H]+; LCROHDLYLNYRFC_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -333.738; Acridines; [M+H]+; KIXVWBIPDCIUAK_Oprea1_096991
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -353.642; Phenylpyrazoles; [M+H]+; HXIIWJMPVYQCRJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -388.274; Phenylpyridines; [M+H]+; RZGNTHQZYZRDDB_tert-Butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -390.204; Hydantoins; [M+H]+; OQXLZVLYOCZOPU_2-cyclohexyl-10,10a-dihydro-5H-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -393.932; Aralkylamines; [M+H]+; GQNNDZBIDOPSFF_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -400.338; Benzoic acids and derivatives; [M+H]+; JYYVUMQUBHVWPC_N-(5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]oct-2-en-2-yl)benzamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -414.019; Beta carbolines; [M+H]+; VQSWVFALFFYCMJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -436.800; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_Setrovel
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -461.636; Quinazolines; [M+H]+; OUJXPBVMXBGHIA_2-(2-methylprop-2-enoxy)-7,8,9,10-tetrahydro-6H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -484.673; Indolecarboxylic acids; [M+H]+; RIJFNUHYNBVLOZ_[(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3H-indole-3-carboxylate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -484.944; Indoles and derivatives; [M+H]+; JOMCYMUBCISXNJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -486.040; Carbazoles; [M+H]+; HHFYDXQZAAYDIX_Oprea1_280936
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -494.947; Cyclohexenones; [M+H]+; OPXRWFOXVXXQCO_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -511.425; Hydroxypyridines; [M+H]+; OPOFIXPDEMKSON_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -530.314; Harmala alkaloids; [M+H]+; SZWKSGNRSHBSNP_spiro[1,2,3,4-tetrahydrobeta-carboline-1,1''-cyclohexane]-3-carboxylic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -153.278; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -302.393; 2-pyridylmethylamines; [M+H]+; TTWJMTDJYIBJDS_5-benzyl-2-[(morpholin-4-yl)methyl]pyridin-3-ol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -307.029; Phenol ethers; [M+H]+; VIBVZHKYECKWQQ_6-phenoxy-4-[(pyridin-2-yl)methyl]-1,4-oxazepane
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -398.544; Aromatic monoterpenoids; [M+H]+; MFDXHRPPSJRQFX_4-Hydroxy-N'-(4-Isopropylbenzyl)benzohydrazide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -417.743; Gamma amino acids and derivatives; [M+H]+; QTWBKNVNGVYTNZ_[4-Oxo-4-(4-phenylmethoxyanilino)butyl]azanium
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -430.378; Phenylazetidines; [M+H]+; RUNWFOIXOHBRTB_(2R,3R,4S)-1-[cyclopentyl(oxo)methyl]-4-(hydroxymethyl)-3-phenyl-2-azetidinecarbonitrile
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -430.710; Indolecarboxylic acids; [M+H]+; RIJFNUHYNBVLOZ_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -433.982; Tetrahydroisoquinolines; [M+H]+; GTPFHMDZFSJXDV_3-hydroxy-1,6-dimethyl-2-[(1,2,3,4-tetrahydroisoquinolin-2-yl)methyl]-1,4-dihydropyridin-4-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -437.566; Anthranilamides; [M+H]+; JSRAKTZEINQVIG_N-[2-(4-methoxyphenyl)ethyl]-2-(methylamino)benzamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -443.810; Phenylhydrazines; [M+H]+; YHFVICYKHLQAML_3-(4-methoxyphenyl)-N'-methyl-N'-phenylpropanehydrazide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -474.021; Quinuclidines; [M+H]+; RIIBMOGCIJWBOO_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -481.870; Aralkylamines; [M+H]+; GQNNDZBIDOPSFF_N-(cyclopropylmethyl)-3-[(5-phenyl-1,2-oxazol-3-yl)methyl]oxetan-3-amine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -520.193; N-benzylpiperidines; [M+H]+; BBKITNAKQHKIJO_1-[(2-hydroxyphenyl)methyl]-2-(pyridin-3-yl)piperidin-2-ol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -536.720; Acridines; [M+H]+; KIXVWBIPDCIUAK_9-[(2-hydroxyethyl)amino]-3,3-dimethyl-1,2,3,4-tetrahydroacridin-1-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -541.784; Phenylmethylamines; [M+H]+; LCROHDLYLNYRFC_3-(benzylamino)-4-(pyridin-4-yl)cyclopentane-1,2-diol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -552.439; Hydroxypyridines; [M+H]+; OPOFIXPDEMKSON_1-amino-11-methyl-13-(2-oxobutylidene)-6-azatricyclo[7.3.1.0²,⁷]trideca-2(7),3,10-trien-5-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -559.047; Hydantoins; [M+H]+; OQXLZVLYOCZOPU_2-cyclohexyl-1H,2H,3H,5H,10H,10aH-imidazo[1,5-b]isoquinoline-1,3-dione
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -575.052; Phenylpyrazoles; [M+H]+; HXIIWJMPVYQCRJ_4-[1-(4-methoxyphenyl)-3,5-dimethyl-1H-pyrazol-4-yl]cyclopent-2-en-1-ol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -575.904; 4-phenyltetrahydroisoquinolines; [M+H]+; DOGUAYAXSQVEBS_5-(8-Amino-1,2,3,4-tetrahydro-2-methyl-4-isoquinolinyl)-2-methoxyphenol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -578.086; Beta carbolines; [M+H]+; VQSWVFALFFYCMJ_Penipaline A
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -605.511; Indolecarboxylic acids and derivatives; [M+H]+; ZNRGQMMCGHDTEI_8-methyl-8-azabicyclo[3.2.1]octan-3-yl 1H-indole-3-carboxylate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -660.599; Harmala alkaloids; [M+H]+; SZWKSGNRSHBSNP_2',3',4',9'-tetrahydrospiro[cyclohexane-1,1'-pyrido[3,4-b]indole]-3'-carboxylic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -662.174; Cyclohexenones; [M+H]+; OPXRWFOXVXXQCO_18-methyl-6,10-diazatetracyclo[8.8.0.0²,⁶.0¹¹,¹⁶]octadeca-2,4,11(16)-triene-15,17-dione
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -668.766; Phenylpyridines; [M+H]+; RZGNTHQZYZRDDB_tert-Butyl 3-(6-amino-3-methylpyridin-2-yl)benzoate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -684.975; Carbazoles; [M+H]+; HHFYDXQZAAYDIX_ethyl 1,4-diazatetracyclo[7.6.1.0⁵,¹⁶.0¹⁰,¹⁵]hexadeca-9(16),10,12,14-tetraene-12-carboxylate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -707.197; Benzoic acids and derivatives; [M+H]+; JYYVUMQUBHVWPC_N-{5,8,8-trimethyl-4-oxo-3-azabicyclo[3.2.1]octan-2-ylidene}benzamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -725.566; Indoles and derivatives; [M+H]+; JOMCYMUBCISXNJ_Mersicarpine
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -735.496; Quinazolines; [M+H]+; OUJXPBVMXBGHIA_2-[(2-methylprop-2-en-1-yl)oxy]-6H,7H,8H,9H,10H,12H-azepino[2,1-b]quinazolin-12-one
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 1.0000000; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, 1, 1, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001107; Phenylacetamides; [M+H]+; BGDKAVGWHJFAGW_N-ethyl-3-hydroxy-2-phenyl-N-[(pyridin-4-yl)methyl]propanamide_[-1, 1, 1, 1, -1]
+COMMENT: DATES Averaged 2024.12.24, Processed 2025.12.16, Annotated 2026.05.25, Curated 2026.07.06
+CH$NAME: Tropicamide
+CH$NAME: N-ethyl-3-hydroxy-2-phenyl-N-(pyridin-4-ylmethyl)propanamide
+CH$COMPOUND_CLASS: N/A; Phenylacetamides
+CH$FORMULA: C17H20N2O2
+CH$EXACT_MASS: 284.152478
+CH$SMILES: CCN(CC1=CC=NC=C1)C(=O)C(CO)C2=CC=CC=C2
+CH$IUPAC: InChI=1S/C17H20N2O2/c1-2-19(12-14-8-10-18-11-9-14)17(21)16(13-20)15-6-4-3-5-7-15/h3-11,16,20H,2,12-13H2,1H3
+CH$LINK: CHEBI CHEBI:9757
+CH$LINK: HMDB HMDB0014947
+CH$LINK: INCHIKEY BGDKAVGWHJFAGW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5593
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.898
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 285.159448
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-052r-0590000000-f0b1c09a8c4be32fb852
+PK$ANNOTATION: m/z int cor n mzPAF
+  92.0481358 127.6644 0.4622 9 f{C6H6N1}/-14.56ppm,p-C11H15N1O2
+  103.0533522 92.1854 0.4916 9 f{C8H7}/-8.49ppm,p-C9H14N2O2
+  107.0593144 271.6089 0.4329 10 f{C6H7N2}/-9.90ppm,p-C11H14O2
+  135.0918258 314.4204 0.8493 11 f{C8H11N2}/1.12ppm,p-C9H10O2
+  137.1055811 119.6423 0.6331 11 f{C8H13N2}/-12.72ppm,p-C9H8O2
+  163.0832966 38.5093 0.5095 9 ?
+  182.0956054 94.0555 0.6023 11 f{C13H12N1}/-4.51ppm,p-C4H9N1O2
+  255.1491527 516.7973 0.7725 11 f{C16H19N2O1}/-0.14ppm,p-C1H2O1
+  267.1494443 100.0199 0.4383 10 f{C17H19N2O1}/0.95ppm,p-H2O1
+  285.1586927 999.0000 1.0000 12 f{C17H21N2O2}/-3.72ppm,p
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  135.091826 314.42 314
+  255.149153 516.80 516
+  285.158693 999.00 999
+//

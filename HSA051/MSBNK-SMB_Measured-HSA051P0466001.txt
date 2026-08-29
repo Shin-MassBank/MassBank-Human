@@ -1,0 +1,322 @@
+ACCESSION: MSBNK-SMB_Measured-HSA051P0466001
+RECORD_TITLE: Glycocholic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L3-SP
+DATE: 2026.06.26
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L3-SP[IS, CX] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 34 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L3-SP (Tentative candidate, Structure-proposed); RFDAIACWWDREDC; CX (Contextual evidence) HMDB (HMDB0000138;HMDB0000331;HMDB0032596)
+COMMENT: EVIDENCE_INVENTORY [IS, CX]; IS (In silico evidence) q-Value-like = 0.000000, MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 2), SIRIUS5_CSI:biodatabase (rank 1), SIRIUS6_CSI:biodatabase (rank 1)
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2349
+COMMENT: DATASET_TITLE Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Nasopharyngeal swab assay)
+COMMENT: DATASET_AUTHORS Shalini Aggarwal, Shashwati Parihari, Arghya Banerjee, Jyotirmoy Roy, Nirjhar Banerjee, Renuka Bankar, Saravanan Kumar, Manisha Choudhury, Rhythm Shah, Kharanshu Bhojak, Viswanthram Palanivel, Akanksha Salkar, Sachee Agrawal, Om Shrivastav, Jayanthi Shastri, Sanjeeva Srivastava
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 466.317592; int 62.931; delta(ppm) 0.008499
+COMMENT: MS1_SPEC {417.226122: 2, 417.262396: 1, 419.241675: 30, 419.316821: 6, 420.245052: 7, 420.320054: 1, 420.812822: 1, 420.886249: 5, 421.329908: 2, 427.379541: 1, 429.089931: 2, 430.296584: 10, 430.841582: 4, 430.889432: 1, 430.915097: 12, 431.299879: 3, 431.421932: 7, 432.239515: 1, 432.425451: 2, 432.886532: 1, 437.194756: 7, 438.198133: 2, 440.870374: 4, 441.298647: 2, 442.871076: 1, 445.121325: 143, 446.120462: 34, 447.118037: 26, 448.116975: 6, 448.306963: 14, 449.115126: 1, 449.310305: 4, 453.189526: 1, 461.116257: 1, 462.1477: 4, 466.317592: 62, 467.103227: 26, 467.320939: 16, 468.102146: 6, 468.323886: 1, 469.099786: 5, 472.829739: 1, 472.903185: 4, 477.147304: 4, 478.844846: 1, 482.858254: 2, 483.343889: 1, 488.299349: 62, 488.873513: 4, 489.302719: 17, 490.305516: 2, 491.262659: 2, 497.457303: 2, 498.902002: 3, 510.281299: 12, 511.284514: 3, 511.473183: 3}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 467.320940; int 16.554; cor 0.952
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 488.299350; int 62.518; cor 0.903
+COMMENT: PROPOSED_ION_FORM M+H; M+2Na-H; mz 510.281300; int 12.865; cor 0.879
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 488.299350; int 62.518; cor 0.903
+COMMENT: PROPOSED_MF SevenGoldenRules 3.686; C25H44N3O3P; [M+H]+; delta(ppm) -3.685712
+COMMENT: PROPOSED_MF SevenGoldenRules 0.138; C27H39N5O2; [M+H]+; delta(ppm) -0.137543
+COMMENT: PROPOSED_MF SevenGoldenRules 2.738; C26H43NO6; [M+H]+; delta(ppm) 2.737958
+COMMENT: PROPOSED_MF SevenGoldenRules 4.958; C20H44N5O5P; [M+H]+; delta(ppm) 4.957982
+COMMENT: PROPOSED_MF SevenGoldenRules 5.181; C22H47N5P2; [M+Na]+; delta(ppm) -5.181261
+COMMENT: PROPOSED_MF SevenGoldenRules 3.785; C30H41N3; [M+Na]+; delta(ppm) -3.785005
+COMMENT: PROPOSED_MF SevenGoldenRules 2.163; C21H51NO4P2; [M+Na]+; delta(ppm) -2.163182
+COMMENT: PROPOSED_MF SevenGoldenRules 1.563; C23H46N3O3P; [M+Na]+; delta(ppm) 1.563175
+COMMENT: PROPOSED_MF SevenGoldenRules 5.287; C25H41N5O2; [M+Na]+; delta(ppm) 5.287277
+COMMENT: PROPOSED_MF Aggregated_ranking 0.9995646; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF Aggregated_ranking 0.0004331; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF Aggregated_ranking 0.0000023; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF MS-FINDER 4.033; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF MS-FINDER 3.620; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF MS-FINDER 3.018; C19H43N7O4S; [M+H]+; delta(ppm) 1.260208
+COMMENT: PROPOSED_MF MS-FINDER 2.964; C17H48N5O5PS; [M+H]+; delta(ppm) -2.281938
+COMMENT: PROPOSED_MF MS-FINDER 2.870; C19H51N3O3S3; [M+H]+; delta(ppm) 2.264670
+COMMENT: PROPOSED_MF MS-FINDER 2.857; C12H35N17O3; [M+H]+; delta(ppm) -1.214922
+COMMENT: PROPOSED_MF MS-FINDER 2.823; C12H43N13O2S2; [M+H]+; delta(ppm) -0.210466
+COMMENT: PROPOSED_MF MS-FINDER 2.786; C23H47NO6S; [M+H]+; delta(ppm) -4.498353
+COMMENT: PROPOSED_MF MS-FINDER 2.756; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF MS-FINDER 2.717; C25H44N3O3P; [M+H]+; delta(ppm) -3.679289
+COMMENT: PROPOSED_MF MS-FINDER 2.704; C13H44N11O3PS; [M+H]+; delta(ppm) 3.476649
+COMMENT: PROPOSED_MF MS-FINDER 2.697; C23H46N3O3P; [M+Na]+; delta(ppm) 51858.904527
+COMMENT: PROPOSED_MF MS-FINDER 2.696; C21H49NO6S; [M+Na]+; delta(ppm) 51857.998303
+COMMENT: PROPOSED_MF MS-FINDER 2.674; C20H39N11S; [M+H]+; delta(ppm) -1.607823
+COMMENT: PROPOSED_MF MS-FINDER 2.665; C21H51NO4P2; [M+Na]+; delta(ppm) 51854.985482
+COMMENT: PROPOSED_MF MS-FINDER 2.615; C27H47NOS2; [M+H]+; delta(ppm) 0.867305
+COMMENT: PROPOSED_MF MS-FINDER 2.606; C20H44N5O5P; [M+H]+; delta(ppm) 4.947334
+COMMENT: PROPOSED_MF MS-FINDER 2.495; C14H41N11O5; [M+Na]+; delta(ppm) 51855.259813
+COMMENT: PROPOSED_MF MS-FINDER 2.466; C22H45N5O2S; [M+Na]+; delta(ppm) 51854.825106
+COMMENT: PROPOSED_MF MS-FINDER 2.435; C16H47N7O4S2; [M+H]+; delta(ppm) -5.969010
+COMMENT: PROPOSED_MF MS-FINDER 2.416; C10H40N15O4P; [M+H]+; delta(ppm) -4.757051
+COMMENT: PROPOSED_MF MS-FINDER 2.413; C22H53NOS3; [M+Na]+; delta(ppm) 51855.936438
+COMMENT: PROPOSED_MF MS-FINDER 2.336; C30H41N3; [M+Na]+; delta(ppm) 51853.279071
+COMMENT: PROPOSED_MF MS-FINDER 2.316; C15H45N11S2; [M+Na]+; delta(ppm) 51853.197959
+COMMENT: PROPOSED_MF MS-FINDER 2.272; C20H52NO4PS2; [M+H]+; delta(ppm) 5.951803
+COMMENT: PROPOSED_MF MS-FINDER 2.272; C15H37N15O; [M+Na]+; delta(ppm) 51852.086632
+COMMENT: PROPOSED_MF MS-FINDER 2.203; C18H41N11S; [M+Na]+; delta(ppm) 51861.196429
+COMMENT: PROPOSED_MF MS-FINDER 2.199; C23H35N11; [M+H]+; delta(ppm) 5.621458
+COMMENT: PROPOSED_MF MS-FINDER 2.146; C10H37N17O3; [M+Na]+; delta(ppm) 51861.631141
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.612; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.187; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.728; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.941; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.059; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.762; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.391; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 23.577; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 23.507; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.412; C22H42FN5O3; [M+Na]+; delta(ppm) 51860.112474
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.028; C23H46N3O3P; [M+Na]+; delta(ppm) 51858.904527
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 19.841; C23H44FNO7; [M+H]+; delta(ppm) 0.280502
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.652; C24H40FN5O3; [M+H]+; delta(ppm) -2.587524
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.544; C22H39N7O4; [M+H]+; delta(ppm) 8.489531
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.440; C20H44N5O5P; [M+H]+; delta(ppm) 4.947334
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.181; C25H44N3O3P; [M+H]+; delta(ppm) -3.679289
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.012; C19H40FN7O5; [M+H]+; delta(ppm) 6.039119
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 16.226; C24H41N4O5; [M+H]+; delta(ppm) 5.610201
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.727; C22H45N5O2S; [M+Na]+; delta(ppm) 51854.825106
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.200; C21H39BN6O5; [M+H]+; delta(ppm) 21941.700969
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.390; C27H42FN3O; [M+Na]+; delta(ppm) 51850.567992
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.276; C30H41N3; [M+Na]+; delta(ppm) 51853.279071
+COMMENT: PROPOSED_MF SIRIUS6_Sirius -1.883; C26H42F2N3P; [M+H]+; delta(ppm) 4.014890
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.995; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.994; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.993; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.991; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.926; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.687; C24H45NO6; [M+Na]+; delta(ppm) 51865.996846
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.297; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.073; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.009; C22H42FN5O3; [M+Na]+; delta(ppm) 51860.112474
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.008; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.007; C23H46N3O3P; [M+Na]+; delta(ppm) 51858.904527
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.006; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.006; C25H41N5O2; [M+Na]+; delta(ppm) 51862.823601
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.005; C27H39N5O2; [M+H]+; delta(ppm) -0.137153
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C24H40FN5O3; [M+H]+; delta(ppm) -2.587524
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C22H39N7O4; [M+H]+; delta(ppm) 8.489531
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C22H42FN5O3; [M+Na]+; delta(ppm) 51860.112474
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C23H46N3O3P; [M+Na]+; delta(ppm) 51858.904527
+COMMENT: PROPOSED_MF p-value_like 0.0099000; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_MF q-value_like 0.0122418; C26H43NO6; [M+H]+; delta(ppm) 2.730887
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.9908618; RFDAIACWWDREDC; [M+H]+; Glycocholate_[S6: 1, Finder: 1, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0089545; ZQYUKJFJPJDMMR; [M+H]+; Glycohyocholate_[S6: 2, Finder: 2, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0001550; KOCNPPLKGVJDEM; [M+H]+; 2-(4-{3b,7,11-trihydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-1-yl}pentanamido)acetic acid_[S6: 3, Finder: 5, Frag: 4]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000268; YPHMPQGTFIUGSJ; [M+H]+; {[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid_[S6: 5, Finder: 3, Frag: 9]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:Bayesian 0.0000008; FZNAWLRQUUNJGH; [M+Na]+; 1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide_[S6: 6, Finder: 14, Frag: 5]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 1.000; RFDAIACWWDREDC; [M+H]+; Glycocholate_[S6: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; ZQYUKJFJPJDMMR; [M+H]+; Glycohyocholate_[S6: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; KOCNPPLKGVJDEM; [M+H]+; 2-(4-{3b,7,11-trihydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-1-yl}pentanamido)acetic acid_[S6: 3, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:Bayesian 0.000; PVXZQUUYXFMXMF; [M+H]+; 3beta,5alpha,6beta-Trihydroxy-cholanoyl-glycine_[S6: 4, FragP: 100]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.590; GGOVEOFDFNFUIU-DZGHGFCTNA-N; [M+H]+; CCN1C[C@]2(COC)CC[C@H](OC)[C@@]34[C@@H]5C[C@H]6[C@H](O)[C@@H]5[C@@](C[C@@H]6OC)(OC)[C@@H]([C@@H](OC)[C@H]23)[C@@H]14
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.568; VWYQWWYODNKZAS-UHFFFAOYSA-N; [M+H]+; OC12CC(OC)C3CC(C1C3OC)C45C(OC)CCC6(COC)CN(CC)C5C2C(OC)C64
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.561; ORBNFGSLPINTIF-UHFFFAOYNA-N; [M+H]+; CCN1CC2(CO)CCC(OC)C34C5CC6C(OC)C5C(CC6OC)(OC)C(C(OC)C23)C14
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.537; FLCYLPQGSMGINE-OJHAZVSDNA-N; [M+H]+; CC[C@H]1[C@H]2[C@@]34[C@@H]5C[C@H]6[C@H](OC)[C@@H]5[C@](O)(C[C@@H]6OC)[C@]1(O)[C@H]3N(CC)C[C@]2(CO)CC[C@@H]4OC
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.472; KOCNPPLKGVJDEM-UHFFFAOYSA-N; [M+H]+; O=C(O)CNC(=O)CCC(C)C1CCC2C3(O)CCC4CC(O)CCC4(C)C3CC(O)C12C
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.467; RFDAIACWWDREDC; [M+H]+; Glycocholate_C26H43NO6
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.447; ZQYUKJFJPJDMMR; [M+H]+; Massbank:RP007402 Glycohyocholic acidAM0223402-[4-(3,6,7-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid_C26H43NO6
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.880; RFDAIACWWDREDC-DKBOSRIJNA-N; [M+H]+; Glycocholic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.573; ZQYUKJFJPJDMMR-ZDWCHQGWSA-N; [M+H]+; glycohyocholic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.273; YPHMPQGTFIUGSJ-UHFFFAOYSA-N; [M+H]+; {[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.181; FLCYLPQGSMGINE-OJHAZVSDNA-N; [M+H]+; UNPD109236
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.151; KOCNPPLKGVJDEM-UHFFFAOYSA-N; [M+H]+; 2-(4-{3b,7,11-trihydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-1-yl}pentanamido)acetic acid
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.016; ORBNFGSLPINTIF-UHFFFAOYNA-N; [M+H]+; Hoheconsoline
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.964; GGOVEOFDFNFUIU-DZGHGFCTNA-N; [M+H]+; UNPD74686
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.912; VWYQWWYODNKZAS-UHFFFAOYSA-N; [M+H]+; 11-ethyl-4,6,16,18-tetramethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1?,?.0?,??.0?,?.0??,??]nonadecan-8-ol
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.861; XRCZVUMGNLZLFE-UHFFFAOYSA-N; [M+H]+; 8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.491; SUUXWXMBKROJAT-UHFFFAOYSA-N; [M+H]+; 1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.487; JOYDATOHRWZTBU-UHFFFAOYSA-N; [M+H]+; 2-[3-({5-[(4-phenylpiperazin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]-1-(piperidin-1-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.269; LXABMWLARHJTTA-UHFFFAOYSA-N; [M+H]+; (E)-3-(4,5-diethyl-1H-pyrrol-3-yl)-N-formyl-2-[[4-methyl-7-(4-methyl-1,4-diazepan-1-yl)-3H-azepin-5-yl]methyl]but-2-enamide
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.455; NFCNXRJKCWVLIJ-UHFFFAOYSA-N; [M+Na]+; 2-{4-[2-(4-{[(ethylcarbamoyl)amino]methyl}-2-methyl-5-(propan-2-yl)cyclohex-2-en-1-yl)acetyl]piperazin-1-yl}piperidin-1-ium-3-yl
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 4.364; FZNAWLRQUUNJGH-UHFFFAOYSA-N; [M+Na]+; 1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; JOYDATOHRWZTBU-UHFFFAOYSA-N; [M+H]+; 2-[3-({5-[(4-phenylpiperazin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]-1-(piperidin-1-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; RFDAIACWWDREDC-DKBOSRIJNA-N; [M+H]+; Glycocholic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; ZQYUKJFJPJDMMR-ZDWCHQGWSA-N; [M+H]+; glycohyocholic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; KOCNPPLKGVJDEM-UHFFFAOYSA-N; [M+H]+; 2-(4-{3b,7,11-trihydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-1-yl}pentanamido)acetic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; FZNAWLRQUUNJGH-UHFFFAOYSA-N; [M+Na]+; 1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; NVKNMYFVVATDFP-UHFFFAOYSA-N; [M+H]+; 1-[Azido(methoxy)phosphoryl]oxy-2-(3,4-ditert-butyl-2,2,5,5-tetramethylhexan-3-yl)benzene
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; LXABMWLARHJTTA-UHFFFAOYSA-N; [M+H]+; (E)-3-(4,5-diethyl-1H-pyrrol-3-yl)-N-formyl-2-[[4-methyl-7-(4-methyl-1,4-diazepan-1-yl)-3H-azepin-5-yl]methyl]but-2-enamide
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; XCRZCDSICQUZBM-UHFFFAOYSA-N; [M+H]+; 2-[[(3S)-6-(carbamoylamino)-2-hydroxy-3-[[(2S)-3-methyl-2-(propan-2-ylamino)butanoyl]amino]hexyl]amino]ethyl-propan-2-ylphosphinic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.965; YPHMPQGTFIUGSJ-UHFFFAOYSA-N; [M+H]+; {[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.914; SUUXWXMBKROJAT-UHFFFAOYSA-N; [M+H]+; 1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.913; NFCNXRJKCWVLIJ-UHFFFAOYSA-N; [M+Na]+; 2-{4-[2-(4-{[(ethylcarbamoyl)amino]methyl}-2-methyl-5-(propan-2-yl)cyclohex-2-en-1-yl)acetyl]piperazin-1-yl}piperidin-1-ium-3-yl
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.888; XRCZVUMGNLZLFE-UHFFFAOYSA-N; [M+H]+; 8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.676; FLCYLPQGSMGINE-OJHAZVSDNA-N; [M+H]+; UNPD109236
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.425; JOYDATOHRWZTBU-UHFFFAOYSA-N; [M+H]+; 2-[3-({5-[(4-phenylpiperazin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]-1-(piperidin-1-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.388; SUUXWXMBKROJAT-UHFFFAOYSA-N; [M+H]+; 1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.052; GGOVEOFDFNFUIU-DZGHGFCTNA-N; [M+H]+; UNPD74686
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.052; VWYQWWYODNKZAS-UHFFFAOYSA-N; [M+H]+; 11-ethyl-4,6,16,18-tetramethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1?,?.0?,??.0?,?.0??,??]nonadecan-8-ol
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.050; ORBNFGSLPINTIF-UHFFFAOYNA-N; [M+H]+; Hoheconsoline
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 4.000; RFDAIACWWDREDC-FRVQLJSFSA-N; [M+H]+; 2-[[(4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.590; ZQYUKJFJPJDMMR; [M+H]+; Massbank:RP007402 Glycohyocholic acidAM0223402-[4-(3,6,7-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid_C26H43NO6
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.585; RFDAIACWWDREDC; [M+H]+; Glycocholate_C26H43NO6
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -49.844; RFDAIACWWDREDC; [M+H]+; bmse000651
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -75.051; ZQYUKJFJPJDMMR; [M+H]+; Glycine, N-[(3a,5b,6a,7a)-3,6,7-trihydroxy-24-oxocholan-24-yl]-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -128.627; KOCNPPLKGVJDEM; [M+H]+; 2-[4-(3,8,12-trihydroxy-10,13-dimethyl-1,2,3,4,5,6,7,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl)pentanoylamino]acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -264.979; RGQKFXZATXMRTA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -295.951; YPHMPQGTFIUGSJ; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -334.824; JRTYBZLZAZUAMC; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -460.600; VWYQWWYODNKZAS; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -480.803; XRCZVUMGNLZLFE; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -483.080; GSIGYIPNYJPOGN; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -487.176; FLCYLPQGSMGINE; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -488.263; GGOVEOFDFNFUIU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -489.047; ORBNFGSLPINTIF; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -490.250; SUUXWXMBKROJAT; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -512.805; JOYDATOHRWZTBU; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.553; RFDAIACWWDREDC; [M+H]+; bmse000651
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.176; RGQKFXZATXMRTA; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -101.699; RFDAIACWWDREDC; [M+H]+; Glycocholate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -144.342; ZQYUKJFJPJDMMR; [M+H]+; Glycohyocholate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -192.620; KOCNPPLKGVJDEM; [M+H]+; 2-(4-{3b,7,11-trihydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-1-yl}pentanamido)acetic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -247.796; PVXZQUUYXFMXMF; [M+H]+; 3beta,5alpha,6beta-Trihydroxy-cholanoyl-glycine
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -376.303; YPHMPQGTFIUGSJ; [M+H]+; {[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -478.784; FZNAWLRQUUNJGH; [M+Na]+; 1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -512.288; VWYQWWYODNKZAS; [M+H]+; 11-ethyl-4,6,16,18-tetramethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1²,⁵.0¹,¹⁰.0³,⁸.0¹³,¹⁷]nonadecan-8-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -518.583; SUUXWXMBKROJAT; [M+H]+; 1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -520.339; JOYDATOHRWZTBU; [M+H]+; 2-[3-({5-[(4-phenylpiperazin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]-1-(piperidin-1-yl)ethan-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -565.716; ORBNFGSLPINTIF; [M+H]+; Hoheconsoline
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -566.526; GGOVEOFDFNFUIU; [M+H]+; 11-ethyl-6,8,16,18-tetramethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1²,⁵.0¹,¹⁰.0³,⁸.0¹³,¹⁷]nonadecan-4-ol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -571.040; RGQKFXZATXMRTA; [M+Na]+; 1-(acetyloxy)-2-acetamido-3-hydroxy-16-methylheptadecan-4-yl acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -581.790; FLCYLPQGSMGINE; [M+H]+; 11,18-diethyl-13-(hydroxymethyl)-4,6,16-trimethoxy-11-azahexacyclo[7.7.2.1²,⁵.0¹,¹⁰.0³,⁸.0¹³,¹⁷]nonadecane-8,9-diol
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -601.413; XRCZVUMGNLZLFE; [M+H]+; 8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -724.963; JRTYBZLZAZUAMC; [M+Na]+; 9-(2,3-dihydroxypropyl)-13-hydroxy-8-[(2-hydroxypropyl)amino]octadeca-9,11-dienoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.723; RFDAIACWWDREDC; [M+H]+; Glycocholate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.689; RFDAIACWWDREDC; [M+H]+; Glycocholate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.073; RGQKFXZATXMRTA; [M+Na]+; 1-(acetyloxy)-2-acetamido-3-hydroxy-16-methylheptadecan-4-yl acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.033; FZNAWLRQUUNJGH; [M+Na]+; 1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND p-value_like:Bayesian 0.0000000; RFDAIACWWDREDC; [M+H]+; Glycocholate_[-1, 1, 1, 2, -1]
+COMMENT: PROPOSED_COMPOUND p-value_like_2:Bayesian 0.000; RFDAIACWWDREDC; [M+H]+; Glycocholate_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_COMPOUND q-value_like:Bayesian 0.0000000; RFDAIACWWDREDC; [M+H]+; Glycocholate_[-1, 1, 1, 2, -1]
+COMMENT: PROPOSED_COMPOUND q-value_like_2:Bayesian 0.000; RFDAIACWWDREDC; [M+H]+; Glycocholate_[-1, 1, -1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.467; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholate::C26H43NO6::69::0.5850::0.3077::0.4670
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.880; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.273; 7-hydroxysteroids; [M+H]+; YPHMPQGTFIUGSJ_{[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.181; Aconitane-type diterpenoid alkaloids; [M+H]+; FLCYLPQGSMGINE_UNPD109236
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.861; Phenol ethers; [M+H]+; XRCZVUMGNLZLFE_8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.491; Delta amino acids and derivatives; [M+H]+; SUUXWXMBKROJAT_1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 4.364; Quinolizines; [M+Na]+; FZNAWLRQUUNJGH_1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Delta amino acids and derivatives; [M+H]+; JOYDATOHRWZTBU_2-[3-({5-[(4-phenylpiperazin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]-1-(piperidin-1-yl)ethan-1-one
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Quinolizines; [M+Na]+; FZNAWLRQUUNJGH_1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.965; 7-hydroxysteroids; [M+H]+; YPHMPQGTFIUGSJ_{[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.888; Phenol ethers; [M+H]+; XRCZVUMGNLZLFE_8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 0.676; Aconitane-type diterpenoid alkaloids; [M+H]+; FLCYLPQGSMGINE_UNPD109236
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 4.000; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_2-[[(4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -49.844; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_bmse000651
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -264.979; Dicarboxylic acids and derivatives; [M+Na]+; RGQKFXZATXMRTA_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -295.951; 7-hydroxysteroids; [M+H]+; YPHMPQGTFIUGSJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -334.824; Lineolic acids and derivatives; [M+Na]+; JRTYBZLZAZUAMC_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -460.600; Aconitane-type diterpenoid alkaloids; [M+H]+; VWYQWWYODNKZAS_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -480.803; Phenol ethers; [M+H]+; XRCZVUMGNLZLFE_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -490.250; Delta amino acids and derivatives; [M+H]+; SUUXWXMBKROJAT_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -101.699; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -376.303; 7-hydroxysteroids; [M+H]+; YPHMPQGTFIUGSJ_{[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -478.784; Quinolizines; [M+Na]+; FZNAWLRQUUNJGH_1-(4,6-dimethylpyrimidin-2-yl)-N-(2-methoxyethyl)-N-[(octahydro-1H-quinolizin-1-yl)methyl]piperidine-3-carboxamide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -512.288; Aconitane-type diterpenoid alkaloids; [M+H]+; VWYQWWYODNKZAS_11-ethyl-4,6,16,18-tetramethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1²,⁵.0¹,¹⁰.0³,⁸.0¹³,¹⁷]nonadecan-8-ol
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -518.583; Delta amino acids and derivatives; [M+H]+; SUUXWXMBKROJAT_1-(4-phenylpiperazin-1-yl)-2-[3-({5-[(piperidin-1-yl)methyl]-1,2-oxazol-3-yl}methyl)piperidin-4-yl]ethan-1-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -571.040; Dicarboxylic acids and derivatives; [M+Na]+; RGQKFXZATXMRTA_1-(acetyloxy)-2-acetamido-3-hydroxy-16-methylheptadecan-4-yl acetate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -601.413; Phenol ethers; [M+H]+; XRCZVUMGNLZLFE_8-ethyl-5,11-dihydroxy-1-[4-hydroxy-3-(piperidin-4-yloxy)phenyl]undecan-3-yl acetate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -724.963; Lineolic acids and derivatives; [M+Na]+; JRTYBZLZAZUAMC_9-(2,3-dihydroxypropyl)-13-hydroxy-8-[(2-hydroxypropyl)amino]octadeca-9,11-dienoic acid
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.9999369; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholate_[S6: 1, Finder: 1, Frag: 2]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:Bayesian 0.0000630; 7-hydroxysteroids; [M+H]+; YPHMPQGTFIUGSJ_{[4,7,11-trihydroxy-9a,11a-dimethyl-1-(pentan-2-yl)-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl]carbamoyl}formic acid_[S6: 2, Finder: 2, Frag: 4]
+COMMENT: PROPOSED_CLASS p-value_like:Bayesian 0.0001000; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholate_[-1, 1, 1, 2, -1]
+COMMENT: PROPOSED_CLASS q-value_like:Bayesian 0.0001160; Glycinated bile acids and derivatives; [M+H]+; RFDAIACWWDREDC_Glycocholate_[-1, 1, 1, 2, -1]
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.05.25, Curated 2026.06.26
+CH$NAME: Glycocholic acid
+CH$NAME: 2-[4-(3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid
+CH$COMPOUND_CLASS: N/A; Glycinated bile acids and derivatives
+CH$FORMULA: C26H43NO6
+CH$EXACT_MASS: 465.309038
+CH$SMILES: CC(CCC(=O)NCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C
+CH$IUPAC: InChI=1S/C26H43NO6/c1-14(4-7-22(31)27-13-23(32)33)17-5-6-18-24-19(12-21(30)26(17,18)3)25(2)9-8-16(28)10-15(25)11-20(24)29/h14-21,24,28-30H,4-13H2,1-3H3,(H,27,31)(H,32,33)
+CH$LINK: CHEBI CHEBI:17687
+CH$LINK: HMDB HMDB0000138
+CH$LINK: INCHIKEY RFDAIACWWDREDC-UHFFFAOYSA-N
+CH$LINK: LIPIDMAPS LMST05030001
+CH$LINK: PUBCHEM CID:755
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Nasal mucosa
+AC$INSTRUMENT: UltiMate 3000 UHPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 33 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 6.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD™ C18 Selectivity HPLC Column (1.9 µm, 2.1 mm x 100 mm; Thermo Fisher Scientific)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 98% B; 5.0 min, 50% B; 14.0 min, 2% B; 14.0-17.0 min, 2% B; 17.2 min, 99% B; 17.2-20.0 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.211
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in methanol
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in water
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 466.317588
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-02t9-1322900000-b79b433efe5a27a565a3
+PK$ANNOTATION: m/z int cor n mzPAF
+  64.9774566 93.7232 0.1758 10 ?
+  76.0394127 319.3589 0.5030 10 f{C2H6N1O2}/1.42ppm,p-C24H38O4
+  80.9479041 60.5762 -0.1636 10 ?
+  81.0700073 89.1749 0.0545 10 f{C6H9}/1.61ppm,p-C20H35N1O6
+  90.9767536 42.8461 0.4788 10 ?
+  93.0699897 58.5467 0.4333 9 f{C7H9}/1.21ppm,p-C19H35N1O6
+  95.0856223 107.3186 0.1515 10 f{C7H11}/1.00ppm,p-C19H33N1O6
+  105.0700901 81.4657 0.2848 10 f{C8H9}/2.03ppm,p-C18H35N1O6
+  107.0856963 114.4898 0.6727 10 f{C8H11}/1.58ppm,p-C18H33N1O6
+  109.1013954 54.7007 0.0833 9 f{C8H13}/2.00ppm,p-C18H31N1O6
+  119.0857358 96.0498 0.0788 10 f{C9H11}/1.76ppm,p-C17H33N1O6
+  121.1013638 38.8293 0.0500 9 f{C9H13}/1.54ppm,p-C17H31N1O6
+  131.0858596 47.8404 0.5030 10 f{C10H11}/2.54ppm,p-C16H33N1O6
+  133.1013987 67.3576 0.3697 10 f{C10H13}/1.67ppm,p-C16H31N1O6
+  143.0856206 51.0799 -0.1905 8 f{C11H11}/0.66ppm,p-C15H33N1O6
+  145.1015114 90.4301 0.7576 10 f{C11H13}/2.31ppm,p-C15H31N1O6
+  147.1169859 71.3498 0.6727 10 f{C11H15}/1.08ppm,p-C15H29N1O6
+  157.1015005 91.6659 0.6848 10 f{C12H13}/2.06ppm,p-C14H31N1O6
+  158.0814258 159.6743 0.9394 10 f{C7H12N1O3}/1.62ppm,p-C19H32O3
+  159.1172104 112.5950 0.4667 10 f{C12H15}/2.41ppm,p-C14H29N1O6
+  161.1330308 40.0739 0.3333 9 f{C12H17}/3.44ppm,p-C14H27N1O6
+  171.1171783 83.8315 0.2121 10 f{C13H15}/2.05ppm,p-C13H29N1O6
+  183.1173186 63.5549 0.6364 10 f{C14H15}/2.69ppm,p-C12H29N1O6
+  185.1329345 79.9122 0.3818 10 f{C14H17}/2.47ppm,p-C12H27N1O6
+  199.1485020 145.3769 0.7818 10 f{C15H19}/1.88ppm,p-C11H25N1O6
+  209.1326482 281.5946 0.3455 10 f{C16H17}/0.82ppm,p-C10H27N1O6
+  211.1485679 97.8141 0.5758 10 f{C16H19}/2.09ppm,p-C10H25N1O6
+  213.1641407 165.5797 0.6242 10 f{C16H21}/1.71ppm,p-C10H23N1O6
+  223.1488210 37.2203 -0.1429 8 f{C17H19}/3.11ppm,p-C9H25N1O6
+  225.1644225 66.8474 0.4909 10 f{C17H21}/2.87ppm,p-C9H23N1O6
+  227.1435396 185.2912 0.5636 10 f{C16H19O1}/2.19ppm,p-C10H25N1O5
+  227.1797008 113.5342 0.4182 10 f{C17H23}/1.20ppm,p-C9H21N1O6
+  237.1640237 34.1272 0.5030 10 f{C18H21}/1.04ppm,p-C8H23N1O6
+  241.1957189 36.3281 0.6167 9 f{C18H25}/2.66ppm,p-C8H19N1O6
+  295.2424456 37.4171 0.0167 9 f{C22H31}/1.42ppm,p-C4H13N1O6
+  319.2424830 255.8094 0.3333 10 f{C24H31}/1.43ppm,p-C2H13N1O6
+  320.2459492 54.3988 0.6485 10 ?
+  337.2534117 403.3643 0.5758 10 f{C24H33O1}/2.43ppm,p-C2H11N1O5
+  338.2568602 101.0742 0.2727 10 ?
+  412.2861549 999.0000 0.5515 10 f{C26H38N1O3}/3.72ppm,p-H6O3
+  413.2894027 287.5577 0.7091 10 ?
+  430.2967638 598.6352 0.7455 10 f{C26H40N1O4}/3.67ppm,p-H4O2
+  431.3004428 174.7630 0.5758 10 ?
+  448.3078231 159.4028 0.4303 10 f{C26H42N1O5}/4.62ppm,p-H2O1
+  466.3189328 80.9071 1.0000 10 f{C26H44N1O6}/5.61ppm,p
+  467.1042366 985.2866 0.4667 10 ?
+  468.1043242 338.0901 0.2485 10 ?
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  145.101511 90.43 150
+  158.081426 159.67 266
+  199.148502 145.38 242
+  413.289403 287.56 479
+  430.296764 598.64 999
+  466.318933 80.91 135
+//

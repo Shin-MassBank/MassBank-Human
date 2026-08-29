@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007P0921002
+RECORD_TITLE: m/z 921.428919; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.07.06
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 921.42892
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: DATASET_PUBLICATION Chen G et al. Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow. Anal Chem, 89, 4897-4906 (2017)
+COMMENT: DATASET_PUBLICATION_PMID 28391692
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: MS1_SPEC {874.667228: 1, 877.40166: 10, 879.692362: 2, 894.599308: 2, 900.499691: 66, 901.501841: 41, 906.453035: 7, 910.50017: 7, 922.430246: 10, 923.429783: 7, 924.429763: 3, 944.525492: 31, 946.526551: 14, 953.526408: 11, 954.528676: 9, 955.53328: 6, 956.523993: 2, 962.466776: 6, 965.453625: 12, 966.453962: 7}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 4.654; C35H74N2O21P2; [M+H]+; delta(ppm) -4.654389
+COMMENT: PROPOSED_MF SevenGoldenRules 3.983; C43H68O21; [M+H]+; delta(ppm) -3.982957
+COMMENT: PROPOSED_MF SevenGoldenRules 2.861; C37H69N4O20P; [M+H]+; delta(ppm) -2.860645
+COMMENT: PROPOSED_MF SevenGoldenRules 2.644; C47H70O14P2; [M+H]+; delta(ppm) -2.644440
+COMMENT: PROPOSED_MF SevenGoldenRules 1.407; C36H73O24P; [M+H]+; delta(ppm) -1.406964
+COMMENT: PROPOSED_MF SevenGoldenRules 0.388; C38H68N2O23; [M+H]+; delta(ppm) 0.387866
+COMMENT: PROPOSED_MF SevenGoldenRules 1.726; C42H70N2O16P2; [M+H]+; delta(ppm) 1.726383
+COMMENT: PROPOSED_MF SevenGoldenRules 3.521; C44H65N4O15P; [M+H]+; delta(ppm) 3.521212
+COMMENT: PROPOSED_MF SevenGoldenRules 4.758; C33H68N4O25; [M+H]+; delta(ppm) 4.757602
+COMMENT: PROPOSED_MF SevenGoldenRules 4.974; C43H69O19P; [M+H]+; delta(ppm) 4.973807
+COMMENT: DATES Averaged 2024.12.24, Processed 2025.12.16, Annotated 2026.05.25, Curated 2026.07.06
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.587
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 921.428919
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000000009-ab86e42678b9cd1f1f49
+PK$ANNOTATION: m/z int cor n mzPAF
+  921.4307614 999.0000 1.0000 14 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  921.430761 999.00 999
+//

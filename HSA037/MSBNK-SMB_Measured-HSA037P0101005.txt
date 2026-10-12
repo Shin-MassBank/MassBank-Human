@@ -1,0 +1,56 @@
+ACCESSION: MSBNK-SMB_Measured-HSA037P0101005
+RECORD_TITLE: m/z 100.933994; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 49 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 100.93399
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4708
+COMMENT: DATASET_TITLE Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma.
+COMMENT: DATASET_AUTHORS Denise Drago, Valentina Pieri, Annapaola Andolfo, Rossella Galli, Alberto L Gallotti, Manuela Cominelli, Ilaria Pagano, Valentina Conti, Silvia Valtorta, Angela Coliva, Sara Lago, Daniela Michelatti, Luca Massimino, Federica Ungaro, Laura Perani, Antonello Spinelli, Antonella Castellano, Andrea Falini, Alessio Zippo, Pietro L Poliani, Rosa Maria Moresco
+COMMENT: DATASET_PUBLICATION Pieri V et al. Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma. Cancer Res, 83, 195-218 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 36409826
+COMMENT: PRECURSOR_IN_MS1 mz 100.933968; int 247.124; delta(ppm) -0.262139
+COMMENT: MS1_SPEC {61.988687: 274, 63.992421: 3, 68.99614: 11, 75.00901: 2, 78.960127: 2, 83.931328: 5, 89.025055: 9, 97.931951: 4, 98.939828: 13, 99.008341: 2, 99.92609: 62, 100.933967: 247, 101.933894: 30, 102.932683: 9, 102.956805: 9, 103.039759: 1, 104.95359: 4, 110.97555: 7, 112.98559: 135, 113.988783: 4, 114.934279: 3, 114.989163: 8, 115.920449: 6, 116.928699: 52, 117.928861: 7, 119.907854: 3, 119.947249: 3, 121.030297: 4, 129.02008: 2, 129.935713: 5, 129.97573: 14, 130.944206: 18, 130.966158: 10, 131.035097: 2, 132.867894: 4, 134.865426: 5, 134.894957: 6, 136.863315: 2, 136.891949: 3, 137.025234: 5, 138.020116: 7, 144.924289: 9, 145.051704: 2, 145.930157: 3, 146.939957: 3, 146.96529: 11, 148.951147: 2}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: DATES Averaged 2025.09.23, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 44 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 16.000 ppm, MS2 15.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 2, 14.0 min: 95, 19.0 min: 95, 19.5 min: 2, 21.5 min: 2.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.195
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 100.933994
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001j-9000000000-230453cf45c322071331
+PK$ANNOTATION: m/z int cor n mzPAF
+  83.9303098 999.0000 0.3725 19 ?
+  84.9312749 44.6542 -0.2436 18 ?
+  99.9256897 579.4878 0.3106 20 ?
+  100.9294290 35.7733 1.0000 15 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  100.929429 35.77 999
+//

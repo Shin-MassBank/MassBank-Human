@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA054P0564003
+RECORD_TITLE: m/z 564.344299; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 95 product ion spectra among 45 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 564.34430
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS8280
+COMMENT: DATASET_TITLE MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis
+COMMENT: DATASET_AUTHORS Vaishnavi V Phadnis, Whitney S Henry, Tenzin Kunchok, Amy Deik, Zon Weng Lai
+COMMENT: DATASET_PUBLICATION Phadnis VV et al. MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis. Cell Rep, 42, 113023 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37691145
+COMMENT: PRECURSOR_IN_MS1 mz 564.344360; int 999.000; delta(ppm) 0.108090
+COMMENT: MS1_SPEC {522.82483: 23, 523.82263: 43, 524.8205: 35, 527.847049: 21, 532.86609: 36, 533.86395: 39, 535.790949: 24, 536.78894: 27, 539.802765: 20, 540.80048: 21, 544.82184: 48, 545.81976: 130, 546.81757: 131, 547.81531: 46, 558.77325: 35, 560.76917: 19, 561.79364: 20, 562.75037: 22, 562.7915: 20, 564.34436: 999, 565.34772: 357, 566.35083: 71, 578.85626: 23, 579.85461: 27, 590.81238: 19, 591.81006: 50, 592.80823: 51, 593.80624: 26, 601.8515: 24, 612.80914: 22, 613.80719: 66}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 565.347720; int 357.909; cor 0.989
+COMMENT: PROPOSED_MF SevenGoldenRules 1.088; C25H53N5O5P2; [M-H]1; delta(ppm) -1.087819
+COMMENT: PROPOSED_MF SevenGoldenRules 0.005; C33H47N3O5; [M-H]1; delta(ppm) 0.005306
+COMMENT: PROPOSED_MF SevenGoldenRules 1.279; C24H57NO9P2; [M-H]1; delta(ppm) 1.278850
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Horizon UPLC system, Thermo Fisher Scientific - ID-X tribrid mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION HESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Ascentis Express C18 (2.7 µm, 150 x 2.1 mm, Sigma-Aldrich)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.5 min, 32% B; 4.0 min, 45% B; 5.0 min, 52% B; 8.0 min, 58% B; 11.0 min, 66% B; 14.0 min, 70% B; 18.0 min, 75% B; 21.0 min, 97% B;  21.0-35.0 min, 97% B; 35.1 min, 32% B; 35.1-40.0 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.26 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.637
+AC$CHROMATOGRAPHY: SOLVENT A 60:40 water:acetonitrile with 10 mM ammonium formate and 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90:10 isopropanol:acetonitrile, with 10 mM ammonium formate and 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 564.344299
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0000090000-d0461e34e84d2d2ddb10
+PK$ANNOTATION: m/z int cor n mzPAF
+  564.3464241 999.0000 1.0000 95 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  564.346424 999.00 999
+//

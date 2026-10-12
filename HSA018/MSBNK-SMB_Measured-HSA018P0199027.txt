@@ -1,0 +1,58 @@
+ACCESSION: MSBNK-SMB_Measured-HSA018P0199027
+RECORD_TITLE: m/z 199.169286; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 34 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 199.16929
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS549
+COMMENT: DATASET_TITLE Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood
+COMMENT: DATASET_AUTHORS Takayuki Teruya
+COMMENT: DATASET_PUBLICATION Teruya T et al. Diverse metabolic reactions activated during 58-hr fasting are revealed by non-targeted metabolomic analysis of human blood. Sci Rep, 9, 854 (2019)
+COMMENT: DATASET_PUBLICATION_PMID 30696848
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: MS1_SPEC {151.0966: 84, 156.076688: 531, 163.038939: 239, 164.042486: 15, 167.033856: 119, 177.054481: 396, 181.122181: 27, 190.107455: 37, 195.122712: 227, 200.20094: 155, 209.153793: 31, 211.169406: 27, 212.095338: 833, 213.098469: 68, 218.110378: 105, 219.174319: 105, 221.153471: 49, 234.133774: 86, 235.169315: 50, 238.070978: 32, 239.139069: 116, 242.284212: 26}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 0.151; C12H22O2; [M+H]+; delta(ppm) 0.151391
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood, Blood plasma, erythrocyte
+AC$INSTRUMENT: Paradigm MS4 HPLC system, Michrom Bioresources - LTQ Orbitrap hybrid ion-trap/Fourier transform mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 5.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ZIC-pHILIC column (5 µm, 150 mm x 2.1 mm; Merck SeQuant)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 80-20% A from 0-30 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 100 µL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.024
+AC$CHROMATOGRAPHY: SOLVENT A Acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 10 mM ammonium carbonate buffer, pH 9.3
+MS$FOCUSED_ION: PRECURSOR_M/Z 199.169286
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1900000000-16efe1f4b6a8a2e75350
+PK$ANNOTATION: m/z int cor n mzPAF
+  64.5365185 81.9219 0.7576 10 ?
+  69.0698526 124.8123 0.1394 10 ?
+  110.0000707 221.9644 -0.7667 9 ?
+  111.1170426 999.0000 1.0000 10 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  64.536518 81.92 81
+  111.117043 999.00 999
+//

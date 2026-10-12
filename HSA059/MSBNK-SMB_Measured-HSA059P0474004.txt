@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA059P0474004
+RECORD_TITLE: m/z 474.283907; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 71 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 474.28391
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS5289
+COMMENT: DATASET_TITLE A new perspective on semen quality of aged male: The characteristics of metabolomics and proteomics
+COMMENT: DATASET_AUTHORS Yi Guo
+COMMENT: DATASET_PUBLICATION Guo Y et al. A new perspective on semen quality of aged male: The characteristics of metabolomics and proteomics. Front Endocrinol (Lausanne), 13, 1058250 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 36686470
+COMMENT: PRECURSOR_IN_MS1 mz 474.283524; int 2.448; delta(ppm) -0.808359
+COMMENT: MS1_SPEC {425.170302: 8, 427.185709: 5, 432.224413: 8, 473.281787: 4, 474.283523: 2, 487.132469: 2, 487.304702: 9, 489.261045: 1, 489.303592: 4, 495.11789: 3}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 7.452; C28H37N5O2; [M-H]1; delta(ppm) -7.452274
+COMMENT: PROPOSED_MF SevenGoldenRules 5.940; C19H47N3O6P2; [M-H]1; delta(ppm) -5.939517
+COMMENT: PROPOSED_MF SevenGoldenRules 4.639; C27H41NO6; [M-H]1; delta(ppm) -4.639261
+COMMENT: PROPOSED_MF SevenGoldenRules 2.464; C21H42N5O5P; [M-H]1; delta(ppm) -2.463753
+COMMENT: PROPOSED_MF SevenGoldenRules 0.349; C20H46NO9P; [M-H]1; delta(ppm) 0.349260
+COMMENT: PROPOSED_MF SevenGoldenRules 3.825; C22H41N3O8; [M-H]1; delta(ppm) 3.825024
+COMMENT: PROPOSED_MF SevenGoldenRules 6.417; C26H43N3OP2; [M-H]1; delta(ppm) 6.417119
+COMMENT: PROPOSED_MF SevenGoldenRules 9.893; C28H38N5P; [M-H]1; delta(ppm) 9.892883
+COMMENT: DATES Averaged 2025.09.27, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Semen
+AC$INSTRUMENT: 1290 Infinity LC system, Agilent Technologies - TripleTOF 6600 mass spectrometer, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 10.500 ppm, MS2 30.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUIY UPLC BEH column (100 x 2.1 mm, 1.7 µm, Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0–0.5 min, 95% B; 7.0 min, 65% B; 8.0 min, 40% B; 8.0–9.0 min, 40% B; 9.1min, 95% B; 9.1–12.0min, 95% B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.686
+AC$CHROMATOGRAPHY: SOLVENT A 25 mM ammonium acetate and 25 mM ammonium hydroxide in water
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 474.283907
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0000900000-8d8cf5384c06ca45e040
+PK$ANNOTATION: m/z int cor n mzPAF
+  474.2139047 161.1662 0.3908 11 ?
+  474.2356253 183.9121 0.5309 10 ?
+  474.2844084 999.0000 1.0000 14 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  474.284408 999.00 999
+//

@@ -1,0 +1,55 @@
+ACCESSION: MSBNK-SMB_Measured-HSA035P0264001
+RECORD_TITLE: m/z 264.267959; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 64 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 264.26796
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4684
+COMMENT: DATASET_TITLE Lipidomic analysis reveals altered lipid profiles of clinically healthy and periodontitis-affected gingival biopsies.
+COMMENT: DATASET_AUTHORS Min Zhou
+COMMENT: DATASET_PUBLICATION Zhou M et al. Lipidomic analysis reveals altered lipid profiles of gingival tissues with periodontitis. J Clin Periodontol, 49, 1192-1202 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 35924763
+COMMENT: PRECURSOR_IN_MS1 mz 264.268362; int 3.918; delta(ppm) 1.526358
+COMMENT: MS1_SPEC {256.299164: 1, 264.268362: 3, 265.27172: 1, 279.09359: 2, 279.158731: 4, 280.162445: 1, 281.050929: 4, 282.051042: 1, 282.278637: 1, 297.082782: 5, 298.082646: 1, 299.080618: 1, 301.141198: 2}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 2.344; C18H33N; [M+H]+; delta(ppm) -2.343685
+COMMENT: DATES Averaged 2025.09.16, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Gingiva
+AC$INSTRUMENT: Agilent UHPLC system, Agilent Technologies - TripleTOF 5600 mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 45 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 37.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex C18 column (1.7 µm, 2.1 mm x 100 mm; Phenomenex)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 40, 12.0 min: 100, 13.5 min: 100, 13.7 min: 40, 18.0 min: 40.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.930
+AC$CHROMATOGRAPHY: SOLVENT A Acetonitrile:Water (6:4, v/v) with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B Isopropanol:Acetonitrile (9:1, v/v) with 10 mM ammonium formate
+MS$FOCUSED_ION: PRECURSOR_M/Z 264.267959
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0090000000-7aad12d6edfdf8dcc54f
+PK$ANNOTATION: m/z int cor n mzPAF
+  264.2694657 999.0000 1.0000 14 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  264.269466 999.00 999
+//

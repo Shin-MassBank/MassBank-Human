@@ -1,0 +1,54 @@
+ACCESSION: MSBNK-SMB_Measured-HSA040P0207000
+RECORD_TITLE: m/z 206.893718; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 98 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 206.89372
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4708
+COMMENT: DATASET_TITLE Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma.
+COMMENT: DATASET_AUTHORS Denise Drago, Valentina Pieri, Annapaola Andolfo, Rossella Galli, Alberto L Gallotti, Manuela Cominelli, Ilaria Pagano, Valentina Conti, Silvia Valtorta, Angela Coliva, Sara Lago, Daniela Michelatti, Luca Massimino, Federica Ungaro, Laura Perani, Antonello Spinelli, Antonella Castellano, Andrea Falini, Alessio Zippo, Pietro L Poliani, Rosa Maria Moresco
+COMMENT: DATASET_PUBLICATION Pieri V et al. Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma. Cancer Res, 83, 195-218 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 36409826
+COMMENT: PRECURSOR_IN_MS1 mz 206.893641; int 334.890; delta(ppm) -0.372083
+COMMENT: MS1_SPEC {157.083154: 24, 158.963887: 55, 160.16926: 49, 167.078857: 29, 171.098706: 38, 173.078208: 69, 185.11466: 40, 186.221646: 387, 187.224862: 60, 191.103961: 12, 192.159352: 34, 196.864891: 242, 198.861913: 229, 200.858782: 80, 203.052522: 101, 205.068093: 224, 206.89364: 334, 208.890601: 216, 210.887536: 39, 214.141292: 35, 215.124912: 41, 216.922443: 244, 217.104201: 27, 217.925517: 9, 218.919501: 80, 226.951225: 67, 227.12506: 25, 229.140655: 22, 239.0887: 36, 242.28405: 8, 254.8234: 175, 256.299845: 20, 256.820299: 221}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 44 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.500 ppm, MS2 12.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH HILIC column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 2, 10.0 min: 60, 12.0 min: 60, 12.5 min: 2, 15.0 min: 2.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.448
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in water
+MS$FOCUSED_ION: PRECURSOR_M/Z 206.893718
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9000000000-cc332143d7f648fea4f0
+PK$ANNOTATION: m/z int cor n mzPAF
+  80.9475650 999.0000 1.0000 98 ?
+  90.9760108 92.8365 0.1990 80 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  80.947565 999.00 999
+//

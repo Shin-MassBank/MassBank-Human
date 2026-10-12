@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA088P0105036
+RECORD_TITLE: m/z 105.071976; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 16 product ion spectra among 178 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 105.07198
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002533
+COMMENT: DATASET_TITLE Untargeted Metabolomics on First Trimester Serum Implicates Metabolic Perturbations Associated with BMI in Development of Hypertensive Disorders: A Discovery Study
+COMMENT: DATASET_AUTHORS Susan Sumner
+COMMENT: DATASET_PUBLICATION Li Y et al. Untargeted metabolomics on first trimester serum implicates metabolic perturbations associated with BMI in development of hypertensive disorders: a discovery study. Front Nutr, 10, 1144131 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37528997
+COMMENT: PRECURSOR_IN_MS1 mz 105.072026; int 344.660; delta(ppm) 0.478268
+COMMENT: MS1_SPEC {105.072026: 344, 120.979575: 622, 121.987431: 165, 148.974707: 76, 153.005422: 999}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: DATES Averaged 2026.01.07, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-45, ramp
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 8.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 99% B; 16.0-19.0 min, 1% B; 19.5 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.914
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 100% water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 100% methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 105.071976
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-006x-9100000000-cc213bb2cc5e17109a2f
+PK$ANNOTATION: m/z int cor n mzPAF
+  60.0439791 76.3464 -0.1165 14 ?
+  72.9366875 167.1153 -0.2412 16 ?
+  73.0459401 358.6511 0.2529 16 ?
+  88.0752779 48.8363 0.0214 15 ?
+  90.9473615 85.9786 -0.2265 16 ?
+  91.0567065 999.0000 0.2147 16 ?
+  105.0329109 57.0990 0.5321 15 ?
+  105.0703381 195.3902 1.0000 16 ?
+  105.1101343 63.7360 0.0647 16 ?
+  106.0861378 52.6040 -0.0393 15 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  105.070338 195.39 999
+//

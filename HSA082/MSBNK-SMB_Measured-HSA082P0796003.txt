@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-SMB_Measured-HSA082P0796003
+RECORD_TITLE: m/z 796.548616; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 25 product ion spectra among 23 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 796.54862
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003168
+COMMENT: DATASET_TITLE Lipidomic analysis of cryopreserved human cardiac tissue from young and ageing adults
+COMMENT: DATASET_AUTHORS Don Anthony
+COMMENT: DATASET_PUBLICATION Malecki C et al. The Human Cardiac Age-OME: Age-Specific Changes in Myocardial Molecular Expression. Aging Cell, 24, e70219 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 40915658
+COMMENT: PRECURSOR_IN_MS1 mz 796.548210; int 59.806; delta(ppm) -0.510010
+COMMENT: MS1_SPEC {758.223292: 7, 770.635111: 27, 774.560908: 45, 775.568722: 30, 783.572026: 8, 790.559773: 124, 791.562773: 59, 796.548209: 59, 797.550961: 26, 798.560692: 26, 799.567181: 17, 803.544781: 67, 820.550669: 9, 824.577615: 10, 838.55633: 22, 839.561191: 14}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+CH3OH+H; M+IsoProp+H; mz 824.577615; int 10.588; cor 0.625
+COMMENT: PROPOSED_MF SevenGoldenRules 1.780; C45H74N5O5P; [M+H]+; delta(ppm) -1.779920
+COMMENT: PROPOSED_MF SevenGoldenRules 0.348; C34H77N5O15; [M+H]+; delta(ppm) -0.348191
+COMMENT: PROPOSED_MF SevenGoldenRules 0.098; C44H78NO9P; [M+H]+; delta(ppm) -0.098046
+COMMENT: PROPOSED_MF SevenGoldenRules 1.200; C38H79N5O8P2; [M+H]+; delta(ppm) 1.200440
+COMMENT: PROPOSED_MF SevenGoldenRules 1.979; C46H73N3O8; [M+H]+; delta(ppm) 1.978527
+COMMENT: PROPOSED_MF SevenGoldenRules 2.882; C37H83NO12P2; [M+H]+; delta(ppm) 2.882314
+COMMENT: PROPOSED_MF SevenGoldenRules 1.852; C44H70N5O4P; [M+CH3OH+H]+; delta(ppm) -1.851961
+COMMENT: PROPOSED_MF SevenGoldenRules 0.360; C33H73N5O14; [M+CH3OH+H]+; delta(ppm) -0.360176
+COMMENT: PROPOSED_MF SevenGoldenRules 0.100; C43H74NO8P; [M+CH3OH+H]+; delta(ppm) -0.099540
+COMMENT: PROPOSED_MF SevenGoldenRules 1.253; C37H75N5O7P2; [M+CH3OH+H]+; delta(ppm) 1.253413
+COMMENT: PROPOSED_MF SevenGoldenRules 2.063; C45H69N3O7; [M+CH3OH+H]+; delta(ppm) 2.062827
+COMMENT: DATES Averaged 2025.12.02, Processed 2026.02.09, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Heart
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 3.000 ppm, MS2 9.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-3.0 min, 20% B; 5.5 min, 45% B; 8.0 min, 65% B; 13.0 min, 85% B; 14.0-20.0 min, 100% B; 20.2-27.0 min, 30% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.28 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.084
+AC$CHROMATOGRAPHY: SOLVENT A 10 mM ammonium formate, 0.1% formic acid in acetonitrile:water (60:40)
+AC$CHROMATOGRAPHY: SOLVENT B 10 mM ammonium formate, 0.1% formic acid in isopropanol:acetonitrile (90:10)
+MS$FOCUSED_ION: PRECURSOR_M/Z 796.548616
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-5299915923a95d0badf9
+PK$ANNOTATION: m/z int cor n mzPAF
+  86.0962817 68.8473 0.6951 25 ?
+  184.0744451 999.0000 1.0000 22 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  86.096282 68.85 68
+  184.074445 999.00 999
+//

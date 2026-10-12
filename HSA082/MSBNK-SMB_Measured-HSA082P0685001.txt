@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA082P0685001
+RECORD_TITLE: m/z 685.436498; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 221 product ion spectra among 23 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 685.43650
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003168
+COMMENT: DATASET_TITLE Lipidomic analysis of cryopreserved human cardiac tissue from young and ageing adults
+COMMENT: DATASET_AUTHORS Don Anthony
+COMMENT: DATASET_PUBLICATION Malecki C et al. The Human Cardiac Age-OME: Age-Specific Changes in Myocardial Molecular Expression. Aging Cell, 24, e70219 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 40915658
+COMMENT: PRECURSOR_IN_MS1 mz 685.437835; int 193.805; delta(ppm) 1.950560
+COMMENT: MS1_SPEC {663.453575: 671, 664.459142: 384, 665.4625: 95, 666.463637: 14, 680.479848: 61, 685.437835: 193, 686.440557: 83, 701.40945: 44, 702.412787: 22, 707.491883: 15, 708.51445: 87, 709.517217: 44, 722.529989: 48, 725.51779: 9, 726.463158: 24, 728.496482: 15, 734.571729: 32}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 686.440557; int 83.876; cor 0.865
+COMMENT: PROPOSED_ION_FORM M+Na; M+K; mz 701.409450; int 44.525; cor 0.650
+COMMENT: PROPOSED_MF SevenGoldenRules 2.516; C34H60N4O10; [M+H]+; delta(ppm) -2.515965
+COMMENT: PROPOSED_MF SevenGoldenRules 2.225; C44H61O4P; [M+H]+; delta(ppm) -2.225212
+COMMENT: PROPOSED_MF SevenGoldenRules 0.716; C38H62N4O3P2; [M+H]+; delta(ppm) -0.715925
+COMMENT: PROPOSED_MF SevenGoldenRules 0.563; C33H64O14; [M+H]+; delta(ppm) -0.562513
+COMMENT: PROPOSED_MF SevenGoldenRules 0.948; C27H65N4O13P; [M+H]+; delta(ppm) 0.948235
+COMMENT: PROPOSED_MF SevenGoldenRules 1.239; C37H66O7P2; [M+H]+; delta(ppm) 1.238989
+COMMENT: PROPOSED_MF SevenGoldenRules 1.458; C30H67N2O11P; [M+Na]+; delta(ppm) -1.458229
+COMMENT: PROPOSED_MF SevenGoldenRules 1.036; C32H62N4O10; [M+Na]+; delta(ppm) 1.035554
+COMMENT: PROPOSED_MF SevenGoldenRules 1.336; C42H63O4P; [M+Na]+; delta(ppm) 1.335955
+COMMENT: PROPOSED_MF SevenGoldenRules 2.895; C36H64N4O3P2; [M+Na]+; delta(ppm) 2.895325
+COMMENT: DATES Averaged 2025.12.02, Processed 2026.02.09, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Heart
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 3.000 ppm, MS2 9.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-3.0 min, 20% B; 5.5 min, 45% B; 8.0 min, 65% B; 13.0 min, 85% B; 14.0-20.0 min, 100% B; 20.2-27.0 min, 30% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.28 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.914
+AC$CHROMATOGRAPHY: SOLVENT A 10 mM ammonium formate, 0.1% formic acid in acetonitrile:water (60:40)
+AC$CHROMATOGRAPHY: SOLVENT B 10 mM ammonium formate, 0.1% formic acid in isopropanol:acetonitrile (90:10)
+MS$FOCUSED_ION: PRECURSOR_M/Z 685.436498
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0000009000-fc8aca0b03c972d6c1c3
+PK$ANNOTATION: m/z int cor n mzPAF
+  76.1567633 29.5283 0.8076 214 ?
+  685.4408500 999.0000 1.0000 221 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  76.156763 29.53 29
+  685.440850 999.00 999
+//

@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA066P0826001
+RECORD_TITLE: m/z 826.552597; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 826.55260
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2716
+COMMENT: DATASET_TITLE Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Giorgia Del Favero, Gerhard Adam, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells. Environ Int, 158, 106940 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34673318
+COMMENT: PRECURSOR_IN_MS1 mz 826.552602; int 90.003; delta(ppm) 0.006379
+COMMENT: MS1_SPEC {780.474382: 2, 782.526247: 82, 783.529699: 34, 784.532398: 9, 785.534545: 1, 789.507945: 1, 796.541743: 5, 797.545515: 1, 810.521521: 3, 811.523829: 1, 815.700196: 3, 816.703459: 1, 824.500572: 1, 826.552602: 90, 827.556019: 38, 828.559048: 11, 829.561352: 2, 832.472674: 2, 841.716327: 4, 842.719499: 2, 854.548069: 1, 870.578906: 73, 871.58235: 36, 872.585036: 10, 873.58807: 2, 876.498823: 3}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 827.556019; int 38.579; cor 0.864
+COMMENT: PROPOSED_MF SevenGoldenRules 3.197; C40H80N3O12P; [M+H]+; delta(ppm) -3.196675
+COMMENT: PROPOSED_MF SevenGoldenRules 1.196; C42H75N5O11; [M+H]+; delta(ppm) -1.195573
+COMMENT: PROPOSED_MF SevenGoldenRules 0.297; C46H77N5O4P2; [M+H]+; delta(ppm) 0.296774
+COMMENT: PROPOSED_MF SevenGoldenRules 0.424; C41H79NO15; [M+H]+; delta(ppm) 0.423962
+COMMENT: PROPOSED_MF SevenGoldenRules 1.676; C35H80N5O14P; [M+H]+; delta(ppm) 1.676468
+COMMENT: PROPOSED_MF SevenGoldenRules 1.916; C45H81NO8P2; [M+H]+; delta(ppm) 1.916309
+COMMENT: PROPOSED_MF SevenGoldenRules 3.917; C47H76N3O7P; [M+H]+; delta(ppm) 3.917411
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: UHPLC Vanquish system, Thermo Fisher Scientific - Q Exactive HF high-resolution mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 μm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 10% B; 15.0 min, 100% B; 15.0-17.0 min, 100% B; 17.0-19.0 min, 10% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.884
+AC$CHROMATOGRAPHY: SOLVENT A 10 mmol/L Ammonium acetate
+AC$CHROMATOGRAPHY: SOLVENT B 96% (v/v) Acetonitrile/water with 10 mmol/L Ammonium acetate
+MS$FOCUSED_ION: PRECURSOR_M/Z 826.552597
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9400000000-b643060ed258d4df3214
+PK$ANNOTATION: m/z int cor n mzPAF
+  87.0440757 344.8764 0.5909 11 ?
+  89.0599183 999.0000 1.0000 11 ?
+  131.0701657 85.3863 0.4762 8 ?
+  133.0860161 614.8347 0.3000 11 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  89.059918 999.00 999
+//

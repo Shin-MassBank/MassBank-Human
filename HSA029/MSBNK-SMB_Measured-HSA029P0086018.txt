@@ -1,0 +1,67 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0086018
+RECORD_TITLE: m/z 86.110906; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 86.11091
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture. ACS Chem Biol, 15, 970-981 (2020)
+COMMENT: DATASET_PUBLICATION_PMID 32167285
+COMMENT: PRECURSOR_IN_MS1 mz 86.110846; int 2.202; delta(ppm) -0.696896
+COMMENT: MS1_SPEC {84.044485: 1, 85.028443: 1, 86.096524: 999, 86.110845: 2, 87.093523: 3, 87.099855: 58, 88.103183: 1, 91.05426: 4, 95.049197: 3, 99.044159: 1, 103.039044: 3, 104.052896: 2, 104.107025: 2, 136.075724: 42}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.458; C6H13; [M+H]+; delta(ppm) 22.113291
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H13; [M+H]+; delta(ppm) 22.113291
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 7.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.086
+AC$CHROMATOGRAPHY: SOLVENT A Water with 0.1% (v/v) acetic acid 
+AC$CHROMATOGRAPHY: SOLVENT B Methanol with 0.1% (v/v) acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 86.110906
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00kr-9000000000-a92477625795c45613ed
+PK$ANNOTATION: m/z int cor n mzPAF
+  53.9972971 18.6316 -0.0280 12 ?
+  56.0493844 72.8147 0.8462 13 ?
+  57.0571970 258.1118 0.8626 13 ?
+  58.0650093 74.3937 0.8736 13 ?
+  67.0540292 21.7277 0.5000 11 ?
+  67.9889401 20.4938 0.6970 10 ?
+  69.0696291 658.9706 0.9011 13 ?
+  86.0961737 999.0000 1.0000 13 ?
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.049384 72.81 72
+  57.057197 258.11 258
+  58.065009 74.39 74
+  69.069629 658.97 658
+  86.096174 999.00 999
+//

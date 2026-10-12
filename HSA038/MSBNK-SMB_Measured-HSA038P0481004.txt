@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA038P0481004
+RECORD_TITLE: m/z 481.417883; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 49 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 481.41788
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4708
+COMMENT: DATASET_TITLE Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma.
+COMMENT: DATASET_AUTHORS Denise Drago, Valentina Pieri, Annapaola Andolfo, Rossella Galli, Alberto L Gallotti, Manuela Cominelli, Ilaria Pagano, Valentina Conti, Silvia Valtorta, Angela Coliva, Sara Lago, Daniela Michelatti, Luca Massimino, Federica Ungaro, Laura Perani, Antonello Spinelli, Antonella Castellano, Andrea Falini, Alessio Zippo, Pietro L Poliani, Rosa Maria Moresco
+COMMENT: DATASET_PUBLICATION Pieri V et al. Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma. Cancer Res, 83, 195-218 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 36409826
+COMMENT: PRECURSOR_IN_MS1 mz 481.418333; int 8.025; delta(ppm) 0.933617
+COMMENT: MS1_SPEC {432.27868: 5, 433.326025: 1, 435.340584: 1, 435.38102: 2, 437.23359: 6, 437.395859: 1, 438.376325: 4, 439.338503: 2, 440.356582: 5, 441.294922: 4, 441.353011: 4, 443.266311: 5, 443.331489: 8, 444.333612: 2, 445.311361: 9, 446.314455: 2, 447.270281: 2, 447.402372: 6, 450.294949: 10, 450.354431: 2, 451.297722: 3, 451.37287: 8, 455.368009: 4, 457.347228: 6, 459.326298: 4, 464.428466: 6, 469.382744: 12, 471.328218: 1, 471.362849: 4, 475.32122: 3, 476.306193: 6, 476.463693: 7, 478.324207: 7, 481.25739: 5, 481.418332: 8, 485.377187: 4}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 17.883; C31H52N4; [M+H]+; delta(ppm) -17.882619
+COMMENT: PROPOSED_MF SevenGoldenRules 15.098; C30H56O4; [M+H]+; delta(ppm) -15.097502
+COMMENT: PROPOSED_MF SevenGoldenRules 12.947; C24H57N4O3P; [M+H]+; delta(ppm) -12.947258
+COMMENT: PROPOSED_MF SevenGoldenRules 6.725; C25H56N2O6; [M+H]+; delta(ppm) -6.725497
+COMMENT: PROPOSED_MF SevenGoldenRules 2.063; C30H57O2P; [M+H]+; delta(ppm) 2.062819
+COMMENT: PROPOSED_MF SevenGoldenRules 4.213; C24H58N4OP2; [M+H]+; delta(ppm) 4.213063
+COMMENT: PROPOSED_MF SevenGoldenRules 5.502; C32H52N2O; [M+H]+; delta(ppm) 5.501544
+COMMENT: PROPOSED_MF SevenGoldenRules 10.437; C25H57N2O4P; [M+H]+; delta(ppm) 10.436905
+COMMENT: PROPOSED_MF SevenGoldenRules 13.874; C27H52N4O3; [M+H]+; delta(ppm) 13.873549
+COMMENT: PROPOSED_MF SevenGoldenRules 16.659; C26H56O7; [M+H]+; delta(ppm) 16.658666
+COMMENT: PROPOSED_MF SevenGoldenRules 19.223; C30H58P2; [M+H]+; delta(ppm) 19.223139
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 44 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 20.000 ppm, MS2 40.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 2, 14.0 min: 95, 19.0 min: 95, 19.5 min: 2, 21.5 min: 2.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.059
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 481.417883
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-2000900000-9c3926148e283df1731c
+PK$ANNOTATION: m/z int cor n mzPAF
+  57.0699829 83.6213 0.0431 19 ?
+  59.0493367 44.9482 -0.0437 15 ?
+  67.0540452 69.7591 0.2489 18 ?
+  71.0858990 62.4696 -0.4271 15 ?
+  85.1009105 41.5360 0.3162 18 ?
+  89.0596213 63.7076 0.1114 18 ?
+  90.9771459 46.1969 0.1898 17 ?
+  95.0852159 58.5057 0.2343 18 ?
+  109.1010141 58.2917 0.1929 19 ?
+  481.2618934 999.0000 0.2903 20 ?
+  481.4233327 992.2358 1.0000 20 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  481.423333 992.24 999
+//

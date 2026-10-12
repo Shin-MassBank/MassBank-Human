@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA100P0437001
+RECORD_TITLE: m/z 437.235828; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 32 product ion spectra among 21 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 437.23583
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS12319
+COMMENT: DATASET_TITLE Serum untargeted metabolomics reveals distinct metabolic signatures and potential biomarkers in female and latent genital tuberculosis
+COMMENT: DATASET_AUTHORS Zhimin Wang, Bai Dai, Debang Li, Rina Sha, Xiujuan Chen
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 437.235833; int 3.767; delta(ppm) 0.011421
+COMMENT: MS1_SPEC {415.253816: 7, 416.257263: 1, 427.378272: 2, 432.280445: 39, 433.283847: 7, 434.285703: 1, 437.235833: 3, 472.275165: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 438.238980; int 0.729; cor 0.692
+COMMENT: PROPOSED_ION_FORM M+Na; M+H; mz 415.253816; int 7.380; cor 0.931
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 432.280446; int 39.451; cor 0.930
+COMMENT: PROPOSED_ION_FORM M+Na; M+K; mz 453.209527; int 0.754; cor 0.695
+COMMENT: PROPOSED_ION_FORM M+2Na-H; M+Na; mz 415.253816; int 7.380; cor 0.931
+COMMENT: PROPOSED_ION_FORM M+ACN+Na; M+IsoProp+H; mz 434.285704; int 1.358; cor 0.883
+COMMENT: PROPOSED_MF SevenGoldenRules 1.350; C26H33N2O2P; [M+H]+; delta(ppm) 1.350210
+COMMENT: PROPOSED_MF SevenGoldenRules 0.273; C18H38O10; [M+Na]+; delta(ppm) 0.272784
+COMMENT: DATES Averaged 2026.01.23, Processed 2026.02.05, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Thermo UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY ramped 20, 40 and 60 eV
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 4.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The study did not specify the exact gradient program.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.173
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 95% water and 5% acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 47.5% acetonitrile, 47.5% isopropanol and 5% water
+MS$FOCUSED_ION: PRECURSOR_M/Z 437.235828
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0000900000-e995354a9b8c6a309879
+PK$ANNOTATION: m/z int cor n mzPAF
+  437.2356796 999.0000 1.0000 32 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  437.235680 999.00 999
+//

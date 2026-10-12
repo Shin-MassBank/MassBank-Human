@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA037P0238001
+RECORD_TITLE: m/z 237.982481; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 49 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 237.98248
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4708
+COMMENT: DATASET_TITLE Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma.
+COMMENT: DATASET_AUTHORS Denise Drago, Valentina Pieri, Annapaola Andolfo, Rossella Galli, Alberto L Gallotti, Manuela Cominelli, Ilaria Pagano, Valentina Conti, Silvia Valtorta, Angela Coliva, Sara Lago, Daniela Michelatti, Luca Massimino, Federica Ungaro, Laura Perani, Antonello Spinelli, Antonella Castellano, Andrea Falini, Alessio Zippo, Pietro L Poliani, Rosa Maria Moresco
+COMMENT: DATASET_PUBLICATION Pieri V et al. Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma. Cancer Res, 83, 195-218 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 36409826
+COMMENT: PRECURSOR_IN_MS1 mz 237.983062; int 3.075; delta(ppm) 2.439295
+COMMENT: MS1_SPEC {191.946673: 20, 193.088027: 1, 194.082379: 2, 197.019394: 3, 197.963726: 4, 208.935993: 2, 217.953864: 5, 221.947011: 3, 226.965849: 11, 227.967172: 2, 228.903543: 2, 228.965375: 2, 229.935533: 3, 231.93221: 2, 232.914264: 6, 234.912297: 3, 235.926023: 2, 236.979371: 13, 237.983061: 3, 238.932013: 10, 239.067347: 6, 240.929945: 3, 242.943772: 35, 248.960825: 34, 249.963559: 2, 250.145821: 4, 255.231292: 8, 255.921397: 2, 256.236188: 2, 259.931266: 7, 265.142763: 6, 265.946687: 6, 283.263123: 9, 284.268122: 3, 284.924015: 1}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 12.243; C6HN5O6; [M-H]1; delta(ppm) -12.243203
+COMMENT: PROPOSED_MF SevenGoldenRules 1.490; C9H7NO3P2; [M-H]1; delta(ppm) -1.489604
+COMMENT: PROPOSED_MF SevenGoldenRules 5.423; C11H2N3O2P; [M-H]1; delta(ppm) 5.422827
+COMMENT: DATES Averaged 2025.09.23, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 44 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 16.000 ppm, MS2 15.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 2, 14.0 min: 95, 19.0 min: 95, 19.5 min: 2, 21.5 min: 2.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.470
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 237.982481
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-1910000000-f287729b8402c41250d6
+PK$ANNOTATION: m/z int cor n mzPAF
+  79.9564355 122.2882 0.7224 10 ?
+  92.9950482 157.0596 -0.2332 13 ?
+  102.9576003 102.6442 0.0986 13 ?
+  104.9958297 157.2348 -0.0499 13 ?
+  108.9910066 999.0000 -0.0634 13 ?
+  109.9937928 88.5489 1.0000 11 ?
+  142.9931564 140.5781 0.1278 13 ?
+  170.9895262 92.3219 0.4540 12 ?
+  236.9775997 325.3774 0.1259 13 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  79.956435 122.29 999
+  109.993793 88.55 723
+//

@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA054P0415000
+RECORD_TITLE: m/z 415.093865; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 31 product ion spectra among 45 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 415.09386
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS8280
+COMMENT: DATASET_TITLE MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis
+COMMENT: DATASET_AUTHORS Vaishnavi V Phadnis, Whitney S Henry, Tenzin Kunchok, Amy Deik, Zon Weng Lai
+COMMENT: DATASET_PUBLICATION Phadnis VV et al. MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis. Cell Rep, 42, 113023 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37691145
+COMMENT: PRECURSOR_IN_MS1 mz 415.093863; int 16.408; delta(ppm) -0.004763
+COMMENT: MS1_SPEC {369.099775: 3, 375.058866: 5, 383.187686: 5, 388.080381: 3, 391.83874: 4, 392.836732: 7, 393.834482: 2, 396.890538: 7, 397.888471: 23, 398.886019: 2, 399.097347: 3, 401.076824: 7, 408.847563: 3, 409.845412: 4, 410.843267: 4, 411.841128: 1, 413.864031: 2, 415.093863: 16, 416.096721: 2, 427.095067: 5, 431.090473: 3, 439.358: 3, 442.107437: 7, 443.09132: 8, 451.29437: 6, 458.100262: 4}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 0.752; C15H22N4O6P2; [M-H]1; delta(ppm) -0.752221
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Horizon UPLC system, Thermo Fisher Scientific - ID-X tribrid mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION HESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Ascentis Express C18 (2.7 µm, 150 x 2.1 mm, Sigma-Aldrich)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.5 min, 32% B; 4.0 min, 45% B; 5.0 min, 52% B; 8.0 min, 58% B; 11.0 min, 66% B; 14.0 min, 70% B; 18.0 min, 75% B; 21.0 min, 97% B;  21.0-35.0 min, 97% B; 35.1 min, 32% B; 35.1-40.0 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.26 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.630
+AC$CHROMATOGRAPHY: SOLVENT A 60:40 water:acetonitrile with 10 mM ammonium formate and 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90:10 isopropanol:acetonitrile, with 10 mM ammonium formate and 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 415.093865
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0zfr-0900000000-2ddf04ab0fad476c915a
+PK$ANNOTATION: m/z int cor n mzPAF
+  100.9337217 999.0000 1.0000 31 ?
+  158.9756093 791.9179 0.8927 31 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  100.933722 999.00 999
+  158.975609 791.92 791
+//

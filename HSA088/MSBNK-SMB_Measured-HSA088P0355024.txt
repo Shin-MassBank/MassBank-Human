@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA088P0355024
+RECORD_TITLE: m/z 355.126466; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 23 product ion spectra among 178 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 355.12647
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002533
+COMMENT: DATASET_TITLE Untargeted Metabolomics on First Trimester Serum Implicates Metabolic Perturbations Associated with BMI in Development of Hypertensive Disorders: A Discovery Study
+COMMENT: DATASET_AUTHORS Susan Sumner
+COMMENT: DATASET_PUBLICATION Li Y et al. Untargeted metabolomics on first trimester serum implicates metabolic perturbations associated with BMI in development of hypertensive disorders: a discovery study. Front Nutr, 10, 1144131 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37528997
+COMMENT: PRECURSOR_IN_MS1 mz 355.126451; int 2.959; delta(ppm) -0.041548
+COMMENT: MS1_SPEC {307.115225: 2, 307.151535: 1, 309.167165: 1, 309.946701: 1, 311.146454: 1, 327.008123: 1, 327.141425: 7, 329.005165: 1, 333.144481: 1, 343.917041: 1, 348.990123: 2, 350.987261: 2, 355.126451: 2, 385.219747: 1, 391.284374: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 356.129774; int 0.515; cor 0.754
+COMMENT: PROPOSED_MF SevenGoldenRules 0.031; C12H23N2O8P; [M+H]+; delta(ppm) -0.031063
+COMMENT: DATES Averaged 2026.01.07, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-45, ramp
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 8.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 99% B; 16.0-19.0 min, 1% B; 19.5 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.021
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 100% water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 100% methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 355.126466
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0009000000-72cfd880af9064b3b715
+PK$ANNOTATION: m/z int cor n mzPAF
+  337.1148820 999.0000 0.9759 23 ?
+  338.1177502 92.8678 1.0000 20 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  337.114882 999.00 999
+  338.117750 92.87 92
+//

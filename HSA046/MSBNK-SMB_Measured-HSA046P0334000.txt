@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-SMB_Measured-HSA046P0334000
+RECORD_TITLE: m/z 334.29527; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 108 product ion spectra among 35 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 334.29527
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS7866
+COMMENT: DATASET_TITLE A machine learning model for the prediction and verification of the protective intestinal microbiota-derived L-valine in sepsis
+COMMENT: DATASET_AUTHORS Zetian Wang
+COMMENT: DATASET_PUBLICATION Tian WZ et al. PE (0:0/14:0), an endogenous metabolite of the gut microbiota, exerts protective effects against sepsis-induced intestinal injury by modulating the AHR/CYP1A1 pathway. Clin Sci (Lond), 137, 1753-1769 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37921121
+COMMENT: PRECURSOR_IN_MS1 mz 334.295238; int 77.133; delta(ppm) -0.095578
+COMMENT: MS1_SPEC {285.298372: 13, 288.289746: 691, 288.641097: 20, 290.269065: 119, 291.272429: 23, 295.226818: 4, 296.146592: 17, 297.146671: 5, 313.273841: 10, 319.303838: 114, 331.284363: 9, 334.295237: 77, 335.298692: 15, 346.009461: 85, 347.012661: 11, 354.932082: 6, 369.351649: 14, 378.32144: 19}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 335.298692; int 15.275; cor 0.968
+COMMENT: PROPOSED_MF SevenGoldenRules 0.255; C18H39NO4; [M+H]+; delta(ppm) 0.255035
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Q Exactive HF-X mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 3.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 150 x 2.1 mm, Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 98% B; 9.0 min, 50% B; 12.0 min, 2% B; 12.0-13.5 min, 2% B; 14.0 min, 98% B; 14.0-20.0 min, 98% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.25 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.567
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% (v/v) formic acid in acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% (v/v) formic acid in water
+MS$FOCUSED_ION: PRECURSOR_M/Z 334.295270
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0009000000-a01d5851411ebbbd74ef
+PK$ANNOTATION: m/z int cor n mzPAF
+  132.1018915 67.3671 -0.2142 76 ?
+  334.2953082 999.0000 1.0000 108 ?
+  335.2987039 79.0826 0.9741 107 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  334.295308 999.00 999
+  335.298704 79.08 79
+//

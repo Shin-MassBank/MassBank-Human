@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA036P0368000
+RECORD_TITLE: m/z 368.26276; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 28 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 368.26276
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1108
+COMMENT: DATASET_TITLE DIAMetAlyzer allows automated false-discovery rate-controlled analysis for data-independent acquisition in metabolomics.
+COMMENT: DATASET_AUTHORS Oliver Alka, Premy Shanthamoorthy, Michael Witting, Karin Kleigrewe, Oliver Kohlbacher, Hannes Röst
+COMMENT: DATASET_PUBLICATION Alka O et al. DIAMetAlyzer allows automated false-discovery rate-controlled analysis for data-independent acquisition in metabolomics. Nat Commun, 13, 1347 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 35292629
+COMMENT: PRECURSOR_IN_MS1 mz 368.262748; int 14.289; delta(ppm) -0.031871
+COMMENT: MS1_SPEC {318.790812: 1, 327.006918: 4, 327.076709: 1, 329.003822: 4, 331.00081: 1, 337.196363: 1, 350.253127: 3, 351.236841: 19, 352.239141: 4, 355.067927: 1, 363.788807: 1, 365.214778: 1, 368.262748: 14, 369.266139: 2, 371.099368: 1, 371.31375: 1, 373.217931: 3, 396.293231: 1, 412.286606: 4}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 369.266140; int 2.968; cor 0.857
+COMMENT: PROPOSED_ION_FORM M+NH4; M+H; mz 351.236842; int 19.157; cor 0.861
+COMMENT: PROPOSED_ION_FORM M+NH4; M+Na; mz 373.217932; int 3.223; cor 0.746
+COMMENT: PROPOSED_MF SevenGoldenRules 7.777; C18H33N5O3; [M+H]+; delta(ppm) -7.776603
+COMMENT: PROPOSED_MF SevenGoldenRules 4.136; C17H37NO7; [M+H]+; delta(ppm) -4.136085
+COMMENT: PROPOSED_MF SevenGoldenRules 0.779; C21H39NP2; [M+H]+; delta(ppm) -0.778749
+COMMENT: PROPOSED_MF SevenGoldenRules 4.329; C17H34O7; [M+NH4]+; delta(ppm) -4.328597
+COMMENT: PROPOSED_MF SevenGoldenRules 0.811; C21H36P2; [M+NH4]+; delta(ppm) -0.810898
+COMMENT: DATES Averaged 2025.09.23, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Nexera UHPLC system, Shimadzu - TripleTOF 6600 mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped from 20 to 50 V or from 50 to 80 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 8.000 ppm, MS2 13.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 0.5 min: 5, 10.0 min: 100, 13.0 min: 100, 13.5 min: 5, 16.0 min: 5.
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.012
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 368.262760
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0900000000-fececd0e649067689b5a
+PK$ANNOTATION: m/z int cor n mzPAF
+  59.0493069 85.6951 1.0000 13 ?
+  101.0596184 999.0000 0.5207 15 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  59.049307 85.70 999
+//

@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-SMB_Measured-HSA078P0649001
+RECORD_TITLE: m/z 649.449561; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 72 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 649.44956
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003370
+COMMENT: DATASET_TITLE An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells
+COMMENT: DATASET_AUTHORS Rushing Blake
+COMMENT: DATASET_PUBLICATION Cao HH et al. An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells. PLoS One, 20, e0313159 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 39883710
+COMMENT: PRECURSOR_IN_MS1 mz 649.449561; int 14.396; delta(ppm) -0.000053
+COMMENT: MS1_SPEC {603.534459: 1, 605.423332: 21, 606.426696: 6, 612.324445: 2, 612.570693: 1, 619.43865: 1, 627.534193: 2, 629.550213: 1, 649.449561: 14, 650.452983: 4, 652.514827: 2, 653.517398: 1, 693.475787: 7, 694.479164: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 650.452984; int 4.981; cor 0.946
+COMMENT: PROPOSED_MF SevenGoldenRules 0.472; C40H61N2O3P; [M+H]+; delta(ppm) 0.471900
+COMMENT: DATES Averaged 2025.11.17, Processed 2026.02.08, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 31.67 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 1% B; 16.0 min, 99% B; 16.0-19.0 min, 99% B; 19.5 min, 1% B; 19.5-22.0 min, 1% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.679
+AC$CHROMATOGRAPHY: SOLVENT A 0.1%(v/v) formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1%(v/v) formic acid in methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 649.449561
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-0000009000-392319131bf9718cf79d
+PK$ANNOTATION: m/z int cor n mzPAF
+  649.4501907 999.0000 1.0000 15 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  649.450191 999.00 999
+//

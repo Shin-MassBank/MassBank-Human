@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA052P0480011
+RECORD_TITLE: m/z 480.501096; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 480.50110
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS5028
+COMMENT: DATASET_TITLE Single-cell metabolic fingerprints discover a cluster of circulating tumor cells with distinct metastatic potential
+COMMENT: DATASET_AUTHORS Zhang Wenjun
+COMMENT: DATASET_PUBLICATION Zhang W et al. Single-cell metabolic fingerprints discover a cluster of circulating tumor cells with distinct metastatic potential. Nat Commun, 14, 2485 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37120634
+COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: MS1_SPEC {476.314733: 1, 480.309919: 999, 481.312407: 268, 482.315226: 43, 483.31803: 5}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 0.052; C29H63N5; [M-H]1; delta(ppm) 0.051920
+COMMENT: DATES Averaged 2025.09.26, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Ultimate 3000 UPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -2.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.500 ppm, MS2 9.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex C18 column (2.1 mm x 100 mm, 2.6 μm, 100 Å, Phenomenex)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0 min, 10% B; 1.0 min, 30% B; 19.0 min, 95% B; 19.0-20.0 min, 95% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.166
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% (v/v) formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% (v/v) formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 480.501096
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0190400000-64a9ddb900b84abe7688
+PK$ANNOTATION: m/z int cor n mzPAF
+  78.9593780 54.4832 -0.6182 11 ?
+  122.0007787 3.2475 -0.4303 10 ?
+  140.0114024 39.9251 -0.4091 11 ?
+  152.9962536 11.4144 -0.1818 11 ?
+  196.0383818 114.2446 -0.0636 11 ?
+  214.0486278 20.6713 -0.1636 11 ?
+  283.2660031 999.0000 -0.1545 11 ?
+  284.2670671 20.1364 1.0000 11 ?
+  480.3124711 520.7175 0.5091 11 ?
+  481.3082568 14.6596 0.6364 10 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  284.267067 20.14 999
+//

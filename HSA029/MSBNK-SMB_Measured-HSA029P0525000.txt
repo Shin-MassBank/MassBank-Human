@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-SMB_Measured-HSA029P0525000
+RECORD_TITLE: m/z 525.288088; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 70 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 525.28809
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS1358
+COMMENT: DATASET_TITLE Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Lydia Woelflingseder, Heidi E. Schwartz-Zimmermann, Adam Gerhard, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Stable Isotope-Assisted Metabolomics for Deciphering Xenobiotic Metabolism in Mammalian Cell Culture. ACS Chem Biol, 15, 970-981 (2020)
+COMMENT: DATASET_PUBLICATION_PMID 32167285
+COMMENT: PRECURSOR_IN_MS1 mz 525.288095; int 148.512; delta(ppm) 0.013400
+COMMENT: MS1_SPEC {481.175087: 100, 482.178234: 26, 503.157203: 8, 503.306099: 76, 504.309354: 20, 510.415678: 5, 520.332708: 539, 521.336155: 131, 522.338439: 25, 523.340904: 4, 525.288095: 148, 526.291487: 35, 527.162957: 15, 527.293979: 7, 541.261853: 16, 575.129627: 999}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 526.291487; int 35.575; cor 0.988
+COMMENT: PROPOSED_ION_FORM M+Na; M+H; mz 503.306100; int 76.981; cor 0.964
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 520.332709; int 539.521; cor 1.000
+COMMENT: PROPOSED_ION_FORM M+Na; M+K; mz 541.261854; int 16.345; cor 0.988
+COMMENT: PROPOSED_ION_FORM M+2Na-H; M+Na; mz 503.306100; int 76.981; cor 0.964
+COMMENT: PROPOSED_ION_FORM M+ACN+Na; M+IsoProp+H; mz 522.338440; int 25.910; cor 0.976
+COMMENT: PROPOSED_MF SevenGoldenRules 0.799; C30H41N2O4P; [M+H]+; delta(ppm) 0.799190
+COMMENT: PROPOSED_MF SevenGoldenRules 0.323; C27H44N4OP2; [M+Na]+; delta(ppm) -0.322517
+COMMENT: PROPOSED_MF SevenGoldenRules 0.113; C22H46O12; [M+Na]+; delta(ppm) -0.113478
+COMMENT: PROPOSED_MF SevenGoldenRules 0.347; C25H41N3OP2; [M+ACN+Na]+; delta(ppm) -0.346867
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell, Medium
+AC$INSTRUMENT: Vanquish UHPLC system, Thermo Fisher Scientific - Thermo Q Exactive HF hybrid Orbitrap, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Stepped normalized collision energy at 20 and 50 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.500 ppm, MS2 7.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (1.8 µm, 2.1 mm x 150 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 5, 2.0 min: 5, 7.0 min: 40, 9.0 min: 100, 10.9 min: 100, 11.0 min: 5, 11.9 min: 5.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.858
+AC$CHROMATOGRAPHY: SOLVENT A Water with 0.1% (v/v) acetic acid 
+AC$CHROMATOGRAPHY: SOLVENT B Methanol with 0.1% (v/v) acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 525.288088
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-0000090000-a7c962d4fbb5845d715a
+PK$ANNOTATION: m/z int cor n mzPAF
+  525.2893414 999.0000 1.0000 10 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  525.289341 999.00 999
+//

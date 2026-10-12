@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0493004
+RECORD_TITLE: m/z 493.181546; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 493.18155
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: DATASET_PUBLICATION Guo L et al. Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers. J Pharm Biomed Anal, 214, 114718 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 35286988
+COMMENT: PRECURSOR_IN_MS1 mz 493.181939; int 1.185; delta(ppm) 0.796839
+COMMENT: MS1_SPEC {447.274444: 19, 448.277336: 6, 449.280668: 1, 463.092704: 2, 469.254525: 3, 493.181939: 1, 505.264356: 1, 526.212192: 2, 526.713874: 1, 527.213998: 1}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M-H; M+FA-H; mz 539.182889; int 0.430; cor 0.650
+COMMENT: PROPOSED_MF SevenGoldenRules 8.523; C22H31N4O7P; [M-H]1; delta(ppm) -8.523058
+COMMENT: PROPOSED_MF SevenGoldenRules 5.818; C21H35O11P; [M-H]1; delta(ppm) -5.817614
+COMMENT: PROPOSED_MF SevenGoldenRules 3.725; C15H36N4O10P2; [M-H]1; delta(ppm) -3.725297
+COMMENT: PROPOSED_MF SevenGoldenRules 2.475; C23H30N2O10; [M-H]1; delta(ppm) -2.474763
+COMMENT: PROPOSED_MF SevenGoldenRules 0.018; C27H32N2O3P2; [M-H]1; delta(ppm) 0.018212
+COMMENT: PROPOSED_MF SevenGoldenRules 2.323; C16H35N2O13P; [M-H]1; delta(ppm) 2.322999
+COMMENT: PROPOSED_MF SevenGoldenRules 5.666; C18H30N4O12; [M-H]1; delta(ppm) 5.665851
+COMMENT: PROPOSED_MF SevenGoldenRules 6.067; C28H31O6P; [M-H]1; delta(ppm) 6.066507
+COMMENT: PROPOSED_MF SevenGoldenRules 8.159; C22H32N4O5P2; [M-H]1; delta(ppm) 8.158825
+COMMENT: PROPOSED_MF SevenGoldenRules 8.371; C17H34O16; [M-H]1; delta(ppm) 8.371294
+COMMENT: DATES Averaged 2025.09.11, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 9.000 ppm, MS2 18.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.936
+AC$CHROMATOGRAPHY: SOLVENT A 25 mM ammonium acetate and 25 mM ammonium hydroxide in H2O
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 493.181546
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0009000000-ef0215993da4bd609cec
+PK$ANNOTATION: m/z int cor n mzPAF
+  313.1181914 999.0000 0.4811 10 ?
+  493.2434017 104.1280 1.0000 8 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  493.243402 104.13 999
+//

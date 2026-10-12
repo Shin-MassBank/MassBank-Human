@@ -1,0 +1,54 @@
+ACCESSION: MSBNK-SMB_Measured-HSA092P0742000
+RECORD_TITLE: m/z 742.957039; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 76 product ion spectra among 44 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 742.95704
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS9087
+COMMENT: DATASET_TITLE Gut microbiota-derived butyric acid protected against secondary brain injury after SAH by inhibiting neuronal pyroptosis and regulating gut microbiota composition (Human assays)
+COMMENT: DATASET_AUTHORS Yuan Bin
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 742.957043; int 53.035; delta(ppm) 0.005361
+COMMENT: MS1_SPEC {693.940582: 4, 695.956141: 8, 713.922654: 4, 715.938923: 15, 717.935812: 5, 723.95134: 36, 724.95479: 8, 725.966929: 64, 726.970109: 14, 740.941473: 14, 742.957042: 53, 743.960212: 11}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 743.960212; int 11.234; cor 0.970
+COMMENT: DATES Averaged 2026.01.11, Processed 2026.02.05, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Thermo UltiMate 3000 HPLC system, Thermo Fisher Scientific - Thermo Q Exactive  Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 1.800 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters ACQUITY UPLC BEH C18 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0-0.5 min, 5% B; 0.5-7 min,100% B; 7-8 min, 100% B; 8-8.1 min, 5% B; 8.1-10 min, 5% B.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.343
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in 100% water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in 100% acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 742.957039
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-9000000000-d3a8fd1db72ed8eae2a6
+PK$ANNOTATION: m/z int cor n mzPAF
+  61.9883695 999.0000 1.0000 76 ?
+  126.9050183 87.4451 0.8733 76 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  61.988369 999.00 999
+  126.905018 87.45 87
+//

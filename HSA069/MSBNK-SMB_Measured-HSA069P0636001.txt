@@ -1,0 +1,61 @@
+ACCESSION: MSBNK-SMB_Measured-HSA069P0636001
+RECORD_TITLE: m/z 636.34951; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 19 product ion spectra among 21 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 636.34951
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS7736
+COMMENT: DATASET_TITLE Gallbladder microbial species and host bile acids biosynthesis linked to cholesterol gallstone comparing to pigment individuals
+COMMENT: DATASET_AUTHORS Xingpeng Zhang, Junqing Hu, Yi Li, Jichao Tang, Kaijin Yang, Ayan Zhong, Yanjun Liu, Tongtong Zhang
+COMMENT: DATASET_PUBLICATION Zhang X et al. Gallbladder microbial species and host bile acids biosynthesis linked to cholesterol gallstone comparing to pigment individuals. Front Cell Infect Microbiol, 14, 1283737 (2024)
+COMMENT: DATASET_PUBLICATION_PMID 38529471
+COMMENT: PRECURSOR_IN_MS1 mz 636.349510; int 18.454; delta(ppm) -0.000823
+COMMENT: MS1_SPEC {586.355657: 15, 587.358027: 3, 612.351582: 1, 626.321236: 2, 636.349509: 18, 637.353059: 5, 638.298656: 1, 640.292489: 30, 641.295024: 12, 642.296555: 3, 652.323592: 1, 653.340041: 6, 654.342872: 1, 668.287643: 6, 669.290142: 2, 670.330143: 3, 685.27699: 2}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 637.353060; int 5.749; cor 0.914
+COMMENT: PROPOSED_ION_FORM M+FA-H; M+Cl; mz 626.321236; int 2.646; cor 0.686
+COMMENT: PROPOSED_ION_FORM M+FA-H; M+TFA-H; mz 704.337157; int 2.365; cor 0.806
+COMMENT: PROPOSED_ION_FORM M+TFA-H; M+Cl; mz 558.333230; int 19.664; cor 0.895
+COMMENT: PROPOSED_ION_FORM M+TFA-H; M+FA-H; mz 568.361978; int 475.254; cor 0.921
+COMMENT: PROPOSED_MF SevenGoldenRules 0.899; C36H53N3O3P2; [M-H]1; delta(ppm) 0.899025
+COMMENT: PROPOSED_MF SevenGoldenRules 0.974; C35H51N3OP2; [M+FA-H]1; delta(ppm) 0.974040
+COMMENT: PROPOSED_MF SevenGoldenRules 0.260; C26H54NO7P; [M+TFA-H]1; delta(ppm) 0.259857
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Dionex U3000 UHPLC system, Thermo Fisher Scientific - Q Exactive plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 23.33 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 1.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.01- 2.0 min, 5% B; 4.0 min, 30% B; 8.0 min, 50% B; 10.0 min, 80% B; 14.0-15.0 min, 100% B; 15.1-18.0, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.490
+AC$CHROMATOGRAPHY: SOLVENT A 0.1%(v/v) formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1%(v/v) formic acid in acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 636.349510
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-9bd87af7acea7b23fd8e
+PK$ANNOTATION: m/z int cor n mzPAF
+  61.9883537 13.7255 -0.2860 14 ?
+  112.9856840 999.0000 1.0000 19 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  112.985684 999.00 999
+//

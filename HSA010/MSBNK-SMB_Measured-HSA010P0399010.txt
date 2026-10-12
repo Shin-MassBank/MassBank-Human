@@ -1,0 +1,431 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010P0399010
+RECORD_TITLE: Riboflavin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L2
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L2[IS,SL,CO] using an internal criteria for MassBank Human. One of the possible structures is shown in the record.
+COMMENT: This is an averaged mass spectra data created by averaging 38 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L2 (Probable structure); AUNGANRZJHBGPY
+COMMENT: EVIDENCE_INVENTORY [IS,SL,CO]; IS (In silico evidence) q-value = 0.011680, MS-FINDER:MS-FINDER_DB (rank 1), MetFrag:MS-FINDER_DB (rank 1), MetFrag:PubChemLite (rank 1), SIRIUS6_CSI:biodatabase (rank 1); SL (Spectral library) Entropy:GNPS (score 0.747); CO (Contextual evidence) HMDB (HMDB0000244)
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: DATASET_PUBLICATION Rushing BR et al. Fecal metabolomics reveals products of dysregulated proteolysis and altered microbial metabolism in obesity-related osteoarthritis. Osteoarthritis Cartilage, 30, 81-91 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34718137
+COMMENT: PRECURSOR_IN_MS1 mz 399.127608; int 16.509; delta(ppm) -0.012405
+COMMENT: MS1_SPEC {354.14824: 2, 354.62197: 4, 356.217978: 1, 358.221145: 1, 359.228954: 4, 360.191603: 1, 360.213038: 1, 362.207395: 8, 363.210729: 1, 365.228958: 1, 366.20244: 3, 373.244641: 2, 374.228664: 44, 375.202753: 2, 375.231968: 7, 376.244871: 4, 377.14556: 285, 377.24709: 5, 378.142869: 3, 378.148899: 49, 379.151434: 4, 380.181656: 9, 381.184845: 2, 384.158805: 2, 387.260256: 4, 389.218111: 1, 389.239458: 2, 391.284255: 4, 392.287508: 1, 393.213184: 1, 395.154458: 6, 399.127608: 16, 400.131026: 3, 400.186846: 2, 401.275922: 2, 403.164043: 4, 403.255201: 4, 405.213298: 8, 406.216592: 2, 407.188769: 10, 411.169692: 1, 413.266205: 1, 415.255122: 5, 416.250629: 1, 417.234268: 4, 418.237668: 1, 419.228805: 5, 419.249955: 3, 421.168057: 6, 428.218169: 5, 430.266046: 3, 431.250204: 9, 432.253517: 2, 433.26565: 4, 439.059119: 2, 441.055946: 1, 442.266053: 3, 444.176648: 1, 444.28174: 1, 445.265658: 2, 445.302087: 3, 446.260986: 4, 447.244934: 3}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 400.131027; int 3.067; cor 0.883
+COMMENT: PROPOSED_ION_FORM M+Na; M+H; mz 377.145561; int 285.103; cor 0.719
+COMMENT: PROPOSED_ION_FORM M+2Na-H; M+Na; mz 377.145561; int 285.103; cor 0.719
+COMMENT: PROPOSED_MF SevenGoldenRules 0.186; C12H23N4O9P; [M+H]+; delta(ppm) 0.185873
+COMMENT: PROPOSED_MF SevenGoldenRules 0.683; C22H24O3P2; [M+H]+; delta(ppm) 0.683211
+COMMENT: PROPOSED_MF SevenGoldenRules 0.295; C17H20N4O6; [M+Na]+; delta(ppm) 0.295104
+COMMENT: PROPOSED_MF Aggregated_ranking 0.9999999; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF FalseProb 0.0003605; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF MS-FINDER 3.787; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C12H23N4O9P; [M+H]+; delta(ppm) 0.183417
+COMMENT: PROPOSED_MF MS-FINDER 2.677; C7H20N12O4P2; [M+H]+; delta(ppm) -0.577877
+COMMENT: PROPOSED_MF MS-FINDER 2.578; C23H18N4OS; [M+H]+; delta(ppm) 0.511973
+COMMENT: PROPOSED_MF MS-FINDER 2.574; C8H22N12OS3; [M+H]+; delta(ppm) 0.426319
+COMMENT: PROPOSED_MF MS-FINDER 2.514; C9H34N2O5P2S2; [M+Na]+; delta(ppm) 61120.478075
+COMMENT: PROPOSED_MF MS-FINDER 2.478; C15H14N10O4; [M+H]+; delta(ppm) 0.971017
+COMMENT: PROPOSED_MF MS-FINDER 2.420; C10H26N2O12S; [M+H]+; delta(ppm) -0.773537
+COMMENT: PROPOSED_MF MS-FINDER 2.389; C8H14N16O2S; [M+H]+; delta(ppm) -0.747231
+COMMENT: PROPOSED_MF MS-FINDER 2.365; C10H28N6O3S3; [M+Na]+; delta(ppm) 61120.287386
+COMMENT: PROPOSED_MF MS-FINDER 2.218; C14H31N2O2PS2; [M+2Na-H]+; delta(ppm) 87093.440636
+COMMENT: PROPOSED_MF MS-FINDER 1.660; C10H36N2O2S5; [M+Na]+; delta(ppm) 61121.608777
+COMMENT: PROPOSED_MF MS-FINDER 1.650; C18H32S4; [M+Na]+; delta(ppm) 61119.770513
+COMMENT: PROPOSED_MF MS-FINDER 1.639; C13H35O3PS4; [M+H]+; delta(ppm) -0.820324
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 9.317; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.807; C18H22O10; [M+H]+; delta(ppm) -2.406126
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.589; C16H24O10; [M+Na]+; delta(ppm) 61124.673690
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 6.195; C18H16N8O2; [M+Na]+; delta(ppm) 61117.127742
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 6.053; C19H18N4O6; [M+H]+; delta(ppm) -5.756942
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.024; C15H25N2O7P; [M+Na]+; delta(ppm) 61116.240930
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4.740; C17H17F3N4O4; [M+H]+; delta(ppm) 0.369577
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3.187; C20H22N2O4; [M-H+Na+Na]+; delta(ppm) 130194.205419
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3.144; C15H22N4O6; [M-H+Na+Na]+; delta(ppm) 130207.079654
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3.093; C20H16F2N4O3; [M+H]+; delta(ppm) 3.232466
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 2.387; C20H19F3N2O2; [M+Na]+; delta(ppm) 61116.450539
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 2.348; C23H18N4OS; [M+H]+; delta(ppm) 0.511973
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.982; C18H24N4OS2; [M+Na]+; delta(ppm) 61118.449126
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.909; C24H19N2O2P; [M+H]+; delta(ppm) 4.819793
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.544; C21H20N4OS; [M+Na]+; delta(ppm) 61127.959444
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.472; C22H20ClFN2O2; [M+H]+; delta(ppm) -56719.133364
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.062; C18H18F6N2; [M+Na]+; delta(ppm) 61123.348886
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.057; C21H20F2N2O; [M-H+Na+Na]+; delta(ppm) 130205.688085
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.043; C20H19FN4O2S; [M+H]+; delta(ppm) -2.350901
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.741; C13H24Cl2N6O4; [M+H]+; delta(ppm) -56727.772752
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.655; C16H26N4OS2; [M-H+Na+Na]+; delta(ppm) 130204.298456
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.622; C20H25ClN2OS; [M+Na]+; delta(ppm) 28316.154755
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 0.138; C17H21ClN6O2; [M+Na]+; delta(ppm) 28305.982561
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -0.325; C20H22N4OS2; [M+H]+; delta(ppm) -7.934205
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -1.259; C17H23FN2O5; [M-H+Na+Na]+; delta(ppm) 130190.548565
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -1.354; C21H18N6; [M-H+Na+Na]+; delta(ppm) 130189.925273
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -1.702; C14H26O10; [M-H+Na+Na]+; delta(ppm) 130211.359930
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -3.130; C19H27ClO4; [M-H+Na+Na]+; delta(ppm) 58268.903372
+COMMENT: PROPOSED_MF SIRIUS5_Sirius -4.684; C16H34S4; [M-H+Na+Na]+; delta(ppm) 130205.797507
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.844; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.740; C18H22O10; [M+H]+; delta(ppm) -2.406126
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.464; C20H22N2O4; [M-H+Na+Na]+; delta(ppm) 130194.205419
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.445; C15H22N4O6; [M-H+Na+Na]+; delta(ppm) 130207.079654
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.128; C19H18N4O6; [M+H]+; delta(ppm) -5.756942
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.099; C17H17F3N4O4; [M+H]+; delta(ppm) 0.369577
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.075; C18H16N8O2; [M+Na]+; delta(ppm) 61117.127742
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.067; C16H24O10; [M+Na]+; delta(ppm) 61124.673690
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.048; C16H26N4OS2; [M-H+Na+Na]+; delta(ppm) 130204.298456
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.043; C21H20F2N2O; [M-H+Na+Na]+; delta(ppm) 130205.688085
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.024; C20H16F2N4O3; [M+H]+; delta(ppm) 3.232466
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.012; C15H25N2O7P; [M+Na]+; delta(ppm) 61116.240930
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.003; C23H18N4OS; [M+H]+; delta(ppm) 0.511973
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.003; C22H20ClFN2O2; [M+H]+; delta(ppm) -56719.133364
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.002; C20H19FN4O2S; [M+H]+; delta(ppm) -2.350901
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.002; C24H19N2O2P; [M+H]+; delta(ppm) 4.819793
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.001; C13H24Cl2N6O4; [M+H]+; delta(ppm) -56727.772752
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.001; C18H24N4OS2; [M+Na]+; delta(ppm) 61118.449126
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.001; C21H20N4OS; [M+Na]+; delta(ppm) 61127.959444
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.001; C20H25ClN2OS; [M+Na]+; delta(ppm) 28316.154755
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.001; C17H23FN2O5; [M-H+Na+Na]+; delta(ppm) 130190.548565
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.037; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 9.236; C17H17F3N4O4; [M+H]+; delta(ppm) 0.369577
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 9.060; C18H22O10; [M+H]+; delta(ppm) -2.406126
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.784; C16H24O10; [M+Na]+; delta(ppm) 61124.673690
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.634; C13H22N2O12; [M+H]+; delta(ppm) 7.672762
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 7.832; C19H18N4O6; [M+H]+; delta(ppm) -5.756942
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.914; C18H16N8O2; [M+Na]+; delta(ppm) 61117.127742
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.291; C15H14N10O4; [M+H]+; delta(ppm) 0.971017
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 6.239; C20H16F2N4O3; [M+H]+; delta(ppm) 3.232466
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.670; C14H18N6O8; [M+H]+; delta(ppm) 4.321878
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.372; C18H27BrN2O3; [M+H]+; delta(ppm) -0.418848
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.193; C15H16F6N4O2; [M+H]+; delta(ppm) 6.496170
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.049; C15H19F7N2O; [M+Na]+; delta(ppm) 61120.125344
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.884; C19H22NO7; [M+Na]+; delta(ppm) 61117.112933
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.798; C20H19F3N2O2; [M+Na]+; delta(ppm) 61116.450539
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.533; C12H23N4O9P; [M+H]+; delta(ppm) 0.183417
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.402; C18H18F6N2; [M+Na]+; delta(ppm) 61123.348886
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 4.324; C14H21FN4O7; [M+Na]+; delta(ppm) 61117.677176
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.985; C13H16F4N8O; [M+Na]+; delta(ppm) 61120.802551
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 3.801; C13H16N10O4; [M+Na]+; delta(ppm) 61128.476324
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.990; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.575; C17H17F3N4O4; [M+H]+; delta(ppm) 0.369577
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.221; C13H22N2O12; [M+H]+; delta(ppm) 7.672762
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.039; C19H18N4O6; [M+H]+; delta(ppm) -5.756942
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.038; C18H22O10; [M+H]+; delta(ppm) -2.406126
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.013; C14H18N6O8; [M+H]+; delta(ppm) 4.321878
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.008; C15H14N10O4; [M+H]+; delta(ppm) 0.971017
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.007; C20H16F2N4O3; [M+H]+; delta(ppm) 3.232466
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.004; C15H16F6N4O2; [M+H]+; delta(ppm) 6.496170
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.004; C12H23N4O9P; [M+H]+; delta(ppm) 0.183417
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.004; C18H27BrN2O3; [M+H]+; delta(ppm) -0.418848
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.003; C18H16N8O2; [M+Na]+; delta(ppm) 61117.127742
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.002; C16H24O10; [M+Na]+; delta(ppm) 61124.673690
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C20H19F3N2O2; [M+Na]+; delta(ppm) 61116.450539
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.001; C19H22NO7; [M+Na]+; delta(ppm) 61117.112933
+COMMENT: PROPOSED_MF q-value 0.0003605; C17H20N4O6; [M+Na]+; delta(ppm) 61120.900703
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:ZBRA 0.9666480; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:ZBRA 0.0295170; LXMDIEJPPQSFFB; [M+Na]+; Isoriboflavin_[S6: 2, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking:ZBRA 0.0038348; PKDJPKVEKBPTQU; [M+Na]+; 4-hydroxy-7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentylidene]-3,4-dihydrobenzo[g]pteridin-10-ium-2-one_[S6: 3, Finder: 3, Frag: 3]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:ZBRA 1.000; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[S6: 1, Finder: 1, FragP: 1]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:ZBRA 0.000; LXMDIEJPPQSFFB; [M+Na]+; Isoriboflavin_[S6: 2, Finder: 2, FragP: 100]
+COMMENT: PROPOSED_COMPOUND Aggregated_ranking_2:ZBRA 0.000; PKDJPKVEKBPTQU; [M+Na]+; 4-hydroxy-7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentylidene]-3,4-dihydrobenzo[g]pteridin-10-ium-2-one_[S6: 3, Finder: 3, FragP: 100]
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.445; ZBQMTQGDBFZUBG; [M+H]+; 1-[(1S)-1-(4-chloro-2-methoxyphenyl)-5-fluorospiro[3,9-dihydro-1H-pyrido[3,4-b]indole-4,1'-cyclopropane]-2-yl]ethanone
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.418; NLPHTDCJPAPIFT; [M+H]+; 7-(2,5-dimethoxyphenyl)-5-(trifluoromethyl)-1,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxylic acid ethyl ester
+COMMENT: PROPOSED_COMPOUND CFM-ID:MS-FINDER_DB 0.405; QEWPEMXZDHNPNK; [M+H]+; 7-(2,3-dimethoxyphenyl)-5-(trifluoromethyl)-1,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxylic acid ethyl ester
+COMMENT: PROPOSED_COMPOUND Entropy:GNPS 0.747; AUNGANRZJHBGPY; [M+Na]+; 83-88-5 CollisionEnergy:102040_C17H20N4O6
+COMMENT: PROPOSED_COMPOUND FalseProb:ZBRA 0.0116805; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND FalseProb_2:ZBRA 0.012; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[1, 1, -1, 1]
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 6.928; AUNGANRZJHBGPY-QTZZOOGMNA-N; [M+Na]+; Riboflavin
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.886; LXMDIEJPPQSFFB-UHFFFAOYSA-N; [M+Na]+; 6,7-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MS-FINDER_DB 5.721; PKDJPKVEKBPTQU-UHFFFAOYSA-N; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; AUNGANRZJHBGPY-QTZZOOGMNA-N; [M+Na]+; Riboflavin
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 1.000; LXMDIEJPPQSFFB-UHFFFAOYSA-N; [M+Na]+; 6,7-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:MS-FINDER_DB 0.992; PKDJPKVEKBPTQU-UHFFFAOYSA-N; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 3.768; AUNGANRZJHBGPY-SCRDCRAPSA-N; [M+Na]+; 7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_COMPOUND MetFrag:PubChemLite 1.111; RLPARBOQTNGFMR-XEACYCJLSA-N; [M+Na]+; [(4S,6S,7R,8S)-5-acetyl-11-amino-7-methoxy-12-methyl-10,13-dioxo-2,5-diazatetracyclo[7.4.0.02,7.04,6]trideca-1(9),11-dien-8-yl]methyl carbamate
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 0.996; AUNGANRZJHBGPY; [M+Na]+; 83-88-5 CollisionEnergy:102040_C17H20N4O6
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -32.852; AUNGANRZJHBGPY; [M+Na]+; Hyflavin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -207.261; HYZBGWLLSXSYLX; [M-H+Na+Na]+; Glp-glu-pronh2
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -225.890; OZFDJYNLTZUREV; [M-H+Na+Na]+; Oprea1_358299
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -226.105; SIAITERJSKUIOP; [M-H+Na+Na]+; 3,5-dimethoxy-N-[2-(pyrrolidine-1-carbonyl)phenyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -236.996; AFRJFGMRFPTOIG; [M-H+Na+Na]+; N-[4-(6,7-dimethoxy-3,4-dihydro-1H-isoquinoline-2-carbonyl)phenyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -265.412; XUORJRCOZXVDPF; [M-H+Na+Na]+; N-[2-[3-(3,5-dimethoxyphenyl)prop-2-enoylamino]ethyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -268.103; YVSQILWSGSVLFA; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -274.659; VBWVJJZYUPVDPN; [M-H+Na+Na]+; Oprea1_028056
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -275.079; ZHMICNLCSJUGKY; [M-H+Na+Na]+; 9, 1,4-bis[(2-methoxyethyl)amino]-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -278.107; OXEJTNGOAZKYDO; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -280.132; DEXJWCHPRUOOKP; [M-H+Na+Na]+; 3,5-dimethoxy-N-[2-(5-methoxy-1H-indol-3-yl)ethyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -280.954; GMVITYULVLCTDZ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -288.373; XWBMYSLAWCIYBM; [M-H+Na+Na]+; Papaveraldylamine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -293.663; WZZGVUSWZMBPPL; [M-H+Na+Na]+; Diazaquinomycin A
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -298.344; UHDRIIGANHVXPN; [M-H+Na+Na]+; 3,4-dimethoxy-N-[2-(5-methoxy-1H-indol-3-yl)ethyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -299.129; UWIZOWRRUSADOC; [M-H+Na+Na]+; 1-(4-aminophenyl)-2-(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)ethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -299.261; JSYWEFSXSAYLEY; [M-H+Na+Na]+; N-[2-(benzoylamino)benzoyl]isoleucine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -299.513; PKDJPKVEKBPTQU; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -300.448; DCXJQYQNQBRKHF; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -301.521; VCOUEHUEFUDZIS; [M-H+Na+Na]+; dihydropyrrole, 19
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -304.716; LVVOUDOWZDIZFR; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -307.990; XWQJEBPLPSCFIL; [M-H+Na+Na]+; N-[(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-9-yl)methyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -308.890; OSFNJLFAXWUPEO; [M-H+Na+Na]+; 3-(o-((2-(Dimethylamino)ethyl)carbamoyl)phenyl)-2-hydroxy-3-phenylacrylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -310.020; LUYYUZYWBTWOFO; [M-H+Na+Na]+; 1,4-Bis((3-hydroxypropyl)amino)anthraquinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.132; STNMODHUWLPVMN; [M-H+Na+Na]+; 2,6-dimethoxy-N-[2-(5-methoxy-1H-indol-3-yl)ethyl]benzamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.402; YPFNARBCJMKBFF; [M-H+Na+Na]+; 2-(4-methoxy-6,6-dimethyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-6-ium-5-yl)-1-pyridin-2-ylethanone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -311.440; FNNJTRIYEZDPRF; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -315.011; NHEROPWKGLZFBC; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -322.096; TXAWDFSFBLIRAC; [M-H+Na+Na]+; 4-methoxy-6-methyl-N-(2-methylphenyl)-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinoline-5-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -323.114; GRJGOHWONNQWOK; [M-H+Na+Na]+; 4-methoxy-6-methyl-N-(3-methylphenyl)-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinoline-5-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -324.641; YYILDENFWFELNC; [M-H+Na+Na]+; 4-methoxy-6-methyl-N-(4-methylphenyl)-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinoline-5-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -327.697; JAIKFWUXIOSVGB; [M-H+Na+Na]+; Oprea1_599155
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -329.263; PVMHHJDMWPZFBU; [M-H+Na+Na]+; N-(5-(4-Amino-alpha-hydroxy-o-tolyloxy)pentyl)phthalimide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -333.083; QLLZAVDYYAQESE; [M-H+Na+Na]+; Epitope ID:164028
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -341.040; NEAAQTDWNJDKEY; [M-H+Na+Na]+; N-[2-(2-phenoxyethylcarbamoyl)phenyl]oxolane-2-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -344.150; SLIIDFWZYJZQPA; [M-H+Na+Na]+; DL-N-Benzyl-4-(2-phenylacetamido)glutaramic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -347.702; UPCUTDNNXUIBAE; [M-H+Na+Na]+; Oprea1_048899
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -361.254; IARXKEXPNHDQQC; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -362.232; CGXVGQCAXOJLLW; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -363.872; BAQAZTAUSADEMZ; [M+H]+; 2-[(Z)-[[(3S)-1-(4-methoxyphenyl)-5-oxopyrrolidine-3-carbonyl]hydrazinylidene]methyl]-4-nitrophenolate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -364.966; VJVCMXMAYFJTGJ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -368.248; HXCFGIFBIXRFOX; [M+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -369.828; FBWKJYJCSSZORR; [M-H+Na+Na]+; 2-(4-methoxy-6-methyl-5,6,7,8-tetrahydro[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-1-phenylethanone oxime
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -372.280; WWWDAHVNLIIAGH; [M-H+Na+Na]+; 3-[(3,4-dimethoxyphenyl)carbonyl]-1,2,3,4,5,6-hexahydro-8H-1,5-methanopyrido[1,2-a][1,5]diazocin-8-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -375.917; ULWJYLNJNSETKJ; [M-H+Na+Na]+; 3-[(2-methoxyphenoxy)acetyl]-1,2,3,4,5,6-hexahydro-8H-1,5-methanopyrido[1,2-a][1,5]diazocin-8-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -376.673; RXVJYWBNKIQSSP; [M-H+Na+Na]+; N-acetylphenylalanylphenylalanine
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -380.219; CMEQHOXCIGFZNJ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -381.077; GMOUGANMFUAWCV; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -382.820; KVZNXCGZVOTMJW; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -385.550; CPBBZPRIUALXOD; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -387.711; PDZVZCOIAVDZBD; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -387.926; XTBBKPCDWJUYOK; [M-H+Na+Na]+; ethyl 2-[3-[2-[[(E)-3-pyridin-3-ylprop-2-enoyl]amino]ethyl]phenoxy]acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -394.643; SNEPAVYTEITOOV; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -395.337; NMOBDPDNMJDMJV; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -399.292; SNYSDXYVHWNPIA; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -399.958; QGAZVOJPGPDXIX; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -404.125; FUSCRTKCQYGJDN; [M-H+Na+Na]+; [(2-benzamido-4-methylpentanoyl)amino] benzoate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -406.772; SMFUDVJKOUBSBI; [M-H+Na+Na]+; (+-)-6-(2-Hydroxy-3-((3-methoxybenzyl)amino)propoxy)-2(1H)-quinolinone
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -407.369; JZFWZAKBFHCAAM; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -409.236; ZAKRMJAETCUYKK; [M-H+Na+Na]+; Tilnoprofen arbamel
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -410.946; DLOJHFGHNFWKRC; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -415.740; JZFNLGWIUKSTKD; [M-H+Na+Na]+; 1H-Isoindole-1,3(2H)-dione, hexahydro-2-(3-indoyl)ethyl-5,2''-spiro-1,3-dioxolane-
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -416.597; MHIIAQCNGPQDTJ; [M-H+Na+Na]+; 1-[(3S,3aR,6R,6aS)-6-phenylmethoxy-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-3-yl]-3-phenylurea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -416.995; ASELQGFIWGKGJJ; [M-H+Na+Na]+; Alpneumine F
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -423.492; BZLRLKIDKINDQD; [M-H+Na+Na]+; 4-Butyl-4-(hydroxymethyl)-1-(4-hydroxyphenyl)-2-phenylpyrazolidine-3,5-dione
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -426.394; PUFDXKIBYZDMIN; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -426.999; DHECBQUIZKPOOU; [M-H+Na+Na]+; Alpneumine C
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -427.622; LNRAHCYSFBURKI; [M-H+Na+Na]+; Alpneumine B
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -427.869; UMPDDYQJZXXVKC; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -431.212; PTFVLKUZOCJAQV; [M-H+Na+Na]+; N-[4-(tert-butylcarbamoyl)phenyl]-2,3-dihydro-1,4-benzodioxine-3-carboxamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -431.715; KVNFNCBACONSQM; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -434.528; USBSTVPJNQLYEM; [M+H]+; 1-{4-[(2-aminopyridin-4-yl)oxy]-3-fluorophenyl}-3-[2-(4-fluorophenyl)acetyl]urea
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -438.107; BAXPEQHEDSMOOA; [M-H+Na+Na]+; ethyl 2-benzamido-7,7-dimethyl-5,8-dihydropyrano[4,3-b]pyridine-3-carboxylate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -439.815; PHWZTPFBAGRZIB; [M-H+Na+Na]+; N-[(2S)-1-hydroxy-3-phenylpropan-2-yl]-2-(6-methyl-3-oxo-1,4-benzoxazin-4-yl)acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -444.185; LAQCMTRFWGAUTH; [M-H+Na+Na]+; 1-(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-9-yl)-3-(1-methylpyrrol-2-yl)prop-2-en-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -444.824; XJBQLDFXLQMHKY; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -446.080; UDOSXDXLWFMELH; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -446.791; KTEDEOXQNICGRJ; [M-H+Na+Na]+; Methyl 20-hydroxy-19-oxo-2,16-didehydrocuran-17-oate
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -448.532; ULGCDSCNWRHWFY; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -450.425; LHHMQELCSJUOAZ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -455.658; CKYHNEXWDIJMCL; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -457.377; AEWRAGAAEWQODR; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -460.149; OGLVSIURZRSWHT; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -460.184; NCUFQCJMAUHOGC; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -461.214; SXFSVWKNNBMDFO; [M-H+Na+Na]+; 6-Thio-8-n-nonylthiotheophylline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -461.709; RUQLVXQOIVDDMB; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -461.836; KVTCUOYRGHKESG; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -463.988; VNWCDGXRGWDKHA; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -465.008; WHILDIYQLWNTLZ; [M-H+Na+Na]+; 2-Thio-8-n-nonylthiotheophylline
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -468.167; PRMLMLPGVSRYNB; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -478.739; BLXUPISDXRFTCK; [M-H+Na+Na]+; Uncaric acid A
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -483.473; JWYDIWHPMPBLOA; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -488.695; JXEPZOGAOIBSNZ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -494.584; PIQMOURCPMZSBS; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -498.736; NYHDCCXVPFWHFN; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -505.315; RCUIQTITHDSEAJ; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -518.381; ARYOTFKSFUYFEY; [M+H]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -537.927; VKSSUOKAAYBRME; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -564.803; VLJSYXZVRMIUSX; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -581.714; GZMCRBONSRHEMV; [M-H+Na+Na]+; nan
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -600.318; YMKBKDGGJWGJOL; [M+Na]+; (3r)-3-[({3-Hydroxy-2-Methyl-5-[(Phosphonooxy)methyl]pyridin-4-Yl}methyl)amino]-5-Methylhexanoic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.515; AUNGANRZJHBGPY; [M+Na]+; Hyflavin
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.403; HYZBGWLLSXSYLX; [M-H+Na+Na]+; Glp-glu-pronh2
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.102; BAQAZTAUSADEMZ; [M+H]+; 2-[(Z)-[[(3S)-1-(4-methoxyphenyl)-5-oxopyrrolidine-3-carbonyl]hydrazinylidene]methyl]-4-nitrophenolate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -31.036; AUNGANRZJHBGPY; [M+Na]+; Vitamin G
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -115.510; LXMDIEJPPQSFFB; [M+Na]+; Isoriboflavin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -308.467; PKDJPKVEKBPTQU; [M+Na]+; 4-hydroxy-7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentylidene]-3,4-dihydrobenzo[g]pteridin-10-ium-2-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -324.020; VTHPUDGLCGMIQI; [M+H]+; 5,7-dihydroxy-2-(propan-2-yl)-8-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}-4H-chromen-4-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -373.377; YVYNMIFMUKDFEC; [M+H]+; Cnidioside B
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -378.393; OLFRCQFNQXYDGW; [M+H]+; 3-(6-methoxy-4-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}-1-benzofuran-5-yl)propanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -378.626; FQTKOEVCGAVVIG; [M+H]+; Picraquassioside A
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -387.515; NLPHTDCJPAPIFT; [M+H]+; 7-(2,5-Dimethoxyphenyl)-5-(trifluoromethyl)-1,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxylic acid ethyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -389.031; ACDGLQFMVMZFAB; [M+H]+; 4-(acetyloxy)-2,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl 3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -404.926; AQZCWLSWPSBFPW; [M+H]+; (-)-6,8-Dihydroxy-5-Methoxy-3-Methylisocoumarin 6-O-(4-O-Methyl-Beta-D-Glucopyranoside)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -418.730; BUVPABKYRXLOGT; [M+H]+; 6-Carboxyethyl-7-Methoxy-5-Hydroxybenzofuran 5-O-Beta-D-Glucopyranoside
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -419.834; QEWPEMXZDHNPNK; [M+H]+; 7-(2,3-Dimethoxyphenyl)-5-(trifluoromethyl)-1,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxylic acid ethyl ester
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -420.673; WMCJBKAMWFRRDO; [M+H]+; 3R-(+)-5-O-[6'-O-Acetyl]-Α-D-Glucopyranosyl-5-Hydroxymellein
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -424.459; ZNBBYALXAQXHJE; [M+H]+; 4,5-dihydroxy-2-(hydroxymethyl)-6-[(5-oxooxolan-3-yl)oxy]oxan-3-yl 2-(4-hydroxyphenyl)acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -424.561; VZGJAVFCUBLIJF; [M+H]+; 5-(3',4'-Dihydroxyphenyl)-Gamma-Valerolactone-4'-O-Methyl-3'-O-Glucuronide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -426.531; BYAMZRXKQNNLSE; [M+H]+; 5-{[3,4-dihydroxy-6-(hydroxymethyl)-5-methoxyoxan-2-yl]oxy}-8-hydroxy-6-methoxy-3-methyl-1H-isochromen-1-one
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -427.301; XWRNSSIDYCJUCG; [M+H]+; 3'-O-Acetylgentiopicroside
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -439.771; SURCUMXPGKBBPL; [M+H]+; 9-O-(40-O-Methyl-B- D-Glucopyranosyl) Cytogenin
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -440.915; CISWUCBSWWHCJB; [M+H]+; 5-(3',4'-Dihydroxyphenyl)-Gamma-Valerolactone-3'-O-Methyl-4'-O-Glucuronide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -444.007; PKTSIJBLELMGBI; [M+H]+; 3,4,6-trihydroxy-2-{[3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy}cyclohexane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -445.041; SCTNBUBWGRBAFE; [M+H]+; Monobutyl Phthalate Acyl-|A-D-glucuronide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -457.001; DTJWTKVKHOJHJK; [M+H]+; 1,3,4-trihydroxy-5-{[3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy}cyclohexane-1-carboxylic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -465.787; WKRKXTOYTASIOP; [M+H]+; 4-O-Sinapoylquinic Acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -477.765; RALBOGKBFZBDKY; [M+H]+; 5-(3',4'-Dihydroxyphenyl)-Gamma-Valerolactone-3'-O-Glucuronide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -482.704; SNIRJYJBIJKJEM; [M+H]+; 5-(3',5'-Dihydroxyphenyl)-gamma-valerolactone-O-glucuronide-O-methyl
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -499.222; BAQAZTAUSADEMZ; [M+H]+; 1-(4-methoxyphenyl)-N'-[(3-nitro-6-oxo-1-cyclohexa-2,4-dienylidene)methyl]-5-oxo-3-pyrrolidinecarbohydrazide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -502.873; OVOZQKZLTLWRCL; [M+H]+; [6-({4-ethenyl-8-oxo-3H,4H,6H,8H-pyrano[3,4-c]pyran-3-yl}oxy)-3,4,5-trihydroxyoxan-2-yl]methyl acetate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -506.288; HNRLQFCMAWFVJQ; [M+H]+; N-[[5-[(2S)-5-oxo-1-[[4-(trifluoromethoxy)phenyl]methyl]pyrrolidin-2-yl]-1,2,4-oxadiazol-3-yl]methyl]acetamide
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -559.271; QGAZVOJPGPDXIX; [M+H]+; 2-Ethoxy-2-oxoethyl 4-[(5-cyano-1,6-dihydro-2-hydroxy-1,4-dimethyl-6-oxopyridin-3-yl)azo]benzoate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -591.390; ARYOTFKSFUYFEY; [M+H]+; 1,1',3',5-tetramethyl-5'-phenyl-2',3',4',5'-tetrahydro-1'H-spiro[1,5-diazinane-3,6'-furo[2,3-d]pyrimidine]-2,2',4,4',6-pentone
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -627.861; RLPARBOQTNGFMR; [M+Na]+; (1-Acetyl-6-amino-8a-methoxy-5-methyl-4,7-dioxo-1,1a,2,4,7,8,8a,8b-octahydroazireno[2',3':3,4]pyrrolo[1,2-a]indol-8-yl)methyl hydrogen carbonimidate
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -649.782; BEWOXKJJMBKRQL; [M+Na]+; 2-[[2-[[2-amino-3-(1H-indol-3-yl)propanoyl]amino]acetyl]amino]butanedioic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -668.098; JPWIMMUNWUKOAD; [M+Na]+; 3-[(2-aminoacetyl)amino]-4-[[1-carboxy-2-(1H-indol-3-yl)ethyl]amino]-4-oxobutanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -671.368; NRIFEOUAFLTMFJ; [M+Na]+; 3-amino-4-[[2-[[1-carboxy-2-(1H-indol-3-yl)ethyl]amino]-2-oxoethyl]amino]-4-oxobutanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -685.424; LHHDBONOFZDWMW; [M+Na]+; 3-[[2-amino-3-(1H-indol-3-yl)propanoyl]amino]-4-(carboxymethylamino)-4-oxobutanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -689.458; GULGDABMYTYMJZ; [M+Na]+; 2-[[2-[(2-aminoacetyl)amino]-3-(1H-indol-3-yl)propanoyl]amino]butanedioic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -715.895; LTARLVHGOGBRHN; [M+Na]+; 3-amino-4-[[1-(carboxymethylamino)-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-4-oxobutanoic acid
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.851; AUNGANRZJHBGPY; [M+Na]+; Vitamin G
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.373; VTHPUDGLCGMIQI; [M+H]+; 5,7-dihydroxy-2-(propan-2-yl)-8-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}-4H-chromen-4-one
+COMMENT: PROPOSED_COMPOUND q-value:ZBRA 0.0116805; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[1, 1, 1, -1]
+COMMENT: PROPOSED_COMPOUND q-value_2:ZBRA 0.012; AUNGANRZJHBGPY; [M+Na]+; Vitamin G_[1, 1, -1, 1]
+COMMENT: PROPOSED_CLASS Entropy:GNPS 0.747; Flavins; [M+Na]+; AUNGANRZJHBGPY_83-88-5 CollisionEnergy:102040::C17H20N4O6::29::0.9961::0.4545::0.7470
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 6.928; Flavins; [M+Na]+; AUNGANRZJHBGPY_Riboflavin
+COMMENT: PROPOSED_CLASS MS-FINDER:MS-FINDER_DB 5.886; Alloxazines and isoalloxazines; [M+Na]+; LXMDIEJPPQSFFB_6,7-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Flavins; [M+Na]+; AUNGANRZJHBGPY_Riboflavin
+COMMENT: PROPOSED_CLASS MetFrag:MS-FINDER_DB 1.000; Alloxazines and isoalloxazines; [M+Na]+; LXMDIEJPPQSFFB_6,7-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_CLASS MetFrag:PubChemLite 3.768; Flavins; [M+Na]+; AUNGANRZJHBGPY_7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -32.852; Flavins; [M+Na]+; AUNGANRZJHBGPY_Hyflavin
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -207.261; N-acyl-alpha amino acids and derivatives; [M-H+Na+Na]+; HYZBGWLLSXSYLX_Glp-glu-pronh2
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -225.890; Dimethoxybenzenes; [M-H+Na+Na]+; OZFDJYNLTZUREV_Oprea1_358299
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -226.105; Benzanilides; [M-H+Na+Na]+; SIAITERJSKUIOP_3,5-dimethoxy-N-[2-(pyrrolidine-1-carbonyl)phenyl]benzamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -236.996; Benzylisoquinolines; [M-H+Na+Na]+; AFRJFGMRFPTOIG_N-[4-(6,7-dimethoxy-3,4-dihydro-1H-isoquinoline-2-carbonyl)phenyl]acetamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -265.412; Cinnamic acid amides; [M-H+Na+Na]+; XUORJRCOZXVDPF_N-[2-[3-(3,5-dimethoxyphenyl)prop-2-enoylamino]ethyl]benzamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -278.107; Indolecarboxamides and derivatives; [M-H+Na+Na]+; OXEJTNGOAZKYDO_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -293.663; Quinoline quinones; [M-H+Na+Na]+; WZZGVUSWZMBPPL_Diazaquinomycin A
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -299.129; Alkyl-phenylketones; [M-H+Na+Na]+; UWIZOWRRUSADOC_1-(4-aminophenyl)-2-(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)ethanone
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -300.448; N-alkylindoles; [M-H+Na+Na]+; DCXJQYQNQBRKHF_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -301.521; Alpha amino acid amides; [M-H+Na+Na]+; VCOUEHUEFUDZIS_dihydropyrrole, 19
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -304.716; Alpha amino acids and derivatives; [M-H+Na+Na]+; LVVOUDOWZDIZFR_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -307.990; Tetrahydroisoquinolines; [M-H+Na+Na]+; XWQJEBPLPSCFIL_N-[(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-9-yl)methyl]benzamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -311.440; Acetanilides; [M-H+Na+Na]+; FNNJTRIYEZDPRF_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -327.697; 3-alkylindoles; [M-H+Na+Na]+; JAIKFWUXIOSVGB_Oprea1_599155
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -333.083; Stilbenes; [M-H+Na+Na]+; QLLZAVDYYAQESE_Epitope ID:164028
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -341.040; Acylaminobenzoic acid and derivatives; [M-H+Na+Na]+; NEAAQTDWNJDKEY_N-[2-(2-phenoxyethylcarbamoyl)phenyl]oxolane-2-carboxamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -361.254; Alpha amino acid esters; [M-H+Na+Na]+; IARXKEXPNHDQQC_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -362.232; Phenylpyrrolidines; [M-H+Na+Na]+; CGXVGQCAXOJLLW_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -372.280; N-benzoylpiperidines; [M-H+Na+Na]+; WWWDAHVNLIIAGH_3-[(3,4-dimethoxyphenyl)carbonyl]-1,2,3,4,5,6-hexahydro-8H-1,5-methanopyrido[1,2-a][1,5]diazocin-8-one
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -375.917; Cytisine and derivatives; [M-H+Na+Na]+; ULWJYLNJNSETKJ_3-[(2-methoxyphenoxy)acetyl]-1,2,3,4,5,6-hexahydro-8H-1,5-methanopyrido[1,2-a][1,5]diazocin-8-one
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -380.219; Biphenyls and derivatives; [M-H+Na+Na]+; CMEQHOXCIGFZNJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -381.077; Furofurans; [M-H+Na+Na]+; GMOUGANMFUAWCV_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -387.711; Phenylmorpholines; [M-H+Na+Na]+; PDZVZCOIAVDZBD_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -387.926; Phenoxyacetic acid derivatives; [M-H+Na+Na]+; XTBBKPCDWJUYOK_ethyl 2-[3-[2-[[(E)-3-pyridin-3-ylprop-2-enoyl]amino]ethyl]phenoxy]acetate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -407.369; Anisoles; [M-H+Na+Na]+; JZFWZAKBFHCAAM_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -409.236; Chromeno[2,3-b]pyridines; [M-H+Na+Na]+; ZAKRMJAETCUYKK_Tilnoprofen arbamel
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -416.597; Benzylethers; [M-H+Na+Na]+; MHIIAQCNGPQDTJ_1-[(3S,3aR,6R,6aS)-6-phenylmethoxy-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-3-yl]-3-phenylurea
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -426.394; Phenylimidazoles; [M-H+Na+Na]+; PUFDXKIBYZDMIN_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -426.999; Strychnos alkaloids; [M-H+Na+Na]+; DHECBQUIZKPOOU_Alpneumine C
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -434.528; N-acyl-phenylureas; [M+H]+; USBSTVPJNQLYEM_1-{4-[(2-aminopyridin-4-yl)oxy]-3-fluorophenyl}-3-[2-(4-fluorophenyl)acetyl]urea
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -438.107; Pyranopyridines; [M-H+Na+Na]+; BAXPEQHEDSMOOA_ethyl 2-benzamido-7,7-dimethyl-5,8-dihydropyrano[4,3-b]pyridine-3-carboxylate
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -439.815; Benzoxazinones; [M-H+Na+Na]+; PHWZTPFBAGRZIB_N-[(2S)-1-hydroxy-3-phenylpropan-2-yl]-2-(6-methyl-3-oxo-1,4-benzoxazin-4-yl)acetamide
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -444.824; Indolizidines; [M-H+Na+Na]+; XJBQLDFXLQMHKY_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -448.532; Phenylacetamides; [M-H+Na+Na]+; ULGCDSCNWRHWFY_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -455.658; Phenol ethers; [M-H+Na+Na]+; CKYHNEXWDIJMCL_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -457.377; Styrenes; [M-H+Na+Na]+; AEWRAGAAEWQODR_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -460.149; Anilides; [M-H+Na+Na]+; OGLVSIURZRSWHT_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -460.184; 1-benzopyrans; [M-H+Na+Na]+; NCUFQCJMAUHOGC_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -461.836; Pyrroloazepines; [M-H+Na+Na]+; KVTCUOYRGHKESG_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -463.988; Vallesaman alkaloids; [M-H+Na+Na]+; VNWCDGXRGWDKHA_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -468.167; Schizozygine alkaloids; [M-H+Na+Na]+; PRMLMLPGVSRYNB_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -483.473; Benzofurans; [M-H+Na+Na]+; JWYDIWHPMPBLOA_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -498.736; Delta amino acids and derivatives; [M-H+Na+Na]+; NYHDCCXVPFWHFN_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -505.315; Phenyl-1,3-oxazoles; [M-H+Na+Na]+; RCUIQTITHDSEAJ_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -518.381; Barbituric acid derivatives; [M+H]+; ARYOTFKSFUYFEY_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -537.927; 7-hydroxycoumarins; [M-H+Na+Na]+; VKSSUOKAAYBRME_nan
+COMMENT: PROPOSED_CLASS SIRIUS5_CSI:biodatabase -564.803; Beta amino acids and derivatives; [M-H+Na+Na]+; VLJSYXZVRMIUSX_nan
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -31.036; Flavins; [M+Na]+; AUNGANRZJHBGPY_Vitamin G
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -115.510; Alloxazines and isoalloxazines; [M+Na]+; LXMDIEJPPQSFFB_Isoriboflavin
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -324.020; Phenolic glycosides; [M+H]+; VTHPUDGLCGMIQI_5,7-dihydroxy-2-(propan-2-yl)-8-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}-4H-chromen-4-one
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -387.515; Dimethoxybenzenes; [M+H]+; NLPHTDCJPAPIFT_7-(2,5-Dimethoxyphenyl)-5-(trifluoromethyl)-1,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxylic acid ethyl ester
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -389.031; Coumaric acids and derivatives; [M+H]+; ACDGLQFMVMZFAB_4-(acetyloxy)-2,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl 3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -424.459; O-glycosyl compounds; [M+H]+; ZNBBYALXAQXHJE_4,5-dihydroxy-2-(hydroxymethyl)-6-[(5-oxooxolan-3-yl)oxy]oxan-3-yl 2-(4-hydroxyphenyl)acetate
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -439.771; Isocoumarins and derivatives; [M+H]+; SURCUMXPGKBBPL_9-O-(40-O-Methyl-B- D-Glucopyranosyl) Cytogenin
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -440.915; Glucuronic acid derivatives; [M+H]+; CISWUCBSWWHCJB_5-(3',4'-Dihydroxyphenyl)-Gamma-Valerolactone-3'-O-Methyl-4'-O-Glucuronide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -445.041; O-glucuronides; [M+H]+; SCTNBUBWGRBAFE_Monobutyl Phthalate Acyl-|A-D-glucuronide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -457.001; Quinic acids and derivatives; [M+H]+; DTJWTKVKHOJHJK_1,3,4-trihydroxy-5-{[3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxy}cyclohexane-1-carboxylic acid
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -477.765; Phenol ethers; [M+H]+; RALBOGKBFZBDKY_5-(3',4'-Dihydroxyphenyl)-Gamma-Valerolactone-3'-O-Glucuronide
+COMMENT: PROPOSED_CLASS SIRIUS6_CSI:biodatabase -591.390; Barbituric acid derivatives; [M+H]+; ARYOTFKSFUYFEY_1,1',3',5-tetramethyl-5'-phenyl-2',3',4',5'-tetrahydro-1'H-spiro[1,5-diazinane-3,6'-furo[2,3-d]pyrimidine]-2,2',4,4',6-pentone
+COMMENT: PROPOSED_CLASS Aggregated_ranking:ZBRA 0.9923181; Flavins; [M+Na]+; AUNGANRZJHBGPY_Vitamin G_[S6: 1, Finder: 1, Frag: 1]
+COMMENT: PROPOSED_CLASS Aggregated_ranking:ZBRA 0.0076819; Alloxazines and isoalloxazines; [M+Na]+; LXMDIEJPPQSFFB_Isoriboflavin_[S6: 2, Finder: 2, Frag: 2]
+COMMENT: PROPOSED_CLASS FalseProb:ZBRA 0.0038806; Flavins; [M+Na]+; AUNGANRZJHBGPY_Vitamin G_[1, 1, 1]
+COMMENT: PROPOSED_CLASS q-value:ZBRA 0.0038806; Flavins; [M+Na]+; AUNGANRZJHBGPY_Vitamin G_[1, 1, 1]
+COMMENT: DATES Averaged 2025.03.19, Processed 2025.12.17, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Riboflavin
+CH$NAME: 7,8-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione
+CH$COMPOUND_CLASS: N/A; Flavins
+CH$FORMULA: C17H20N4O6
+CH$EXACT_MASS: 376.138284
+CH$SMILES: CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O
+CH$IUPAC: InChI=1S/C17H20N4O6/c1-7-3-9-10(4-8(7)2)21(5-11(23)14(25)12(24)6-22)15-13(18-9)16(26)20-17(27)19-15/h3-4,11-12,14,22-25H,5-6H2,1-2H3,(H,20,26,27)
+CH$LINK: CHEBI CHEBI:17015
+CH$LINK: HMDB HMDB0000244
+CH$LINK: INCHIKEY AUNGANRZJHBGPY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1072
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 1.000 ppm, MS2 7.500 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.860
+AC$CHROMATOGRAPHY: SOLVENT A 100% water; 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 100% methanol; 0.1% formic acid
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 399.127613
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-2109000000-3e25e7023cd768c36087
+PK$ANNOTATION: m/z int cor n mzPAF
+  70.0651707 55.9986 0.1515 38 f{C4H8N1}/0.64ppm,p-C13H12N3O6Na1
+  72.0808232 55.3879 0.0860 38 f{C4H10N1}/0.66ppm,p-C13H10N3O6Na1
+  74.0596507 6.4178 0.2753 29 f{C3H8N1O1}/-5.26ppm,p-C14H12N3O5Na1
+  84.0440011 11.9480 0.0622 38 f{C4H6N1O1}/-4.63ppm,p-C13H14N3O5Na1
+  84.0808011 31.6883 0.5647 38 f{C5H10N1}/0.30ppm,p-C12H10N3O6Na1
+  86.0963966 84.1331 0.3269 38 f{C5H12N1}/-0.34ppm,p-C12H8N3O6Na1
+  102.0545663 6.4206 0.2527 31 f{C4H8N1O2}/-3.81ppm,p-C13H12N3O4Na1
+  103.0387866 32.4953 0.2547 31 f{C5H6N1Na1}/-5.73ppm,p-C12H14N3O6
+  110.0713290 18.5171 0.1875 36 f{C5H11O1Na1}/12.83ppm,p-C12H9N4O5
+  116.0702161 16.6794 0.5134 38 f{C5H10N1O2}/-3.35ppm,p-C12H10N3O4Na1
+  120.0808276 26.7913 0.0207 38 f{C8H10N1}/0.43ppm,p-C9H10N3O6Na1
+  129.1021011 27.2118 0.2515 38 f{C6H13N2O1}/-1.07ppm,p-C11H7N2O5Na1
+  130.0857065 8.1088 0.4094 31 f{C6H12N1O2}/-4.22ppm,p-C11H8N3O4Na1
+  136.0754090 12.6062 0.1166 37 f{C8H10N1O1}/-2.07ppm,p-C9H10N3O5Na1
+  143.1176883 7.0048 0.3335 30 f{C7H15N2O1}/-1.41ppm,p-C10H5N2O5Na1
+  157.0977086 12.0434 0.2192 31 f{C10H14Na1}/-7.93ppm,p-C7H6N4O6
+  265.0699613 9.1174 0.9325 30 f{C12H10N4O2Na1}/1.50ppm,p-C5H10O4
+  279.0850515 58.8881 0.9877 38 f{C13H12N4O2Na1}/-0.76ppm,p-C4H8O4
+  353.0935898 21.8061 0.4858 28 f{C16H16N3O5Na1}/-14.02ppm,p-C1H4N1O1
+  356.1217327 29.3757 0.9926 34 f{C16H19N3O5Na1}/0.12ppm,p-C1H1N1O1
+  382.0989826 15.1072 0.9692 34 f{C17H17N3O6Na1}/-5.50ppm,p-H3N1
+  399.1264083 999.0000 1.0000 35 f{C17H20N4O6Na1}/-2.92ppm,p
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  84.080801 31.69 31
+  116.070216 16.68 16
+  265.069961 9.12 9
+  279.085052 58.89 58
+  353.093590 21.81 21
+  356.121733 29.38 29
+  382.098983 15.11 15
+  399.126408 999.00 999
+//

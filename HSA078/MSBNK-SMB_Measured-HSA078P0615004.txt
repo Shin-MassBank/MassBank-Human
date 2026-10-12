@@ -1,0 +1,67 @@
+ACCESSION: MSBNK-SMB_Measured-HSA078P0615004
+RECORD_TITLE: m/z 615.139237; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 63 product ion spectra among 72 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 615.13924
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003370
+COMMENT: DATASET_TITLE An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells
+COMMENT: DATASET_AUTHORS Rushing Blake
+COMMENT: DATASET_PUBLICATION Cao HH et al. An untargeted metabolomic analysis of acute AFB1 treatment in liver, breast, and lung cells. PLoS One, 20, e0313159 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 39883710
+COMMENT: PRECURSOR_IN_MS1 mz 615.139239; int 7.887; delta(ppm) 0.003314
+COMMENT: MS1_SPEC {585.448502: 2, 601.518759: 2, 610.183706: 9, 611.184021: 4, 612.180545: 3, 615.139238: 7, 616.139543: 3, 617.136287: 2, 625.518375: 1}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 610.183707; int 9.942; cor 0.903
+COMMENT: PROPOSED_MF SevenGoldenRules 1.762; C22H30O20; [M+H]+; delta(ppm) -1.761836
+COMMENT: PROPOSED_MF SevenGoldenRules 1.495; C17H35N4O14S2P; [M+H]+; delta(ppm) -1.494793
+COMMENT: PROPOSED_MF SevenGoldenRules 1.171; C27H36O8S2P2; [M+H]+; delta(ppm) -1.170758
+COMMENT: PROPOSED_MF SevenGoldenRules 0.080; C16H31N4O19P; [M+H]+; delta(ppm) -0.079787
+COMMENT: PROPOSED_MF SevenGoldenRules 0.244; C26H32O13P2; [M+H]+; delta(ppm) 0.244247
+COMMENT: PROPOSED_MF SevenGoldenRules 0.684; C16H39O18S2P; [M+H]+; delta(ppm) 0.683892
+COMMENT: PROPOSED_MF SevenGoldenRules 0.897; C27H34O10S3; [M+H]+; delta(ppm) 0.897201
+COMMENT: PROPOSED_MF SevenGoldenRules 1.306; C18H36N2O15SP2; [M+H]+; delta(ppm) 1.305908
+COMMENT: PROPOSED_MF SevenGoldenRules 1.488; C22H32N4O11S2; [M+Na]+; delta(ppm) -1.487799
+COMMENT: PROPOSED_MF SevenGoldenRules 1.373; C21H38O13SP2; [M+Na]+; delta(ppm) -1.372963
+COMMENT: PROPOSED_MF SevenGoldenRules 0.052; C24H37N2O7S3P; [M+Na]+; delta(ppm) -0.052352
+COMMENT: PROPOSED_MF SevenGoldenRules 0.020; C21H28N4O16; [M+Na]+; delta(ppm) -0.020265
+COMMENT: PROPOSED_MF SevenGoldenRules 0.772; C21H36O15S2; [M+Na]+; delta(ppm) 0.771764
+COMMENT: PROPOSED_MF SevenGoldenRules 1.415; C23H33N2O12SP; [M+Na]+; delta(ppm) 1.415182
+COMMENT: DATES Averaged 2025.11.17, Processed 2026.02.08, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 31.67 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.0 min, 1% B; 16.0 min, 99% B; 16.0-19.0 min, 99% B; 19.5 min, 1% B; 19.5-22.0 min, 1% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 18.159
+AC$CHROMATOGRAPHY: SOLVENT A 0.1%(v/v) formic acid in water
+AC$CHROMATOGRAPHY: SOLVENT B 0.1%(v/v) formic acid in methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 615.139237
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0000009000-ef93d40221ee20f37336
+PK$ANNOTATION: m/z int cor n mzPAF
+  615.1392610 999.0000 1.0000 63 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  615.139261 999.00 999
+//

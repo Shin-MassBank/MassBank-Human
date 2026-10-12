@@ -1,0 +1,70 @@
+ACCESSION: MSBNK-SMB_Measured-HSA051P0433002
+RECORD_TITLE: m/z 433.124496; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 34 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 433.12450
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2349
+COMMENT: DATASET_TITLE Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Nasopharyngeal swab assay)
+COMMENT: DATASET_AUTHORS Shalini Aggarwal, Shashwati Parihari, Arghya Banerjee, Jyotirmoy Roy, Nirjhar Banerjee, Renuka Bankar, Saravanan Kumar, Manisha Choudhury, Rhythm Shah, Kharanshu Bhojak, Viswanthram Palanivel, Akanksha Salkar, Sachee Agrawal, Om Shrivastav, Jayanthi Shastri, Sanjeeva Srivastava
+COMMENT: DATASET_PUBLICATION N/A
+COMMENT: DATASET_PUBLICATION_PMID N/A
+COMMENT: PRECURSOR_IN_MS1 mz 433.124486; int 4.290; delta(ppm) -0.022978
+COMMENT: MS1_SPEC {388.212814: 1, 391.285127: 1, 393.084351: 1, 404.338216: 6, 405.341749: 1, 423.095631: 1, 430.914721: 1, 433.124485: 4, 443.079834: 9, 444.083281: 2, 445.079987: 1, 445.121089: 8, 446.120026: 2, 447.117807: 1, 467.102958: 1}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 434.127680; int 0.974; cor 0.666
+COMMENT: PROPOSED_MF SevenGoldenRules 3.036; C18H25O10P; [M+H]+; delta(ppm) -3.036213
+COMMENT: PROPOSED_MF SevenGoldenRules 0.643; C12H26N4O9P2; [M+H]+; delta(ppm) -0.643344
+COMMENT: PROPOSED_MF SevenGoldenRules 0.787; C20H20N2O9; [M+H]+; delta(ppm) 0.786824
+COMMENT: PROPOSED_MF SevenGoldenRules 2.451; C11H30O13P2; [M+H]+; delta(ppm) 2.450724
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Nasal mucosa
+AC$INSTRUMENT: UltiMate 3000 UHPLC system, Thermo Fisher Scientific - Q Exactive mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 33 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.8 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 6.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD™ C18 Selectivity HPLC Column (1.9 µm, 2.1 mm x 100 mm; Thermo Fisher Scientific)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 98% B; 5.0 min, 50% B; 14.0 min, 2% B; 14.0-17.0 min, 2% B; 17.2 min, 99% B; 17.2-20.0 min, 99% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.021
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in methanol
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in water
+MS$FOCUSED_ION: PRECURSOR_M/Z 433.124496
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-1209000000-97ed58d3d469e7fb3791
+PK$ANNOTATION: m/z int cor n mzPAF
+  64.9775077 13.2532 -0.2941 17 ?
+  80.9479176 44.5860 0.1068 20 ?
+  82.9449794 18.4786 0.1519 20 ?
+  90.9767371 105.0570 0.2271 20 ?
+  98.9842538 73.7790 0.4331 20 ?
+  105.0336645 223.1392 -0.2692 20 ?
+  158.9643624 13.1486 -0.1500 16 ?
+  163.0756108 85.7175 -0.2632 20 ?
+  226.9519247 14.8694 0.0735 17 ?
+  365.1375039 999.0000 1.0000 20 ?
+  366.1407549 237.5308 0.7910 20 ?
+  367.1434193 16.9565 0.2451 17 ?
+  433.0516860 58.3945 -0.1805 20 ?
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  365.137504 999.00 999
+  366.140755 237.53 237
+//

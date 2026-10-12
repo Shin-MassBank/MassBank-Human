@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-SMB_Measured-HSA082P1069000
+RECORD_TITLE: m/z 1069.622282; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 22 product ion spectra among 23 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 1069.62228
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST003168
+COMMENT: DATASET_TITLE Lipidomic analysis of cryopreserved human cardiac tissue from young and ageing adults
+COMMENT: DATASET_AUTHORS Don Anthony
+COMMENT: DATASET_PUBLICATION Malecki C et al. The Human Cardiac Age-OME: Age-Specific Changes in Myocardial Molecular Expression. Aging Cell, 24, e70219 (2025)
+COMMENT: DATASET_PUBLICATION_PMID 40915658
+COMMENT: PRECURSOR_IN_MS1 mz 1069.620354; int 3.309; delta(ppm) -1.802288
+COMMENT: MS1_SPEC {1069.620353: 3, 1070.625668: 2, 1087.667354: 9, 1088.669288: 5, 1091.606123: 2, 1109.649046: 15, 1110.651596: 10, 1113.587652: 2}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 1070.625669; int 2.060; cor 0.919
+COMMENT: PROPOSED_ION_FORM M+H; M+Na; mz 1091.606123; int 2.396; cor 0.860
+COMMENT: PROPOSED_ION_FORM M+H; M+2Na-H; mz 1113.587652; int 2.019; cor 0.688
+COMMENT: PROPOSED_ION_FORM M+Na; M+2Na-H; mz 1091.606123; int 2.396; cor 0.860
+COMMENT: PROPOSED_MF SevenGoldenRules 2.826; C55H94N2O14P2; [M+H]+; delta(ppm) -2.826088
+COMMENT: PROPOSED_MF SevenGoldenRules 1.760; C44H97N2O24P; [M+H]+; delta(ppm) -1.760222
+COMMENT: PROPOSED_MF SevenGoldenRules 0.214; C46H92N4O23; [M+H]+; delta(ppm) -0.214296
+COMMENT: PROPOSED_MF SevenGoldenRules 0.029; C56H93O17P; [M+H]+; delta(ppm) -0.029010
+COMMENT: PROPOSED_MF SevenGoldenRules 0.939; C50H94N4O16P2; [M+H]+; delta(ppm) 0.938598
+COMMENT: PROPOSED_MF SevenGoldenRules 1.037; C45H96O27; [M+H]+; delta(ppm) 1.036856
+COMMENT: PROPOSED_MF SevenGoldenRules 2.190; C49H98O20P2; [M+H]+; delta(ppm) 2.189750
+COMMENT: PROPOSED_MF SevenGoldenRules 1.762; C49H94N2O21; [M+Na]+; delta(ppm) -1.761840
+COMMENT: PROPOSED_MF SevenGoldenRules 0.585; C53H96N2O14P2; [M+Na]+; delta(ppm) -0.584732
+COMMENT: PROPOSED_MF SevenGoldenRules 0.994; C55H91N4O13P; [M+Na]+; delta(ppm) 0.993662
+COMMENT: PROPOSED_MF SevenGoldenRules 2.082; C44H94N4O23; [M+Na]+; delta(ppm) 2.081914
+COMMENT: PROPOSED_MF SevenGoldenRules 2.271; C54H95O17P; [M+Na]+; delta(ppm) 2.271092
+COMMENT: DATES Averaged 2025.12.02, Processed 2026.02.09, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Heart
+AC$INSTRUMENT: Thermo Vanquish, Thermo Fisher Scientific - Thermo Q Exactive HF-X Orbitrap mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 3.000 ppm, MS2 9.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-3.0 min, 20% B; 5.5 min, 45% B; 8.0 min, 65% B; 13.0 min, 85% B; 14.0-20.0 min, 100% B; 20.2-27.0 min, 30% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.28 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.428
+AC$CHROMATOGRAPHY: SOLVENT A 10 mM ammonium formate, 0.1% formic acid in acetonitrile:water (60:40)
+AC$CHROMATOGRAPHY: SOLVENT B 10 mM ammonium formate, 0.1% formic acid in isopropanol:acetonitrile (90:10)
+MS$FOCUSED_ION: PRECURSOR_M/Z 1069.622282
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-f602c6a5ba13ac133d9d
+PK$ANNOTATION: m/z int cor n mzPAF
+  104.1071031 83.0367 0.0707 21 ?
+  184.0744283 999.0000 1.0000 21 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  184.074428 999.00 999
+//

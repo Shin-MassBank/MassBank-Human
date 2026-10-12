@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA066P0706008
+RECORD_TITLE: m/z 706.538065; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 706.53806
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS2716
+COMMENT: DATASET_TITLE Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells
+COMMENT: DATASET_AUTHORS Mira Flasch, Christoph Bueschl, Giorgia Del Favero, Gerhard Adam, Rainer Schuhmacher, Doris Marko, Benedikt Warth
+COMMENT: DATASET_PUBLICATION Flasch M et al. Elucidation of xenoestrogen metabolism by non-targeted, stable isotope-assisted mass spectrometry in breast cancer cells. Environ Int, 158, 106940 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 34673318
+COMMENT: PRECURSOR_IN_MS1 mz 706.538046; int 65.706; delta(ppm) -0.027143
+COMMENT: MS1_SPEC {678.506589: 6, 688.491058: 7, 689.494477: 3, 690.506673: 21, 703.574671: 20, 704.522674: 12, 704.578049: 8, 705.52567: 4, 705.590864: 4, 706.538045: 65, 707.541335: 27, 708.544377: 5, 716.52233: 33, 718.5387: 7, 719.54158: 3, 720.554616: 4, 725.55649: 4, 728.520271: 8, 729.523726: 3, 730.538375: 17, 731.541612: 8, 732.553585: 656, 733.557004: 286, 734.55951: 66, 735.562759: 10, 738.505277: 9, 739.509371: 4, 740.522404: 6, 741.525687: 3, 744.553897: 3, 745.557164: 1, 746.569061: 20, 752.520316: 2, 754.535627: 77, 755.538999: 33}
+COMMENT: PROPOSED_CHARGE_STATE +1; mz 707.541336; int 27.946; cor 0.874
+COMMENT: PROPOSED_MF SevenGoldenRules 4.329; C37H77N3O5P2; [M+H]+; delta(ppm) -4.328656
+COMMENT: PROPOSED_MF SevenGoldenRules 3.451; C45H71NO5; [M+H]+; delta(ppm) -3.451302
+COMMENT: PROPOSED_MF SevenGoldenRules 1.987; C39H72N5O4P; [M+H]+; delta(ppm) -1.987156
+COMMENT: PROPOSED_MF SevenGoldenRules 0.091; C38H76NO8P; [M+H]+; delta(ppm) -0.090712
+COMMENT: PROPOSED_MF SevenGoldenRules 1.373; C32H77N5O7P2; [M+H]+; delta(ppm) 1.373434
+COMMENT: PROPOSED_MF SevenGoldenRules 2.249; C40H71N3O7; [M+H]+; delta(ppm) 2.249370
+COMMENT: PROPOSED_MF SevenGoldenRules 3.997; C44H73N3P2; [M+H]+; delta(ppm) 3.996991
+COMMENT: DATES Averaged 2025.10.02, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: UHPLC Vanquish system, Thermo Fisher Scientific - Q Exactive HF high-resolution mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 5.000 ppm, MS2 6.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 column (1.8 μm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-2.0 min, 10% B; 15.0 min, 100% B; 15.0-17.0 min, 100% B; 17.0-19.0 min, 10% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.081
+AC$CHROMATOGRAPHY: SOLVENT A 10 mmol/L Ammonium acetate
+AC$CHROMATOGRAPHY: SOLVENT B 96% (v/v) Acetonitrile/water with 10 mmol/L Ammonium acetate
+MS$FOCUSED_ION: PRECURSOR_M/Z 706.538065
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-dd0ae6d302ee720d9fbb
+PK$ANNOTATION: m/z int cor n mzPAF
+  184.0734635 999.0000 1.0000 13 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  184.073464 999.00 999
+//

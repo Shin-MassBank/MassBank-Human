@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-SMB_Measured-HSA054P0768004
+RECORD_TITLE: m/z 768.311707; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 82 product ion spectra among 45 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 768.31171
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS8280
+COMMENT: DATASET_TITLE MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis
+COMMENT: DATASET_AUTHORS Vaishnavi V Phadnis, Whitney S Henry, Tenzin Kunchok, Amy Deik, Zon Weng Lai
+COMMENT: DATASET_PUBLICATION Phadnis VV et al. MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis. Cell Rep, 42, 113023 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 37691145
+COMMENT: PRECURSOR_IN_MS1 mz 768.311710; int 999.000; delta(ppm) 0.003905
+COMMENT: MS1_SPEC {718.85547: 5, 724.28577: 10, 724.87292: 6, 731.53479: 2, 732.51892: 8, 734.82877: 4, 740.28064: 35, 750.32129: 7, 752.31708: 5, 754.29623: 47, 761.54547: 14, 766.29626: 5, 768.31171: 999, 769.31512: 328, 770.31824: 58, 771.32104: 8, 786.28601: 34, 792.86035: 3, 793.50305: 5, 794.5556: 26, 795.55902: 13, 796.5137: 7, 800.30164: 5, 804.28845: 11, 804.57629: 6, 805.50317: 5, 810.35883: 9, 814.31735: 76, 815.32068: 28, 817.50287: 4}
+COMMENT: PROPOSED_CHARGE_STATE -1; mz 769.315120; int 328.254; cor 0.999
+COMMENT: PROPOSED_ION_FORM M-H; M+Cl; mz 804.288450; int 11.275; cor 0.964
+COMMENT: PROPOSED_ION_FORM M-H; M+FA-H; mz 814.317350; int 76.152; cor 0.996
+COMMENT: PROPOSED_ION_FORM M-H; M+TFA-H; mz 882.304570; int 302.421; cor 0.992
+COMMENT: PROPOSED_MF SevenGoldenRules 1.764; C33H57NO15P2; [M-H]1; delta(ppm) -1.763898
+COMMENT: PROPOSED_MF SevenGoldenRules 0.383; C35H52N3O14P; [M-H]1; delta(ppm) 0.383456
+COMMENT: PROPOSED_MF SevenGoldenRules 1.863; C24H55N3O24; [M-H]1; delta(ppm) 1.862686
+COMMENT: DATES Averaged 2025.09.25, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Horizon UPLC system, Thermo Fisher Scientific - ID-X tribrid mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -3.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION HESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.000 ppm, MS2 10.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME Ascentis Express C18 (2.7 µm, 150 x 2.1 mm, Sigma-Aldrich)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-1.5 min, 32% B; 4.0 min, 45% B; 5.0 min, 52% B; 8.0 min, 58% B; 11.0 min, 66% B; 14.0 min, 70% B; 18.0 min, 75% B; 21.0 min, 97% B;  21.0-35.0 min, 97% B; 35.1 min, 32% B; 35.1-40.0 min. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.26 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.064
+AC$CHROMATOGRAPHY: SOLVENT A 60:40 water:acetonitrile with 10 mM ammonium formate and 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B 90:10 isopropanol:acetonitrile, with 10 mM ammonium formate and 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 768.311707
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-ab64b86778772ad8ceb3
+PK$ANNOTATION: m/z int cor n mzPAF
+  112.9856824 999.0000 1.0000 81 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  112.985682 999.00 999
+//

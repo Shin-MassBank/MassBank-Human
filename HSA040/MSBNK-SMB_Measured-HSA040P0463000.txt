@@ -1,0 +1,69 @@
+ACCESSION: MSBNK-SMB_Measured-HSA040P0463000
+RECORD_TITLE: m/z 463.295133; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 24 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 463.29513
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS4708
+COMMENT: DATASET_TITLE Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma.
+COMMENT: DATASET_AUTHORS Denise Drago, Valentina Pieri, Annapaola Andolfo, Rossella Galli, Alberto L Gallotti, Manuela Cominelli, Ilaria Pagano, Valentina Conti, Silvia Valtorta, Angela Coliva, Sara Lago, Daniela Michelatti, Luca Massimino, Federica Ungaro, Laura Perani, Antonello Spinelli, Antonella Castellano, Andrea Falini, Alessio Zippo, Pietro L Poliani, Rosa Maria Moresco
+COMMENT: DATASET_PUBLICATION Pieri V et al. Aberrant L-Fucose Accumulation and Increased Core Fucosylation Are Metabolic Liabilities in Mesenchymal Glioblastoma. Cancer Res, 83, 195-218 (2023)
+COMMENT: DATASET_PUBLICATION_PMID 36409826
+COMMENT: PRECURSOR_IN_MS1 mz 463.294874; int 65.315; delta(ppm) -0.557376
+COMMENT: MS1_SPEC {413.321646: 73, 414.325907: 27, 419.274598: 51, 427.336891: 147, 428.339661: 43, 430.909741: 60, 437.189495: 443, 438.193392: 132, 439.195237: 29, 441.292414: 42, 441.35032: 48, 442.352739: 19, 444.332637: 10, 451.222452: 15, 453.181731: 27, 455.326719: 14, 455.364232: 59, 457.343247: 38, 458.341137: 24, 463.294874: 65, 464.298868: 20, 469.377695: 18, 471.356176: 68, 485.370244: 85, 486.374366: 34, 499.394815: 40}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_ION_FORM M+Na; M+NH4; mz 458.341138; int 24.655; cor 0.691
+COMMENT: PROPOSED_ION_FORM M+2ACN+H; M+CH3OH+H; mz 413.266012; int 105.353; cor 0.685
+COMMENT: PROPOSED_MF SevenGoldenRules 2.172; C21H44N4O3P2; [M+H]+; delta(ppm) -2.171807
+COMMENT: PROPOSED_MF SevenGoldenRules 0.835; C29H38N2O3; [M+H]+; delta(ppm) -0.834978
+COMMENT: PROPOSED_MF SevenGoldenRules 0.720; C20H48O7P2; [M+H]+; delta(ppm) 0.720330
+COMMENT: PROPOSED_MF SevenGoldenRules 2.196; C26H41N4P; [M+Na]+; delta(ppm) -2.196200
+COMMENT: PROPOSED_MF SevenGoldenRules 0.840; C25H45O4P; [M+Na]+; delta(ppm) 0.840325
+COMMENT: PROPOSED_MF SevenGoldenRules 1.005; C25H32O3; [M+2ACN+H]+; delta(ppm) -1.004642
+COMMENT: PROPOSED_MF SevenGoldenRules 1.715; C19H33N4O2P; [M+2ACN+H]+; delta(ppm) 1.714730
+COMMENT: DATES Averaged 2025.09.24, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Agilent 1290 UPLC system, Agilent Technologies - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 44 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 2.500 ppm, MS2 12.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH HILIC column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 2, 10.0 min: 60, 12.0 min: 60, 12.5 min: 2, 15.0 min: 2.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.375
+AC$CHROMATOGRAPHY: SOLVENT A 0.1% formic acid in acetonitrile
+AC$CHROMATOGRAPHY: SOLVENT B 0.1% formic acid in water
+MS$FOCUSED_ION: PRECURSOR_M/Z 463.295133
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0401900000-bdd94cf0e402c28565b3
+PK$ANNOTATION: m/z int cor n mzPAF
+  111.0416930 85.8058 -0.1834 13 ?
+  127.0388621 100.9873 0.1660 13 ?
+  156.0742426 93.2782 0.3823 11 ?
+  174.0142207 166.3015 0.2928 12 ?
+  186.0833270 82.1915 -0.4799 12 ?
+  337.1642710 105.3321 0.0325 12 ?
+  377.1940208 80.4432 0.3527 13 ?
+  463.3014143 999.0000 1.0000 13 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  463.301414 999.00 999
+//

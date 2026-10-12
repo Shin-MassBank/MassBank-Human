@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033P0435003
+RECORD_TITLE: m/z 435.136622; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Confidence L5
+DATE: 2026.09.13
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: MassBank Human in preparation
+PROJECT: The Shin-MassBank project supported by JST
+COMMENT: Automatically annotated at L5.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: CONFIDENCE L5 (Exact mass of interest); prec m/z 435.13662
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: DATASET_PUBLICATION Guo L et al. Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers. J Pharm Biomed Anal, 214, 114718 (2022)
+COMMENT: DATASET_PUBLICATION_PMID 35286988
+COMMENT: PRECURSOR_IN_MS1 mz 435.137280; int 1.051; delta(ppm) 1.513692
+COMMENT: MS1_SPEC {400.995067: 1, 435.13728: 1, 450.1117: 1, 454.053271: 1}
+COMMENT: PROPOSED_CHARGE_STATE ND
+COMMENT: PROPOSED_MF SevenGoldenRules 6.993; C24H26N2O2P2; [M-H]1; delta(ppm) -6.993105
+COMMENT: PROPOSED_MF SevenGoldenRules 4.382; C13H29N2O12P; [M-H]1; delta(ppm) -4.381581
+COMMENT: PROPOSED_MF SevenGoldenRules 0.596; C15H24N4O11; [M-H]1; delta(ppm) -0.596134
+COMMENT: PROPOSED_MF SevenGoldenRules 0.140; C25H25O5P; [M-H]1; delta(ppm) -0.139862
+COMMENT: PROPOSED_MF SevenGoldenRules 2.231; C19H26N4O4P2; [M-H]1; delta(ppm) 2.230915
+COMMENT: PROPOSED_MF SevenGoldenRules 2.472; C14H28O15; [M-H]1; delta(ppm) 2.471661
+COMMENT: PROPOSED_MF SevenGoldenRules 5.296; C18H30O8P2; [M-H]1; delta(ppm) 5.296417
+COMMENT: DATES Averaged 2025.09.11, Processed 2026.02.04, Annotated 2026.09.13, Curated 2026.09.13
+CH$NAME: Uncharacterized
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C39H42O2
+CH$EXACT_MASS: 542.318480
+CH$SMILES: CCCC#Cc1cc(C#CCCC)cc(C#Cc2cc(C#CC(C)(C)C)c(cc2C#CC(C)(C)C)C2OCCO2)c1
+CH$IUPAC: InChI=1S/C39H42O2/c1-9-11-13-15-30-25-31(16-14-12-10-2)27-32(26-30)17-18-33-28-35(20-22-39(6,7)8)36(37-40-23-24-41-37)29-34(33)19-21-38(3,4)5/h25-29,37H,9-12,23-24H2,1-8H3
+CH$LINK: PUBCHEM CID:11353257
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1 9.000 ppm, MS2 18.000 ppm
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.353
+AC$CHROMATOGRAPHY: SOLVENT A 25 mM ammonium acetate and 25 mM ammonium hydroxide in H2O
+AC$CHROMATOGRAPHY: SOLVENT B Acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 435.136622
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0910000000-98422eb7550eb11e54b6
+PK$ANNOTATION: m/z int cor n mzPAF
+  124.0143585 122.4773 -0.1578 12 ?
+  154.0616628 90.7385 -0.1591 10 ?
+  167.0204774 999.0000 0.2529 13 ?
+  267.1099019 148.4199 1.0000 11 ?
+  372.9972134 53.3817 -0.3516 11 ?
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  267.109902 148.42 999
+//

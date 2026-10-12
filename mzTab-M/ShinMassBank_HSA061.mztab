@@ -1,0 +1,844 @@
+MTD	mzTab-version	2.0.0-M
+MTD	mzTab-ID	ShinMassBank_HSA061
+MTD	title	PRODH regultes naive pluripotency by influencing mitochondrial oxidative phosphorylation (Untargeted metabolomics)
+MTD	description	Shin-MassBank averaged DDA (MS2) data generated from MetaboLights MTBLS7840: PRODH regultes naive pluripotency by influencing mitochondrial oxidative phosphorylation (Untargeted metabolomics)
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, ShinMassBank pipeline]
+MTD	uri[1]	https://www.ebi.ac.uk/metabolights/MTBLS7840
+MTD	quantification_method	[MS, MS:1002019, label-free raw feature quantitation, ]
+MTD	sample[1]	blank
+MTD	sample[1]-species[1]	[, , blank, ]
+MTD	sample[1]-tissue[1]	[, , blank, ]
+MTD	sample[1]-custom[1]	[, , Organism, blank]
+MTD	sample[1]-custom[2]	[, , Organism part, blank]
+MTD	sample[1]-custom[3]	[, , Sample type, experimental blank]
+MTD	ms_run[1]-location	file:///data/hive/blank.hmd
+MTD	ms_run[1]-format	[, , hive, ]
+MTD	ms_run[1]-id_format	[MS, MS:1000776, scan number only nativeID format, ]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	assay[1]	blank
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	study_variable[1]	all samples
+MTD	study_variable[1]-assay_refs	assay[1]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[, , standard deviation, ]
+MTD	study_variable[1]-description	All samples of dataset HSA061
+MTD	database[1]	[, , PubChem, ]
+MTD	database[1]-prefix	CID
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://pubchem.ncbi.nlm.nih.gov/
+MTD	database[2]	[, , no database, null]
+MTD	database[2]-prefix	null
+MTD	database[2]-version	Unknown
+MTD	database[2]-uri	null
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.2.2
+MTD	cv[1]-uri	https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo
+MTD	small_molecule-quantification_unit	[MS, MS:1000131, number of detector counts, ]
+MTD	small_molecule_feature-quantification_unit	[MS, MS:1000131, number of detector counts, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002955, hr-ms compound identification confidence level, ]
+MTD	id_confidence_measure[1]	[, , MS-FINDER formula rank, ]
+MTD	id_confidence_measure[2]	[, , SIRIUS6 formula rank, ]
+MTD	id_confidence_measure[3]	[, , q-value formula, ]
+MTD	id_confidence_measure[4]	[, , MS-FINDER compound rank, ]
+MTD	id_confidence_measure[5]	[, , SIRIUS6 CSI compound rank, ]
+MTD	id_confidence_measure[6]	[, , MetFrag MS-FINDER DB compound rank, ]
+MTD	id_confidence_measure[7]	[, , MetFrag PubChemLite compound rank, ]
+MTD	id_confidence_measure[8]	[, , q-value compound, ]
+MTD	id_confidence_measure[9]	[, , Spectral entropy GNPS, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_ShinMassBank_Record_ID
+SML	1	1	null	null	null	null	null	null	null	null	5	null	null	133923	133923	0	MSBNK-SMB_Measured-HSA061P0085000
+SML	2	2	null	null	null	null	null	null	null	null	5	null	null	163871	163871	0	MSBNK-SMB_Measured-HSA061P0085001
+SML	3	3	null	null	null	null	null	null	null	null	5	null	null	114032	114032	0	MSBNK-SMB_Measured-HSA061P0085002
+SML	4	4	null	null	null	null	null	null	null	null	5	null	null	56696	56696	0	MSBNK-SMB_Measured-HSA061P0087000
+SML	5	5	null	null	null	null	null	null	null	null	5	null	null	60499	60499	0	MSBNK-SMB_Measured-HSA061P0087001
+SML	6	6	null	null	null	null	null	null	null	null	5	null	null	51541	51541	0	MSBNK-SMB_Measured-HSA061P0087002
+SML	7	7	CID:null	C3H6O3	null	null	null	null	90.0316940574	[M-H]-	4	[, , q-value formula, ]	0.0003605	863801	863801	0	MSBNK-SMB_Measured-HSA061P0089000
+SML	8	8	CID:612	C3H6O3	CC(C(=O)O)O	InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)	Lactic acid	https://hmdb.ca/metabolites/HMDB0000190	90.0316940574	[M-H]-	2	[, , q-value compound, ]	0.012	632090	632090	0	MSBNK-SMB_Measured-HSA061P0089001
+SML	9	9	CID:null	C3H6O3	null	null	null	null	90.0316940574	[M-H]-	4	[, , q-value formula, ]	0.0003605	388508	388508	0	MSBNK-SMB_Measured-HSA061P0089002
+SML	10	10	CID:612	C3H6O3	CC(C(=O)O)O	InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)	Lactic acid	https://hmdb.ca/metabolites/HMDB0000190	90.0316940574	[M-H]-	2	[, , q-value compound, ]	0.012	262805	262805	0	MSBNK-SMB_Measured-HSA061P0089003
+SML	11	11	CID:null	C3H6O3	null	null	null	null	90.0316940574	[M-H]-	4	[, , q-value formula, ]	0.0004191	453298	453298	0	MSBNK-SMB_Measured-HSA061P0089004
+SML	12	12	null	null	null	null	null	null	null	null	5	null	null	163338	163338	0	MSBNK-SMB_Measured-HSA061P0089005
+SML	13	13	CID:null	C3H6O3	null	null	null	null	90.0316940574	[M-H]-	4	[, , q-value formula, ]	0.0004191	148343	148343	0	MSBNK-SMB_Measured-HSA061P0089006
+SML	14	14	null	null	null	null	null	null	null	null	5	null	null	1266322	1266322	0	MSBNK-SMB_Measured-HSA061P0091000
+SML	15	15	null	null	null	null	null	null	null	null	5	null	null	6264976	6264976	0	MSBNK-SMB_Measured-HSA061P0097000
+SML	16	16	null	null	null	null	null	null	null	null	5	null	null	2691004	2691004	0	MSBNK-SMB_Measured-HSA061P0097002
+SML	17	17	null	null	null	null	null	null	null	null	5	null	null	6267520	6267520	0	MSBNK-SMB_Measured-HSA061P0097003
+SML	18	18	null	null	null	null	null	null	null	null	5	null	null	575538	575538	0	MSBNK-SMB_Measured-HSA061P0100000
+SML	19	19	null	null	null	null	null	null	null	null	5	null	null	1319079	1319079	0	MSBNK-SMB_Measured-HSA061P0100001
+SML	20	20	null	null	null	null	null	null	null	null	5	null	null	984776	984776	0	MSBNK-SMB_Measured-HSA061P0101000
+SML	21	21	null	null	null	null	null	null	null	null	5	null	null	1488139	1488139	0	MSBNK-SMB_Measured-HSA061P0101001
+SML	22	22	null	null	null	null	null	null	null	null	5	null	null	1646400	1646400	0	MSBNK-SMB_Measured-HSA061P0101002
+SML	23	23	null	null	null	null	null	null	null	null	5	null	null	1196836	1196836	0	MSBNK-SMB_Measured-HSA061P0101003
+SML	24	24	null	null	null	null	null	null	null	null	5	null	null	623444	623444	0	MSBNK-SMB_Measured-HSA061P0101004
+SML	25	25	null	null	null	null	null	null	null	null	5	null	null	852988	852988	0	MSBNK-SMB_Measured-HSA061P0101005
+SML	26	26	null	null	null	null	null	null	null	null	5	null	null	344371	344371	0	MSBNK-SMB_Measured-HSA061P0103000
+SML	27	27	null	null	null	null	null	null	null	null	5	null	null	184525	184525	0	MSBNK-SMB_Measured-HSA061P0103001
+SML	28	28	null	null	null	null	null	null	null	null	5	null	null	795454	795454	0	MSBNK-SMB_Measured-HSA061P0103002
+SML	29	29	null	null	null	null	null	null	null	null	5	null	null	93892	93892	0	MSBNK-SMB_Measured-HSA061P0103005
+SML	30	30	null	null	null	null	null	null	null	null	5	null	null	484637	484637	0	MSBNK-SMB_Measured-HSA061P0104000
+SML	31	31	null	null	null	null	null	null	null	null	5	null	null	759677	759677	0	MSBNK-SMB_Measured-HSA061P0104001
+SML	32	32	null	null	null	null	null	null	null	null	5	null	null	449096	449096	0	MSBNK-SMB_Measured-HSA061P0104002
+SML	33	33	null	null	null	null	null	null	null	null	5	null	null	561551	561551	0	MSBNK-SMB_Measured-HSA061P0104003
+SML	34	34	CID:null	C4H4N2O2	null	null	null	null	112.027277386	[M-H]-	4	[, , q-value formula, ]	0.0003605	117390	117390	0	MSBNK-SMB_Measured-HSA061P0111000
+SML	35	35	null	null	null	null	null	null	null	null	5	null	null	122859	122859	0	MSBNK-SMB_Measured-HSA061P0111001
+SML	36	36	null	null	null	null	null	null	null	null	5	null	null	59944	59944	0	MSBNK-SMB_Measured-HSA061P0111002
+SML	37	37	null	null	null	null	null	null	null	null	5	null	null	113886	113886	0	MSBNK-SMB_Measured-HSA061P0111003
+SML	38	38	null	null	null	null	null	null	null	null	5	null	null	101029	101029	0	MSBNK-SMB_Measured-HSA061P0111004
+SML	39	39	null	null	null	null	null	null	null	null	5	null	null	224486	224486	0	MSBNK-SMB_Measured-HSA061P0113001
+SML	40	40	null	null	null	null	null	null	null	null	5	null	null	177375	177375	0	MSBNK-SMB_Measured-HSA061P0113002
+SML	41	41	null	null	null	null	null	null	null	null	5	null	null	196937	196937	0	MSBNK-SMB_Measured-HSA061P0113003
+SML	42	42	null	null	null	null	null	null	null	null	5	null	null	94566	94566	0	MSBNK-SMB_Measured-HSA061P0113004
+SML	43	43	null	null	null	null	null	null	null	null	5	null	null	91470	91470	0	MSBNK-SMB_Measured-HSA061P0113005
+SML	44	44	null	null	null	null	null	null	null	null	5	null	null	22782	22782	0	MSBNK-SMB_Measured-HSA061P0113006
+SML	45	45	null	null	null	null	null	null	null	null	5	null	null	69708	69708	0	MSBNK-SMB_Measured-HSA061P0113007
+SML	46	46	null	null	null	null	null	null	null	null	5	null	null	169418	169418	0	MSBNK-SMB_Measured-HSA061P0113008
+SML	47	47	null	null	null	null	null	null	null	null	5	null	null	53334	53334	0	MSBNK-SMB_Measured-HSA061P0113009
+SML	48	48	null	null	null	null	null	null	null	null	5	null	null	260353	260353	0	MSBNK-SMB_Measured-HSA061P0113012
+SML	49	49	null	null	null	null	null	null	null	null	5	null	null	13842	13842	0	MSBNK-SMB_Measured-HSA061P0113013
+SML	50	50	null	null	null	null	null	null	null	null	5	null	null	63971	63971	0	MSBNK-SMB_Measured-HSA061P0113014
+SML	51	51	null	null	null	null	null	null	null	null	5	null	null	174028	174028	0	MSBNK-SMB_Measured-HSA061P0114000
+SML	52	52	null	null	null	null	null	null	null	null	5	null	null	230943	230943	0	MSBNK-SMB_Measured-HSA061P0114001
+SML	53	53	null	null	null	null	null	null	null	null	5	null	null	290631	290631	0	MSBNK-SMB_Measured-HSA061P0114002
+SML	54	54	null	null	null	null	null	null	null	null	5	null	null	3936044	3936044	0	MSBNK-SMB_Measured-HSA061P0115000
+SML	55	55	null	null	null	null	null	null	null	null	5	null	null	1796568	1796568	0	MSBNK-SMB_Measured-HSA061P0115002
+SML	56	56	null	null	null	null	null	null	null	null	5	null	null	4345228	4345228	0	MSBNK-SMB_Measured-HSA061P0115003
+SML	57	57	null	null	null	null	null	null	null	null	5	null	null	1182948	1182948	0	MSBNK-SMB_Measured-HSA061P0115004
+SML	58	58	null	null	null	null	null	null	null	null	5	null	null	3780016	3780016	0	MSBNK-SMB_Measured-HSA061P0116000
+SML	59	59	null	null	null	null	null	null	null	null	5	null	null	6111975	6111975	0	MSBNK-SMB_Measured-HSA061P0116001
+SML	60	60	null	null	null	null	null	null	null	null	5	null	null	8586523	8586523	0	MSBNK-SMB_Measured-HSA061P0116002
+SML	61	61	null	null	null	null	null	null	null	null	5	null	null	8247074	8247074	0	MSBNK-SMB_Measured-HSA061P0116003
+SML	62	62	null	null	null	null	null	null	null	null	5	null	null	18290592	18290592	0	MSBNK-SMB_Measured-HSA061P0116004
+SML	63	63	null	null	null	null	null	null	null	null	5	null	null	1841761	1841761	0	MSBNK-SMB_Measured-HSA061P0116005
+SML	64	64	null	null	null	null	null	null	null	null	5	null	null	11326164	11326164	0	MSBNK-SMB_Measured-HSA061P0117000
+SML	65	65	null	null	null	null	null	null	null	null	5	null	null	6234818	6234818	0	MSBNK-SMB_Measured-HSA061P0117001
+SML	66	66	null	null	null	null	null	null	null	null	5	null	null	10226225	10226225	0	MSBNK-SMB_Measured-HSA061P0117002
+SML	67	67	null	null	null	null	null	null	null	null	5	null	null	6260196	6260196	0	MSBNK-SMB_Measured-HSA061P0117003
+SML	68	68	null	null	null	null	null	null	null	null	5	null	null	9832262	9832262	0	MSBNK-SMB_Measured-HSA061P0117004
+SML	69	69	null	null	null	null	null	null	null	null	5	null	null	22860040	22860040	0	MSBNK-SMB_Measured-HSA061P0117005
+SML	70	70	null	null	null	null	null	null	null	null	5	null	null	11088375	11088375	0	MSBNK-SMB_Measured-HSA061P0117006
+SML	71	71	null	null	null	null	null	null	null	null	5	null	null	2272768	2272768	0	MSBNK-SMB_Measured-HSA061P0117007
+SML	72	72	null	null	null	null	null	null	null	null	5	null	null	6482100	6482100	0	MSBNK-SMB_Measured-HSA061P0117009
+SML	73	73	CID:null	C4H6O4	null	null	null	null	118.026608679	[M-H]-	4	[, , q-value formula, ]	0.0003605	4084918	4084918	0	MSBNK-SMB_Measured-HSA061P0117010
+SML	74	74	CID:null	C7H6O2	null	null	null	null	122.036779435	[M-H]-	4	[, , q-value formula, ]	0.0003605	316651	316651	0	MSBNK-SMB_Measured-HSA061P0121000
+SML	75	75	CID:null	C7H6O2	null	null	null	null	122.036779435	[M-H]-	4	[, , q-value formula, ]	0.0004191	176008	176008	0	MSBNK-SMB_Measured-HSA061P0121001
+SML	76	76	CID:null	C7H6O2	null	null	null	null	122.036779435	[M-H]-	4	[, , q-value formula, ]	0.0003605	227211	227211	0	MSBNK-SMB_Measured-HSA061P0121002
+SML	77	77	CID:null	C7H6O2	null	null	null	null	122.036779435	[M-H]-	4	[, , q-value formula, ]	0.0003605	245022	245022	0	MSBNK-SMB_Measured-HSA061P0121003
+SML	78	78	CID:null	C7H6O2	null	null	null	null	122.036779435	[M-H]-	4	[, , q-value formula, ]	0.0003605	227431	227431	0	MSBNK-SMB_Measured-HSA061P0121004
+SML	79	79	null	null	null	null	null	null	null	null	5	null	null	103481	103481	0	MSBNK-SMB_Measured-HSA061P0123002
+SML	80	80	null	null	null	null	null	null	null	null	5	null	null	37683	37683	0	MSBNK-SMB_Measured-HSA061P0123003
+SML	81	81	null	null	null	null	null	null	null	null	5	null	null	49586	49586	0	MSBNK-SMB_Measured-HSA061P0123004
+SML	82	82	null	null	null	null	null	null	null	null	5	null	null	411914	411914	0	MSBNK-SMB_Measured-HSA061P0123005
+SML	83	83	null	null	null	null	null	null	null	null	5	null	null	47128	47128	0	MSBNK-SMB_Measured-HSA061P0123007
+SML	84	84	null	null	null	null	null	null	null	null	5	null	null	98331	98331	0	MSBNK-SMB_Measured-HSA061P0126000
+SML	85	85	null	null	null	null	null	null	null	null	5	null	null	1011432	1011432	0	MSBNK-SMB_Measured-HSA061P0126001
+SML	86	86	null	null	null	null	null	null	null	null	5	null	null	102230	102230	0	MSBNK-SMB_Measured-HSA061P0126003
+SML	87	87	null	null	null	null	null	null	null	null	5	null	null	140356	140356	0	MSBNK-SMB_Measured-HSA061P0126004
+SML	88	88	null	null	null	null	null	null	null	null	5	null	null	51689	51689	0	MSBNK-SMB_Measured-HSA061P0126005
+SML	89	89	null	null	null	null	null	null	null	null	5	null	null	113565	113565	0	MSBNK-SMB_Measured-HSA061P0127000
+SML	90	90	null	null	null	null	null	null	null	null	5	null	null	507505	507505	0	MSBNK-SMB_Measured-HSA061P0127001
+SML	91	91	null	null	null	null	null	null	null	null	5	null	null	51021	51021	0	MSBNK-SMB_Measured-HSA061P0128000
+SML	92	92	null	null	null	null	null	null	null	null	5	null	null	59678	59678	0	MSBNK-SMB_Measured-HSA061P0128002
+SML	93	93	null	null	null	null	null	null	null	null	5	null	null	338268	338268	0	MSBNK-SMB_Measured-HSA061P0130000
+SML	94	94	null	null	null	null	null	null	null	null	5	null	null	315639	315639	0	MSBNK-SMB_Measured-HSA061P0130001
+SML	95	95	null	null	null	null	null	null	null	null	5	null	null	713113	713113	0	MSBNK-SMB_Measured-HSA061P0130002
+SML	96	96	null	null	null	null	null	null	null	null	5	null	null	228108	228108	0	MSBNK-SMB_Measured-HSA061P0130003
+SML	97	97	CID:null	C7HNS	null	null	null	null	130.982970039	[M-H]-	4	[, , q-value formula, ]	0.0027564	238395	238395	0	MSBNK-SMB_Measured-HSA061P0130008
+SML	98	98	null	null	null	null	null	null	null	null	5	null	null	3606192	3606192	0	MSBNK-SMB_Measured-HSA061P0133001
+SML	99	99	null	null	null	null	null	null	null	null	5	null	null	909774	909774	0	MSBNK-SMB_Measured-HSA061P0133002
+SML	100	100	null	null	null	null	null	null	null	null	5	null	null	877149	877149	0	MSBNK-SMB_Measured-HSA061P0133004
+SML	101	101	null	null	null	null	null	null	null	null	5	null	null	364986	364986	0	MSBNK-SMB_Measured-HSA061P0133005
+SML	102	102	null	null	null	null	null	null	null	null	5	null	null	250293	250293	0	MSBNK-SMB_Measured-HSA061P0133008
+SML	103	103	null	null	null	null	null	null	null	null	5	null	null	211142	211142	0	MSBNK-SMB_Measured-HSA061P0133010
+SML	104	104	null	null	null	null	null	null	null	null	5	null	null	575611	575611	0	MSBNK-SMB_Measured-HSA061P0133012
+SML	105	105	null	null	null	null	null	null	null	null	5	null	null	1067950	1067950	0	MSBNK-SMB_Measured-HSA061P0135000
+SML	106	106	null	null	null	null	null	null	null	null	5	null	null	504895	504895	0	MSBNK-SMB_Measured-HSA061P0135002
+SML	107	107	null	null	null	null	null	null	null	null	5	null	null	386667	386667	0	MSBNK-SMB_Measured-HSA061P0135003
+SML	108	108	null	null	null	null	null	null	null	null	5	null	null	2049551	2049551	0	MSBNK-SMB_Measured-HSA061P0135004
+SML	109	109	null	null	null	null	null	null	null	null	5	null	null	878962	878962	0	MSBNK-SMB_Measured-HSA061P0135005
+SML	110	110	null	null	null	null	null	null	null	null	5	null	null	2590494	2590494	0	MSBNK-SMB_Measured-HSA061P0135006
+SML	111	111	null	null	null	null	null	null	null	null	5	null	null	235930	235930	0	MSBNK-SMB_Measured-HSA061P0135010
+SML	112	112	null	null	null	null	null	null	null	null	5	null	null	251798	251798	0	MSBNK-SMB_Measured-HSA061P0135015
+SML	113	113	null	null	null	null	null	null	null	null	5	null	null	334902	334902	0	MSBNK-SMB_Measured-HSA061P0135016
+SML	114	114	null	null	null	null	null	null	null	null	5	null	null	1221468	1221468	0	MSBNK-SMB_Measured-HSA061P0135017
+SML	115	115	null	null	null	null	null	null	null	null	5	null	null	291185	291185	0	MSBNK-SMB_Measured-HSA061P0135018
+SML	116	116	null	null	null	null	null	null	null	null	5	null	null	1129033	1129033	0	MSBNK-SMB_Measured-HSA061P0135020
+SML	117	117	null	null	null	null	null	null	null	null	5	null	null	291515	291515	0	MSBNK-SMB_Measured-HSA061P0137000
+SML	118	118	null	null	null	null	null	null	null	null	5	null	null	330836	330836	0	MSBNK-SMB_Measured-HSA061P0137001
+SML	119	119	null	null	null	null	null	null	null	null	5	null	null	207317	207317	0	MSBNK-SMB_Measured-HSA061P0137006
+SML	120	120	CID:null	C6H5NO3	null	null	null	null	139.026943033	[M-H]-	4	[, , q-value formula, ]	0.0003605	121196	121196	0	MSBNK-SMB_Measured-HSA061P0138000
+SML	121	121	null	null	null	null	null	null	null	null	5	null	null	60454	60454	0	MSBNK-SMB_Measured-HSA061P0142002
+SML	122	122	null	null	null	null	null	null	null	null	5	null	null	309229	309229	0	MSBNK-SMB_Measured-HSA061P0142004
+SML	123	123	null	null	null	null	null	null	null	null	5	null	null	189550	189550	0	MSBNK-SMB_Measured-HSA061P0143000
+SML	124	124	null	null	null	null	null	null	null	null	5	null	null	164099	164099	0	MSBNK-SMB_Measured-HSA061P0143002
+SML	125	125	null	null	null	null	null	null	null	null	5	null	null	226868	226868	0	MSBNK-SMB_Measured-HSA061P0143006
+SML	126	126	null	null	null	null	null	null	null	null	5	null	null	324637	324637	0	MSBNK-SMB_Measured-HSA061P0144000
+SML	127	127	null	null	null	null	null	null	null	null	5	null	null	302829	302829	0	MSBNK-SMB_Measured-HSA061P0144001
+SML	128	128	null	null	null	null	null	null	null	null	5	null	null	379787	379787	0	MSBNK-SMB_Measured-HSA061P0145000
+SML	129	129	null	null	null	null	null	null	null	null	5	null	null	235683	235683	0	MSBNK-SMB_Measured-HSA061P0145002
+SML	130	130	null	null	null	null	null	null	null	null	5	null	null	1378785	1378785	0	MSBNK-SMB_Measured-HSA061P0145003
+SML	131	131	null	null	null	null	null	null	null	null	5	null	null	272965	272965	0	MSBNK-SMB_Measured-HSA061P0145004
+SML	132	132	null	null	null	null	null	null	null	null	5	null	null	2259429	2259429	0	MSBNK-SMB_Measured-HSA061P0147000
+SML	133	133	null	null	null	null	null	null	null	null	5	null	null	2074737	2074737	0	MSBNK-SMB_Measured-HSA061P0147001
+SML	134	134	null	null	null	null	null	null	null	null	5	null	null	1795122	1795122	0	MSBNK-SMB_Measured-HSA061P0147002
+SML	135	135	null	null	null	null	null	null	null	null	5	null	null	1780801	1780801	0	MSBNK-SMB_Measured-HSA061P0147003
+SML	136	136	null	null	null	null	null	null	null	null	5	null	null	573445	573445	0	MSBNK-SMB_Measured-HSA061P0147004
+SML	137	137	null	null	null	null	null	null	null	null	5	null	null	1611444	1611444	0	MSBNK-SMB_Measured-HSA061P0147005
+SML	138	138	null	null	null	null	null	null	null	null	5	null	null	1786547	1786547	0	MSBNK-SMB_Measured-HSA061P0147007
+SML	139	139	null	null	null	null	null	null	null	null	5	null	null	2185900	2185900	0	MSBNK-SMB_Measured-HSA061P0147008
+SML	140	140	null	null	null	null	null	null	null	null	5	null	null	2042494	2042494	0	MSBNK-SMB_Measured-HSA061P0147010
+SML	141	141	null	null	null	null	null	null	null	null	5	null	null	1548337	1548337	0	MSBNK-SMB_Measured-HSA061P0147011
+SML	142	142	CID:null	C6N2OS	null	null	null	null	147.973133637	[M-H]-	4	[, , q-value formula, ]	0.0004191	376815	376815	0	MSBNK-SMB_Measured-HSA061P0147012
+SML	143	143	null	null	null	null	null	null	null	null	5	null	null	2037523	2037523	0	MSBNK-SMB_Measured-HSA061P0147013
+SML	144	144	null	null	null	null	null	null	null	null	5	null	null	570074	570074	0	MSBNK-SMB_Measured-HSA061P0147015
+SML	145	145	null	null	null	null	null	null	null	null	5	null	null	1817031	1817031	0	MSBNK-SMB_Measured-HSA061P0147017
+SML	146	146	CID:null	C6N2OS	null	null	null	null	147.973133637	[M-H]-	4	[, , q-value formula, ]	0.0004191	2366401	2366401	0	MSBNK-SMB_Measured-HSA061P0147018
+SML	147	147	null	null	null	null	null	null	null	null	5	null	null	2478975	2478975	0	MSBNK-SMB_Measured-HSA061P0147019
+SML	148	148	null	null	null	null	null	null	null	null	5	null	null	319607	319607	0	MSBNK-SMB_Measured-HSA061P0151000
+SML	149	149	null	null	null	null	null	null	null	null	5	null	null	82332	82332	0	MSBNK-SMB_Measured-HSA061P0151002
+SML	150	150	null	null	null	null	null	null	null	null	5	null	null	154188	154188	0	MSBNK-SMB_Measured-HSA061P0154000
+SML	151	151	CID:null	C6H5NO4	null	null	null	null	155.021857655	[M-H]-	4	[, , q-value formula, ]	0.0003605	167683	167683	0	MSBNK-SMB_Measured-HSA061P0154003
+SML	152	152	null	null	null	null	null	null	null	null	5	null	null	123495	123495	0	MSBNK-SMB_Measured-HSA061P0158003
+SML	153	153	null	null	null	null	null	null	null	null	5	null	null	357064	357064	0	MSBNK-SMB_Measured-HSA061P0159001
+SML	154	154	null	null	null	null	null	null	null	null	5	null	null	2737334	2737334	0	MSBNK-SMB_Measured-HSA061P0160000
+SML	155	155	null	null	null	null	null	null	null	null	5	null	null	2464058	2464058	0	MSBNK-SMB_Measured-HSA061P0161000
+SML	156	156	null	null	null	null	null	null	null	null	5	null	null	276814	276814	0	MSBNK-SMB_Measured-HSA061P0161001
+SML	157	157	null	null	null	null	null	null	null	null	5	null	null	655223	655223	0	MSBNK-SMB_Measured-HSA061P0161004
+SML	158	158	null	null	null	null	null	null	null	null	5	null	null	141630	141630	0	MSBNK-SMB_Measured-HSA061P0161005
+SML	159	159	null	null	null	null	null	null	null	null	5	null	null	238336	238336	0	MSBNK-SMB_Measured-HSA061P0161011
+SML	160	160	null	null	null	null	null	null	null	null	5	null	null	181965	181965	0	MSBNK-SMB_Measured-HSA061P0161012
+SML	161	161	null	null	null	null	null	null	null	null	5	null	null	3360339	3360339	0	MSBNK-SMB_Measured-HSA061P0161013
+SML	162	162	CID:null	C3H2N2O	null	null	null	null	82.0167127006	[M+Br]-	4	[, , q-value formula, ]	0.0003605	267828	267828	0	MSBNK-SMB_Measured-HSA061P0161014
+SML	163	163	null	null	null	null	null	null	null	null	5	null	null	397503	397503	0	MSBNK-SMB_Measured-HSA061P0163002
+SML	164	164	null	null	null	null	null	null	null	null	5	null	null	137787	137787	0	MSBNK-SMB_Measured-HSA061P0163004
+SML	165	165	null	null	null	null	null	null	null	null	5	null	null	120556	120556	0	MSBNK-SMB_Measured-HSA061P0164000
+SML	166	166	CID:1017	C8H6O4	C1=CC=C(C(=C1)C(=O)O)C(=O)O	InChI=1S/C8H6O4/c9-7(10)5-3-1-2-4-6(5)8(11)12/h1-4H,(H,9,10)(H,11,12)	Phthalic acid	https://hmdb.ca/metabolites/HMDB0002107	166.026608679	[M-H]-	2	[, , q-value compound, ]	0.012	1245818	1245818	0	MSBNK-SMB_Measured-HSA061P0165000
+SML	167	167	CID:null	C8H12O4	null	null	null	null	172.073558871	[M-H]-	4	[, , q-value formula, ]	0.0003605	149801	149801	0	MSBNK-SMB_Measured-HSA061P0171001
+SML	168	168	null	null	null	null	null	null	null	null	5	null	null	42603	42603	0	MSBNK-SMB_Measured-HSA061P0174001
+SML	169	169	null	null	null	null	null	null	null	null	5	null	null	137037	137037	0	MSBNK-SMB_Measured-HSA061P0174002
+SML	170	170	null	null	null	null	null	null	null	null	5	null	null	120316	120316	0	MSBNK-SMB_Measured-HSA061P0174004
+SML	171	171	null	null	null	null	null	null	null	null	5	null	null	174220	174220	0	MSBNK-SMB_Measured-HSA061P0175000
+SML	172	172	null	null	null	null	null	null	null	null	5	null	null	868811	868811	0	MSBNK-SMB_Measured-HSA061P0175001
+SML	173	173	null	null	null	null	null	null	null	null	5	null	null	395220	395220	0	MSBNK-SMB_Measured-HSA061P0175003
+SML	174	174	null	null	null	null	null	null	null	null	5	null	null	135645	135645	0	MSBNK-SMB_Measured-HSA061P0175004
+SML	175	175	null	null	null	null	null	null	null	null	5	null	null	147092	147092	0	MSBNK-SMB_Measured-HSA061P0175006
+SML	176	176	null	null	null	null	null	null	null	null	5	null	null	200342	200342	0	MSBNK-SMB_Measured-HSA061P0177000
+SML	177	177	null	null	null	null	null	null	null	null	5	null	null	260070	260070	0	MSBNK-SMB_Measured-HSA061P0177002
+SML	178	178	null	null	null	null	null	null	null	null	5	null	null	118935	118935	0	MSBNK-SMB_Measured-HSA061P0177003
+SML	179	179	null	null	null	null	null	null	null	null	5	null	null	265392	265392	0	MSBNK-SMB_Measured-HSA061P0179000
+SML	180	180	null	null	null	null	null	null	null	null	5	null	null	2635901	2635901	0	MSBNK-SMB_Measured-HSA061P0179001
+SML	181	181	null	null	null	null	null	null	null	null	5	null	null	386938	386938	0	MSBNK-SMB_Measured-HSA061P0179002
+SML	182	182	null	null	null	null	null	null	null	null	5	null	null	204149	204149	0	MSBNK-SMB_Measured-HSA061P0179004
+SML	183	183	null	null	null	null	null	null	null	null	5	null	null	347995	347995	0	MSBNK-SMB_Measured-HSA061P0180000
+SML	184	184	null	null	null	null	null	null	null	null	5	null	null	144549	144549	0	MSBNK-SMB_Measured-HSA061P0180001
+SML	185	185	null	null	null	null	null	null	null	null	5	null	null	123437	123437	0	MSBNK-SMB_Measured-HSA061P0180003
+SML	186	186	null	null	null	null	null	null	null	null	5	null	null	68118	68118	0	MSBNK-SMB_Measured-HSA061P0180006
+SML	187	187	null	null	null	null	null	null	null	null	5	null	null	127002	127002	0	MSBNK-SMB_Measured-HSA061P0180009
+SML	188	188	null	null	null	null	null	null	null	null	5	null	null	123487	123487	0	MSBNK-SMB_Measured-HSA061P0180011
+SML	189	189	null	null	null	null	null	null	null	null	5	null	null	363197	363197	0	MSBNK-SMB_Measured-HSA061P0181000
+SML	190	190	null	null	null	null	null	null	null	null	5	null	null	204775	204775	0	MSBNK-SMB_Measured-HSA061P0181001
+SML	191	191	null	null	null	null	null	null	null	null	5	null	null	478753	478753	0	MSBNK-SMB_Measured-HSA061P0181003
+SML	192	192	null	null	null	null	null	null	null	null	5	null	null	128689	128689	0	MSBNK-SMB_Measured-HSA061P0186000
+SML	193	193	null	null	null	null	null	null	null	null	5	null	null	69879	69879	0	MSBNK-SMB_Measured-HSA061P0186001
+SML	194	194	CID:null	C9H17NO3	null	null	null	null	187.120843416	[M-H]-	4	[, , q-value formula, ]	0.0003605	119473	119473	0	MSBNK-SMB_Measured-HSA061P0186003
+SML	195	195	CID:2266	C9H16O4	C(CCCC(=O)O)CCCC(=O)O	InChI=1S/C9H16O4/c10-8(11)6-4-2-1-3-5-7-9(12)13/h1-7H2,(H,10,11)(H,12,13)	Azelaic acid	https://hmdb.ca/metabolites/HMDB0000784	188.104858998	[M-H]-	2	[, , q-value compound, ]	0.012	165664	165664	0	MSBNK-SMB_Measured-HSA061P0187002
+SML	196	196	null	null	null	null	null	null	null	null	5	null	null	325769	325769	0	MSBNK-SMB_Measured-HSA061P0188000
+SML	197	197	null	null	null	null	null	null	null	null	5	null	null	282368	282368	0	MSBNK-SMB_Measured-HSA061P0188001
+SML	198	198	null	null	null	null	null	null	null	null	5	null	null	224205	224205	0	MSBNK-SMB_Measured-HSA061P0188005
+SML	199	199	null	null	null	null	null	null	null	null	5	null	null	206666	206666	0	MSBNK-SMB_Measured-HSA061P0188006
+SML	200	200	null	null	null	null	null	null	null	null	5	null	null	3665104	3665104	0	MSBNK-SMB_Measured-HSA061P0191000
+SML	201	201	null	null	null	null	null	null	null	null	5	null	null	2339886	2339886	0	MSBNK-SMB_Measured-HSA061P0191001
+SML	202	202	null	null	null	null	null	null	null	null	5	null	null	175242	175242	0	MSBNK-SMB_Measured-HSA061P0191002
+SML	203	203	null	null	null	null	null	null	null	null	5	null	null	1339388	1339388	0	MSBNK-SMB_Measured-HSA061P0191003
+SML	204	204	null	null	null	null	null	null	null	null	5	null	null	530138	530138	0	MSBNK-SMB_Measured-HSA061P0191004
+SML	205	205	null	null	null	null	null	null	null	null	5	null	null	531177	531177	0	MSBNK-SMB_Measured-HSA061P0193000
+SML	206	206	CID:null	C10H13NO3	null	null	null	null	195.089543288	[M-H]-	4	[, , q-value formula, ]	0.0003605	829237	829237	0	MSBNK-SMB_Measured-HSA061P0194000
+SML	207	207	CID:null	C12H20O2	null	null	null	null	196.146329882	[M-H]-	4	[, , q-value formula, ]	0.0003605	142247	142247	0	MSBNK-SMB_Measured-HSA061P0195000
+SML	208	208	null	null	null	null	null	null	null	null	5	null	null	374610	374610	0	MSBNK-SMB_Measured-HSA061P0196000
+SML	209	209	null	null	null	null	null	null	null	null	5	null	null	3183268	3183268	0	MSBNK-SMB_Measured-HSA061P0196002
+SML	210	210	null	null	null	null	null	null	null	null	5	null	null	231650	231650	0	MSBNK-SMB_Measured-HSA061P0197000
+SML	211	211	null	null	null	null	null	null	null	null	5	null	null	403518	403518	0	MSBNK-SMB_Measured-HSA061P0198000
+SML	212	212	null	null	null	null	null	null	null	null	5	null	null	124369	124369	0	MSBNK-SMB_Measured-HSA061P0198003
+SML	213	213	null	null	null	null	null	null	null	null	5	null	null	2729268	2729268	0	MSBNK-SMB_Measured-HSA061P0198004
+SML	214	214	null	null	null	null	null	null	null	null	5	null	null	151418	151418	0	MSBNK-SMB_Measured-HSA061P0199000
+SML	215	215	null	null	null	null	null	null	null	null	5	null	null	180933	180933	0	MSBNK-SMB_Measured-HSA061P0199001
+SML	216	216	null	null	null	null	null	null	null	null	5	null	null	123959	123959	0	MSBNK-SMB_Measured-HSA061P0199006
+SML	217	217	null	null	null	null	null	null	null	null	5	null	null	165745	165745	0	MSBNK-SMB_Measured-HSA061P0200000
+SML	218	218	null	null	null	null	null	null	null	null	5	null	null	942823	942823	0	MSBNK-SMB_Measured-HSA061P0200002
+SML	219	219	null	null	null	null	null	null	null	null	5	null	null	158863	158863	0	MSBNK-SMB_Measured-HSA061P0205000
+SML	220	220	null	null	null	null	null	null	null	null	5	null	null	120225	120225	0	MSBNK-SMB_Measured-HSA061P0205001
+SML	221	221	null	null	null	null	null	null	null	null	5	null	null	140269	140269	0	MSBNK-SMB_Measured-HSA061P0206000
+SML	222	222	null	null	null	null	null	null	null	null	5	null	null	2438392	2438392	0	MSBNK-SMB_Measured-HSA061P0206001
+SML	223	223	null	null	null	null	null	null	null	null	5	null	null	180510	180510	0	MSBNK-SMB_Measured-HSA061P0206002
+SML	224	224	null	null	null	null	null	null	null	null	5	null	null	213947	213947	0	MSBNK-SMB_Measured-HSA061P0207000
+SML	225	225	CID:null	C13H20O2	null	null	null	null	208.146329882	[M-H]-	4	[, , q-value formula, ]	0.0003605	273731	273731	0	MSBNK-SMB_Measured-HSA061P0207001
+SML	226	226	null	null	null	null	null	null	null	null	5	null	null	320417	320417	0	MSBNK-SMB_Measured-HSA061P0208001
+SML	227	227	null	null	null	null	null	null	null	null	5	null	null	207198	207198	0	MSBNK-SMB_Measured-HSA061P0208002
+SML	228	228	null	null	null	null	null	null	null	null	5	null	null	258308	258308	0	MSBNK-SMB_Measured-HSA061P0208003
+SML	229	229	null	null	null	null	null	null	null	null	5	null	null	188196	188196	0	MSBNK-SMB_Measured-HSA061P0208004
+SML	230	230	null	null	null	null	null	null	null	null	5	null	null	271801	271801	0	MSBNK-SMB_Measured-HSA061P0208005
+SML	231	231	null	null	null	null	null	null	null	null	5	null	null	254146	254146	0	MSBNK-SMB_Measured-HSA061P0208006
+SML	232	232	null	null	null	null	null	null	null	null	5	null	null	299404	299404	0	MSBNK-SMB_Measured-HSA061P0208007
+SML	233	233	null	null	null	null	null	null	null	null	5	null	null	81893	81893	0	MSBNK-SMB_Measured-HSA061P0208009
+SML	234	234	null	null	null	null	null	null	null	null	5	null	null	1531130	1531130	0	MSBNK-SMB_Measured-HSA061P0208010
+SML	235	235	null	null	null	null	null	null	null	null	5	null	null	158812	158812	0	MSBNK-SMB_Measured-HSA061P0208012
+SML	236	236	null	null	null	null	null	null	null	null	5	null	null	327540	327540	0	MSBNK-SMB_Measured-HSA061P0208013
+SML	237	237	null	null	null	null	null	null	null	null	5	null	null	177561	177561	0	MSBNK-SMB_Measured-HSA061P0208016
+SML	238	238	null	null	null	null	null	null	null	null	5	null	null	76709	76709	0	MSBNK-SMB_Measured-HSA061P0208020
+SML	239	239	CID:null	C9H8O3	null	null	null	null	164.047344121	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	4222410	4222410	0	MSBNK-SMB_Measured-HSA061P0209000
+SML	240	240	null	null	null	null	null	null	null	null	5	null	null	77435	77435	0	MSBNK-SMB_Measured-HSA061P0209004
+SML	241	241	null	null	null	null	null	null	null	null	5	null	null	81518	81518	0	MSBNK-SMB_Measured-HSA061P0213000
+SML	242	242	null	null	null	null	null	null	null	null	5	null	null	47351	47351	0	MSBNK-SMB_Measured-HSA061P0213001
+SML	243	243	null	null	null	null	null	null	null	null	5	null	null	41835	41835	0	MSBNK-SMB_Measured-HSA061P0213002
+SML	244	244	null	null	null	null	null	null	null	null	5	null	null	112552	112552	0	MSBNK-SMB_Measured-HSA061P0216000
+SML	245	245	null	null	null	null	null	null	null	null	5	null	null	1007554	1007554	0	MSBNK-SMB_Measured-HSA061P0216001
+SML	246	246	null	null	null	null	null	null	null	null	5	null	null	141876	141876	0	MSBNK-SMB_Measured-HSA061P0216003
+SML	247	247	CID:null	C14H22O2	null	null	null	null	222.161979946	[M-H]-	4	[, , q-value formula, ]	0.0004191	225004	225004	0	MSBNK-SMB_Measured-HSA061P0221000
+SML	248	248	CID:null	C12H14O4	null	null	null	null	222.089208935	[M-H]-	4	[, , q-value formula, ]	0.0004191	37241	37241	0	MSBNK-SMB_Measured-HSA061P0221002
+SML	249	249	CID:null	C4HN3O5P2	null	null	null	null	232.939140164	[M-H]-	4	[, , q-value formula, ]	0.0003605	54143	54143	0	MSBNK-SMB_Measured-HSA061P0232000
+SML	250	250	CID:null	C4HN3O5P2	null	null	null	null	232.939140164	[M-H]-	4	[, , q-value formula, ]	0.0003605	115912	115912	0	MSBNK-SMB_Measured-HSA061P0232004
+SML	251	251	null	null	null	null	null	null	null	null	5	null	null	61661	61661	0	MSBNK-SMB_Measured-HSA061P0232005
+SML	252	252	null	null	null	null	null	null	null	null	5	null	null	40831	40831	0	MSBNK-SMB_Measured-HSA061P0232006
+SML	253	253	null	null	null	null	null	null	null	null	5	null	null	412157	412157	0	MSBNK-SMB_Measured-HSA061P0233000
+SML	254	254	null	null	null	null	null	null	null	null	5	null	null	98877	98877	0	MSBNK-SMB_Measured-HSA061P0233001
+SML	255	255	null	null	null	null	null	null	null	null	5	null	null	86636	86636	0	MSBNK-SMB_Measured-HSA061P0233003
+SML	256	256	null	null	null	null	null	null	null	null	5	null	null	181031	181031	0	MSBNK-SMB_Measured-HSA061P0236000
+SML	257	257	null	null	null	null	null	null	null	null	5	null	null	106957	106957	0	MSBNK-SMB_Measured-HSA061P0236001
+SML	258	258	null	null	null	null	null	null	null	null	5	null	null	137671	137671	0	MSBNK-SMB_Measured-HSA061P0236002
+SML	259	259	null	null	null	null	null	null	null	null	5	null	null	135556	135556	0	MSBNK-SMB_Measured-HSA061P0236003
+SML	260	260	null	null	null	null	null	null	null	null	5	null	null	38886	38886	0	MSBNK-SMB_Measured-HSA061P0236004
+SML	261	261	CID:null	C13H20O4	null	null	null	null	240.136159126	[M-H]-	4	[, , q-value formula, ]	0.0003605	152266	152266	0	MSBNK-SMB_Measured-HSA061P0239001
+SML	262	262	null	null	null	null	null	null	null	null	5	null	null	245462	245462	0	MSBNK-SMB_Measured-HSA061P0240000
+SML	263	263	null	null	null	null	null	null	null	null	5	null	null	190607	190607	0	MSBNK-SMB_Measured-HSA061P0240001
+SML	264	264	null	null	null	null	null	null	null	null	5	null	null	222053	222053	0	MSBNK-SMB_Measured-HSA061P0240002
+SML	265	265	null	null	null	null	null	null	null	null	5	null	null	236500	236500	0	MSBNK-SMB_Measured-HSA061P0240003
+SML	266	266	CID:null	C13H25NO3	null	null	null	null	243.183443671	[M-H]-	4	[, , q-value formula, ]	0.0003605	208338	208338	0	MSBNK-SMB_Measured-HSA061P0242000
+SML	267	267	null	null	null	null	null	null	null	null	5	null	null	77318	77318	0	MSBNK-SMB_Measured-HSA061P0249000
+SML	268	268	null	null	null	null	null	null	null	null	5	null	null	1397234	1397234	0	MSBNK-SMB_Measured-HSA061P0249001
+SML	269	269	CID:null	C14H21NO3	null	null	null	null	251.152143543	[M-H]-	4	[, , q-value formula, ]	0.0003605	662256	662256	0	MSBNK-SMB_Measured-HSA061P0250000
+SML	270	270	CID:null	C13H20O2	null	null	null	null	208.146329882	[M+FA-H]-	4	[, , q-value formula, ]	0.0004191	157601	157601	0	MSBNK-SMB_Measured-HSA061P0253000
+SML	271	271	CID:null	C3H4N2O6S3	null	null	null	null	259.923148874	[M-H]-	4	[, , q-value formula, ]	0.0003605	72085	72085	0	MSBNK-SMB_Measured-HSA061P0259001
+SML	272	272	null	null	null	null	null	null	null	null	5	null	null	298746	298746	0	MSBNK-SMB_Measured-HSA061P0262000
+SML	273	273	CID:null	C12H26O4S	null	null	null	null	266.155180317	[M-H]-	4	[, , q-value formula, ]	0.0004191	172079	172079	0	MSBNK-SMB_Measured-HSA061P0265000
+SML	274	274	CID:null	C16H32O3	null	null	null	null	272.235144887	[M-H]-	4	[, , q-value formula, ]	0.0003605	155944	155944	0	MSBNK-SMB_Measured-HSA061P0271001
+SML	275	275	null	null	null	null	null	null	null	null	5	null	null	57229	57229	0	MSBNK-SMB_Measured-HSA061P0271003
+SML	276	276	CID:null	C14H28O3S	null	null	null	null	276.175915759	[M-H]-	4	[, , q-value formula, ]	0.0003605	48897	48897	0	MSBNK-SMB_Measured-HSA061P0275000
+SML	277	277	CID:null	C9H8O3	null	null	null	null	164.047344121	[M+TFA-H]-	4	[, , q-value formula, ]	0.0048018	291756	291756	0	MSBNK-SMB_Measured-HSA061P0277000
+SML	278	278	CID:20393	C16H22O4	CCCCC(CC)COC(=O)C1=CC=CC=C1C(=O)O	InChI=1S/C16H22O4/c1-3-5-8-12(4-2)11-20-16(19)14-10-7-6-9-13(14)15(17)18/h6-7,9-10,12H,3-5,8,11H2,1-2H3,(H,17,18)	Monoethylhexyl phthalic acid	https://hmdb.ca/metabolites/HMDB0013248	278.15180919	[M-H]-	2	[, , q-value compound, ]	0.0116805	70928	70928	0	MSBNK-SMB_Measured-HSA061P0277001
+SML	279	279	CID:null	C14H30O4S	null	null	null	null	294.186480445	[M-H]-	4	[, , q-value formula, ]	0.0004191	180797	180797	0	MSBNK-SMB_Measured-HSA061P0293000
+SML	280	280	CID:3473	C17H26O4	CCCCCC(CC(=O)CCC1=CC(=C(C=C1)O)OC)O	InChI=1S/C17H26O4/c1-3-4-5-6-14(18)12-15(19)9-7-13-8-10-16(20)17(11-13)21-2/h8,10-11,14,18,20H,3-7,9,12H2,1-2H3	Gingerol	https://hmdb.ca/metabolites/HMDB0005783	294.183109317	[M-H]-	2	[, , q-value compound, ]	0.012	288800	288800	0	MSBNK-SMB_Measured-HSA061P0293001
+SML	281	281	CID:null	C17H26O4	null	null	null	null	294.183109317	[M-H]-	4	[, , q-value formula, ]	0.0003605	299587	299587	0	MSBNK-SMB_Measured-HSA061P0293003
+SML	282	282	null	null	null	null	null	null	null	null	5	null	null	119200	119200	0	MSBNK-SMB_Measured-HSA061P0297000
+SML	283	283	null	null	null	null	null	null	null	null	5	null	null	265425	265425	0	MSBNK-SMB_Measured-HSA061P0299000
+SML	284	284	CID:null	C15H30OS	null	null	null	null	258.201736579	[M+FA-H]-	4	[, , q-value formula, ]	0.0004191	289782	289782	0	MSBNK-SMB_Measured-HSA061P0303000
+SML	285	285	CID:null	C15H30OS	null	null	null	null	258.201736579	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	136636	136636	0	MSBNK-SMB_Measured-HSA061P0303002
+SML	286	286	null	null	null	null	null	null	null	null	5	null	null	104036	104036	0	MSBNK-SMB_Measured-HSA061P0309000
+SML	287	287	null	null	null	null	null	null	null	null	5	null	null	113084	113084	0	MSBNK-SMB_Measured-HSA061P0311000
+SML	288	288	null	null	null	null	null	null	null	null	5	null	null	88462	88462	0	MSBNK-SMB_Measured-HSA061P0311001
+SML	289	289	null	null	null	null	null	null	null	null	5	null	null	1667042	1667042	0	MSBNK-SMB_Measured-HSA061P0317000
+SML	290	290	null	null	null	null	null	null	null	null	4	null	null	719756	719756	0	MSBNK-SMB_Measured-HSA061P0325000
+SML	291	291	null	null	null	null	null	null	null	null	4	null	null	371018	371018	0	MSBNK-SMB_Measured-HSA061P0325001
+SML	292	292	null	null	null	null	null	null	null	null	5	null	null	834394	834394	0	MSBNK-SMB_Measured-HSA061P0339000
+SML	293	293	null	null	null	null	null	null	null	null	5	null	null	273361	273361	0	MSBNK-SMB_Measured-HSA061P0339001
+SML	294	294	null	null	null	null	null	null	null	null	5	null	null	291413	291413	0	MSBNK-SMB_Measured-HSA061P0339002
+SML	295	295	null	null	null	null	null	null	null	null	5	null	null	52568	52568	0	MSBNK-SMB_Measured-HSA061P0355000
+SML	296	296	CID:null	C18H14O8	null	null	null	null	358.068867423	[M-H]-	4	[, , q-value formula, ]	0.0003605	408757	408757	0	MSBNK-SMB_Measured-HSA061P0357000
+SML	297	297	null	null	null	null	null	null	null	null	5	null	null	777022	777022	0	MSBNK-SMB_Measured-HSA061P0385000
+SML	298	298	null	null	null	null	null	null	null	null	5	null	null	51182	51182	0	MSBNK-SMB_Measured-HSA061P0387000
+SML	299	299	CID:null	C14H21NO9	null	null	null	null	347.121631275	[M+FA-H]-	4	[, , q-value formula, ]	0.0004191	274821	274821	0	MSBNK-SMB_Measured-HSA061P0392000
+SML	300	300	CID:null	C20H18O9	null	null	null	null	402.095082172	[M-H]-	4	[, , q-value formula, ]	0.0004191	1193528	1193528	0	MSBNK-SMB_Measured-HSA061P0401000
+SML	301	301	CID:null	C17H25NO12	null	null	null	null	435.137675269	[M-H]-	4	[, , q-value formula, ]	0.0077932	363796	363796	0	MSBNK-SMB_Measured-HSA061P0434000
+SML	302	302	CID:null	C21H44NO7P	null	null	null	null	453.285537765	[M-H]-	4	[, , q-value formula, ]	0.0004191	151159	151159	0	MSBNK-SMB_Measured-HSA061P0452000
+SML	303	303	null	null	null	null	null	null	null	null	5	null	null	351033	351033	0	MSBNK-SMB_Measured-HSA061P0453000
+SML	304	304	CID:null	C23H46NO7P	null	null	null	null	479.301187829	[M-H]-	4	[, , q-value formula, ]	0.0004191	252995	252995	0	MSBNK-SMB_Measured-HSA061P0478000
+SML	305	305	CID:null	C25H44NO7P	null	null	null	null	501.285537765	[M-H]-	4	[, , q-value formula, ]	0.0004191	209962	209962	0	MSBNK-SMB_Measured-HSA061P0500000
+SML	306	306	CID:null	C25H46NO7P	null	null	null	null	503.301187829	[M-H]-	4	[, , q-value formula, ]	0.0003605	467717	467717	0	MSBNK-SMB_Measured-HSA061P0502000
+SML	307	307	null	null	null	null	null	null	null	null	5	null	null	203371	203371	0	MSBNK-SMB_Measured-HSA061P0520000
+SML	308	308	CID:null	C27H50NO7P	null	null	null	null	531.332487956	[M-H]-	4	[, , q-value formula, ]	0.0004191	309359	309359	0	MSBNK-SMB_Measured-HSA061P0530000
+SML	309	309	null	null	null	null	null	null	null	null	5	null	null	277105	277105	0	MSBNK-SMB_Measured-HSA061P0530002
+SML	310	310	CID:null	C24H50NO7P	null	null	null	null	495.332487956	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	376120	376120	0	MSBNK-SMB_Measured-HSA061P0540000
+SML	311	311	null	null	null	null	null	null	null	null	5	null	null	363251	363251	0	MSBNK-SMB_Measured-HSA061P0599001
+SML	312	312	CID:null	C41H78NO8P	null	null	null	null	743.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	313439	313439	0	MSBNK-SMB_Measured-HSA061P0742000
+SML	313	313	CID:null	C41H78NO8P	null	null	null	null	743.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	222174	222174	0	MSBNK-SMB_Measured-HSA061P0742001
+SML	314	314	CID:null	C41H78NO8P	null	null	null	null	743.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	248576	248576	0	MSBNK-SMB_Measured-HSA061P0742002
+SML	315	315	CID:null	C41H78NO8P	null	null	null	null	743.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	502901	502901	0	MSBNK-SMB_Measured-HSA061P0742003
+SML	316	316	CID:null	C40H77O10P	null	null	null	null	748.525433676	[M-H]-	4	[, , q-value formula, ]	0.0003605	312370	312370	0	MSBNK-SMB_Measured-HSA061P0747000
+SML	317	317	null	null	null	null	null	null	null	null	5	null	null	1618019	1618019	0	MSBNK-SMB_Measured-HSA061P0747001
+SML	318	318	null	null	null	null	null	null	null	null	5	null	null	257652	257652	0	MSBNK-SMB_Measured-HSA061P0747002
+SML	319	319	null	null	null	null	null	null	null	null	4	null	null	142844	142844	0	MSBNK-SMB_Measured-HSA061P0747004
+SML	320	320	CID:null	C40H77O10P	null	null	null	null	748.525433676	[M-H]-	4	[, , q-value formula, ]	0.0003605	259831	259831	0	MSBNK-SMB_Measured-HSA061P0747005
+SML	321	321	null	null	null	null	null	null	null	null	5	null	null	132550	132550	0	MSBNK-SMB_Measured-HSA061P0747006
+SML	322	322	null	null	null	null	null	null	null	null	5	null	null	220673	220673	0	MSBNK-SMB_Measured-HSA061P0748002
+SML	323	323	null	null	null	null	null	null	null	null	5	null	null	162744	162744	0	MSBNK-SMB_Measured-HSA061P0750000
+SML	324	324	null	null	null	null	null	null	null	null	5	null	null	106222	106222	0	MSBNK-SMB_Measured-HSA061P0752000
+SML	325	325	CID:null	C43H78NO8P	null	null	null	null	767.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	144501	144501	0	MSBNK-SMB_Measured-HSA061P0766000
+SML	326	326	CID:null	C43H78NO8P	null	null	null	null	767.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	106875	106875	0	MSBNK-SMB_Measured-HSA061P0766001
+SML	327	327	CID:null	C43H78NO8P	null	null	null	null	767.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	154663	154663	0	MSBNK-SMB_Measured-HSA061P0766002
+SML	328	328	CID:null	C43H78NO8P	null	null	null	null	767.546503472	[M-H]-	4	[, , q-value formula, ]	0.0003605	84086	84086	0	MSBNK-SMB_Measured-HSA061P0766003
+SML	329	329	null	null	null	null	null	null	null	null	5	null	null	103044	103044	0	MSBNK-SMB_Measured-HSA061P0766004
+SML	330	330	null	null	null	null	null	null	null	null	5	null	null	1310572	1310572	0	MSBNK-SMB_Measured-HSA061P0773000
+SML	331	331	null	null	null	null	null	null	null	null	5	null	null	852359	852359	0	MSBNK-SMB_Measured-HSA061P0773001
+SML	332	332	null	null	null	null	null	null	null	null	5	null	null	610549	610549	0	MSBNK-SMB_Measured-HSA061P0775000
+SML	333	333	null	null	null	null	null	null	null	null	5	null	null	337224	337224	0	MSBNK-SMB_Measured-HSA061P0778000
+SML	334	334	null	null	null	null	null	null	null	null	5	null	null	247744	247744	0	MSBNK-SMB_Measured-HSA061P0778001
+SML	335	335	CID:null	C42H80NO10P	null	null	null	null	789.551982779	[M-H]-	4	[, , q-value formula, ]	0.0003605	310754	310754	0	MSBNK-SMB_Measured-HSA061P0788000
+SML	336	336	CID:null	C42H84NO7P	null	null	null	null	745.598539041	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	183753	183753	0	MSBNK-SMB_Measured-HSA061P0790000
+SML	337	337	null	null	null	null	null	null	null	null	5	null	null	244703	244703	0	MSBNK-SMB_Measured-HSA061P0790001
+SML	338	338	null	null	null	null	null	null	null	null	5	null	null	158121	158121	0	MSBNK-SMB_Measured-HSA061P0799000
+SML	339	339	CID:null	C42H80NO8P	null	null	null	null	757.562153535	[M+FA-H]-	4	[, , q-value formula, ]	0.0031886	427761	427761	0	MSBNK-SMB_Measured-HSA061P0802000
+SML	340	340	CID:null	C42H80NO8P	null	null	null	null	757.562153535	[M+FA-H]-	4	[, , q-value formula, ]	0.0031886	243551	243551	0	MSBNK-SMB_Measured-HSA061P0802001
+SML	341	341	CID:null	C42H80NO8P	null	null	null	null	757.562153535	[M+FA-H]-	4	[, , q-value formula, ]	0.0027564	452731	452731	0	MSBNK-SMB_Measured-HSA061P0802002
+SML	342	342	null	null	null	null	null	null	null	null	5	null	null	154225	154225	0	MSBNK-SMB_Measured-HSA061P0802003
+SML	343	343	CID:null	C42H82NO8P	null	null	null	null	759.577803599	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	1073608	1073608	0	MSBNK-SMB_Measured-HSA061P0804000
+SML	344	344	CID:null	C42H82NO8P	null	null	null	null	759.577803599	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	783939	783939	0	MSBNK-SMB_Measured-HSA061P0804001
+SML	345	345	null	null	null	null	null	null	null	null	5	null	null	328869	328869	0	MSBNK-SMB_Measured-HSA061P0804002
+SML	346	346	CID:null	C44H84NO8P	null	null	null	null	785.593453663	[M+FA-H]-	4	[, , q-value formula, ]	0.0003605	1595477	1595477	0	MSBNK-SMB_Measured-HSA061P0830000
+SML	347	347	CID:null	C44H84NO8P	null	null	null	null	785.593453663	[M+FA-H]-	4	[, , q-value formula, ]	0.0045367	897204	897204	0	MSBNK-SMB_Measured-HSA061P0830001
+SML	348	348	null	null	null	null	null	null	null	null	5	null	null	512350	512350	0	MSBNK-SMB_Measured-HSA061P0830002
+SML	349	349	null	null	null	null	null	null	null	null	5	null	null	111131	111131	0	MSBNK-SMB_Measured-HSA061P0854000
+SML	350	350	null	null	null	null	null	null	null	null	5	null	null	188910	188910	0	MSBNK-SMB_Measured-HSA061P0861000
+SML	351	351	CID:null	C47H83O13P	null	null	null	null	886.557127734	[M-H]-	4	[, , q-value formula, ]	0.0004191	236018	236018	0	MSBNK-SMB_Measured-HSA061P0885000
+SML	352	352	CID:null	C47H83O13P	null	null	null	null	886.557127734	[M-H]-	4	[, , q-value formula, ]	0.0003605	151404	151404	0	MSBNK-SMB_Measured-HSA061P0885001
+SML	353	353	null	null	null	null	null	null	null	null	5	null	null	432760	432760	0	MSBNK-SMB_Measured-HSA061P0887000
+SML	354	354	null	null	null	null	null	null	null	null	5	null	null	215624	215624	0	MSBNK-SMB_Measured-HSA061P0887001
+SML	355	355	null	null	null	null	null	null	null	null	5	null	null	271633	271633	0	MSBNK-SMB_Measured-HSA061P0887002
+SML	356	356	null	null	null	null	null	null	null	null	5	null	null	201550	201550	0	MSBNK-SMB_Measured-HSA061P0887003
+
+SFH	SMF_ID	SME_ID_REFS	SME_ID_REF_ambiguity_code	adduct_ion	isotopomer	exp_mass_to_charge	charge	retention_time_in_seconds	retention_time_in_seconds_start	retention_time_in_seconds_end	abundance_assay[1]	opt_global_ShinMassBank_Record_ID
+SMF	1	null	null	null	null	85.004343	-1	415	null	null	133923	MSBNK-SMB_Measured-HSA061P0085000
+SMF	2	null	null	null	null	85.004328	-1	550.9	null	null	163871	MSBNK-SMB_Measured-HSA061P0085001
+SMF	3	null	null	null	null	85.004328	-1	490.8	null	null	114032	MSBNK-SMB_Measured-HSA061P0085002
+SMF	4	null	null	null	null	87.008795	-1	204.1	null	null	56696	MSBNK-SMB_Measured-HSA061P0087000
+SMF	5	null	null	null	null	87.00878	-1	650.7	null	null	60499	MSBNK-SMB_Measured-HSA061P0087001
+SMF	6	null	null	null	null	87.00878	-1	35.1	null	null	51541	MSBNK-SMB_Measured-HSA061P0087002
+SMF	7	1	null	[M-H]-	null	89.024455	-1	87.5	null	null	863801	MSBNK-SMB_Measured-HSA061P0089000
+SMF	8	2	null	[M-H]-	null	89.024462	-1	224.1	null	null	632090	MSBNK-SMB_Measured-HSA061P0089001
+SMF	9	3	null	[M-H]-	null	89.024432	-1	323.6	null	null	388508	MSBNK-SMB_Measured-HSA061P0089002
+SMF	10	4	null	[M-H]-	null	89.024432	-1	417.3	null	null	262805	MSBNK-SMB_Measured-HSA061P0089003
+SMF	11	5	null	[M-H]-	null	89.024447	-1	622.9	null	null	453298	MSBNK-SMB_Measured-HSA061P0089004
+SMF	12	null	null	null	null	89.024417	-1	497.5	null	null	163338	MSBNK-SMB_Measured-HSA061P0089005
+SMF	13	6	null	[M-H]-	null	89.024424	-1	556.5	null	null	148343	MSBNK-SMB_Measured-HSA061P0089006
+SMF	14	null	null	null	null	90.933539	-1	591	null	null	1266322	MSBNK-SMB_Measured-HSA061P0091000
+SMF	15	null	null	null	null	96.960117	-1	76.5	null	null	6264976	MSBNK-SMB_Measured-HSA061P0097000
+SMF	16	null	null	null	null	96.960132	-1	182.2	null	null	2691004	MSBNK-SMB_Measured-HSA061P0097002
+SMF	17	null	null	null	null	96.960109	-1	635.4	null	null	6267520	MSBNK-SMB_Measured-HSA061P0097003
+SMF	18	null	null	null	null	99.925791	-1	499.9	null	null	575538	MSBNK-SMB_Measured-HSA061P0100000
+SMF	19	null	null	null	null	99.925836	-1	302	null	null	1319079	MSBNK-SMB_Measured-HSA061P0100001
+SMF	20	null	null	null	null	100.933597	-1	502.9	null	null	984776	MSBNK-SMB_Measured-HSA061P0101000
+SMF	21	null	null	null	null	100.933613	-1	365.8	null	null	1488139	MSBNK-SMB_Measured-HSA061P0101001
+SMF	22	null	null	null	null	100.933628	-1	273.1	null	null	1646400	MSBNK-SMB_Measured-HSA061P0101002
+SMF	23	null	null	null	null	100.933651	-1	184.9	null	null	1196836	MSBNK-SMB_Measured-HSA061P0101003
+SMF	24	null	null	null	null	100.933651	-1	100.1	null	null	623444	MSBNK-SMB_Measured-HSA061P0101004
+SMF	25	null	null	null	null	100.933628	-1	602.5	null	null	852988	MSBNK-SMB_Measured-HSA061P0101005
+SMF	26	null	null	null	null	102.94883	-1	18.7	null	null	344371	MSBNK-SMB_Measured-HSA061P0103000
+SMF	27	null	null	null	null	102.956856	-1	90.5	null	null	184525	MSBNK-SMB_Measured-HSA061P0103001
+SMF	28	null	null	null	null	102.948833	-1	599.9	null	null	795454	MSBNK-SMB_Measured-HSA061P0103002
+SMF	29	null	null	null	null	102.948788	-1	426.4	null	null	93892	MSBNK-SMB_Measured-HSA061P0103005
+SMF	30	null	null	null	null	103.920298	-1	148.6	null	null	484637	MSBNK-SMB_Measured-HSA061P0104000
+SMF	31	null	null	null	null	103.920282	-1	633.4	null	null	759677	MSBNK-SMB_Measured-HSA061P0104001
+SMF	32	null	null	null	null	103.920275	-1	29.7	null	null	449096	MSBNK-SMB_Measured-HSA061P0104002
+SMF	33	null	null	null	null	103.920313	-1	209.3	null	null	561551	MSBNK-SMB_Measured-HSA061P0104003
+SMF	34	7	null	[M-H]-	null	111.020074	-1	238.1	null	null	117390	MSBNK-SMB_Measured-HSA061P0111000
+SMF	35	null	null	null	null	111.020074	-1	104.8	null	null	122859	MSBNK-SMB_Measured-HSA061P0111001
+SMF	36	null	null	null	null	111.020036	-1	445.6	null	null	59944	MSBNK-SMB_Measured-HSA061P0111002
+SMF	37	null	null	null	null	111.020051	-1	626.6	null	null	113886	MSBNK-SMB_Measured-HSA061P0111003
+SMF	38	null	null	null	null	111.020036	-1	377.6	null	null	101029	MSBNK-SMB_Measured-HSA061P0111004
+SMF	39	null	null	null	null	112.98573	-1	274.8	null	null	224486	MSBNK-SMB_Measured-HSA061P0113001
+SMF	40	null	null	null	null	112.985761	-1	179.1	null	null	177375	MSBNK-SMB_Measured-HSA061P0113002
+SMF	41	null	null	null	null	112.985723	-1	369.8	null	null	196937	MSBNK-SMB_Measured-HSA061P0113003
+SMF	42	null	null	null	null	112.985753	-1	97.5	null	null	94566	MSBNK-SMB_Measured-HSA061P0113004
+SMF	43	null	null	null	null	112.985753	-1	123.6	null	null	91470	MSBNK-SMB_Measured-HSA061P0113005
+SMF	44	null	null	null	null	112.9857	-1	651.3	null	null	22782	MSBNK-SMB_Measured-HSA061P0113006
+SMF	45	null	null	null	null	112.98573	-1	600.5	null	null	69708	MSBNK-SMB_Measured-HSA061P0113007
+SMF	46	null	null	null	null	112.985715	-1	587.8	null	null	169418	MSBNK-SMB_Measured-HSA061P0113008
+SMF	47	null	null	null	null	112.985723	-1	56.6	null	null	53334	MSBNK-SMB_Measured-HSA061P0113009
+SMF	48	null	null	null	null	112.985701	-1	598.2	null	null	260353	MSBNK-SMB_Measured-HSA061P0113012
+SMF	49	null	null	null	null	112.985695	-1	19.5	null	null	13842	MSBNK-SMB_Measured-HSA061P0113013
+SMF	50	null	null	null	null	112.985659	-1	427.2	null	null	63971	MSBNK-SMB_Measured-HSA061P0113014
+SMF	51	null	null	null	null	113.92633	-1	503.2	null	null	174028	MSBNK-SMB_Measured-HSA061P0114000
+SMF	52	null	null	null	null	113.926292	-1	362.9	null	null	230943	MSBNK-SMB_Measured-HSA061P0114001
+SMF	53	null	null	null	null	113.926307	-1	263.2	null	null	290631	MSBNK-SMB_Measured-HSA061P0114002
+SMF	54	null	null	null	null	114.934129	-1	342.2	null	null	3936044	MSBNK-SMB_Measured-HSA061P0115000
+SMF	55	null	null	null	null	114.934182	-1	123.4	null	null	1796568	MSBNK-SMB_Measured-HSA061P0115002
+SMF	56	null	null	null	null	114.934175	-1	225	null	null	4345228	MSBNK-SMB_Measured-HSA061P0115003
+SMF	57	null	null	null	null	114.934159	-1	605.4	null	null	1182948	MSBNK-SMB_Measured-HSA061P0115004
+SMF	58	null	null	null	null	115.920711	-1	506.7	null	null	3780016	MSBNK-SMB_Measured-HSA061P0116000
+SMF	59	null	null	null	null	115.920757	-1	322.3	null	null	6111975	MSBNK-SMB_Measured-HSA061P0116001
+SMF	60	null	null	null	null	115.92081	-1	104.4	null	null	8586523	MSBNK-SMB_Measured-HSA061P0116002
+SMF	61	null	null	null	null	115.92081	-1	204.7	null	null	8247074	MSBNK-SMB_Measured-HSA061P0116003
+SMF	62	null	null	null	null	115.920764	-1	628.1	null	null	18290592	MSBNK-SMB_Measured-HSA061P0116004
+SMF	63	null	null	null	null	115.920749	-1	409.3	null	null	1841761	MSBNK-SMB_Measured-HSA061P0116005
+SMF	64	null	null	null	null	116.928594	-1	104.5	null	null	11326164	MSBNK-SMB_Measured-HSA061P0117000
+SMF	65	null	null	null	null	116.928525	-1	339.7	null	null	6234818	MSBNK-SMB_Measured-HSA061P0117001
+SMF	66	null	null	null	null	116.928579	-1	232.5	null	null	10226225	MSBNK-SMB_Measured-HSA061P0117002
+SMF	67	null	null	null	null	116.920995	-1	345.7	null	null	6260196	MSBNK-SMB_Measured-HSA061P0117003
+SMF	68	null	null	null	null	116.921064	-1	248.9	null	null	9832262	MSBNK-SMB_Measured-HSA061P0117004
+SMF	69	null	null	null	null	116.928579	-1	625.7	null	null	22860040	MSBNK-SMB_Measured-HSA061P0117005
+SMF	70	null	null	null	null	116.921178	-1	165.4	null	null	11088375	MSBNK-SMB_Measured-HSA061P0117006
+SMF	71	null	null	null	null	116.92851	-1	410.5	null	null	2272768	MSBNK-SMB_Measured-HSA061P0117007
+SMF	72	null	null	null	null	116.921136	-1	602.8	null	null	6482100	MSBNK-SMB_Measured-HSA061P0117009
+SMF	73	8	null	[M-H]-	null	117.019372	-1	94.2	null	null	4084918	MSBNK-SMB_Measured-HSA061P0117010
+SMF	74	9	null	[M-H]-	null	121.029516	-1	224.4	null	null	316651	MSBNK-SMB_Measured-HSA061P0121000
+SMF	75	10	null	[M-H]-	null	121.029432	-1	460.3	null	null	176008	MSBNK-SMB_Measured-HSA061P0121001
+SMF	76	11	null	[M-H]-	null	121.029478	-1	364	null	null	227211	MSBNK-SMB_Measured-HSA061P0121002
+SMF	77	12	null	[M-H]-	null	121.02952	-1	610.6	null	null	245022	MSBNK-SMB_Measured-HSA061P0121003
+SMF	78	13	null	[M-H]-	null	121.029539	-1	32.4	null	null	227431	MSBNK-SMB_Measured-HSA061P0121004
+SMF	79	null	null	null	null	122.894236	-1	621.7	null	null	103481	MSBNK-SMB_Measured-HSA061P0123002
+SMF	80	null	null	null	null	122.89422	-1	645.5	null	null	37683	MSBNK-SMB_Measured-HSA061P0123003
+SMF	81	null	null	null	null	122.894213	-1	181.4	null	null	49586	MSBNK-SMB_Measured-HSA061P0123004
+SMF	82	null	null	null	null	122.894175	-1	604.5	null	null	411914	MSBNK-SMB_Measured-HSA061P0123005
+SMF	83	null	null	null	null	122.894192	-1	149.4	null	null	47128	MSBNK-SMB_Measured-HSA061P0123007
+SMF	84	null	null	null	null	125.873215	-1	115.5	null	null	98331	MSBNK-SMB_Measured-HSA061P0126000
+SMF	85	null	null	null	null	125.873207	-1	617.4	null	null	1011432	MSBNK-SMB_Measured-HSA061P0126001
+SMF	86	null	null	null	null	125.873207	-1	217.4	null	null	102230	MSBNK-SMB_Measured-HSA061P0126003
+SMF	87	null	null	null	null	125.873215	-1	191.8	null	null	140356	MSBNK-SMB_Measured-HSA061P0126004
+SMF	88	null	null	null	null	125.873207	-1	39.9	null	null	51689	MSBNK-SMB_Measured-HSA061P0126005
+SMF	89	null	null	null	null	126.88106	-1	13.2	null	null	113565	MSBNK-SMB_Measured-HSA061P0127000
+SMF	90	null	null	null	null	126.881067	-1	595.3	null	null	507505	MSBNK-SMB_Measured-HSA061P0127001
+SMF	91	null	null	null	null	127.870297	-1	113.2	null	null	51021	MSBNK-SMB_Measured-HSA061P0128000
+SMF	92	null	null	null	null	127.870289	-1	171.4	null	null	59678	MSBNK-SMB_Measured-HSA061P0128002
+SMF	93	null	null	null	null	129.975815	-1	629.4	null	null	338268	MSBNK-SMB_Measured-HSA061P0130000
+SMF	94	null	null	null	null	129.9758	-1	249.6	null	null	315639	MSBNK-SMB_Measured-HSA061P0130001
+SMF	95	null	null	null	null	129.975815	-1	34.1	null	null	713113	MSBNK-SMB_Measured-HSA061P0130002
+SMF	96	null	null	null	null	129.975808	-1	159.6	null	null	228108	MSBNK-SMB_Measured-HSA061P0130003
+SMF	97	14	null	[M-H]-	null	129.975766	-1	288.2	null	null	238395	MSBNK-SMB_Measured-HSA061P0130008
+SMF	98	null	null	null	null	132.867911	-1	622.6	null	null	3606192	MSBNK-SMB_Measured-HSA061P0133001
+SMF	99	null	null	null	null	132.867911	-1	161.3	null	null	909774	MSBNK-SMB_Measured-HSA061P0133002
+SMF	100	null	null	null	null	132.867927	-1	22.1	null	null	877149	MSBNK-SMB_Measured-HSA061P0133004
+SMF	101	null	null	null	null	132.867911	-1	233.8	null	null	364986	MSBNK-SMB_Measured-HSA061P0133005
+SMF	102	null	null	null	null	132.867896	-1	597	null	null	250293	MSBNK-SMB_Measured-HSA061P0133008
+SMF	103	null	null	null	null	132.867901	-1	99.2	null	null	211142	MSBNK-SMB_Measured-HSA061P0133010
+SMF	104	null	null	null	null	132.867893	-1	462.8	null	null	575611	MSBNK-SMB_Measured-HSA061P0133012
+SMF	105	null	null	null	null	134.89474	-1	228	null	null	1067950	MSBNK-SMB_Measured-HSA061P0135000
+SMF	106	null	null	null	null	134.89474	-1	100.3	null	null	504895	MSBNK-SMB_Measured-HSA061P0135002
+SMF	107	null	null	null	null	134.894694	-1	350.8	null	null	386667	MSBNK-SMB_Measured-HSA061P0135003
+SMF	108	null	null	null	null	134.894664	-1	555.1	null	null	2049551	MSBNK-SMB_Measured-HSA061P0135004
+SMF	109	null	null	null	null	134.86526	-1	22.2	null	null	878962	MSBNK-SMB_Measured-HSA061P0135005
+SMF	110	null	null	null	null	134.865222	-1	603.1	null	null	2590494	MSBNK-SMB_Measured-HSA061P0135006
+SMF	111	null	null	null	null	134.89471	-1	597.3	null	null	235930	MSBNK-SMB_Measured-HSA061P0135010
+SMF	112	null	null	null	null	134.864984	-1	632.8	null	null	251798	MSBNK-SMB_Measured-HSA061P0135015
+SMF	113	null	null	null	null	134.894724	-1	42.1	null	null	334902	MSBNK-SMB_Measured-HSA061P0135016
+SMF	114	null	null	null	null	134.865141	-1	473	null	null	1221468	MSBNK-SMB_Measured-HSA061P0135017
+SMF	115	null	null	null	null	134.894718	-1	606.5	null	null	291185	MSBNK-SMB_Measured-HSA061P0135018
+SMF	116	null	null	null	null	134.865021	-1	239.5	null	null	1129033	MSBNK-SMB_Measured-HSA061P0135020
+SMF	117	null	null	null	null	136.909835	-1	11.4	null	null	291515	MSBNK-SMB_Measured-HSA061P0137000
+SMF	118	null	null	null	null	136.863128	-1	32.6	null	null	330836	MSBNK-SMB_Measured-HSA061P0137001
+SMF	119	null	null	null	null	136.863179	-1	519.8	null	null	207317	MSBNK-SMB_Measured-HSA061P0137006
+SMF	120	15	null	[M-H]-	null	138.0197	-1	247.8	null	null	121196	MSBNK-SMB_Measured-HSA061P0138000
+SMF	121	null	null	null	null	141.868112	-1	26.2	null	null	60454	MSBNK-SMB_Measured-HSA061P0142002
+SMF	122	null	null	null	null	141.868123	-1	609	null	null	309229	MSBNK-SMB_Measured-HSA061P0142004
+SMF	123	null	null	null	null	142.924938	-1	288.3	null	null	189550	MSBNK-SMB_Measured-HSA061P0143000
+SMF	124	null	null	null	null	142.924969	-1	235.6	null	null	164099	MSBNK-SMB_Measured-HSA061P0143002
+SMF	125	null	null	null	null	142.924956	-1	275.2	null	null	226868	MSBNK-SMB_Measured-HSA061P0143006
+SMF	126	null	null	null	null	143.938943	-1	437.4	null	null	324637	MSBNK-SMB_Measured-HSA061P0144000
+SMF	127	null	null	null	null	143.932775	-1	289.9	null	null	302829	MSBNK-SMB_Measured-HSA061P0144001
+SMF	128	null	null	null	null	144.923493	-1	241.5	null	null	379787	MSBNK-SMB_Measured-HSA061P0145000
+SMF	129	null	null	null	null	144.923462	-1	364.9	null	null	235683	MSBNK-SMB_Measured-HSA061P0145002
+SMF	130	null	null	null	null	144.923416	-1	559.2	null	null	1378785	MSBNK-SMB_Measured-HSA061P0145003
+SMF	131	null	null	null	null	144.923493	-1	83.1	null	null	272965	MSBNK-SMB_Measured-HSA061P0145004
+SMF	132	null	null	null	null	146.966008	-1	253.7	null	null	2259429	MSBNK-SMB_Measured-HSA061P0147000
+SMF	133	null	null	null	null	146.965992	-1	625.3	null	null	2074737	MSBNK-SMB_Measured-HSA061P0147001
+SMF	134	null	null	null	null	146.93871	-1	626.8	null	null	1795122	MSBNK-SMB_Measured-HSA061P0147002
+SMF	135	null	null	null	null	146.966023	-1	90.7	null	null	1780801	MSBNK-SMB_Measured-HSA061P0147003
+SMF	136	null	null	null	null	146.966015	-1	145.1	null	null	573445	MSBNK-SMB_Measured-HSA061P0147004
+SMF	137	null	null	null	null	146.938679	-1	10.2	null	null	1611444	MSBNK-SMB_Measured-HSA061P0147005
+SMF	138	null	null	null	null	146.938694	-1	31.7	null	null	1786547	MSBNK-SMB_Measured-HSA061P0147007
+SMF	139	null	null	null	null	146.938694	-1	204.7	null	null	2185900	MSBNK-SMB_Measured-HSA061P0147008
+SMF	140	null	null	null	null	146.938694	-1	154.7	null	null	2042494	MSBNK-SMB_Measured-HSA061P0147010
+SMF	141	null	null	null	null	146.965962	-1	26.2	null	null	1548337	MSBNK-SMB_Measured-HSA061P0147011
+SMF	142	16	null	[M-H]-	null	146.965962	-1	360.3	null	null	376815	MSBNK-SMB_Measured-HSA061P0147012
+SMF	143	null	null	null	null	146.966023	-1	164.8	null	null	2037523	MSBNK-SMB_Measured-HSA061P0147013
+SMF	144	null	null	null	null	146.938617	-1	448.3	null	null	570074	MSBNK-SMB_Measured-HSA061P0147015
+SMF	145	null	null	null	null	146.938662	-1	94.3	null	null	1817031	MSBNK-SMB_Measured-HSA061P0147017
+SMF	146	17	null	[M-H]-	null	146.965942	-1	599.3	null	null	2366401	MSBNK-SMB_Measured-HSA061P0147018
+SMF	147	null	null	null	null	146.938668	-1	597.5	null	null	2478975	MSBNK-SMB_Measured-HSA061P0147019
+SMF	148	null	null	null	null	150.982876	-1	632.4	null	null	319607	MSBNK-SMB_Measured-HSA061P0151000
+SMF	149	null	null	null	null	150.982856	-1	33.8	null	null	82332	MSBNK-SMB_Measured-HSA061P0151002
+SMF	150	null	null	null	null	153.900012	-1	10.6	null	null	154188	MSBNK-SMB_Measured-HSA061P0154000
+SMF	151	18	null	[M-H]-	null	154.014648	-1	235.6	null	null	167683	MSBNK-SMB_Measured-HSA061P0154003
+SMF	152	null	null	null	null	157.86301	-1	612.3	null	null	123495	MSBNK-SMB_Measured-HSA061P0158003
+SMF	153	null	null	null	null	158.978585	-1	40	null	null	357064	MSBNK-SMB_Measured-HSA061P0159001
+SMF	154	null	null	null	null	159.939178	-1	269.5	null	null	2737334	MSBNK-SMB_Measured-HSA061P0160000
+SMF	155	null	null	null	null	160.935564	-1	265.5	null	null	2464058	MSBNK-SMB_Measured-HSA061P0161000
+SMF	156	null	null	null	null	160.935518	-1	409.3	null	null	276814	MSBNK-SMB_Measured-HSA061P0161001
+SMF	157	null	null	null	null	160.935533	-1	352.8	null	null	655223	MSBNK-SMB_Measured-HSA061P0161004
+SMF	158	null	null	null	null	160.842043	-1	22.3	null	null	141630	MSBNK-SMB_Measured-HSA061P0161005
+SMF	159	null	null	null	null	160.93548	-1	589	null	null	238336	MSBNK-SMB_Measured-HSA061P0161011
+SMF	160	null	null	null	null	160.84205	-1	120.7	null	null	181965	MSBNK-SMB_Measured-HSA061P0161012
+SMF	161	null	null	null	null	160.842068	-1	600.2	null	null	3360339	MSBNK-SMB_Measured-HSA061P0161013
+SMF	162	19	null	[M+Br]-	null	160.935536	-1	168.2	null	null	267828	MSBNK-SMB_Measured-HSA061P0161014
+SMF	163	null	null	null	null	162.839147	-1	596.3	null	null	397503	MSBNK-SMB_Measured-HSA061P0163002
+SMF	164	null	null	null	null	162.839135	-1	25.1	null	null	137787	MSBNK-SMB_Measured-HSA061P0163004
+SMF	165	null	null	null	null	163.846992	-1	115.9	null	null	120556	MSBNK-SMB_Measured-HSA061P0164000
+SMF	166	20	null	[M-H]-	null	165.019358	-1	218.1	null	null	1245818	MSBNK-SMB_Measured-HSA061P0165000
+SMF	167	21	null	[M-H]-	null	171.066336	-1	229.8	null	null	149801	MSBNK-SMB_Measured-HSA061P0171001
+SMF	168	null	null	null	null	173.926183	-1	429.1	null	null	42603	MSBNK-SMB_Measured-HSA061P0174001
+SMF	169	null	null	null	null	173.926167	-1	351.9	null	null	137037	MSBNK-SMB_Measured-HSA061P0174002
+SMF	170	null	null	null	null	173.92616	-1	289.2	null	null	120316	MSBNK-SMB_Measured-HSA061P0174004
+SMF	171	null	null	null	null	174.95613	-1	242.2	null	null	174220	MSBNK-SMB_Measured-HSA061P0175000
+SMF	172	null	null	null	null	174.956161	-1	624.6	null	null	868811	MSBNK-SMB_Measured-HSA061P0175001
+SMF	173	null	null	null	null	174.956145	-1	24.3	null	null	395220	MSBNK-SMB_Measured-HSA061P0175003
+SMF	174	null	null	null	null	174.956161	-1	165.8	null	null	135645	MSBNK-SMB_Measured-HSA061P0175004
+SMF	175	null	null	null	null	174.956129	-1	97	null	null	147092	MSBNK-SMB_Measured-HSA061P0175006
+SMF	176	null	null	null	null	176.962222	-1	629.6	null	null	200342	MSBNK-SMB_Measured-HSA061P0177000
+SMF	177	null	null	null	null	176.962239	-1	627.7	null	null	260070	MSBNK-SMB_Measured-HSA061P0177002
+SMF	178	null	null	null	null	176.962199	-1	30.1	null	null	118935	MSBNK-SMB_Measured-HSA061P0177003
+SMF	179	null	null	null	null	178.977912	-1	180.6	null	null	265392	MSBNK-SMB_Measured-HSA061P0179000
+SMF	180	null	null	null	null	178.977882	-1	625.9	null	null	2635901	MSBNK-SMB_Measured-HSA061P0179001
+SMF	181	null	null	null	null	178.977897	-1	21.1	null	null	386938	MSBNK-SMB_Measured-HSA061P0179002
+SMF	182	null	null	null	null	178.977897	-1	126.7	null	null	204149	MSBNK-SMB_Measured-HSA061P0179004
+SMF	183	null	null	null	null	179.936349	-1	634.2	null	null	347995	MSBNK-SMB_Measured-HSA061P0180000
+SMF	184	null	null	null	null	179.93638	-1	158.5	null	null	144549	MSBNK-SMB_Measured-HSA061P0180001
+SMF	185	null	null	null	null	179.936395	-1	199	null	null	123437	MSBNK-SMB_Measured-HSA061P0180003
+SMF	186	null	null	null	null	179.936377	-1	221.1	null	null	68118	MSBNK-SMB_Measured-HSA061P0180006
+SMF	187	null	null	null	null	179.936355	-1	151.3	null	null	127002	MSBNK-SMB_Measured-HSA061P0180009
+SMF	188	null	null	null	null	179.93637	-1	649.9	null	null	123487	MSBNK-SMB_Measured-HSA061P0180011
+SMF	189	null	null	null	null	180.899746	-1	13	null	null	363197	MSBNK-SMB_Measured-HSA061P0181000
+SMF	190	null	null	null	null	180.899723	-1	28.5	null	null	204775	MSBNK-SMB_Measured-HSA061P0181001
+SMF	191	null	null	null	null	180.973164	-1	43.8	null	null	478753	MSBNK-SMB_Measured-HSA061P0181003
+SMF	192	null	null	null	null	185.875084	-1	127.6	null	null	128689	MSBNK-SMB_Measured-HSA061P0186000
+SMF	193	null	null	null	null	185.875038	-1	624.7	null	null	69879	MSBNK-SMB_Measured-HSA061P0186001
+SMF	194	22	null	[M-H]-	null	186.113636	-1	220.1	null	null	119473	MSBNK-SMB_Measured-HSA061P0186003
+SMF	195	23	null	[M-H]-	null	187.097626	-1	234.7	null	null	165664	MSBNK-SMB_Measured-HSA061P0187002
+SMF	196	null	null	null	null	187.86105	-1	17.7	null	null	325769	MSBNK-SMB_Measured-HSA061P0188000
+SMF	197	null	null	null	null	187.941875	-1	19	null	null	282368	MSBNK-SMB_Measured-HSA061P0188001
+SMF	198	null	null	null	null	187.928743	-1	431.7	null	null	224205	MSBNK-SMB_Measured-HSA061P0188005
+SMF	199	null	null	null	null	187.941774	-1	415.5	null	null	206666	MSBNK-SMB_Measured-HSA061P0188006
+SMF	200	null	null	null	null	190.928475	-1	622.3	null	null	3665104	MSBNK-SMB_Measured-HSA061P0191000
+SMF	201	null	null	null	null	190.928475	-1	21.9	null	null	2339886	MSBNK-SMB_Measured-HSA061P0191001
+SMF	202	null	null	null	null	190.928458	-1	150	null	null	175242	MSBNK-SMB_Measured-HSA061P0191002
+SMF	203	null	null	null	null	190.928481	-1	250.1	null	null	1339388	MSBNK-SMB_Measured-HSA061P0191003
+SMF	204	null	null	null	null	190.928464	-1	427.2	null	null	530138	MSBNK-SMB_Measured-HSA061P0191004
+SMF	205	null	null	null	null	192.928738	-1	590.3	null	null	531177	MSBNK-SMB_Measured-HSA061P0193000
+SMF	206	24	null	[M-H]-	null	194.082158	-1	311.4	null	null	829237	MSBNK-SMB_Measured-HSA061P0194000
+SMF	207	25	null	[M-H]-	null	195.138909	-1	303.5	null	null	142247	MSBNK-SMB_Measured-HSA061P0195000
+SMF	208	null	null	null	null	195.810988	-1	93.1	null	null	374610	MSBNK-SMB_Measured-HSA061P0196000
+SMF	209	null	null	null	null	195.810866	-1	603.9	null	null	3183268	MSBNK-SMB_Measured-HSA061P0196002
+SMF	210	null	null	null	null	196.884809	-1	11.8	null	null	231650	MSBNK-SMB_Measured-HSA061P0197000
+SMF	211	null	null	null	null	197.807981	-1	98.9	null	null	403518	MSBNK-SMB_Measured-HSA061P0198000
+SMF	212	null	null	null	null	197.889737	-1	10.6	null	null	124369	MSBNK-SMB_Measured-HSA061P0198003
+SMF	213	null	null	null	null	197.80792	-1	603.4	null	null	2729268	MSBNK-SMB_Measured-HSA061P0198004
+SMF	214	null	null	null	null	198.936368	-1	638.5	null	null	151418	MSBNK-SMB_Measured-HSA061P0199000
+SMF	215	null	null	null	null	198.936322	-1	27.2	null	null	180933	MSBNK-SMB_Measured-HSA061P0199001
+SMF	216	null	null	null	null	198.936295	-1	139.3	null	null	123959	MSBNK-SMB_Measured-HSA061P0199006
+SMF	217	null	null	null	null	199.805005	-1	93.5	null	null	165745	MSBNK-SMB_Measured-HSA061P0200000
+SMF	218	null	null	null	null	199.804944	-1	600.8	null	null	942823	MSBNK-SMB_Measured-HSA061P0200002
+SMF	219	null	null	null	null	204.942378	-1	267	null	null	158863	MSBNK-SMB_Measured-HSA061P0205000
+SMF	220	null	null	null	null	204.94238	-1	243.4	null	null	120225	MSBNK-SMB_Measured-HSA061P0205001
+SMF	221	null	null	null	null	205.839686	-1	110.4	null	null	140269	MSBNK-SMB_Measured-HSA061P0206000
+SMF	222	null	null	null	null	205.839655	-1	628.1	null	null	2438392	MSBNK-SMB_Measured-HSA061P0206001
+SMF	223	null	null	null	null	205.839701	-1	175.8	null	null	180510	MSBNK-SMB_Measured-HSA061P0206002
+SMF	224	null	null	null	null	206.972666	-1	633	null	null	213947	MSBNK-SMB_Measured-HSA061P0207000
+SMF	225	26	null	[M-H]-	null	207.139002	-1	293.6	null	null	273731	MSBNK-SMB_Measured-HSA061P0207001
+SMF	226	null	null	null	null	207.931237	-1	182.6	null	null	320417	MSBNK-SMB_Measured-HSA061P0208001
+SMF	227	null	null	null	null	207.931176	-1	118.4	null	null	207198	MSBNK-SMB_Measured-HSA061P0208002
+SMF	228	null	null	null	null	207.931191	-1	638	null	null	258308	MSBNK-SMB_Measured-HSA061P0208003
+SMF	229	null	null	null	null	207.836724	-1	92.5	null	null	188196	MSBNK-SMB_Measured-HSA061P0208004
+SMF	230	null	null	null	null	207.931191	-1	249.9	null	null	271801	MSBNK-SMB_Measured-HSA061P0208005
+SMF	231	null	null	null	null	207.836724	-1	638.2	null	null	254146	MSBNK-SMB_Measured-HSA061P0208006
+SMF	232	null	null	null	null	207.918572	-1	12.4	null	null	299404	MSBNK-SMB_Measured-HSA061P0208007
+SMF	233	null	null	null	null	207.931176	-1	34.5	null	null	81893	MSBNK-SMB_Measured-HSA061P0208009
+SMF	234	null	null	null	null	207.836671	-1	602.8	null	null	1531130	MSBNK-SMB_Measured-HSA061P0208010
+SMF	235	null	null	null	null	207.931115	-1	23.2	null	null	158812	MSBNK-SMB_Measured-HSA061P0208012
+SMF	236	null	null	null	null	207.836709	-1	186.3	null	null	327540	MSBNK-SMB_Measured-HSA061P0208013
+SMF	237	null	null	null	null	207.836759	-1	113.4	null	null	177561	MSBNK-SMB_Measured-HSA061P0208016
+SMF	238	null	null	null	null	207.918612	-1	30.4	null	null	76709	MSBNK-SMB_Measured-HSA061P0208020
+SMF	239	27	null	[M+FA-H]-	null	209.045541	-1	231	null	null	4222410	MSBNK-SMB_Measured-HSA061P0209000
+SMF	240	null	null	null	null	209.154696	-1	284.7	null	null	77435	MSBNK-SMB_Measured-HSA061P0209004
+SMF	241	null	null	null	null	213.01525	-1	501.3	null	null	81518	MSBNK-SMB_Measured-HSA061P0213000
+SMF	242	null	null	null	null	213.015235	-1	560.3	null	null	47351	MSBNK-SMB_Measured-HSA061P0213001
+SMF	243	null	null	null	null	213.015281	-1	457	null	null	41835	MSBNK-SMB_Measured-HSA061P0213002
+SMF	244	null	null	null	null	215.868459	-1	135	null	null	112552	MSBNK-SMB_Measured-HSA061P0216000
+SMF	245	null	null	null	null	215.868428	-1	617.4	null	null	1007554	MSBNK-SMB_Measured-HSA061P0216001
+SMF	246	null	null	null	null	215.868413	-1	197.8	null	null	141876	MSBNK-SMB_Measured-HSA061P0216003
+SMF	247	28	null	[M-H]-	null	221.154695	-1	316.7	null	null	225004	MSBNK-SMB_Measured-HSA061P0221000
+SMF	248	29	null	[M-H]-	null	221.081941	-1	272.2	null	null	37241	MSBNK-SMB_Measured-HSA061P0221002
+SMF	249	30	null	[M-H]-	null	231.931648	-1	13.9	null	null	54143	MSBNK-SMB_Measured-HSA061P0232000
+SMF	250	31	null	[M-H]-	null	231.931648	-1	597.4	null	null	115912	MSBNK-SMB_Measured-HSA061P0232004
+SMF	251	null	null	null	null	231.931602	-1	591.7	null	null	61661	MSBNK-SMB_Measured-HSA061P0232005
+SMF	252	null	null	null	null	231.931665	-1	44.8	null	null	40831	MSBNK-SMB_Measured-HSA061P0232006
+SMF	253	null	null	null	null	233.154685	-1	398.5	null	null	412157	MSBNK-SMB_Measured-HSA061P0233000
+SMF	254	null	null	null	null	233.154655	-1	456	null	null	98877	MSBNK-SMB_Measured-HSA061P0233001
+SMF	255	null	null	null	null	233.154635	-1	583.6	null	null	86636	MSBNK-SMB_Measured-HSA061P0233003
+SMF	256	null	null	null	null	235.926182	-1	201.1	null	null	181031	MSBNK-SMB_Measured-HSA061P0236000
+SMF	257	null	null	null	null	235.926151	-1	630.7	null	null	106957	MSBNK-SMB_Measured-HSA061P0236001
+SMF	258	null	null	null	null	235.926167	-1	72.5	null	null	137671	MSBNK-SMB_Measured-HSA061P0236002
+SMF	259	null	null	null	null	236.105473	-1	289	null	null	135556	MSBNK-SMB_Measured-HSA061P0236003
+SMF	260	null	null	null	null	235.926205	-1	100.9	null	null	38886	MSBNK-SMB_Measured-HSA061P0236004
+SMF	261	32	null	[M-H]-	null	239.128884	-1	303.2	null	null	152266	MSBNK-SMB_Measured-HSA061P0239001
+SMF	262	null	null	null	null	239.903137	-1	157.2	null	null	245462	MSBNK-SMB_Measured-HSA061P0240000
+SMF	263	null	null	null	null	239.903107	-1	635.4	null	null	190607	MSBNK-SMB_Measured-HSA061P0240001
+SMF	264	null	null	null	null	239.903168	-1	223.2	null	null	222053	MSBNK-SMB_Measured-HSA061P0240002
+SMF	265	null	null	null	null	239.903122	-1	41.7	null	null	236500	MSBNK-SMB_Measured-HSA061P0240003
+SMF	266	33	null	[M-H]-	null	242.176313	-1	258.3	null	null	208338	MSBNK-SMB_Measured-HSA061P0242000
+SMF	267	null	null	null	null	248.960471	-1	583.5	null	null	77318	MSBNK-SMB_Measured-HSA061P0249000
+SMF	268	null	null	null	null	248.960547	-1	43.1	null	null	1397234	MSBNK-SMB_Measured-HSA061P0249001
+SMF	269	34	null	[M-H]-	null	250.144917	-1	398	null	null	662256	MSBNK-SMB_Measured-HSA061P0250000
+SMF	270	35	null	[M+FA-H]-	null	253.144662	-1	282.4	null	null	157601	MSBNK-SMB_Measured-HSA061P0253000
+SMF	271	36	null	[M-H]-	null	258.91588	-1	15.7	null	null	72085	MSBNK-SMB_Measured-HSA061P0259001
+SMF	272	null	null	null	null	261.850957	-1	146.5	null	null	298746	MSBNK-SMB_Measured-HSA061P0262000
+SMF	273	37	null	[M-H]-	null	265.147949	-1	436.6	null	null	172079	MSBNK-SMB_Measured-HSA061P0265000
+SMF	274	38	null	[M-H]-	null	271.227896	-1	434.8	null	null	155944	MSBNK-SMB_Measured-HSA061P0271001
+SMF	275	null	null	null	null	271.227906	-1	411.4	null	null	57229	MSBNK-SMB_Measured-HSA061P0271003
+SMF	276	39	null	[M-H]-	null	275.168747	-1	466.5	null	null	48897	MSBNK-SMB_Measured-HSA061P0275000
+SMF	277	40	null	[M+TFA-H]-	null	277.032971	-1	222.2	null	null	291756	MSBNK-SMB_Measured-HSA061P0277000
+SMF	278	41	null	[M-H]-	null	277.144452	-1	333.6	null	null	70928	MSBNK-SMB_Measured-HSA061P0277001
+SMF	279	42	null	[M-H]-	null	293.179335	-1	576.7	null	null	180797	MSBNK-SMB_Measured-HSA061P0293000
+SMF	280	43	null	[M-H]-	null	293.175917	-1	292.3	null	null	288800	MSBNK-SMB_Measured-HSA061P0293001
+SMF	281	44	null	[M-H]-	null	293.175795	-1	306.9	null	null	299587	MSBNK-SMB_Measured-HSA061P0293003
+SMF	282	null	null	null	null	297.152837	-1	426.1	null	null	119200	MSBNK-SMB_Measured-HSA061P0297000
+SMF	283	null	null	null	null	299.259065	-1	392.8	null	null	265425	MSBNK-SMB_Measured-HSA061P0299000
+SMF	284	45	null	[M+FA-H]-	null	303.199884	-1	309.4	null	null	289782	MSBNK-SMB_Measured-HSA061P0303000
+SMF	285	46	null	[M+FA-H]-	null	303.199892	-1	358	null	null	136636	MSBNK-SMB_Measured-HSA061P0303002
+SMF	286	null	null	null	null	308.863873	-1	8.9	null	null	104036	MSBNK-SMB_Measured-HSA061P0309000
+SMF	287	null	null	null	null	311.168586	-1	539.6	null	null	113084	MSBNK-SMB_Measured-HSA061P0311000
+SMF	288	null	null	null	null	311.168637	-1	490	null	null	88462	MSBNK-SMB_Measured-HSA061P0311001
+SMF	289	null	null	null	null	316.947809	-1	43.5	null	null	1667042	MSBNK-SMB_Measured-HSA061P0317000
+SMF	290	null	null	null	null	325.184148	-1	579.7	null	null	719756	MSBNK-SMB_Measured-HSA061P0325000
+SMF	291	null	null	null	null	325.18427	-1	269.2	null	null	371018	MSBNK-SMB_Measured-HSA061P0325001
+SMF	292	null	null	null	null	339.199767	-1	317.5	null	null	834394	MSBNK-SMB_Measured-HSA061P0339000
+SMF	293	null	null	null	null	339.199737	-1	390.4	null	null	273361	MSBNK-SMB_Measured-HSA061P0339001
+SMF	294	null	null	null	null	339.19985	-1	265.2	null	null	291413	MSBNK-SMB_Measured-HSA061P0339002
+SMF	295	null	null	null	null	355.157943	-1	493.8	null	null	52568	MSBNK-SMB_Measured-HSA061P0355000
+SMF	296	47	null	[M-H]-	null	357.061563	-1	255.7	null	null	408757	MSBNK-SMB_Measured-HSA061P0357000
+SMF	297	null	null	null	null	384.935242	-1	43.8	null	null	777022	MSBNK-SMB_Measured-HSA061P0385000
+SMF	298	null	null	null	null	387.28648	-1	267.1	null	null	51182	MSBNK-SMB_Measured-HSA061P0387000
+SMF	299	48	null	[M+FA-H]-	null	392.120026	-1	196.3	null	null	274821	MSBNK-SMB_Measured-HSA061P0392000
+SMF	300	49	null	[M-H]-	null	401.087952	-1	256.7	null	null	1193528	MSBNK-SMB_Measured-HSA061P0401000
+SMF	301	50	null	[M-H]-	null	434.130463	-1	207.7	null	null	363796	MSBNK-SMB_Measured-HSA061P0434000
+SMF	302	51	null	[M-H]-	null	452.278259	-1	338.5	null	null	151159	MSBNK-SMB_Measured-HSA061P0452000
+SMF	303	null	null	null	null	452.922699	-1	44.1	null	null	351033	MSBNK-SMB_Measured-HSA061P0453000
+SMF	304	52	null	[M-H]-	null	478.293793	-1	356.9	null	null	252995	MSBNK-SMB_Measured-HSA061P0478000
+SMF	305	53	null	[M-H]-	null	500.278259	-1	313.8	null	null	209962	MSBNK-SMB_Measured-HSA061P0500000
+SMF	306	54	null	[M-H]-	null	502.293976	-1	328.2	null	null	467717	MSBNK-SMB_Measured-HSA061P0502000
+SMF	307	null	null	null	null	520.909851	-1	44.3	null	null	203371	MSBNK-SMB_Measured-HSA061P0520000
+SMF	308	55	null	[M-H]-	null	530.325073	-1	364.2	null	null	309359	MSBNK-SMB_Measured-HSA061P0530000
+SMF	309	null	null	null	null	530.324951	-1	321.4	null	null	277105	MSBNK-SMB_Measured-HSA061P0530002
+SMF	310	56	null	[M+FA-H]-	null	540.330566	-1	347.5	null	null	376120	MSBNK-SMB_Measured-HSA061P0540000
+SMF	311	null	null	null	null	599.500465	-1	550	null	null	363251	MSBNK-SMB_Measured-HSA061P0599001
+SMF	312	57	null	[M-H]-	null	742.538808	-1	496.6	null	null	313439	MSBNK-SMB_Measured-HSA061P0742000
+SMF	313	58	null	[M-H]-	null	742.538991	-1	394.6	null	null	222174	MSBNK-SMB_Measured-HSA061P0742001
+SMF	314	59	null	[M-H]-	null	742.538991	-1	309.7	null	null	248576	MSBNK-SMB_Measured-HSA061P0742002
+SMF	315	60	null	[M-H]-	null	742.53893	-1	576.4	null	null	502901	MSBNK-SMB_Measured-HSA061P0742003
+SMF	316	61	null	[M-H]-	null	747.517868	-1	341.3	null	null	312370	MSBNK-SMB_Measured-HSA061P0747000
+SMF	317	null	null	null	null	747.565597	-1	454.7	null	null	1618019	MSBNK-SMB_Measured-HSA061P0747001
+SMF	318	null	null	null	null	747.517624	-1	555.4	null	null	257652	MSBNK-SMB_Measured-HSA061P0747002
+SMF	319	null	null	null	null	747.517746	-1	414.1	null	null	142844	MSBNK-SMB_Measured-HSA061P0747004
+SMF	320	62	null	[M-H]-	null	747.517563	-1	471.1	null	null	259831	MSBNK-SMB_Measured-HSA061P0747005
+SMF	321	null	null	null	null	747.517725	-1	463.8	null	null	132550	MSBNK-SMB_Measured-HSA061P0747006
+SMF	322	null	null	null	null	748.515642	-1	432.6	null	null	220673	MSBNK-SMB_Measured-HSA061P0748002
+SMF	323	null	null	null	null	750.526837	-1	464.6	null	null	162744	MSBNK-SMB_Measured-HSA061P0750000
+SMF	324	null	null	null	null	752.559682	-1	470.7	null	null	106222	MSBNK-SMB_Measured-HSA061P0752000
+SMF	325	63	null	[M-H]-	null	766.539272	-1	411.3	null	null	144501	MSBNK-SMB_Measured-HSA061P0766000
+SMF	326	64	null	[M-H]-	null	766.539455	-1	400.6	null	null	106875	MSBNK-SMB_Measured-HSA061P0766001
+SMF	327	65	null	[M-H]-	null	766.538761	-1	448.7	null	null	154663	MSBNK-SMB_Measured-HSA061P0766002
+SMF	328	66	null	[M-H]-	null	766.53873	-1	461.9	null	null	84086	MSBNK-SMB_Measured-HSA061P0766003
+SMF	329	null	null	null	null	766.539036	-1	584.7	null	null	103044	MSBNK-SMB_Measured-HSA061P0766004
+SMF	330	null	null	null	null	773.533162	-1	502.3	null	null	1310572	MSBNK-SMB_Measured-HSA061P0773000
+SMF	331	null	null	null	null	773.533406	-1	336	null	null	852359	MSBNK-SMB_Measured-HSA061P0773001
+SMF	332	null	null	null	null	775.596683	-1	315.4	null	null	610549	MSBNK-SMB_Measured-HSA061P0775000
+SMF	333	null	null	null	null	778.559341	-1	419.7	null	null	337224	MSBNK-SMB_Measured-HSA061P0778000
+SMF	334	null	null	null	null	778.559127	-1	461.4	null	null	247744	MSBNK-SMB_Measured-HSA061P0778001
+SMF	335	67	null	[M-H]-	null	788.544292	-1	256.5	null	null	310754	MSBNK-SMB_Measured-HSA061P0788000
+SMF	336	68	null	[M+FA-H]-	null	790.596194	-1	413.9	null	null	183753	MSBNK-SMB_Measured-HSA061P0790000
+SMF	337	null	null	null	null	790.596255	-1	356.8	null	null	244703	MSBNK-SMB_Measured-HSA061P0790001
+SMF	338	null	null	null	null	799.548402	-1	557.4	null	null	158121	MSBNK-SMB_Measured-HSA061P0799000
+SMF	339	69	null	[M+FA-H]-	null	802.559927	-1	359.1	null	null	427761	MSBNK-SMB_Measured-HSA061P0802000
+SMF	340	70	null	[M+FA-H]-	null	802.559927	-1	427.9	null	null	243551	MSBNK-SMB_Measured-HSA061P0802001
+SMF	341	71	null	[M+FA-H]-	null	802.559988	-1	290	null	null	452731	MSBNK-SMB_Measured-HSA061P0802002
+SMF	342	null	null	null	null	802.560334	-1	583.5	null	null	154225	MSBNK-SMB_Measured-HSA061P0802003
+SMF	343	72	null	[M+FA-H]-	null	804.575367	-1	340	null	null	1073608	MSBNK-SMB_Measured-HSA061P0804000
+SMF	344	73	null	[M+FA-H]-	null	804.575367	-1	466.3	null	null	783939	MSBNK-SMB_Measured-HSA061P0804001
+SMF	345	null	null	null	null	804.575306	-1	550.7	null	null	328869	MSBNK-SMB_Measured-HSA061P0804002
+SMF	346	74	null	[M+FA-H]-	null	830.591149	-1	340.9	null	null	1595477	MSBNK-SMB_Measured-HSA061P0830000
+SMF	347	75	null	[M+FA-H]-	null	830.591027	-1	456.1	null	null	897204	MSBNK-SMB_Measured-HSA061P0830001
+SMF	348	null	null	null	null	830.591088	-1	583.7	null	null	512350	MSBNK-SMB_Measured-HSA061P0830002
+SMF	349	null	null	null	null	854.590942	-1	389.9	null	null	111131	MSBNK-SMB_Measured-HSA061P0854000
+SMF	350	null	null	null	null	861.548977	-1	585.8	null	null	188910	MSBNK-SMB_Measured-HSA061P0861000
+SMF	351	76	null	[M-H]-	null	885.549102	-1	279.3	null	null	236018	MSBNK-SMB_Measured-HSA061P0885000
+SMF	352	77	null	[M-H]-	null	885.54898	-1	585.5	null	null	151404	MSBNK-SMB_Measured-HSA061P0885001
+SMF	353	null	null	null	null	887.564359	-1	286.5	null	null	432760	MSBNK-SMB_Measured-HSA061P0887000
+SMF	354	null	null	null	null	887.564237	-1	373.2	null	null	215624	MSBNK-SMB_Measured-HSA061P0887001
+SMF	355	null	null	null	null	887.564237	-1	586.2	null	null	271633	MSBNK-SMB_Measured-HSA061P0887002
+SMF	356	null	null	null	null	887.564262	-1	241.8	null	null	201550	MSBNK-SMB_Measured-HSA061P0887003
+
+SEH	SME_ID	evidence_input_id	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	derivatized_form	adduct_ion	exp_mass_to_charge	charge	theoretical_mass_to_charge	spectra_ref	identification_method	ms_level	id_confidence_measure[1]	id_confidence_measure[2]	id_confidence_measure[3]	id_confidence_measure[4]	id_confidence_measure[5]	id_confidence_measure[6]	id_confidence_measure[7]	id_confidence_measure[8]	id_confidence_measure[9]	rank	opt_global_ShinMassBank_Record_ID
+SME	1	7	CID:null	C3H6O3	null	null	null	null	null	[M-H]-	89.024455	-1	89.0238690255	ms_run[1]:scan=409 | ms_run[1]:scan=369 | ms_run[1]:scan=769 | ms_run[1]:scan=609 | ms_run[1]:scan=329 | ms_run[1]:scan=649 | ms_run[1]:scan=205 | ms_run[1]:scan=809 | ms_run[1]:scan=849 | ms_run[1]:scan=929 | ms_run[1]:scan=729 | ms_run[1]:scan=889 | ms_run[1]:scan=489 | ms_run[1]:scan=529 | ms_run[1]:scan=46 | ms_run[1]:scan=449 | ms_run[1]:scan=969 | ms_run[1]:scan=286 | ms_run[1]:scan=1009 | ms_run[1]:scan=569 | ms_run[1]:scan=86 | ms_run[1]:scan=245 | ms_run[1]:scan=689 | ms_run[1]:scan=3 | ms_run[1]:scan=126 | ms_run[1]:scan=165 | ms_run[1]:scan=1049	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0089000
+SME	2	8	CID:612	C3H6O3	CC(C(=O)O)O	InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)	Lactic acid	https://hmdb.ca/metabolites/HMDB0000190	null	[M-H]-	89.024462	-1	89.0238690255	ms_run[1]:scan=1529 | ms_run[1]:scan=1089 | ms_run[1]:scan=1449 | ms_run[1]:scan=1489 | ms_run[1]:scan=1649 | ms_run[1]:scan=1409 | ms_run[1]:scan=1609 | ms_run[1]:scan=1129 | ms_run[1]:scan=1169 | ms_run[1]:scan=1329 | ms_run[1]:scan=1689 | ms_run[1]:scan=1569 | ms_run[1]:scan=1209 | ms_run[1]:scan=1289 | ms_run[1]:scan=1249 | ms_run[1]:scan=1369	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	1	1	10	1	0.012	0.823	1	MSBNK-SMB_Measured-HSA061P0089001
+SME	3	9	CID:null	C3H6O3	null	null	null	null	null	[M-H]-	89.024432	-1	89.0238690255	ms_run[1]:scan=2013 | ms_run[1]:scan=2053 | ms_run[1]:scan=2213 | ms_run[1]:scan=1849 | ms_run[1]:scan=2093 | ms_run[1]:scan=1973 | ms_run[1]:scan=1889 | ms_run[1]:scan=2253 | ms_run[1]:scan=2173 | ms_run[1]:scan=1769 | ms_run[1]:scan=1809 | ms_run[1]:scan=1729 | ms_run[1]:scan=2293 | ms_run[1]:scan=2133 | ms_run[1]:scan=1930	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0089002
+SME	4	10	CID:612	C3H6O3	CC(C(=O)O)O	InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)	Lactic acid	https://hmdb.ca/metabolites/HMDB0000190	null	[M-H]-	89.024432	-1	89.0238690255	ms_run[1]:scan=2757 | ms_run[1]:scan=2413 | ms_run[1]:scan=2722 | ms_run[1]:scan=2647 | ms_run[1]:scan=2685 | ms_run[1]:scan=2827 | ms_run[1]:scan=2532 | ms_run[1]:scan=2570 | ms_run[1]:scan=2609 | ms_run[1]:scan=2792 | ms_run[1]:scan=2333 | ms_run[1]:scan=2493 | ms_run[1]:scan=2453 | ms_run[1]:scan=2373	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	1	1	5	1	0.012	0.855	1	MSBNK-SMB_Measured-HSA061P0089003
+SME	5	11	CID:null	C3H6O3	null	null	null	null	null	[M-H]-	89.024447	-1	89.0238690255	ms_run[1]:scan=3707 | ms_run[1]:scan=3787 | ms_run[1]:scan=3667 | ms_run[1]:scan=3827 | ms_run[1]:scan=3584 | ms_run[1]:scan=3627 | ms_run[1]:scan=3747 | ms_run[1]:scan=3496 | ms_run[1]:scan=3541 | ms_run[1]:scan=3383 | ms_run[1]:scan=3445	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0089004
+SME	6	13	CID:null	C3H6O3	null	null	null	null	null	[M-H]-	89.024424	-1	89.0238690255	ms_run[1]:scan=3206 | ms_run[1]:scan=3345 | ms_run[1]:scan=3308 | ms_run[1]:scan=3161 | ms_run[1]:scan=3278 | ms_run[1]:scan=3137 | ms_run[1]:scan=3183 | ms_run[1]:scan=3253 | ms_run[1]:scan=3231	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0089006
+SME	7	34	CID:null	C4H4N2O2	null	null	null	null	null	[M-H]-	111.020074	-1	111.019452355	ms_run[1]:scan=1482 | ms_run[1]:scan=1526 | ms_run[1]:scan=1571 | ms_run[1]:scan=1683 | ms_run[1]:scan=1099 | ms_run[1]:scan=1279 | ms_run[1]:scan=1439 | ms_run[1]:scan=1631 | ms_run[1]:scan=1727 | ms_run[1]:scan=1366 | ms_run[1]:scan=1322 | ms_run[1]:scan=1927 | ms_run[1]:scan=1143 | ms_run[1]:scan=1187 | ms_run[1]:scan=1230	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0111000
+SME	8	73	CID:null	C4H6O4	null	null	null	null	null	[M-H]-	117.019372	-1	117.018783648	ms_run[1]:scan=323	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0117010
+SME	9	74	CID:null	C7H6O2	null	null	null	null	null	[M-H]-	121.029516	-1	121.028954403	ms_run[1]:scan=1671 | ms_run[1]:scan=1874 | ms_run[1]:scan=1470 | ms_run[1]:scan=1559 | ms_run[1]:scan=1603 | ms_run[1]:scan=927 | ms_run[1]:scan=1719 | ms_run[1]:scan=1382 | ms_run[1]:scan=1146 | ms_run[1]:scan=839 | ms_run[1]:scan=1103 | ms_run[1]:scan=1426 | ms_run[1]:scan=883 | ms_run[1]:scan=1015 | ms_run[1]:scan=1251 | ms_run[1]:scan=1339 | ms_run[1]:scan=971 | ms_run[1]:scan=1514 | ms_run[1]:scan=1294 | ms_run[1]:scan=1059 | ms_run[1]:scan=795 | ms_run[1]:scan=1207 | ms_run[1]:scan=1790	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0121000
+SME	10	75	CID:null	C7H6O2	null	null	null	null	null	[M-H]-	121.029432	-1	121.028954403	ms_run[1]:scan=2822 | ms_run[1]:scan=2892 | ms_run[1]:scan=2857 | ms_run[1]:scan=2988 | ms_run[1]:scan=2737 | ms_run[1]:scan=2778 | ms_run[1]:scan=2564 | ms_run[1]:scan=2694 | ms_run[1]:scan=2652 | ms_run[1]:scan=2607 | ms_run[1]:scan=2926 | ms_run[1]:scan=3048 | ms_run[1]:scan=3076 | ms_run[1]:scan=2957 | ms_run[1]:scan=3019	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0121001
+SME	11	76	CID:null	C7H6O2	null	null	null	null	null	[M-H]-	121.029478	-1	121.028954403	ms_run[1]:scan=2103 | ms_run[1]:scan=2191 | ms_run[1]:scan=2147 | ms_run[1]:scan=2059 | ms_run[1]:scan=2235 | ms_run[1]:scan=2522 | ms_run[1]:scan=1919 | ms_run[1]:scan=2279 | ms_run[1]:scan=1971 | ms_run[1]:scan=2015 | ms_run[1]:scan=2402 | ms_run[1]:scan=2322 | ms_run[1]:scan=2442 | ms_run[1]:scan=2362 | ms_run[1]:scan=2482	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0121002
+SME	12	77	CID:null	C7H6O2	null	null	null	null	null	[M-H]-	121.02952	-1	121.028954403	ms_run[1]:scan=3617 | ms_run[1]:scan=3748 | ms_run[1]:scan=3661 | ms_run[1]:scan=3264 | ms_run[1]:scan=3792 | ms_run[1]:scan=3376 | ms_run[1]:scan=3328 | ms_run[1]:scan=3705 | ms_run[1]:scan=3291	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0121003
+SME	13	78	CID:null	C7H6O2	null	null	null	null	null	[M-H]-	121.029539	-1	121.028954403	ms_run[1]:scan=39 | ms_run[1]:scan=398 | ms_run[1]:scan=162 | ms_run[1]:scan=202 | ms_run[1]:scan=354 | ms_run[1]:scan=82 | ms_run[1]:scan=442 | ms_run[1]:scan=306 | ms_run[1]:scan=262 | ms_run[1]:scan=122 | ms_run[1]:scan=663 | ms_run[1]:scan=619 | ms_run[1]:scan=575 | ms_run[1]:scan=486 | ms_run[1]:scan=531	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0121004
+SME	14	97	CID:null	C7HNS	null	null	null	null	null	[M-H]-	129.975766	-1	129.975145007	ms_run[1]:scan=1658 | ms_run[1]:scan=1878	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	3	0.0027564	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0130008
+SME	15	120	CID:null	C6H5NO3	null	null	null	null	null	[M-H]-	138.0197	-1	138.019118001	ms_run[1]:scan=1527	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0138000
+SME	16	142	CID:null	C6N2OS	null	null	null	null	null	[M-H]-	146.965962	-1	148.980958669	ms_run[1]:scan=2151	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0147012
+SME	17	146	CID:null	C6N2OS	null	null	null	null	null	[M-H]-	146.965942	-1	148.980958669	ms_run[1]:scan=3425	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0147018
+SME	18	151	CID:null	C6H5NO4	null	null	null	null	null	[M-H]-	154.014648	-1	154.014032623	ms_run[1]:scan=1463	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0154003
+SME	19	162	CID:null	C3H2N2O	null	null	null	null	null	[M+Br]-	160.935536	-1	160.935048701	ms_run[1]:scan=907 | ms_run[1]:scan=951 | ms_run[1]:scan=1051 | ms_run[1]:scan=611 | ms_run[1]:scan=1166 | ms_run[1]:scan=859 | ms_run[1]:scan=699 | ms_run[1]:scan=655 | ms_run[1]:scan=743	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0161014
+SME	20	166	CID:1017	C8H6O4	C1=CC=C(C(=C1)C(=O)O)C(=O)O	InChI=1S/C8H6O4/c9-7(10)5-3-1-2-4-6(5)8(11)12/h1-4H,(H,9,10)(H,11,12)	Phthalic acid	https://hmdb.ca/metabolites/HMDB0002107	null	[M-H]-	165.019358	-1	165.018783648	ms_run[1]:scan=1338 | ms_run[1]:scan=1295	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	1	1	4	1	0.012	0.775	1	MSBNK-SMB_Measured-HSA061P0165000
+SME	21	167	CID:null	C8H12O4	null	null	null	null	null	[M-H]-	171.066336	-1	171.065733839	ms_run[1]:scan=1430	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0171001
+SME	22	194	CID:null	C9H17NO3	null	null	null	null	null	[M-H]-	186.113636	-1	186.113018384	ms_run[1]:scan=1351	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0186003
+SME	23	195	CID:2266	C9H16O4	C(CCCC(=O)O)CCCC(=O)O	InChI=1S/C9H16O4/c10-8(11)6-4-2-1-3-5-7-9(12)13/h1-7H2,(H,10,11)(H,12,13)	Azelaic acid	https://hmdb.ca/metabolites/HMDB0000784	null	[M-H]-	187.097626	-1	187.097033966	ms_run[1]:scan=1447	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	1	1	3	1	0.012	0.9	1	MSBNK-SMB_Measured-HSA061P0187002
+SME	24	206	CID:null	C10H13NO3	null	null	null	null	null	[M-H]-	194.082158	-1	194.081718256	ms_run[1]:scan=1887 | ms_run[1]:scan=1929 | ms_run[1]:scan=1969	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0194000
+SME	25	207	CID:null	C12H20O2	null	null	null	null	null	[M-H]-	195.138909	-1	195.13850485	ms_run[1]:scan=1883	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0195000
+SME	26	225	CID:null	C13H20O2	null	null	null	null	null	[M-H]-	207.139002	-1	207.13850485	ms_run[1]:scan=1862	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0207001
+SME	27	239	CID:null	C9H8O3	null	null	null	null	null	[M+FA-H]-	209.045541	-1	209.044998397	ms_run[1]:scan=1389 | ms_run[1]:scan=1429 | ms_run[1]:scan=1347 | ms_run[1]:scan=1469 | ms_run[1]:scan=1511	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0209000
+SME	28	247	CID:null	C14H22O2	null	null	null	null	null	[M-H]-	221.154695	-1	221.154154914	ms_run[1]:scan=2179	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0221000
+SME	29	248	CID:null	C12H14O4	null	null	null	null	null	[M-H]-	221.081941	-1	221.081383903	ms_run[1]:scan=1687	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0221002
+SME	30	249	CID:null	C4HN3O5P2	null	null	null	null	null	[M-H]-	231.931648	-1	231.931315132	ms_run[1]:scan=25 | ms_run[1]:scan=66 | ms_run[1]:scan=146	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0232000
+SME	31	250	CID:null	C4HN3O5P2	null	null	null	null	null	[M-H]-	231.931648	-1	231.931315132	ms_run[1]:scan=3448 | ms_run[1]:scan=3525 | ms_run[1]:scan=3573 | ms_run[1]:scan=3616	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0232004
+SME	32	261	CID:null	C13H20O4	null	null	null	null	null	[M-H]-	239.128884	-1	239.128334094	ms_run[1]:scan=1879	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0239001
+SME	33	266	CID:null	C13H25NO3	null	null	null	null	null	[M-H]-	242.176313	-1	242.175618639	ms_run[1]:scan=1579	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0242000
+SME	34	269	CID:null	C14H21NO3	null	null	null	null	null	[M-H]-	250.144917	-1	250.144318511	ms_run[1]:scan=2411 | ms_run[1]:scan=2454 | ms_run[1]:scan=2495 | ms_run[1]:scan=2537	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0250000
+SME	35	270	CID:null	C13H20O2	null	null	null	null	null	[M+FA-H]-	253.144662	-1	253.143984158	ms_run[1]:scan=1747	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0253000
+SME	36	271	CID:null	C3H4N2O6S3	null	null	null	null	null	[M-H]-	258.91588	-1	258.915323843	ms_run[1]:scan=79	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0259001
+SME	37	273	CID:null	C12H26O4S	null	null	null	null	null	[M-H]-	265.147949	-1	265.147355285	ms_run[1]:scan=2544 | ms_run[1]:scan=2583 | ms_run[1]:scan=2503 | ms_run[1]:scan=2622	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0265000
+SME	38	274	CID:null	C16H32O3	null	null	null	null	null	[M-H]-	271.227896	-1	271.227319855	ms_run[1]:scan=2664 | ms_run[1]:scan=2704	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0271001
+SME	39	276	CID:null	C14H28O3S	null	null	null	null	null	[M-H]-	275.168747	-1	275.168090727	ms_run[1]:scan=2815	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0275000
+SME	40	277	CID:null	C9H8O3	null	null	null	null	null	[M+TFA-H]-	277.032971	-1	182.037922089	ms_run[1]:scan=1379	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	21	0.0048018	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0277000
+SME	41	278	CID:20393	C16H22O4	CCCCC(CC)COC(=O)C1=CC=CC=C1C(=O)O	InChI=1S/C16H22O4/c1-3-5-8-12(4-2)11-20-16(19)14-10-7-6-9-13(14)15(17)18/h6-7,9-10,12H,3-5,8,11H2,1-2H3,(H,17,18)	Monoethylhexyl phthalic acid	https://hmdb.ca/metabolites/HMDB0013248	null	[M-H]-	277.144452	-1	277.143984158	ms_run[1]:scan=2075	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	1	1	1	4	0.0116805	0.929	1	MSBNK-SMB_Measured-HSA061P0277001
+SME	42	279	CID:null	C14H30O4S	null	null	null	null	null	[M-H]-	293.179335	-1	293.178655413	ms_run[1]:scan=3306 | ms_run[1]:scan=3347 | ms_run[1]:scan=3275	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0293000
+SME	43	280	CID:3473	C17H26O4	CCCCCC(CC(=O)CCC1=CC(=C(C=C1)O)OC)O	InChI=1S/C17H26O4/c1-3-4-5-6-14(18)12-15(19)9-7-13-8-10-16(20)17(11-13)21-2/h8,10-11,14,18,20H,3-7,9,12H2,1-2H3	Gingerol	https://hmdb.ca/metabolites/HMDB0005783	null	[M-H]-	293.175917	-1	293.175284285	ms_run[1]:scan=1783	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	1	1	93	1	0.012	0.817	1	MSBNK-SMB_Measured-HSA061P0293001
+SME	44	281	CID:null	C17H26O4	null	null	null	null	null	[M-H]-	293.175795	-1	293.175284285	ms_run[1]:scan=1891 | ms_run[1]:scan=1935	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0293003
+SME	45	284	CID:null	C15H30OS	null	null	null	null	null	[M+FA-H]-	303.199884	-1	303.199390855	ms_run[1]:scan=1853 | ms_run[1]:scan=1938 | ms_run[1]:scan=1895 | ms_run[1]:scan=1810 | ms_run[1]:scan=1767 | ms_run[1]:scan=1983 | ms_run[1]:scan=2027 | ms_run[1]:scan=1723 | ms_run[1]:scan=2071 | ms_run[1]:scan=2114	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0303000
+SME	46	285	CID:null	C15H30OS	null	null	null	null	null	[M+FA-H]-	303.199892	-1	303.199390855	ms_run[1]:scan=2158 | ms_run[1]:scan=2223	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0303002
+SME	47	296	CID:null	C18H14O8	null	null	null	null	null	[M-H]-	357.061563	-1	357.061042391	ms_run[1]:scan=1587	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0357000
+SME	48	299	CID:null	C14H21NO9	null	null	null	null	null	[M+FA-H]-	392.120026	-1	392.119285551	ms_run[1]:scan=1255 | ms_run[1]:scan=1179	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0392000
+SME	49	300	CID:null	C20H18O9	null	null	null	null	null	[M-H]-	401.087952	-1	401.08725714	ms_run[1]:scan=1591	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0401000
+SME	50	301	CID:null	C17H25NO12	null	null	null	null	null	[M-H]-	434.130463	-1	434.129850237	ms_run[1]:scan=1302 | ms_run[1]:scan=1259	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	2	1	0.0077932	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0434000
+SME	51	302	CID:null	C21H44NO7P	null	null	null	null	null	[M-H]-	452.278259	-1	452.277712733	ms_run[1]:scan=2130	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0452000
+SME	52	304	CID:null	C23H46NO7P	null	null	null	null	null	[M-H]-	478.293793	-1	478.293362797	ms_run[1]:scan=2007 | ms_run[1]:scan=2049	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0478000
+SME	53	305	CID:null	C25H44NO7P	null	null	null	null	null	[M-H]-	500.278259	-1	500.277712733	ms_run[1]:scan=1667	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0500000
+SME	54	306	CID:null	C25H46NO7P	null	null	null	null	null	[M-H]-	502.293976	-1	502.293362797	ms_run[1]:scan=1982 | ms_run[1]:scan=1894 | ms_run[1]:scan=1939 | ms_run[1]:scan=2070 | ms_run[1]:scan=1850 | ms_run[1]:scan=2026 | ms_run[1]:scan=1795 | ms_run[1]:scan=2155	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0502000
+SME	55	308	CID:null	C27H50NO7P	null	null	null	null	null	[M-H]-	530.325073	-1	530.324662924	ms_run[1]:scan=2215 | ms_run[1]:scan=2259 | ms_run[1]:scan=2302 | ms_run[1]:scan=2127 | ms_run[1]:scan=2031 | ms_run[1]:scan=2171 | ms_run[1]:scan=1962 | ms_run[1]:scan=2083 | ms_run[1]:scan=2347 | ms_run[1]:scan=2391	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0530000
+SME	56	310	CID:null	C24H50NO7P	null	null	null	null	null	[M+FA-H]-	540.330566	-1	540.330142232	ms_run[1]:scan=2135	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0540000
+SME	57	312	CID:null	C41H78NO8P	null	null	null	null	null	[M-H]-	742.538808	-1	742.53867844	ms_run[1]:scan=2977 | ms_run[1]:scan=3009 | ms_run[1]:scan=3038 | ms_run[1]:scan=2950 | ms_run[1]:scan=2887 | ms_run[1]:scan=2920 | ms_run[1]:scan=3091 | ms_run[1]:scan=2854 | ms_run[1]:scan=3116 | ms_run[1]:scan=3139 | ms_run[1]:scan=3165 | ms_run[1]:scan=3208	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0742000
+SME	58	313	CID:null	C41H78NO8P	null	null	null	null	null	[M-H]-	742.538991	-1	742.53867844	ms_run[1]:scan=2243	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0742001
+SME	59	314	CID:null	C41H78NO8P	null	null	null	null	null	[M-H]-	742.538991	-1	742.53867844	ms_run[1]:scan=2199	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0742002
+SME	60	315	CID:null	C41H78NO8P	null	null	null	null	null	[M-H]-	742.53893	-1	742.53867844	ms_run[1]:scan=3357 | ms_run[1]:scan=3065 | ms_run[1]:scan=3318	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0742003
+SME	61	316	CID:null	C40H77O10P	null	null	null	null	null	[M-H]-	747.517868	-1	747.517608644	ms_run[1]:scan=2307 | ms_run[1]:scan=2079 | ms_run[1]:scan=1991 | ms_run[1]:scan=1722 | ms_run[1]:scan=1947 | ms_run[1]:scan=1787 | ms_run[1]:scan=2167 | ms_run[1]:scan=2351 | ms_run[1]:scan=2433 | ms_run[1]:scan=2475 | ms_run[1]:scan=2514 | ms_run[1]:scan=1678 | ms_run[1]:scan=2123 | ms_run[1]:scan=2263 | ms_run[1]:scan=2393 | ms_run[1]:scan=1903 | ms_run[1]:scan=1858 | ms_run[1]:scan=2211 | ms_run[1]:scan=2035	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0747000
+SME	62	320	CID:null	C40H77O10P	null	null	null	null	null	[M-H]-	747.517563	-1	747.517608644	ms_run[1]:scan=2911	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0747005
+SME	63	325	CID:null	C43H78NO8P	null	null	null	null	null	[M-H]-	766.539272	-1	766.53867844	ms_run[1]:scan=2494 | ms_run[1]:scan=2576 | ms_run[1]:scan=2455 | ms_run[1]:scan=2740 | ms_run[1]:scan=2414 | ms_run[1]:scan=2533 | ms_run[1]:scan=2290 | ms_run[1]:scan=2334 | ms_run[1]:scan=2374 | ms_run[1]:scan=2246	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0766000
+SME	64	326	CID:null	C43H78NO8P	null	null	null	null	null	[M-H]-	766.539455	-1	766.53867844	ms_run[1]:scan=2202 | ms_run[1]:scan=2159	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0766001
+SME	65	327	CID:null	C43H78NO8P	null	null	null	null	null	[M-H]-	766.538761	-1	766.53867844	ms_run[1]:scan=2618 | ms_run[1]:scan=2700 | ms_run[1]:scan=2659 | ms_run[1]:scan=2818 | ms_run[1]:scan=2853 | ms_run[1]:scan=2779 | ms_run[1]:scan=2921	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0766002
+SME	66	328	CID:null	C43H78NO8P	null	null	null	null	null	[M-H]-	766.53873	-1	766.53867844	ms_run[1]:scan=2886	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0766003
+SME	67	335	CID:null	C42H80NO10P	null	null	null	null	null	[M-H]-	788.544292	-1	788.544157747	ms_run[1]:scan=1599 | ms_run[1]:scan=1535	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0788000
+SME	68	336	CID:null	C42H84NO7P	null	null	null	null	null	[M+FA-H]-	790.596194	-1	790.596193317	ms_run[1]:scan=2479 | ms_run[1]:scan=2556 | ms_run[1]:scan=2419	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0790000
+SME	69	339	CID:null	C42H80NO8P	null	null	null	null	null	[M+FA-H]-	802.559927	-1	802.559807811	ms_run[1]:scan=2019 | ms_run[1]:scan=2106 | ms_run[1]:scan=1975 | ms_run[1]:scan=2062 | ms_run[1]:scan=2150 | ms_run[1]:scan=2238 | ms_run[1]:scan=2194 | ms_run[1]:scan=2281 | ms_run[1]:scan=2321 | ms_run[1]:scan=2361 | ms_run[1]:scan=2401 | ms_run[1]:scan=2441 | ms_run[1]:scan=2481	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	4	0.0031886	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0802000
+SME	70	340	CID:null	C42H80NO8P	null	null	null	null	null	[M+FA-H]-	802.559927	-1	802.559807811	ms_run[1]:scan=2521 | ms_run[1]:scan=2559 | ms_run[1]:scan=2598	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	4	0.0031886	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0802001
+SME	71	341	CID:null	C42H80NO8P	null	null	null	null	null	[M+FA-H]-	802.559988	-1	802.559807811	ms_run[1]:scan=1931 | ms_run[1]:scan=1843 | ms_run[1]:scan=1886 | ms_run[1]:scan=1771 | ms_run[1]:scan=1718 | ms_run[1]:scan=1675	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	3	0.0027564	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0802002
+SME	72	343	CID:null	C42H82NO8P	null	null	null	null	null	[M+FA-H]-	804.575367	-1	804.575457875	ms_run[1]:scan=1753 | ms_run[1]:scan=2197 | ms_run[1]:scan=2517 | ms_run[1]:scan=2437 | ms_run[1]:scan=2277 | ms_run[1]:scan=2037 | ms_run[1]:scan=1917 | ms_run[1]:scan=2397 | ms_run[1]:scan=2077 | ms_run[1]:scan=1670 | ms_run[1]:scan=2477 | ms_run[1]:scan=2117 | ms_run[1]:scan=2157 | ms_run[1]:scan=2317 | ms_run[1]:scan=2594 | ms_run[1]:scan=2554 | ms_run[1]:scan=2237 | ms_run[1]:scan=1794 | ms_run[1]:scan=1713 | ms_run[1]:scan=1626 | ms_run[1]:scan=2633 | ms_run[1]:scan=1957 | ms_run[1]:scan=2357 | ms_run[1]:scan=1997 | ms_run[1]:scan=1877 | ms_run[1]:scan=1837 | ms_run[1]:scan=1583	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0804000
+SME	73	344	CID:null	C42H82NO8P	null	null	null	null	null	[M+FA-H]-	804.575367	-1	804.575457875	ms_run[1]:scan=2910 | ms_run[1]:scan=2996 | ms_run[1]:scan=2845 | ms_run[1]:scan=2777 | ms_run[1]:scan=2742 | ms_run[1]:scan=2707 | ms_run[1]:scan=2813 | ms_run[1]:scan=2670 | ms_run[1]:scan=2879 | ms_run[1]:scan=3023 | ms_run[1]:scan=2939 | ms_run[1]:scan=2965	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0804001
+SME	74	346	CID:null	C44H84NO8P	null	null	null	null	null	[M+FA-H]-	830.591149	-1	830.591107939	ms_run[1]:scan=1838 | ms_run[1]:scan=1926 | ms_run[1]:scan=2189 | ms_run[1]:scan=1666 | ms_run[1]:scan=2146 | ms_run[1]:scan=1710 | ms_run[1]:scan=1797 | ms_run[1]:scan=2550 | ms_run[1]:scan=1754 | ms_run[1]:scan=2510 | ms_run[1]:scan=1882 | ms_run[1]:scan=2014 | ms_run[1]:scan=1970 | ms_run[1]:scan=2229 | ms_run[1]:scan=2349 | ms_run[1]:scan=2590 | ms_run[1]:scan=2430 | ms_run[1]:scan=2389 | ms_run[1]:scan=1623 | ms_run[1]:scan=2102 | ms_run[1]:scan=2309 | ms_run[1]:scan=2058 | ms_run[1]:scan=2470 | ms_run[1]:scan=2269	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0830000
+SME	75	347	CID:null	C44H84NO8P	null	null	null	null	null	[M+FA-H]-	830.591027	-1	830.591107939	ms_run[1]:scan=2944 | ms_run[1]:scan=3027 | ms_run[1]:scan=2914 | ms_run[1]:scan=2703 | ms_run[1]:scan=2849 | ms_run[1]:scan=2739 | ms_run[1]:scan=2666 | ms_run[1]:scan=2814 | ms_run[1]:scan=2775 | ms_run[1]:scan=2629 | ms_run[1]:scan=2883	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	18	0.0045367	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0830001
+SME	76	351	CID:null	C47H83O13P	null	null	null	null	null	[M-H]-	885.549102	-1	885.549302702	ms_run[1]:scan=1699 | ms_run[1]:scan=1923 | ms_run[1]:scan=1499 | ms_run[1]:scan=1999	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	2	0.0004191	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0885000
+SME	77	352	CID:null	C47H83O13P	null	null	null	null	null	[M-H]-	885.54898	-1	885.549302702	ms_run[1]:scan=3384 | ms_run[1]:scan=3343	[, , ShinMassBank reanalysis pipeline, ]	[MS, MS:1000511, ms level, 2]	1	1	0.0003605	null	null	null	null	null	null	1	MSBNK-SMB_Measured-HSA061P0885001
